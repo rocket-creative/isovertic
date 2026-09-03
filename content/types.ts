@@ -7,6 +7,7 @@ export type Page = {
   eyebrow: string;
   h1: string;
   lead: string;
+  callout?: { label: string; body: string };
   sections: Block[];
   faqs: FAQ[];
   related: { label: string; href: string }[];

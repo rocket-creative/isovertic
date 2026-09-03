@@ -8,7 +8,8 @@ const stations = [
   { k: "RUN", label: "Google Ads to a cost per meeting", href: "/google-ads" },
   { k: "BUY", label: "Media including streaming and TV", href: "/tv-ctv-advertising" },
   { k: "BOOK", label: "Outbound meetings on your calendar", href: "/outbound-appointment-setting" },
-];
+  { k: "CLOSE", label: "Yours. The only step we do not take." },
+] as const;
 
 export function PipelineDiagram() {
   const ref = useRef<HTMLDivElement>(null);
@@ -30,6 +31,8 @@ export function PipelineDiagram() {
     return () => io.disconnect();
   }, []);
 
+  const n = stations.length;
+
   return (
     <div ref={ref}>
       {/* Waterline */}
@@ -41,35 +44,46 @@ export function PipelineDiagram() {
             style={{ transition: "stroke-dashoffset 1600ms cubic-bezier(0.16,1,0.3,1)" }}
           />
           {stations.map((_, i) => (
-            <rect key={i} x={100 + i * 200 - 3} y="20" width="6" height="16" fill="#6B1C28"
+            <rect key={i} x={1000 / (n + 1) * (i + 1) - 3} y="20" width="6" height="16" fill="#6B1C28"
               opacity={on ? 1 : 0}
               style={{ transition: `opacity 400ms ease ${500 + i * 180}ms` }}
             />
           ))}
         </svg>
       </div>
-      <ol className="grid gap-px bg-rule sm:grid-cols-2 lg:grid-cols-5">
-        {stations.map((s, i) => (
-          <li key={s.k} className="bg-background">
-            <Link
-              href={s.href}
-              className="group block h-full p-6 transition-colors duration-300 hover:bg-navy hover:text-paper"
-              style={{
-                opacity: on ? 1 : undefined,
-                transform: on ? "none" : undefined,
-                transitionDelay: `${i * 90}ms`,
-              }}
-            >
+      <ol className="grid gap-px bg-rule sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
+        {stations.map((s, i) => {
+          const inner = (
+            <>
               <span className="eyebrow block group-hover:!text-paper/60">0{i + 1}</span>
               <span className="mt-3 block font-display text-[22px] font-semibold tracking-wide">{s.k}</span>
               <span className="mt-2 block text-[13.5px] leading-snug text-ink-soft group-hover:text-paper/80">{s.label}</span>
-            </Link>
-          </li>
-        ))}
+            </>
+          );
+          const style = {
+            opacity: on ? 1 : undefined,
+            transform: on ? "none" : undefined,
+            transitionDelay: `${i * 90}ms`,
+          } as const;
+          return (
+            <li key={s.k} className="bg-background">
+              {"href" in s && s.href ? (
+                <Link
+                  href={s.href}
+                  className="group block h-full p-6 transition-colors duration-300 hover:bg-navy hover:text-paper"
+                  style={style}
+                >
+                  {inner}
+                </Link>
+              ) : (
+                <div className="group block h-full p-6" style={style}>
+                  {inner}
+                </div>
+              )}
+            </li>
+          );
+        })}
       </ol>
-      <p className="mt-8 font-display text-h3 font-medium">
-        Then the only step left is yours. <span className="text-signal">Close.</span>
-      </p>
     </div>
   );
 }

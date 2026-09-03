@@ -4,6 +4,21 @@ import { usePathname } from "next/navigation";
 import { submitLead, type LeadState } from "@/app/contact/actions";
 import { Arrow } from "@/components/ui/Arrow";
 
+const tiers = [
+  { value: "", label: "Not sure yet" },
+  { value: "Baseline", label: "Baseline, $2,500" },
+  { value: "Catalyst", label: "Catalyst, $5,000" },
+  { value: "Kinetic", label: "Kinetic, $10,000" },
+  { value: "Critical Mass", label: "Critical Mass, from $25,000" },
+  { value: "Protocol", label: "Protocol, team training" },
+];
+
+const clinicalOptions = [
+  { value: "", label: "Not sure" },
+  { value: "Yes", label: "Yes" },
+  { value: "No", label: "No" },
+];
+
 export function LeadForm() {
   const [state, action, pending] = useActionState<LeadState, FormData>(submitLead, null);
   const pathname = usePathname();
@@ -40,7 +55,23 @@ export function LeadForm() {
           <input id="company" name="company" type="text" autoComplete="organization" className={field} style={{ fontSize: 16 }} />
         </div>
         <div>
-          <label htmlFor="message" className={label}>Where does your pipeline break?</label>
+          <label htmlFor="tier" className={label}>Which tier are you looking at?</label>
+          <select id="tier" name="tier" className={`${field} appearance-none`} defaultValue="" style={{ fontSize: 16 }}>
+            {tiers.map((t) => (
+              <option key={t.label} value={t.value}>{t.label}</option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label htmlFor="clinical_claims" className={label}>Does your content make clinical, safety, or efficacy claims?</label>
+          <select id="clinical_claims" name="clinical_claims" className={`${field} appearance-none`} defaultValue="" style={{ fontSize: 16 }}>
+            {clinicalOptions.map((o) => (
+              <option key={o.label} value={o.value}>{o.label}</option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label htmlFor="message" className={label}>What number are you trying to move?</label>
           <textarea id="message" name="message" rows={3} className={field} style={{ fontSize: 16 }} />
         </div>
       </div>
@@ -48,7 +79,7 @@ export function LeadForm() {
         <p role="alert" className="mt-6 border border-navy/30 bg-navy/5 p-4 text-[14px]">{state.error}</p>
       )}
       <button type="submit" disabled={pending} className="btn btn-solid mt-10 disabled:opacity-60">
-        {pending ? "Sending" : "Request the call"} <Arrow />
+        {pending ? "Sending" : "Book the call"} <Arrow />
       </button>
     </form>
   );

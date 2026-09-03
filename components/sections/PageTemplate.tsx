@@ -21,6 +21,13 @@ export function PageTemplate({ page, basePath, crumbRoot }: { page: Page; basePa
         ]}
       />
       <PageHero eyebrow={page.eyebrow} h1={page.h1} lead={page.lead} />
+      {page.callout && (
+        <Section label={page.callout.label} deferred={false}>
+          <RevealBlock>
+            <p className="max-w-[62ch] leading-relaxed text-ink/90">{page.callout.body}</p>
+          </RevealBlock>
+        </Section>
+      )}
       <Section label={page.eyebrow}>
         <div className="max-w-[72ch] space-y-16">
           {page.sections.map((s, i) => (

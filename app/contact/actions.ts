@@ -9,7 +9,9 @@ export async function submitLead(_prev: LeadState, formData: FormData): Promise<
   const name = String(formData.get("name") || "").trim();
   const email = String(formData.get("email") || "").trim();
   const company = String(formData.get("company") || "").trim();
-  const message = String(formData.get("message") || "").trim();
+  const tier = String(formData.get("tier") || "").trim();
+  const clinicalClaims = String(formData.get("clinical_claims") || "").trim();
+  const messageRaw = String(formData.get("message") || "").trim();
   const sourcePath = String(formData.get("source_path") || "/contact");
   const honey = String(formData.get("website") || ""); // honeypot
 
@@ -17,6 +19,13 @@ export async function submitLead(_prev: LeadState, formData: FormData): Promise<
   if (!name || !email || !/.+@.+\..+/.test(email)) {
     return { ok: false, error: "A name and a working email are required." };
   }
+
+  const messageParts = [
+    messageRaw ? `Number to move:\n${messageRaw}` : "",
+    `Tier: ${tier || "Not sure yet"}`,
+    `Clinical claims: ${clinicalClaims || "Not sure"}`,
+  ].filter(Boolean);
+  const message = messageParts.join("\n\n");
 
   const errors: string[] = [];
 
@@ -47,7 +56,7 @@ export async function submitLead(_prev: LeadState, formData: FormData): Promise<
         to,
         replyTo: email,
         subject: `Pipeline call request: ${name}${company ? ` (${company})` : ""}`,
-        text: `Name: ${name}\nEmail: ${email}\nCompany: ${company}\nFrom page: ${sourcePath}\n\nWhere their pipeline breaks:\n${message}`,
+        text: `Name: ${name}\nEmail: ${email}\nCompany: ${company}\nTier: ${tier || "Not sure yet"}\nClinical claims: ${clinicalClaims || "Not sure"}\nFrom page: ${sourcePath}\n\nWhat number are they trying to move:\n${messageRaw || "(blank)"}`,
       });
     } catch (e) {
       errors.push(`resend: ${(e as Error).message}`);

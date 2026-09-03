@@ -12,6 +12,7 @@ const cols = [
       ["Web development", "/web-development"],
       ["TV and CTV", "/tv-ctv-advertising"],
       ["Brand and design", "/design-brand"],
+      ["Protocol (team training)", "/protocol"],
     ],
   },
   {
@@ -19,6 +20,7 @@ const cols = [
     items: [
       ["Healthcare", "/industries/healthcare"],
       ["Biotech", "/industries/biotech"],
+      ["Startups", "/industries/startups"],
       ["Professional services", "/industries/professional-services"],
       ["Home services", "/industries/home-services"],
       ["Hospitality", "/industries/hospitality"],

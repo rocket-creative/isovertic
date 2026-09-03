@@ -7,7 +7,7 @@ import { getArticles } from "@/lib/articles";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  const core = ["", "/how-it-works", "/pricing", "/about", "/results", "/contact", "/long-island", "/field-notes"];
+  const core = ["", "/how-it-works", "/pricing", "/protocol", "/about", "/results", "/contact", "/long-island", "/field-notes"];
   const urls: MetadataRoute.Sitemap = core.map((p) => ({
     url: `${site.url}${p}`,
     lastModified: now,

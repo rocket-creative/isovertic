@@ -8,6 +8,10 @@ export const industries: Page[] = [
     eyebrow: "Healthcare",
     h1: "Patient pipeline for practices that compete on more than insurance lists.",
     lead: "Healthcare marketing fails in two directions: agencies that understand ads but not compliance, and compliance minded vendors that cannot generate demand. We have shipped both sides together: service line architectures, compliant intake, certified ad accounts, and the content patients actually search before they book.",
+    callout: {
+      label: "Typical starting point",
+      body: "Catalyst with the HIPAA form and call stack add on, so every form and every recorded call is BAA covered before the first ad runs. Practices ready for outbound to referring physicians move to Kinetic. Pricing is published.",
+    },
     sections: [
       { h2: "Built inside the rules", body: [
         "HIPAA aware intake flows, privacy policies and notices drafted for real review, compliant email infrastructure for form handling, and ad accounts navigated through certification requirements including LegitScript scoped programs. We have untangled certification issues that stall most agencies for months.",
@@ -38,6 +42,10 @@ export const industries: Page[] = [
     eyebrow: "Life sciences",
     h1: "Scientific authority, engineered for demand.",
     lead: "Life science buyers are the hardest audience on the internet: technical, skeptical, and allergic to marketing voice. We have built for them at scale, including a content system of more than 100 SEO optimized pages across a 147 page sitemap for a mouse model service provider, plus an editorial researcher series engineered for backlinks from institutions.",
+    callout: {
+      label: "Typical starting point",
+      body: "Baseline or Catalyst with the MLR review gate, which routes every claim through a reviewer you name with an MD or PhD before it publishes. Labs selling to researchers add programmatic page expansion, 50 entity pages at a time. Pricing is published.",
+    },
     sections: [
       { h2: "Content with technical spine", body: [
         "Pages written to the standard of readers with doctorates, structured for the long tail queries researchers actually type, from model generation methods to application areas.",
@@ -62,12 +70,47 @@ export const industries: Page[] = [
     ],
   },
   {
+    slug: "startups",
+    title: "Pipeline for Startups Before the Sales Hire | ISOVERTIC",
+    metaDescription: "Marketing and outbound for seed and Series A startups. Published pricing, a 90 day ramp, and meetings before you hire an SDR.",
+    eyebrow: "Startups",
+    h1: "A pipeline before the sales hire.",
+    lead: "You have a product, a runway, and a board that wants to see the top of the funnel move before it funds the bottom. ISOVERTIC runs the marketing and, when you are ready, the outbound, at a price that fits a seed or Series A budget and is published so you can put it in the model.",
+    callout: {
+      label: "Typical starting point",
+      body: "Baseline if you publish nothing yet and need the site to say something before the next raise. Catalyst when there is budget for paid demand and a landing page per audience. Kinetic when the board wants meetings, not traffic, and you would rather rent a seat than hire an SDR who ramps for four months and leaves in fourteen. Pricing is published.",
+    },
+    sections: [
+      { h2: "What founders get that a freelancer cannot give them", body: [
+        "One team across the site, the content, the ads, and the calls, so the objection heard on a Tuesday call is in the ad copy by Friday.",
+        "A 90 day ramp with deliverables you can paste into a board update. A website build included with a 12 month term, on a stack your first engineering hire will not want to rip out.",
+      ]},
+      { h2: "The tier that matches the stage", body: [
+        "Pre revenue, Baseline: a newsletter, a blog post, and social every month so the company has a voice before it has a sales team. Seed with a budget for demand, Catalyst: one Google Ads campaign and a landing page per audience, with a human reading the account weekly. Series A with a board asking for pipeline, Kinetic: an outbound seat with a meeting number in writing, multiple campaigns, and a weekly call.",
+      ]},
+    ],
+    faqs: [
+      { q: "Do we need a marketing hire first?", a: "No. Kinetic replaces the first two." },
+      { q: "Can we pause between raises?", a: "Yes. Month to month after the ramp, unless you took a term for the website." },
+      { q: "Do you work with pre revenue companies?", a: "Yes, on Baseline and Catalyst. Kinetic needs a closer on your side, because we book the meeting and you take it." },
+    ],
+    related: [
+      { label: "Pricing", href: "/pricing" },
+      { label: "Appointment setting", href: "/outbound-appointment-setting" },
+      { label: "Web development", href: "/web-development" },
+    ],
+  },
+  {
     slug: "professional-services",
     title: "Pipeline for Professional Services Firms | ISOVERTIC",
     metaDescription: "Lead generation and growth for consultancies, law firms, accounting firms, and agencies. Founder led positioning, content, and outbound.",
     eyebrow: "Professional services",
     h1: "Firms sell trust. We manufacture the evidence.",
     lead: "Professional services buyers hire people, not brochures. The firms winning in 2026 run founder forward content, publish real expertise, and back it with outbound that opens doors warmly because the diligence trail already exists. We build that whole trail.",
+    callout: {
+      label: "Typical starting point",
+      body: "Kinetic. Your buyer decides on a call, so the outbound seat and the meeting number in writing are the reason to hire us. Pricing is published.",
+    },
     sections: [
       { h2: "Founder led demand", body: [
         "Positioning, ghostwritten field notes in the principal's voice, and a LinkedIn cadence built on the formats that earn reach now. Personal profiles dramatically outperform company pages in B2B, and we build the system around that fact.",
@@ -98,6 +141,10 @@ export const industries: Page[] = [
     eyebrow: "Home services",
     h1: "Own your service area like the biggest player in it.",
     lead: "The lead generation industry treats trades like a commodity: shared leads, bought lists, junior account managers. We treat a $5M contractor like a brand, because in a local market, you can be one. Local search dominance, ads run to cost per booked job, streaming TV in your zip codes, and commercial outbound for the B2B side of the book.",
+    callout: {
+      label: "Typical starting point",
+      body: "Catalyst. One Google Ads campaign to a cost per booked job, one landing page, and lead follow up within a business day. Pricing is published.",
+    },
     sections: [
       { h2: "The local machine", body: [
         "Google Business Profile discipline, local service pages per town and service, review velocity, and search ads with the negatives maintained weekly. Boring, compounding, decisive.",
@@ -128,6 +175,10 @@ export const industries: Page[] = [
     eyebrow: "Hospitality",
     h1: "Fill the calendar. The venue kind and the sales kind.",
     lead: "Hospitality marketing is usually pretty pictures with no pipeline behind them. We come from the operating side: venue management, wedding markets, event sales. We know the booking is won in the follow up sequence, the tour conversion, and the season pacing, not just the Instagram grid.",
+    callout: {
+      label: "Typical starting point",
+      body: "Catalyst, with the production day add on for the visuals that sell a venue. Venues running events at scale move to Kinetic for outbound to planners. Pricing is published.",
+    },
     sections: [
       { h2: "Demand by season", body: [
         "Search and social calibrated to booking windows, with offers built for shoulder season instead of discount panic.",

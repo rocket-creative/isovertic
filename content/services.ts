@@ -8,6 +8,10 @@ export const services: Page[] = [
     eyebrow: "Outbound",
     h1: "Appointment setting that lands on your calendar, not in a report.",
     lead: "Your sales team should spend its time in sales conversations. Ours makes sure it does. ISOVERTIC runs the entire outbound motion: list building from real data sources, multichannel sequences across email, phone, and LinkedIn, qualification against your ideal customer profile, and confirmed meetings booked directly on your calendar with context attached.",
+    callout: {
+      label: "Where this lives",
+      body: "Kinetic includes one outbound seat with a meeting number in writing. Critical Mass runs two. Catalyst can add a seat for $4,500 a month. A conference sprint that books meetings before and at one trade show is $7,500 per event. Pricing is published.",
+    },
     sections: [
       { h2: "Why most appointment setting fails before the first call", body: [
         "The list is bought, not built. The message is generic because the vendor has never seen your website or your offer. The meeting gets booked into a brand the prospect cannot verify, so half of them ghost. Converting a typical B2B prospect takes five or more follow up attempts, and no show rates above 30 percent are common when nobody runs confirmation sequences. The industry treats these as facts of life. They are symptoms of outbound run in isolation.",
@@ -41,6 +45,10 @@ export const services: Page[] = [
     eyebrow: "Paid search",
     h1: "Google Ads measured in meetings, not clicks.",
     lead: "Most ad accounts are graded on metrics that cannot pay your bills. We run Google Ads as one stage of a pipeline that ends in a booked sales conversation, which changes every decision upstream: keyword intent over volume, landing pages we build ourselves, and budgets steered by cost per qualified meeting.",
+    callout: {
+      label: "Where this lives",
+      body: "Catalyst runs one campaign, built and read weekly. Kinetic runs multiple campaigns with A/B testing and multiple landing pages. A second product line is $1,000 a month as an add on. Pricing is published.",
+    },
     sections: [
       { h2: "What senior management actually looks like", body: [
         "Search campaigns built on buyer intent keyword maps, not keyword dumps. Negative lists maintained weekly. Landing pages designed and shipped by our own development team, so the page matches the ad and the ad matches the offer. Conversion tracking wired to meetings booked, with offline conversion import when deals close. Monthly reporting a founder can read in two minutes.",
@@ -71,6 +79,10 @@ export const services: Page[] = [
     eyebrow: "Search and content",
     h1: "Be the answer. In Google, and in the AI engines sitting in front of it.",
     lead: "Ranking is no longer the finish line. Your buyers ask ChatGPT, Perplexity, and Google's AI Overviews before they ever see a blue link, and those systems cite sites with server rendered content, entity schema, and structured answers. We build content systems that win both layers at once.",
+    callout: {
+      label: "Where this lives",
+      body: "Every tier, starting with Baseline at $2,500 a month for a newsletter, a blog post, and eight social posts. Catalyst doubles the social. Kinetic adds the full content system and a YouTube channel. Add the MLR review gate if your content makes clinical claims. Pricing is published.",
+    },
     sections: [
       { h2: "Systems, not posts", body: [
         "A blog is not a strategy. We build hub and spoke architectures where every commercial intent gets its own page, every page carries structured answers, and every article feeds a service spoke. For one life science client we built and shipped more than 100 SEO optimized pages across a 147 page sitemap, plus an editorial series engineered for backlink acquisition. That is what a content system looks like.",
@@ -101,6 +113,10 @@ export const services: Page[] = [
     eyebrow: "Build",
     h1: "Your website is the asset every dollar flows through. We build it like one.",
     lead: "Every ad click, every cold email reply, every referral ends up on your website doing diligence. If the site is slow, vague, or invisible to AI search, everything upstream gets more expensive. We design and build sites that close the loop: fast, server rendered, schema complete, and written to convert the traffic the rest of the system creates.",
+    callout: {
+      label: "Where this lives",
+      body: "Landing pages are built inside the ramp on Catalyst and Kinetic. The full website build on our stack comes with a 6 or 12 month term on any tier, or $15,000 up front. You own the code and the domain either way. Pricing is published.",
+    },
     sections: [
       { h2: "The stack, stated plainly", body: [
         "Next.js App Router. TypeScript strict. Tailwind. Vercel. Supabase where data is needed. Server rendered output on every route, verified by the simplest test there is: request the page without JavaScript and read the copy. Most agency sites fail that test. Ours do not, and in an era where AI crawlers decide who gets cited, that is not a technical detail. It is distribution.",
@@ -131,6 +147,10 @@ export const services: Page[] = [
     eyebrow: "Media",
     h1: "TV is no longer above your pay grade.",
     lead: "The enterprise agencies that buy television serve enterprise budgets, so most growing companies never even price the channel. That is the opportunity. Streaming TV inventory can be bought with precision and tested with budgets in the low five figures, and a local or category audience seeing your brand on the biggest screen in the house changes how every cold email and search ad performs afterward.",
+    callout: {
+      label: "Where this lives",
+      body: "Critical Mass, with a $25,000 monthly media minimum spent in your own accounts and an exposed versus control measurement plan in the agreement. Pricing is published.",
+    },
     sections: [
       { h2: "What we buy", body: [
         "Connected and streaming TV across the major platforms with audience and geographic targeting, broadcast and cable where local density makes it efficient, and audio where the buyer commutes. Buys are planned against the same ideal customer profile that drives your outbound lists, because it is one pipeline.",
@@ -164,6 +184,10 @@ export const services: Page[] = [
     eyebrow: "Brand",
     h1: "Look like the firm they should have called first.",
     lead: "Buyers decide who is senior in about three seconds, and they decide it visually. We design identities and interfaces with editorial restraint: confident type, structural layout, real photography, nothing decorative. The work signals authority quietly, which is the only way authority can be signaled.",
+    callout: {
+      label: "Where this lives",
+      body: "A video and photography production day is $4,500 as an add on at any tier, included quarterly on Kinetic, and creative production is in house on Critical Mass. Pricing is published.",
+    },
     sections: [
       { h2: "Brand in service of pipeline", body: [
         "This is not branding for award shows. Every identity we build has to survive contact with a cold email, a landing page, a TV spot, and a sales deck, because we build all four. Coherence across those surfaces is what makes a $5M company read like a $50M one.",
