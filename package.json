@@ -1,0 +1,32 @@
+{
+  "name": "isovertic",
+  "version": "1.0.0",
+  "private": true,
+  "author": "George Stoff <georgestoff@rocketcreative.net>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rocket-creative/isovertic.git"
+  },
+  "homepage": "https://github.com/rocket-creative/isovertic",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint:copy": "node scripts/copy-lint.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "next": "^15.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "resend": "^4.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.6.0"
+  }
+}

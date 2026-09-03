@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 140" width="160" height="140">
+  <title>ISOVERTIC mark on navy</title>
+  <rect width="160" height="140" fill="#0F2C3F"/>
+  <g transform="translate(44,44)">
+    <circle cx="16" cy="40" r="10" fill="#F5F4F0"/>
+    <rect x="14" y="24" width="50" height="8" fill="#B8B4AE" transform="rotate(-30 14 28)"/>
+  </g>
+</svg>
