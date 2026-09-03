@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { LogoMark } from "@/components/ui/Logo";
+import { BrandLogo } from "@/components/ui/Logo";
 import { site } from "@/lib/site";
 
 const cols = [
@@ -44,10 +44,9 @@ export function Footer() {
       <div className="mx-auto max-w-[1440px] px-5 py-16 sm:px-8 xl:px-16">
         <div className="grid gap-12 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>
-            <div className="flex items-center gap-3">
-              <LogoMark className="h-8 w-auto" color="#F5F4F0" barColor="#B8B4AE" />
-              <span className="text-[13px] font-semibold uppercase tracking-[0.18em]">{site.name}</span>
-            </div>
+            <Link href="/" className="inline-flex select-none" aria-label={`${site.name} home`}>
+              <BrandLogo inverted />
+            </Link>
             <p className="mt-6 max-w-[42ch] text-[14px] leading-relaxed text-paper/70">
               One team builds the asset, runs the ads, buys the media, and books the meetings. One number that matters: meetings that close.
             </p>

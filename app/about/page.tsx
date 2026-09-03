@@ -1,6 +1,6 @@
 import { PageHero, Section } from "@/components/sections/Shell";
 import { RevealBlock } from "@/components/ui/RevealBlock";
-import { LogoMark } from "@/components/ui/Logo";
+import { BrandLogo } from "@/components/ui/Logo";
 import { CTABand } from "@/components/sections/CTABand";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { breadcrumbLd } from "@/lib/schema";
@@ -25,7 +25,7 @@ export default function About() {
       <Section label="Founder">
         <div className="grid items-start gap-12 lg:grid-cols-[260px_1fr]">
           <RevealBlock>
-            <LogoMark className="h-40 w-auto" />
+            <BrandLogo className="h-24 w-auto" />
           </RevealBlock>
           <RevealBlock delay={120} className="max-w-[68ch]">
             <h2 className="font-display text-h2 font-medium">{site.founder}</h2>

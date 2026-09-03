@@ -10,7 +10,7 @@ export function organizationLd() {
     "@id": orgId,
     name: site.name,
     url: site.url,
-    logo: `${site.url}/logo-mark.svg`,
+    logo: `${site.url}/isovertic-logo.png`,
     description: site.description,
     founder: { "@id": personId },
     sameAs: [site.linkedin],

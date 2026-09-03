@@ -38,17 +38,17 @@ export default function Pricing() {
       <Section label="Tiers">
         <div className="grid gap-px bg-rule lg:grid-cols-3">
           {tiers.map((t, i) => (
-            <RevealBlock key={t.name} delay={i * 100} className={`flex flex-col p-9 ${t.featured ? "bg-navy text-paper" : "bg-background"}`}>
-              <p className={`eyebrow ${t.featured ? "!text-brass" : ""}`}>{t.name}</p>
+            <RevealBlock key={t.name} delay={i * 100} className={`flex flex-col p-9 ${t.featured ? "bg-slate text-ink" : "bg-background"}`}>
+              <p className={`eyebrow ${t.featured ? "!text-signal" : ""}`}>{t.name}</p>
               <p className="mt-5 font-display text-[clamp(30px,3.4vw,44px)] font-semibold leading-none">{t.price}</p>
-              <p className={`mt-2 text-[13px] ${t.featured ? "text-paper/65" : "text-ink-soft"}`}>{t.per}</p>
-              <p className={`mt-6 text-[15px] leading-relaxed ${t.featured ? "text-paper/85" : "text-ink/90"}`}>{t.for}</p>
-              <ul className={`mt-6 space-y-3 border-t pt-6 text-[14px] leading-relaxed ${t.featured ? "border-paper/20 text-paper/80" : "border-rule text-ink-soft"}`}>
+              <p className="mt-2 text-[13px] text-ink-soft">{t.per}</p>
+              <p className="mt-6 text-[15px] leading-relaxed text-ink/90">{t.for}</p>
+              <ul className={`mt-6 space-y-3 border-t pt-6 text-[14px] leading-relaxed text-ink-soft ${t.featured ? "border-ink/15" : "border-rule"}`}>
                 {t.includes.map((x) => (
                   <li key={x} className="flex gap-3"><span aria-hidden="true">·</span>{x}</li>
                 ))}
               </ul>
-              <Link href="/contact" className={`btn mt-9 ${t.featured ? "btn-ghost btn-ghost--paper" : "btn-ghost"}`}>Book a pipeline call</Link>
+              <Link href="/contact" className={`btn mt-9 ${t.featured ? "btn-solid" : "btn-ghost"}`}>Book a pipeline call</Link>
             </RevealBlock>
           ))}
         </div>

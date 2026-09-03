@@ -26,7 +26,7 @@ export function Section({
 
 export function PageHero({ eyebrow, h1, lead }: { eyebrow: string; h1: ReactNode; lead?: string }) {
   return (
-    <section className="border-b border-rule pt-32 lg:pt-40">
+    <section className="border-b border-rule pt-[calc(var(--spacing-safe-top)+6.5rem)] lg:pt-[calc(var(--spacing-safe-top)+7rem)]">
       <div className="mx-auto max-w-[1440px] px-5 pb-14 sm:px-8 xl:px-16">
         <p className="eyebrow">{eyebrow}</p>
         <h1 className="mt-5 max-w-[18ch] font-display text-h1 font-medium">{h1}</h1>

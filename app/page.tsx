@@ -33,27 +33,26 @@ export default function Home() {
       <JsonLd data={faqLd(homeFaqs)} />
 
       {/* Hero */}
-      <section className="relative flex min-h-dvh flex-col justify-end overflow-hidden border-b border-rule pt-safe-top">
-        <div className="hero-drift pointer-events-none absolute inset-x-0 top-[18%] hidden lg:block" aria-hidden="true">
+      <section className="relative overflow-hidden border-b border-rule">
+        <div className="hero-drift pointer-events-none absolute inset-x-0 top-[8%] hidden xl:block" aria-hidden="true">
           <div className="mx-auto max-w-[1440px] px-16">
             <div className="iso-mark opacity-60" />
           </div>
         </div>
-        <div className="mx-auto w-full max-w-[1440px] px-5 pb-16 sm:px-8 xl:px-16">
+        <div className="mx-auto max-w-[1440px] px-5 pb-8 pt-[calc(var(--spacing-safe-top)+5.625rem)] sm:px-8 sm:pb-10 xl:px-16">
           <p className="eyebrow hero-sub">Growth firm · Long Island, NY</p>
-          <h1 className="mt-6 font-display text-display font-semibold">
+          <h1 className="mt-2 max-w-[12ch] font-display text-[clamp(36px,5.8vw,88px)] font-semibold leading-[0.96] tracking-[-0.02em]">
             <SplitHeadline text="We build your pipeline." />
             <br />
             <SplitHeadline text="You close it." delay={520} className="text-signal" />
           </h1>
-          <p className="hero-sub mt-8 max-w-[58ch] text-[17px] leading-relaxed text-ink-soft">
+          <p className="hero-sub mt-4 max-w-[52ch] text-[16px] leading-[1.55] text-ink-soft sm:text-[17px] sm:leading-relaxed">
             ISOVERTIC is one senior team that designs your website, runs your Google Ads, buys your media including TV, and cold calls your market until qualified meetings land on your calendar. No vendor juggling. No finger pointing. One firm accountable for revenue.
           </p>
-          <div className="hero-cta mt-10 flex flex-wrap items-center gap-6">
+          <div className="hero-cta mt-6 flex flex-wrap items-center gap-4 sm:gap-6">
             <Link href="/contact" className="btn btn-solid">Book a pipeline call</Link>
             <Link href="/how-it-works" className="cta-link">See how the system works <Arrow /></Link>
           </div>
-          <div className="iso-mark rule-draw mt-16" aria-hidden="true" />
         </div>
       </section>
 
@@ -94,16 +93,16 @@ export default function Home() {
       </Section>
 
       {/* Commitment */}
-      <section className="section-deferred border-t border-rule bg-navy text-paper">
+      <section className="section-deferred border-t border-rule bg-slate text-ink">
         <div className="mx-auto max-w-[1440px] px-5 py-24 sm:px-8 xl:px-16">
           <RevealBlock>
-            <p className="eyebrow !text-paper/50">The commitment</p>
+            <p className="eyebrow">The commitment</p>
             <h2 className="mt-4 max-w-[22ch] font-display text-h2 font-medium">A <span className="text-signal">90 day</span> ramp with a number attached.</h2>
-            <p className="mt-6 max-w-[58ch] leading-relaxed text-paper/80">
+            <p className="mt-6 max-w-[58ch] leading-relaxed text-ink/85">
               Every engagement starts with a defined 90 day ramp and a stated meeting volume commitment for your tier. No long term contracts. If we are not putting qualified conversations on your calendar, you should not be paying us.
             </p>
             <div className="mt-8">
-              <Link href="/pricing" className="cta-link text-paper hover:text-paper/80">Pricing is published <Arrow /></Link>
+              <Link href="/pricing" className="cta-link">Pricing is published <Arrow /></Link>
             </div>
           </RevealBlock>
         </div>

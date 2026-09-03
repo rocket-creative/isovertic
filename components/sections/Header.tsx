@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
 import { useEffect, useState } from "react";
+import { BrandLogo } from "@/components/ui/Logo";
 import { site } from "@/lib/site";
 
 const links = [
@@ -43,17 +43,17 @@ export function Header() {
           scrolled ? "bg-background/85 backdrop-blur border-b border-rule" : "bg-transparent border-b border-transparent"
         }`}
       >
-        <div className="mx-auto flex h-16 max-w-[1440px] items-center justify-between px-5 sm:px-8 xl:px-16">
+        <div className="mx-auto flex h-[5.5rem] max-w-[1440px] items-center justify-between px-5 sm:px-8 xl:px-16">
           <Link href="/" className="flex items-center select-none" aria-label={`${site.name} home`}>
-            <Image src="/isovertic-logo.png" alt={site.name} width={150} height={45} className="h-8 w-auto" priority />
+            <BrandLogo priority className="h-[3.5rem] w-auto" />
           </Link>
-          <nav className="hidden items-center gap-8 text-[12px] uppercase tracking-[0.1em] lg:flex" aria-label="Primary">
+          <nav className="hidden items-center gap-8 text-[13px] uppercase tracking-[0.1em] lg:flex" aria-label="Primary">
             {links.map((l) => (
               <Link key={l.href} href={l.href} className="nav-link">
                 {l.label}
               </Link>
             ))}
-            <Link href="/contact" className="btn btn-solid !min-h-[40px] !px-5">
+            <Link href="/contact" className="btn btn-solid !min-h-[44px] !px-5">
               Book a pipeline call
             </Link>
           </nav>
@@ -72,8 +72,8 @@ export function Header() {
 
       {open && (
         <div className="fixed inset-0 z-[100] flex flex-col bg-background pt-safe-top pb-safe-bottom" role="dialog" aria-modal="true" aria-label="Navigation menu">
-          <div className="flex h-16 items-center justify-between border-b border-rule px-5">
-            <Image src="/isovertic-logo.png" alt={site.name} width={140} height={42} className="h-7 w-auto" />
+          <div className="flex h-[5.5rem] items-center justify-between border-b border-rule px-5">
+            <BrandLogo className="h-[3rem] w-auto" />
             <button className="flex h-11 w-11 items-center justify-center text-2xl" onClick={() => setOpen(false)} aria-label="Close menu" autoFocus>
               ×
             </button>

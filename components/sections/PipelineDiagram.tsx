@@ -41,7 +41,7 @@ export function PipelineDiagram() {
             style={{ transition: "stroke-dashoffset 1600ms cubic-bezier(0.16,1,0.3,1)" }}
           />
           {stations.map((_, i) => (
-            <rect key={i} x={100 + i * 200 - 3} y="20" width="6" height="16" fill="#A9824C"
+            <rect key={i} x={100 + i * 200 - 3} y="20" width="6" height="16" fill="#6B1C28"
               opacity={on ? 1 : 0}
               style={{ transition: `opacity 400ms ease ${500 + i * 180}ms` }}
             />

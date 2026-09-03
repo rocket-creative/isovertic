@@ -5,8 +5,9 @@
   --color-ink: #14181B;
   --color-ink-soft: oklch(0.45 0.01 240);
   --color-navy: #0F2C3F;
-  --color-signal: #1F8AD4;
-  --color-brass: #A9824C;
+  --color-slate: color-mix(in oklab, #8A8A8A 60%, var(--color-paper) 40%);
+  --color-signal: #6B1C28;
+  --color-brass: #6B1C28;
   --color-paper: #F5F4F0;
   --color-rule: #E0DED8;
 
