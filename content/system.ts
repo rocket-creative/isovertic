@@ -1,4 +1,4 @@
-export const aiRuns = ["Scheduling", "Deployment", "Data collection", "Research"] as const;
+export const aiRuns = ["Scheduling", "Deployment", "Data collection", "Research", "Reporting"] as const;
 export const humansDo = ["Create", "Design", "Review", "Test", "Engage"] as const;
 
 export const aiHuman = {
