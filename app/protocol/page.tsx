@@ -89,13 +89,13 @@ export default function Protocol() {
           </div>
         </RevealBlock>
       </Section>
-      <Section label="Two versions" className="border-t border-rule">
+      <Section label="Two versions" tone="bright">
         <RevealBlock>
           <h2 className="font-display text-h2 font-medium">Priced on the page, like everything else here.</h2>
         </RevealBlock>
         <div className="mt-12 grid auto-rows-fr gap-px bg-rule lg:grid-cols-2">
           {versions.map((t, i) => (
-            <RevealBlock key={t.name} delay={i * 100} className="flex h-full flex-col bg-background p-8">
+            <RevealBlock key={t.name} delay={i * 100} className="flex h-full flex-col surface-card p-8">
               <p className="eyebrow">{t.name}</p>
               <p className="mt-5 font-display text-[clamp(28px,3vw,40px)] font-semibold leading-none">{t.price}</p>
               <p className="mt-2 text-[13px] text-ink-soft">{t.per}</p>
@@ -110,7 +110,7 @@ export default function Protocol() {
           ))}
         </div>
       </Section>
-      <Section label="The runbook library" className="border-t border-rule">
+      <Section label="The runbook library">
         <RevealBlock className="max-w-[68ch]">
           <h2 className="font-display text-h2 font-medium">Eight runbooks. Your logo on every page.</h2>
           <ol className="mt-8 space-y-3 text-[15px] leading-relaxed text-ink/90">
@@ -123,7 +123,7 @@ export default function Protocol() {
           </p>
         </RevealBlock>
       </Section>
-      <Section label="License" className="border-t border-rule">
+      <Section label="License" tone="bright">
         <RevealBlock className="max-w-[68ch]">
           <h2 className="font-display text-h2 font-medium">Yours to run. Not yours to resell.</h2>
           <p className="mt-6 leading-relaxed text-ink/90">
@@ -131,7 +131,7 @@ export default function Protocol() {
           </p>
         </RevealBlock>
       </Section>
-      <Section label="Questions" className="border-t border-rule">
+      <Section label="Questions">
         <h2 className="font-display text-h2 font-medium">What operators ask first</h2>
         <div className="mt-10 max-w-[72ch]"><FAQ faqs={faqs} /></div>
       </Section>

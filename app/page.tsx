@@ -5,6 +5,7 @@ import { RevealBlock } from "@/components/ui/RevealBlock";
 import { PipelineDiagram } from "@/components/sections/PipelineDiagram";
 import { ClientStrip } from "@/components/sections/ClientStrip";
 import { ProofBand } from "@/components/sections/ProofBand";
+import { ResultsTicker } from "@/components/sections/ResultsTicker";
 import { Section } from "@/components/sections/Shell";
 import { FAQ } from "@/components/ui/FAQ";
 import { CTABand } from "@/components/sections/CTABand";
@@ -39,7 +40,7 @@ export default function Home() {
 
       {/* Hero */}
       <section className="relative overflow-hidden border-b border-rule">
-        <div className="mx-auto max-w-[1440px] px-5 pb-8 pt-[calc(var(--spacing-safe-top)+5.625rem)] sm:px-8 sm:pb-10 lg:pt-[calc(var(--spacing-safe-top)+8.25rem)] xl:px-16">
+        <div className="mx-auto max-w-[1440px] px-5 pb-14 pt-[calc(var(--spacing-safe-top)+5.625rem)] sm:px-8 sm:pb-16 lg:pt-[calc(var(--spacing-safe-top)+8.25rem)] xl:px-16">
           <p className="eyebrow hero-sub">Growth firm · Long Island, NY · Scientists, startups, and healthcare brands</p>
           <h1 className="mt-2 max-w-[12ch] font-display text-[clamp(36px,5.8vw,88px)] font-semibold leading-[0.96] tracking-[-0.02em]">
             <SplitHeadline text="We build your pipeline." />
@@ -69,7 +70,7 @@ export default function Home() {
       </Section>
 
       {/* The system */}
-      <Section label="The system" className="border-t border-rule">
+      <Section label="The system" tone="bright">
         <RevealBlock>
           <p className="eyebrow">One firm. The whole build.</p>
           <h2 className="mt-4 max-w-[18ch] font-display text-h2 font-medium">Six steps. One <span className="text-signal">number</span> that matters.</h2>
@@ -91,10 +92,13 @@ export default function Home() {
       <WhyBuyers />
 
       {/* Proof */}
-      <Section label="Proof" className="border-t border-rule">
+      <Section label="Proof">
         <RevealBlock>
           <h2 className="font-display text-h2 font-medium">Numbers first. Adjectives never.</h2>
         </RevealBlock>
+        <div className="mt-12">
+          <ResultsTicker />
+        </div>
         <div className="mt-12">
           <ProofBand />
         </div>
@@ -104,7 +108,7 @@ export default function Home() {
       </Section>
 
       {/* Commitment */}
-      <section className="section-deferred border-t border-rule bg-slate-soft text-ink">
+      <section className="section-deferred bg-slate-soft text-ink">
         <div className="mx-auto max-w-[1440px] px-5 py-24 sm:px-8 xl:px-16">
           <RevealBlock>
             <p className="eyebrow">The commitment</p>
@@ -120,7 +124,7 @@ export default function Home() {
       </section>
 
       {/* FAQ */}
-      <Section label="Questions">
+      <Section label="Questions" tone="bright">
         <RevealBlock>
           <h2 className="font-display text-h2 font-medium">What founders ask first</h2>
           <div className="mt-10 max-w-[72ch]">

@@ -4,7 +4,7 @@ import { whyBuyers } from "@/content/system";
 
 export function WhyBuyers() {
   return (
-    <Section label={whyBuyers.eyebrow} className="border-t border-rule">
+    <Section label={whyBuyers.eyebrow} tone="bright">
       <RevealBlock className="max-w-[62ch]">
         <h2 className="font-display text-h2 font-medium">
           <span className="text-signal">85 percent</span> future. 15 percent past.

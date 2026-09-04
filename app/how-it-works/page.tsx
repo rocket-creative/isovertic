@@ -76,7 +76,7 @@ export default function HowItWorks() {
           </p>
         </RevealBlock>
       </Section>
-      <Section label="The six steps" className="border-t border-rule">
+      <Section label="The six steps" tone="bright">
         <RevealBlock>
           <h2 className="font-display text-h2 font-medium">What happens in each step</h2>
         </RevealBlock>
@@ -91,7 +91,7 @@ export default function HowItWorks() {
       </Section>
       <AiHuman />
       <WhyBuyers />
-      <Section label="The tier grid" className="border-t border-rule">
+      <Section label="The tier grid">
         <RevealBlock>
           <h2 className="font-display text-h2 font-medium">Which steps each tier runs</h2>
         </RevealBlock>
@@ -124,20 +124,20 @@ export default function HowItWorks() {
           <Link href="/pricing" className="cta-link">Pricing is published <Arrow /></Link>
         </div>
       </Section>
-      <Section label="The ramp" className="border-t border-rule">
+      <Section label="The ramp" tone="bright">
         <RevealBlock>
           <h2 className="font-display text-h2 font-medium">The 90 day ramp</h2>
         </RevealBlock>
         <ol className="mt-12 grid gap-px bg-rule lg:grid-cols-3">
           {ramp.map((r, i) => (
-            <RevealBlock key={i} as="li" delay={i * 100} className="bg-background p-8">
+            <RevealBlock key={i} as="li" delay={i * 100} className="surface-card p-8">
               <p className="eyebrow">{r.phase}</p>
               <p className="mt-4 leading-relaxed text-ink/90">{r.body}</p>
             </RevealBlock>
           ))}
         </ol>
       </Section>
-      <Section label="Questions" className="border-t border-rule">
+      <Section label="Questions">
         <h2 className="font-display text-h2 font-medium">Questions on the process</h2>
         <div className="mt-10 max-w-[72ch]"><FAQ faqs={faqs} /></div>
       </Section>

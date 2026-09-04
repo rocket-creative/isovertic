@@ -11,7 +11,7 @@ export function ProofBand() {
   return (
     <div className="grid gap-px bg-rule sm:grid-cols-3">
       {stats.map((s, i) => (
-        <RevealBlock key={i} delay={i * 100} className="bg-background p-8">
+        <RevealBlock key={i} delay={i * 100} className="surface-card p-8">
           <p className="font-display text-[clamp(48px,6vw,84px)] font-semibold leading-none text-brass">
             <CountUp end={s.n} suffix={s.suffix} />
           </p>

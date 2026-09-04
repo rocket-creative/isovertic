@@ -41,7 +41,7 @@ export default function LongIsland() {
           </div>
         </RevealBlock>
       </Section>
-      <Section label="Questions" className="border-t border-rule">
+      <Section label="Questions" tone="bright">
         <h2 className="font-display text-h2 font-medium">Local questions</h2>
         <div className="mt-10 max-w-[72ch]"><FAQ faqs={faqs} /></div>
       </Section>

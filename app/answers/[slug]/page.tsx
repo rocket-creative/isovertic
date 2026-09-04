@@ -61,7 +61,7 @@ export default async function AnswerPage({ params }: { params: Promise<{ slug: s
           </RevealBlock>
         </Section>
       )}
-      <Section label="Related" className="border-t border-rule">
+      <Section label="Related" tone="bright">
         <RevealBlock>
           <div className="flex flex-wrap gap-x-10 gap-y-4">
             {a.related.map((r) => <Link key={r.href} href={r.href} className="cta-link">{r.label} <Arrow /></Link>)}

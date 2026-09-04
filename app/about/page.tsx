@@ -31,14 +31,14 @@ export default function About() {
           </p>
         </RevealBlock>
       </Section>
-      <Section label="Founder" className="border-t border-rule">
+      <Section label="Founder" tone="bright">
         <RevealBlock className="max-w-[68ch]">
           <h2 className="font-display text-h2 font-medium"><Link href="/people/george-stoff" className="hover:text-signal">{site.founder}</Link>, Founder and Lead Engineer</h2>
           <p className="mt-6 leading-relaxed text-ink/90">George Stoff is a full stack engineer and founder. He has spent more than 30 years building the systems companies sell through: production software on Next.js, TypeScript, and Supabase, server rendered sites with thousands of schema backed pages, the data pipelines that feed outbound, and the ad and content systems that run on top of them. He writes the build briefs our coding agents execute. He has shipped SaaS products of his own, operated agencies, run media brands, and managed go to market for healthcare, biotech, and professional service companies. He has written more pages about mouse models than most people who make them.</p>
           <p className="mt-5 leading-relaxed text-ink/90">ISOVERTIC exists because every owner he worked with was buying these capabilities in pieces, from vendors who never spoke, and wondering why the pieces never became a pipeline.</p>
         </RevealBlock>
       </Section>
-      <Section label="Operations" className="border-t border-rule">
+      <Section label="Operations">
         <RevealBlock className="max-w-[68ch]">
           <h2 className="font-display text-h2 font-medium"><Link href="/people/kristen-coughlin" className="hover:text-signal">Kristen Coughlin</Link>, Chief Operating Officer</h2>
           <p className="mt-6 leading-relaxed text-ink/90">
@@ -49,7 +49,7 @@ export default function About() {
           </p>
         </RevealBlock>
       </Section>
-      <Section label="Who we serve" className="border-t border-rule">
+      <Section label="Who we serve" tone="bright">
         <RevealBlock className="max-w-[68ch]">
           <h2 className="font-display text-h2 font-medium">Who we serve</h2>
           <p className="mt-6 leading-relaxed text-ink/90">
@@ -57,7 +57,7 @@ export default function About() {
           </p>
         </RevealBlock>
       </Section>
-      <Section label="How we work" className="border-t border-rule">
+      <Section label="How we work">
         <RevealBlock className="max-w-[68ch]">
           <h2 className="font-display text-h2 font-medium">How we work</h2>
           <p className="mt-6 leading-relaxed text-ink/90">

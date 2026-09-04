@@ -2,7 +2,6 @@ const clients = [
   "ingenious targeting laboratory",
   "ISS Health",
   "Kronos Revenue",
-  "COGAI Health",
   "Sydra",
   "Kavera",
   "Riviera Waterfront Mansion",

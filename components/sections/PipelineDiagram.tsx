@@ -66,7 +66,7 @@ export function PipelineDiagram() {
             transitionDelay: `${i * 90}ms`,
           } as const;
           return (
-            <li key={s.k} className="bg-background">
+            <li key={s.k} className="surface-card">
               {"href" in s && s.href ? (
                 <Link
                   href={s.href}

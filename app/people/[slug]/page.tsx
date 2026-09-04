@@ -35,7 +35,7 @@ export default async function PersonPage({ params }: { params: Promise<{ slug: s
           {p.bio.map((b, i) => <p key={i}>{b}</p>)}
         </RevealBlock>
       </Section>
-      <Section label="Credentials" className="border-t border-rule">
+      <Section label="Credentials" tone="bright">
         <RevealBlock>
           <h2 className="font-display text-h2 font-medium">On the record</h2>
           <ul className="mt-8 max-w-[68ch] space-y-3 leading-relaxed text-ink/90">
@@ -49,7 +49,7 @@ export default async function PersonPage({ params }: { params: Promise<{ slug: s
         </RevealBlock>
       </Section>
       {articles.length > 0 && (
-        <Section label="Writing" className="border-t border-rule">
+        <Section label="Writing">
           <RevealBlock>
             <h2 className="font-display text-h2 font-medium">Field notes by {p.name.split(" ")[0]}</h2>
             <ul className="mt-8 divide-y divide-rule border-y border-rule">

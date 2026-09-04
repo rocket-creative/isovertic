@@ -10,6 +10,7 @@
   --color-signal: #0AB1FF;
   --color-brass: #0AB1FF;
   --color-paper: #F5F4F0;
+  --color-bright: #FFFFFF;
   --color-rule: #E0DED8;
 
   --spacing-section: clamp(80px, 10vw, 160px);
@@ -80,6 +81,10 @@ p, li, td, th { overflow-wrap: break-word; }
 .iso-mark--paper::after { background: color-mix(in oklab, var(--color-paper) 55%, transparent); }
 
 .rule { height: 1px; background: var(--color-rule); }
+
+/* Card surfaces invert against their section so they always read one step off the background. */
+.surface-card { background: var(--color-bright); }
+.bg-bright .surface-card { background: var(--color-background); }
 
 .sidebar-label {
   writing-mode: vertical-rl; transform: rotate(180deg);

@@ -7,6 +7,7 @@ import { getArticles } from "@/lib/articles";
 import { answers } from "@/content/answers";
 import { glossary } from "@/content/glossary";
 import { people } from "@/content/people";
+import { publishedCaseStudies } from "@/content/case-studies";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
@@ -22,6 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const c of compares) urls.push({ url: `${site.url}/compare/${c.slug}`, lastModified: now, changeFrequency: "monthly", priority: 0.7 });
   for (const a of getArticles()) urls.push({ url: `${site.url}/field-notes/${a.slug}`, lastModified: new Date(a.dateModified), changeFrequency: "monthly", priority: 0.6 });
   for (const p of people) urls.push({ url: `${site.url}/people/${p.slug}`, lastModified: now, changeFrequency: "monthly", priority: 0.6 });
+  for (const c of publishedCaseStudies) urls.push({ url: `${site.url}/results/${c.slug}`, lastModified: new Date(c.publishedDate), changeFrequency: "monthly", priority: 0.8 });
   for (const a of answers) urls.push({ url: `${site.url}/answers/${a.slug}`, lastModified: new Date(a.dateModified), changeFrequency: "monthly", priority: 0.7 });
   for (const t of glossary) urls.push({ url: `${site.url}/glossary/${t.slug}`, lastModified: now, changeFrequency: "yearly", priority: 0.5 });
   return urls;

@@ -100,6 +100,19 @@ export function articleLd(a: { title: string; description: string; slug: string;
   };
 }
 
+export function caseStudyLd(c: { title: string; metaDescription: string; publishedDate: string; clientName: string }) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: c.title,
+    description: c.metaDescription,
+    datePublished: c.publishedDate,
+    about: { "@type": "Organization", name: c.clientName },
+    author: { "@type": "Organization", name: site.name },
+    publisher: { "@type": "Organization", name: site.name },
+  };
+}
+
 export function qaLd(q: { question: string; answer: string; slug: string; dateModified: string; author: string }) {
   return {
     "@context": "https://schema.org",

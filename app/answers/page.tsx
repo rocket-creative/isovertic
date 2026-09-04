@@ -29,7 +29,7 @@ export default function Answers() {
         const items = answers.filter((a) => a.audience === g.key);
         if (!items.length) return null;
         return (
-          <Section key={g.key} label={g.label} className={gi ? "border-t border-rule" : ""}>
+          <Section key={g.key} label={g.label} tone={gi % 2 ? "bright" : "paper"}>
             <RevealBlock>
               <h2 className="font-display text-h2 font-medium">{g.label}</h2>
               <ul className="mt-8 divide-y divide-rule border-y border-rule">

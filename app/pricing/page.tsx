@@ -160,7 +160,7 @@ export default function Pricing() {
       <Section label="Tiers">
         <div className="grid auto-rows-fr gap-px bg-rule lg:grid-cols-2 xl:grid-cols-4">
           {tiers.map((t, i) => (
-            <RevealBlock key={t.name} delay={i * 80} className={`flex h-full flex-col p-8 ${t.featured ? "bg-slate text-ink" : "bg-background"}`}>
+            <RevealBlock key={t.name} delay={i * 80} className={`flex h-full flex-col p-8 ${t.featured ? "bg-slate text-ink" : "surface-card"}`}>
               <p className={`eyebrow ${t.featured ? "!text-signal" : ""}`}>{t.name}</p>
               <p className="mt-5 font-display text-[clamp(28px,3vw,40px)] font-semibold leading-none">{t.price}</p>
               <p className="mt-2 text-[13px] text-ink-soft">{t.per}</p>
@@ -176,7 +176,7 @@ export default function Pricing() {
         </div>
       </Section>
 
-      <Section label="Which steps" className="border-t border-rule">
+      <Section label="Which steps" tone="bright">
         <RevealBlock>
           <h2 className="font-display text-h2 font-medium">Which steps each tier runs</h2>
         </RevealBlock>
@@ -207,7 +207,7 @@ export default function Pricing() {
         </div>
       </Section>
 
-      <Section label="Term" className="border-t border-rule">
+      <Section label="Term">
         <RevealBlock>
           <h2 className="font-display text-h2 font-medium">Pick your term. The website comes with it.</h2>
           <p className="mt-5 max-w-[62ch] leading-relaxed text-ink/90">
@@ -243,7 +243,7 @@ export default function Pricing() {
         </RevealBlock>
       </Section>
 
-      <Section label="More than one brand" className="border-t border-rule">
+      <Section label="More than one brand" tone="bright">
         <RevealBlock>
           <h2 className="font-display text-h2 font-medium">Run them all from one team.</h2>
           <p className="mt-5 max-w-[62ch] leading-relaxed text-ink/90">
@@ -252,7 +252,7 @@ export default function Pricing() {
         </RevealBlock>
       </Section>
 
-      <Section label="Add ons" className="border-t border-rule">
+      <Section label="Add ons">
         <RevealBlock>
           <h2 className="font-display text-h2 font-medium">Bolt on what your market needs.</h2>
         </RevealBlock>
@@ -276,14 +276,14 @@ export default function Pricing() {
         </div>
       </Section>
 
-      <Section label="Protocol" className="border-t border-rule">
+      <Section label="Protocol" tone="bright">
         <RevealBlock>
           <p className="eyebrow">For teams that run it themselves</p>
           <h2 className="mt-4 font-display text-h2 font-medium">Protocol. The system, taught at your office.</h2>
         </RevealBlock>
         <div className="mt-12 grid auto-rows-fr gap-px bg-rule lg:grid-cols-2">
           {protocolTiers.map((t, i) => (
-            <RevealBlock key={t.name} delay={i * 100} className="flex h-full flex-col bg-background p-8">
+            <RevealBlock key={t.name} delay={i * 100} className="flex h-full flex-col surface-card p-8">
               <p className="eyebrow">{t.name}</p>
               <p className="mt-5 font-display text-[clamp(28px,3vw,40px)] font-semibold leading-none">{t.price}</p>
               <p className="mt-2 text-[13px] text-ink-soft">{t.per}</p>
@@ -302,7 +302,7 @@ export default function Pricing() {
         </div>
       </Section>
 
-      <Section label="Context" className="border-t border-rule">
+      <Section label="Context">
         <RevealBlock className="max-w-[72ch]">
           <h2 className="font-display text-h3 font-medium">The commitment</h2>
           <p className="mt-4 leading-relaxed text-ink/90">Every tier carries a defined 90 day ramp with deliverables and, for Kinetic and above, a meeting volume number in writing. No long term contract is required. Terms exist for clients who want the website included, and we still re earn the engagement quarterly.</p>
@@ -311,7 +311,7 @@ export default function Pricing() {
         </RevealBlock>
       </Section>
 
-      <Section label="Questions" className="border-t border-rule">
+      <Section label="Questions" tone="bright">
         <h2 className="font-display text-h2 font-medium">Money questions, answered on the page</h2>
         <div className="mt-10 max-w-[72ch]"><FAQ faqs={faqs} /></div>
       </Section>

@@ -6,14 +6,16 @@ export function Section({
   label,
   className = "",
   deferred = true,
+  tone = "paper",
 }: {
   children: React.ReactNode;
   label?: string;
   className?: string;
   deferred?: boolean;
+  tone?: "paper" | "bright";
 }) {
   return (
-    <section className={`${deferred ? "section-deferred" : ""} relative ${className}`}>
+    <section className={`${deferred ? "section-deferred" : ""} relative ${tone === "bright" ? "bg-bright" : ""} ${className}`}>
       <div className="mx-auto grid max-w-[1440px] gap-8 px-5 py-20 sm:px-8 lg:grid-cols-[48px_1fr] lg:py-28 xl:px-16">
         <div className="hidden lg:block" aria-hidden="true">
           {label && <span className="sidebar-label sticky top-28 lg:top-36">{label}</span>}

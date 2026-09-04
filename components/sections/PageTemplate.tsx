@@ -28,7 +28,7 @@ export function PageTemplate({ page, basePath, crumbRoot }: { page: Page; basePa
           </RevealBlock>
         </Section>
       )}
-      <Section label={page.eyebrow}>
+      <Section label={page.eyebrow} tone="bright">
         <div className="max-w-[72ch] space-y-16">
           {page.sections.map((s, i) => (
             <RevealBlock key={i}>
