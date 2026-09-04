@@ -1,9 +1,9 @@
 ---
 slug: outsourced-sales-and-marketing-guide
 title: The Complete Guide to Outsourced Sales and Marketing in 2026
-description: What outsourcing the full pipeline actually means, what it costs, who it fits, and how to vet the firms that sell it. Written by a founder who builds these systems.
+description: What outsourcing the full pipeline means, step by step, what it costs by tier, who it fits, and the vetting questions a regulated buyer has to ask. Written by a founder who builds these systems.
 primaryKeyword: outsourced sales and marketing
-datePublished: 2026-06-12
+datePublished: 2026-07-31
 ---
 
 # The Complete Guide to Outsourced Sales and Marketing in 2026
@@ -12,19 +12,43 @@ I build pipelines for a living, so read this knowing where I stand. But most of 
 
 ## What outsourced sales and marketing actually covers
 
-The term gets used for everything from a freelancer running your ads to a firm operating your entire revenue motion. The honest taxonomy has three levels. Channel outsourcing: you hire a vendor per function, an SEO firm, a PPC shop, an SDR agency. Function outsourcing: you hand a whole function to one vendor, all of marketing or all of outbound. Pipeline outsourcing: one firm owns the system from the website to the booked meeting, and you keep only the close. The levels are not better or worse in the abstract. They fit different companies, and most of the pain in this industry comes from buying the wrong level.
+The term gets used for everything from a freelancer running your ads to a firm operating your entire revenue motion. The honest taxonomy has three levels. Channel outsourcing: you hire a vendor per function, an SEO firm, a PPC shop, an SDR agency. Function outsourcing: you hand a whole function to one vendor. Pipeline outsourcing: one firm owns the system from the website to the booked meeting, and you keep only the close. Most of the pain in this industry comes from buying the wrong level. The rest of this guide describes the third level as six steps, because that is how we run it and because it lets you compare any vendor against the same list.
 
-## Why companies outsource, in numbers
+## Step 1: Build
 
-The math drives it more than the philosophy. A competent in house marketing lead costs $130K plus before tax and software, an SDR runs $70K to $90K loaded, and both take months to ramp with no guarantee either works out. Meanwhile more than 70 percent of marketing leads are never contacted by sales at all, which means the most common failure is not bad marketing or bad sales but the seam between them. Outsourcing the seam, not just the functions, is the actual product worth buying.
+The website is the asset every other step points at. For a life science or healthcare buyer it has to do two jobs: carry the technical claim in enough depth that a PI or a physician trusts it, and be readable by AI search, which means server rendered pages with schema on every one. A brochure site fails both. Ask any vendor whether the site they build will be cited by ChatGPT or Perplexity, and ask them how they know.
 
-## The vendor landscape
+## Step 2: Rank
 
-Outbound specialists like Belkins, CIENCE, Callbox, and Martal book meetings into whatever you already have. Full service digital agencies like WebFX and Thrive drive traffic and leads but never pick up a phone. A small number of firms run both. The biggest is Abstrakt Marketing Group, a 500 plus person operation; the boutique version, with development and TV added, is what we built ISOVERTIC to be. When you vet any of them, ask four questions. Who exactly does the work, names please. What number do you commit to in writing, and by when. Who owns the lists, the copy, the accounts, and the code. And what happened with the last client who left.
+Content that answers the questions your buyers type and the questions AI search answers for them. In our experience this is where a technical company wins or loses, because the buyer has done most of the work before they call. BioInformatics puts it at 60 percent or more of the sales process completed before a rep is contacted. A newsletter, a blog post, and a social cadence every month is the floor. For one life science client we built 147 pages against a single model architecture, and that is what it took to own the category in search.
+
+## Step 3: Run
+
+Google Ads managed to a cost per meeting, not a cost per click, with the search term report read weekly by a person. For a regulated category, ask who handles ad platform certification. We have taken healthcare accounts through LegitScript scoped programs that stall most agencies for months.
+
+## Step 4: Buy
+
+Streaming and broadcast TV, bought in your own accounts, with an exposed versus control measurement plan. Connected TV now clears at a blended $26 per thousand impressions and can be bought by ZIP code, which puts it in reach of a regional practice group or a consumer diagnostics brand. It is the step most companies never price, which is why it works.
+
+## Step 5: Book
+
+Outbound sequences, cold calls, and a qualified meeting on your calendar with a brief attached. The list matters more than the copy. The caller has to be able to read your buyer's paper. And the number has to go in writing: how many qualified meetings, by when.
+
+## Step 6: Educate
+
+Some companies want the system and their own hands on it. Educate is one or two days at your office, the runbooks rewritten in your brand and licensed to you. It is also how you audit a vendor: if they cannot teach the system, they do not have one.
+
+## What it costs
+
+Channel vendors run $2,000 to $10,000 a month for SEO and $1,500 to $7,500 for Google Ads management at credible quality, plus your spend. Standalone appointment setting runs $5,000 to $15,000 a month. An in house marketing lead costs $130,000 plus before tax and software, an SDR $70,000 to $90,000 loaded. Our tiers: Baseline $2,500 for the content program, Catalyst $5,000 plus ad spend with one campaign and a landing page, Kinetic $10,000 plus ad spend for the full pipeline with an outbound seat and a meeting number in writing, and Critical Mass from $25,000 plus media for multiple brands and TV. A 12 month term includes the $15,000 website build; month to month pays it up front. Every price is on the pricing page.
+
+## The vetting questions
+
+Who exactly does the work, names and tenure. What number do you commit to in writing, and by when. Who owns the lists, the copy, the accounts, and the code. What happened with the last client who left. And for a regulated buyer, two more. Who signs off on a clinical, safety, or efficacy claim before it publishes, and where is the sign off logged? For a healthcare brand, is every form and every recorded call covered by a business associate agreement, and which vendor holds it? A firm that has not been asked those questions before will show it.
 
 ## When you should not outsource
 
-If your offer has never closed without the founder selling it, fix the offer first. If your deal size cannot support a five figure monthly investment with room to spare, build inbound slowly instead. And if you cannot give a partner two hours a week and fast feedback on lead quality, no vendor on earth can save the program.
+If your offer has never closed without the founder selling it, fix the offer first. If your deal size cannot support the tier with room to spare, start at Baseline and build inbound slowly. And if you cannot give a partner two hours a week and fast feedback on lead quality, no vendor on earth can save the program.
 
 ## What good looks like at 90 days
 

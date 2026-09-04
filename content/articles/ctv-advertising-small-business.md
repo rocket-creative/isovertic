@@ -1,33 +1,33 @@
 ---
 slug: ctv-advertising-small-business
 title: CTV and TV Advertising for Small Business: The 2026 Playbook
-description: Streaming TV can be bought with five figure budgets and local targeting. How the buying works, what it costs, how to measure it, and why your competitors will not do it.
+description: Streaming TV now clears at a blended $26 CPM and can be bought by ZIP code. How a regional practice or a diagnostics brand buys it, what a real test costs, and how to measure it.
 primaryKeyword: ctv advertising for small business
-datePublished: 2026-06-12
+datePublished: 2026-06-26
 ---
 
 # CTV and TV Advertising for Small Business: The 2026 Playbook
 
-Ask a $5M business owner about TV advertising and you get the same answer: that is for companies with Super Bowl money. That belief was true in 2010 and it is expensively wrong now, and the fact that your competitors still hold it is the entire opportunity.
+Ask the owner of a three location orthopedic group about TV advertising and you get the same answer a diagnostics founder gives: that is for companies with Super Bowl money. That belief was true in 2010 and it is expensively wrong now, and the fact that your competitors still hold it is the opportunity.
 
 ## What changed
 
-Streaming moved TV from a broadcast buy to a targeted one. Connected TV inventory across the major platforms can be purchased against geography down to the county and zip level, against audience segments, and in flights as short as eight weeks. The result is a channel where a regional service business can put a produced spot on the largest screen in a prospect's living room for a monthly budget that used to buy a highway billboard.
+Streaming moved TV from a broadcast buy to a targeted one. Connected TV inventory across the major platforms can be purchased against a ZIP code radius, a household income band, or a behavioral segment, with a frequency cap and a completion rate you can read the next morning. Adwave's Q2 2026 pricing data puts the blended average around $26 per thousand impressions, with most campaigns clearing between $25 and $35 and standard programmatic inventory settling near $20 to $25. Two years ago premium inventory ran $35 to $50. Supply from Netflix, Disney, and Amazon ad tiers pushed it down. Linear broadcast still runs $10 to $15 per thousand, but with minimums that put it out of reach and no targeting to speak of.
 
-## What it actually costs
+## What a real test costs
 
-Meaningful tests start around $10K to $15K monthly in media for 8 to 12 weeks. CPMs for quality CTV inventory generally run $20 to $45 depending on targeting and platform, which means a $12K month buys roughly 270,000 to 600,000 impressions concentrated exactly where you sell. Production adds a one time cost; a credible spot can be made well under what owners assume, especially when the creative team already knows your brand because they built it.
+Meaningful tests start around $10,000 to $15,000 a month in media for 8 to 12 weeks. At a $30 local CPM, $10,000 buys roughly 330,000 to 500,000 impressions, enough to reach a mid size metro's target households at three to four exposures. Managed service platforms take a 10 to 20 percent fee on top of media. Production for a 30 second spot that says the category claim plainly runs $5,000 to $15,000 if it is shot for purpose and near zero if it is cut from footage you already own. Our Critical Mass tier carries a $25,000 monthly media minimum spent in your own accounts, which is the floor at which we have seen the measurement become unambiguous.
 
-## What TV does in a pipeline, mechanically
+## Two buyers who should be doing this now
 
-TV rarely produces direct response you can attribute click by click, and anyone who promises that is selling. What it measurably does is lift everything downstream. Branded search volume rises in exposed geographies. Direct traffic rises. Cold email reply rates rise, because the prospect has seen you somewhere that signals substance. Sales cycles shorten, because familiarity is the cheapest objection killer that exists. You measure it with geography: exposed counties against control counties, lift in branded search, direct traffic, and reply rate, read over the flight.
+A regional healthcare group with a service line that competes on reputation, spine, fertility, dermatology, cosmetic dentistry. The patient decides where to go before they search, and a 30 second spot seen four times in the right ZIP codes is what decides it. A consumer diagnostics or wellness brand with a $150 plus order value and a story that takes 30 seconds to tell. Both have a geography where the close rate is already strong, which is the only place to test.
 
-## Why your competitors will not follow you
+## How to measure it
 
-The belief barrier does the protecting. The enterprise TV agencies have minimums that exclude this buyer, so nobody is out there correcting the myth, and a business that tests CTV in its market is usually the only one in its category on screen. Being the only roofer, practice, or firm a buyer has ever seen on television is a positioning asset that compounds for years and costs five figures to claim.
+Pick the geography where your close rate is already best. Produce one spot that says the category claim plainly. Flight 10 to 12 weeks. Hold out a matched geography as a control and compare branded search, direct traffic, and booked consultations between exposed and control markets. Read completion rate and frequency weekly. Read the exposed versus control gap at week six and week twelve. If the gap is not there at twelve, stop; if it is, the second flight is the cheapest growth you will buy that year.
 
-## The playbook
+## The compliance note
 
-Pick the geography where your close rate is already best. Produce one spot that says the category claim plainly. Flight 10 to 12 weeks at $10K to $15K. Set the measurement plan before the first dollar: branded search, direct traffic, reply rates, exposed versus control. Scale what lifts, kill what does not, and say so honestly either way.
+A healthcare spot is promotional content. If it names a treatment outcome, it goes through the same medical review as a landing page, and the landing page it points to needs a BAA covered form. Plan that into the timeline, not after the buy.
 
-The ask: we plan, produce, and buy these tests as part of the pipeline. If you want to know what a flight would look like in your market, book a pipeline call.
+The ask: if you have a market where you already win and a spot worth airing, Critical Mass is where TV lives on our pricing page. Book a pipeline call and bring your close rate by geography.
