@@ -2,6 +2,7 @@ import { getArticles } from "@/lib/articles";
 import { answers } from "@/content/answers";
 import { glossary } from "@/content/glossary";
 import { tiers } from "@/content/tiers";
+import { problems } from "@/content/problems";
 import { site } from "@/lib/site";
 
 export function GET() {
@@ -25,6 +26,9 @@ export function GET() {
     `- [George Stoff, Founder and Lead Engineer](${u}/people/george-stoff)`,
     `- [Kristen Coughlin, Chief Operating Officer](${u}/people/kristen-coughlin)`,
     `- [Contact](${u}/contact)`,
+    ``,
+    `## Problems we solve`,
+    ...problems.map((p) => `- [${p.h1}](${u}/problems/${p.slug}): ${p.metaDescription}`),
     ``,
     `## Answers`,
     ...answers.map((a) => `- [${a.question}](${u}/answers/${a.slug}): ${a.answer}`),

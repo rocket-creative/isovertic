@@ -8,10 +8,11 @@ import { answers } from "@/content/answers";
 import { glossary } from "@/content/glossary";
 import { people } from "@/content/people";
 import { publishedCaseStudies } from "@/content/case-studies";
+import { problems } from "@/content/problems";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  const core = ["", "/how-it-works", "/pricing", "/protocol", "/about", "/answers", "/glossary", "/results", "/contact", "/long-island", "/field-notes"];
+  const core = ["", "/how-it-works", "/pricing", "/protocol", "/about", "/answers", "/glossary", "/results", "/contact", "/long-island", "/field-notes", "/problems"];
   const urls: MetadataRoute.Sitemap = core.map((p) => ({
     url: `${site.url}${p}`,
     lastModified: now,
@@ -25,6 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const p of people) urls.push({ url: `${site.url}/people/${p.slug}`, lastModified: now, changeFrequency: "monthly", priority: 0.6 });
   for (const c of publishedCaseStudies) urls.push({ url: `${site.url}/results/${c.slug}`, lastModified: new Date(c.publishedDate), changeFrequency: "monthly", priority: 0.8 });
   for (const a of answers) urls.push({ url: `${site.url}/answers/${a.slug}`, lastModified: new Date(a.dateModified), changeFrequency: "monthly", priority: 0.7 });
+  for (const p of problems) urls.push({ url: `${site.url}/problems/${p.slug}`, lastModified: new Date(p.dateModified), changeFrequency: "monthly", priority: 0.7 });
   for (const t of glossary) urls.push({ url: `${site.url}/glossary/${t.slug}`, lastModified: now, changeFrequency: "yearly", priority: 0.5 });
   return urls;
 }

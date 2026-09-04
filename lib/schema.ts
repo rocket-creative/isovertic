@@ -154,6 +154,21 @@ export function localBusinessLd() {
   };
 }
 
+export function problemLd(p: { slug: string; h1: string; metaDescription: string; dateModified: string }) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: p.h1,
+    description: p.metaDescription,
+    dateModified: p.dateModified,
+    datePublished: p.dateModified,
+    author: { "@id": personId },
+    publisher: { "@id": orgId },
+    articleSection: "Problems we solve",
+    mainEntityOfPage: `${site.url}/problems/${p.slug}`,
+  };
+}
+
 export function breadcrumbLd(items: { name: string; path: string }[]) {
   return {
     "@context": "https://schema.org",

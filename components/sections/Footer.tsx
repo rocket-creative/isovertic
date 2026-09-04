@@ -31,6 +31,7 @@ const cols = [
     items: [
       ["How it works", "/how-it-works"],
       ["Results", "/results"],
+      ["Problems we solve", "/problems"],
       ["Pricing", "/pricing"],
       ["Field notes", "/field-notes"],
       ["Answers", "/answers"],
