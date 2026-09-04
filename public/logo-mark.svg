@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80" width="120" height="80">
   <title>ISOVERTIC mark</title>
   <circle cx="28" cy="52" r="14" fill="#0F2C3F"/>
-  <rect x="26" y="18" width="78" height="10" fill="#0F2C3F" transform="rotate(-30 26 23)"/>
+  <rect x="26" y="18" width="78" height="10" fill="#0AB1FF" transform="rotate(-30 26 23)"/>
 </svg>

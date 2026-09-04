@@ -13,7 +13,7 @@ export function organizationLd() {
     name: site.name,
     legalName: site.legalName,
     url: site.url,
-    logo: `${site.url}/logo-mark.svg`,
+    logo: `${site.url}/isovertic-logo.svg`,
     image: `${site.url}/og.png`,
     description: site.description,
     telephone: site.phone,
