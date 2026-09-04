@@ -12,7 +12,7 @@ import { problems } from "@/content/problems";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  const core = ["", "/how-it-works", "/pricing", "/protocol", "/about", "/answers", "/glossary", "/results", "/contact", "/long-island", "/field-notes", "/problems"];
+  const core = ["", "/how-it-works", "/pricing", "/protocol", "/about", "/answers", "/glossary", "/results", "/contact", "/long-island", "/field-notes", "/problems", "/start"];
   const urls: MetadataRoute.Sitemap = core.map((p) => ({
     url: `${site.url}${p}`,
     lastModified: now,

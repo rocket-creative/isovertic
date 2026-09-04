@@ -114,7 +114,7 @@ export const problems: Problem[] = [
     lead: "Traffic without meetings is a hobby. A site that converts under 1 percent of visitors is not a marketing problem, it is a page problem, and the page is usually failing for one of five reasons you can diagnose yourself before lunch.",
     callout: {
       label: "Where this lives",
-      body: "Landing pages built for the query ship inside the 90 day ramp on Catalyst and Kinetic. A full rebuild on our stack is included with a 6 or 12 month term or $15,000 up front. You own the code. Pricing is published.",
+      body: "Landing pages built for the query ship inside the 90 day ramp on Catalyst and Kinetic. A full rebuild on our stack is included with a 12 month term or $15,000 up front month to month. You own the code. Pricing is published.",
     },
     searchPhrases: ["website traffic but no leads", "website visitors not converting", "why is my website not generating leads", "low conversion rate B2B website", "traffic up conversions down"],
     sections: [
@@ -378,7 +378,7 @@ export const problems: Problem[] = [
     faqs: [
       { q: "Do we need backlinks?", a: "They help and we earn them with original data and editorial series rather than buying them. But page count and page quality move first, and most sites in this position have not done that work." },
       { q: "How many pages do we need?", a: "As many as there are questions your buyers ask. One client needed 147 hand built pages plus a 14,000 page catalog. A professional firm might need 40. The number comes from the query list, not from a template." },
-      { q: "Can you fix our current site or does it need a rebuild?", a: "If it renders on the server and carries schema, we add pages. If it does not, a rebuild on our stack is included with a 6 or 12 month term or $15,000 up front." },
+      { q: "Can you fix our current site or does it need a rebuild?", a: "If it renders on the server and carries schema, we add pages. If it does not, a rebuild on our stack is included with a 12 month term or $15,000 up front." },
     ],
     related: [{ label: "SEO and content", href: "/seo-content" }, { label: "How many pages to rank", href: "/answers/how-many-pages-does-a-site-need-to-rank" }, { label: "ITL case study", href: "/results/ingenious-targeting-laboratory" }],
   },
@@ -428,7 +428,7 @@ export const problems: Problem[] = [
     lead: "Every edit is a ticket. The hosting invoice comes from the agency. Nobody on your team has the login, and when you asked for the files, the answer was vague. Meanwhile the site takes four seconds to load on a phone and half your ad budget lands on it. This is a solvable problem, and the first step is legal, not technical.",
     callout: {
       label: "Where this lives",
-      body: "A full rebuild on our stack, Next.js, server rendered, schema on every page, is included with a 6 or 12 month term on any tier, or $15,000 up front. The repository, the domain, and the hosting accounts are yours from day one. Pricing is published.",
+      body: "A full rebuild on our stack, Next.js, server rendered, schema on every page, is included with a 12 month term on any tier, or $15,000 up front month to month. The repository, the domain, and the hosting accounts are yours from day one. Pricing is published.",
     },
     searchPhrases: ["agency owns my website", "how to get my website files from web designer", "web design company holding website hostage", "old website slow need rebuild cost", "who owns the website code agency or client"],
     sections: [
@@ -493,7 +493,7 @@ export const problems: Problem[] = [
     lead: "Every proposal you have received says it depends. It does depend, on your stage, your deal size, and your market, but the ranges are known, and the vendors who will not name them are protecting a sales process, not you. Here are the numbers, including ours.",
     callout: {
       label: "Where this lives",
-      body: "Four published tiers: Baseline $2,500, Catalyst $5,000, Kinetic $10,000, Critical Mass from $25,000, all per month, plus ad spend in your own accounts where the tier runs ads. Every add on is priced on the pricing page. No discovery call required to learn a price.",
+      body: "Four published tiers on a 12 month term: Baseline $2,500, Catalyst $5,000, Kinetic $10,000, Critical Mass from $25,000, all per month, plus ad spend in your own accounts where the tier runs ads. Month to month runs 20 percent higher and the term includes the $15,000 website. Every add on is priced on the pricing page. No discovery call required to learn a price.",
     },
     searchPhrases: ["how much should a small business spend on marketing", "marketing budget for a $5 million company", "what does outsourced marketing cost", "marketing and sales budget by revenue", "how much does lead generation cost per month"],
     sections: [
@@ -513,7 +513,7 @@ export const problems: Problem[] = [
     ],
     faqs: [
       { q: "Why do you publish pricing when nobody else does?", a: "Because our buyer is a founder who hates a wasted discovery call as much as we do, and because the page that answers the question everyone types and nobody answers is the page that ranks." },
-      { q: "Are there setup fees?", a: "No. Landing pages and campaign builds inside the ramp are included. The website build is priced in the term table: included on a 12 month term, or $15,000 up front." },
+      { q: "Are there setup fees?", a: "No. Landing pages and campaign builds inside the ramp are included. The website build is included on a 12 month term at every tier, or $15,000 up front month to month. The term costs what ten months cost month to month, so the site and two months come free with the year." },
       { q: "What is not included?", a: "Ad spend and media, which go to the platforms in your own accounts. Add ons like the MLR gate, the HIPAA stack, and extra outbound seats are priced individually on the pricing page." },
     ],
     related: [pricing, { label: "Outsourced sales and marketing cost", href: "/field-notes/outsourced-sales-marketing-cost" }, { label: "Agency vs in house", href: "/compare/agency-vs-in-house" }],
@@ -1311,7 +1311,7 @@ export const problems: Problem[] = [
     lead: "Either the marketing site lives in the product repo and every landing page is a sprint ticket that loses to a feature, or it lives on a page builder the engineers will not go near and it loads in four seconds with the wrong schema. Both are the same problem: nobody decided who owns the site or what it runs on. Decide both, and the fight ends.",
     callout: {
       label: "Where this lives",
-      body: "Every ISOVERTIC build ships on Next.js, TypeScript, and Vercel, server rendered, with content as typed data your engineers can read and marketing can edit. Included with a 6 or 12 month term or $15,000 up front. Repo is yours on day one. Pricing is published.",
+      body: "Every ISOVERTIC build ships on Next.js, TypeScript, and Vercel, server rendered, with content as typed data your engineers can read and marketing can edit. Included with a 12 month term or $15,000 up front month to month. Repo is yours on day one. Pricing is published.",
     },
     searchPhrases: ["who should own the marketing website engineering or marketing", "marketing site separate from product repo", "startup marketing website stack", "nextjs marketing site for startup", "engineers wont update marketing website"],
     sections: [

@@ -24,10 +24,16 @@ npm run dev
 | LEAD_NOTIFY_EMAIL | Where lead notifications go, for example georgestoff@rocketcreative.net |
 | LEAD_FROM_EMAIL | Verified sender, for example georgestoff@rocketcreative.net |
 | NEXT_PUBLIC_SITE_URL | https://isovertic.com |
+| STRIPE_SECRET_KEY | Stripe dashboard, Developers, API keys. Test key first |
+| STRIPE_WEBHOOK_SECRET | Stripe dashboard, Developers, Webhooks, endpoint /api/stripe/webhook |
 
 ## Supabase
 
 Run `supabase/schema.sql` in the Supabase SQL editor once. The leads table has RLS enabled with no public policies; only the server side service role key can write, from the server action in `app/contact/actions.ts`.
+
+## Stripe (self serve Baseline)
+
+Baseline checks out on `/start` with Stripe Checkout in subscription mode. Products and prices are created on first use from `content/tiers.ts` by lookup key, so switching from test to live keys needs no dashboard work. Add a webhook endpoint at `/api/stripe/webhook` for `checkout.session.completed`, `customer.subscription.updated`, `customer.subscription.deleted`, and `invoice.payment_failed`. After payment the buyer lands on `/welcome`, which verifies the session and shows the intake form; submissions go to `public.onboarding` and the notify email.
 
 ## Resend
 

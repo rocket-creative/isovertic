@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 };
 
 const steps = [
-  { n: "01", title: "Build", body: "The site is the asset every other step points at. We build on Next.js, server rendered, with schema on every page so Google and AI search can cite it. Catalyst and Kinetic get landing pages inside the ramp. The full website build comes with a 6 or 12 month term, or $15,000 up front." },
+  { n: "01", title: "Build", body: "The site is the asset every other step points at. We build on Next.js, server rendered, with schema on every page so Google and AI search can cite it. Catalyst and Kinetic get landing pages inside the ramp. The full website build comes with a 12 month term at every tier, or $15,000 up front month to month." },
   { n: "02", title: "Rank", body: "Content that answers the questions your buyers type and the questions AI search answers for them. A newsletter, a blog post, and social every month on Baseline, doubled on Catalyst, and a full content system with a YouTube channel on Kinetic. For biotech and healthcare clients, the MLR add on puts a named medical reviewer between draft and publish." },
   { n: "03", title: "Run", body: "Google Ads managed to a cost per meeting, not a cost per click. One campaign on Catalyst, multiple campaigns with A/B testing on Kinetic, and the search term report read weekly by a person, not a dashboard." },
   { n: "04", title: "Buy", body: "Streaming and broadcast TV bought in your own accounts, with an exposed versus control measurement plan so you can see whether it moved the number. Critical Mass only, with a $25,000 monthly media minimum." },
@@ -29,14 +29,14 @@ const steps = [
 ];
 
 const tierCols = [
-  { name: "Baseline", price: "$2,500" },
-  { name: "Catalyst", price: "$5,000" },
-  { name: "Kinetic", price: "$10,000" },
-  { name: "Critical Mass", price: "From $25,000" },
+  { name: "Baseline", price: "$2,500 on term, $3,000 monthly" },
+  { name: "Catalyst", price: "$5,000 on term, $6,000 monthly" },
+  { name: "Kinetic", price: "$10,000 on term, $12,000 monthly" },
+  { name: "Critical Mass", price: "From $25,000 on term, $30,000 monthly" },
 ];
 
 const tierRows = [
-  { step: "01 Build", cells: ["Website on a term, or $15,000", "Landing page plus website on a term", "Landing pages plus website on a term", "Per brand"] },
+  { step: "01 Build", cells: ["Website on a 12 month term, or $15,000", "Landing page plus website on a term", "Landing pages plus website on a term", "Per brand"] },
   { step: "02 Rank", cells: ["Newsletter, blog, social", "Doubled social", "Full content system plus YouTube", "Per brand"] },
   { step: "03 Run", cells: ["·", "One Google Ads campaign", "Multiple campaigns, A/B tested", "Per brand"] },
   { step: "04 Buy", cells: ["·", "·", "·", "Streaming and broadcast TV"] },

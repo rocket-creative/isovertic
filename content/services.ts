@@ -115,7 +115,7 @@ export const services: Page[] = [
     lead: "Every ad click, every cold email reply, every referral ends up on your website doing diligence. If the site is slow, vague, or invisible to AI search, everything upstream gets more expensive. We design and build sites that close the loop: fast, server rendered, schema complete, and written to convert the traffic the rest of the system creates.",
     callout: {
       label: "Where this lives",
-      body: "Landing pages are built inside the ramp on Catalyst and Kinetic. The full website build on our stack comes with a 6 or 12 month term on any tier, or $15,000 up front. You own the code and the domain either way. Pricing is published.",
+      body: "Landing pages are built inside the ramp on Catalyst and Kinetic. The full website build on our stack comes with a 12 month term on any tier, or $15,000 up front month to month. You own the code and the domain either way. Pricing is published.",
     },
     sections: [
       { h2: "The stack, stated plainly", body: [

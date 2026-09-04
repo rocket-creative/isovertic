@@ -40,7 +40,7 @@ Some companies want the system and their own hands on it. Educate is one or two 
 
 ## What it costs
 
-Channel vendors run $2,000 to $10,000 a month for SEO and $1,500 to $7,500 for Google Ads management at credible quality, plus your spend. Standalone appointment setting runs $5,000 to $15,000 a month. An in house marketing lead costs $130,000 plus before tax and software, an SDR $70,000 to $90,000 loaded. Our tiers: Baseline $2,500 for the content program, Catalyst $5,000 plus ad spend with one campaign and a landing page, Kinetic $10,000 plus ad spend for the full pipeline with an outbound seat and a meeting number in writing, and Critical Mass from $25,000 plus media for multiple brands and TV. A 12 month term includes the $15,000 website build; month to month pays it up front. Every price is on the pricing page.
+Channel vendors run $2,000 to $10,000 a month for SEO and $1,500 to $7,500 for Google Ads management at credible quality, plus your spend. Standalone appointment setting runs $5,000 to $15,000 a month. An in house marketing lead costs $130,000 plus before tax and software, an SDR $70,000 to $90,000 loaded. Our tiers: Baseline $2,500 for the content program, Catalyst $5,000 plus ad spend with one campaign and a landing page, Kinetic $10,000 plus ad spend for the full pipeline with an outbound seat and a meeting number in writing, and Critical Mass from $25,000 plus media for multiple brands and TV. Those are the 12 month term prices; month to month runs 20 percent higher. The term includes the $15,000 website build; month to month pays it up front. Every price is on the pricing page.
 
 ## The vetting questions
 

@@ -24,11 +24,11 @@ A marketing manager at $110,000 to $140,000, loaded to roughly $140,000 to $175,
 
 ## Full pipeline firms, including ours
 
-Firms that run the whole system, site, content, ads, media, and outbound, price between the sum of the channel parts and the in house stack. Ours: $2,500 monthly for the content program, $5,000 with a Google Ads campaign and a landing page, $10,000 for the full pipeline with an outbound seat and a meeting commitment in writing, and from $25,000 with TV and media buying across multiple brands, each on a 90 day ramp with deliverables in writing. We publish these because the question deserves an answer on a page, not a pitch.
+Firms that run the whole system, site, content, ads, media, and outbound, price between the sum of the channel parts and the in house stack. Ours, on a 12 month term: $2,500 monthly for the content program, $5,000 with a Google Ads campaign and a landing page, $10,000 for the full pipeline with an outbound seat and a meeting commitment in writing, and from $25,000 with TV and media buying across multiple brands. Month to month runs 20 percent higher. Each is on a 90 day ramp with deliverables in writing. We publish these because the question deserves an answer on a page, not a pitch.
 
 ## What the term does to the price
 
-The website build is $15,000 on our stack: Next.js, server rendered, schema on every page. Month to month, you pay it up front. On a 6 month term it is included at Catalyst and above. On a 12 month term it is included at every tier, and hosting comes with it. A company that knows it will run the program for a year pays $15,000 less than one that keeps its options open, which is the honest price of optionality.
+The website build is $15,000 on our stack: Next.js, server rendered, schema on every page. Month to month, you pay it up front. On a 12 month term it is included at every tier, hosting comes with it, and the term itself costs what ten months cost month to month: Baseline is $3,000 monthly or $2,500 on term, Catalyst $6,000 or $5,000, Kinetic $12,000 or $10,000, Critical Mass from $30,000 or $25,000. A company that knows it will run the program for a year pays two months less and gets the site, which is the honest price of optionality.
 
 ## Cost per meeting, the number that matters
 
