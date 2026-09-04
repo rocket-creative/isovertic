@@ -33,6 +33,8 @@ const cols = [
       ["Results", "/results"],
       ["Pricing", "/pricing"],
       ["Field notes", "/field-notes"],
+      ["Answers", "/answers"],
+      ["Glossary", "/glossary"],
       ["About", "/about"],
       ["Long Island", "/long-island"],
       ["Contact", "/contact"],

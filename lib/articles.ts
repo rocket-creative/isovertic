@@ -7,6 +7,9 @@ export type Article = {
   description: string;
   primaryKeyword: string;
   datePublished: string;
+  dateModified: string;
+  author: string; // people slug
+  reviewedBy?: string; // people slug
   body: string; // markdown after the H1
 };
 
@@ -41,6 +44,9 @@ function parseArticle(raw: string): Article {
     description: meta.description || "",
     primaryKeyword: meta.primaryKeyword || "",
     datePublished: meta.datePublished || "2026-06-12",
+    dateModified: meta.dateModified || meta.datePublished || "2026-06-12",
+    author: meta.author || "george-stoff",
+    reviewedBy: meta.reviewedBy || undefined,
     body,
   };
 }

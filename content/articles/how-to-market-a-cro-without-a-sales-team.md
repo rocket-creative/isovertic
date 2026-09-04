@@ -4,6 +4,7 @@ title: How to Market a CRO Without a Sales Team
 description: Written from a decade selling for a genetic engineering CRO. How researchers actually buy, why 147 pages beat 12, who to call in the lab, and which tier a $3 million CRO starts on.
 primaryKeyword: how to market a CRO
 datePublished: 2026-09-04
+author: kristen-coughlin
 ---
 
 # How to Market a CRO Without a Sales Team

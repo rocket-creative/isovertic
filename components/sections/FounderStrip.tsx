@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { site } from "@/lib/site";
 
 export function FounderStrip() {
@@ -9,7 +10,9 @@ export function FounderStrip() {
             GS
           </div>
           <div>
-            <p className="font-display text-[16px] font-medium">{site.founder}, Founder and Lead Engineer</p>
+            <p className="font-display text-[16px] font-medium">
+              <Link href="/people/george-stoff" className="hover:text-signal">{site.founder}</Link>, Founder and Lead Engineer
+            </p>
             <p className="text-[13px] text-ink-soft">Thirty years building software, brands, and demand. On every account.</p>
           </div>
         </div>

@@ -4,6 +4,8 @@ title: MLR Review for Marketing Content: A Workflow That Ships Weekly
 description: Medical, legal, and regulatory review averages 14.8 days per job across the industry and 50 to 60 at large pharma. How a smaller company runs it weekly with a named reviewer, a claim library, and a sign off log.
 primaryKeyword: MLR review process for marketing content
 datePublished: 2026-09-11
+author: george-stoff
+reviewedBy: kristen-coughlin
 ---
 
 # MLR Review for Marketing Content: A Workflow That Ships Weekly
