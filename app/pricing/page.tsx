@@ -5,6 +5,7 @@ import { CTABand } from "@/components/sections/CTABand";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { faqLd, breadcrumbLd } from "@/lib/schema";
 import { Arrow } from "@/components/ui/Arrow";
+import { educateGridCell } from "@/content/system";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -90,7 +91,7 @@ const tierRows = [
   { step: "03 Run", cells: ["·", "One Google Ads campaign", "Multiple campaigns, A/B tested", "Per brand"] },
   { step: "04 Buy", cells: ["·", "·", "·", "Streaming and broadcast TV"] },
   { step: "05 Book", cells: ["·", "Add on seat $4,500", "One seat, meeting number in writing", "Two seats"] },
-  { step: "06 Close", cells: ["You", "You", "You", "You"] },
+  { step: "06 Educate", cells: [educateGridCell, educateGridCell, educateGridCell, educateGridCell] },
 ];
 
 const termCols = ["90 day ramp, then monthly", "6 month term", "12 month term"];
@@ -134,7 +135,7 @@ const protocolTiers = [
     includes: [
       "Two days onsite plus one prep day at your office",
       "Audit of your current process, tool stack, and CRM before we arrive",
-      "All six steps taught, plus a developer track on our build rules and agent briefs",
+      "All five steps taught, plus a developer track on our build rules and agent briefs",
       "Runbook library rewritten to your tools, your approval chain, and your named medical reviewer",
     ],
   },
@@ -157,14 +158,14 @@ export default function Pricing() {
         lead="Nobody in this category publishes pricing, which tells you something about how they sell. Here is ours. Four tiers, the add ons, the multi brand discount, and the term table are all below. You will not leave this page wondering whether we fit your budget."
       />
       <Section label="Tiers">
-        <div className="grid gap-px bg-rule lg:grid-cols-2 xl:grid-cols-4">
+        <div className="grid auto-rows-fr gap-px bg-rule lg:grid-cols-2 xl:grid-cols-4">
           {tiers.map((t, i) => (
-            <RevealBlock key={t.name} delay={i * 80} className={`flex flex-col p-8 ${t.featured ? "bg-slate text-ink" : "bg-background"}`}>
+            <RevealBlock key={t.name} delay={i * 80} className={`flex h-full flex-col p-8 ${t.featured ? "bg-slate text-ink" : "bg-background"}`}>
               <p className={`eyebrow ${t.featured ? "!text-signal" : ""}`}>{t.name}</p>
               <p className="mt-5 font-display text-[clamp(28px,3vw,40px)] font-semibold leading-none">{t.price}</p>
               <p className="mt-2 text-[13px] text-ink-soft">{t.per}</p>
               <p className="mt-6 text-[15px] leading-relaxed text-ink/90">{t.for}</p>
-              <ul className={`mt-6 space-y-3 border-t pt-6 text-[14px] leading-relaxed text-ink-soft ${t.featured ? "border-ink/15" : "border-rule"}`}>
+              <ul className={`mt-6 grow space-y-3 border-t pt-6 text-[14px] leading-relaxed text-ink-soft ${t.featured ? "border-ink/15" : "border-rule"}`}>
                 {t.includes.map((x) => (
                   <li key={x} className="flex gap-3"><span aria-hidden="true">·</span>{x}</li>
                 ))}
@@ -280,14 +281,14 @@ export default function Pricing() {
           <p className="eyebrow">For teams that run it themselves</p>
           <h2 className="mt-4 font-display text-h2 font-medium">Protocol. The system, taught at your office.</h2>
         </RevealBlock>
-        <div className="mt-12 grid gap-px bg-rule lg:grid-cols-2">
+        <div className="mt-12 grid auto-rows-fr gap-px bg-rule lg:grid-cols-2">
           {protocolTiers.map((t, i) => (
-            <RevealBlock key={t.name} delay={i * 100} className="flex flex-col bg-background p-8">
+            <RevealBlock key={t.name} delay={i * 100} className="flex h-full flex-col bg-background p-8">
               <p className="eyebrow">{t.name}</p>
               <p className="mt-5 font-display text-[clamp(28px,3vw,40px)] font-semibold leading-none">{t.price}</p>
               <p className="mt-2 text-[13px] text-ink-soft">{t.per}</p>
               <p className="mt-6 text-[15px] leading-relaxed text-ink/90">{t.for}</p>
-              <ul className="mt-6 space-y-3 border-t border-rule pt-6 text-[14px] leading-relaxed text-ink-soft">
+              <ul className="mt-6 grow space-y-3 border-t border-rule pt-6 text-[14px] leading-relaxed text-ink-soft">
                 {t.includes.map((x) => (
                   <li key={x} className="flex gap-3"><span aria-hidden="true">·</span>{x}</li>
                 ))}

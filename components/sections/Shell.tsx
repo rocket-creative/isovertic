@@ -16,7 +16,7 @@ export function Section({
     <section className={`${deferred ? "section-deferred" : ""} relative ${className}`}>
       <div className="mx-auto grid max-w-[1440px] gap-8 px-5 py-20 sm:px-8 lg:grid-cols-[48px_1fr] lg:py-28 xl:px-16">
         <div className="hidden lg:block" aria-hidden="true">
-          {label && <span className="sidebar-label sticky top-28">{label}</span>}
+          {label && <span className="sidebar-label sticky top-28 lg:top-36">{label}</span>}
         </div>
         <div>{children}</div>
       </div>
@@ -26,7 +26,7 @@ export function Section({
 
 export function PageHero({ eyebrow, h1, lead }: { eyebrow: string; h1: ReactNode; lead?: string }) {
   return (
-    <section className="border-b border-rule pt-[calc(var(--spacing-safe-top)+6.5rem)] lg:pt-[calc(var(--spacing-safe-top)+7rem)]">
+    <section className="border-b border-rule pt-[calc(var(--spacing-safe-top)+6.5rem)] lg:pt-[calc(var(--spacing-safe-top)+9.25rem)]">
       <div className="mx-auto max-w-[1440px] px-5 pb-14 sm:px-8 xl:px-16">
         <p className="eyebrow">{eyebrow}</p>
         <h1 className="mt-5 max-w-[18ch] font-display text-h1 font-medium">{h1}</h1>

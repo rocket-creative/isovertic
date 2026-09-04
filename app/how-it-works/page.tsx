@@ -6,13 +6,16 @@ import { FAQ } from "@/components/ui/FAQ";
 import { Arrow } from "@/components/ui/Arrow";
 import { CTABand } from "@/components/sections/CTABand";
 import { FounderStrip } from "@/components/sections/FounderStrip";
+import { AiHuman } from "@/components/sections/AiHuman";
+import { WhyBuyers } from "@/components/sections/WhyBuyers";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { faqLd, breadcrumbLd } from "@/lib/schema";
+import { closeNote, educateGridCell, systemNote } from "@/content/system";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: { absolute: "How the ISOVERTIC System Works | Six Steps, One Number" },
-  description: "Every engagement uses the same six step system. The tier sets which steps we operate. Build, Rank, Run, Buy, Book, Close. Pricing is published.",
+  description: "Every engagement uses the same six step system. The tier sets which steps we operate. Build, Rank, Run, Buy, Book, Educate. Pricing is published.",
   alternates: { canonical: "/how-it-works" },
 };
 
@@ -22,7 +25,7 @@ const steps = [
   { n: "03", title: "Run", body: "Google Ads managed to a cost per meeting, not a cost per click. One campaign on Catalyst, multiple campaigns with A/B testing on Kinetic, and the search term report read weekly by a person, not a dashboard." },
   { n: "04", title: "Buy", body: "Streaming and broadcast TV bought in your own accounts, with an exposed versus control measurement plan so you can see whether it moved the number. Critical Mass only, with a $25,000 monthly media minimum." },
   { n: "05", title: "Book", body: "Outbound sequences, cold calls, and a qualified meeting on your calendar with the objection intelligence fed back into the site and the ads. One seat on Kinetic with a meeting number in writing. Two seats on Critical Mass. Catalyst can add a seat for $4,500 a month." },
-  { n: "06", title: "Close", body: "Yours. We book it, brief you, and step out. The runbook has a handoff step so the meeting lands with the context that produced it." },
+  { n: "06", title: "Educate", body: "Your team, taught the system at your office, with the runbooks rewritten in your brand and licensed to you for internal use. One or two days onsite. Bought on its own as Protocol at $5,000 or $20,000, or added to any tier for $3,500. This is the step for companies that want the system and their own hands on it. Then you close: we book the meeting, brief you, and step out." },
 ];
 
 const tierCols = [
@@ -38,7 +41,7 @@ const tierRows = [
   { step: "03 Run", cells: ["·", "One Google Ads campaign", "Multiple campaigns, A/B tested", "Per brand"] },
   { step: "04 Buy", cells: ["·", "·", "·", "Streaming and broadcast TV"] },
   { step: "05 Book", cells: ["·", "Add on seat $4,500", "One seat, meeting number in writing", "Two seats"] },
-  { step: "06 Close", cells: ["You", "You", "You", "You"] },
+  { step: "06 Educate", cells: [educateGridCell, educateGridCell, educateGridCell, educateGridCell] },
 ];
 
 const ramp = [
@@ -65,8 +68,11 @@ export default function HowItWorks() {
       <Section label="The system">
         <PipelineDiagram />
         <RevealBlock className="mt-8">
-          <p className="max-w-[62ch] leading-relaxed text-ink/90">
-            Pick a tier and we run the steps in it. Baseline runs step two. Catalyst runs one through three. Kinetic runs everything but TV. Critical Mass runs all of it, per brand. The pricing page shows the grid.
+          <p className="max-w-[62ch] font-display text-[18px] font-medium leading-snug text-ink">
+            {closeNote}
+          </p>
+          <p className="mt-5 max-w-[62ch] leading-relaxed text-ink/90">
+            {systemNote}
           </p>
         </RevealBlock>
       </Section>
@@ -83,6 +89,8 @@ export default function HowItWorks() {
           ))}
         </ol>
       </Section>
+      <AiHuman />
+      <WhyBuyers />
       <Section label="The tier grid" className="border-t border-rule">
         <RevealBlock>
           <h2 className="font-display text-h2 font-medium">Which steps each tier runs</h2>

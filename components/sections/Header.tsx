@@ -40,33 +40,36 @@ export function Header() {
       </a>
       <header
         className={`site-header fixed inset-x-0 top-0 z-50 pt-safe-top transition-colors duration-300 ${
-          scrolled ? "bg-background/85 backdrop-blur border-b border-rule" : "bg-transparent border-b border-transparent"
-        }`}
+          scrolled ? "bg-background/85 backdrop-blur" : "bg-transparent"
+        } ${scrolled ? "border-b border-rule lg:border-b-0" : "border-b border-transparent"}`}
       >
-        <div className="mx-auto flex h-[5.5rem] max-w-[1440px] items-center justify-between px-5 sm:px-8 xl:px-16">
-          <Link href="/" className="flex items-center select-none" aria-label={`${site.name} home`}>
-            <BrandLogo priority className="h-[3.5rem] w-auto" />
-          </Link>
-          <nav className="hidden items-center gap-8 text-[13px] uppercase tracking-[0.1em] lg:flex" aria-label="Primary">
+        <div className="mx-auto max-w-[1440px] px-5 sm:px-8 xl:px-16">
+          <div className="flex h-[5.5rem] items-center justify-between lg:h-[4.75rem]">
+            <Link href="/" className="flex items-center select-none" aria-label={`${site.name} home`}>
+              <BrandLogo priority className="h-[3.5rem] w-auto" />
+            </Link>
+            <Link href="/contact" className="btn btn-solid !min-h-[44px] !px-5 hidden lg:inline-flex">
+              Book a pipeline call
+            </Link>
+            <button
+              className="-mr-2 flex h-11 w-11 flex-col items-center justify-center gap-[5px] lg:hidden"
+              onClick={() => setOpen(true)}
+              aria-label="Open menu"
+              aria-expanded={open}
+            >
+              <span className="block h-[1px] w-6 bg-current" />
+              <span className="block h-[1px] w-6 bg-current" />
+              <span className="block h-[1px] w-4 self-start ml-[10px] bg-current" />
+            </button>
+          </div>
+          <div className="hidden border-t border-rule lg:block" />
+          <nav className="hidden h-12 items-center justify-end gap-8 text-[13px] uppercase tracking-[0.1em] lg:flex" aria-label="Primary">
             {links.map((l) => (
               <Link key={l.href} href={l.href} className="nav-link">
                 {l.label}
               </Link>
             ))}
-            <Link href="/contact" className="btn btn-solid !min-h-[44px] !px-5">
-              Book a pipeline call
-            </Link>
           </nav>
-          <button
-            className="-mr-2 flex h-11 w-11 flex-col items-center justify-center gap-[5px] lg:hidden"
-            onClick={() => setOpen(true)}
-            aria-label="Open menu"
-            aria-expanded={open}
-          >
-            <span className="block h-[1px] w-6 bg-current" />
-            <span className="block h-[1px] w-6 bg-current" />
-            <span className="block h-[1px] w-4 self-start ml-[10px] bg-current" />
-          </button>
         </div>
       </header>
 

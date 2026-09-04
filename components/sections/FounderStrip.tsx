@@ -9,8 +9,8 @@ export function FounderStrip() {
             GS
           </div>
           <div>
-            <p className="font-display text-[16px] font-medium">{site.founder}, Founder</p>
-            <p className="text-[13px] text-ink-soft">Thirty years building brands, products, and demand. On every account.</p>
+            <p className="font-display text-[16px] font-medium">{site.founder}, Founder and Lead Engineer</p>
+            <p className="text-[13px] text-ink-soft">Thirty years building software, brands, and demand. On every account.</p>
           </div>
         </div>
         <a href={site.linkedin} rel="noopener noreferrer" className="cta-link">

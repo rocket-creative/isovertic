@@ -8,7 +8,7 @@ const stations = [
   { k: "RUN", label: "Google Ads to a cost per meeting", href: "/google-ads" },
   { k: "BUY", label: "Media including streaming and TV", href: "/tv-ctv-advertising" },
   { k: "BOOK", label: "Outbound meetings on your calendar", href: "/outbound-appointment-setting" },
-  { k: "CLOSE", label: "Yours. The only step we do not take." },
+  { k: "EDUCATE", label: "Your team trained, runbooks in your brand", href: "/protocol" },
 ] as const;
 
 export function PipelineDiagram() {
@@ -44,7 +44,7 @@ export function PipelineDiagram() {
             style={{ transition: "stroke-dashoffset 1600ms cubic-bezier(0.16,1,0.3,1)" }}
           />
           {stations.map((_, i) => (
-            <rect key={i} x={1000 / (n + 1) * (i + 1) - 3} y="20" width="6" height="16" fill="#6B1C28"
+            <rect key={i} x={1000 / (n + 1) * (i + 1) - 3} y="20" width="6" height="16" fill="var(--color-signal)"
               opacity={on ? 1 : 0}
               style={{ transition: `opacity 400ms ease ${500 + i * 180}ms` }}
             />

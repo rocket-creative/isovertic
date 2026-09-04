@@ -1,6 +1,5 @@
 import { PageHero, Section } from "@/components/sections/Shell";
 import { RevealBlock } from "@/components/ui/RevealBlock";
-import { BrandLogo } from "@/components/ui/Logo";
 import { CTABand } from "@/components/sections/CTABand";
 import { FounderStrip } from "@/components/sections/FounderStrip";
 import { JsonLd } from "@/components/ui/JsonLd";
@@ -32,16 +31,22 @@ export default function About() {
         </RevealBlock>
       </Section>
       <Section label="Founder" className="border-t border-rule">
-        <div className="grid items-start gap-12 lg:grid-cols-[260px_1fr]">
-          <RevealBlock>
-            <BrandLogo className="h-24 w-auto" />
-          </RevealBlock>
-          <RevealBlock delay={120} className="max-w-[68ch]">
-            <h2 className="font-display text-h2 font-medium">{site.founder}</h2>
-            <p className="mt-6 leading-relaxed text-ink/90">George Stoff has spent more than 30 years building across disciplines most firms treat as separate trades: brand and design, web and software development, photography and media production, search and content systems, and sales programs that put meetings on calendars. He has operated agencies, built and shipped SaaS products, run media brands, and managed go to market for healthcare, biotech, and professional service companies.</p>
-            <p className="mt-5 leading-relaxed text-ink/90">ISOVERTIC exists because every owner he worked with was buying these capabilities in pieces, from vendors who never spoke, and wondering why the pieces never became a pipeline.</p>
-          </RevealBlock>
-        </div>
+        <RevealBlock className="max-w-[68ch]">
+          <h2 className="font-display text-h2 font-medium">{site.founder}, Founder and Lead Engineer</h2>
+          <p className="mt-6 leading-relaxed text-ink/90">George Stoff is a full stack engineer and founder. He has spent more than 30 years building the systems companies sell through: production software on Next.js, TypeScript, and Supabase, server rendered sites with thousands of schema backed pages, the data pipelines that feed outbound, and the ad and content systems that run on top of them. He writes the build briefs our coding agents execute. He has shipped SaaS products of his own, operated agencies, run media brands, and managed go to market for healthcare, biotech, and professional service companies. He has written more pages about mouse models than most people who make them.</p>
+          <p className="mt-5 leading-relaxed text-ink/90">ISOVERTIC exists because every owner he worked with was buying these capabilities in pieces, from vendors who never spoke, and wondering why the pieces never became a pipeline.</p>
+        </RevealBlock>
+      </Section>
+      <Section label="Operations" className="border-t border-rule">
+        <RevealBlock className="max-w-[68ch]">
+          <h2 className="font-display text-h2 font-medium">Kristen Coughlin, Chief Operating Officer</h2>
+          <p className="mt-6 leading-relaxed text-ink/90">
+            Kristen Coughlin is Chief Operating Officer at ISOVERTIC, bringing a powerful combination of scientific discipline and business acumen to the agency&apos;s operations. A trained molecular biologist who completed her graduate laboratory work at Stony Brook University, Kristen spent more than a decade driving sales, marketing, and business development at Ingenious Targeting Laboratory, a CRO specializing in genetic engineering and translational product development. Most recently, she managed complex institutional operations in the Department of Microbial Pathogenesis at the Yale School of Medicine.
+          </p>
+          <p className="mt-5 leading-relaxed text-ink/90">
+            Under her operational leadership, ISOVERTIC builds your digital presence, automates leads for your SaaS or physical products, and books appointments with qualified prospects to consistently drive your sales.
+          </p>
+        </RevealBlock>
       </Section>
       <Section label="Who we serve" className="border-t border-rule">
         <RevealBlock className="max-w-[68ch]">

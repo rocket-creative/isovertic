@@ -9,8 +9,11 @@ import { Section } from "@/components/sections/Shell";
 import { FAQ } from "@/components/ui/FAQ";
 import { CTABand } from "@/components/sections/CTABand";
 import { FounderStrip } from "@/components/sections/FounderStrip";
+import { AiHuman } from "@/components/sections/AiHuman";
+import { WhyBuyers } from "@/components/sections/WhyBuyers";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { faqLd } from "@/lib/schema";
+import { closeNote, systemNote } from "@/content/system";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -25,7 +28,7 @@ const homeFaqs = [
   { q: "How is this different from an appointment setting company?", a: "Appointment setters book meetings into whatever you already have. If the website is weak and the brand is invisible, those meetings show up cold and close poorly. We build the asset and the air cover, then book the meetings into a system designed to convert them." },
   { q: "What does it cost?", a: "Engagements start at $2,500 per month for content and run to $25,000 and up for multi brand programs with TV. Every tier, every add on, and the term table are on the pricing page, because you should not need a discovery call to learn a price." },
   { q: "Which tier should we start on?", a: "If you publish nothing today, Baseline. If you have a site and no paid demand, Catalyst. If you need meetings this quarter, Kinetic. If you run more than one brand or want TV, Critical Mass. Wrong tier, we move you. The ramp is 90 days, not a year." },
-  { q: "What if we already have an in house team?", a: "Then we teach them. Protocol is one or two days at your office where your team learns the six step system and leaves with our runbooks in your brand. It starts at $5,000 and is priced on the page." },
+  { q: "What if we already have an in house team?", a: "Then we teach them. That is step six, Protocol: one or two days at your office where your team learns the system and leaves with our runbooks in your brand. It starts at $5,000 and is priced on the page." },
   { q: "Where are you located?", a: "Long Island, New York. We serve clients nationally." },
 ];
 
@@ -36,12 +39,7 @@ export default function Home() {
 
       {/* Hero */}
       <section className="relative overflow-hidden border-b border-rule">
-        <div className="hero-drift pointer-events-none absolute inset-x-0 top-[8%] hidden xl:block" aria-hidden="true">
-          <div className="mx-auto max-w-[1440px] px-16">
-            <div className="iso-mark opacity-60" />
-          </div>
-        </div>
-        <div className="mx-auto max-w-[1440px] px-5 pb-8 pt-[calc(var(--spacing-safe-top)+5.625rem)] sm:px-8 sm:pb-10 xl:px-16">
+        <div className="mx-auto max-w-[1440px] px-5 pb-8 pt-[calc(var(--spacing-safe-top)+5.625rem)] sm:px-8 sm:pb-10 lg:pt-[calc(var(--spacing-safe-top)+8.25rem)] xl:px-16">
           <p className="eyebrow hero-sub">Growth firm · Long Island, NY · Scientists, startups, and healthcare brands</p>
           <h1 className="mt-2 max-w-[12ch] font-display text-[clamp(36px,5.8vw,88px)] font-semibold leading-[0.96] tracking-[-0.02em]">
             <SplitHeadline text="We build your pipeline." />
@@ -80,11 +78,17 @@ export default function Home() {
           <PipelineDiagram />
         </div>
         <RevealBlock className="mt-8">
-          <p className="max-w-[62ch] leading-relaxed text-ink/90">
-            Pick a tier and we run the steps in it. Baseline runs step two. Catalyst runs one through three. Kinetic runs everything but TV. Critical Mass runs all of it, per brand. The pricing page shows the grid.
+          <p className="max-w-[62ch] font-display text-[18px] font-medium leading-snug text-ink">
+            {closeNote}
+          </p>
+          <p className="mt-5 max-w-[62ch] leading-relaxed text-ink/90">
+            {systemNote}
           </p>
         </RevealBlock>
       </Section>
+
+      <AiHuman />
+      <WhyBuyers />
 
       {/* Proof */}
       <Section label="Proof" className="border-t border-rule">
@@ -100,7 +104,7 @@ export default function Home() {
       </Section>
 
       {/* Commitment */}
-      <section className="section-deferred border-t border-rule bg-slate text-ink">
+      <section className="section-deferred border-t border-rule bg-slate-soft text-ink">
         <div className="mx-auto max-w-[1440px] px-5 py-24 sm:px-8 xl:px-16">
           <RevealBlock>
             <p className="eyebrow">The commitment</p>

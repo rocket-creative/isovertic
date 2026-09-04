@@ -4,7 +4,7 @@ import { RevealBlock } from "@/components/ui/RevealBlock";
 
 export function CTABand() {
   return (
-    <section className="bg-slate text-ink">
+    <section className="bg-slate-soft text-ink">
       <div className="mx-auto max-w-[1440px] px-5 py-24 sm:px-8 xl:px-16">
         <RevealBlock>
           <p className="eyebrow">The division of labor</p>
