@@ -2,40 +2,63 @@
 
 import { createClient } from "@supabase/supabase-js";
 import { Resend } from "resend";
+import { formCopy } from "@/content/form";
 
 export type LeadState = { ok: boolean; error?: string } | null;
 
-export async function submitLead(_prev: LeadState, formData: FormData): Promise<LeadState> {
-  const name = String(formData.get("name") || "").trim();
-  const email = String(formData.get("email") || "").trim();
-  const company = String(formData.get("company") || "").trim();
-  const tier = String(formData.get("tier") || "").trim();
-  const clinicalClaims = String(formData.get("clinical_claims") || "").trim();
-  const messageRaw = String(formData.get("message") || "").trim();
-  const sourcePath = String(formData.get("source_path") || "/contact");
-  const honey = String(formData.get("website") || ""); // honeypot
+function text(formData: FormData, key: string) {
+  return String(formData.get(key) || "").trim();
+}
 
-  if (honey) return { ok: true }; // silently drop bots
-  if (!name || !email || !/.+@.+\..+/.test(email)) {
-    return { ok: false, error: "A name and a working email are required." };
+export async function submitLead(_prev: LeadState, formData: FormData): Promise<LeadState> {
+  const name = text(formData, "name");
+  const email = text(formData, "email");
+  const companyWebsite = text(formData, "company_website");
+  const industry = text(formData, "industry");
+  const tier = text(formData, "tier");
+  const marketingSpend = text(formData, "marketing_spend");
+  const startWhen = text(formData, "start_when");
+  const clinicalClaims = text(formData, "clinical_claims");
+  const salesOwner = text(formData, "sales_owner");
+  const messageRaw = text(formData, "message");
+  const foundUs = text(formData, "found_us");
+  const sourcePath = text(formData, "source_path") || "/contact";
+  const honey = text(formData, "hp_url");
+
+  if (honey) return { ok: true };
+  if (!name || !email || !/.+@.+\..+/.test(email) || !companyWebsite) {
+    return { ok: false, error: formCopy.error };
   }
 
-  const messageParts = [
-    messageRaw ? `Number to move:\n${messageRaw}` : "",
+  const details = [
+    `Website: ${companyWebsite}`,
+    `Industry: ${industry || "Pick one"}`,
     `Tier: ${tier || "Not sure yet"}`,
+    `Marketing spend: ${marketingSpend || "Pick one"}`,
+    `Start: ${startWhen || "Pick one"}`,
     `Clinical claims: ${clinicalClaims || "Not sure"}`,
-  ].filter(Boolean);
-  const message = messageParts.join("\n\n");
+    `Who closes: ${salesOwner || "Pick one"}`,
+    `Found us: ${foundUs || "Pick one"}`,
+    `From page: ${sourcePath}`,
+    "",
+    "What number are they trying to move:",
+    messageRaw || "(blank)",
+  ].join("\n");
 
   const errors: string[] = [];
 
-  // 1. Store in Supabase (service role, server only)
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
   if (url && key) {
     try {
       const supabase = createClient(url, key, { auth: { persistSession: false } });
-      const { error } = await supabase.from("leads").insert({ name, email, company, message, source_path: sourcePath });
+      const { error } = await supabase.from("leads").insert({
+        name,
+        email,
+        company: companyWebsite,
+        message: details,
+        source_path: sourcePath,
+      });
       if (error) errors.push(`supabase: ${error.message}`);
     } catch (e) {
       errors.push(`supabase: ${(e as Error).message}`);
@@ -44,7 +67,6 @@ export async function submitLead(_prev: LeadState, formData: FormData): Promise<
     errors.push("supabase env missing");
   }
 
-  // 2. Notify via Resend
   const resendKey = process.env.RESEND_API_KEY;
   const to = process.env.LEAD_NOTIFY_EMAIL;
   const from = process.env.LEAD_FROM_EMAIL || "georgestoff@rocketcreative.net";
@@ -55,8 +77,8 @@ export async function submitLead(_prev: LeadState, formData: FormData): Promise<
         from: `ISOVERTIC <${from}>`,
         to,
         replyTo: email,
-        subject: `Pipeline call request: ${name}${company ? ` (${company})` : ""}`,
-        text: `Name: ${name}\nEmail: ${email}\nCompany: ${company}\nTier: ${tier || "Not sure yet"}\nClinical claims: ${clinicalClaims || "Not sure"}\nFrom page: ${sourcePath}\n\nWhat number are they trying to move:\n${messageRaw || "(blank)"}`,
+        subject: `Pipeline call request: ${name} (${companyWebsite})`,
+        text: `Name: ${name}\nEmail: ${email}\n${details}`,
       });
     } catch (e) {
       errors.push(`resend: ${(e as Error).message}`);
@@ -67,6 +89,10 @@ export async function submitLead(_prev: LeadState, formData: FormData): Promise<
 
   if (errors.length === 2) {
     console.error("Lead delivery failed entirely:", errors);
+    if (process.env.NODE_ENV !== "production") {
+      console.warn("Lead captured in development without Supabase or Resend:", { name, email, companyWebsite, details });
+      return { ok: true };
+    }
     return { ok: false, error: "Something failed on our side. Email georgestoff@rocketcreative.net directly and we will take the hint about our own form." };
   }
   if (errors.length) console.warn("Lead partially delivered:", errors);
