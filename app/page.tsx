@@ -39,7 +39,7 @@ export default function Home() {
       <JsonLd data={faqLd(homeFaqs)} />
 
       {/* Hero */}
-      <section className="relative overflow-hidden border-b border-rule">
+      <section className="relative overflow-hidden border-b border-rule bg-bright">
         <div className="hero-top mx-auto max-w-[1440px] gutter pb-14 sm:pb-16">
           <p className="eyebrow hero-sub">Growth firm · Long Island, NY · Scientists, startups, and healthcare brands</p>
           <h1 className="mt-2 max-w-[12ch] font-display text-[clamp(36px,5.8vw,88px)] font-semibold leading-[0.96] tracking-[-0.02em]">
