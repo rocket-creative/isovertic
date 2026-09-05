@@ -3,7 +3,7 @@ import { PageHero, Section } from "@/components/sections/Shell";
 import { RevealBlock } from "@/components/ui/RevealBlock";
 import { OnboardingForm } from "@/components/sections/OnboardingForm";
 import { welcomeCopy } from "@/content/checkout";
-import { stripe, plans, isPlanKey } from "@/lib/stripe";
+import { stripe, getPlan, isPlanKey } from "@/lib/stripe";
 import { Arrow } from "@/components/ui/Arrow";
 import type { Metadata } from "next";
 
@@ -18,8 +18,8 @@ async function verify(sessionId: string | undefined) {
   try {
     const s = await stripe().checkout.sessions.retrieve(sessionId);
     if (s.status !== "complete") return null;
-    const plan = s.metadata?.plan && isPlanKey(s.metadata.plan) ? plans[s.metadata.plan] : null;
-    return { id: s.id, email: s.customer_details?.email || s.customer_email || "", planLabel: plan?.label || "Baseline", planKey: plan?.key || "" };
+    const plan = s.metadata?.plan && isPlanKey(s.metadata.plan) ? getPlan(s.metadata.plan) : null;
+    return { id: s.id, email: s.customer_details?.email || s.customer_email || "", planLabel: plan?.label || "ISOVERTIC", planKey: plan?.key || "", pending: s.payment_status !== "paid" };
   } catch {
     return null;
   }
@@ -43,7 +43,7 @@ export default async function Welcome({ searchParams }: { searchParams: Promise<
   }
   return (
     <>
-      <PageHero eyebrow={welcomeCopy.eyebrow} h1={welcomeCopy.h1} lead={welcomeCopy.lead} />
+      <PageHero eyebrow={welcomeCopy.eyebrow} h1={welcomeCopy.h1} lead={session.pending ? welcomeCopy.pending : welcomeCopy.lead} />
       <Section label="Intake" deferred={false}>
         <div className="grid gap-14 lg:grid-cols-[1fr_minmax(0,320px)]">
           <RevealBlock>

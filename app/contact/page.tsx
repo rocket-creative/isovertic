@@ -5,6 +5,7 @@ import { RevealBlock } from "@/components/ui/RevealBlock";
 import { Arrow } from "@/components/ui/Arrow";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { breadcrumbLd } from "@/lib/schema";
+import { site } from "@/lib/site";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -30,6 +31,9 @@ export default function Contact() {
           <RevealBlock delay={140} className="max-w-[48ch]">
             <h2 className="font-display text-h3 font-medium">What happens next</h2>
             <p className="mt-4 leading-relaxed text-ink/90">Same business day reply with a calendar link. On the call we map your pipeline math, tell you which tier fits or whether none does, and if we are not the right firm, point you somewhere honest.</p>
+            <p className="mt-4 text-[14px] text-ink-soft">
+              Or skip the form: <a href={`mailto:${site.email}`} className="underline underline-offset-4 hover:text-navy">{site.email}</a> or <a href={`tel:${site.phone}`} className="underline underline-offset-4 hover:text-navy">{site.phone.replace("+1-", "")}</a>. {site.address.street}, {site.address.locality}, {site.address.region} {site.address.postalCode}.
+            </p>
             <p className="mt-4 text-[14px] text-ink-soft">If you would rather read first:</p>
             <div className="mt-4 flex flex-wrap gap-x-8 gap-y-3">
               <Link href="/pricing" className="cta-link">Pricing <Arrow /></Link>

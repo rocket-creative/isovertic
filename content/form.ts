@@ -16,6 +16,7 @@ export const formCopy = {
   error: "A name, a working email, and your company website are required.",
   successTitle: "Received. We answer the same business day.",
   successBody: "You will hear from George, not a sequence. If it is urgent, the calendar link in the confirmation email books a time directly.",
+  emailFallback: "Rather not fill out a form? Email",
   step1: "1 of 2",
   step2: "2 of 2",
 };

@@ -28,7 +28,7 @@ export default async function TermPage({ params }: { params: Promise<{ slug: str
   return (
     <>
       <JsonLd data={[definedTermLd(t), breadcrumbLd([{ name: "Home", path: "/" }, { name: "Glossary", path: "/glossary" }, { name: t.term, path: `/glossary/${t.slug}` }])]} />
-      <article className="mx-auto max-w-[1440px] px-5 pt-32 sm:px-8 lg:pt-40 xl:px-16">
+      <article className="mx-auto max-w-[1440px] gutter pt-32 lg:pt-40">
         <p className="eyebrow">Glossary</p>
         <h1 className="mt-5 max-w-[20ch] font-display text-h1 font-medium">{t.term}</h1>
         <p className="mt-8 max-w-[62ch] font-display text-[clamp(20px,2.2vw,26px)] font-medium leading-snug">{t.definition}</p>

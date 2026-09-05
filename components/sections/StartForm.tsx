@@ -3,49 +3,88 @@ import { useActionState, useState } from "react";
 import { startCheckout, type StartState } from "@/app/start/actions";
 import { startCopy } from "@/content/checkout";
 import { Arrow } from "@/components/ui/Arrow";
-import type { PlanKey } from "@/lib/stripe";
+import { site } from "@/lib/site";
+import { formCopy } from "@/content/form";
 
-const field = "w-full border-b border-ink/20 bg-transparent px-0 py-3 text-[16px] focus:border-ink focus:outline-none";
-const labelClass = "mb-1 block text-[11px] uppercase tracking-[0.1em] text-ink-soft";
+// Serializable plan data comes from the server page; no Stripe import on the client.
+export type StartTier = { slug: string; name: string; for: string; spend: string };
+export type StartPlan = { key: string; tier: string; billing: "monthly" | "term" | "quarterly" | "upfront"; label: string; summary: string; term: boolean; unitAmount: number; bankRecommended: boolean };
 
-export function StartForm({ options, initial }: { options: { key: PlanKey; label: string; summary: string; term: boolean }[]; initial: PlanKey }) {
+const field = "field";
+const labelClass = "field-label";
+const billingLabel: Record<StartPlan["billing"], string> = { monthly: "Month to month", term: "12 month term, billed monthly", quarterly: "1 year term, paid quarterly", upfront: "12 month term, paid up front" };
+
+export function StartForm({ tiers, plans, initial }: { tiers: StartTier[]; plans: StartPlan[]; initial: string }) {
   const [state, action, pending] = useActionState<StartState, FormData>(startCheckout, null);
-  const [plan, setPlan] = useState<PlanKey>(initial);
-  const current = options.find((o) => o.key === plan) ?? options[0];
+  const initialPlan = plans.find((p) => p.key === initial) ?? plans[0];
+  const [tier, setTier] = useState(initialPlan.tier);
+  const [billing, setBilling] = useState<StartPlan["billing"]>(initialPlan.billing);
+  const current = plans.find((p) => p.tier === tier && p.billing === billing) ?? plans[0];
+  const forTier = plans.filter((p) => p.tier === tier);
+
   return (
-    <form action={action} className="max-w-[560px]">
+    <form action={action} className="max-w-[600px]">
       <input type="text" name="hp_url" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden="true" />
+      <input type="hidden" name="plan" value={current.key} />
+
       <fieldset>
-        <legend className={labelClass}>{startCopy.planLabel}</legend>
-        <div className="divide-y divide-rule border-y border-rule">
-          {options.map((o) => (
-            <label key={o.key} className="flex cursor-pointer gap-4 py-4">
-              <input type="radio" name="plan" value={o.key} checked={plan === o.key} onChange={() => setPlan(o.key)} className="mt-1 h-4 w-4 shrink-0 accent-navy" />
+        <legend className={labelClass}>{startCopy.tierLabel}</legend>
+        <div className="grid gap-px bg-rule sm:grid-cols-2">
+          {tiers.map((t) => (
+            <label key={t.slug} className={`flex min-h-[48px] cursor-pointer gap-3 p-4 ${tier === t.slug ? "bg-slate-soft" : "surface-card"}`}>
+              <input type="radio" name="tier_pick" value={t.slug} checked={tier === t.slug} onChange={() => setTier(t.slug)} className="mt-0.5 h-5 w-5 shrink-0 accent-navy" />
               <span>
-                <span className="block font-display text-[16px] font-medium">{o.label}</span>
-                <span className="mt-1 block text-[14px] leading-relaxed text-ink-soft">{o.summary}</span>
+                <span className="block font-display text-[16px] font-medium">{t.name}</span>
+                <span className="mt-1 block text-[13px] leading-relaxed text-ink-soft">{t.for}</span>
               </span>
             </label>
           ))}
         </div>
       </fieldset>
-      <div className="mt-8">
-        <label htmlFor="email" className={labelClass}>{startCopy.emailLabel}</label>
-        <input id="email" name="email" type="email" autoComplete="email" inputMode="email" required aria-required="true" className={field} style={{ fontSize: 16 }} />
+
+      <fieldset className="mt-8">
+        <legend className={labelClass}>{startCopy.billingLabel}</legend>
+        <div className="divide-y divide-rule border-y border-rule">
+          {forTier.map((p) => (
+            <label key={p.key} className="flex min-h-[48px] cursor-pointer gap-4 py-4">
+              <input type="radio" name="billing_pick" value={p.billing} checked={billing === p.billing} onChange={() => setBilling(p.billing)} className="mt-0.5 h-5 w-5 shrink-0 accent-navy" />
+              <span>
+                <span className="block font-display text-[16px] font-medium">{billingLabel[p.billing]}</span>
+                <span className="mt-1 block text-[14px] leading-relaxed text-ink-soft">{p.summary}</span>
+              </span>
+            </label>
+          ))}
+        </div>
+      </fieldset>
+
+      {current.bankRecommended && <p className="mt-6 text-[13px] leading-relaxed text-ink-soft">{startCopy.bankNote}</p>}
+      {tiers.find((t) => t.slug === tier)?.spend && <p className="mt-3 text-[13px] leading-relaxed text-ink-soft">{startCopy.mediaNote}</p>}
+
+      <div className="mt-8 grid gap-8 sm:grid-cols-2">
+        <div>
+          <label htmlFor="email" className={labelClass}>{startCopy.emailLabel}</label>
+          <input id="email" name="email" type="email" autoComplete="email" inputMode="email" required aria-required="true" className={field} />
+        </div>
+        <div>
+          <label htmlFor="company" className={labelClass}>{startCopy.companyLabel}</label>
+          <input id="company" name="company" type="text" autoComplete="organization" className={field} />
+        </div>
       </div>
+
       {current.term && (
-        <label className="mt-8 flex gap-4 text-[14px] leading-relaxed text-ink/90">
-          <input type="checkbox" name="agree" required className="mt-1 h-4 w-4 shrink-0 accent-navy" />
+        <label className="mt-8 flex min-h-[48px] cursor-pointer gap-4 py-2 text-[14px] leading-relaxed text-ink/90">
+          <input type="checkbox" name="agree" required className="mt-0.5 h-5 w-5 shrink-0 accent-navy" />
           <span>{startCopy.agreeLabel}</span>
         </label>
       )}
-      {state?.error && (
-        <p role="alert" className="mt-6 border border-navy/30 bg-navy/5 p-4 text-[14px]">{state.error}</p>
-      )}
+      {state?.error && <p role="alert" className="mt-6 border border-navy/30 bg-navy/5 p-4 text-[14px]">{state.error}</p>}
       <button type="submit" disabled={pending} className="btn btn-solid mt-10 disabled:opacity-60">
         {pending ? "Opening Stripe" : startCopy.submit}
         <Arrow />
       </button>
+      <p className="mt-6 text-[13px] text-ink-soft">
+        {formCopy.emailFallback} <a href={`mailto:${site.email}`} className="underline underline-offset-4 hover:text-navy">{site.email}</a>
+      </p>
     </form>
   );
 }

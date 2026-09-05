@@ -5,7 +5,7 @@ import { RevealBlock } from "@/components/ui/RevealBlock";
 export function CTABand() {
   return (
     <section className="bg-slate-soft text-ink">
-      <div className="mx-auto max-w-[1440px] px-5 py-24 sm:px-8 xl:px-16">
+      <div className="mx-auto max-w-[1440px] gutter py-24">
         <RevealBlock>
           <p className="eyebrow">The division of labor</p>
           <h2 className="mt-4 font-display text-h1 font-medium">Your only job is to <span className="text-signal">close.</span></h2>

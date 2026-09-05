@@ -5,7 +5,8 @@ import type Stripe from "stripe";
 import { stripe } from "@/lib/stripe";
 
 // Stripe webhook. Configure the endpoint at /api/stripe/webhook for:
-// checkout.session.completed, customer.subscription.updated, customer.subscription.deleted, invoice.payment_failed.
+// checkout.session.completed, checkout.session.async_payment_succeeded, checkout.session.async_payment_failed,
+// customer.subscription.updated, customer.subscription.deleted, invoice.payment_failed.
 // Records land in public.subscriptions; the notify email gets one line per event.
 
 export const runtime = "nodejs";
@@ -20,7 +21,7 @@ function db() {
 async function notify(subject: string, text: string) {
   const resendKey = process.env.RESEND_API_KEY;
   const to = process.env.LEAD_NOTIFY_EMAIL;
-  const from = process.env.LEAD_FROM_EMAIL || "georgestoff@rocketcreative.net";
+  const from = process.env.LEAD_FROM_EMAIL || "sale@isovertic.com";
   if (!resendKey || !to) return;
   try {
     await new Resend(resendKey).emails.send({ from: `ISOVERTIC <${from}>`, to, subject, text });
@@ -44,10 +45,11 @@ export async function POST(req: Request) {
 
   const supabase = db();
 
-  if (event.type === "checkout.session.completed") {
+  if (event.type === "checkout.session.completed" || event.type === "checkout.session.async_payment_succeeded" || event.type === "checkout.session.async_payment_failed") {
     const s = event.data.object;
     const email = s.customer_details?.email || s.customer_email || "";
     const plan = s.metadata?.plan || "";
+    const status = event.type === "checkout.session.async_payment_failed" ? "bank_payment_failed" : s.payment_status === "paid" ? "active" : "pending_bank_clearance";
     const row = {
       stripe_customer_id: typeof s.customer === "string" ? s.customer : s.customer?.id || null,
       stripe_subscription_id: typeof s.subscription === "string" ? s.subscription : s.subscription?.id || null,
@@ -56,14 +58,15 @@ export async function POST(req: Request) {
       plan,
       term_months: Number(s.metadata?.term_months || 0),
       agreed_term: s.metadata?.agreed_term === "yes",
-      status: "active",
+      status,
       amount_total: s.amount_total ?? null,
     };
     if (supabase) {
       const { error } = await supabase.from("subscriptions").upsert(row, { onConflict: "checkout_session_id" });
       if (error) console.error("subscriptions upsert", error.message);
     }
-    await notify(`New Baseline signup: ${email} (${plan})`, `Email: ${email}\nPlan: ${plan}\nTerm months: ${row.term_months}\nAgreed to term: ${row.agreed_term}\nCheckout: ${s.id}\nSubscription: ${row.stripe_subscription_id}\n\nIntake form arrives separately when they submit /welcome.`);
+    const subject = status === "active" ? `New signup: ${email} (${plan})` : status === "pending_bank_clearance" ? `Signup pending bank clearance: ${email} (${plan})` : `Bank payment failed: ${email} (${plan})`;
+    await notify(subject, `Email: ${email}\nCompany: ${s.metadata?.company || ""}\nPlan: ${plan}\nStatus: ${status}\nPayment method: ${s.payment_method_types?.join(", ") || ""}\nTerm months: ${row.term_months}\nAgreed to term: ${row.agreed_term}\nAmount: ${((s.amount_total ?? 0) / 100).toLocaleString("en-US", { style: "currency", currency: "USD" })}\nCheckout: ${s.id}\nSubscription: ${row.stripe_subscription_id}\n\nIntake form arrives separately when they submit /welcome.`);
   }
 
   if (event.type === "customer.subscription.updated" || event.type === "customer.subscription.deleted") {

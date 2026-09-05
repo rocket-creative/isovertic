@@ -73,7 +73,7 @@ export default function Protocol() {
         lead="One or two days at your office. Your team leaves with the same runbooks our account teams work from, rewritten in your name, with the compliance steps a biotech or healthcare marketer cannot skip."
       />
       <section className="border-b border-rule">
-        <div className="mx-auto flex max-w-[1440px] flex-wrap items-center gap-4 px-5 py-8 sm:px-8 xl:px-16">
+        <div className="mx-auto flex max-w-[1440px] flex-wrap items-center gap-4 gutter py-8">
           <Link href="/contact" className="btn btn-solid">Book a Protocol call</Link>
           <Link href="/pricing" className="cta-link">See the monthly tiers <Arrow /></Link>
         </div>

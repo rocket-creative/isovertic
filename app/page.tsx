@@ -27,7 +27,7 @@ const homeFaqs = [
   { q: "What does ISOVERTIC actually do?", a: "Everything between your offer and a booked sales meeting. We build the website, create the content, run the search ads, buy digital and TV media, and run outbound outreach that books qualified meetings directly on your calendar. You choose how much of that we run." },
   { q: "How is this different from a marketing agency?", a: "An agency hands you traffic and reports. We hand you meetings, or, on the smaller tiers, the content and campaigns that a meeting program is built on, produced by the team that will eventually run it." },
   { q: "How is this different from an appointment setting company?", a: "Appointment setters book meetings into whatever you already have. If the website is weak and the brand is invisible, those meetings show up cold and close poorly. We build the asset and the air cover, then book the meetings into a system designed to convert them." },
-  { q: "What does it cost?", a: "Engagements start at $2,500 per month for content on a 12 month term, or $3,000 month to month, and run to $25,000 and up for multi brand programs with TV. The term costs what ten months cost and includes the $15,000 website rebuild. Every tier, every add on, and the term table are on the pricing page, and Baseline signs up with a card, no call." },
+  { q: "What does it cost?", a: "Engagements start at $2,500 per month for content on a 12 month term, or $3,000 month to month, and run to $25,000 and up for multi brand programs with TV. The term costs what ten months cost and includes the $15,000 website rebuild. Every tier, every add on, and the term table are on the pricing page, and every tier checks out on the page by card or bank debit, no call." },
   { q: "Which tier should we start on?", a: "If you publish nothing today, Baseline. If you have a site and no paid demand, Catalyst. If you need meetings this quarter, Kinetic. If you run more than one brand or want TV, Critical Mass. Wrong tier, we move you. The ramp is 90 days, not a year." },
   { q: "What if we already have an in house team?", a: "Then we teach them. That is step six, Protocol: one or two days at your office where your team learns the system and leaves with our runbooks in your brand. It starts at $5,000 and is priced on the page." },
   { q: "Where are you located?", a: "Long Island, New York. We serve clients nationally." },
@@ -39,8 +39,8 @@ export default function Home() {
       <JsonLd data={faqLd(homeFaqs)} />
 
       {/* Hero */}
-      <section className="relative overflow-hidden border-b border-rule bg-bright">
-        <div className="mx-auto max-w-[1440px] px-5 pb-14 pt-[calc(var(--spacing-safe-top)+5.625rem)] sm:px-8 sm:pb-16 lg:pt-[calc(var(--spacing-safe-top)+8.25rem)] xl:px-16">
+      <section className="relative overflow-hidden border-b border-rule">
+        <div className="hero-top mx-auto max-w-[1440px] gutter pb-14 sm:pb-16">
           <p className="eyebrow hero-sub">Growth firm · Long Island, NY · Scientists, startups, and healthcare brands</p>
           <h1 className="mt-2 max-w-[12ch] font-display text-[clamp(36px,5.8vw,88px)] font-semibold leading-[0.96] tracking-[-0.02em]">
             <SplitHeadline text="We build your pipeline." />
@@ -51,7 +51,7 @@ export default function Home() {
             ISOVERTIC is one senior team running a six step growth system for companies that have to prove their results. Start with content at $2,500 a month, or hand us the whole pipeline and we book qualified meetings on your calendar. No vendor juggling. No finger pointing. One firm accountable for the number.
           </p>
           <div className="hero-cta mt-6 flex flex-wrap items-center gap-4 sm:gap-6">
-            <Link href="/contact" className="btn btn-solid">Book a pipeline call</Link>
+            <Link href="/contact" className="btn btn-solid btn-block">Book a pipeline call</Link>
             <Link href="/how-it-works" className="cta-link">See how the system works <Arrow /></Link>
           </div>
         </div>
@@ -109,7 +109,7 @@ export default function Home() {
 
       {/* Commitment */}
       <section className="section-deferred bg-slate-soft text-ink">
-        <div className="mx-auto max-w-[1440px] px-5 py-24 sm:px-8 xl:px-16">
+        <div className="mx-auto max-w-[1440px] gutter py-24">
           <RevealBlock>
             <p className="eyebrow">The commitment</p>
             <h2 className="mt-4 max-w-[22ch] font-display text-h2 font-medium">A <span className="text-signal">90 day</span> ramp with a number attached.</h2>

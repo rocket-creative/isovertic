@@ -69,7 +69,7 @@ export async function submitLead(_prev: LeadState, formData: FormData): Promise<
 
   const resendKey = process.env.RESEND_API_KEY;
   const to = process.env.LEAD_NOTIFY_EMAIL;
-  const from = process.env.LEAD_FROM_EMAIL || "georgestoff@rocketcreative.net";
+  const from = process.env.LEAD_FROM_EMAIL || "sale@isovertic.com";
   if (resendKey && to) {
     try {
       const resend = new Resend(resendKey);
@@ -93,7 +93,7 @@ export async function submitLead(_prev: LeadState, formData: FormData): Promise<
       console.warn("Lead captured in development without Supabase or Resend:", { name, email, companyWebsite, details });
       return { ok: true };
     }
-    return { ok: false, error: "Something failed on our side. Email georgestoff@rocketcreative.net directly and we will take the hint about our own form." };
+    return { ok: false, error: "Something failed on our side. Email sale@isovertic.com directly and we will take the hint about our own form." };
   }
   if (errors.length) console.warn("Lead partially delivered:", errors);
   return { ok: true };

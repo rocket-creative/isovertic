@@ -32,7 +32,7 @@ export default async function AnswerPage({ params }: { params: Promise<{ slug: s
   return (
     <>
       <JsonLd data={[qaLd(a), breadcrumbLd([{ name: "Home", path: "/" }, { name: "Answers", path: "/answers" }, { name: a.question, path: `/answers/${a.slug}` }])]} />
-      <article className="mx-auto max-w-[1440px] px-5 pt-32 sm:px-8 lg:pt-40 xl:px-16">
+      <article className="mx-auto max-w-[1440px] gutter pt-32 lg:pt-40">
         <p className="eyebrow">Answers · Updated {a.dateModified}</p>
         <h1 className="mt-5 max-w-[26ch] font-display text-h1 font-medium">{a.question}</h1>
         <p className="mt-8 max-w-[62ch] font-display text-[clamp(20px,2.2vw,26px)] font-medium leading-snug text-ink">{a.answer}</p>

@@ -21,12 +21,17 @@ export const metadata: Metadata = {
   alternates: { types: { "application/rss+xml": "/feed.xml" } },
 };
 
-export const viewport: Viewport = { width: "device-width", initialScale: 1, viewportFit: "cover" };
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+  themeColor: "#F5F4F0",
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${display.variable} ${body.variable}`}>
-      <body className="pb-14 lg:pb-0">
+      <body>
         <JsonLd data={[organizationLd(), ...peopleLd()]} />
         <Header />
         <main id="main">{children}</main>

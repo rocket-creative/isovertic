@@ -95,8 +95,8 @@ export default function HowItWorks() {
         <RevealBlock>
           <h2 className="font-display text-h2 font-medium">Which steps each tier runs</h2>
         </RevealBlock>
-        <div className="mt-12 overflow-x-auto">
-          <table className="w-full min-w-[720px] border-collapse text-left text-[14px]">
+        <div className="t-wrap mt-12">
+          <table className="t t--stack t--720">
             <thead>
               <tr className="border-b border-rule">
                 <th className="py-4 pr-4 font-display text-[15px] font-medium">Step</th>
@@ -111,9 +111,11 @@ export default function HowItWorks() {
             <tbody>
               {tierRows.map((r) => (
                 <tr key={r.step} className="border-b border-rule align-top">
-                  <th className="py-4 pr-4 font-medium text-ink">{r.step}</th>
+                  <th scope="row" className="py-4 pr-4 font-medium text-ink">{r.step}</th>
                   {r.cells.map((cell, i) => (
-                    <td key={i} className="px-3 py-4 text-ink-soft">{cell}</td>
+                    <td key={i} data-label={tierCols[i].name} data-empty={cell ? undefined : ""} className="px-3 py-4 text-ink-soft">
+                      {cell}
+                    </td>
                   ))}
                 </tr>
               ))}

@@ -3,16 +3,18 @@ import { useActionState } from "react";
 import { submitOnboarding, type OnboardingState } from "@/app/welcome/actions";
 import { welcomeCopy } from "@/content/checkout";
 import { Arrow } from "@/components/ui/Arrow";
+import { site } from "@/lib/site";
+import { formCopy } from "@/content/form";
 
-const field = "w-full border-b border-ink/20 bg-transparent px-0 py-3 text-[16px] focus:border-ink focus:outline-none";
-const labelClass = "mb-1 block text-[11px] uppercase tracking-[0.1em] text-ink-soft";
+const field = "field";
+const labelClass = "field-label";
 const f = welcomeCopy.fields;
 
 function Input({ name, label, required }: { name: string; label: string; required?: boolean }) {
   return (
     <div>
       <label htmlFor={name} className={labelClass}>{label}</label>
-      <input id={name} name={name} type="text" required={required} aria-required={required} className={field} style={{ fontSize: 16 }} />
+      <input id={name} name={name} type="text" required={required} aria-required={required} className={field} />
     </div>
   );
 }
@@ -21,7 +23,7 @@ function Area({ name, label, rows = 3 }: { name: string; label: string; rows?: n
   return (
     <div>
       <label htmlFor={name} className={labelClass}>{label}</label>
-      <textarea id={name} name={name} rows={rows} className={field} style={{ fontSize: 16 }} />
+      <textarea id={name} name={name} rows={rows} className={field} />
     </div>
   );
 }
@@ -30,7 +32,7 @@ function Select({ name, label, options }: { name: string; label: string; options
   return (
     <div>
       <label htmlFor={name} className={labelClass}>{label}</label>
-      <select id={name} name={name} defaultValue={options[0].value} className={`${field} appearance-none`} style={{ fontSize: 16 }}>
+      <select id={name} name={name} defaultValue={options[0].value} className={`${field} field-select`}>
         {options.map((o) => <option key={o.label} value={o.value}>{o.label}</option>)}
       </select>
     </div>
@@ -65,6 +67,8 @@ export function OnboardingForm({ sessionId, email, planKey }: { sessionId: strin
       <Area name="voice" label={f.voice} />
       <Area name="social" label={f.social} rows={2} />
       <Input name="newsletter" label={f.newsletter} />
+      <Input name="ads" label={f.ads} />
+      <Input name="closer" label={f.closer} />
       <Select name="claims" label={f.claims} options={welcomeCopy.claimsOptions} />
       <Input name="reviewer" label={f.reviewer} />
       <Area name="access" label={f.access} rows={2} />
@@ -75,6 +79,9 @@ export function OnboardingForm({ sessionId, email, planKey }: { sessionId: strin
         {pending ? welcomeCopy.sending : welcomeCopy.submit}
         <Arrow />
       </button>
+      <p className="text-[13px] text-ink-soft">
+        {formCopy.emailFallback} <a href={`mailto:${site.email}`} className="underline underline-offset-4 hover:text-navy">{site.email}</a>
+      </p>
     </form>
   );
 }

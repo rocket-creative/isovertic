@@ -37,7 +37,7 @@ export function PageTemplate({
       <PageHero eyebrow={page.eyebrow} h1={page.h1} lead={page.lead} />
       {searchPhrases && searchPhrases.length > 0 && (
         <div className="border-b border-rule">
-          <p className="mx-auto max-w-[1440px] px-5 py-5 text-[13px] leading-relaxed text-ink-soft sm:px-8 xl:px-16">
+          <p className="mx-auto max-w-[1440px] gutter py-5 text-[13px] leading-relaxed text-ink-soft">
             <span className="uppercase tracking-[0.1em]">How people search this</span>
             <span aria-hidden="true"> · </span>
             {searchPhrases.join(" · ")}

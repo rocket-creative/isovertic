@@ -43,7 +43,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
         ]}
       />
 
-      <article className="mx-auto max-w-[1440px] px-5 pt-32 sm:px-8 lg:pt-40 xl:px-16">
+      <article className="mx-auto max-w-[1440px] gutter pt-32 lg:pt-40">
         <p className="eyebrow">Results · {c.industry}</p>
         <p className="mt-6 text-[13px] uppercase tracking-[0.18em] text-signal">{c.clientName}</p>
         <h1 className="mt-4 max-w-[24ch] font-display text-h1 font-medium">{c.title}</h1>
@@ -162,7 +162,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
 
       <CTABand />
 
-      <div className="mx-auto max-w-[1440px] px-5 py-10 sm:px-8 xl:px-16">
+      <div className="mx-auto max-w-[1440px] gutter py-10">
         <Link href="/results" className="cta-link">All results <Arrow /></Link>
       </div>
     </>

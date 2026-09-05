@@ -30,7 +30,7 @@ export default async function Article({ params }: { params: Promise<{ slug: stri
   return (
     <>
       <JsonLd data={[articleLd(a), breadcrumbLd([{ name: "Home", path: "/" }, { name: "Field notes", path: "/field-notes" }, { name: a.title, path: `/field-notes/${slug}` }])]} />
-      <article className="mx-auto max-w-[1440px] px-5 pt-32 sm:px-8 lg:pt-40 xl:px-16">
+      <article className="mx-auto max-w-[1440px] gutter pt-32 lg:pt-40">
         <p className="eyebrow">Field notes · Published {a.datePublished}{a.dateModified !== a.datePublished ? ` · Updated ${a.dateModified}` : ""}</p>
         <h1 className="mt-5 max-w-[24ch] font-display text-h1 font-medium">{a.title}</h1>
         <p className="mt-6 max-w-[62ch] text-[16px] text-ink-soft">

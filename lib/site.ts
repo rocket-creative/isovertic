@@ -10,7 +10,7 @@ export const site = {
   legalName: "Rocket Creative LLC",
   address: { street: "600 Johnson Ave, Suite D5", locality: "Bohemia", region: "NY", postalCode: "11716", country: "US" },
   phone: "+1-631-816-9577",
-  email: "georgestoff@rocketcreative.net",
+  email: "sale@isovertic.com",
   knowsAbout: [
     "Life science marketing",
     "CRO marketing",

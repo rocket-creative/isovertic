@@ -10,7 +10,7 @@ export function ResultsTicker() {
 
   return (
     <div>
-      <div className="marquee group overflow-hidden border-y border-rule motion-reduce:overflow-x-auto" aria-label="Client results">
+      <div className="marquee marquee--cards group border-y border-rule motion-reduce:overflow-x-auto" aria-label="Client results">
         <div className="marquee-track flex w-max items-stretch gap-px bg-rule [animation-duration:45s] group-focus-within:[animation-play-state:paused]">
           {row.map((card, i) => {
             const duplicate = i >= cards.length;
@@ -21,6 +21,7 @@ export function ResultsTicker() {
                 className="surface-card w-[220px] shrink-0 p-6 sm:w-[260px]"
                 aria-hidden={duplicate}
                 tabIndex={duplicate ? -1 : undefined}
+                data-loop-copy={duplicate ? "" : undefined}
               >
                 <p className="font-display text-[clamp(30px,3.2vw,44px)] font-semibold leading-none text-brass">{card.value}</p>
                 <p className="mt-4 text-[14px] leading-snug text-ink/90">{card.label}</p>

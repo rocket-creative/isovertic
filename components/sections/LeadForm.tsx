@@ -3,6 +3,7 @@ import { useActionState, useEffect, useState, type FormEvent } from "react";
 import { usePathname } from "next/navigation";
 import { submitLead, type LeadState } from "@/app/contact/actions";
 import { Arrow } from "@/components/ui/Arrow";
+import { site } from "@/lib/site";
 import {
   clinicalOptions,
   closers,
@@ -14,8 +15,8 @@ import {
   tiers,
 } from "@/content/form";
 
-const field = "w-full border-b border-ink/20 bg-transparent px-0 py-3 text-[16px] focus:border-ink focus:outline-none";
-const labelClass = "mb-1 block text-[11px] uppercase tracking-[0.1em] text-ink-soft";
+const field = "field";
+const labelClass = "field-label";
 
 function Select({
   id,
@@ -31,7 +32,7 @@ function Select({
   return (
     <div>
       <label htmlFor={id} className={labelClass}>{label}</label>
-      <select id={id} name={name} className={`${field} appearance-none`} defaultValue="" style={{ fontSize: 16 }}>
+      <select id={id} name={name} className={`${field} field-select`} defaultValue="">
         {options.map((o) => (
           <option key={o.label} value={o.value}>{o.label}</option>
         ))}
@@ -101,7 +102,7 @@ export function LeadForm() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             className={field}
-            style={{ fontSize: 16 }}
+           
           />
         </div>
       </div>
@@ -119,7 +120,7 @@ export function LeadForm() {
             value={name}
             onChange={(e) => setName(e.target.value)}
             className={field}
-            style={{ fontSize: 16 }}
+           
           />
         </div>
         <div>
@@ -135,7 +136,7 @@ export function LeadForm() {
             value={website}
             onChange={(e) => setWebsite(e.target.value)}
             className={field}
-            style={{ fontSize: 16 }}
+           
           />
         </div>
         <Select id="industry" name="industry" label={formCopy.industryLabel} options={industries} />
@@ -146,7 +147,7 @@ export function LeadForm() {
         <Select id="sales_owner" name="sales_owner" label={formCopy.closerLabel} options={closers} />
         <div>
           <label htmlFor="message" className={labelClass}>{formCopy.numberLabel}</label>
-          <textarea id="message" name="message" rows={3} className={field} style={{ fontSize: 16 }} />
+          <textarea id="message" name="message" rows={3} className={field} />
         </div>
         <Select id="found_us" name="found_us" label={formCopy.sourceLabel} options={sources} />
       </div>
@@ -161,6 +162,9 @@ export function LeadForm() {
         {pending ? formCopy.sending : onStep1 ? formCopy.continue : formCopy.submit}
         <Arrow />
       </button>
+      <p className="mt-6 text-[13px] text-ink-soft">
+        {formCopy.emailFallback} <a href={`mailto:${site.email}`} className="underline underline-offset-4 hover:text-navy">{site.email}</a>
+      </p>
     </form>
   );
 }

@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: { absolute: "Outsourced Sales and Marketing Pricing | ISOVERTIC" },
-  description: "Published pricing for four tiers. Month to month from $3,000, or on a 12 month term from $2,500 with two months free and the $15,000 website rebuild included. Baseline signs up on the page, no call.",
+  description: "Published pricing for four tiers. Month to month from $3,000, or on a 12 month term from $2,500 with two months free and the $15,000 website rebuild included. Every tier checks out on the page by card or bank debit, no call.",
   alternates: { canonical: "/pricing" },
 };
 
@@ -27,7 +27,7 @@ export default function Pricing() {
       <PageHero
         eyebrow="Pricing"
         h1={<>The <span className="text-signal">price</span>, before the pitch.</>}
-        lead="Nobody in this category publishes pricing, which tells you something about how they sell. Here is ours. Four tiers, month to month or on a 12 month term that costs what ten months cost and includes the website rebuild. Baseline signs up on this page with a card and no call."
+        lead="Nobody in this category publishes pricing, which tells you something about how they sell. Here is ours. Four tiers, month to month or on a 12 month term that costs what ten months cost and includes the website rebuild. Every tier checks out on the page, card or bank debit, no call required."
       />
       <Section label="Tiers">
         <PricingTiers />
@@ -37,8 +37,8 @@ export default function Pricing() {
         <RevealBlock>
           <h2 className="font-display text-h2 font-medium">Which steps each tier runs</h2>
         </RevealBlock>
-        <div className="mt-12 overflow-x-auto">
-          <table className="w-full min-w-[720px] border-collapse text-left text-[14px]">
+        <div className="t-wrap mt-12">
+          <table className="t t--stack t--720">
             <thead>
               <tr className="border-b border-rule">
                 <th className="py-4 pr-4 font-display text-[15px] font-medium">Step</th>
@@ -53,9 +53,11 @@ export default function Pricing() {
             <tbody>
               {tierGrid.map((r) => (
                 <tr key={r.step} className="border-b border-rule align-top">
-                  <th className="py-4 pr-4 font-medium text-ink">{r.step}</th>
+                  <th scope="row" className="py-4 pr-4 font-medium text-ink">{r.step}</th>
                   {r.cells.map((cell, i) => (
-                    <td key={i} className="px-3 py-4 text-ink-soft">{cell || "·"}</td>
+                    <td key={i} data-label={tiers[i].name} data-empty={cell ? undefined : ""} className="px-3 py-4 text-ink-soft">
+                      {cell || "·"}
+                    </td>
                   ))}
                 </tr>
               ))}
@@ -69,8 +71,8 @@ export default function Pricing() {
           <h2 className="font-display text-h2 font-medium">{billing.h2}</h2>
           <p className="mt-5 max-w-[62ch] leading-relaxed text-ink/90">{billing.intro}</p>
         </RevealBlock>
-        <div className="mt-12 overflow-x-auto">
-          <table className="w-full min-w-[640px] border-collapse text-left text-[14px]">
+        <div className="t-wrap mt-12">
+          <table className="t t--stack t--640">
             <thead>
               <tr className="border-b border-rule">
                 {billing.columns.map((c) => (
@@ -82,7 +84,7 @@ export default function Pricing() {
               {billing.rows.map((r, i) => (
                 <tr key={i} className="border-b border-rule align-top">
                   {r.map((cell, j) => (
-                    <td key={j} className="py-4 pr-4 text-ink-soft">{cell}</td>
+                    <td key={j} data-label={billing.columns[j]} className="py-4 pr-4 text-ink-soft">{cell}</td>
                   ))}
                 </tr>
               ))}
@@ -92,8 +94,8 @@ export default function Pricing() {
         <RevealBlock className="mt-14">
           <h2 className="font-display text-h3 font-medium">{billing.savingsH2}</h2>
         </RevealBlock>
-        <div className="mt-8 overflow-x-auto">
-          <table className="w-full min-w-[820px] border-collapse text-left text-[14px]">
+        <div className="t-wrap mt-8">
+          <table className="t t--820">
             <thead>
               <tr className="border-b border-rule">
                 {billing.savingsCols.map((c) => (
@@ -105,15 +107,17 @@ export default function Pricing() {
               {tiers.map((t) => {
                 const m = tierMath(t);
                 const f = t.from ? "From " : "";
+                const c = billing.savingsCols;
                 return (
                   <tr key={t.slug} className="border-b border-rule align-top">
-                    <th className="py-4 pr-4 font-medium text-ink">{t.name}</th>
-                    <td className="py-4 pr-4 text-ink-soft">{f}{usd(m.monthlyYear)}</td>
-                    <td className="py-4 pr-4 text-ink-soft">{f}{usd(m.termYear)}</td>
-                    <td className="py-4 pr-4 text-ink">{usd(m.cashSaved)}, two months</td>
-                    <td className="py-4 pr-4 text-ink-soft">{usd(15000)}{t.slug === "critical-mass" ? " per brand" : ""}</td>
-                    <td className="py-4 pr-4 font-display font-semibold text-brass">{usd(m.totalValue)}</td>
-                    <td className="py-4 pr-4 text-ink-soft">{f}{usd(m.upfront)}, saves {usd(m.upfrontSaved)} more</td>
+                    <th scope="row" className="py-4 pr-4 font-medium text-ink">{t.name}</th>
+                    <td data-label={c[1]} className="py-4 pr-4 text-ink-soft">{f}{usd(m.monthlyYear)}</td>
+                    <td data-label={c[2]} className="py-4 pr-4 text-ink-soft">{f}{usd(m.termYear)}</td>
+                    <td data-label={c[3]} className="py-4 pr-4 text-ink">{usd(m.cashSaved)}, two months</td>
+                    <td data-label={c[4]} className="py-4 pr-4 text-ink-soft">{usd(15000)}{t.slug === "critical-mass" ? " per brand" : ""}</td>
+                    <td data-label={c[5]} className="py-4 pr-4 font-display font-semibold text-brass">{usd(m.totalValue)}</td>
+                    <td data-label={c[6]} className="py-4 pr-4 text-ink-soft">{t.quarterlyOnly ? `1 year term paid quarterly, ${f}${usd(m.quarterly)} x 4` : `Monthly, or ${usd(m.quarterly)} x 4 quarterly (saves ${usd(m.quarterlySaved)} more)`}</td>
+                    <td data-label={c[7]} className="py-4 pr-4 text-ink-soft">{t.quarterlyOnly ? "Not offered" : `${usd(m.upfront)}, saves ${usd(m.upfrontSaved)} more`}</td>
                   </tr>
                 );
               })}
@@ -136,8 +140,8 @@ export default function Pricing() {
         <RevealBlock>
           <h2 className="font-display text-h2 font-medium">Bolt on what your market needs.</h2>
         </RevealBlock>
-        <div className="mt-12 overflow-x-auto">
-          <table className="w-full min-w-[560px] border-collapse text-left text-[14px]">
+        <div className="t-wrap mt-12">
+          <table className="t t--560">
             <thead>
               <tr className="border-b border-rule">
                 <th className="py-4 pr-4 font-display text-[15px] font-medium">Add on</th>
@@ -147,8 +151,8 @@ export default function Pricing() {
             <tbody>
               {addOns.map((a) => (
                 <tr key={a.name} className="border-b border-rule align-top">
-                  <td className="py-4 pr-4 text-ink">{a.name}</td>
-                  <td className="px-3 py-4 text-ink-soft">{a.price}</td>
+                  <th scope="row" className="py-4 pr-4 font-medium text-ink">{a.name}</th>
+                  <td data-label="Price" className="px-3 py-4 text-ink-soft">{a.price}</td>
                 </tr>
               ))}
             </tbody>

@@ -21,8 +21,8 @@ npm run dev
 | NEXT_PUBLIC_SUPABASE_URL | Supabase project settings, API |
 | SUPABASE_SERVICE_ROLE_KEY | Same page. Server only, never expose client side |
 | RESEND_API_KEY | resend.com API keys, after verifying the sending domain |
-| LEAD_NOTIFY_EMAIL | Where lead notifications go, for example georgestoff@rocketcreative.net |
-| LEAD_FROM_EMAIL | Verified sender, for example georgestoff@rocketcreative.net |
+| LEAD_NOTIFY_EMAIL | Where lead notifications go, for example sale@isovertic.com |
+| LEAD_FROM_EMAIL | Verified sender, for example sale@isovertic.com |
 | NEXT_PUBLIC_SITE_URL | https://isovertic.com |
 | STRIPE_SECRET_KEY | Stripe dashboard, Developers, API keys. Test key first |
 | STRIPE_WEBHOOK_SECRET | Stripe dashboard, Developers, Webhooks, endpoint /api/stripe/webhook |
@@ -33,7 +33,7 @@ Run `supabase/schema.sql` in the Supabase SQL editor once. The leads table has R
 
 ## Stripe (self serve Baseline)
 
-Baseline checks out on `/start` with Stripe Checkout in subscription mode. Products and prices are created on first use from `content/tiers.ts` by lookup key, so switching from test to live keys needs no dashboard work. Add a webhook endpoint at `/api/stripe/webhook` for `checkout.session.completed`, `customer.subscription.updated`, `customer.subscription.deleted`, and `invoice.payment_failed`. After payment the buyer lands on `/welcome`, which verifies the session and shows the intake form; submissions go to `public.onboarding` and the notify email.
+Every tier checks out on `/start` with Stripe Checkout in subscription mode, card or ACH Direct Debit, Baseline and Catalyst: month to month, term billed monthly, quarterly at 4 percent off, or up front at eleven months for twelve. Kinetic and Critical Mass: month to month, or a 1 year term paid quarterly. Products and prices are created on first use from `content/tiers.ts` by lookup key, so switching from test to live keys needs no dashboard work. Add a webhook endpoint at `/api/stripe/webhook` for `checkout.session.completed`, `checkout.session.async_payment_succeeded`, `checkout.session.async_payment_failed`, `customer.subscription.updated`, `customer.subscription.deleted`, and `invoice.payment_failed`. Bank debits arrive as `completed` with `payment_status` unpaid, then `async_payment_succeeded` when they clear. After payment the buyer lands on `/welcome`, which verifies the session and shows the intake form; submissions go to `public.onboarding` and the notify email.
 
 ## Resend
 

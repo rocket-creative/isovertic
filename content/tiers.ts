@@ -1,7 +1,8 @@
 // Pricing source of truth. Every price on the site, in llms.txt, in schema, and in Stripe checkout reads from here.
 // Math: monthly = term x 1.2, so twelve months at the term rate costs what ten months costs month to month.
 // Framing: two months free plus the $15,000 website rebuild and hosting, on a 12 month term.
-// Up front: pay the year at once and take one more month off (eleven months).
+// Baseline and Catalyst: the term is billed monthly, quarterly at 4 percent off, or up front at eleven months for twelve.
+// Kinetic and Critical Mass: the term is a 1 year term paid quarterly, four payments of three months at the term rate. No monthly term billing, no up front.
 
 export type Tier = {
   slug: "baseline" | "catalyst" | "kinetic" | "critical-mass";
@@ -15,13 +16,14 @@ export type Tier = {
   for: string;
   includes: string[];
   cta: string;
-  selfServe?: boolean; // Baseline checks out with Stripe, no call
   featured?: boolean;
+  quarterlyOnly?: boolean; // 1 year term paid quarterly is the only term billing (Kinetic, Critical Mass)
 };
 
 export const WEBSITE_BUILD = 15000;
 export const TERM_MONTHS = 12;
 export const UPFRONT_MONTHS = 11;
+export const QUARTERLY_DISCOUNT = 0.04; // off the 12 month term total, split into four payments
 
 export const usd = (n: number) => `$${n.toLocaleString("en-US")}`;
 
@@ -34,7 +36,7 @@ export const tiers: Tier[] = [
     spend: "",
     price: "$2,500",
     per: "per month on a 12 month term",
-    for: "The content drumbeat, running without meetings. Sign up on this page, no call.",
+    for: "The content drumbeat, running without meetings.",
     includes: [
       "One newsletter a month, sent from your own list",
       "One blog post a month, written to be cited by search and AI",
@@ -42,7 +44,6 @@ export const tiers: Tier[] = [
       "Monthly report, one page",
     ],
     cta: "Start Baseline",
-    selfServe: true,
   },
   {
     slug: "catalyst",
@@ -60,7 +61,7 @@ export const tiers: Tier[] = [
       "Lead follow up within one business day",
       "One strategy call a month",
     ],
-    cta: "Book a pipeline call",
+    cta: "Start Catalyst",
   },
   {
     slug: "kinetic",
@@ -78,8 +79,9 @@ export const tiers: Tier[] = [
       "YouTube channel build and one video and photo production day per quarter",
       "Weekly call",
     ],
-    cta: "Book a pipeline call",
+    cta: "Start Kinetic",
     featured: true,
+    quarterlyOnly: true,
   },
   {
     slug: "critical-mass",
@@ -98,7 +100,8 @@ export const tiers: Tier[] = [
       "Creative production in house",
       "Quarterly board ready growth review",
     ],
-    cta: "Book a pipeline call",
+    cta: "Start Critical Mass",
+    quarterlyOnly: true,
   },
 ];
 
@@ -109,9 +112,14 @@ export function tierMath(t: Tier) {
   const monthlyYear = t.monthly * TERM_MONTHS;
   const termYear = t.term * TERM_MONTHS;
   const upfront = t.term * UPFRONT_MONTHS;
+  const quarterlyYear = t.quarterlyOnly ? termYear : Math.round(termYear * (1 - QUARTERLY_DISCOUNT));
+  const quarterly = quarterlyYear / 4;
   return {
     monthlyYear,
     termYear,
+    quarterlyYear,
+    quarterly,
+    quarterlySaved: termYear - quarterlyYear,
     upfront,
     monthsFree: TERM_MONTHS - termYear / t.monthly, // 2 on every tier
     cashSaved: monthlyYear - termYear,
@@ -124,20 +132,21 @@ export const billing = {
   toggle: { monthly: "Month to month", term: "12 month term" },
   monthlyNote: "90 day ramp, then month to month. Website rebuild available at $15,000 up front.",
   termNote: "Two months free. Website rebuild and hosting included, a $15,000 build at no charge.",
-  upfrontNote: "Pay the year up front and take one more month off.",
+  quarterlyNote: "Baseline and Catalyst can pay the term quarterly at 4 percent off, or up front at eleven months for twelve.",
+  upfrontNote: "Kinetic and Critical Mass run on a 1 year term paid quarterly.",
   eyebrow: "Term",
   h2: "Pick your term. The website comes with it.",
-  intro: "Every tier runs month to month after the 90 day ramp, or on a 12 month term. The term costs what ten months cost month to month, and the website rebuild and hosting come with it. Pay the year up front and it is eleven.",
+  intro: "Every tier runs month to month after the 90 day ramp, or on a 12 month term. The term costs what ten months cost month to month, and the website rebuild and hosting come with it. Baseline and Catalyst bill the term monthly, quarterly at 4 percent off, or up front at eleven months for twelve. Kinetic and Critical Mass run on a 1 year term paid quarterly.",
   columns: ["Month to month", "12 month term"],
   rows: [
-    ["Tier price, month to month", "Tier price less two months, billed monthly"],
+    ["Tier price, month to month", "Tier price less two months. Baseline and Catalyst: billed monthly, quarterly at 4 percent off, or up front at eleven months for twelve. Kinetic and Critical Mass: 1 year term paid quarterly"],
     ["Website rebuild $15,000, paid up front, if you want it", "Website rebuild included: Next.js, server rendered, schema on every page, built to be cited by AI search"],
     ["Hosting on our stack at cost", "Hosting and bandwidth included for the term"],
     ["90 day ramp, then cancel at any month end", "12 months, then month to month. Early exit: the unbilled balance of the build is due, prorated to months served"],
   ],
   note: "The build is a full move onto our stack. You own the code and the domain. If a term ends early, the unbilled balance of the $15,000 build is due on the final invoice, prorated to the months served. That is the only clause in the agreement that reads like a lock in, and it exists so the free build stays free.",
   savingsH2: "What the term saves, tier by tier",
-  savingsCols: ["Tier", "12 months, month to month", "12 months on term", "Cash saved", "Website included", "Total value", "Year up front"],
+  savingsCols: ["Tier", "12 months, month to month", "12 months on term", "Cash saved", "Website included", "Total value", "Term billing", "Year up front"],
 };
 
 export const steps = [
@@ -218,7 +227,9 @@ export const pricingContext = {
 export const pricingFaqs = [
   { q: "Why publish pricing when nobody else does?", a: "Because our buyer is a founder who hates wasted discovery calls as much as we do, and because the page you are reading ranks for the question everyone types and nobody answers." },
   { q: "Why is the term price lower than month to month?", a: "Because a year lets us plan the work, and the math is simple: twelve months on term cost what ten months cost month to month. The website rebuild and hosting come with the term because the site is where the year's work compounds." },
-  { q: "How do I start Baseline without a call?", a: "Pick month to month or the 12 month term on this page, check out with a card, and land on a short intake form. We generate the first content calendar inside five business days and publish from there. A 15 minute call is optional." },
+  { q: "How do I start without a call?", a: "Every tier checks out on the start page: pick month to month or the 12 month term, pay by card or ACH bank debit on Stripe, and land on a ten minute intake form. The first content calendar arrives inside five business days. A 15 minute call is optional, and Kinetic and above get a weekly call anyway." },
+  { q: "How is the 12 month term billed?", a: "Kinetic and Critical Mass run on a 1 year term paid quarterly: four payments of three months at the term rate, $30,000 a quarter for Kinetic, with the website and hosting included. Baseline and Catalyst can bill the term monthly, quarterly at 4 percent off, or up front at eleven months for twelve." },
+  { q: "Can we pay by bank instead of card?", a: "Yes. Every checkout offers ACH Direct Debit next to card, Apple Pay, and Google Pay. Above $10,000 we recommend the bank: 0.8 percent capped at $5 per payment, no issuer limit. Bank debits clear in up to four business days and the engagement starts when the first one settles." },
   { q: "What is in ad spend versus fees?", a: "Fees pay the team. Spend goes to the platforms in your own accounts, which you own." },
   { q: "Are there setup costs?", a: "No. Landing pages and campaign builds inside the ramp are included in tier pricing. The website build is included on a 12 month term at every tier, or $15,000 up front month to month. Unusual scope is quoted before signature, never after." },
   { q: "What happens if we leave a term early?", a: "The unbilled balance of the $15,000 website build is due on the final invoice, prorated to the months served. Nothing else. The code and the domain stay yours." },

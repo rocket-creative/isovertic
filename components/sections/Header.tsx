@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { BrandLogo } from "@/components/ui/Logo";
 import { site } from "@/lib/site";
 
@@ -16,6 +16,8 @@ const links = [
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const panel = useRef<HTMLDivElement>(null);
+  const trigger = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
@@ -25,18 +27,38 @@ export function Header() {
   }, []);
 
   useEffect(() => {
-    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setOpen(false);
+        return;
+      }
+      if (e.key !== "Tab" || !panel.current) return;
+      // Keep the keyboard inside the panel while it covers the page.
+      const focusable = panel.current.querySelectorAll<HTMLElement>("a[href], button:not([disabled])");
+      if (focusable.length === 0) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    };
     window.addEventListener("keydown", onKey);
-    document.body.style.overflow = open ? "hidden" : "";
+    document.body.style.overflow = "hidden";
     return () => {
       window.removeEventListener("keydown", onKey);
       document.body.style.overflow = "";
+      trigger.current?.focus();
     };
   }, [open]);
 
   return (
     <>
-      <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:bg-navy focus:px-4 focus:py-2 focus:text-paper">
+      <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:bg-navy focus:px-4 focus:py-3 focus:text-paper">
         Skip to content
       </a>
       <header
@@ -44,23 +66,25 @@ export function Header() {
           scrolled ? "bg-background/85 backdrop-blur" : "bg-transparent"
         } ${scrolled ? "border-b border-rule lg:border-b-0" : "border-b border-transparent"}`}
       >
-        <div className="mx-auto max-w-[1440px] px-5 sm:px-8 xl:px-16">
-          <div className="flex h-[5.5rem] items-center justify-between lg:h-[4.75rem]">
-            <Link href="/" className="flex items-center select-none" aria-label={`${site.name} home`}>
-              <BrandLogo priority className="h-[3.5rem] w-auto" />
+        <div className="gutter mx-auto max-w-[1440px]">
+          <div className="flex h-16 items-center justify-between lg:h-[4.75rem]">
+            <Link href="/" className="-ml-1 flex items-center px-1 select-none" aria-label={`${site.name} home`}>
+              <BrandLogo priority className="h-9 w-auto sm:h-11 lg:h-[3.5rem]" />
             </Link>
-            <Link href="/contact" className="btn btn-solid !min-h-[44px] !px-5 hidden lg:inline-flex">
+            <Link href="/contact" className="btn btn-solid hidden !px-5 lg:inline-flex">
               Book a pipeline call
             </Link>
             <button
-              className="-mr-2 flex h-11 w-11 flex-col items-center justify-center gap-[5px] lg:hidden"
+              ref={trigger}
+              className="-mr-3 flex h-12 w-12 flex-col items-center justify-center gap-[5px] lg:hidden"
               onClick={() => setOpen(true)}
               aria-label="Open menu"
               aria-expanded={open}
+              aria-controls="mobile-nav"
             >
               <span className="block h-[1px] w-6 bg-current" />
               <span className="block h-[1px] w-6 bg-current" />
-              <span className="block h-[1px] w-4 self-start ml-[10px] bg-current" />
+              <span className="ml-[10px] block h-[1px] w-4 self-start bg-current" />
             </button>
           </div>
           <div className="hidden border-t border-rule lg:block" />
@@ -75,26 +99,43 @@ export function Header() {
       </header>
 
       {open && (
-        <div className="fixed inset-0 z-[100] flex flex-col bg-background pt-safe-top pb-safe-bottom" role="dialog" aria-modal="true" aria-label="Navigation menu">
-          <div className="flex h-[5.5rem] items-center justify-between border-b border-rule px-5">
-            <BrandLogo className="h-[3rem] w-auto" />
-            <button className="flex h-11 w-11 items-center justify-center text-2xl" onClick={() => setOpen(false)} aria-label="Close menu" autoFocus>
+        <div
+          id="mobile-nav"
+          ref={panel}
+          className="fixed inset-0 z-[100] flex flex-col overflow-y-auto overscroll-contain bg-background pb-safe-bottom pt-safe-top"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Navigation menu"
+        >
+          <div className="flex h-16 shrink-0 items-center justify-between border-b border-rule gutter">
+            <BrandLogo className="h-9 w-auto" />
+            <button
+              className="-mr-3 flex h-12 w-12 items-center justify-center text-2xl leading-none"
+              onClick={() => setOpen(false)}
+              aria-label="Close menu"
+              autoFocus
+            >
               ×
             </button>
           </div>
-          <nav className="flex flex-col gap-1 px-5 pt-8" aria-label="Mobile">
+          <nav className="gutter flex flex-col pt-6" aria-label="Mobile">
             {[...links, { href: "/contact", label: "Book a pipeline call" }].map((l) => (
               <Link
                 key={l.href}
                 href={l.href}
                 onClick={() => setOpen(false)}
-                className="border-b border-rule py-4 font-display text-[clamp(26px,7vw,44px)] font-medium leading-tight"
+                className="flex min-h-[56px] items-center border-b border-rule py-3 font-display text-[clamp(24px,6.4vw,40px)] font-medium leading-tight"
               >
                 {l.label}
               </Link>
             ))}
           </nav>
-          <p className="mt-auto px-5 pb-8 text-[12px] uppercase tracking-[0.12em] text-ink-soft">Long Island, New York</p>
+          <div className="gutter mt-auto pb-8 pt-10">
+            <a href={`tel:${site.phone}`} className="flex min-h-[48px] items-center font-display text-[18px] font-medium">
+              {site.phone.replace("+1-", "")}
+            </a>
+            <p className="mt-1 text-[12px] uppercase tracking-[0.12em] text-ink-soft">Long Island, New York</p>
+          </div>
         </div>
       )}
     </>

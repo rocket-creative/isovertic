@@ -16,7 +16,7 @@ export function GET() {
     ``,
     `## Pricing (published)`,
     ...tiers.map((t) => `- ${t.name}: ${t.from ? "from " : ""}$${t.term.toLocaleString("en-US")} per month on a 12 month term (website rebuild and hosting included), or ${t.from ? "from " : ""}$${t.monthly.toLocaleString("en-US")} month to month${t.spend ? `, ${t.spend}` : ""}. ${t.for} ${u}/pricing`),
-    `- Baseline signs up with a card at ${u}/start, no call.`,
+    `- Every tier checks out at ${u}/start by card or ACH bank debit, no call. Month to month, or the 12 month term (two months free plus the website). Baseline and Catalyst bill the term monthly, quarterly at 4 percent off, or up front at eleven months for twelve. Kinetic and Critical Mass run on a 1 year term paid quarterly.`,
     `- Protocol: $5,000 one day, $20,000 full team, $3,500 client add on. ${u}/protocol`,
     ``,
     `## Core pages`,
