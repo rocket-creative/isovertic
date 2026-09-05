@@ -93,7 +93,7 @@ export const problems: Problem[] = [
         "The 90 day ramp has deliverables in writing and a written review at day 90. After that the engagement is month to month. If we are not producing the number we wrote down, you should not be paying us, and the structure makes leaving a decision rather than a negotiation.",
       ]},
       { h2: "How long to give an agency", body: [
-        "Ninety days for paid search to reach a stable cost per lead. Six months for organic content to show compounding growth. If at day 90 there is no number and no plan with a number in it, the next 90 days will look the same. The clients in our case studies crossed 5x to 7x their prior monthly lead average in month five, against the six months before we started, and we publish the method so you can check it.",
+        "Ninety days for paid search to reach a stable cost per lead. Six months for organic content to show compounding growth. If at day 90 there is no number and no plan with a number in it, the next 90 days will look the same. Every case study we publish uses the same window, months five through eight against the six months before we started, and we publish the method so you can check it.",
       ]},
     ],
     faqs: [
@@ -122,13 +122,13 @@ export const problems: Problem[] = [
         "Open Search Console and read the queries. If the top twenty are informational, how to, what is, definitions, you rank for curiosity, not intent. Curiosity converts at a fraction of a percent. A page that ranks for the commercial query, the service plus the qualifier a buyer types when ready, converts at 3 to 5 percent in our accounts. Fix the pages you rank for before you buy more visitors.",
       ]},
       { h2: "Cause two: the page does not answer the question the visitor arrived with", body: [
-        "A researcher searching a model type lands on a homepage about your mission. A patient searching a symptom lands on a locations page. Every click that lands somewhere other than the exact answer costs you the visitor. In one life science engagement, matching the landing page to the search moved form fills 6.5x while clicks moved 3.7x. Leads grew faster than traffic because the traffic finally landed on its answer.",
+        "A researcher searching a model type lands on a homepage about your mission. A patient searching a symptom lands on a locations page. Every click that lands somewhere other than the exact answer costs you the visitor. In our engagements, matching the landing page to the exact search moves form fills faster than it moves clicks, because the traffic finally lands on its answer.",
       ]},
       { h2: "Cause three: the price and the proof are missing", body: [
         "Buyers complete 60 percent or more of the decision before contacting anyone, per BioInformatics research on life scientists, and the pattern holds for founders and practice administrators. If your site hides pricing, shows no numbers, and names no clients, the visitor finishes their research on a competitor's site and fills out that form instead. Publish the price or a range, publish a result with a method, name the people.",
       ]},
       { h2: "Cause four: the form asks too much, too early", body: [
-        "Every field subtracts submissions. One client's demo form went to a single email field with a calculator that carried the prospect's own numbers into the request. Demo requests rose 5.8x in eight months. Ask for the email first, everything else second, and put the phone number and a calendar link next to the form for people who will not fill it out at all.",
+        "Every field subtracts submissions. The pattern that converts is a single email field with a calculator that carries the prospect's own numbers into the request. Ask for the email first, everything else second, and put the phone number and a calendar link next to the form for people who will not fill it out at all.",
       ]},
       { h2: "Cause five: nobody answers", body: [
         "This one hides in plain sight. The form works, the notification goes to an inbox nobody reads, and the lead is contacted four days later or never. Test it: fill out your own form on a Friday afternoon and time the response. If it is longer than one business day, you do not have a conversion problem yet. You have a handoff problem, and it costs nothing but discipline to fix.",
@@ -366,7 +366,7 @@ export const problems: Problem[] = [
     sections: [
       { h2: "Count the pages, then count theirs", body: [
         "Search site:yourdomain.com and site:competitor.com. If they have 140 indexed pages and you have 11, you already know why. Every commercial query a buyer types deserves its own page: each service, each application, each model type, each condition, each location. Google ranks pages, not companies, and a company with one page about everything ranks for nothing in particular.",
-        "For one life science client, rebuilding the catalog as one server rendered page per product moved average position from 16 to 10 and organic clicks 3.7x in eight months. The site had not earned a single new backlink in that time. It had earned pages.",
+        "For one life science client, rebuilding the catalog as one server rendered page per product moved the site from page two to page one for the product searches researchers type, with no new backlinks in that time. It had earned pages.",
       ]},
       { h2: "The three technical reasons a good page still does not rank", body: [
         "It is not in the HTML. Sites that assemble text in the browser with JavaScript are often invisible to crawlers; request your page without JavaScript and read what is left. It has no schema, so Google cannot tell a service page from a blog post. It is slow, and Core Web Vitals sit outside budget on mobile. All three are platform problems, which is why our builds are server rendered with schema on every page and why we migrate from WordPress and Webflow rather than patch them.",
@@ -380,7 +380,7 @@ export const problems: Problem[] = [
       { q: "How many pages do we need?", a: "As many as there are questions your buyers ask. One client needed 147 hand built pages plus a 14,000 page catalog. A professional firm might need 40. The number comes from the query list, not from a template." },
       { q: "Can you fix our current site or does it need a rebuild?", a: "If it renders on the server and carries schema, we add pages. If it does not, a rebuild on our stack is included with a 12 month term or $15,000 up front." },
     ],
-    related: [{ label: "SEO and content", href: "/seo-content" }, { label: "How many pages to rank", href: "/answers/how-many-pages-does-a-site-need-to-rank" }, { label: "ITL case study", href: "/results/ingenious-targeting-laboratory" }],
+    related: [{ label: "SEO and content", href: "/seo-content" }, { label: "How many pages to rank", href: "/answers/how-many-pages-does-a-site-need-to-rank" }, { label: "Results", href: "/results" }],
   },
   {
     slug: "competitors-show-up-in-chatgpt-and-we-do-not",
@@ -469,7 +469,7 @@ export const problems: Problem[] = [
         "Four vendors create six handoffs: ad to page, page to form, form to follow up, content to outreach, outreach to site, and everything to reporting. Each handoff loses leads and gains an excuse. More than 70 percent of marketing leads are never contacted by sales, and the number is worse when the lead crosses a company boundary on the way. You are also paying four account managers, four reporting cadences, and four onboarding cycles for one pipeline.",
       ]},
       { h2: "Why the parts share a team here", body: [
-        "The person who writes your cold email wrote your website, so the prospect's diligence confirms the outreach. The person who builds the landing page reads the search term report, so the page matches the query. The objection heard on a Tuesday call is in the ad copy by Friday. None of that is possible across vendor boundaries, and all of it is why our case study clients saw leads grow faster than traffic: 6.5x form fills against 3.7x clicks for one, 7.2x against 4.1x for another.",
+        "The person who writes your cold email wrote your website, so the prospect's diligence confirms the outreach. The person who builds the landing page reads the search term report, so the page matches the query. The objection heard on a Tuesday call is in the ad copy by Friday. None of that is possible across vendor boundaries, and all of it is why our case study clients see leads grow faster than traffic: the visitor lands on the page that answers the exact search.",
       ]},
       { h2: "What consolidation costs and saves", body: [
         "Separately, credible vendors run $2,000 to $10,000 for SEO, $1,500 to $7,500 for ads management, $5,000 to $15,000 for appointment setting, plus a web retainer. That stack runs $10,000 to $35,000 a month with the seams unowned. Kinetic runs all of it for $10,000 plus ad spend, with one report, one call a week, and one number in writing. The parts are cheaper together because they share a team.",
@@ -677,7 +677,7 @@ export const problems: Problem[] = [
       { q: "Can one outbound seat cover both?", a: "It can split time, but a seat sized for one brand's meeting number cannot hit two. Two brands on Kinetic means two seats." },
       { q: "How does reporting work?", a: "One report per brand, one call covering both, one number per brand in writing. You should never have to guess which brand produced what." },
     ],
-    related: [{ label: "Multi brand discount", href: "/answers/do-you-offer-a-discount-for-multiple-brands" }, pricing, { label: "Kavera case study", href: "/results/kavera" }],
+    related: [{ label: "Multi brand discount", href: "/answers/do-you-offer-a-discount-for-multiple-brands" }, pricing, { label: "Results", href: "/results" }],
   },
   {
     slug: "revenue-is-feast-or-famine",
@@ -734,7 +734,7 @@ export const problems: Problem[] = [
       ]},
       { h2: "The Searchable Repository Method", body: [
         "Treat every item as its own entity with its own page, its own schema, and its own reason to be indexed. Generate the pages from your own data, one server rendered page per model, with specifications, publications, and a request form on every one. Release in waves through an index gate so nothing thin or duplicated goes live. Route every inquiry into the CRM tagged by catalog prefix so you know which products produce leads.",
-        "For a mouse model CRO with more than 14,000 catalog products, that method moved average Google position from 16 to 10, organic clicks 3.7x, and inbound form fills 6.5x within eight months against the six months before we started. Month eight was the best organic month on record. Leads grew faster than clicks because the researcher landed on the exact model they searched for.",
+        "For a mouse model CRO with more than 14,000 catalog products, that method moved the catalog from page two to page one for the product searches researchers type, and form fills grew faster than clicks because the researcher landed on the exact model they searched for. The full study, with the window and the method, is on the results page.",
       ]},
       { h2: "What it takes on your side", body: [
         "A data export with one row per product and real fields: name, identifiers, specifications, applications, references. The pages are only as good as the data atoms behind them, and pages spun from one another fail. A point of contact who can approve a wave in 48 hours. And a form owner who will answer the inquiries, because the inbox is about to fill.",
@@ -745,7 +745,7 @@ export const problems: Problem[] = [
       { q: "How fast does the catalog get indexed?", a: "In the case above, most of the catalog was indexed by month three and all of it by month four, with impressions 4x the prior baseline at that point." },
       { q: "Does this work for reagents, antibodies, or assays?", a: "It works for any business where buyers search for a specific item and the site only shows categories. Suppliers, CROs, and reagent companies with large catalogs are the deepest fit." },
     ],
-    related: [{ label: "ITL case study", href: "/results/ingenious-targeting-laboratory" }, { label: "Programmatic SEO for life science", href: "/answers/what-is-programmatic-seo-for-life-science" }, { label: "Glossary: entity page", href: "/glossary/entity-page" }],
+    related: [{ label: "Results", href: "/results" }, { label: "Programmatic SEO for life science", href: "/answers/what-is-programmatic-seo-for-life-science" }, { label: "Glossary: entity page", href: "/glossary/entity-page" }],
   },
   {
     slug: "cro-new-business-only-from-referrals",
@@ -933,7 +933,7 @@ export const problems: Problem[] = [
         "A number: 14 day turnaround where the category runs 30. A named person: the PhD who runs the program, with a photo and a publication list. A method: the targeting strategy you use and why, with the failure mode it avoids. A result with a baseline: what happened for a named client, over what window, measured how. A price or a range. Any one of those beats flexible, high quality, and client focused. All five make you the obvious choice for the sponsors you actually fit, and visibly the wrong choice for the ones you do not, which is the point.",
       ]},
       { h2: "Own the specific searches the big firms ignore", body: [
-        "A global CRO has one page about your specialty because it has 200 specialties. You can have 40 pages about it: each model type, each application, each species, each method. Researchers search specifically, AI engines cite the page that answers one question completely, and specific pages win. For one life science client, that architecture moved average position from 16 to 10 and form fills 6.5x in eight months without a single new backlink.",
+        "A global CRO has one page about your specialty because it has 200 specialties. You can have 40 pages about it: each model type, each application, each species, each method. Researchers search specifically, AI engines cite the page that answers one question completely, and specific pages win. For one life science client, that architecture moved the catalog from page two to page one in eight months without a single new backlink.",
       ]},
     ],
     faqs: [
@@ -1096,7 +1096,7 @@ export const problems: Problem[] = [
         "Every web inquiry gets a call within one hour during business hours and a text or email inside 15 minutes confirming it was received. Every missed call gets a callback inside 30 minutes. One person owns the queue during each shift and it is visible. A written three touch sequence over five business days for anyone not reached. That is the whole runbook. It fits on one page and it usually adds more new patients in a month than the next $5,000 of ad spend.",
       ]},
       { h2: "Make the site do half the work", body: [
-        "Publish the first visit process, the insurance list, and the price for self pay services, so the inquiry arrives ready to book instead of ready to ask. Put online scheduling behind a covered form for the service lines where it fits. Ask for the phone number and the best time to call, and nothing else on the first step. One client's request form went to a single field and demo requests rose 5.8x; the same principle holds for a consult request.",
+        "Publish the first visit process, the insurance list, and the price for self pay services, so the inquiry arrives ready to book instead of ready to ask. Put online scheduling behind a covered form for the service lines where it fits. Ask for the phone number and the best time to call, and nothing else on the first step. A request form cut to one field converts at multiples of a long one; the same principle holds for a consult request.",
       ]},
     ],
     faqs: [
@@ -1290,7 +1290,7 @@ export const problems: Problem[] = [
         "Rent the function that produces it. The 90 day ramp on any tier states deliverables in writing: pages live by week six, campaigns at a stated cost per lead by week eight, and on Kinetic a monthly qualified meeting number set against your market size, offer, and deal value. Report each month with three lines: committed, actual, cost per meeting. By month four there is a trend, and by month six a coverage ratio, which is the slide the board wanted.",
       ]},
       { h2: "What goes in the update", body: [
-        "Meetings committed and held, with the definition of qualified stated once. Cost per meeting including fees and spend. Pipeline created from those meetings, in dollars, with stage. Source mix: inbound content, paid, outbound. One sentence on what changed and what will change next month. Our case study clients crossed 5x to 7x their prior monthly lead average in month five against a six month baseline, and we publish the method because a board will ask how the number was computed.",
+        "Meetings committed and held, with the definition of qualified stated once. Cost per meeting including fees and spend. Pipeline created from those meetings, in dollars, with stage. Source mix: inbound content, paid, outbound. One sentence on what changed and what will change next month. Every case study we publish uses one window, months five through eight against a six month baseline, and we publish the method because a board will ask how the number was computed.",
       ]},
     ],
     faqs: [
@@ -1343,7 +1343,7 @@ export const problems: Problem[] = [
     lead: "The new name is better. The new site is prettier. And inbound dropped to a trickle, because the old name had two years of search presence and the new one has a logo. A rebrand is only finished when the pipeline runs under the new name, and most rebrands stop at the launch announcement.",
     callout: {
       label: "Where this lives",
-      body: "Kinetic at $10,000 a month with a 12 month term includes the site rebuild under the new name plus the content, campaigns, and outbound seat that put a pipeline behind it. One client came through a rebrand to 5.8x the demo requests in eight months. Pricing is published.",
+      body: "Kinetic at $10,000 a month with a 12 month term includes the site rebuild under the new name plus the content, campaigns, and outbound seat that put a pipeline behind it. Pricing is published.",
     },
     searchPhrases: ["rebrand lost seo traffic", "company rename leads dropped", "how to rebrand without losing pipeline", "new brand name no search presence", "post rebrand marketing plan"],
     sections: [
@@ -1351,18 +1351,18 @@ export const problems: Problem[] = [
         "Every page the old name ranked for, unless it was redirected one to one. Every third party mention, review, and directory listing, which now point at a name that no longer exists. Every prospect mid consideration who searched the old name and found nothing. And the muscle memory of the referral network. The new site launched with none of that, and a launch post on LinkedIn does not replace it.",
       ]},
       { h2: "Run the rebrand as a pipeline build, not a design project", body: [
-        "One to one redirects from every old URL to its new equivalent, before launch. The new site rewritten around the buyer's question, not the new positioning statement: one page per question, schema on every page, a one field request form. Directory listings, reviews, and profiles updated under the new name in the first two weeks. A search campaign live at launch so the new name has demand while organic catches up. Outbound sequences that explain the name change in one line and move on. For one concussion software company, that sequence produced two of every three demo requests from organic search within eight months of the new name.",
+        "One to one redirects from every old URL to its new equivalent, before launch. The new site rewritten around the buyer's question, not the new positioning statement: one page per question, schema on every page, a one field request form. Directory listings, reviews, and profiles updated under the new name in the first two weeks. A search campaign live at launch so the new name has demand while organic catches up. Outbound sequences that explain the name change in one line and move on. A new domain has no authority, so it wins the specific queries nobody has written a page for before it wins the head term; for one new healthcare software company that meant page one for procedure code searches inside ninety days.",
       ]},
       { h2: "The timeline that works", body: [
-        "Month one: naming, positioning, site architecture, redirect map. Month two: rebuilt site live with the reference library and the demo form. Month three: specialty campaigns live, impressions 2x the prior baseline. Month four: library indexed, impressions 3x. Month five: demo requests cross 5x the prior monthly average and hold. That is the actual timeline from the case study, and it started from a product with a different name and no search presence.",
+        "Month one: naming, positioning, site architecture, redirect map, and the catalog of pages built before launch, not after. Month two: rebuilt site live under the new name with a one field request form, redirects in place, a search campaign running. Month three: first organic clicks under the new name as the specific pages land on page one. Months four through eight: the reference library indexed, outbound running, organic becoming the majority lead source. Launch with the pages built, release them in waves, and the new name has search presence in a quarter instead of a year.",
       ]},
     ],
     faqs: [
       { q: "We already launched. Is it too late for redirects?", a: "No. Map every old URL to a new one this week. Search engines reassign authority through redirects for months after a move, and every day without them loses more." },
       { q: "Should we keep the old name anywhere?", a: "One line on the about page and in outbound: formerly known as. It catches the prospects and the search traffic still using it, without diluting the new name." },
-      { q: "How long until the new name has presence?", a: "Paid gives it demand at launch. Organic under the new name showed by month three and was the majority source by month eight in the case above." },
+      { q: "How long until the new name has presence?", a: "Paid gives it demand at launch. Organic under a new domain shows in weeks when the specific pages are live at launch, and becomes the majority source over two to three quarters." },
     ],
-    related: [{ label: "Kavera case study", href: "/results/kavera" }, { label: "Brand and design", href: "/design-brand" }, { label: "Web development", href: "/web-development" }],
+    related: [{ label: "Results", href: "/results" }, { label: "Brand and design", href: "/design-brand" }, { label: "Web development", href: "/web-development" }],
   },
 ];
 

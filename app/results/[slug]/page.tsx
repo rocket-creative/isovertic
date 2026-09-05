@@ -6,7 +6,7 @@ import { RevealBlock } from "@/components/ui/RevealBlock";
 import { CTABand } from "@/components/sections/CTABand";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { breadcrumbLd, caseStudyLd } from "@/lib/schema";
-import { getCaseStudy, publishedCaseStudies, REPORTING_METHOD, STEP_ORDER } from "@/content/case-studies";
+import { getCaseStudy, publishedCaseStudies, REPORTING_METHOD, STEP_ORDER, STUDY_WINDOW_NOTE } from "@/content/case-studies";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
@@ -61,7 +61,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
           ))}
         </div>
         <p className="mt-6 pb-4 text-[13px] leading-relaxed text-ink-soft">
-          First eight months of engagement. Multiples against the client's own prior six month baseline. Method and sources below.
+          {STUDY_WINDOW_NOTE[c.studyType]}
         </p>
       </article>
 

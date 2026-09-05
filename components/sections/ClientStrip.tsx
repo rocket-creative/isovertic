@@ -1,11 +1,13 @@
 const clients = [
   "ingenious targeting laboratory",
-  "ISS Health",
-  "Kronos Revenue",
   "Sydra",
   "Kavera",
-  "Riviera Waterfront Mansion",
   "Pathways Within",
+  "Capseus",
+  "Metablify",
+  "Riviera Waterfront Mansion",
+  "Aisle & Time",
+  "Elena Kay Photography",
 ];
 
 export function ClientStrip() {

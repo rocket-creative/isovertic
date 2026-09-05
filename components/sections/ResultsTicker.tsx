@@ -31,10 +31,11 @@ export function ResultsTicker() {
         </div>
       </div>
       <p className="mt-6 text-[13px] leading-relaxed text-ink-soft">
-        First eight months of each engagement, against the client&apos;s{" "}
-        <Link href="/results#method" className="underline underline-offset-4 hover:text-navy">
-          own prior six month baseline.
-        </Link>
+        First eight months of each engagement against the client&apos;s own{" "}
+        <Link href="/results#method" className="underline underline-offset-4 hover:text-navy">prior baseline</Link>
+        , or the{" "}
+        <Link href="/results#method" className="underline underline-offset-4 hover:text-navy">first ninety days</Link>
+        {" "}of a new company.
       </p>
     </div>
   );
