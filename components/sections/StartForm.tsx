@@ -12,12 +12,15 @@ export type StartPlan = { key: string; tier: string; billing: "monthly" | "term"
 
 const field = "field";
 const labelClass = "field-label";
-const billingLabel: Record<StartPlan["billing"], string> = { monthly: "Month to month", term: "12 month term, billed monthly", quarterly: "1 year term, paid quarterly", upfront: "12 month term, paid up front" };
+const billingLabel: Record<StartPlan["billing"], string> = { monthly: "Month to month", term: "12 month term, billed monthly", quarterly: "12 month term, billed quarterly", upfront: "12 month term, paid up front" };
+const quarterlyOnlyLabel = "1 year term, paid quarterly";
 
 export function StartForm({ tiers, plans, initial }: { tiers: StartTier[]; plans: StartPlan[]; initial: string }) {
   const [state, action, pending] = useActionState<StartState, FormData>(startCheckout, null);
   const initialPlan = plans.find((p) => p.key === initial) ?? plans[0];
   const [tier, setTier] = useState(initialPlan.tier);
+  const [email, setEmail] = useState("");
+  const [company, setCompany] = useState("");
   const [billing, setBilling] = useState<StartPlan["billing"]>(initialPlan.billing);
   const current = plans.find((p) => p.tier === tier && p.billing === billing) ?? plans[0];
   const forTier = plans.filter((p) => p.tier === tier);
@@ -49,7 +52,7 @@ export function StartForm({ tiers, plans, initial }: { tiers: StartTier[]; plans
             <label key={p.key} className="flex min-h-[48px] cursor-pointer gap-4 py-4">
               <input type="radio" name="billing_pick" value={p.billing} checked={billing === p.billing} onChange={() => setBilling(p.billing)} className="mt-0.5 h-5 w-5 shrink-0 accent-navy" />
               <span>
-                <span className="block font-display text-[16px] font-medium">{billingLabel[p.billing]}</span>
+                <span className="block font-display text-[16px] font-medium">{p.billing === "quarterly" && forTier.length === 2 ? quarterlyOnlyLabel : billingLabel[p.billing]}</span>
                 <span className="mt-1 block text-[14px] leading-relaxed text-ink-soft">{p.summary}</span>
               </span>
             </label>
@@ -63,11 +66,11 @@ export function StartForm({ tiers, plans, initial }: { tiers: StartTier[]; plans
       <div className="mt-8 grid gap-8 sm:grid-cols-2">
         <div>
           <label htmlFor="email" className={labelClass}>{startCopy.emailLabel}</label>
-          <input id="email" name="email" type="email" autoComplete="email" inputMode="email" required aria-required="true" className={field} />
+          <input id="email" name="email" type="email" autoComplete="email" inputMode="email" required aria-required="true" value={email} onChange={(e) => setEmail(e.target.value)} className={field} />
         </div>
         <div>
           <label htmlFor="company" className={labelClass}>{startCopy.companyLabel}</label>
-          <input id="company" name="company" type="text" autoComplete="organization" className={field} />
+          <input id="company" name="company" type="text" autoComplete="organization" value={company} onChange={(e) => setCompany(e.target.value)} className={field} />
         </div>
       </div>
 
