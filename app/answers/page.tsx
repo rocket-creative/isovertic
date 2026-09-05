@@ -4,11 +4,11 @@ import { PageHero, Section } from "@/components/sections/Shell";
 import { RevealBlock } from "@/components/ui/RevealBlock";
 import { CTABand } from "@/components/sections/CTABand";
 import { JsonLd } from "@/components/ui/JsonLd";
-import { faqLd, breadcrumbLd } from "@/lib/schema";
+import { breadcrumbLd } from "@/lib/schema";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "Answers: What Scientists, Founders, and Practices Ask Before They Hire Us | ISOVERTIC" },
+  title: { absolute: "Answers for Scientists, Founders, and Practices | ISOVERTIC" },
   description: "Short, direct answers to the questions life science companies, startups, and healthcare practices ask about marketing, outbound, pricing, HIPAA, and MLR review. One question per page.",
   alternates: { canonical: "/answers" },
 };
@@ -23,7 +23,7 @@ const groups: { key: (typeof answers)[number]["audience"]; label: string }[] = [
 export default function Answers() {
   return (
     <>
-      <JsonLd data={[faqLd(answers.map((a) => ({ q: a.question, a: a.answer }))), breadcrumbLd([{ name: "Home", path: "/" }, { name: "Answers", path: "/answers" }])]} />
+      <JsonLd data={breadcrumbLd([{ name: "Home", path: "/" }, { name: "Answers", path: "/answers" }])} />
       <PageHero eyebrow="Answers" h1="The questions, answered in 40 words." lead="Every question here came from a buyer: a contact form, a sales call, a search someone typed before they found us. One question per page, the answer first, the reasoning after." />
       {groups.map((g, gi) => {
         const items = answers.filter((a) => a.audience === g.key);

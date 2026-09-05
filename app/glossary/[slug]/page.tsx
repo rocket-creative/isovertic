@@ -8,6 +8,7 @@ import { CTABand } from "@/components/sections/CTABand";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { definedTermLd, breadcrumbLd } from "@/lib/schema";
 import type { Metadata } from "next";
+import { metaTitle, metaDescription } from "@/lib/meta";
 
 export function generateStaticParams() {
   return glossary.map((t) => ({ slug: t.slug }));
@@ -17,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const t = getTerm(slug);
   if (!t) return {};
-  return { title: { absolute: `${t.term}: Definition | ISOVERTIC Glossary` }, description: t.definition, alternates: { canonical: `/glossary/${slug}` } };
+  return { title: { absolute: metaTitle(`${t.term}: definition`) }, description: metaDescription(t.definition), alternates: { canonical: `/glossary/${slug}` } };
 }
 
 export default async function TermPage({ params }: { params: Promise<{ slug: string }> }) {

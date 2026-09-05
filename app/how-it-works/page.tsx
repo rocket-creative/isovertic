@@ -10,7 +10,8 @@ import { AiHuman } from "@/components/sections/AiHuman";
 import { WhyBuyers } from "@/components/sections/WhyBuyers";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { faqLd, breadcrumbLd } from "@/lib/schema";
-import { closeNote, educateGridCell, systemNote } from "@/content/system";
+import { closeNote, systemNote } from "@/content/system";
+import { tiers, usd } from "@/content/tiers";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -26,22 +27,6 @@ const steps = [
   { n: "04", title: "Buy", body: "Streaming and broadcast TV bought in your own accounts, with an exposed versus control measurement plan so you can see whether it moved the number. Critical Mass only, with a $25,000 monthly media minimum." },
   { n: "05", title: "Book", body: "Outbound sequences, cold calls, and a qualified meeting on your calendar with the objection intelligence fed back into the site and the ads. One seat on Kinetic with a meeting number in writing. Two seats on Critical Mass. Catalyst can add a seat for $4,500 a month." },
   { n: "06", title: "Educate", body: "Your team, taught the system at your office, with the runbooks rewritten in your brand and licensed to you for internal use. One or two days onsite. Bought on its own as Protocol at $5,000 or $20,000, or added to any tier for $3,500. This is the step for companies that want the system and their own hands on it. Then you close: we book the meeting, brief you, and step out." },
-];
-
-const tierCols = [
-  { name: "Baseline", price: "$2,500 on term, $3,000 monthly" },
-  { name: "Catalyst", price: "$5,000 on term, $6,000 monthly" },
-  { name: "Kinetic", price: "$10,000 on term, $12,000 monthly" },
-  { name: "Critical Mass", price: "From $25,000 on term, $30,000 monthly" },
-];
-
-const tierRows = [
-  { step: "01 Build", cells: ["Website on a 12 month term, or $15,000", "Landing page plus website on a term", "Landing pages plus website on a term", "Per brand"] },
-  { step: "02 Rank", cells: ["Newsletter, blog, social", "Doubled social", "Full content system plus YouTube", "Per brand"] },
-  { step: "03 Run", cells: ["·", "One Google Ads campaign", "Multiple campaigns, A/B tested", "Per brand"] },
-  { step: "04 Buy", cells: ["·", "·", "·", "Streaming and broadcast TV"] },
-  { step: "05 Book", cells: ["·", "Add on seat $4,500", "One seat, meeting number in writing", "Two seats"] },
-  { step: "06 Educate", cells: [educateGridCell, educateGridCell, educateGridCell, educateGridCell] },
 ];
 
 const ramp = [
@@ -91,39 +76,23 @@ export default function HowItWorks() {
       </Section>
       <AiHuman />
       <WhyBuyers />
-      <Section label="The tier grid">
+      <Section label="Which tier">
         <RevealBlock>
           <h2 className="font-display text-h2 font-medium">Which steps each tier runs</h2>
+          <p className="mt-5 max-w-[62ch] leading-relaxed text-ink/90">{systemNote}</p>
         </RevealBlock>
-        <div className="t-wrap mt-12">
-          <table className="t t--stack t--720">
-            <thead>
-              <tr className="border-b border-rule">
-                <th className="py-4 pr-4 font-display text-[15px] font-medium">Step</th>
-                {tierCols.map((c) => (
-                  <th key={c.name} className="px-3 py-4 font-medium">
-                    <span className="block">{c.name}</span>
-                    <span className="mt-1 block text-[12px] font-normal text-ink-soft">{c.price}</span>
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {tierRows.map((r) => (
-                <tr key={r.step} className="border-b border-rule align-top">
-                  <th scope="row" className="py-4 pr-4 font-medium text-ink">{r.step}</th>
-                  {r.cells.map((cell, i) => (
-                    <td key={i} data-label={tierCols[i].name} data-empty={cell ? undefined : ""} className="px-3 py-4 text-ink-soft">
-                      {cell}
-                    </td>
-                  ))}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <ul className="mt-10 grid gap-px bg-rule sm:grid-cols-2 xl:grid-cols-4">
+          {tiers.map((t) => (
+            <li key={t.slug} className="surface-card p-6">
+              <p className="eyebrow">{t.name}</p>
+              <p className="mt-3 font-display text-[22px] font-semibold leading-none">{t.from ? "From " : ""}{usd(t.term)}</p>
+              <p className="mt-1 text-[12px] text-ink-soft">per month on a 12 month term{t.spend ? `, ${t.spend}` : ""}</p>
+              <p className="mt-4 text-[14px] leading-relaxed text-ink/90">{t.for}</p>
+            </li>
+          ))}
+        </ul>
         <div className="mt-8">
-          <Link href="/pricing" className="cta-link">Pricing is published <Arrow /></Link>
+          <Link href="/pricing" className="cta-link">The full grid, add ons, and the term table are on the pricing page <Arrow /></Link>
         </div>
       </Section>
       <Section label="The ramp" tone="bright">

@@ -20,7 +20,7 @@ export function getArticles(): Article[] {
     .readdirSync(dir)
     .filter((f) => f.endsWith(".md"))
     .map((f) => parseArticle(fs.readFileSync(path.join(dir, f), "utf8")))
-    .sort((a, b) => a.title.localeCompare(b.title));
+    .sort((a, b) => b.datePublished.localeCompare(a.datePublished));
 }
 
 export function getArticle(slug: string): Article | undefined {

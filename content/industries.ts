@@ -3,10 +3,11 @@ import type { Page } from "./types";
 export const industries: Page[] = [
   {
     slug: "healthcare",
-    title: "Growth and Lead Generation for Healthcare Practices | ISOVERTIC",
+    title: "Healthcare Marketing Agency for Practices | ISOVERTIC",
+    dateModified: "2026-09-05",
     metaDescription: "Patient acquisition for practices and healthcare brands. HIPAA literate web, ads, and outreach from one senior team.",
     eyebrow: "Healthcare",
-    h1: "Patient pipeline for practices that compete on more than insurance lists.",
+    h1: "Healthcare marketing agency for practices that compete on more than insurance lists.",
     lead: "Healthcare marketing fails in two directions: agencies that understand ads but not compliance, and compliance minded vendors that cannot generate demand. We have shipped both sides together: service line architectures, compliant intake, certified ad accounts, and the content patients actually search before they book.",
     callout: {
       label: "Typical starting point",
@@ -37,10 +38,11 @@ export const industries: Page[] = [
   },
   {
     slug: "biotech",
-    title: "Marketing and Outbound for Biotech and Life Sciences | ISOVERTIC",
-    metaDescription: "Scientific content systems, SEO at scale, and researcher outreach for biotech, CROs, and life science service companies.",
+    title: "Life Science Marketing Agency for Biotech and CROs | ISOVERTIC",
+    dateModified: "2026-09-05",
+    metaDescription: "Life science marketing agency for biotech, CROs, and research tools: scientific content systems, SEO at scale, MLR review gate, and outreach to researchers.",
     eyebrow: "Life sciences",
-    h1: "Scientific authority, engineered for demand.",
+    h1: "Life science marketing agency: scientific authority, engineered for demand.",
     lead: "Life science buyers are the hardest audience on the internet: technical, skeptical, and allergic to marketing voice. We have built for them at scale, including a content system of more than 100 SEO optimized pages across a 147 page sitemap for a mouse model service provider, plus an editorial researcher series engineered for backlinks from institutions.",
     callout: {
       label: "Typical starting point",
@@ -71,10 +73,11 @@ export const industries: Page[] = [
   },
   {
     slug: "startups",
-    title: "Pipeline for Startups Before the Sales Hire | ISOVERTIC",
+    title: "Startup Marketing Agency, Pipeline Before the Sales Hire | ISOVERTIC",
+    dateModified: "2026-09-05",
     metaDescription: "Marketing and outbound for seed and Series A startups. Published pricing, a 90 day ramp, and meetings before you hire an SDR.",
     eyebrow: "Startups",
-    h1: "A pipeline before the sales hire.",
+    h1: "Startup marketing agency: a pipeline before the sales hire.",
     lead: "You have a product, a runway, and a board that wants to see the top of the funnel move before it funds the bottom. ISOVERTIC runs the marketing and, when you are ready, the outbound, at a price that fits a seed or Series A budget and is published so you can put it in the model.",
     callout: {
       label: "Typical starting point",
@@ -102,10 +105,11 @@ export const industries: Page[] = [
   },
   {
     slug: "professional-services",
-    title: "Pipeline for Professional Services Firms | ISOVERTIC",
+    title: "Marketing for Professional Services Firms | ISOVERTIC",
+    dateModified: "2026-09-05",
     metaDescription: "Lead generation and growth for consultancies, law firms, accounting firms, and agencies. Founder led positioning, content, and outbound.",
     eyebrow: "Professional services",
-    h1: "Firms sell trust. We manufacture the evidence.",
+    h1: "Professional services marketing: firms sell trust, we manufacture the evidence.",
     lead: "Professional services buyers hire people, not brochures. The firms winning in 2026 run founder forward content, publish real expertise, and back it with outbound that opens doors warmly because the diligence trail already exists. We build that whole trail.",
     callout: {
       label: "Typical starting point",
@@ -136,10 +140,11 @@ export const industries: Page[] = [
   },
   {
     slug: "home-services",
-    title: "Lead Generation for Home Service and Trade Businesses | ISOVERTIC",
+    title: "Home Services Lead Generation for Trades | ISOVERTIC",
+    dateModified: "2026-09-05",
     metaDescription: "Marketing and sales pipeline for HVAC, roofing, electrical, and trade companies. Local search, ads, TV, and commercial outbound from one team.",
     eyebrow: "Home services",
-    h1: "Own your service area like the biggest player in it.",
+    h1: "Home services lead generation: own your service area like the biggest player in it.",
     lead: "The lead generation industry treats trades like a commodity: shared leads, bought lists, junior account managers. We treat a $5M contractor like a brand, because in a local market, you can be one. Local search dominance, ads run to cost per booked job, streaming TV in your zip codes, and commercial outbound for the B2B side of the book.",
     callout: {
       label: "Typical starting point",
@@ -171,9 +176,10 @@ export const industries: Page[] = [
   {
     slug: "hospitality",
     title: "Marketing for Hospitality and Event Businesses | ISOVERTIC",
+    dateModified: "2026-09-05",
     metaDescription: "Demand generation for venues, hospitality groups, and event businesses, from a team with real venue operating history.",
     eyebrow: "Hospitality",
-    h1: "Fill the calendar. The venue kind and the sales kind.",
+    h1: "Hospitality and venue marketing: fill the calendar, the venue kind and the sales kind.",
     lead: "Hospitality marketing is usually pretty pictures with no pipeline behind them. We come from the operating side: venue management, wedding markets, event sales. We know the booking is won in the follow up sequence, the tour conversion, and the season pacing, not just the Instagram grid.",
     callout: {
       label: "Typical starting point",

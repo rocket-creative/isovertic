@@ -8,8 +8,9 @@ import { RevealBlock } from "@/components/ui/RevealBlock";
 import { Arrow } from "@/components/ui/Arrow";
 import { CTABand } from "@/components/sections/CTABand";
 import { JsonLd } from "@/components/ui/JsonLd";
-import { qaLd, breadcrumbLd } from "@/lib/schema";
+import { answerLd, breadcrumbLd } from "@/lib/schema";
 import type { Metadata } from "next";
+import { metaTitle, metaDescription } from "@/lib/meta";
 
 export function generateStaticParams() {
   return answers.map((a) => ({ slug: a.slug }));
@@ -19,7 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const a = getAnswer(slug);
   if (!a) return {};
-  return { title: { absolute: `${a.question} | ISOVERTIC` }, description: a.answer, alternates: { canonical: `/answers/${slug}` } };
+  return { title: { absolute: metaTitle(a.question) }, description: metaDescription(a.answer), alternates: { canonical: `/answers/${slug}` } };
 }
 
 export default async function AnswerPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -31,7 +32,7 @@ export default async function AnswerPage({ params }: { params: Promise<{ slug: s
   const siblings = answers.filter((x) => x.audience === a.audience && x.slug !== a.slug).slice(0, 4);
   return (
     <>
-      <JsonLd data={[qaLd(a), breadcrumbLd([{ name: "Home", path: "/" }, { name: "Answers", path: "/answers" }, { name: a.question, path: `/answers/${a.slug}` }])]} />
+      <JsonLd data={[...answerLd(a), breadcrumbLd([{ name: "Home", path: "/" }, { name: "Answers", path: "/answers" }, { name: a.question, path: `/answers/${a.slug}` }])]} />
       <article className="mx-auto max-w-[1440px] gutter pt-32 lg:pt-40">
         <p className="eyebrow">Answers · Updated {a.dateModified}</p>
         <h1 className="mt-5 max-w-[26ch] font-display text-h1 font-medium">{a.question}</h1>

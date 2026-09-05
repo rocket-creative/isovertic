@@ -12,7 +12,7 @@ Ask the owner of a three location orthopedic group about TV advertising and you 
 
 ## What changed
 
-Streaming moved TV from a broadcast buy to a targeted one. Connected TV inventory across the major platforms can be purchased against a ZIP code radius, a household income band, or a behavioral segment, with a frequency cap and a completion rate you can read the next morning. Adwave's Q2 2026 pricing data puts the blended average around $26 per thousand impressions, with most campaigns clearing between $25 and $35 and standard programmatic inventory settling near $20 to $25. Two years ago premium inventory ran $35 to $50. Supply from Netflix, Disney, and Amazon ad tiers pushed it down. Linear broadcast still runs $10 to $15 per thousand, but with minimums that put it out of reach and no targeting to speak of.
+Streaming moved TV from a broadcast buy to a targeted one. [Connected TV](/glossary/connected-tv) inventory across the major platforms can be purchased against a ZIP code radius, a household income band, or a behavioral segment, with a frequency cap and a completion rate you can read the next morning. Adwave's Q2 2026 pricing data puts the blended average around $26 per thousand impressions, with most campaigns clearing between $25 and $35 and standard programmatic inventory settling near $20 to $25. Two years ago premium inventory ran $35 to $50. Supply from Netflix, Disney, and Amazon ad tiers pushed it down. Linear broadcast still runs $10 to $15 per thousand, but with minimums that put it out of reach and no targeting to speak of.
 
 ## What a real test costs
 
@@ -24,10 +24,10 @@ A regional healthcare group with a service line that competes on reputation, spi
 
 ## How to measure it
 
-Pick the geography where your close rate is already best. Produce one spot that says the category claim plainly. Flight 10 to 12 weeks. Hold out a matched geography as a control and compare branded search, direct traffic, and booked consultations between exposed and control markets. Read completion rate and frequency weekly. Read the exposed versus control gap at week six and week twelve. If the gap is not there at twelve, stop; if it is, the second flight is the cheapest growth you will buy that year.
+Pick the geography where your close rate is already best. Produce one spot that says the category claim plainly. Flight 10 to 12 weeks. Hold out a matched geography as a control and compare branded search, direct traffic, and booked consultations between exposed and control markets. Read completion rate and frequency weekly. Read the [exposed versus control](/glossary/exposed-versus-control) gap at week six and week twelve. If the gap is not there at twelve, stop; if it is, the second flight is the cheapest growth you will buy that year.
 
 ## The compliance note
 
 A healthcare spot is promotional content. If it names a treatment outcome, it goes through the same medical review as a landing page, and the landing page it points to needs a BAA covered form. Plan that into the timeline, not after the buy.
 
-The ask: if you have a market where you already win and a spot worth airing, Critical Mass is where TV lives on our pricing page. Book a pipeline call and bring your close rate by geography.
+The ask: if you have a market where you already win and a spot worth airing, Critical Mass is where TV lives on our [pricing page](/pricing). [Book a pipeline call](/contact) and bring your close rate by geography.

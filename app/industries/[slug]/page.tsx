@@ -18,5 +18,5 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   const { slug } = await params;
   const page = getIndustry(slug);
   if (!page) notFound();
-  return <PageTemplate page={page} basePath="/industries" crumbRoot={{ name: "Industries", path: "/industries/" + slug }} />;
+  return <PageTemplate page={page} basePath="/industries" crumbRoot={{ name: "Industries", path: "/industries" }} />;
 }

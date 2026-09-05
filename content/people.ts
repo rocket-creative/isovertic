@@ -9,6 +9,7 @@ export type Person = {
   alumniOf?: string[];
   sameAs?: string[];
   initials: string;
+  dateModified?: string;
 };
 
 export const people: Person[] = [
@@ -38,9 +39,9 @@ export const people: Person[] = [
     short: "Molecular biologist. A decade selling for a genetic engineering CRO. Operations at Yale School of Medicine.",
     initials: "KC",
     bio: [
-      "Kristen Coughlin is Chief Operating Officer at ISOVERTIC, bringing a powerful combination of scientific discipline and business acumen to the agency's operations. A trained molecular biologist who completed her graduate laboratory work at Stony Brook University, Kristen spent more than a decade driving sales, marketing, and business development at Ingenious Targeting Laboratory, a CRO specializing in genetic engineering and translational product development.",
+      "Kristen Coughlin is Chief Operating Officer at ISOVERTIC. She is a molecular biologist by training, with graduate laboratory work at Stony Brook University, and spent more than ten years selling custom mouse models and running business development at Ingenious Targeting Laboratory, a genetic engineering CRO. She has sat on both sides of the life science sale: at the bench choosing a vendor, and at the vendor answering the PI.",
       "Most recently, she managed complex institutional operations in the Department of Microbial Pathogenesis at the Yale School of Medicine.",
-      "Under her operational leadership, ISOVERTIC builds your digital presence, automates leads for your SaaS or physical products, and books appointments with qualified prospects to consistently drive your sales.",
+      "At ISOVERTIC she runs operations and is on every life science account: she reviews scientific content for register and accuracy, writes the sequences that go to lab managers, and takes the first call with any CRO or tools company that signs up.",
     ],
     credentials: [
       "Molecular biologist, graduate laboratory work at Stony Brook University",

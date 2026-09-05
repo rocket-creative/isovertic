@@ -11,8 +11,10 @@ export function organizationLd() {
     "@type": "ProfessionalService",
     "@id": orgId,
     name: site.name,
+    alternateName: ["Isovertic", "Rocket Creative"],
     legalName: site.legalName,
     url: site.url,
+    foundingLocation: { "@type": "Place", name: "Long Island, New York" },
     logo: `${site.url}/isovertic-logo.svg`,
     image: `${site.url}/og.png`,
     description: site.description,
@@ -22,7 +24,7 @@ export function organizationLd() {
     employee: people.map((p) => ({ "@id": `${site.url}/people/${p.slug}#person` })),
     sameAs: [site.linkedin],
     knowsAbout: site.knowsAbout,
-    areaServed: "United States",
+    areaServed: ["United States", "Nassau County NY", "Suffolk County NY", "New York Metro"],
     priceRange: "$2,500 to $25,000 per month",
     address: {
       "@type": "PostalAddress",
@@ -113,19 +115,41 @@ export function caseStudyLd(c: { title: string; metaDescription: string; publish
   };
 }
 
-export function qaLd(q: { question: string; answer: string; slug: string; dateModified: string; author: string }) {
-  return {
-    "@context": "https://schema.org",
-    "@type": "QAPage",
-    mainEntity: {
-      "@type": "Question",
-      name: q.question,
-      text: q.question,
-      answerCount: 1,
+// One question, one author, no user submitted answers: Google says that is not a QAPage. Article plus a single item FAQPage instead.
+export function answerLd(q: { question: string; answer: string; detail: string; slug: string; dateModified: string; author: string }) {
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: q.question,
+      description: q.answer,
+      articleBody: `${q.answer} ${q.detail}`,
+      datePublished: q.dateModified,
       dateModified: q.dateModified,
       author: personRef(q.author),
-      acceptedAnswer: { "@type": "Answer", text: q.answer, url: `${site.url}/answers/${q.slug}`, author: personRef(q.author) },
+      publisher: { "@id": orgId },
+      mainEntityOfPage: `${site.url}/answers/${q.slug}`,
+      articleSection: "Answers",
     },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [{ "@type": "Question", name: q.question, acceptedAnswer: { "@type": "Answer", text: q.answer } }],
+    },
+  ];
+}
+
+export function comparePageLd(p: { slug: string; h1: string; metaDescription: string; competitor: string }) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: p.h1,
+    description: p.metaDescription,
+    author: { "@id": personId },
+    publisher: { "@id": orgId },
+    mainEntityOfPage: `${site.url}/compare/${p.slug}`,
+    about: [{ "@id": orgId }, { "@type": "Organization", name: p.competitor }],
+    articleSection: "Comparisons",
   };
 }
 
@@ -137,20 +161,6 @@ export function definedTermLd(t: { term: string; definition: string; slug: strin
     description: t.definition,
     url: `${site.url}/glossary/${t.slug}`,
     inDefinedTermSet: { "@type": "DefinedTermSet", name: "ISOVERTIC glossary", url: `${site.url}/glossary` },
-  };
-}
-
-export function localBusinessLd() {
-  return {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "@id": `${site.url}/#local`,
-    name: site.name,
-    url: `${site.url}/long-island`,
-    image: `${site.url}/og.png`,
-    areaServed: ["Nassau County NY", "Suffolk County NY", "New York Metro"],
-    address: { "@type": "PostalAddress", addressLocality: "Long Island", addressRegion: "NY", addressCountry: "US" },
-    parentOrganization: { "@id": orgId },
   };
 }
 

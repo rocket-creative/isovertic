@@ -8,7 +8,7 @@ import { breadcrumbLd } from "@/lib/schema";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "Glossary: Marketing, Compliance, and Search Terms for Regulated and Technical Sellers | ISOVERTIC" },
+  title: { absolute: "Marketing, Compliance, and Search Glossary | ISOVERTIC" },
   description: "Plain definitions of the terms that come up when a life science company, a startup, or a healthcare practice buys marketing: MLR, BAA, PHI, LegitScript, AEO, entity pages, cost per meeting, and more.",
   alternates: { canonical: "/glossary" },
 };

@@ -11,4 +11,5 @@ export type Page = {
   sections: Block[];
   faqs: FAQ[];
   related: { label: string; href: string }[];
+  dateModified?: string; // ISO date of the last copy change, feeds the sitemap
 };

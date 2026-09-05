@@ -34,7 +34,7 @@ export default function About() {
       <Section label="Founder" tone="bright">
         <RevealBlock className="max-w-[68ch]">
           <h2 className="font-display text-h2 font-medium"><Link href="/people/george-stoff" className="hover:text-signal">{site.founder}</Link>, Founder and Lead Engineer</h2>
-          <p className="mt-6 leading-relaxed text-ink/90">George Stoff is a full stack engineer and founder. He has spent more than 30 years building the systems companies sell through: production software on Next.js, TypeScript, and Supabase, server rendered sites with thousands of schema backed pages, the data pipelines that feed outbound, and the ad and content systems that run on top of them. He writes the build briefs our coding agents execute. He has shipped SaaS products of his own, operated agencies, run media brands, and managed go to market for healthcare, biotech, and professional service companies. He has written more pages about mouse models than most people who make them.</p>
+          <p className="mt-6 leading-relaxed text-ink/90">Full stack engineer and founder, more than 30 years building the systems companies sell through: server rendered sites with thousands of schema backed pages, the data pipelines that feed outbound, and the ad and content systems on top. He has shipped SaaS products of his own and run go to market for healthcare, biotech, and professional service companies. <Link href="/people/george-stoff" className="underline underline-offset-4 hover:text-navy">Full bio and credentials</Link>.</p>
           <p className="mt-5 leading-relaxed text-ink/90">ISOVERTIC exists because every owner he worked with was buying these capabilities in pieces, from vendors who never spoke, and wondering why the pieces never became a pipeline.</p>
         </RevealBlock>
       </Section>
@@ -42,10 +42,7 @@ export default function About() {
         <RevealBlock className="max-w-[68ch]">
           <h2 className="font-display text-h2 font-medium"><Link href="/people/kristen-coughlin" className="hover:text-signal">Kristen Coughlin</Link>, Chief Operating Officer</h2>
           <p className="mt-6 leading-relaxed text-ink/90">
-            Kristen Coughlin is Chief Operating Officer at ISOVERTIC, bringing a powerful combination of scientific discipline and business acumen to the agency&apos;s operations. A trained molecular biologist who completed her graduate laboratory work at Stony Brook University, Kristen spent more than a decade driving sales, marketing, and business development at Ingenious Targeting Laboratory, a CRO specializing in genetic engineering and translational product development. Most recently, she managed complex institutional operations in the Department of Microbial Pathogenesis at the Yale School of Medicine.
-          </p>
-          <p className="mt-5 leading-relaxed text-ink/90">
-            Under her operational leadership, ISOVERTIC builds your digital presence, automates leads for your SaaS or physical products, and books appointments with qualified prospects to consistently drive your sales.
+            Molecular biologist, ten years selling custom mouse models for a genetic engineering CRO, then institutional operations in the Department of Microbial Pathogenesis at the Yale School of Medicine. She runs operations and is on every life science account. <Link href="/people/kristen-coughlin" className="underline underline-offset-4 hover:text-navy">Full bio and credentials</Link>.
           </p>
         </RevealBlock>
       </Section>

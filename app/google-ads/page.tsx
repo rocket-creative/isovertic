@@ -10,5 +10,5 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <PageTemplate page={page} basePath="" crumbRoot={{ name: "Services", path: "/google-ads" }} />;
+  return <PageTemplate page={page} basePath="" crumbRoot={{ name: "Services", path: "/services" }} />;
 }

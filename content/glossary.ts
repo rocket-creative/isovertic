@@ -4,6 +4,7 @@ export type Term = {
   definition: string; // one or two sentences, quotable
   detail: string;
   related: { label: string; href: string }[];
+  dateModified?: string;
 };
 
 export const glossary: Term[] = [

@@ -3,7 +3,8 @@ import type { Page } from "./types";
 export const services: Page[] = [
   {
     slug: "outbound-appointment-setting",
-    title: "B2B Appointment Setting Services | Meetings on Your Calendar",
+    title: "B2B Appointment Setting Services | ISOVERTIC",
+    dateModified: "2026-09-05",
     metaDescription: "Outbound appointment setting run by a senior team that also builds your site and ads. Qualified meetings on your calendar with a 90 day commitment.",
     eyebrow: "Outbound",
     h1: "Appointment setting that lands on your calendar, not in a report.",
@@ -41,9 +42,10 @@ export const services: Page[] = [
   {
     slug: "google-ads",
     title: "Google Ads Management for Lead Generation | ISOVERTIC",
+    dateModified: "2026-09-05",
     metaDescription: "Google Ads run to a cost per meeting, not a cost per click. Senior management, healthcare and compliance literate, landing pages built in house.",
     eyebrow: "Paid search",
-    h1: "Google Ads measured in meetings, not clicks.",
+    h1: "Google Ads management measured in meetings, not clicks.",
     lead: "Most ad accounts are graded on metrics that cannot pay your bills. We run Google Ads as one stage of a pipeline that ends in a booked sales conversation, which changes every decision upstream: keyword intent over volume, landing pages we build ourselves, and budgets steered by cost per qualified meeting.",
     callout: {
       label: "Where this lives",
@@ -74,10 +76,11 @@ export const services: Page[] = [
   },
   {
     slug: "seo-content",
-    title: "SEO and Content Systems That Get You Found and Cited | ISOVERTIC",
+    title: "SEO and AI Search Optimization Agency | ISOVERTIC",
+    dateModified: "2026-09-05",
     metaDescription: "SEO built for Google and for AI search. Content systems at scale, entity schema, and server rendered architecture from a team that ships 100 plus page builds.",
     eyebrow: "Search and content",
-    h1: "Be the answer. In Google, and in the AI engines sitting in front of it.",
+    h1: "SEO and AI search optimization: be the answer in Google and in the engines in front of it.",
     lead: "Ranking is no longer the finish line. Your buyers ask ChatGPT, Perplexity, and Google's AI Overviews before they ever see a blue link, and those systems cite sites with server rendered content, entity schema, and structured answers. We build content systems that win both layers at once.",
     callout: {
       label: "Where this lives",
@@ -109,9 +112,10 @@ export const services: Page[] = [
   {
     slug: "web-development",
     title: "Web Design and Development Built to Convert | ISOVERTIC",
+    dateModified: "2026-09-05",
     metaDescription: "Conversion focused web design and development on Next.js, TypeScript, and Vercel. Server rendered, schema complete, built by the team that runs your pipeline.",
     eyebrow: "Build",
-    h1: "Your website is the asset every dollar flows through. We build it like one.",
+    h1: "Web design and development for the asset every dollar flows through.",
     lead: "Every ad click, every cold email reply, every referral ends up on your website doing diligence. If the site is slow, vague, or invisible to AI search, everything upstream gets more expensive. We design and build sites that close the loop: fast, server rendered, schema complete, and written to convert the traffic the rest of the system creates.",
     callout: {
       label: "Where this lives",
@@ -143,9 +147,10 @@ export const services: Page[] = [
   {
     slug: "tv-ctv-advertising",
     title: "TV and CTV Advertising for Growing Businesses | ISOVERTIC",
+    dateModified: "2026-09-05",
     metaDescription: "Streaming and broadcast TV buying for businesses doing $1M to $20M. Creative, buying, and measurement from one team, tied to your pipeline.",
     eyebrow: "Media",
-    h1: "TV is no longer above your pay grade.",
+    h1: "CTV and TV advertising is no longer above your pay grade.",
     lead: "The enterprise agencies that buy television serve enterprise budgets, so most growing companies never even price the channel. That is the opportunity. Streaming TV inventory can be bought with precision and tested with budgets in the low five figures, and a local or category audience seeing your brand on the biggest screen in the house changes how every cold email and search ad performs afterward.",
     callout: {
       label: "Where this lives",
@@ -179,10 +184,11 @@ export const services: Page[] = [
   },
   {
     slug: "design-brand",
-    title: "Brand and Design | Editorial Luxury for Companies That Sell | ISOVERTIC",
+    title: "Brand Identity and Design for Companies That Sell | ISOVERTIC",
+    dateModified: "2026-09-05",
     metaDescription: "Brand identity and design with editorial restraint, built to make a growing company look like the category leader before a word is read.",
     eyebrow: "Brand",
-    h1: "Look like the firm they should have called first.",
+    h1: "Brand and design that makes you look like the firm they should have called first.",
     lead: "Buyers decide who is senior in about three seconds, and they decide it visually. We design identities and interfaces with editorial restraint: confident type, structural layout, real photography, nothing decorative. The work signals authority quietly, which is the only way authority can be signaled.",
     callout: {
       label: "Where this lives",

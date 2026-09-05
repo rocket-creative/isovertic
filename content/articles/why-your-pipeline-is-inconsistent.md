@@ -28,10 +28,10 @@ How many qualified meetings do you need each month to hit the number? What does 
 
 ## Cause 5: Four vendors, zero owners
 
-The web shop, the ad agency, the SEO vendor, and the SDR firm each celebrate their own metric and none of them is meetings. When the pipeline stalls everyone points at the seam next to them. One team accountable for one number is the structural fix, and it is the reason our tiers exist as a ladder rather than a menu.
+The web shop, the ad agency, the SEO vendor, and the SDR firm each celebrate their own metric and none of them is meetings. When the pipeline stalls everyone points at [the seam](/glossary/the-seam) next to them. One team accountable for one number is the structural fix, and it is the reason our tiers exist as a ladder rather than a menu.
 
 ## The fix, in order, by tier
 
-Write the math down first. Then own the seam: a response time standard and a follow up sequence, which costs discipline, not money. Then add the channel you control. For a company that publishes nothing, that is Baseline at $2,500, a newsletter, a blog post, and social every month so demand exists before you need it. For a company with a site and no paid demand, Catalyst at $5,000 adds one Google Ads campaign and a landing page with leads worked within a business day. For a company that needs meetings this quarter, Kinetic at $10,000 adds the outbound seat and the number in writing. Run all of it continuously, especially when you are busy, because busy is when the next trough is being built.
+Write the math down first. Then own the seam: a response time standard and a follow up sequence, which costs discipline, not money. Then add the channel you control. For a company that publishes nothing, that is Baseline at $2,500, a newsletter, a blog post, and social every month so demand exists before you need it. For a company with a site and no paid demand, Catalyst at $5,000 adds one [Google Ads](/google-ads) campaign and a landing page with leads worked within a business day. For a company that needs meetings this quarter, [Kinetic](/pricing) at $10,000 adds the outbound seat and the number in writing. Run all of it continuously, especially when you are busy, because busy is when the next trough is being built.
 
 The ask: if you want the math written down for your business, that is literally the first hour of our engagement, and we will do it on a pipeline call for free.

@@ -1,9 +1,13 @@
 import type { Page } from "./types";
 
-export const compares: Page[] = [
+export type ComparePage = Page & { competitor: string };
+
+export const compares: ComparePage[] = [
   {
     slug: "abstrakt-marketing-group-alternative",
+    competitor: "Abstrakt Marketing Group",
     title: "Abstrakt Marketing Group Alternative | ISOVERTIC",
+    dateModified: "2026-09-04",
     metaDescription: "Comparing ISOVERTIC and Abstrakt Marketing Group: senior boutique vs 500 person machine, with TV capability and published pricing.",
     eyebrow: "Comparison",
     h1: "An Abstrakt alternative for founders who want the senior team, not the machine.",
@@ -31,7 +35,9 @@ export const compares: Page[] = [
   },
   {
     slug: "belkins-alternative",
-    title: "Belkins Alternative for Companies That Need More Than Meetings",
+    competitor: "Belkins",
+    title: "Belkins Alternative for More Than Meetings | ISOVERTIC",
+    dateModified: "2026-09-04",
     metaDescription: "Belkins books strong meetings. ISOVERTIC books the meetings and builds everything that makes them close: site, content, ads, and media.",
     eyebrow: "Comparison",
     h1: "Appointment setting is a stage. You are buying a pipeline.",
@@ -54,7 +60,9 @@ export const compares: Page[] = [
   },
   {
     slug: "agency-vs-in-house",
-    title: "Hiring a Salesperson vs Outsourcing Sales and Marketing",
+    competitor: "In house hire",
+    title: "Hiring a Salesperson vs Outsourcing Sales | ISOVERTIC",
+    dateModified: "2026-09-04",
     metaDescription: "The real math on hiring in house versus outsourcing the pipeline: $160K to $190K per year versus one firm with a meeting commitment.",
     eyebrow: "Comparison",
     h1: "The hire feels safer. The math disagrees.",

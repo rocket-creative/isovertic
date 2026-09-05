@@ -40,7 +40,7 @@ export default function Home() {
 
       {/* Hero */}
       <section className="relative overflow-hidden border-b border-rule bg-bright">
-        <div className="hero-top mx-auto max-w-[1440px] gutter pb-14 sm:pb-16">
+        <div className="hero-top mx-auto max-w-[1440px] gutter pb-20 lg:pb-28">
           <p className="eyebrow hero-sub">Growth firm · Long Island, NY · Scientists, startups, and healthcare brands</p>
           <h1 className="mt-2 max-w-[12ch] font-display text-[clamp(36px,5.8vw,88px)] font-semibold leading-[0.96] tracking-[-0.02em]">
             <SplitHeadline text="We build your pipeline." />
@@ -50,7 +50,7 @@ export default function Home() {
           <p className="hero-sub mt-4 max-w-[52ch] text-[16px] leading-[1.55] text-ink-soft sm:text-[17px] sm:leading-relaxed">
             ISOVERTIC is one senior team running a six step growth system for companies that have to prove their results. Start with content at $2,500 a month, or hand us the whole pipeline and we book qualified meetings on your calendar. No vendor juggling. No finger pointing. One firm accountable for the number.
           </p>
-          <div className="hero-cta mt-6 flex flex-wrap items-center gap-4 sm:gap-6">
+          <div className="hero-cta mt-9 flex flex-wrap items-center gap-5 sm:mt-12 sm:gap-8">
             <Link href="/contact" className="btn btn-solid btn-block">Book a pipeline call</Link>
             <Link href="/how-it-works" className="cta-link">See how the system works <Arrow /></Link>
           </div>

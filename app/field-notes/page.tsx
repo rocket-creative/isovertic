@@ -7,7 +7,7 @@ import { CTABand } from "@/components/sections/CTABand";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Field Notes",
+  title: { absolute: "Outsourced Sales and Marketing Field Notes | ISOVERTIC" },
   description: "Operator notes on outsourced sales and marketing, appointment setting, pipeline math, and TV for growing businesses. Written by the founder.",
   alternates: { canonical: "/field-notes" },
 };
@@ -26,6 +26,7 @@ export default function FieldNotes() {
                 <span>
                   <span className="font-display text-[clamp(18px,2.4vw,26px)] font-medium leading-snug group-hover:text-signal">{a.title}</span>
                   <span className="mt-2 block max-w-[68ch] text-[14px] text-ink-soft">{a.description}</span>
+                  <span className="mt-2 block text-[12px] uppercase tracking-[0.1em] text-ink-soft">{a.datePublished}</span>
                 </span>
                 <span className="hidden sm:block"><Arrow /></span>
               </Link>

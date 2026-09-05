@@ -2,7 +2,7 @@ import { CountUp } from "@/components/ui/CountUp";
 import { RevealBlock } from "@/components/ui/RevealBlock";
 
 const stats = [
-  { n: 147, suffix: "", claim: "Pages designed, written, and shipped for a single life science client in one model architecture." },
+  { n: 147, suffix: "", claim: "Hand built pages written for one life science client, on top of a 14,000 page product catalog generated from its own data." },
   { n: 18, suffix: "", claim: "Documented outbound plays in the runbook behind our appointment programs." },
   { n: 30, suffix: "+", claim: "Years the founder has spent building software, brands, and demand." },
 ];
