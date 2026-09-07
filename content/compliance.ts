@@ -168,7 +168,7 @@ export const complianceFaqs: FAQ[] = [
 
 export const healthcareRelated = [
   { label: "Engagement and measurement standard", href: "/resources/engagement-and-measurement-standard" },
-  { label: "HIPAA compliant lead generation", href: "/field-notes/hipaa-compliant-lead-generation" },
-  { label: "MLR review for marketing content", href: "/field-notes/mlr-review-for-marketing-content" },
+  { label: "HIPAA compliant lead capture", href: "/field-notes/hipaa-compliant-lead-capture-2026" },
+  { label: "Field notes", href: "/field-notes" },
   { label: "Google Ads", href: "/google-ads" },
 ];

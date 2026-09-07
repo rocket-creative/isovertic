@@ -2,31 +2,33 @@
 // by argument, and one email capture. Copy for /field-notes and the essay template lives here.
 // No hyphens or dashes in any string.
 
-export type CategoryKey = "pipeline-ownership" | "vendor-fragmentation" | "measurement" | "regulated-marketing";
+export type CategoryKey = "the-argument" | "pipeline-ownership" | "measurement" | "regulated-marketing";
 
 export const categories: { key: CategoryKey; label: string; blurb: string }[] = [
-  { key: "pipeline-ownership", label: "Arguments about pipeline ownership", blurb: "Who owns the number, and why the handoff between marketing and sales is where pipeline dies." },
-  { key: "vendor-fragmentation", label: "Arguments about vendor fragmentation", blurb: "What five specialist vendors cost, and why nobody in that stack is accountable for revenue." },
-  { key: "measurement", label: "Arguments about measurement", blurb: "Which clock to read, when revenue can honestly be judged, and what to report in between." },
-  { key: "regulated-marketing", label: "Arguments about regulated marketing", blurb: "Marketing under HIPAA, MLR review, and FTC health data enforcement without giving up demand." },
+  { key: "the-argument", label: "The Argument", blurb: "The ownership gap, the vendor stack tax, and the two clocks that decide whether a long cycle pipeline survives the board review." },
+  { key: "regulated-marketing", label: "Regulated", blurb: "Lead capture, pixels, BAAs, and FTC health data rules for practices and healthcare adjacent companies." },
+  { key: "pipeline-ownership", label: "Pipeline Ownership", blurb: "How CROs, biotech, and medtech market to buyers who read protocols, not whitepapers." },
+  { key: "measurement", label: "Measurement", blurb: "What a Series A to C marketing budget can defend when cash flow is still negative." },
+];
+
+// Publish order for the live archive. Flagship is first; the rest follow on the index.
+export const archiveOrder: string[] = [
+  "pipeline-ownership-gap",
+  "vendor-stack-audit",
+  "two-clock-rule",
+  "hipaa-compliant-lead-capture-2026",
+  "marketing-cro-biotech-medtech",
+  "series-a-c-marketing-budgets",
 ];
 
 // Category for articles whose frontmatter does not carry one. New essays set category in frontmatter.
 export const categoryBySlug: Record<string, CategoryKey> = {
-  "how-to-get-more-b2b-sales-meetings": "pipeline-ownership",
-  "why-your-pipeline-is-inconsistent": "pipeline-ownership",
-  "hire-salesperson-or-outsource": "pipeline-ownership",
-  "how-to-market-a-cro-without-a-sales-team": "pipeline-ownership",
-  "lead-generation-vs-appointment-setting": "pipeline-ownership",
-  "abstrakt-marketing-group-alternatives": "vendor-fragmentation",
-  "best-appointment-setting-companies": "vendor-fragmentation",
-  "growth-partner-vs-marketing-agency": "vendor-fragmentation",
-  "outsourced-sales-and-marketing-guide": "vendor-fragmentation",
-  "outsourced-sales-marketing-cost": "vendor-fragmentation",
-  "ctv-advertising-small-business": "measurement",
-  "how-to-get-cited-by-ai-search": "measurement",
-  "hipaa-compliant-lead-generation": "regulated-marketing",
-  "mlr-review-for-marketing-content": "regulated-marketing",
+  "pipeline-ownership-gap": "the-argument",
+  "vendor-stack-audit": "the-argument",
+  "two-clock-rule": "the-argument",
+  "hipaa-compliant-lead-capture-2026": "regulated-marketing",
+  "marketing-cro-biotech-medtech": "pipeline-ownership",
+  "series-a-c-marketing-budgets": "measurement",
 };
 
 export const hub = {

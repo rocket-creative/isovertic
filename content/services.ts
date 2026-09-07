@@ -179,7 +179,7 @@ export const services: Page[] = [
     related: [
       { label: "How it works", href: "/how-it-works" },
       { label: "Pricing", href: "/pricing" },
-      { label: "CTV playbook", href: "/field-notes/ctv-advertising-small-business" },
+      { label: "Field notes", href: "/field-notes" },
     ],
   },
   {

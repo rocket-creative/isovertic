@@ -30,7 +30,7 @@ export const compares: ComparePage[] = [
     related: [
       { label: "Pricing", href: "/pricing" },
       { label: "How it works", href: "/how-it-works" },
-      { label: "Abstrakt alternatives article", href: "/field-notes/abstrakt-marketing-group-alternatives" },
+      { label: "Field notes", href: "/field-notes" },
     ],
   },
   {
@@ -55,7 +55,7 @@ export const compares: ComparePage[] = [
     related: [
       { label: "Appointment setting", href: "/outbound-appointment-setting" },
       { label: "Pricing", href: "/pricing" },
-      { label: "Best appointment setting companies", href: "/field-notes/best-appointment-setting-companies" },
+      { label: "Field notes", href: "/field-notes" },
     ],
   },
   {
@@ -80,7 +80,7 @@ export const compares: ComparePage[] = [
       { q: "Will you tell us if hiring is the right answer?", a: "Yes, and we publish the framework. Past roughly $10M in revenue, in house leadership starts to pay for itself, and the best outcome is internalizing a system we documented for you." },
     ],
     related: [
-      { label: "The full math article", href: "/field-notes/hire-salesperson-or-outsource" },
+      { label: "Field notes", href: "/field-notes" },
       { label: "Pricing", href: "/pricing" },
       { label: "How it works", href: "/how-it-works" },
     ],

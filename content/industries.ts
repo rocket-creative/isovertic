@@ -178,7 +178,7 @@ export const industries: Page[] = [
     related: [
       { label: "Appointment setting", href: "/outbound-appointment-setting" },
       { label: "Brand and design", href: "/design-brand" },
-      { label: "Hire vs outsource math", href: "/field-notes/hire-salesperson-or-outsource" },
+      { label: "Field notes", href: "/field-notes" },
     ],
   },
   {
@@ -213,7 +213,7 @@ export const industries: Page[] = [
     related: [
       { label: "TV and CTV", href: "/tv-ctv-advertising" },
       { label: "Google Ads", href: "/google-ads" },
-      { label: "CTV playbook", href: "/field-notes/ctv-advertising-small-business" },
+      { label: "Field notes", href: "/field-notes" },
     ],
   },
   {

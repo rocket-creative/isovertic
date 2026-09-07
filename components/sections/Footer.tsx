@@ -50,7 +50,7 @@ const cols = [
     items: [
       ["All resources", "/resources"],
       ["Field notes", "/field-notes"],
-      ["The pinned argument", "/field-notes/pipeline-ownership-thesis"],
+      ["The argument", "/field-notes/pipeline-ownership-gap"],
       ["Pipeline Ownership Audit", "/audit"],
       ["How long marketing takes", "/resources/engagement-and-measurement-standard"],
       ["Agency vs in house", "/resources/agency-vs-inhouse"],

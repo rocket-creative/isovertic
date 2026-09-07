@@ -63,7 +63,7 @@ export const problems: Problem[] = [
       { q: "What if the marketer is family?", a: "Then give them a system instead of an impossible job. The Protocol at $5,000 is the cheapest way to turn a willing person into an operator, and it keeps the relationship intact." },
       { q: "How fast will we see leads?", a: "Paid search produces in weeks four through eight of the 90 day ramp. Organic content compounds from month three. Outbound on Kinetic carries a meeting number for the ramp in writing." },
     ],
-    related: [pricing, { label: "Protocol team training", href: "/protocol" }, { label: "Hire or outsource, the math", href: "/field-notes/hire-salesperson-or-outsource" }],
+    related: [pricing, { label: "Protocol team training", href: "/protocol" }, { label: "Field notes", href: "/field-notes" }],
   },
   {
     slug: "marketing-agency-not-producing-leads",
@@ -101,7 +101,7 @@ export const problems: Problem[] = [
       { q: "What if the agency says results take a year?", a: "Organic compounding does take months. A written 90 day number does not. Any firm can state landing pages live, campaigns at a cost per lead, and meetings booked by day 90. Ask for it." },
       { q: "Will you commit to a number?", a: "Yes. Kinetic and above carry a monthly meeting number in writing, set in the ramp against your market size, offer, and deal value." },
     ],
-    related: [{ label: "Growth partner vs marketing agency", href: "/field-notes/growth-partner-vs-marketing-agency" }, pricing, howItWorks],
+    related: [{ label: "Field notes", href: "/field-notes" }, pricing, howItWorks],
   },
   {
     slug: "website-gets-traffic-but-no-leads",
@@ -206,7 +206,7 @@ export const problems: Problem[] = [
       { q: "We do not want to look like we are advertising.", a: "Publishing pricing, methods, and results is not advertising. It is what your referred prospects already wish you did. Our clients in regulated fields publish under review gates and still grow." },
       { q: "How fast does a second channel produce?", a: "Paid search reaches a stable cost per lead in weeks four through eight. Outbound meetings begin in the ramp on Kinetic, with the number in writing." },
     ],
-    related: [{ label: "Why your pipeline is inconsistent", href: "/field-notes/why-your-pipeline-is-inconsistent" }, { label: "Professional services", href: "/industries/professional-services" }, pricing],
+    related: [{ label: "Field notes", href: "/field-notes" }, { label: "Professional services", href: "/industries/professional-services" }, pricing],
   },
   {
     slug: "founder-is-the-only-salesperson",
@@ -243,7 +243,7 @@ export const problems: Problem[] = [
       { q: "Can you close for us?", a: "No, on purpose. For a technical sale, founder knowledge closes and prospecting wastes it. We rent you the prospecting." },
       { q: "When should I finally hire?", a: "Around $5 million to $10 million, when the founder cannot take every meeting the system books. Hire an account executive who closes, not an SDR who prospects, and give them the runbooks." },
     ],
-    related: [{ label: "Hire or outsource, the math", href: "/field-notes/hire-salesperson-or-outsource" }, { label: "Appointment setting", href: "/outbound-appointment-setting" }, { label: "Who takes the sales meeting", href: "/answers/who-takes-the-sales-meeting" }],
+    related: [{ label: "Field notes", href: "/field-notes" }, { label: "Appointment setting", href: "/outbound-appointment-setting" }, { label: "Who takes the sales meeting", href: "/answers/who-takes-the-sales-meeting" }],
   },
   {
     slug: "sales-hire-did-not-work-out",
@@ -276,7 +276,7 @@ export const problems: Problem[] = [
       { q: "Can you work with a rep we still have?", a: "Yes. Our seat prospects and books; your rep takes and closes. Most reps prefer that split, and it shows in their tenure." },
       { q: "What does the outbound seat produce?", a: "A monthly number of qualified held meetings, stated in writing during the 90 day ramp against your market size, offer, and deal value. No shows and meetings that fail criteria do not count." },
     ],
-    related: [{ label: "Hire or outsource, the math", href: "/field-notes/hire-salesperson-or-outsource" }, { label: "Agency vs in house", href: "/compare/agency-vs-in-house" }, pricing],
+    related: [{ label: "Field notes", href: "/field-notes" }, { label: "Agency vs in house", href: "/compare/agency-vs-in-house" }, pricing],
   },
   {
     slug: "google-ads-cost-per-lead-going-up",
@@ -347,7 +347,7 @@ export const problems: Problem[] = [
       { q: "How many emails should one seat send?", a: "Fewer than you think. A serious program reaches a few hundred right accounts deeply across three channels rather than ten thousand badly on one." },
       { q: "Do you use AI SDRs?", a: "Automation runs research, list building, and sequencing. The conversations that qualify and book are run by people, because your buyers can tell." },
     ],
-    related: [{ label: "Appointment setting", href: "/outbound-appointment-setting" }, { label: "What reply rate should cold email get", href: "/answers/what-reply-rate-should-cold-email-get" }, { label: "More B2B sales meetings", href: "/field-notes/how-to-get-more-b2b-sales-meetings" }],
+    related: [{ label: "Appointment setting", href: "/outbound-appointment-setting" }, { label: "What reply rate should cold email get", href: "/answers/what-reply-rate-should-cold-email-get" }, { label: "Field notes", href: "/field-notes" }],
   },
   {
     slug: "we-do-not-show-up-on-google",
@@ -415,7 +415,7 @@ export const problems: Problem[] = [
       { q: "How long does it take?", a: "Perplexity can pick up a fresh, specific page within days. ChatGPT rewards stability over months. Third party mentions take a quarter to earn and last for years." },
       { q: "Can you get us reviews and mentions?", a: "We build the assets that earn them: original data, editorial series, comparison pages, and outreach to the labs and practices we feature. We do not buy reviews or links." },
     ],
-    related: [{ label: "How to get cited by AI search", href: "/field-notes/how-to-get-cited-by-ai-search" }, { label: "What is AEO", href: "/answers/what-is-aeo" }, { label: "SEO and content", href: "/seo-content" }],
+    related: [{ label: "How to get cited by AI search", href: "/field-notes" }, { label: "What is AEO", href: "/answers/what-is-aeo" }, { label: "SEO and content", href: "/seo-content" }],
   },
   {
     slug: "old-website-and-the-agency-controls-it",
@@ -480,7 +480,7 @@ export const problems: Problem[] = [
       { q: "What if we like our web developer?", a: "Keep them for product work. The marketing site has to be built by the team that runs the ads and the outbound, or the seam comes back." },
       { q: "Who is accountable at your firm?", a: "The founder, on every account. One name, one number, one weekly call." },
     ],
-    related: [howItWorks, { label: "Growth partner vs marketing agency", href: "/field-notes/growth-partner-vs-marketing-agency" }, pricing],
+    related: [howItWorks, { label: "Field notes", href: "/field-notes" }, pricing],
   },
   {
     slug: "do-not-know-what-marketing-should-cost",
@@ -516,7 +516,7 @@ export const problems: Problem[] = [
       { q: "Are there setup fees?", a: "No. Landing pages and campaign builds inside the ramp are included. The $15,000 website build is included at every tier as part of the 12 month term." },
       { q: "What is not included?", a: "Ad spend and media, which go to the platforms in your own accounts. Add ons like the MLR gate, the HIPAA stack, and extra outbound seats are priced individually on the pricing page." },
     ],
-    related: [pricing, { label: "Outsourced sales and marketing cost", href: "/field-notes/outsourced-sales-marketing-cost" }, { label: "Agency vs in house", href: "/compare/agency-vs-in-house" }],
+    related: [pricing, { label: "Field notes", href: "/field-notes" }, { label: "Agency vs in house", href: "/compare/agency-vs-in-house" }],
   },
   {
     slug: "trade-shows-produce-cards-not-meetings",
@@ -709,7 +709,7 @@ export const problems: Problem[] = [
       { q: "Our revenue tracks the academic grant calendar. Same fix?", a: "Same fix, with timing. Outreach lands in the months after study section notices, when the money is real. A seat working that calendar smooths the summer." },
       { q: "How long until the cycle breaks?", a: "Two quarters of continuous operation, in our experience. The first fills the seam; the second is when the outbound lag catches up and the trough does not arrive." },
     ],
-    related: [{ label: "Why your pipeline is inconsistent", href: "/field-notes/why-your-pipeline-is-inconsistent" }, howItWorks, pricing],
+    related: [{ label: "Field notes", href: "/field-notes" }, howItWorks, pricing],
   },
 
   // LIFE SCIENCE AND CRO
@@ -780,7 +780,7 @@ export const problems: Problem[] = [
       { q: "Who takes the meeting?", a: "A scientist on your side. Founder knowledge closes a technical sale. Our seat prospects, qualifies, confirms, and briefs." },
       { q: "Do you understand the science?", a: "Our COO is a molecular biologist who sold custom models for more than ten years and ran operations at a medical school department. She is on every life science account." },
     ],
-    related: [{ label: "How to market a CRO", href: "/field-notes/how-to-market-a-cro-without-a-sales-team" }, { label: "When should a CRO start outbound", href: "/answers/when-should-a-cro-start-outbound" }, { label: "Biotech and life sciences", href: "/industries/biotech" }],
+    related: [{ label: "Marketing a CRO, biotech, or medtech", href: "/field-notes/marketing-cro-biotech-medtech" }, { label: "When should a CRO start outbound", href: "/answers/when-should-a-cro-start-outbound" }, { label: "Biotech and life sciences", href: "/industries/biotech" }],
   },
   {
     slug: "scientific-content-stuck-in-review",
@@ -813,7 +813,7 @@ export const problems: Problem[] = [
       { q: "Do social posts need review?", a: "Only the ones that make a clinical, safety, or efficacy claim. Batch those into the weekly review with the blog post. The rest publishes on schedule." },
       { q: "What does setup involve?", a: "Building the claim library from your existing approved materials: papers, validated specs, prior approved content. That is the setup fee, and it is also what you hand a new agency or hire on day one." },
     ],
-    related: [{ label: "MLR review workflow", href: "/field-notes/mlr-review-for-marketing-content" }, { label: "How long does MLR review take", href: "/answers/how-long-does-mlr-review-take" }, { label: "Glossary: claim library", href: "/glossary/claim-library" }],
+    related: [{ label: "Field notes", href: "/field-notes" }, { label: "How long does MLR review take", href: "/answers/how-long-does-mlr-review-take" }, { label: "Glossary: claim library", href: "/glossary/claim-library" }],
   },
   {
     slug: "sales-rep-cannot-explain-the-science",
@@ -877,7 +877,7 @@ export const problems: Problem[] = [
       { q: "How big should the list be?", a: "A few hundred right labs worked deeply across three channels beats ten thousand PIs on one. Depth wins in technical markets." },
       { q: "Can you build the list from our past clients?", a: "Yes, and that is where we start: past clients, their coauthors, and the labs citing their work. Warm lists reply at multiples of cold ones." },
     ],
-    related: [{ label: "Who buys in an academic lab", href: "/answers/who-is-the-buyer-in-an-academic-lab" }, { label: "How to market a CRO", href: "/field-notes/how-to-market-a-cro-without-a-sales-team" }, { label: "Cold email gets no replies", href: "/problems/cold-email-gets-no-replies" }],
+    related: [{ label: "Who buys in an academic lab", href: "/answers/who-is-the-buyer-in-an-academic-lab" }, { label: "Marketing a CRO, biotech, or medtech", href: "/field-notes/marketing-cro-biotech-medtech" }, { label: "Cold email gets no replies", href: "/problems/cold-email-gets-no-replies" }],
   },
   {
     slug: "revenue-tracks-the-grant-calendar",
@@ -909,7 +909,7 @@ export const problems: Problem[] = [
       { q: "How far ahead should we start?", a: "Two quarters. The seat builds the lists and warms the accounts in the trough so the wave after notices lands on a full calendar." },
       { q: "What about core facilities?", a: "Core directors buy on institutional budgets with their own timing and handle volume. They are a third list, and a good one." },
     ],
-    related: [{ label: "Why your pipeline is inconsistent", href: "/field-notes/why-your-pipeline-is-inconsistent" }, { label: "When should a CRO start outbound", href: "/answers/when-should-a-cro-start-outbound" }, { label: "Biotech and life sciences", href: "/industries/biotech" }],
+    related: [{ label: "Field notes", href: "/field-notes" }, { label: "When should a CRO start outbound", href: "/answers/when-should-a-cro-start-outbound" }, { label: "Biotech and life sciences", href: "/industries/biotech" }],
   },
   {
     slug: "we-look-small-next-to-global-cros",
@@ -941,7 +941,7 @@ export const problems: Problem[] = [
       { q: "We cannot publish client names.", a: "Publish the method and the numbers with the client anonymized by category. A result with a baseline and a window is credible without a logo." },
       { q: "Does this work for a CRO under $2 million?", a: "It works best there. Baseline at $2,500 a month publishes one specific page a month; twelve months later you own twelve searches the global firms never bothered with." },
     ],
-    related: [{ label: "Brand and design", href: "/design-brand" }, { label: "Biotech and life sciences", href: "/industries/biotech" }, { label: "How to market a CRO", href: "/field-notes/how-to-market-a-cro-without-a-sales-team" }],
+    related: [{ label: "Brand and design", href: "/design-brand" }, { label: "Biotech and life sciences", href: "/industries/biotech" }, { label: "Marketing a CRO, biotech, or medtech", href: "/field-notes/marketing-cro-biotech-medtech" }],
   },
 
   // HEALTHCARE
@@ -1040,7 +1040,7 @@ export const problems: Problem[] = [
       { q: "Does the landing page matter for approval?", a: "It matters as much as the ad. Claims, consent language, and covered intake on the page are part of the review. We build the page and the campaign as one system." },
       { q: "What about Meta?", a: "Same certification in restricted categories, plus the HIPAA problem: no pixel on a page where a patient can book. Tracking runs server side from a covered system." },
     ],
-    related: [{ label: "What is LegitScript certification", href: "/answers/what-is-legitscript-certification" }, { label: "Google Ads", href: "/google-ads" }, { label: "HIPAA compliant lead generation", href: "/field-notes/hipaa-compliant-lead-generation" }],
+    related: [{ label: "What is LegitScript certification", href: "/answers/what-is-legitscript-certification" }, { label: "Google Ads", href: "/google-ads" }, { label: "HIPAA compliant lead capture", href: "/field-notes/hipaa-compliant-lead-capture-2026" }],
   },
   {
     slug: "worried-our-forms-and-pixels-violate-hipaa",
@@ -1072,7 +1072,7 @@ export const problems: Problem[] = [
       { q: "Can you audit what is firing on our site now?", a: "Send the URL of your best converting landing page. We can tell you in ten minutes what is firing on it and which vendors would need a BAA." },
       { q: "Is a HIPAA compliant form builder enough?", a: "Only if the email, the CRM, and the call vendor are covered too. PHI is exposed at the weakest link, not the first one." },
     ],
-    related: [{ label: "HIPAA compliant lead generation", href: "/field-notes/hipaa-compliant-lead-generation" }, { label: "Is a contact form HIPAA compliant", href: "/answers/is-a-website-contact-form-hipaa-compliant" }, { label: "Can a practice use the Meta pixel", href: "/answers/can-a-medical-practice-use-the-meta-pixel" }],
+    related: [{ label: "HIPAA compliant lead capture", href: "/field-notes/hipaa-compliant-lead-capture-2026" }, { label: "Is a contact form HIPAA compliant", href: "/answers/is-a-website-contact-form-hipaa-compliant" }, { label: "Can a practice use the Meta pixel", href: "/answers/can-a-medical-practice-use-the-meta-pixel" }],
   },
   {
     slug: "web-leads-not-turning-into-appointments",
@@ -1200,7 +1200,7 @@ export const problems: Problem[] = [
       { q: "Can we advertise outcomes at all?", a: "Supported outcomes with fair balance, through the gate, in most categories. Some categories restrict further and we scope those before committing to a number." },
       { q: "Does this apply to a small practice?", a: "It applies more. A small practice cannot afford a committee and cannot afford a settlement. One reviewer, one library, one hour a week." },
     ],
-    related: [{ label: "MLR review workflow", href: "/field-notes/mlr-review-for-marketing-content" }, { label: "Worried about HIPAA on your site", href: "/problems/worried-our-forms-and-pixels-violate-hipaa" }, { label: "Healthcare", href: "/industries/healthcare" }],
+    related: [{ label: "Field notes", href: "/field-notes" }, { label: "Worried about HIPAA on your site", href: "/problems/worried-our-forms-and-pixels-violate-hipaa" }, { label: "Healthcare", href: "/industries/healthcare" }],
   },
 
   // STARTUPS
@@ -1234,7 +1234,7 @@ export const problems: Problem[] = [
       { q: "We are pre revenue. Is Kinetic too early?", a: "Yes. Kinetic needs a closer on your side. Pre revenue, Baseline at $2,500 gives the company a voice; seed with budget, Catalyst adds paid demand." },
       { q: "Can we pause between raises?", a: "The term is a year, so a pause is a conversation rather than a button. Paid demand can be turned down inside the term; most startups keep Baseline running through a raise because visibility compounds and restarts slowly." },
     ],
-    related: [{ label: "Startups", href: "/industries/startups" }, { label: "Show pipeline to the board", href: "/answers/how-do-i-show-pipeline-to-my-board" }, { label: "Hire or outsource, the math", href: "/field-notes/hire-salesperson-or-outsource" }],
+    related: [{ label: "Startups", href: "/industries/startups" }, { label: "Show pipeline to the board", href: "/answers/how-do-i-show-pipeline-to-my-board" }, { label: "Field notes", href: "/field-notes" }],
   },
   {
     slug: "cannot-afford-a-ten-thousand-dollar-agency-retainer",

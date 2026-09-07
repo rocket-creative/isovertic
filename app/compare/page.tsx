@@ -39,7 +39,7 @@ export default function Compare() {
           ))}
         </ul>
         <div className="mt-10 flex flex-wrap gap-x-10 gap-y-4">
-          <Link href="/field-notes/best-appointment-setting-companies" className="cta-link">The 7 best appointment setting companies <Arrow /></Link>
+          <Link href="/field-notes" className="cta-link">Field notes <Arrow /></Link>
           <Link href="/pricing" className="cta-link">Pricing is published <Arrow /></Link>
         </div>
       </Section>

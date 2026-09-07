@@ -70,7 +70,7 @@ export const cfoGuide = {
   related: [
     { label: "Engagement and measurement standard", href: "/resources/engagement-and-measurement-standard" },
     { label: "The meeting quality standard", href: "/resources/meeting-quality-standard" },
-    { label: "Hire a salesperson or outsource", href: "/field-notes/hire-salesperson-or-outsource" },
+    { label: "Field notes", href: "/field-notes" },
     { label: "Pricing is published", href: "/pricing" },
   ],
   defaults: { salary: 180000, load: 30, tools: 2000, ramp: 3, deal: 25000, close: 20 },

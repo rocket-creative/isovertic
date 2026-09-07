@@ -25,7 +25,7 @@ export const auditMeta = {
   },
   related: [
     { label: "How we measure, and when", href: "/resources/engagement-and-measurement-standard" },
-    { label: "The argument behind the audit", href: "/field-notes/pipeline-ownership-thesis" },
+    { label: "Why nobody called that lead", href: "/field-notes/pipeline-ownership-gap" },
     { label: "Pricing is published", href: "/pricing" },
   ],
 };
