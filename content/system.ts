@@ -35,6 +35,9 @@ export const trustStrip = [
 
 export const heroAudit = { label: "Take the Pipeline Ownership Audit", href: "/audit" };
 
+// Brand tagline. Hero eyebrow and footer, one source.
+export const tagline = "Built by scientists. Optimized for the healthcare and life sciences industries.";
+
 // Buyer role tabs. The founder tab keeps the framing from the problem section; the CFO and CRO tabs answer the
 // question each of them walks in with, and point to the page that shows the math.
 export const buyerRoles = {

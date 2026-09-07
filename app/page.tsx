@@ -14,7 +14,7 @@ import { AiHuman } from "@/components/sections/AiHuman";
 import { WhyBuyers } from "@/components/sections/WhyBuyers";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { faqLd } from "@/lib/schema";
-import { closeNote, systemNote, heroAudit, commitmentStandard } from "@/content/system";
+import { closeNote, systemNote, heroAudit, commitmentStandard, tagline } from "@/content/system";
 import { TrustStrip } from "@/components/sections/TrustStrip";
 import { BuyerRoleTabs } from "@/components/sections/BuyerRoleTabs";
 import { TrackedLink } from "@/components/ui/TrackedLink";
@@ -44,7 +44,7 @@ export default function Home() {
       {/* Hero */}
       <section className="relative overflow-hidden border-b border-rule bg-bright">
         <div className="hero-top mx-auto max-w-[1440px] gutter pb-20 lg:pb-28">
-          <p className="eyebrow hero-sub">Growth firm · Long Island, NY · Scientists, startups, and healthcare brands</p>
+          <p className="eyebrow hero-sub">{tagline}</p>
           <h1 className="mt-2 max-w-[12ch] font-display text-[clamp(36px,5.8vw,88px)] font-semibold leading-[0.96] tracking-[-0.02em]">
             <SplitHeadline text="We build your pipeline." />
             <br />

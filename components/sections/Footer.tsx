@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { BrandLogo } from "@/components/ui/Logo";
 import { site } from "@/lib/site";
+import { tagline } from "@/content/system";
 
 const cols = [
   {
@@ -77,7 +78,8 @@ export function Footer() {
             <Link href="/" className="inline-flex select-none" aria-label={`${site.name} home`}>
               <BrandLogo inverted />
             </Link>
-            <p className="mt-6 max-w-[42ch] text-[14px] leading-relaxed text-paper/70">
+            <p className="mt-6 max-w-[42ch] text-[14px] leading-relaxed text-paper/70">{tagline}</p>
+            <p className="mt-3 max-w-[42ch] text-[14px] leading-relaxed text-paper/70">
               One team builds the asset, runs the ads, buys the media, and books the meetings. One number that matters: meetings that close.
             </p>
             <div className="iso-mark iso-mark--paper mt-8 max-w-[280px]" aria-hidden="true" />
