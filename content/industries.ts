@@ -4,7 +4,7 @@ export const industries: Page[] = [
   {
     slug: "healthcare",
     title: "Healthcare Marketing Agency for Practices | ISOVERTIC",
-    dateModified: "2026-09-05",
+    dateModified: "2026-09-07",
     metaDescription: "Patient acquisition for practices and healthcare brands. HIPAA literate web, ads, and outreach from one senior team.",
     eyebrow: "Healthcare",
     h1: "Healthcare marketing agency for practices that compete on more than insurance lists.",
@@ -58,6 +58,9 @@ export const industries: Page[] = [
       { h2: "The authority loop", body: [
         "Editorial spotlights earn institutional links, links lift the commercial pages, commercial pages convert the demand the content created. One system, compounding.",
       ]},
+      { h2: "Does this fit you? Five questions", body: [
+        "Your buyer is a scientist, a lab manager, or a procurement office that asks for a citation before a call. Your sales cycle runs six to eighteen months and your content passes through a reviewer with an MD or PhD. Your site has fewer than fifty pages a researcher could land on from a search. Your outbound today is a founder or a rep working conference badges. You need pipeline that survives the grant calendar. Four or five yes answers and Kinetic with the MLR gate fits. Two or three and start with Baseline or Catalyst. Fewer, and the honest answer may be a content program alone.",
+      ]},
     ],
     faqs: [
       { q: "Do your writers understand the science?", a: "Content is produced inside a documented technical system with terminology controls and review gates built for life science accuracy." },
@@ -68,6 +71,7 @@ export const industries: Page[] = [
     related: [
       { label: "SEO and content", href: "/seo-content" },
       { label: "Appointment setting", href: "/outbound-appointment-setting" },
+      { label: "Engagement and measurement standard", href: "/resources/engagement-and-measurement-standard" },
       { label: "Results", href: "/results" },
     ],
   },
@@ -101,6 +105,45 @@ export const industries: Page[] = [
       { label: "Pricing", href: "/pricing" },
       { label: "Appointment setting", href: "/outbound-appointment-setting" },
       { label: "Web development", href: "/web-development" },
+    ],
+  },
+  {
+    slug: "technical-b2b",
+    title: "Technical B2B Marketing Agency for Developer Tools and Infrastructure | ISOVERTIC",
+    dateModified: "2026-09-07",
+    metaDescription: "Growth marketing for developer tools, infrastructure, and technical SaaS: content engineers will read, search and AI citation, paid demand, and outbound to technical buyers.",
+    eyebrow: "Technical B2B",
+    h1: "Technical B2B marketing agency: for buyers who read the docs before the pitch.",
+    lead: "Developer tools, infrastructure, and technical SaaS sell to people who distrust marketing on sight and decide from documentation, benchmarks, and what a peer said. We build for that reader: pages with a technical spine, search and AI citation as the distribution channel, paid search steered to qualified meetings, and outbound written by people who can read a changelog.",
+    callout: {
+      label: "Typical starting point",
+      body: "Catalyst when the site exists and paid demand does not. Kinetic when the founder is still the only person booking meetings and the buying committee includes an engineering lead who has to be reached on their own terms. Pricing is published.",
+    },
+    sections: [
+      { h2: "Build: a site an engineer will not bounce from", body: [
+        "Server rendered on Next.js, schema on every page, documentation and pricing one click from anywhere. Technical buyers check the docs and the price before they read a headline, and a site that hides either loses the visit. The same stack we sell is the stack this site runs on.",
+      ]},
+      { h2: "Rank: content written to be cited, not skimmed", body: [
+        "Comparison pages, integration pages, and how it works pages structured for the queries engineers actually type and for the AI engines that now answer them. We have published a 147 page system for a scientific audience with the same discipline; the method transfers to any reader who checks claims.",
+      ]},
+      { h2: "Run and book: paid demand and outbound with a technical register", body: [
+        "Search campaigns steered by cost per qualified meeting rather than cost per lead, and outbound sequences that reference the prospect's stack, their last release, or the problem in their job posting. Meetings are defined in writing before the program starts.",
+      ]},
+      { h2: "Does this fit you? Five questions", body: [
+        "Your buyer evaluates with documentation, a trial, or a benchmark before talking to sales. Your sales cycle runs one to nine months and involves an engineering decision maker. You have a founder or product lead who can explain the product and no one dedicated to prospecting. Your content today is either release notes or nothing. You need meetings inside two quarters, not a brand campaign. Four or five yes answers and Kinetic fits. Two or three and start with Catalyst. Fewer, and paid search alone may be the honest answer.",
+      ]},
+    ],
+    faqs: [
+      { q: "Can your writers handle developer facing content?", a: "Content is produced inside a documented technical system with terminology controls and a named reviewer. We write to the standard of the reader, and for technical products that reader is an engineer." },
+      { q: "Do you run product led motions?", a: "We build the demand side: the site, the content, the search, and the outbound that gets an engineering lead into a conversation. Activation inside the product is yours." },
+      { q: "How do you reach engineering decision makers with outbound?", a: "With sequences that reference something true about their stack or their last release, sent by a person who can answer a technical reply. Generic sequences to engineers get reported as spam, and we do not send them." },
+      { q: "How do you measure a nine month sales cycle?", a: "Two clocks. Leading indicators every 30 days, revenue at the month that matches your cycle, written into the agreement. The standard is published." },
+    ],
+    related: [
+      { label: "Engagement and measurement standard", href: "/resources/engagement-and-measurement-standard" },
+      { label: "SEO and content", href: "/seo-content" },
+      { label: "Appointment setting", href: "/outbound-appointment-setting" },
+      { label: "Results", href: "/results" },
     ],
   },
   {

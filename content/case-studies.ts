@@ -47,6 +47,9 @@ export type CaseStudy = {
 
 export const STEP_ORDER: Step[] = ["Build", "Rank", "Run", "Buy", "Book", "Educate"];
 
+// Footer link on every study to the measurement standard, so a reader sees how the eight month window was chosen.
+export const STANDARD_LINK = { label: "How long marketing takes, and how we measure it", href: "/resources/engagement-and-measurement-standard" };
+
 // Rendered on every study and once on /results. Fixed copy, do not edit.
 export const REPORTING_METHOD = {
   heading: "How we report these numbers",

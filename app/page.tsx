@@ -14,7 +14,10 @@ import { AiHuman } from "@/components/sections/AiHuman";
 import { WhyBuyers } from "@/components/sections/WhyBuyers";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { faqLd } from "@/lib/schema";
-import { closeNote, systemNote } from "@/content/system";
+import { closeNote, systemNote, heroAudit, commitmentStandard } from "@/content/system";
+import { TrustStrip } from "@/components/sections/TrustStrip";
+import { BuyerRoleTabs } from "@/components/sections/BuyerRoleTabs";
+import { TrackedLink } from "@/components/ui/TrackedLink";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -50,9 +53,11 @@ export default function Home() {
           <p className="hero-sub mt-4 max-w-[52ch] text-[16px] leading-[1.55] text-ink-soft sm:text-[17px] sm:leading-relaxed">
             ISOVERTIC is one senior team running a six step growth system for companies that have to prove their results. Start with content at $2,500 a month, or hand us the whole pipeline and we book qualified meetings on your calendar. No vendor juggling. No finger pointing. One firm accountable for the number.
           </p>
+          <TrustStrip />
           <div className="hero-cta mt-9 flex flex-wrap items-center gap-5 sm:mt-12 sm:gap-8">
             <Link href="/contact" className="btn btn-solid btn-block">Book a pipeline call</Link>
             <Link href="/how-it-works" className="cta-link">See how the system works <Arrow /></Link>
+            <TrackedLink href={heroAudit.href} section="hero" label={heroAudit.label} className="cta-link">{heroAudit.label} <Arrow /></TrackedLink>
           </div>
         </div>
       </section>
@@ -90,6 +95,7 @@ export default function Home() {
 
       <AiHuman />
       <WhyBuyers />
+      <BuyerRoleTabs />
 
       {/* Proof */}
       <Section label="Proof">
@@ -116,8 +122,9 @@ export default function Home() {
             <p className="mt-6 max-w-[58ch] leading-relaxed text-ink/85">
               Every engagement starts with a defined 90 day ramp and stated deliverables for your tier. Kinetic and above carry a meeting volume commitment in writing. No long term contract is required. If we are not producing the number we wrote down, you should not be paying us.
             </p>
-            <div className="mt-8">
+            <div className="mt-8 flex flex-wrap gap-x-10 gap-y-4">
               <Link href="/pricing" className="cta-link">Pricing is published <Arrow /></Link>
+              <Link href={commitmentStandard.href} className="cta-link">{commitmentStandard.label} <Arrow /></Link>
             </div>
           </RevealBlock>
         </div>

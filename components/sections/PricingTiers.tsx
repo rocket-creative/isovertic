@@ -75,6 +75,9 @@ export function PricingTiers() {
               <p className="mt-3 text-[12px] leading-relaxed text-ink-soft">
                 Card or bank debit, no call required. <Link href="/contact" className="underline underline-offset-4 hover:text-navy">Talk first</Link> if you prefer.
               </p>
+              <p className="mt-2 text-[12px] leading-relaxed text-ink-soft">
+                <Link href={billing.standardHref} className="underline underline-offset-4 hover:text-navy">{billing.standardLabel}</Link>
+              </p>
             </RevealBlock>
           );
         })}

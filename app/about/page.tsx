@@ -5,6 +5,7 @@ import { FounderStrip } from "@/components/sections/FounderStrip";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { breadcrumbLd } from "@/lib/schema";
 import { site } from "@/lib/site";
+import { coverage } from "@/content/people";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -64,6 +65,21 @@ export default function About() {
             The website is an asset, not a brochure. Traffic without meetings is a hobby. Numbers beat adjectives. And nobody should need a discovery call to learn a price. {site.entity}
           </p>
         </RevealBlock>
+      </Section>
+      <Section label={coverage.eyebrow} tone="bright">
+        <RevealBlock>
+          <h2 className="max-w-[22ch] font-display text-h2 font-medium">{coverage.h2}</h2>
+          <p className="mt-6 max-w-[62ch] leading-relaxed text-ink/90">{coverage.lead}</p>
+        </RevealBlock>
+        <ol className="mt-10 grid gap-px bg-rule md:grid-cols-3">
+          {coverage.steps.map((s, i) => (
+            <RevealBlock key={s.n} as="li" delay={i * 60} className="surface-card p-8">
+              <p className="eyebrow">{s.n}</p>
+              <h3 className="mt-3 font-display text-h3 font-semibold">{s.name}</h3>
+              <p className="mt-4 text-[15px] leading-relaxed text-ink/90">{s.body}</p>
+            </RevealBlock>
+          ))}
+        </ol>
       </Section>
       <FounderStrip />
       <CTABand />

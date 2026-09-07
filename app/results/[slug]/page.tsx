@@ -6,7 +6,7 @@ import { RevealBlock } from "@/components/ui/RevealBlock";
 import { CTABand } from "@/components/sections/CTABand";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { breadcrumbLd, caseStudyLd } from "@/lib/schema";
-import { getCaseStudy, publishedCaseStudies, REPORTING_METHOD, STEP_ORDER, STUDY_WINDOW_NOTE } from "@/content/case-studies";
+import { getCaseStudy, publishedCaseStudies, REPORTING_METHOD, STANDARD_LINK, STEP_ORDER, STUDY_WINDOW_NOTE } from "@/content/case-studies";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
@@ -162,8 +162,9 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
 
       <CTABand />
 
-      <div className="mx-auto max-w-[1440px] gutter py-10">
+      <div className="mx-auto flex max-w-[1440px] flex-wrap gap-x-10 gap-y-4 gutter py-10">
         <Link href="/results" className="cta-link">All results <Arrow /></Link>
+        <Link href={STANDARD_LINK.href} className="cta-link">{STANDARD_LINK.label} <Arrow /></Link>
       </div>
     </>
   );

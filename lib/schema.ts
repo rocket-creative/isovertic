@@ -98,6 +98,8 @@ export function articleLd(a: { title: string; description: string; slug: string;
     author: personRef(a.author),
     ...(a.reviewedBy ? { reviewedBy: personRef(a.reviewedBy) } : {}),
     publisher: { "@id": orgId },
+    image: `${site.url}/og.png`,
+    articleSection: "Field notes",
     mainEntityOfPage: `${site.url}/field-notes/${a.slug}`,
   };
 }
@@ -176,6 +178,39 @@ export function problemLd(p: { slug: string; h1: string; metaDescription: string
     publisher: { "@id": orgId },
     articleSection: "Problems we solve",
     mainEntityOfPage: `${site.url}/problems/${p.slug}`,
+  };
+}
+
+// Standards, decision guides, and compliance pages: Article with the founder as author and the firm as publisher.
+export function resourceLd(r: { headline: string; description: string; path: string; datePublished: string; dateModified: string; section?: string }) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: r.headline,
+    description: r.description,
+    datePublished: r.datePublished,
+    dateModified: r.dateModified,
+    author: { "@id": personId },
+    publisher: { "@id": orgId },
+    image: `${site.url}/og.png`,
+    mainEntityOfPage: `${site.url}${r.path}`,
+    articleSection: r.section ?? "Resources",
+  };
+}
+
+// The Pipeline Ownership Audit.
+export function webApplicationLd(a: { name: string; description: string; path: string }) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    name: a.name,
+    description: a.description,
+    url: `${site.url}${a.path}`,
+    applicationCategory: "BusinessApplication",
+    operatingSystem: "Web",
+    offers: { "@type": "Offer", price: 0, priceCurrency: "USD" },
+    provider: { "@id": orgId },
+    author: { "@id": personId },
   };
 }
 

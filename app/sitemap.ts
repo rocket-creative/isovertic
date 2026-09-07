@@ -14,17 +14,17 @@ import { problems } from "@/content/problems";
 // moves on every deploy, and ignores priority and changefreq entirely, so neither is emitted.
 // Bump CORE_UPDATED when a static page's copy changes. Collections carry their own dateModified.
 const CORE_UPDATED: Record<string, string> = {
-  "": "2026-09-05",
+  "": "2026-09-07",
   "/how-it-works": "2026-09-05",
-  "/pricing": "2026-09-05",
+  "/pricing": "2026-09-07",
   "/protocol": "2026-09-04",
-  "/about": "2026-09-05",
+  "/about": "2026-09-07",
   "/answers": "2026-09-05",
   "/glossary": "2026-09-05",
   "/results": "2026-09-05",
   "/contact": "2026-09-05",
   "/long-island": "2026-09-05",
-  "/field-notes": "2026-09-05",
+  "/field-notes": "2026-09-07",
   "/problems": "2026-09-04",
   "/start": "2026-09-05",
   "/services": "2026-09-05",
@@ -32,6 +32,15 @@ const CORE_UPDATED: Record<string, string> = {
   "/compare": "2026-09-05",
   "/privacy": "2026-09-05",
   "/terms": "2026-09-05",
+  "/resources": "2026-09-07",
+  "/resources/engagement-and-measurement-standard": "2026-09-07",
+  "/resources/agency-vs-inhouse": "2026-09-07",
+  "/resources/meeting-quality-standard": "2026-09-07",
+  "/audit": "2026-09-07",
+  "/compliance/baa-request": "2026-09-07",
+  "/compliance/hipaa-posture": "2026-09-07",
+  "/compliance/sensitive-data-governance": "2026-09-07",
+  "/field-notes/editorial-standard": "2026-09-07",
 };
 
 const d = (s: string) => new Date(s);

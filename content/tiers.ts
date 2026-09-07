@@ -130,6 +130,8 @@ export function tierMath(t: Tier) {
 
 export const billing = {
   toggle: { monthly: "Month to month", term: "12 month term" },
+  standardLabel: "What results to expect, and when",
+  standardHref: "/resources/engagement-and-measurement-standard",
   monthlyNote: "90 day ramp, then month to month. Website rebuild available at $15,000 up front.",
   termNote: "Two months free. Website rebuild and hosting included, a $15,000 build at no charge.",
   quarterlyNote: "Baseline and Catalyst can pay the term quarterly at 4 percent off, or up front at eleven months for twelve.",

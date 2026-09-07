@@ -7,6 +7,7 @@ export const site = {
   founder: "George Stoff",
   linkedin: "https://www.linkedin.com/in/george-stoff-b1826971",
   entity: "ISOVERTIC is an assumed name of Rocket Creative LLC.",
+  complianceLine: "ISOVERTIC is not a covered entity. We operate as a business associate for covered entity clients under executed Business Associate Agreements.",
   legalName: "Rocket Creative LLC",
   address: { street: "600 Johnson Ave, Suite D5", locality: "Bohemia", region: "NY", postalCode: "11716", country: "US" },
   phone: "+1-631-816-9577",

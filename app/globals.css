@@ -307,3 +307,25 @@ textarea.field { min-height: 96px; resize: vertical; }
 .prose-iso li { margin: 0 0 0.6em; padding-left: 0.2em; }
 .prose-iso a { text-decoration: underline; text-underline-offset: 4px; }
 .prose-iso a:hover { color: var(--color-navy); }
+
+/* Essays: pull quotes, source and counterargument callouts, inline diagrams. */
+.prose-iso .pull-quote { margin: 2.2em 0; padding-left: 1.4em; border-left: 2px solid var(--color-signal); }
+.prose-iso .pull-quote p { margin: 0; font-family: var(--font-display); font-size: clamp(20px, 2.4vw, 28px); line-height: 1.3; font-weight: 500; color: var(--color-ink); letter-spacing: -0.01em; }
+.callout { margin: 2em 0; padding: 20px 24px; border: 1px solid var(--color-rule); }
+.callout--counterargument { background: var(--color-bright); border-color: var(--color-ink); }
+.callout--correction { border-color: var(--color-signal); }
+.callout__label { margin: 0 0 10px; font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--color-ink-soft); }
+.callout p { font-size: 15px; }
+.callout p:last-child { margin-bottom: 0; }
+.diagram { margin: 2.4em 0; }
+.diagram svg { display: block; width: 100%; height: auto; }
+.diagram figcaption { margin-top: 10px; font-size: 13px; line-height: 1.5; color: var(--color-ink-soft); }
+
+/* Printable one page standards: hide chrome, keep ink on white, no page break inside a card. */
+@media print {
+  header, footer, nav, .print-hide, .iso-mark { display: none !important; }
+  html, body { background: #fff; color: #000; }
+  .print-page { padding: 0 !important; max-width: none; }
+  .surface-card, .t tr, .callout { break-inside: avoid; }
+  main { padding: 0 !important; }
+}
