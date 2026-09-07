@@ -1,4 +1,5 @@
 import type { Page } from "./types";
+import { serviceDiscipline, servicePipelineCta } from "./voice-audit";
 
 export const services: Page[] = [
   {
@@ -33,6 +34,8 @@ export const services: Page[] = [
       { q: "Do we need your other services to get appointment setting?", a: "No, but programs paired with our web and content work convert meaningfully better, because the prospect's diligence confirms the outreach instead of contradicting it." },
       { q: "Who owns the data and sequences?", a: "You do. Lists, copy, and recordings are yours from day one." },
     ],
+    disciplineNote: serviceDiscipline["outbound-appointment-setting"],
+    pipelineCta: servicePipelineCta["outbound-appointment-setting"],
     related: [
       { label: "How the system works", href: "/how-it-works" },
       { label: "Pricing", href: "/pricing" },
@@ -68,6 +71,8 @@ export const services: Page[] = [
       { q: "How fast until results?", a: "Stable cost per meeting typically emerges in weeks four through eight of the 90 day ramp." },
       { q: "Do you do Performance Max?", a: "Where it serves lead quality. We feed it qualified conversion signals so it optimizes toward meetings, not form spam." },
     ],
+    disciplineNote: serviceDiscipline["google-ads"],
+    pipelineCta: servicePipelineCta["google-ads"],
     related: [
       { label: "Healthcare industry page", href: "/industries/healthcare" },
       { label: "Pricing", href: "/pricing" },
@@ -103,6 +108,8 @@ export const services: Page[] = [
       { q: "What is AI search optimization?", a: "Structuring content and schema so AI engines can extract and cite you. It is built into every page we ship, not sold as an add on." },
       { q: "Do you do link building?", a: "We earn links with original data assets and editorial series rather than buying them." },
     ],
+    disciplineNote: serviceDiscipline["seo-content"],
+    pipelineCta: servicePipelineCta["seo-content"],
     related: [
       { label: "Web development", href: "/web-development" },
       { label: "Field notes", href: "/field-notes" },
@@ -138,6 +145,8 @@ export const services: Page[] = [
       { q: "Do we own the code?", a: "Fully. Repo, content, and infrastructure accounts are yours." },
       { q: "Can you just do the website?", a: "Yes, though sites built as part of the full pipeline convert better because the messaging is shared with the ads and outbound from day one." },
     ],
+    disciplineNote: serviceDiscipline["web-development"],
+    pipelineCta: servicePipelineCta["web-development"],
     related: [
       { label: "SEO and content", href: "/seo-content" },
       { label: "Brand and design", href: "/design-brand" },

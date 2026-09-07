@@ -4,6 +4,7 @@ import { CTABand } from "@/components/sections/CTABand";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { breadcrumbLd } from "@/lib/schema";
 import { getCaseStudyByClient, REPORTING_METHOD } from "@/content/case-studies";
+import { ClientQuotePlaceholder } from "@/components/ui/ClientQuote";
 import Link from "next/link";
 import { Arrow } from "@/components/ui/Arrow";
 import type { Metadata } from "next";
@@ -31,6 +32,11 @@ export default function Results() {
     <>
       <JsonLd data={breadcrumbLd([{ name: "Home", path: "/" }, { name: "Results", path: "/results" }])} />
       <PageHero eyebrow="Results" h1="The roster, with the numbers attached." lead="Seven clients and two brands we own, all run on the same six step system. Where a number appears, we can show the work behind it." />
+      <Section label="Client" deferred={false}>
+        <RevealBlock>
+          <ClientQuotePlaceholder />
+        </RevealBlock>
+      </Section>
       <Section label="Roster">
         <ol className="space-y-px bg-rule">
           {cases.map((c, i) => {

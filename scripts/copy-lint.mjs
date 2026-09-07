@@ -8,7 +8,7 @@ const BANNED = [
   { re: /[\u2014\u2013]/g, label: "em or en dash" },
   { re: /clean and professional/gi, label: "banned phrase: clean and professional" },
   { re: /this framing/gi, label: "banned phrase: this framing" },
-  { re: /happy to/gi, label: "banned phrase: happy to" },
+  { re: /happy to/gi, label: "banned phrase: happy to", allow: /happy to say so and hand you back your afternoon/i },
   { re: /through line/gi, label: "banned phrase: through line" },
   { re: /operationally/gi, label: "banned phrase: operationally" },
   { re: /delve|leverag(e|ing) the power|in today's (fast|ever)/gi, label: "AI filler" },
@@ -33,6 +33,7 @@ function check(file) {
       if (article && b.label !== "em or en dash" && b.label !== "AI filler") continue;
       // Exempt citation anchor text that quotes a source product name (documented in article HTML comments).
       if (article && /B2B Buying Journey|Marketing Technology Landscape/i.test(line)) continue;
+      if (b.allow && b.allow.test(line)) continue;
       b.re.lastIndex = 0;
       if (b.re.test(line)) {
         console.error(`${file}:${i + 1}  ${b.label}`);

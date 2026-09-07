@@ -1,4 +1,5 @@
 import type { Page } from "./types";
+import { biotechMolecularBiologist } from "./voice-audit";
 
 export const industries: Page[] = [
   {
@@ -62,6 +63,8 @@ export const industries: Page[] = [
         "Your buyer is a scientist, a lab manager, or a procurement office that asks for a citation before a call. Your sales cycle runs six to eighteen months and your content passes through a reviewer with an MD or PhD. Your site has fewer than fifty pages a researcher could land on from a search. Your outbound today is a founder or a rep working conference badges. You need pipeline that survives the grant calendar. Four or five yes answers and Kinetic with the MLR gate fits. Two or three and start with Baseline or Catalyst. Fewer, and the honest answer may be a content program alone.",
       ]},
     ],
+    showQuotePlaceholder: true,
+    disciplineNote: biotechMolecularBiologist,
     faqs: [
       { q: "Do your writers understand the science?", a: "Content is produced inside a documented technical system with terminology controls and review gates built for life science accuracy." },
       { q: "Can you reach academic and industry buyers in one program?", a: "Yes, with separate sequences and offers per segment." },

@@ -8,11 +8,13 @@ import { JsonLd } from "@/components/ui/JsonLd";
 import { CTABand } from "@/components/sections/CTABand";
 import { FounderStrip } from "@/components/sections/FounderStrip";
 import { TrackedLink } from "@/components/ui/TrackedLink";
+import { ClientQuotePlaceholder } from "@/components/ui/ClientQuote";
 import { CompliancePosture, SensitiveDataGovernance, MlrWorkflow, ClaimDiscipline, MedicareNote } from "@/components/compliance/Compliance";
 import { SalesCycleTable } from "@/components/standard/Tables";
 import { DownloadCard } from "@/components/standard/DownloadCard";
 import { breadcrumbLd, faqLd, resourceLd, serviceLd } from "@/lib/schema";
 import { healthcareMeta as m, healthcareHeadings as h, whyDifferent, mlr, claims, complianceFaqs, healthcareRelated } from "@/content/compliance";
+import { healthcareComplianceOfficer } from "@/content/voice-audit";
 
 // Static route wins over app/industries/[slug]. The healthcare entry in content/industries.ts still feeds
 // the industries index, the footer, and the sitemap.
@@ -36,6 +38,12 @@ export default function Healthcare() {
       />
       <PageHero eyebrow={m.eyebrow} h1={m.h1} lead={m.lead} />
 
+      <Section label="Client" deferred={false}>
+        <RevealBlock>
+          <ClientQuotePlaceholder />
+        </RevealBlock>
+      </Section>
+
       <Section label="Why it is different" deferred={false}>
         <RevealBlock className="max-w-[68ch]">
           <h2 className="font-display text-h2 font-medium">{h.why}</h2>
@@ -53,6 +61,7 @@ export default function Healthcare() {
         <RevealBlock>
           <h2 className="max-w-[22ch] font-display text-h2 font-medium">{h.posture.h2}</h2>
           <p className="mt-5 max-w-[62ch] leading-relaxed text-ink/90">{h.posture.lead}</p>
+          <p className="mt-6 max-w-[62ch] leading-relaxed text-ink/90">{healthcareComplianceOfficer}</p>
         </RevealBlock>
         <RevealBlock className="mt-10">
           <CompliancePosture />

@@ -18,6 +18,7 @@ import { closeNote, systemNote, heroAudit, commitmentStandard, tagline } from "@
 import { TrustStrip } from "@/components/sections/TrustStrip";
 import { BuyerRoleTabs } from "@/components/sections/BuyerRoleTabs";
 import { TrackedLink } from "@/components/ui/TrackedLink";
+import { ClientQuotePlaceholder } from "@/components/ui/ClientQuote";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -61,6 +62,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <Section label="Client" deferred={false}>
+        <RevealBlock>
+          <ClientQuotePlaceholder />
+        </RevealBlock>
+      </Section>
 
       <ClientStrip />
 

@@ -12,4 +12,10 @@ export type Page = {
   faqs: FAQ[];
   related: { label: string; href: string }[];
   dateModified?: string; // ISO date of the last copy change, feeds the sitemap
+  /** Voice audit: show the client quote placeholder below the hero. */
+  showQuotePlaceholder?: boolean;
+  /** Voice audit: paragraph immediately above the FAQ block. */
+  disciplineNote?: string;
+  /** Voice audit: house CTA close at the end of main content. */
+  pipelineCta?: { headline: string; body: string };
 };
