@@ -5,7 +5,8 @@ import { tiers, tierMath, TERM_MONTHS, UPFRONT_MONTHS, WEBSITE_BUILD, usd, type 
 // keyed by lookup_key, so the same code works against a test key and a live key with no dashboard setup
 // beyond the keys, the webhook, and ACH Direct Debit switched on under Settings, Payment methods.
 
-export type Billing = "monthly" | "term" | "quarterly" | "upfront";
+// Every plan is a 12 month term. "term" is the term billed monthly; there is no month to month plan.
+export type Billing = "term" | "quarterly" | "upfront";
 export type TierSlug = Tier["slug"];
 export type PlanKey = `${TierSlug}-${Billing}`;
 
@@ -18,14 +19,14 @@ export type Plan = {
   unitAmount: number; // cents
   interval: "month" | "year";
   intervalCount: number; // 3 for quarterly
-  termMonths: number; // 0 = month to month
+  termMonths: number; // always 12
   lookupKey: string;
   summary: string;
   websiteIncluded: boolean;
   from: boolean; // "from" pricing: media or ad spend billed on top
 };
 
-export const billings: Billing[] = ["monthly", "term", "quarterly", "upfront"];
+export const billings: Billing[] = ["term", "quarterly", "upfront"];
 
 function build(t: Tier, b: Billing): Plan {
   const m = tierMath(t);
@@ -34,22 +35,9 @@ function build(t: Tier, b: Billing): Plan {
     tier: t.slug,
     tierName: t.name,
     billing: b,
-    websiteIncluded: b !== "monthly",
+    websiteIncluded: true,
     from,
   };
-  if (b === "monthly") {
-    return {
-      ...base,
-      key: `${t.slug}-monthly`,
-      label: `${t.name}, month to month`,
-      unitAmount: t.monthly * 100,
-      interval: "month",
-      intervalCount: 1,
-      termMonths: 0,
-      lookupKey: `isovertic_${t.slug}_monthly`,
-      summary: `${usd(t.monthly)} a month${t.spend ? `, ${t.spend}` : ""}. 90 day ramp, then cancel at any month end. Website rebuild available at ${usd(WEBSITE_BUILD)} up front.`,
-    };
-  }
   if (b === "term") {
     return {
       ...base,
@@ -60,7 +48,7 @@ function build(t: Tier, b: Billing): Plan {
       intervalCount: 1,
       termMonths: TERM_MONTHS,
       lookupKey: `isovertic_${t.slug}_term_monthly`,
-      summary: `${usd(t.term)} a month for 12 months${t.spend ? `, ${t.spend}` : ""}. Two months free against month to month, ${usd(m.cashSaved)}, plus the ${usd(WEBSITE_BUILD)} website rebuild and hosting included.`,
+      summary: `${usd(t.term)} a month for 12 months${t.spend ? `, ${t.spend}` : ""}. The ${usd(WEBSITE_BUILD)} website rebuild and hosting are included.`,
     };
   }
   if (b === "quarterly") {
@@ -74,7 +62,7 @@ function build(t: Tier, b: Billing): Plan {
       termMonths: TERM_MONTHS,
       lookupKey: `isovertic_${t.slug}_term_quarterly`,
       summary: t.quarterlyOnly
-        ? `${usd(m.quarterly)} a quarter, four payments on a 1 year term${t.spend ? `, ${t.spend} billed separately` : ""}. Two months free against month to month, ${usd(m.cashSaved)}, plus the ${usd(WEBSITE_BUILD)} website rebuild and hosting included.`
+        ? `${usd(m.quarterly)} a quarter, four payments across the year${t.spend ? `, ${t.spend} billed separately` : ""}. The ${usd(WEBSITE_BUILD)} website rebuild and hosting are included.`
         : `${usd(m.quarterly)} a quarter, four payments${t.spend ? `, ${t.spend} billed separately` : ""}. 4 percent off the term, ${usd(m.quarterlySaved)} more than billed monthly. Website rebuild and hosting included.`,
     };
   }
@@ -91,9 +79,9 @@ function build(t: Tier, b: Billing): Plan {
   };
 }
 
-// Kinetic and Critical Mass: month to month, or a 1 year term paid quarterly. Baseline and Catalyst: all four billings.
+// Kinetic and Critical Mass: paid quarterly only. Baseline and Catalyst: monthly, quarterly, or up front.
 export function billingsFor(t: Tier): Billing[] {
-  return t.quarterlyOnly ? ["monthly", "quarterly"] : billings;
+  return t.quarterlyOnly ? ["quarterly"] : billings;
 }
 
 export const plans: Partial<Record<PlanKey, Plan>> = Object.fromEntries(

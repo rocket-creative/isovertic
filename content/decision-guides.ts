@@ -135,7 +135,7 @@ export const resourcesIndex = {
   h1: "The standards we publish.",
   lead: "Written for the people on the buying committee who are not the founder: the CFO who has to approve the fee, the CRO who has to accept the meetings, and the compliance officer who has to sign the BAA.",
   items: [
-    { eyebrow: "Measurement", title: "How long marketing takes to work, and how we measure it", body: "Six month minimum, two clocks, published thresholds by channel, and the sales cycle data behind the rule.", href: "/resources/engagement-and-measurement-standard" },
+    { eyebrow: "Measurement", title: "How long marketing takes to work, and how we measure it", body: "One year minimum, two clocks, published thresholds by channel, and the sales cycle data behind the rule.", href: "/resources/engagement-and-measurement-standard" },
     { eyebrow: "For the CFO", title: "Agency versus in house: the model", body: "Fully loaded 24 month cost of a hire against each tier, and the break even meeting count at your deal value.", href: "/resources/agency-vs-inhouse" },
     { eyebrow: "For the CRO", title: "What counts as a meeting", body: "The definition in every agreement, the verification process, and what happens when a meeting fails it.", href: "/resources/meeting-quality-standard" },
     { eyebrow: "For compliance", title: "HIPAA posture and sensitive data governance", body: "Ten operating commitments and a four step process, printable for the compliance officer.", href: "/industries/healthcare" },

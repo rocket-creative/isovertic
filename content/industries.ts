@@ -98,7 +98,7 @@ export const industries: Page[] = [
     ],
     faqs: [
       { q: "Do we need a marketing hire first?", a: "No. Kinetic replaces the first two." },
-      { q: "Can we pause between raises?", a: "Yes. Month to month after the ramp, unless you took a term for the website." },
+      { q: "Can we pause between raises?", a: "The term is a year, so a pause is a conversation. Paid demand can be turned down inside the term; content keeps running, because visibility compounds and restarts slowly." },
       { q: "Do you work with pre revenue companies?", a: "Yes, on Baseline and Catalyst. Kinetic needs a closer on your side, because we book the meeting and you take it." },
     ],
     related: [

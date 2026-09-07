@@ -52,8 +52,7 @@ export const terms = {
       "The tier you selected at checkout, with the deliverables listed for it on the pricing page on the date of purchase. Ad spend and media are not included in tier fees; they run in accounts you own and are paid by you to the platforms.",
     ]},
     { h2: "Billing", body: [
-      "Month to month: billed monthly in advance by card or ACH debit through Stripe. A 90 day ramp applies to every new engagement; after it, cancel at any month end by email to sale@isovertic.com.",
-      "12 month term: billed monthly, quarterly, or up front as selected at checkout. Kinetic and Critical Mass are 1 year terms paid quarterly. The website rebuild and hosting are included for the term.",
+      "Every tier is a 12 month term, billed monthly, quarterly, or up front as selected at checkout, in advance, by card or ACH debit through Stripe. Kinetic and Critical Mass are paid quarterly. A 90 day ramp with written deliverables applies to every new engagement. The website rebuild and hosting are included for the term.",
       "Bank debits can take up to four business days to settle. The engagement start date is the date the first payment settles.",
     ]},
     { h2: "Early exit from a term", body: [

@@ -1,14 +1,14 @@
 // Pricing source of truth. Every price on the site, in llms.txt, in schema, and in Stripe checkout reads from here.
-// Math: monthly = term x 1.2, so twelve months at the term rate costs what ten months costs month to month.
-// Framing: two months free plus the $15,000 website rebuild and hosting, on a 12 month term.
+// Every tier is a 12 month term. There is no month to month option: a year is the shortest window in which the
+// lagging indicators (pipeline, revenue) can move on a long cycle account, so we do not sell anything shorter.
 // Baseline and Catalyst: the term is billed monthly, quarterly at 4 percent off, or up front at eleven months for twelve.
-// Kinetic and Critical Mass: the term is a 1 year term paid quarterly, four payments of three months at the term rate. No monthly term billing, no up front.
+// Kinetic and Critical Mass: the term is paid quarterly, four payments of three months at the term rate. No monthly billing, no up front.
+// The $15,000 website rebuild and hosting are included in every term.
 
 export type Tier = {
   slug: "baseline" | "catalyst" | "kinetic" | "critical-mass";
   name: string;
-  monthly: number; // month to month, after the 90 day ramp
-  term: number; // per month on a 12 month term
+  term: number; // per month on the 12 month term
   from?: boolean; // "From" pricing (Critical Mass)
   spend: "" | "plus ad spend" | "plus media";
   price: string; // display of the term price, used by pages that show one number
@@ -17,7 +17,7 @@ export type Tier = {
   includes: string[];
   cta: string;
   featured?: boolean;
-  quarterlyOnly?: boolean; // 1 year term paid quarterly is the only term billing (Kinetic, Critical Mass)
+  quarterlyOnly?: boolean; // paid quarterly is the only billing (Kinetic, Critical Mass)
 };
 
 export const WEBSITE_BUILD = 15000;
@@ -31,7 +31,6 @@ export const tiers: Tier[] = [
   {
     slug: "baseline",
     name: "Baseline",
-    monthly: 3000,
     term: 2500,
     spend: "",
     price: "$2,500",
@@ -48,7 +47,6 @@ export const tiers: Tier[] = [
   {
     slug: "catalyst",
     name: "Catalyst",
-    monthly: 6000,
     term: 5000,
     spend: "plus ad spend",
     price: "$5,000",
@@ -66,7 +64,6 @@ export const tiers: Tier[] = [
   {
     slug: "kinetic",
     name: "Kinetic",
-    monthly: 12000,
     term: 10000,
     spend: "plus ad spend",
     price: "$10,000",
@@ -86,7 +83,6 @@ export const tiers: Tier[] = [
   {
     slug: "critical-mass",
     name: "Critical Mass",
-    monthly: 30000,
     term: 25000,
     from: true,
     spend: "plus media",
@@ -109,46 +105,43 @@ export const getTier = (slug: string) => tiers.find((t) => t.slug === slug);
 
 // Derived numbers for one tier. Used by the pricing page, the savings table, and the checkout page.
 export function tierMath(t: Tier) {
-  const monthlyYear = t.monthly * TERM_MONTHS;
   const termYear = t.term * TERM_MONTHS;
   const upfront = t.term * UPFRONT_MONTHS;
   const quarterlyYear = t.quarterlyOnly ? termYear : Math.round(termYear * (1 - QUARTERLY_DISCOUNT));
   const quarterly = quarterlyYear / 4;
   return {
-    monthlyYear,
     termYear,
     quarterlyYear,
     quarterly,
     quarterlySaved: termYear - quarterlyYear,
     upfront,
-    monthsFree: TERM_MONTHS - termYear / t.monthly, // 2 on every tier
-    cashSaved: monthlyYear - termYear,
-    totalValue: monthlyYear - termYear + WEBSITE_BUILD,
     upfrontSaved: termYear - upfront,
+    totalValue: termYear + WEBSITE_BUILD, // the year of work plus the build it includes
   };
 }
 
 export const billing = {
-  toggle: { monthly: "Month to month", term: "12 month term" },
   standardLabel: "What results to expect, and when",
   standardHref: "/resources/engagement-and-measurement-standard",
-  monthlyNote: "90 day ramp, then month to month. Website rebuild available at $15,000 up front.",
-  termNote: "Two months free. Website rebuild and hosting included, a $15,000 build at no charge.",
-  quarterlyNote: "Baseline and Catalyst can pay the term quarterly at 4 percent off, or up front at eleven months for twelve.",
-  upfrontNote: "Kinetic and Critical Mass run on a 1 year term paid quarterly.",
-  eyebrow: "Term",
-  h2: "Pick your term. The website comes with it.",
-  intro: "Every tier runs month to month after the 90 day ramp, or on a 12 month term. The term costs what ten months cost month to month, and the website rebuild and hosting come with it. Baseline and Catalyst bill the term monthly, quarterly at 4 percent off, or up front at eleven months for twelve. Kinetic and Critical Mass run on a 1 year term paid quarterly.",
-  columns: ["Month to month", "12 month term"],
+  cardNote: "12 month term. Website rebuild and hosting included, a $15,000 build at no charge.",
+  quarterlyNote: "Baseline and Catalyst bill the term monthly, quarterly at 4 percent off, or up front at eleven months for twelve.",
+  upfrontNote: "Kinetic and Critical Mass are paid quarterly.",
+  eyebrow: "The term",
+  h2: "Every tier is a year. The website comes with it.",
+  intro: "We sign a minimum one year term on every tier, because a year is the shortest window in which pipeline and revenue can move on a long cycle account and we would rather not take money we cannot earn. The 90 day ramp still has deliverables in writing and a review at day 90; that review reads leading indicators, and revenue is judged at months six and twelve. Baseline and Catalyst bill the term monthly, quarterly at 4 percent off, or up front at eleven months for twelve. Kinetic and Critical Mass are paid quarterly. The website rebuild and hosting come with every term.",
+  columns: ["What", "How it works"],
   rows: [
-    ["Tier price, month to month", "Tier price less two months. Baseline and Catalyst: billed monthly, quarterly at 4 percent off, or up front at eleven months for twelve. Kinetic and Critical Mass: 1 year term paid quarterly"],
-    ["Website rebuild $15,000, paid up front, if you want it", "Website rebuild included: Next.js, server rendered, schema on every page, built to be cited by AI search"],
-    ["Hosting on our stack at cost", "Hosting and bandwidth included for the term"],
-    ["90 day ramp, then cancel at any month end", "12 months, then month to month. Early exit: the unbilled balance of the build is due, prorated to months served"],
+    ["Term", "12 months on every tier. Nothing shorter is sold, including a paid search sprint."],
+    ["Billing", "Baseline and Catalyst: monthly, quarterly at 4 percent off, or up front at eleven months for twelve. Kinetic and Critical Mass: four quarterly payments."],
+    ["Website rebuild", "Included: Next.js, server rendered, schema on every page, built to be cited by AI search. The build starts inside the first 30 days."],
+    ["Hosting", "Hosting and bandwidth included for the term."],
+    ["The ramp", "90 days with deliverables in writing and a written review at day 90 against leading indicators. Kinetic and above carry a monthly meeting number from the ramp on."],
+    ["When revenue is judged", "At months six and twelve, tied to your sales cycle in the agreement. The two clock standard is published."],
+    ["Early exit", "The unbilled balance of the $15,000 build is due on the final invoice, prorated to the months served. Nothing else. Code, content, and domain stay yours."],
   ],
-  note: "The build is a full move onto our stack. You own the code and the domain. If a term ends early, the unbilled balance of the $15,000 build is due on the final invoice, prorated to the months served. That is the only clause in the agreement that reads like a lock in, and it exists so the free build stays free.",
-  savingsH2: "What the term saves, tier by tier",
-  savingsCols: ["Tier", "12 months, month to month", "12 months on term", "Cash saved", "Website included", "Total value", "Term billing", "Year up front"],
+  note: "The build is a full move onto our stack. You own the code and the domain. If a term ends early, the unbilled balance of the $15,000 build is due on the final invoice, prorated to the months served. That is the only clause in the agreement that reads like a lock in, and it exists so the included build stays included.",
+  savingsH2: "The year, tier by tier",
+  savingsCols: ["Tier", "Per month", "12 months", "Website included", "Total value", "Billing", "Year up front"],
 };
 
 export const steps = [
@@ -165,7 +158,7 @@ export const stepsNote =
 
 // Rows: one per step. Cells: one per tier, in tier order. Empty string means the tier does not run the step.
 export const tierGrid: { step: string; cells: string[] }[] = [
-  { step: "01 Build", cells: ["Website on a 12 month term, or $15,000", "Landing page plus website on a term", "Landing pages plus website on a term", "Per brand"] },
+  { step: "01 Build", cells: ["Website rebuild included", "Landing page plus website rebuild", "Landing pages plus website rebuild", "Per brand"] },
   { step: "02 Rank", cells: ["Newsletter, blog, social", "Doubled social", "Full content system plus YouTube", "Per brand"] },
   { step: "03 Run", cells: ["", "One Google Ads campaign", "Multiple campaigns, A/B tested", "Per brand"] },
   { step: "04 Buy", cells: ["", "", "", "Streaming and broadcast TV"] },
@@ -221,18 +214,18 @@ export const protocolTiers = [
 
 export const pricingContext = {
   commitmentH2: "The commitment",
-  commitment: "Every tier carries a defined 90 day ramp with deliverables and, for Kinetic and above, a meeting volume number in writing. Month to month, nobody is locked in. The 12 month term exists for clients who want the website included and two months off the year, and we still re earn the engagement quarterly.",
+  commitment: "Every tier carries a defined 90 day ramp with deliverables and, for Kinetic and above, a meeting volume number in writing. Every tier is a one year term, because that is how long it takes for the lagging indicators to move and we would rather lose a sale than sell a window in which we cannot show growth. Inside the year we still re earn the engagement quarterly: leading indicators every 30 days, revenue at months six and twelve.",
   comparisonH2: "Context for comparison",
   comparison: "An in house equivalent runs $160K to $190K per year for one marketing lead plus one agency, before a single SDR is hired. Standalone appointment setting firms charge $5K to $15K monthly for outbound alone, into whatever website and brand you already have. We price the whole system below the sum of its parts because the parts share a team. Baseline exists for the company that is not ready for any of that yet and still needs to publish every week.",
 };
 
 export const pricingFaqs = [
   { q: "Why publish pricing when nobody else does?", a: "Because our buyer is a founder who hates wasted discovery calls as much as we do, and because the page you are reading ranks for the question everyone types and nobody answers." },
-  { q: "Why is the term price lower than month to month?", a: "Because a year lets us plan the work, and the math is simple: twelve months on term cost what ten months cost month to month. The website rebuild and hosting come with the term because the site is where the year's work compounds." },
-  { q: "How do I start without a call?", a: "Every tier checks out on the start page: pick month to month or the 12 month term, pay by card or ACH bank debit on Stripe, and land on a ten minute intake form. The first content calendar arrives inside five business days. A 15 minute call is optional, and Kinetic and above get a weekly call anyway." },
-  { q: "How is the 12 month term billed?", a: "Kinetic and Critical Mass run on a 1 year term paid quarterly: four payments of three months at the term rate, $30,000 a quarter for Kinetic, with the website and hosting included. Baseline and Catalyst can bill the term monthly, quarterly at 4 percent off, or up front at eleven months for twelve." },
+  { q: "Why is the minimum a year?", a: "Because a year is the shortest window in which pipeline and revenue can move on a long cycle account. Fewer than two percent of new pages reach the top 10 of Google inside a year, brand effects build over quarters, and a healthcare sale alone runs about four months. A shorter term would have you judging revenue before a deal could close, and 43 percent of B2B agency churn happens in the first 90 days for exactly that reason. The full standard, with sources, is published." },
+  { q: "How do I start without a call?", a: "Every tier checks out on the start page: pick the tier and how you want to bill the year, pay by card or ACH bank debit on Stripe, and land on a ten minute intake form. The first content calendar arrives inside five business days. A 15 minute call is optional, and Kinetic and above get a weekly call anyway." },
+  { q: "How is the term billed?", a: "Kinetic and Critical Mass are paid quarterly: four payments of three months at the term rate, $30,000 a quarter for Kinetic, with the website and hosting included. Baseline and Catalyst can bill the term monthly, quarterly at 4 percent off, or up front at eleven months for twelve." },
   { q: "Can we pay by bank instead of card?", a: "Yes. Every checkout offers ACH Direct Debit next to card, Apple Pay, and Google Pay. Above $10,000 we recommend the bank: 0.8 percent capped at $5 per payment, no issuer limit. Bank debits clear in up to four business days and the engagement starts when the first one settles." },
   { q: "What is in ad spend versus fees?", a: "Fees pay the team. Spend goes to the platforms in your own accounts, which you own." },
-  { q: "Are there setup costs?", a: "No. Landing pages and campaign builds inside the ramp are included in tier pricing. The website build is included on a 12 month term at every tier, or $15,000 up front month to month. Unusual scope is quoted before signature, never after." },
+  { q: "Are there setup costs?", a: "No. Landing pages and campaign builds inside the ramp are included in tier pricing, and the $15,000 website build is included at every tier. Unusual scope is quoted before signature, never after." },
   { q: "What happens if we leave a term early?", a: "The unbilled balance of the $15,000 website build is due on the final invoice, prorated to the months served. Nothing else. The code and the domain stay yours." },
 ];

@@ -24,11 +24,11 @@ A marketing manager at $110,000 to $140,000, loaded to roughly $140,000 to $175,
 
 ## Full pipeline firms, including ours
 
-Firms that run the whole system, site, content, ads, media, and outbound, price between the sum of the channel parts and the in house stack. Ours, on a 12 month term: $2,500 monthly for the content program, $5,000 with a Google Ads campaign and a landing page, $10,000 for the full pipeline with an outbound seat and a meeting commitment in writing, and from $25,000 with TV and media buying across multiple brands. Month to month runs 20 percent higher. Each is on a [90 day ramp](/glossary/the-90-day-ramp) with deliverables in writing. We publish these because the question deserves an answer on a page, not a pitch.
+Firms that run the whole system, site, content, ads, media, and outbound, price between the sum of the channel parts and the in house stack. Ours, on a 12 month term at every tier: $2,500 monthly for the content program, $5,000 with a Google Ads campaign and a landing page, $10,000 for the full pipeline with an outbound seat and a meeting commitment in writing, and from $25,000 with TV and media buying across multiple brands. Each starts with a [90 day ramp](/glossary/the-90-day-ramp) with deliverables in writing, and the term is a year because that is how long pipeline and revenue take to move. We publish these because the question deserves an answer on a page, not a pitch.
 
 ## What the term does to the price
 
-The website build is $15,000 on our stack: Next.js, [server rendered](/glossary/server-rendering), schema on every page. Month to month, you pay it up front. On a 12 month term it is included at every tier, hosting comes with it, and the term itself costs what ten months cost month to month: Baseline is $3,000 monthly or $2,500 on term, Catalyst $6,000 or $5,000, [Kinetic](/pricing) $12,000 or $10,000, Critical Mass from $30,000 or $25,000. A company that knows it will run the program for a year pays two months less and gets the site, which is the honest price of optionality.
+The website build is a $15,000 build on our stack: Next.js, [server rendered](/glossary/server-rendering), schema on every page, and it is included in every term along with hosting. Baseline is $2,500 a month, Catalyst $5,000, [Kinetic](/pricing) $10,000, Critical Mass from $25,000, each for twelve months. Baseline and Catalyst can bill the year monthly, quarterly at 4 percent off, or up front at eleven months for twelve. Kinetic and Critical Mass are paid quarterly.
 
 ## Cost per meeting, the number that matters
 

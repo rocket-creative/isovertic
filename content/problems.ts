@@ -76,7 +76,7 @@ export const problems: Problem[] = [
     lead: "The retainer bills on the first of the month. The report arrives on the fifth. It shows impressions up, followers up, and a traffic chart with an arrow. Nowhere on it is the number you hired them for. That is not an accident of reporting. The agency model is built to be paid for activity, and activity is what you are getting.",
     callout: {
       label: "Where this lives",
-      body: "Every ISOVERTIC tier states its deliverables for the 90 day ramp in writing, and Kinetic at $10,000 a month adds a monthly meeting number to the agreement. If the number is not met, the engagement is month to month and you leave. Pricing is published.",
+      body: "Every ISOVERTIC tier states its deliverables for the 90 day ramp in writing, and Kinetic at $10,000 a month adds a monthly meeting number to the agreement. If the number is not met, the review at day 90 says what changes, in writing. Pricing is published.",
     },
     searchPhrases: ["marketing agency not producing leads", "paying an agency and getting no results", "how long should I give a marketing agency", "agency reports traffic but no sales", "how to tell if my marketing agency is bad"],
     sections: [
@@ -90,7 +90,7 @@ export const problems: Problem[] = [
       ]},
       { h2: "What to buy instead", body: [
         "Buy the whole pipeline or buy nothing. One team that builds the page, writes the content, runs the ads, and books the meeting cannot hide behind a seam because it owns every seam. Our Catalyst tier at $5,000 a month runs content, one Google Ads campaign, a landing page, and lead follow up within one business day. Kinetic at $10,000 adds the outbound seat and a monthly meeting number in the agreement.",
-        "The 90 day ramp has deliverables in writing and a written review at day 90. After that the engagement is month to month. If we are not producing the number we wrote down, you should not be paying us, and the structure makes leaving a decision rather than a negotiation.",
+        "The 90 day ramp has deliverables in writing and a written review at day 90 that reads leading indicators. The term is a year, because that is how long pipeline and revenue take to move, and revenue is judged at months six and twelve. If the leading indicators are not moving by day 60 we say so and change the plan before day 90.",
       ]},
       { h2: "How long to give an agency", body: [
         "Ninety days for paid search to reach a stable cost per lead. Six months for organic content to show compounding growth. If at day 90 there is no number and no plan with a number in it, the next 90 days will look the same. Every case study we publish uses the same window, months five through eight against the six months before we started, and we publish the method so you can check it.",
@@ -114,7 +114,7 @@ export const problems: Problem[] = [
     lead: "Traffic without meetings is a hobby. A site that converts under 1 percent of visitors is not a marketing problem, it is a page problem, and the page is usually failing for one of five reasons you can diagnose yourself before lunch.",
     callout: {
       label: "Where this lives",
-      body: "Landing pages built for the query ship inside the 90 day ramp on Catalyst and Kinetic. A full rebuild on our stack is included with a 12 month term or $15,000 up front month to month. You own the code. Pricing is published.",
+      body: "Landing pages built for the query ship inside the 90 day ramp on Catalyst and Kinetic. A full rebuild on our stack is included with every tier. You own the code. Pricing is published.",
     },
     searchPhrases: ["website traffic but no leads", "website visitors not converting", "why is my website not generating leads", "low conversion rate B2B website", "traffic up conversions down"],
     sections: [
@@ -378,7 +378,7 @@ export const problems: Problem[] = [
     faqs: [
       { q: "Do we need backlinks?", a: "They help and we earn them with original data and editorial series rather than buying them. But page count and page quality move first, and most sites in this position have not done that work." },
       { q: "How many pages do we need?", a: "As many as there are questions your buyers ask. One client needed 147 hand built pages plus a 14,000 page catalog. A professional firm might need 40. The number comes from the query list, not from a template." },
-      { q: "Can you fix our current site or does it need a rebuild?", a: "If it renders on the server and carries schema, we add pages. If it does not, a rebuild on our stack is included with a 12 month term or $15,000 up front." },
+      { q: "Can you fix our current site or does it need a rebuild?", a: "If it renders on the server and carries schema, we add pages. If it does not, a rebuild on our stack is included with every tier." },
     ],
     related: [{ label: "SEO and content", href: "/seo-content" }, { label: "How many pages to rank", href: "/answers/how-many-pages-does-a-site-need-to-rank" }, { label: "Results", href: "/results" }],
   },
@@ -428,7 +428,7 @@ export const problems: Problem[] = [
     lead: "Every edit is a ticket. The hosting invoice comes from the agency. Nobody on your team has the login, and when you asked for the files, the answer was vague. Meanwhile the site takes four seconds to load on a phone and half your ad budget lands on it. This is a solvable problem, and the first step is legal, not technical.",
     callout: {
       label: "Where this lives",
-      body: "A full rebuild on our stack, Next.js, server rendered, schema on every page, is included with a 12 month term on any tier, or $15,000 up front month to month. The repository, the domain, and the hosting accounts are yours from day one. Pricing is published.",
+      body: "A full rebuild on our stack, Next.js, server rendered, schema on every page, is included with every tier. The repository, the domain, and the hosting accounts are yours from day one. Pricing is published.",
     },
     searchPhrases: ["agency owns my website", "how to get my website files from web designer", "web design company holding website hostage", "old website slow need rebuild cost", "who owns the website code agency or client"],
     sections: [
@@ -446,7 +446,7 @@ export const problems: Problem[] = [
     faqs: [
       { q: "Can we keep WordPress?", a: "We migrate from it. New builds ship on our stack because performance, schema control, and server rendering are the point, and because you should not need a vendor to change a sentence." },
       { q: "What if the agency will not release the domain?", a: "Domains are registrar level property. If it is in your name, transfer it. If it is not, a written demand and, rarely, a lawyer's letter resolve it. We have walked clients through both." },
-      { q: "Do you host it?", a: "On a term, hosting and bandwidth are included. Month to month, hosting is on our stack at cost. Either way the accounts are in your name." },
+      { q: "Do you host it?", a: "Hosting and bandwidth are included for the term, and the accounts are in your name." },
     ],
     related: [{ label: "Web development", href: "/web-development" }, { label: "Is the website included", href: "/answers/is-the-website-included-in-the-monthly-fee" }, pricing],
   },
@@ -493,7 +493,7 @@ export const problems: Problem[] = [
     lead: "Every proposal you have received says it depends. It does depend, on your stage, your deal size, and your market, but the ranges are known, and the vendors who will not name them are protecting a sales process, not you. Here are the numbers, including ours.",
     callout: {
       label: "Where this lives",
-      body: "Four published tiers on a 12 month term: Baseline $2,500, Catalyst $5,000, Kinetic $10,000, Critical Mass from $25,000, all per month, plus ad spend in your own accounts where the tier runs ads. Month to month runs 20 percent higher and the term includes the $15,000 website. Every add on is priced on the pricing page. No discovery call required to learn a price.",
+      body: "Four published tiers on a 12 month term: Baseline $2,500, Catalyst $5,000, Kinetic $10,000, Critical Mass from $25,000, all per month, plus ad spend in your own accounts where the tier runs ads. Every tier is a 12 month term and includes the $15,000 website build. Every add on is priced on the pricing page. No discovery call required to learn a price.",
     },
     searchPhrases: ["how much should a small business spend on marketing", "marketing budget for a $5 million company", "what does outsourced marketing cost", "marketing and sales budget by revenue", "how much does lead generation cost per month"],
     sections: [
@@ -513,7 +513,7 @@ export const problems: Problem[] = [
     ],
     faqs: [
       { q: "Why do you publish pricing when nobody else does?", a: "Because our buyer is a founder who hates a wasted discovery call as much as we do, and because the page that answers the question everyone types and nobody answers is the page that ranks." },
-      { q: "Are there setup fees?", a: "No. Landing pages and campaign builds inside the ramp are included. The website build is included on a 12 month term at every tier, or $15,000 up front month to month. The term costs what ten months cost month to month, so the site and two months come free with the year." },
+      { q: "Are there setup fees?", a: "No. Landing pages and campaign builds inside the ramp are included. The $15,000 website build is included at every tier as part of the 12 month term." },
       { q: "What is not included?", a: "Ad spend and media, which go to the platforms in your own accounts. Add ons like the MLR gate, the HIPAA stack, and extra outbound seats are priced individually on the pricing page." },
     ],
     related: [pricing, { label: "Outsourced sales and marketing cost", href: "/field-notes/outsourced-sales-marketing-cost" }, { label: "Agency vs in house", href: "/compare/agency-vs-in-house" }],
@@ -1232,7 +1232,7 @@ export const problems: Problem[] = [
     faqs: [
       { q: "What does the board see?", a: "A 90 day ramp with deliverables in writing: pages live, campaigns at a stated cost per lead, and at Kinetic a monthly meeting number. Paste the agreement into the update and report against it." },
       { q: "We are pre revenue. Is Kinetic too early?", a: "Yes. Kinetic needs a closer on your side. Pre revenue, Baseline at $2,500 gives the company a voice; seed with budget, Catalyst adds paid demand." },
-      { q: "Can we pause between raises?", a: "After the ramp the engagement is month to month. Most startups keep Baseline running through a raise because visibility compounds and restarts slowly." },
+      { q: "Can we pause between raises?", a: "The term is a year, so a pause is a conversation rather than a button. Paid demand can be turned down inside the term; most startups keep Baseline running through a raise because visibility compounds and restarts slowly." },
     ],
     related: [{ label: "Startups", href: "/industries/startups" }, { label: "Show pipeline to the board", href: "/answers/how-do-i-show-pipeline-to-my-board" }, { label: "Hire or outsource, the math", href: "/field-notes/hire-salesperson-or-outsource" }],
   },
@@ -1264,7 +1264,7 @@ export const problems: Problem[] = [
     faqs: [
       { q: "Is Baseline just a blog package?", a: "It is the content step of the same six step system, run by the same team, on the same stack. The pages are built to be cited and to become the landing pages when you add ads." },
       { q: "Can we upgrade later without starting over?", a: "Up at any time. Everything built on Baseline is the foundation Catalyst and Kinetic run on, because the team that built it is the team that runs them." },
-      { q: "What about the website?", a: "Included on a 12 month term at every tier, including Baseline. Month to month, $15,000 up front. Repo and domain are yours either way." },
+      { q: "What about the website?", a: "Included at every tier, including Baseline, as part of the 12 month term. Repo and domain are yours." },
     ],
     related: [pricing, { label: "Baseline vs Catalyst", href: "/answers/what-is-the-difference-between-baseline-and-catalyst" }, { label: "Startups", href: "/industries/startups" }],
   },
@@ -1294,7 +1294,7 @@ export const problems: Problem[] = [
       ]},
     ],
     faqs: [
-      { q: "What if we miss the number?", a: "The engagement is month to month after the ramp. A written number you missed is still a better board conversation than no number, and the review at day 90 says what changes." },
+      { q: "What if we miss the number?", a: "A written number you missed is still a better board conversation than no number. The review at day 90 says what changes, and if the miss is structural, wrong tier or wrong channel, we move you inside the term rather than run it out." },
       { q: "Can you present to the board?", a: "On Critical Mass the quarterly growth review is board ready and we walk through it. On other tiers the one page report is written to be pasted." },
       { q: "Do investors accept outsourced pipeline?", a: "Investors accept a committed number, a cost per meeting, and a trend. How it is staffed matters less than whether it is written down." },
     ],
@@ -1311,7 +1311,7 @@ export const problems: Problem[] = [
     lead: "Either the marketing site lives in the product repo and every landing page is a sprint ticket that loses to a feature, or it lives on a page builder the engineers will not go near and it loads in four seconds with the wrong schema. Both are the same problem: nobody decided who owns the site or what it runs on. Decide both, and the fight ends.",
     callout: {
       label: "Where this lives",
-      body: "Every ISOVERTIC build ships on Next.js, TypeScript, and Vercel, server rendered, with content as typed data your engineers can read and marketing can edit. Included with a 12 month term or $15,000 up front month to month. Repo is yours on day one. Pricing is published.",
+      body: "Every ISOVERTIC build ships on Next.js, TypeScript, and Vercel, server rendered, with content as typed data your engineers can read and marketing can edit. Included with every tier on the 12 month term. Repo is yours on day one. Pricing is published.",
     },
     searchPhrases: ["who should own the marketing website engineering or marketing", "marketing site separate from product repo", "startup marketing website stack", "nextjs marketing site for startup", "engineers wont update marketing website"],
     sections: [

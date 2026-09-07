@@ -48,10 +48,7 @@ export async function startCheckout(_prev: StartState, formData: FormData): Prom
       subscription_data: { metadata: meta, description: plan.label },
       custom_text: {
         submit: {
-          message:
-            plan.termMonths > 0
-              ? `12 month term for ${plan.tierName}. Website rebuild and hosting included. Early exit: unbilled balance of the $15,000 build, prorated. Bank debits can take up to four business days to clear; the engagement starts when the first payment settles.`
-              : `${plan.tierName}, 90 day ramp, then month to month. Cancel at any month end. Bank debits can take up to four business days to clear.`,
+          message: `12 month term for ${plan.tierName}. Website rebuild and hosting included. Early exit: unbilled balance of the $15,000 build, prorated. Bank debits can take up to four business days to clear; the engagement starts when the first payment settles.`,
         },
       },
     });

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 };
 
 const steps = [
-  { n: "01", title: "Build", body: "The site is the asset every other step points at. We build on Next.js, server rendered, with schema on every page so Google and AI search can cite it. Catalyst and Kinetic get landing pages inside the ramp. The full website build comes with a 12 month term at every tier, or $15,000 up front month to month." },
+  { n: "01", title: "Build", body: "The site is the asset every other step points at. We build on Next.js, server rendered, with schema on every page so Google and AI search can cite it. Catalyst and Kinetic get landing pages inside the ramp. The full website build is included at every tier, and starts inside the first 30 days of the term." },
   { n: "02", title: "Rank", body: "Content that answers the questions your buyers type and the questions AI search answers for them. A newsletter, a blog post, and social every month on Baseline, doubled on Catalyst, and a full content system with a YouTube channel on Kinetic. For biotech and healthcare clients, the MLR add on puts a named medical reviewer between draft and publish." },
   { n: "03", title: "Run", body: "Google Ads managed to a cost per meeting, not a cost per click. One campaign on Catalyst, multiple campaigns with A/B testing on Kinetic, and the search term report read weekly by a person, not a dashboard." },
   { n: "04", title: "Buy", body: "Streaming and broadcast TV bought in your own accounts, with an exposed versus control measurement plan so you can see whether it moved the number. Critical Mass only, with a $25,000 monthly media minimum." },
@@ -32,11 +32,11 @@ const steps = [
 const ramp = [
   { phase: "Weeks 1 to 2", body: "Onboarding, accounts, the MLR or HIPAA gate if your content needs one, and the first content calendar." },
   { phase: "Weeks 3 to 6", body: "First publishing cadence live, landing pages and campaigns built, outbound lists and sequences approved." },
-  { phase: "Weeks 7 to 12", body: "Campaigns optimized weekly, the first meetings booked on Kinetic and above, and a written review at day 90 against the deliverables in your agreement. After the ramp, the engagement runs month to month unless you took a term for the website." },
+  { phase: "Weeks 7 to 12", body: "Campaigns optimized weekly, the first meetings booked on Kinetic and above, and a written review at day 90 against the deliverables in your agreement. After the ramp, the year continues: leading indicators every 30 days, and revenue judged at months six and twelve against your sales cycle." },
 ];
 
 const faqs = [
-  { q: "Can we change tiers?", a: "Up at any time. Down at the end of the ramp or at any month end after it." },
+  { q: "Can we change tiers?", a: "Up at any time. Down at the end of the ramp or at any quarter end after it, inside the same 12 month term." },
   { q: "Who is on the account?", a: "The founder and the same senior team on every tier. There is no junior tier of staff behind the lower price. The lower price buys fewer steps, not a different team." },
   { q: "What do we have to provide?", a: "Access to your domain, ad accounts, and CRM, a point of contact who can approve in 48 hours, and, if your content makes clinical claims, a named reviewer with an MD or PhD." },
 ];

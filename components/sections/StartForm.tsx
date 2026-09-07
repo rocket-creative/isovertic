@@ -8,12 +8,12 @@ import { formCopy } from "@/content/form";
 
 // Serializable plan data comes from the server page; no Stripe import on the client.
 export type StartTier = { slug: string; name: string; for: string; spend: string };
-export type StartPlan = { key: string; tier: string; billing: "monthly" | "term" | "quarterly" | "upfront"; label: string; summary: string; term: boolean; unitAmount: number; bankRecommended: boolean };
+export type StartPlan = { key: string; tier: string; billing: "term" | "quarterly" | "upfront"; label: string; summary: string; term: boolean; unitAmount: number; bankRecommended: boolean };
 
 const field = "field";
 const labelClass = "field-label";
-const billingLabel: Record<StartPlan["billing"], string> = { monthly: "Month to month", term: "12 month term, billed monthly", quarterly: "12 month term, billed quarterly", upfront: "12 month term, paid up front" };
-const quarterlyOnlyLabel = "1 year term, paid quarterly";
+const billingLabel: Record<StartPlan["billing"], string> = { term: "12 month term, billed monthly", quarterly: "12 month term, billed quarterly", upfront: "12 month term, paid up front" };
+const quarterlyOnlyLabel = "12 month term, paid quarterly";
 
 export function StartForm({ tiers, plans, initial }: { tiers: StartTier[]; plans: StartPlan[]; initial: string }) {
   const [state, action, pending] = useActionState<StartState, FormData>(startCheckout, null);
@@ -52,7 +52,7 @@ export function StartForm({ tiers, plans, initial }: { tiers: StartTier[]; plans
             <label key={p.key} className="flex min-h-[48px] cursor-pointer gap-4 py-4">
               <input type="radio" name="billing_pick" value={p.billing} checked={billing === p.billing} onChange={() => setBilling(p.billing)} className="mt-0.5 h-5 w-5 shrink-0 accent-navy" />
               <span>
-                <span className="block font-display text-[16px] font-medium">{p.billing === "quarterly" && forTier.length === 2 ? quarterlyOnlyLabel : billingLabel[p.billing]}</span>
+                <span className="block font-display text-[16px] font-medium">{p.billing === "quarterly" && forTier.length === 1 ? quarterlyOnlyLabel : billingLabel[p.billing]}</span>
                 <span className="mt-1 block text-[14px] leading-relaxed text-ink-soft">{p.summary}</span>
               </span>
             </label>

@@ -8,10 +8,10 @@ export const standardMeta = {
   path: "/resources/engagement-and-measurement-standard",
   title: "How Long Marketing Takes to Work | ISOVERTIC",
   description:
-    "The engagement length and measurement cadence standard we use for healthcare, biotech, medtech, and technical B2B clients. Two clocks, published thresholds.",
+    "Why every ISOVERTIC engagement is a one year term, and how we measure it: two clocks, published thresholds by channel, and the sales cycle data behind the rule.",
   eyebrow: "Engagement and measurement standard",
   h1: "How long marketing takes to work, and how we measure it.",
-  lead: "Our published engagement length and two clock measurement standard. Written so a compliance officer, a CFO, and a CRO can read the same page and agree on what results means before anyone signs.",
+  lead: "Why every ISOVERTIC engagement is a one year term, and the two clock measurement standard inside it. Written so a compliance officer, a CFO, and a CRO can read the same page and agree on what results means before anyone signs.",
   datePublished: "2026-09-07",
   dateModified: "2026-09-07",
 };
@@ -22,7 +22,7 @@ export const headings = {
   scorecard: { h2: "The two clock scorecard in every ISOVERTIC agreement." },
   inHouse: { h2: "The in house comparison.", cta: "Run the break even model" },
   structure: { h2: "Our engagement structure." },
-  shorter: { h2: "When we will say yes to a shorter term." },
+  shorter: { h2: "Why not a shorter term." },
   churn: { h2: "The churn data behind this." },
   caveats: { h2: "Caveats, published on purpose." },
   download: { title: "ISOVERTIC Engagement and Measurement Standard", body: "The rule, the two clock scorecard, and the three stage structure on one printable page. Send it to your CFO before the call." },
@@ -33,14 +33,14 @@ export const headings = {
 export const rule = {
   minimums: {
     label: "Our minimums",
-    body: "Six months for a single channel. Twelve months for a full funnel program that is judged on pipeline and revenue. Below those windows no lagging indicator can move in a healthcare or biotech account, so we will not agree to be judged on one.",
+    body: "Twelve months, on every tier. The research floor is six months for a single channel and twelve for a program judged on pipeline and revenue; we sign the twelve because below that window no lagging indicator can move in a healthcare or biotech account, and we would rather not take money we cannot earn.",
   },
   method: {
     label: "How we measure",
     body: "Two clocks. Leading indicators every 30 days. Lagging indicators, meaning pipeline, revenue, and CAC payback, at six and twelve months, with the review date tied to your actual sales cycle in the agreement.",
   },
   monthToMonth:
-    "Month to month billing exists on every tier and the 90 day ramp still ends in a written review. What changes on a long cycle account is what that review can honestly judge: leading indicators at day 90, revenue at month six or twelve.",
+    "The 90 day ramp still ends in a written review. What that review can honestly judge is leading indicators: rankings, cost per lead, learning phase exits, meetings booked. Revenue is judged at month six and month twelve, tied to your sales cycle in the agreement.",
 };
 
 export type ChannelRow = { channel: string; leading: string; lagging: string; note?: string };
@@ -153,12 +153,12 @@ export const stages: Stage[] = [
 
 export const shorterTerm = {
   yes: {
-    label: "A three month engagement is defensible when",
-    body: "your sales cycle is under 90 days, and the offer is paid search led, and you already have brand equity that removes the discovery lag. If all three hold we will scope a 90 day paid search sprint. Ask us.",
+    label: "When a shorter term is tempting",
+    body: "When your sales cycle is under 90 days, the offer is paid search led, and you already have brand equity. Paid search will show a real cost per meeting inside the ramp in that case, and we report it at day 90. We still sign a year, because the content and brand work that lowers that cost over time does not move in a quarter, and we would be selling you the fast part while leaving the compounding part undone.",
   },
   no: {
-    label: "A three month engagement is a red flag when",
-    body: "the deliverable is SEO or content, or your sales cycle is over six months, or the buyer expects revenue judgment at day 90. In those cases we will decline the engagement rather than take money we cannot earn.",
+    label: "When we will decline the engagement",
+    body: "When the buyer expects revenue judgment at day 90 on a long cycle account. That expectation, more than budget, predicts churn, and no term length fixes it. We reset it before signing or we walk.",
   },
 };
 
@@ -182,8 +182,8 @@ export const caveats: string[] = [
 ];
 
 export const standardFaqs: FAQ[] = [
-  { q: "Why is six months your minimum?", a: "Because it is the shortest window in which a lagging indicator can move on any channel other than paid search. Fewer than two percent of new pages reach the top 10 inside a year, brand effects build over quarters, and a healthcare sales cycle alone runs 125 days. Judging revenue earlier measures the calendar, not the work." },
-  { q: "What if my sales cycle is under 90 days?", a: "Then a 90 day paid search sprint can be honest, provided the offer is paid search led and you already have brand equity. We scope it as a fixed deliverable and judge it on cost per qualified meeting at day 90. SEO and content are still not judged on that window." },
+  { q: "Why is one year your minimum?", a: "Because it is the shortest window in which pipeline and revenue can move on a long cycle account. Fewer than two percent of new pages reach the top 10 inside a year, brand effects build over quarters, and a healthcare sales cycle alone runs 125 days. The research floor is six months for a single channel; we sign twelve on every tier because we run more than one channel and we want to be judged on the number that matters, not the calendar." },
+  { q: "What if my sales cycle is under 90 days?", a: "Then paid search will show you a real cost per qualified meeting inside the 90 day ramp, and we report it at day 90. The term is still a year, because the content and brand work that lowers that cost over time does not move in a quarter. Revenue on a short cycle is judged at month six." },
   { q: "How do you handle the 90 day board reporting problem?", a: "We give the board leading indicators it can read at day 90: learning phase exits, cost per lead, meetings booked, ranking movement. The agreement names the month when revenue gets judged, tied to your cycle. A board that sees both clocks written down stops asking why revenue is flat at week twelve." },
   { q: "What happens if you miss the leading indicator targets at day 60?", a: "We say so in the report, name the cause, and change the plan before day 90. Leading indicators exist to be acted on early. If the miss is structural, wrong tier or wrong channel, we move you rather than run out the term." },
 ];

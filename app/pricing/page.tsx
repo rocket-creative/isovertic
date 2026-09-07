@@ -12,22 +12,19 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: { absolute: "Outsourced Sales and Marketing Pricing | ISOVERTIC" },
-  description: "Published pricing for four tiers. Month to month from $3,000, or on a 12 month term from $2,500 with two months free and the $15,000 website rebuild included. Every tier checks out on the page by card or bank debit, no call.",
+  description: "Published pricing for four tiers, from $2,500 a month on a 12 month term with the $15,000 website rebuild and hosting included. Every tier checks out on the page by card or bank debit, no call.",
   alternates: { canonical: "/pricing" },
 };
 
 export default function Pricing() {
-  const offers = tiers.flatMap((t) => [
-    { name: `${t.name}, month to month`, price: t.monthly },
-    { name: `${t.name}, 12 month term`, price: t.term },
-  ]);
+  const offers = tiers.map((t) => ({ name: `${t.name}, 12 month term, per month`, price: t.term }));
   return (
     <>
       <JsonLd data={[offersLd("ISOVERTIC growth system", offers, "/pricing"), faqLd(pricingFaqs), breadcrumbLd([{ name: "Home", path: "/" }, { name: "Pricing", path: "/pricing" }])]} />
       <PageHero
         eyebrow="Pricing"
         h1={<>The <span className="text-signal">price</span>, before the pitch.</>}
-        lead="Nobody in this category publishes pricing, which tells you something about how they sell. Here is ours. Four tiers, month to month or on a 12 month term that costs what ten months cost and includes the website rebuild. Every tier checks out on the page, card or bank debit, no call required."
+        lead="Nobody in this category publishes pricing, which tells you something about how they sell. Here is ours. Four tiers, each a 12 month term with the website rebuild and hosting included, because a year is the shortest window in which real growth shows. Every tier checks out on the page, card or bank debit, no call required."
       />
       <Section label="Tiers">
         <PricingTiers />
@@ -45,7 +42,7 @@ export default function Pricing() {
                 {tiers.map((c) => (
                   <th key={c.name} className="px-3 py-4 font-medium">
                     <span className="block">{c.name}</span>
-                    <span className="mt-1 block text-[12px] font-normal text-ink-soft">{c.from ? "From " : ""}{usd(c.term)} on term, {usd(c.monthly)} monthly</span>
+                    <span className="mt-1 block text-[12px] font-normal text-ink-soft">{c.from ? "From " : ""}{usd(c.term)} a month</span>
                   </th>
                 ))}
               </tr>
@@ -111,13 +108,12 @@ export default function Pricing() {
                 return (
                   <tr key={t.slug} className="border-b border-rule align-top">
                     <th scope="row" className="py-4 pr-4 font-medium text-ink">{t.name}</th>
-                    <td data-label={c[1]} className="py-4 pr-4 text-ink-soft">{f}{usd(m.monthlyYear)}</td>
+                    <td data-label={c[1]} className="py-4 pr-4 text-ink-soft">{f}{usd(t.term)}</td>
                     <td data-label={c[2]} className="py-4 pr-4 text-ink-soft">{f}{usd(m.termYear)}</td>
-                    <td data-label={c[3]} className="py-4 pr-4 text-ink">{usd(m.cashSaved)}, two months</td>
-                    <td data-label={c[4]} className="py-4 pr-4 text-ink-soft">{usd(15000)}{t.slug === "critical-mass" ? " per brand" : ""}</td>
-                    <td data-label={c[5]} className="py-4 pr-4 font-display font-semibold text-brass">{usd(m.totalValue)}</td>
-                    <td data-label={c[6]} className="py-4 pr-4 text-ink-soft">{t.quarterlyOnly ? `1 year term paid quarterly, ${f}${usd(m.quarterly)} x 4` : `Monthly, or ${usd(m.quarterly)} x 4 quarterly (saves ${usd(m.quarterlySaved)} more)`}</td>
-                    <td data-label={c[7]} className="py-4 pr-4 text-ink-soft">{t.quarterlyOnly ? "Not offered" : `${usd(m.upfront)}, saves ${usd(m.upfrontSaved)} more`}</td>
+                    <td data-label={c[3]} className="py-4 pr-4 text-ink-soft">{usd(15000)}{t.slug === "critical-mass" ? " per brand" : ""}</td>
+                    <td data-label={c[4]} className="py-4 pr-4 font-display font-semibold text-brass">{f}{usd(m.totalValue)}</td>
+                    <td data-label={c[5]} className="py-4 pr-4 text-ink-soft">{t.quarterlyOnly ? `Quarterly, ${f}${usd(m.quarterly)} x 4` : `Monthly, or ${usd(m.quarterly)} x 4 quarterly (saves ${usd(m.quarterlySaved)})`}</td>
+                    <td data-label={c[6]} className="py-4 pr-4 text-ink-soft">{t.quarterlyOnly ? "Not offered" : `${usd(m.upfront)}, saves ${usd(m.upfrontSaved)}`}</td>
                   </tr>
                 );
               })}

@@ -2,10 +2,10 @@
 
 export const startCopy = {
   title: "Start Your Tier | ISOVERTIC",
-  metaDescription: "Sign up for any tier with a card or a bank debit. Month to month, or a 12 month term with two months free and the $15,000 website rebuild included. Kinetic and Critical Mass run on a 1 year term paid quarterly. No call required.",
+  metaDescription: "Sign up for any tier with a card or a bank debit. Every tier is a 12 month term with the $15,000 website rebuild and hosting included. Kinetic and Critical Mass are paid quarterly. No call required.",
   eyebrow: "Start",
-  h1: "Pick a tier. Pick a term. Check out.",
-  lead: "No discovery call. Choose the tier, then month to month or the 12 month term, and pay by card or bank debit on Stripe. You land on a ten minute intake form, and the first content calendar arrives inside five business days. A 15 minute call is there if you want one, after you sign up.",
+  h1: "Pick a tier. Pick how to bill the year. Check out.",
+  lead: "No discovery call. Choose the tier, choose how the 12 month term is billed, and pay by card or bank debit on Stripe. You land on a ten minute intake form, and the first content calendar arrives inside five business days. A 15 minute call is there if you want one, after you sign up.",
   tierLabel: "Tier",
   billingLabel: "Billing",
   emailLabel: "Work email",
@@ -19,7 +19,7 @@ export const startCopy = {
     "Today: checkout on Stripe, then a ten minute intake form.",
     "Inside five business days: your first content calendar. On Catalyst and above, the campaign build and landing page start the same week.",
     "Weeks 1 to 2: onboarding, accounts, the review gate if your content needs one. Weeks 3 to 6: publishing live, campaigns and outbound built. Weeks 7 to 12: weekly optimization and the day 90 review against the deliverables in your agreement.",
-    "On the 12 month term: the website rebuild starts inside the first 30 days on our stack, server rendered, schema on every page, hosted for the term at no charge.",
+    "The website rebuild starts inside the first 30 days on our stack, server rendered, schema on every page, hosted for the term at no charge.",
   ],
   error: "A working email is required, and the 12 month term needs the box checked.",
   checkoutError: "Checkout could not start. Email sale@isovertic.com and we will send a payment link by hand.",
