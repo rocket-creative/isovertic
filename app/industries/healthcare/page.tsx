@@ -30,7 +30,7 @@ export default function Healthcare() {
         data={[
           serviceLd(m.h1, m.description, m.path),
           resourceLd({ headline: m.h1, description: m.description, path: m.path, datePublished: "2026-09-05", dateModified: m.dateModified, section: "Compliance" }),
-          faqLd(complianceFaqs.filter((f) => !f.a.startsWith("{{"))),
+          faqLd(complianceFaqs),
           breadcrumbLd([{ name: "Home", path: "/" }, { name: "Industries", path: "/industries" }, { name: m.eyebrow, path: m.path }]),
         ]}
       />

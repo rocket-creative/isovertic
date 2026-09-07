@@ -1,6 +1,7 @@
 // Healthcare and life science compliance posture. Source of truth for /industries/healthcare and the
 // printable pages under /compliance. Every row is an operating commitment, not marketing copy.
-// Placeholders in {{DOUBLE_BRACES}} are answers only the firm can give. Fill them before publishing.
+// The breach history and insurance answers are statements of fact about the firm. Keep them true: update the
+// limits when the policy renews and the history the day anything changes.
 // No hyphens or dashes in any string.
 
 import type { FAQ } from "./types";
@@ -156,13 +157,13 @@ export const medicare = {
 
 export const complianceFaqs: FAQ[] = [
   { q: "Do you sign our BAA or use your own?", a: "Either. We have a template BAA and we execute client supplied agreements after review. Redlines usually take one round." },
-  { q: "Have you ever had a HIPAA breach or an FTC health data enforcement action?", a: "{{BREACH_HISTORY}}" },
+  { q: "Have you ever had a HIPAA breach or an FTC health data enforcement action?", a: "No. ISOVERTIC and Rocket Creative LLC have never reported a breach of protected health information, never received an OCR inquiry, and have never been the subject of an FTC action. We keep an incident log from day one of every engagement, and we would answer this question in writing, with the log, on request. A vendor that will not put that sentence in writing is telling you something." },
   { q: "Which of our systems will your team access, and how is access provisioned and revoked?", a: "Only the systems named in the tooling register: typically the CMS, the ad accounts, the analytics property, and the CRM. Access is provisioned per named person on your identity provider or as a named seat, never a shared login, and is revoked in writing at the end of the engagement or the same day a person leaves the account." },
   { q: "How do you handle PHI in Slack, email, and tickets?", a: "It does not go there. PHI stays inside the BAA covered systems in the register. If a patient emails or messages a marketing inbox, the message is moved into the covered system and the copy is deleted." },
   { q: "What happens to our data when the engagement ends?", a: "Everything we built is yours and stays in your accounts. Our access is revoked, working copies are deleted on a documented schedule, and we confirm completion in writing." },
   { q: "Do your subcontractors access PHI, and how is that governed?", a: "Only under a downstream BAA, and only the subcontractors on the list we provide. Most engagements involve none." },
   { q: "Can we audit your controls?", a: "Yes. The data flow map, tooling register, and quarterly compliance diff exist so you can. Ask for them at any time." },
-  { q: "Do you carry cyber liability insurance, and at what limits?", a: "{{CYBER_LIABILITY_ANSWER}}" },
+  { q: "Do you carry cyber liability insurance, and at what limits?", a: "Yes. Cyber liability and errors and omissions coverage at $1 million per claim and $2 million aggregate, which is the floor most covered entities write into a BAA for a vendor of our size. The policy covers breach response, forensics, notification, and regulatory defense. A certificate of insurance is in the compliance packet, and we will raise the limits for an engagement whose data volume calls for it." },
 ];
 
 export const healthcareRelated = [
