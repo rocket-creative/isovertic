@@ -36,7 +36,7 @@ export default function Results() {
           {cases.map((c, i) => {
             const study = getCaseStudyByClient(c.name);
             return (
-              <RevealBlock key={c.name} as="li" className="surface-card grid gap-6 py-10 lg:grid-cols-[1fr_2fr]">
+              <RevealBlock key={c.name} as="li" className="surface-card grid gap-6 px-6 py-10 sm:px-8 lg:grid-cols-[1fr_2fr] lg:px-10">
                 <div>
                   <p className="eyebrow">{String(i + 1).padStart(2, "0")} · {c.tag}</p>
                   <h2 className="mt-3 font-display text-[clamp(20px,2.6vw,30px)] font-semibold leading-tight">{c.name}</h2>
