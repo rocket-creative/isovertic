@@ -43,26 +43,28 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
         ]}
       />
 
-      <article className="mx-auto max-w-[1440px] gutter pt-32 lg:pt-40">
-        <p className="eyebrow">Results · {c.industry}</p>
-        <p className="mt-6 text-[13px] uppercase tracking-[0.18em] text-signal">{c.clientName}</p>
-        <h1 className="mt-4 max-w-[24ch] font-display text-h1 font-medium">{c.title}</h1>
-        <p className="mt-6 max-w-[62ch] text-[16px] text-ink-soft">{c.clientDescriptor}</p>
-        <p className="mt-8 max-w-[62ch] text-[17px] leading-relaxed text-ink/90">{c.summary}</p>
-        <div className="iso-mark rule-draw mt-12 max-w-[560px]" aria-hidden="true" />
+      <article className="border-b border-rule bg-bright">
+        <div className="mx-auto max-w-[1440px] gutter pt-32 pb-14 lg:pt-40">
+          <p className="eyebrow">Results · {c.industry}</p>
+          <p className="mt-6 text-[13px] uppercase tracking-[0.18em] text-signal">{c.clientName}</p>
+          <h1 className="mt-4 max-w-[24ch] font-display text-h1 font-medium">{c.title}</h1>
+          <p className="mt-6 max-w-[62ch] text-[16px] text-ink-soft">{c.clientDescriptor}</p>
+          <p className="mt-8 max-w-[62ch] text-[17px] leading-relaxed text-ink/90">{c.summary}</p>
+          <div className="iso-mark rule-draw mt-12 max-w-[560px]" aria-hidden="true" />
 
-        <div className="mt-14 grid gap-px bg-rule sm:grid-cols-2 lg:grid-cols-3">
-          {c.stats.map((s) => (
-            <RevealBlock key={s.label} className="surface-card p-8">
-              <p className="font-display text-[clamp(32px,3.6vw,52px)] font-semibold leading-none text-brass">{s.value}</p>
-              <p className="mt-5 text-[15px] leading-relaxed text-ink/90">{s.label}</p>
-              {s.note && <p className="mt-3 text-[13px] leading-relaxed text-ink-soft">{s.note}</p>}
-            </RevealBlock>
-          ))}
+          <div className="mt-14 grid gap-px bg-rule sm:grid-cols-2 lg:grid-cols-3">
+            {c.stats.map((s) => (
+              <RevealBlock key={s.label} className="surface-card p-8">
+                <p className="font-display text-[clamp(32px,3.6vw,52px)] font-semibold leading-none text-brass">{s.value}</p>
+                <p className="mt-5 text-[15px] leading-relaxed text-ink/90">{s.label}</p>
+                {s.note && <p className="mt-3 text-[13px] leading-relaxed text-ink-soft">{s.note}</p>}
+              </RevealBlock>
+            ))}
+          </div>
+          <p className="mt-6 text-[13px] leading-relaxed text-ink-soft">
+            {STUDY_WINDOW_NOTE[c.studyType]}
+          </p>
         </div>
-        <p className="mt-6 pb-4 text-[13px] leading-relaxed text-ink-soft">
-          {STUDY_WINDOW_NOTE[c.studyType]}
-        </p>
       </article>
 
       <Section label="Situation" tone="bright">

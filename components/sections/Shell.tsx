@@ -28,7 +28,7 @@ export function Section({
 
 export function PageHero({ eyebrow, h1, lead }: { eyebrow: string; h1: ReactNode; lead?: string }) {
   return (
-    <section className="border-b border-rule pt-[calc(var(--spacing-safe-top)+6.5rem)] lg:pt-[calc(var(--spacing-safe-top)+9.25rem)]">
+    <section className="border-b border-rule bg-bright pt-[calc(var(--spacing-safe-top)+6.5rem)] lg:pt-[calc(var(--spacing-safe-top)+9.25rem)]">
       <div className="mx-auto max-w-[1440px] gutter pb-14">
         <p className="eyebrow">{eyebrow}</p>
         <h1 className="mt-5 max-w-[18ch] font-display text-h1 font-medium">{h1}</h1>
