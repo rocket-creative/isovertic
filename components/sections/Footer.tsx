@@ -47,6 +47,7 @@ const cols = [
   {
     h: "Resources",
     items: [
+      ["All resources", "/resources"],
       ["Field notes", "/field-notes"],
       ["The pinned argument", "/field-notes/pipeline-ownership-thesis"],
       ["Pipeline Ownership Audit", "/audit"],
