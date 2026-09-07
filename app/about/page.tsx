@@ -1,11 +1,8 @@
 import { PageHero, Section } from "@/components/sections/Shell";
 import { RevealBlock } from "@/components/ui/RevealBlock";
-import { CTABand } from "@/components/sections/CTABand";
-import { FounderStrip } from "@/components/sections/FounderStrip";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { breadcrumbLd } from "@/lib/schema";
-import { site } from "@/lib/site";
-import { coverage } from "@/content/people";
+import { about as c } from "@/content/about";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -19,70 +16,71 @@ export default function About() {
   return (
     <>
       <JsonLd data={breadcrumbLd([{ name: "Home", path: "/" }, { name: "About", path: "/about" }])} />
-      <PageHero
-        eyebrow="About"
-        h1="One senior team. Every account. Every tier."
-        lead="ISOVERTIC was built for companies that have to prove their results to someone: a review board, an investor, a regulator, a patient. That buyer does not want a deck of adjectives. They want the number, the method, and the person who owns both."
-      />
+      <PageHero h1={c.h1} lead={c.lead} />
+
       <Section label="The name">
         <RevealBlock className="max-w-[68ch]">
-          <h2 className="font-display text-h2 font-medium">Why the name</h2>
-          <p className="mt-6 leading-relaxed text-ink/90">
-            Iso means constant. Vertic means the vertical. The name is the shape of the growth line we are paid to produce: a fixed, rising heading, not a spike that falls back. Our tiers are named the same way, from Baseline, the measurement you start from, to Critical Mass, the point where growth sustains itself.
-          </p>
+          <h2 className="font-display text-h2 font-medium">{c.name.h2}</h2>
+          <p className="mt-6 leading-relaxed text-ink/90">{c.name.body}</p>
         </RevealBlock>
       </Section>
-      <Section label="Founder" tone="bright">
+
+      <Section label="The team" tone="bright">
         <RevealBlock className="max-w-[68ch]">
-          <h2 className="font-display text-h2 font-medium"><Link href="/people/george-stoff" className="hover:text-signal">{site.founder}</Link>, Founder and Lead Engineer</h2>
-          <p className="mt-6 leading-relaxed text-ink/90">Full stack engineer and founder, more than 30 years building the systems companies sell through: server rendered sites with thousands of schema backed pages, the data pipelines that feed outbound, and the ad and content systems on top. He has shipped SaaS products of his own and run go to market for healthcare, biotech, and professional service companies. <Link href="/people/george-stoff" className="underline underline-offset-4 hover:text-navy">Full bio and credentials</Link>.</p>
-          <p className="mt-5 leading-relaxed text-ink/90">ISOVERTIC exists because every owner he worked with was buying these capabilities in pieces, from vendors who never spoke, and wondering why the pieces never became a pipeline.</p>
+          <h2 className="font-display text-h2 font-medium">{c.team.h2}</h2>
+          <p className="mt-6 leading-relaxed text-ink/90">{c.team.lead}</p>
+          <ul className="mt-6 space-y-4 leading-relaxed text-ink/90">
+            {c.team.roles.map((r) => (
+              <li key={r.title}>
+                <strong>{r.title}</strong> {r.body}
+              </li>
+            ))}
+          </ul>
+          <p className="mt-6 leading-relaxed text-ink/90">{c.team.close}</p>
         </RevealBlock>
       </Section>
-      <Section label="Operations">
+
+      <Section label="Founder">
         <RevealBlock className="max-w-[68ch]">
-          <h2 className="font-display text-h2 font-medium"><Link href="/people/kristen-coughlin" className="hover:text-signal">Kristen Coughlin</Link>, Chief Operating Officer</h2>
+          <h2 className="font-display text-h2 font-medium">{c.george.h2}</h2>
           <p className="mt-6 leading-relaxed text-ink/90">
-            Molecular biologist, ten years selling custom mouse models for a genetic engineering CRO, then institutional operations in the Department of Microbial Pathogenesis at the Yale School of Medicine. She runs operations and is on every life science account. <Link href="/people/kristen-coughlin" className="underline underline-offset-4 hover:text-navy">Full bio and credentials</Link>.
+            {c.george.body}{" "}
+            <Link href={c.george.bioHref} className="underline underline-offset-4 hover:text-navy">
+              {c.george.bioLabel}
+            </Link>
+            .
           </p>
+          <p className="mt-5 leading-relaxed text-ink/90">{c.george.why}</p>
         </RevealBlock>
       </Section>
-      <Section label="Who we serve" tone="bright">
+
+      <Section label="Operations" tone="bright">
         <RevealBlock className="max-w-[68ch]">
-          <h2 className="font-display text-h2 font-medium">Who we serve</h2>
+          <h2 className="font-display text-h2 font-medium">{c.kristen.h2}</h2>
           <p className="mt-6 leading-relaxed text-ink/90">
-            Scientists and the companies built around them, from a lab selling models and reagents to a diagnostics startup with a Series A to spend. Startups that need a pipeline before they can afford a sales team. Healthcare brands that have to market under HIPAA and MLR review and still fill the calendar. The industry pages cover how the system flexes for each.
+            {c.kristen.body}{" "}
+            <Link href={c.kristen.bioHref} className="underline underline-offset-4 hover:text-navy">
+              {c.kristen.bioLabel}
+            </Link>
+            .
           </p>
         </RevealBlock>
       </Section>
-      <Section label="How we work">
+
+      <Section label="Who we serve">
         <RevealBlock className="max-w-[68ch]">
-          <h2 className="font-display text-h2 font-medium">How we work</h2>
-          <p className="mt-6 leading-relaxed text-ink/90">
-            The founder is on every account. The same senior team runs Baseline and Critical Mass; the price buys steps, not a better team. Pricing is published because our buyer hates a wasted discovery call as much as we do. Every engagement has a 90 day ramp with deliverables in writing, and we re earn it quarterly.
-          </p>
-          <p className="mt-5 leading-relaxed text-ink/90">
-            The website is an asset, not a brochure. Traffic without meetings is a hobby. Numbers beat adjectives. And nobody should need a discovery call to learn a price. {site.entity}
-          </p>
+          <h2 className="font-display text-h2 font-medium">{c.serve.h2}</h2>
+          <p className="mt-6 leading-relaxed text-ink/90">{c.serve.body}</p>
         </RevealBlock>
       </Section>
-      <Section label={coverage.eyebrow} tone="bright">
-        <RevealBlock>
-          <h2 className="max-w-[22ch] font-display text-h2 font-medium">{coverage.h2}</h2>
-          <p className="mt-6 max-w-[62ch] leading-relaxed text-ink/90">{coverage.lead}</p>
+
+      <Section label="How we work" tone="bright">
+        <RevealBlock className="max-w-[68ch]">
+          <h2 className="font-display text-h2 font-medium">{c.work.h2}</h2>
+          <p className="mt-6 leading-relaxed text-ink/90">{c.work.body}</p>
+          <p className="mt-5 leading-relaxed text-ink/90">{c.work.entity}</p>
         </RevealBlock>
-        <ol className="mt-10 grid gap-px bg-rule md:grid-cols-3">
-          {coverage.steps.map((s, i) => (
-            <RevealBlock key={s.n} as="li" delay={i * 60} className="surface-card p-8">
-              <p className="eyebrow">{s.n}</p>
-              <h3 className="mt-3 font-display text-h3 font-semibold">{s.name}</h3>
-              <p className="mt-4 text-[15px] leading-relaxed text-ink/90">{s.body}</p>
-            </RevealBlock>
-          ))}
-        </ol>
       </Section>
-      <FounderStrip />
-      <CTABand />
     </>
   );
 }
