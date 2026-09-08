@@ -57,7 +57,7 @@ export function DownloadCard({
                 <option value="Ground State">Ground State</option>
                 <option value="Excitation">Excitation</option>
                 <option value="Amplification">Amplification</option>
-                <option value="Quantum">Quantum</option>
+                <option value="Quantum Leap">Quantum Leap</option>
               </select>
             </div>
           ) : (

@@ -82,7 +82,7 @@ export const croGuide = {
   description: "The ISOVERTIC meeting quality standard: what counts as a held, qualified meeting, how we verify it, what happens when one fails, and how conversion gets reported.",
   eyebrow: "CRO decision guide",
   h1: "What counts as a meeting, and what happens when one does not.",
-  lead: "Every appointment setting vendor reports meetings booked. Almost none define the word. This is the definition written into every Amplification and Quantum agreement, the process that verifies it, and the rule for what happens when a meeting fails it.",
+  lead: "Every appointment setting vendor reports meetings booked. Almost none define the word. This is the definition written into every Amplification and Quantum Leap agreement, the process that verifies it, and the rule for what happens when a meeting fails it.",
   datePublished: "2026-09-07",
   dateModified: "2026-09-07",
   definition: {

@@ -461,7 +461,7 @@ export const problems: Problem[] = [
     lead: "When revenue stalls, everyone points at the seam next to them. The ads agency says the landing page is weak. The web shop says the traffic is bad. The SDR firm says the brand is invisible. Every one of them is right, and none of them is accountable, because you bought four parts of a system from four companies that have never spoken.",
     callout: {
       label: "Where this lives",
-      body: "One team, one number. Amplification at $10,000 a month runs the site, the content, the ads, and the outbound seat with a meeting number in writing. Quantum adds TV and a second seat, per brand. Pricing is published.",
+      body: "One team, one number. Amplification at $10,000 a month runs the site, the content, the ads, and the outbound seat with a meeting number in writing. Quantum Leap adds TV and a second seat, per brand. Pricing is published.",
     },
     searchPhrases: ["too many marketing vendors", "consolidate marketing agencies", "one agency for website ads and outbound", "marketing vendors blaming each other", "single vendor for marketing and sales"],
     sections: [
@@ -493,7 +493,7 @@ export const problems: Problem[] = [
     lead: "Every proposal you have received says it depends. It does depend, on your stage, your deal size, and your market, but the ranges are known, and the vendors who will not name them are protecting a sales process, not you. Here are the numbers, including ours.",
     callout: {
       label: "Where this lives",
-      body: "Four published tiers on a 12 month term: Ground State $2,500, Excitation $5,000, Amplification $10,000, Quantum from $25,000, all per month, plus ad spend in your own accounts where the tier runs ads. Every tier is a 12 month term and includes the $15,000 website build. Every add on is priced on the pricing page. No discovery call required to learn a price.",
+      body: "Four published tiers on a 12 month term: Ground State $2,500, Excitation $5,000, Amplification $10,000, Quantum Leap from $25,000, all per month, plus ad spend in your own accounts where the tier runs ads. Every tier is a 12 month term and includes the $15,000 website build. Every add on is priced on the pricing page. No discovery call required to learn a price.",
     },
     searchPhrases: ["how much should a small business spend on marketing", "marketing budget for a $5 million company", "what does outsourced marketing cost", "marketing and sales budget by revenue", "how much does lead generation cost per month"],
     sections: [
@@ -504,7 +504,7 @@ export const problems: Problem[] = [
         "A marketing manager at $110,000 to $140,000 loads to $140,000 to $175,000. An SDR loads to $70,000 to $90,000. Tools and data add $20,000 a year. Ramp takes a quarter or two, and B2B sales hiring misses near half the time. One marketing lead plus one agency retainer runs $160,000 to $190,000 a year with the seam still unowned.",
       ]},
       { h2: "A budget by stage", body: [
-        "Under $1 million: $2,500 a month on content and a site that says something, and the founder sells. That is Ground State. $1 million to $3 million: $5,000 a month plus $3,000 to $10,000 in ad spend for content, one campaign, and a landing page per audience. That is Excitation. $3 million to $10 million: $10,000 a month plus spend for the full pipeline with an outbound seat and a meeting number in writing. That is Amplification. Past $10 million or more than one brand: from $25,000 with TV, two seats, and a board ready quarterly review. That is Quantum.",
+        "Under $1 million: $2,500 a month on content and a site that says something, and the founder sells. That is Ground State. $1 million to $3 million: $5,000 a month plus $3,000 to $10,000 in ad spend for content, one campaign, and a landing page per audience. That is Excitation. $3 million to $10 million: $10,000 a month plus spend for the full pipeline with an outbound seat and a meeting number in writing. That is Amplification. Past $10 million or more than one brand: from $25,000 with TV, two seats, and a board ready quarterly review. That is Quantum Leap.",
         "As a share of revenue, those land between 3 and 8 percent for most companies, which matches what growing B2B companies spend when they are actually growing.",
       ]},
       { h2: "The number that makes the budget a decision", body: [
@@ -658,7 +658,7 @@ export const problems: Problem[] = [
     lead: "The second product line has a different buyer, a different vocabulary, and sometimes a different regulatory regime, and the plan is to have the same two people market both. That plan produces two half run brands. The fix is not more people. It is a system that runs per brand, with its own accounts, its own report, and its own number, from one team.",
     callout: {
       label: "Where this lives",
-      body: "Every additional brand on the same tier is 15 percent off, and every brand gets its own report, its own accounts, and its own number. A second product line in Google Ads is $1,000 a month as an add on. Quantum, from $25,000, runs the full system per brand with two outbound seats and TV. Pricing is published.",
+      body: "Every additional brand on the same tier is 15 percent off, and every brand gets its own report, its own accounts, and its own number. A second product line in Google Ads is $1,000 a month as an add on. Quantum Leap, from $25,000, runs the full system per brand with two outbound seats and TV. Pricing is published.",
     },
     searchPhrases: ["marketing two brands with one team", "launching a second product line marketing", "multi brand marketing small company", "how to market two businesses at once", "second brand launch pipeline"],
     sections: [
@@ -669,7 +669,7 @@ export const problems: Problem[] = [
         "Each brand gets its own six step run: its own pages, its own content cadence, its own ad account and campaigns, its own outbound list and sequences, its own report. The team is shared, the system is not. A company with a research product and a clinical product is a common case: two brands on Amplification, each with a seat, each with a meeting number in writing, and the second at 15 percent off. The clinical brand adds the MLR gate; the research brand does not need it.",
       ]},
       { h2: "What the second brand costs", body: [
-        "On Excitation, the second product line in Google Ads is $1,000 a month with its own campaigns, landing page, and reporting, and the content cadence expands to cover it. On Amplification, the second brand runs at 15 percent off the tier price with its own seat. For companies running three or more brands, or ready to add TV, Quantum from $25,000 runs everything per brand with creative production in house and a quarterly board ready review across all of them.",
+        "On Excitation, the second product line in Google Ads is $1,000 a month with its own campaigns, landing page, and reporting, and the content cadence expands to cover it. On Amplification, the second brand runs at 15 percent off the tier price with its own seat. For companies running three or more brands, or ready to add TV, Quantum Leap from $25,000 runs everything per brand with creative production in house and a quarterly board ready review across all of them.",
       ]},
     ],
     faqs: [
@@ -1117,7 +1117,7 @@ export const problems: Problem[] = [
     lead: "The group runs one website, one Google Ads campaign, and one report, and the leads go where the leads have always gone: the location with the original physician and the strongest reviews. The other locations get the overflow, which is not a marketing strategy. Each location is its own market and needs its own pages, its own campaign geography, and its own number.",
     callout: {
       label: "Where this lives",
-      body: "Amplification at $10,000 a month runs multiple Google Ads campaigns with A/B testing and multiple landing pages, one per location and service line, with a weekly call. Groups treating each location as a brand run Quantum from $25,000, per brand. Pricing is published.",
+      body: "Amplification at $10,000 a month runs multiple Google Ads campaigns with A/B testing and multiple landing pages, one per location and service line, with a weekly call. Groups treating each location as a brand run Quantum Leap from $25,000, per brand. Pricing is published.",
     },
     searchPhrases: ["multi location medical practice marketing", "uneven patient volume across locations", "location pages for medical group seo", "google ads per location healthcare", "how to fill a new practice location"],
     sections: [
@@ -1128,7 +1128,7 @@ export const problems: Problem[] = [
         "A location page for each site with its providers, its services, its parking, and its schema, plus service line spokes that name the town. A campaign per location with its own geography, budget, and negatives, landing on that location's pages. A review velocity system per location so the new site closes the gap. And a report with one row per location: inquiries, booked consults, cost per consult. When location three's number is visible every week, location three fills.",
       ]},
       { h2: "Use the flagship's overflow deliberately", body: [
-        "When the flagship is booked six weeks out, the front desk script offers the nearest location with an appointment this week, and the site shows real availability by location where the scheduling system allows it. That alone shifts 10 to 20 percent of new patients in most groups, at no ad cost. Then TV: streaming buys by ZIP code around the under filled locations, on Quantum, make the new site the one homeowners in that town have seen on screen.",
+        "When the flagship is booked six weeks out, the front desk script offers the nearest location with an appointment this week, and the site shows real availability by location where the scheduling system allows it. That alone shifts 10 to 20 percent of new patients in most groups, at no ad cost. Then TV: streaming buys by ZIP code around the under filled locations, on Quantum Leap, make the new site the one homeowners in that town have seen on screen.",
       ]},
     ],
     faqs: [
@@ -1295,7 +1295,7 @@ export const problems: Problem[] = [
     ],
     faqs: [
       { q: "What if we miss the number?", a: "A written number you missed is still a better board conversation than no number. The review at day 90 says what changes, and if the miss is structural, wrong tier or wrong channel, we move you inside the term rather than run it out." },
-      { q: "Can you present to the board?", a: "On Quantum the quarterly growth review is board ready and we walk through it. On other tiers the one page report is written to be pasted." },
+      { q: "Can you present to the board?", a: "On Quantum Leap the quarterly growth review is board ready and we walk through it. On other tiers the one page report is written to be pasted." },
       { q: "Do investors accept outsourced pipeline?", a: "Investors accept a committed number, a cost per meeting, and a trend. How it is staffed matters less than whether it is written down." },
     ],
     related: [{ label: "Show pipeline to the board", href: "/answers/how-do-i-show-pipeline-to-my-board" }, { label: "Startups", href: "/industries/startups" }, { label: "Results and method", href: "/results" }],

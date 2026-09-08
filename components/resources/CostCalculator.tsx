@@ -126,7 +126,7 @@ export function CostCalculator() {
           </tbody>
         </table>
       </div>
-      <p className="mt-4 text-[13px] leading-relaxed text-ink-soft">Tier figures are the 12 month term rate from the pricing page, excluding ad spend and media. Quantum is priced from $25,000 and scoped per brand.</p>
+      <p className="mt-4 text-[13px] leading-relaxed text-ink-soft">Tier figures are the 12 month term rate from the pricing page, excluding ad spend and media. Quantum Leap is priced from $25,000 and scoped per brand.</p>
     </div>
   );
 }

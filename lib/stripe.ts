@@ -79,7 +79,7 @@ function build(t: Tier, b: Billing): Plan {
   };
 }
 
-// Amplification and Quantum: paid quarterly only. Ground State and Excitation: monthly, quarterly, or up front.
+// Amplification and Quantum Leap: paid quarterly only. Ground State and Excitation: monthly, quarterly, or up front.
 export function billingsFor(t: Tier): Billing[] {
   return t.quarterlyOnly ? ["quarterly"] : billings;
 }

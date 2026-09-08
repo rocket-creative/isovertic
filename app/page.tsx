@@ -53,7 +53,7 @@ export default function Home() {
             <SplitHeadline text="We build the website that gets found by the specialist already searching for what you sell." />
           </h1>
           <p className="hero-sub mt-4 max-w-[52ch] text-[16px] leading-[1.55] text-ink-soft sm:text-[17px] sm:leading-relaxed">
-            Then we spend ads only on those people. One senior team runs a codified seven-layer method on every account, from the first catalog page to the compliance stack that keeps it defensible. Pricing is published. Every engagement is a 12-month default with a 6-month floor.
+            We are a full-service growth firm for companies that sell to specialists. One senior team runs a method the company owns, from the website that gets found through the ads, content, outbound, and compliance stack that turn found into booked. Pricing is published. Every engagement is a 12-month default with a 6-month floor.
           </p>
           <TrustStrip />
           <div className="hero-cta mt-9 flex flex-wrap items-center gap-5 sm:mt-12 sm:gap-8">

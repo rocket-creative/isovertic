@@ -2,14 +2,14 @@
 // Every tier is a 12 month term. There is no month to month option: a year is the shortest window in which the
 // lagging indicators (pipeline, revenue) can move on a long cycle account, so we do not sell anything shorter.
 // Ground State and Excitation: the term is billed monthly, quarterly at 4 percent off, or up front at eleven months for twelve.
-// Amplification and Quantum: the term is paid quarterly, four payments of three months at the term rate. No monthly billing, no up front.
+// Amplification and Quantum Leap: the term is paid quarterly, four payments of three months at the term rate. No monthly billing, no up front.
 // The $15,000 website rebuild and hosting are included in every term.
 
 export type Tier = {
-  slug: "ground-state" | "excitation" | "amplification" | "quantum";
+  slug: "ground-state" | "excitation" | "amplification" | "quantum-leap";
   name: string;
   term: number; // per month on the 12 month term
-  from?: boolean; // "From" pricing (Quantum)
+  from?: boolean; // "From" pricing (Quantum Leap)
   spend: "" | "plus ad spend" | "plus media";
   price: string; // display of the term price, used by pages that show one number
   per: string;
@@ -17,7 +17,7 @@ export type Tier = {
   includes: string[];
   cta: string;
   featured?: boolean;
-  quarterlyOnly?: boolean; // paid quarterly is the only billing (Amplification, Quantum)
+  quarterlyOnly?: boolean; // paid quarterly is the only billing (Amplification, Quantum Leap)
 };
 
 export const WEBSITE_BUILD = 15000;
@@ -81,8 +81,8 @@ export const tiers: Tier[] = [
     quarterlyOnly: true,
   },
   {
-    slug: "quantum",
-    name: "Quantum",
+    slug: "quantum-leap",
+    name: "Quantum Leap",
     term: 25000,
     from: true,
     spend: "plus media",
@@ -96,7 +96,7 @@ export const tiers: Tier[] = [
       "Creative production in house",
       "Quarterly board ready growth review",
     ],
-    cta: "Start Quantum",
+    cta: "Start Quantum Leap",
     quarterlyOnly: true,
   },
 ];
@@ -125,14 +125,14 @@ export const billing = {
   standardHref: "/resources/engagement-and-measurement-standard",
   cardNote: "12 month term. Website rebuild and hosting included, a $15,000 build at no charge.",
   quarterlyNote: "Ground State and Excitation bill the term monthly, quarterly at 4 percent off, or up front at eleven months for twelve.",
-  upfrontNote: "Amplification and Quantum are paid quarterly.",
+  upfrontNote: "Amplification and Quantum Leap are paid quarterly.",
   eyebrow: "The term",
   h2: "Every tier is a year. The website comes with it.",
-  intro: "We sign a minimum one year term on every tier, because a year is the shortest window in which pipeline and revenue can move on a long cycle account and we would rather not take money we cannot earn. The 90 day ramp still has deliverables in writing and a review at day 90; that review reads leading indicators, and revenue is judged at months six and twelve. Ground State and Excitation bill the term monthly, quarterly at 4 percent off, or up front at eleven months for twelve. Amplification and Quantum are paid quarterly. The website rebuild and hosting come with every term.",
+  intro: "We sign a minimum one year term on every tier, because a year is the shortest window in which pipeline and revenue can move on a long cycle account and we would rather not take money we cannot earn. The 90 day ramp still has deliverables in writing and a review at day 90; that review reads leading indicators, and revenue is judged at months six and twelve. Ground State and Excitation bill the term monthly, quarterly at 4 percent off, or up front at eleven months for twelve. Amplification and Quantum Leap are paid quarterly. The website rebuild and hosting come with every term.",
   columns: ["What", "How it works"],
   rows: [
     ["Term", "12 months on every tier. Nothing shorter is sold, including a paid search sprint."],
-    ["Billing", "Ground State and Excitation: monthly, quarterly at 4 percent off, or up front at eleven months for twelve. Amplification and Quantum: four quarterly payments."],
+    ["Billing", "Ground State and Excitation: monthly, quarterly at 4 percent off, or up front at eleven months for twelve. Amplification and Quantum Leap: four quarterly payments."],
     ["Website rebuild", "Included: Next.js, server rendered, schema on every page, built to be cited by AI search. The build starts inside the first 30 days."],
     ["Hosting", "Hosting and bandwidth included for the term."],
     ["The ramp", "90 days with deliverables in writing and a written review at day 90 against leading indicators. Amplification and above carry a monthly meeting number from the ramp on."],
@@ -154,7 +154,7 @@ export const steps = [
 ] as const;
 
 export const stepsNote =
-  "Pick a tier and we run the steps in it. Ground State runs step two. Excitation runs one through three. Amplification runs everything but TV. Quantum runs all of it, per brand. Step six is Protocol: we teach your team the system and hand over the runbooks in your name.";
+  "Pick a tier and we run the steps in it. Ground State runs step two. Excitation runs one through three. Amplification runs everything but TV. Quantum Leap runs all of it, per brand. Step six is Protocol: we teach your team the system and hand over the runbooks in your name.";
 
 // Rows: one per step. Cells: one per tier, in tier order. Empty string means the tier does not run the step.
 export const tierGrid: { step: string; cells: string[] }[] = [
@@ -173,7 +173,7 @@ export const multiBrand = {
 };
 
 export const addOns: { name: string; price: string }[] = [
-  { name: "MLR review gate: named reviewer workflow, sign off log, claim library", price: "Ground State $500 per month plus $750 setup. Excitation $750 per month plus $1,000 setup. Amplification $1,200 per month plus $1,500 setup. Quantum quoted" },
+  { name: "MLR review gate: named reviewer workflow, sign off log, claim library", price: "Ground State $500 per month plus $750 setup. Excitation $750 per month plus $1,000 setup. Amplification $1,200 per month plus $1,500 setup. Quantum Leap quoted" },
   { name: "HIPAA form and call stack: BAA covered forms, call tracking, consent language", price: "$750 per month" },
   { name: "Outbound seat added to Excitation", price: "$4,500 per month" },
   { name: "Second product line in Google Ads: separate campaigns, landing page, reporting", price: "$1,000 per month per line" },
@@ -223,7 +223,7 @@ export const pricingFaqs = [
   { q: "Why publish pricing when nobody else does?", a: "Because our buyer is a founder who hates wasted discovery calls as much as we do, and because the page you are reading ranks for the question everyone types and nobody answers." },
   { q: "Why is the minimum a year?", a: "Because a year is the shortest window in which pipeline and revenue can move on a long cycle account. Fewer than two percent of new pages reach the top 10 of Google inside a year, brand effects build over quarters, and a healthcare sale alone runs about four months. A shorter term would have you judging revenue before a deal could close, and 43 percent of B2B agency churn happens in the first 90 days for exactly that reason. The full standard, with sources, is published." },
   { q: "How do I start without a call?", a: "Every tier checks out on the start page: pick the tier and how you want to bill the year, pay by card or ACH bank debit on Stripe, and land on a ten minute intake form. The first content calendar arrives inside five business days. A 15 minute call is optional, and Amplification and above get a weekly call anyway." },
-  { q: "How is the term billed?", a: "Amplification and Quantum are paid quarterly: four payments of three months at the term rate, $30,000 a quarter for Amplification, with the website and hosting included. Ground State and Excitation can bill the term monthly, quarterly at 4 percent off, or up front at eleven months for twelve." },
+  { q: "How is the term billed?", a: "Amplification and Quantum Leap are paid quarterly: four payments of three months at the term rate, $30,000 a quarter for Amplification, with the website and hosting included. Ground State and Excitation can bill the term monthly, quarterly at 4 percent off, or up front at eleven months for twelve." },
   { q: "Can we pay by bank instead of card?", a: "Yes. Every checkout offers ACH Direct Debit next to card, Apple Pay, and Google Pay. Above $10,000 we recommend the bank: 0.8 percent capped at $5 per payment, no issuer limit. Bank debits clear in up to four business days and the engagement starts when the first one settles." },
   { q: "What is in ad spend versus fees?", a: "Fees pay the team. Spend goes to the platforms in your own accounts, which you own." },
   { q: "Are there setup costs?", a: "No. Landing pages and campaign builds inside the ramp are included in tier pricing, and the $15,000 website build is included at every tier. Unusual scope is quoted before signature, never after." },

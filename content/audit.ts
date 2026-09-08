@@ -142,7 +142,7 @@ export const questions: Question[] = [
   },
 ];
 
-export type TierKey = "ground-state" | "excitation" | "amplification" | "quantum";
+export type TierKey = "ground-state" | "excitation" | "amplification" | "quantum-leap";
 
 export type TierResult = {
   key: TierKey;
@@ -178,12 +178,12 @@ export const tierResults: Record<TierKey, TierResult> = {
     body: "Amplification runs the whole pipeline: multiple ad campaigns, an outbound seat with a monthly meeting commitment in writing, and the content that makes the meetings show up warm. One firm accountable for the number, with the 90 day ramp and the two clock scorecard in the agreement.",
     href: "/pricing",
   },
-  quantum: {
-    key: "quantum",
-    name: "Quantum",
+  "quantum-leap": {
+    key: "quantum-leap",
+    name: "Quantum Leap",
     price: "From $25,000 a month plus media",
     headline: "The gap is big enough to own a market.",
-    body: "Your score says the vendor stack, the ownership gap, and the meeting need are all at the top of the scale. Quantum runs everything in Amplification per brand, with two outbound seats, TV and streaming in your own accounts, and a quarterly board ready review. If you run one brand and want to start smaller, Amplification is the honest starting point.",
+    body: "Your score says the vendor stack, the ownership gap, and the meeting need are all at the top of the scale. Quantum Leap runs everything in Amplification per brand, with two outbound seats, TV and streaming in your own accounts, and a quarterly board ready review. If you run one brand and want to start smaller, Amplification is the honest starting point.",
     href: "/pricing",
   },
 };
@@ -198,7 +198,7 @@ export function scoreAnswers(answers: Record<string, number>): { score: number; 
     if (idx === undefined) continue;
     score += q.options[idx].points * q.weight;
   }
-  let tier: TierKey = score <= 10 ? "ground-state" : score <= 20 ? "excitation" : score <= 30 ? "amplification" : "quantum";
+  let tier: TierKey = score <= 10 ? "ground-state" : score <= 20 ? "excitation" : score <= 30 ? "amplification" : "quantum-leap";
   const when = answers.when;
   const meetings = answers.meetings;
   // Meetings needed this month or next quarter with fewer than 16 booked last month is an Amplification problem whatever the total says.

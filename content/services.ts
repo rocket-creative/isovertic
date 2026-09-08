@@ -12,7 +12,7 @@ export const services: Page[] = [
     lead: "Your sales team should spend its time in sales conversations. Ours makes sure it does. ISOVERTIC runs the entire outbound motion: list building from real data sources, multichannel sequences across email, phone, and LinkedIn, qualification against your ideal customer profile, and confirmed meetings booked directly on your calendar with context attached.",
     callout: {
       label: "Where this lives",
-      body: "Amplification includes one outbound seat with a meeting number in writing. Quantum runs two. Excitation can add a seat for $4,500 a month. A conference sprint that books meetings before and at one trade show is $7,500 per event. Pricing is published.",
+      body: "Amplification includes one outbound seat with a meeting number in writing. Quantum Leap runs two. Excitation can add a seat for $4,500 a month. A conference sprint that books meetings before and at one trade show is $7,500 per event. Pricing is published.",
     },
     sections: [
       { h2: "Why most appointment setting fails before the first call", body: [
@@ -163,7 +163,7 @@ export const services: Page[] = [
     lead: "The enterprise agencies that buy television serve enterprise budgets, so most growing companies never even price the channel. That is the opportunity. Streaming TV inventory can be bought with precision and tested with budgets in the low five figures, and a local or category audience seeing your brand on the biggest screen in the house changes how every cold email and search ad performs afterward.",
     callout: {
       label: "Where this lives",
-      body: "Quantum, with a $25,000 monthly media minimum spent in your own accounts and an exposed versus control measurement plan in the agreement. Pricing is published.",
+      body: "Quantum Leap, with a $25,000 monthly media minimum spent in your own accounts and an exposed versus control measurement plan in the agreement. Pricing is published.",
     },
     sections: [
       { h2: "What we buy", body: [
@@ -203,7 +203,7 @@ export const services: Page[] = [
     lead: "Buyers decide who is senior in about three seconds, and they decide it visually. We design identities and interfaces with editorial restraint: confident type, structural layout, real photography, nothing decorative. The work signals authority quietly, which is the only way authority can be signaled.",
     callout: {
       label: "Where this lives",
-      body: "A video and photography production day is $4,500 as an add on at any tier, included quarterly on Amplification, and creative production is in house on Quantum. Pricing is published.",
+      body: "A video and photography production day is $4,500 as an add on at any tier, included quarterly on Amplification, and creative production is in house on Quantum Leap. Pricing is published.",
     },
     sections: [
       { h2: "Brand in service of pipeline", body: [

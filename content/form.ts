@@ -39,7 +39,7 @@ export const tiers = [
   { value: "Ground State, $2,500", label: "Ground State, $2,500" },
   { value: "Excitation, $5,000", label: "Excitation, $5,000" },
   { value: "Amplification, $10,000", label: "Amplification, $10,000" },
-  { value: "Quantum, from $25,000", label: "Quantum, from $25,000" },
+  { value: "Quantum Leap, from $25,000", label: "Quantum Leap, from $25,000" },
   { value: "Protocol, team training", label: "Protocol, team training" },
 ];
 
