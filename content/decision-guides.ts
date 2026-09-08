@@ -64,7 +64,7 @@ export const cfoGuide = {
   faqs: [
     { q: "Why exclude ad spend from both sides?", a: "Because you pay it whether a person or a firm manages it. Including it makes the agency look more expensive without changing the decision." },
     { q: "Does the $180,000 default mean that is what a VP Marketing costs?", a: "No. It is a placeholder so the form is not empty. Put in the offer you would actually make. The model only means something with your numbers." },
-    { q: "What if the hire is cheaper than Kinetic?", a: "Then compare what each produces in the same 24 months, not the price. A $90,000 generalist cannot run outbound, paid search, content, and a website rebuild at once. Price the steps you would leave undone." },
+    { q: "What if the hire is cheaper than Amplification?", a: "Then compare what each produces in the same 24 months, not the price. A $90,000 generalist cannot run outbound, paid search, content, and a website rebuild at once. Price the steps you would leave undone." },
     { q: "Can we start with an agency and bring it in house later?", a: "Yes, and the agreement is written for it. Everything we build lives in your accounts, and Protocol is the training day that hands your team the runbooks." },
   ] as FAQ[],
   related: [
@@ -82,7 +82,7 @@ export const croGuide = {
   description: "The ISOVERTIC meeting quality standard: what counts as a held, qualified meeting, how we verify it, what happens when one fails, and how conversion gets reported.",
   eyebrow: "CRO decision guide",
   h1: "What counts as a meeting, and what happens when one does not.",
-  lead: "Every appointment setting vendor reports meetings booked. Almost none define the word. This is the definition written into every Kinetic and Critical Mass agreement, the process that verifies it, and the rule for what happens when a meeting fails it.",
+  lead: "Every appointment setting vendor reports meetings booked. Almost none define the word. This is the definition written into every Amplification and Quantum agreement, the process that verifies it, and the rule for what happens when a meeting fails it.",
   datePublished: "2026-09-07",
   dateModified: "2026-09-07",
   definition: {
@@ -107,7 +107,7 @@ export const croGuide = {
   failure: {
     h2: "What happens when a meeting fails the standard.",
     body: "It does not count. No shows and meetings that fail criteria are not counted toward the monthly number, and the number is what we owe. We do not argue a bad meeting into the total, and we do not charge per meeting, so there is no incentive to.",
-    note: "Kinetic and above carry the monthly meeting commitment in writing during the 90 day ramp, set against your market size, offer, and deal value.",
+    note: "Amplification and above carry the monthly meeting commitment in writing during the 90 day ramp, set against your market size, offer, and deal value.",
   },
   conversion: {
     h2: "Meeting to opportunity conversion.",
@@ -129,16 +129,49 @@ export const croGuide = {
 
 export const resourcesIndex = {
   path: "/resources",
-  title: "Resources for CFOs, CROs, and Compliance Officers | ISOVERTIC",
-  description: "The standards ISOVERTIC publishes: how long marketing takes to work, what counts as a meeting, the agency versus in house model, and the healthcare compliance posture.",
+  title: "Resources for founders, CFOs, CROs, and compliance officers | ISOVERTIC",
+  description: "The standards ISOVERTIC publishes. How long marketing takes to work, what counts as a meeting, the agency-versus-in-house model, the healthcare compliance posture, and the six-minute diagnostic that ends in a written tier recommendation.",
   eyebrow: "Resources",
-  h1: "The standards we publish.",
-  lead: "Written for the people on the buying committee who are not the founder: the CFO who has to approve the fee, the CRO who has to accept the meetings, and the compliance officer who has to sign the BAA.",
-  items: [
-    { eyebrow: "Measurement", title: "How long marketing takes to work, and how we measure it", body: "One year minimum, two clocks, published thresholds by channel, and the sales cycle data behind the rule.", href: "/resources/engagement-and-measurement-standard" },
-    { eyebrow: "For the CFO", title: "Agency versus in house: the model", body: "Fully loaded 24 month cost of a hire against each tier, and the break even meeting count at your deal value.", href: "/resources/agency-vs-inhouse" },
-    { eyebrow: "For the CRO", title: "What counts as a meeting", body: "The definition in every agreement, the verification process, and what happens when a meeting fails it.", href: "/resources/meeting-quality-standard" },
-    { eyebrow: "For compliance", title: "HIPAA posture and sensitive data governance", body: "Ten operating commitments and a four step process, printable for the compliance officer.", href: "/industries/healthcare" },
-    { eyebrow: "Diagnostic", title: "The Pipeline Ownership Audit", body: "Ten questions, a score, a tier recommendation, and a written diagnosis. About six minutes.", href: "/audit" },
-  ],
+  h1: "The standards we publish, before the pitch.",
+  lead: "Written for the people on the buying committee who are not the founder. The CFO who has to approve the fee. The CRO who has to accept the meetings. The compliance officer who has to sign the BAA. And the founder who wants a diagnosis before a first call.",
+  startHere: {
+    eyebrow: "Start here",
+    title: "The Pipeline Ownership Audit",
+    body: "Ten questions. Six minutes. A score, a tier recommendation, and a written diagnosis. Bring it to your team before you bring us to a call. If the audit tells you you are already fine, we are the ones who wrote the questions that said so, and we would rather you know that than pay us for something you do not need.",
+    cta: { label: "Take the audit", href: "/audit" },
+  },
+  committee: {
+    h2: "For the buying committee.",
+    items: [
+      {
+        role: "For the CFO.",
+        title: "The agency-versus-in-house model.",
+        body: "The fully loaded 24-month cost of a marketing hire against each Isovertic tier, and the break-even meeting count at your deal value. Bring your salary bands, load percentage, and deal value; the model does the rest. This is the resource we most often send before a first call, because CFOs would rather see the math than the pitch.",
+        cta: { label: "Run the agency-versus-in-house model", href: "/resources/agency-vs-inhouse" },
+      },
+      {
+        role: "For the CRO.",
+        title: "What counts as a meeting.",
+        body: "The definition of a qualified meeting in every Isovertic agreement, the verification process, and what happens when a meeting fails the standard. If the CRO does not accept the meetings, the meetings are not real. So the definition ships in writing before the program starts. This document is that definition.",
+        cta: { label: "Read the meeting quality standard", href: "/resources/meeting-quality-standard" },
+      },
+      {
+        role: "For the compliance officer.",
+        title: "HIPAA posture and sensitive-data governance.",
+        body: "Ten operating commitments and a four-step process, printable for the compliance officer. Covers our business-associate status, BAA workflow, form and pixel handling, server-side conversion tracking, PHI exclusions, consent language, and the review path for any content that touches clinical claims. Everything the compliance officer needs to sign the BAA and everything the security officer needs to route the data.",
+        cta: { label: "Read the compliance posture", href: "/industries/healthcare" },
+      },
+      {
+        role: "For the founder.",
+        title: "How long marketing takes to work, and how we measure it.",
+        body: "The one-year minimum, the two-clock scorecard, the published thresholds by channel, and the sales-cycle data behind the rule. If you have been asked to defend a 12-month engagement to a board that wants revenue at 90 days, this is the document to send them. It carries the sources.",
+        cta: { label: "Read the measurement standard", href: "/resources/engagement-and-measurement-standard" },
+      },
+    ],
+  },
+  fieldNote: {
+    h2: "The argument, in one field note.",
+    body: "If you want the whole thesis in one read, start here: [The pipeline-ownership gap](/field-notes/pipeline-ownership-gap), our long-form argument for why the current agency model cannot own the pipeline and what has to change. It cites every claim, names every source, and ends where every Isovertic engagement begins: with a specific offer to look at your best-converting landing page and tell you what is firing.",
+  },
+  move: "If you have made it this far and want to see whether this fits, send us your best-converting landing page URL. In about ten minutes we will tell you what is firing, whether any of it is a lawsuit, and whether you are already fine. Sometimes the honest answer is that you are fine, and we are happy to say so and hand you back your afternoon.",
 };

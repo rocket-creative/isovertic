@@ -26,13 +26,17 @@ export function Section({
   );
 }
 
-export function PageHero({ eyebrow, h1, lead }: { eyebrow?: string; h1: ReactNode; lead?: string }) {
+export function PageHero({ eyebrow, h1, lead, cta }: { eyebrow?: string; h1: ReactNode; lead?: string | readonly string[]; cta?: ReactNode }) {
+  const leads = lead == null ? [] : typeof lead === "string" ? [lead] : [...lead];
   return (
     <section className="border-b border-rule bg-bright pt-[calc(var(--spacing-safe-top)+6.5rem)] lg:pt-[calc(var(--spacing-safe-top)+9.25rem)]">
       <div className="mx-auto max-w-[1440px] gutter pb-14">
         {eyebrow ? <p className="eyebrow">{eyebrow}</p> : null}
         <h1 className={`${eyebrow ? "mt-5" : ""} max-w-[18ch] font-display text-h1 font-medium`}>{h1}</h1>
-        {lead && <p className="mt-7 max-w-[62ch] text-[17px] leading-relaxed text-ink-soft">{lead}</p>}
+        {leads.map((p, i) => (
+          <p key={i} className={`${i === 0 ? "mt-7" : "mt-4"} max-w-[62ch] text-[17px] leading-relaxed text-ink-soft`}>{p}</p>
+        ))}
+        {cta ? <div className="mt-8">{cta}</div> : null}
         <div className="iso-mark rule-draw mt-12 max-w-[560px]" aria-hidden="true" />
       </div>
     </section>

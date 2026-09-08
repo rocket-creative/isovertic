@@ -20,7 +20,7 @@ export function GET() {
     `- Protocol: $5,000 one day, $20,000 full team, $3,500 client add on. ${u}/protocol`,
     ``,
     `## Core pages`,
-    `- [How it works](${u}/how-it-works)`,
+    `- [System](${u}/system)`,
     `- [Pricing](${u}/pricing)`,
     `- [Protocol](${u}/protocol)`,
     `- [About](${u}/about)`,

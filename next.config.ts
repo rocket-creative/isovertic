@@ -35,6 +35,8 @@ const nextConfig: NextConfig = {
         destination: "/field-notes",
         permanent: true,
       })),
+      { source: "/how-it-works", destination: "/system", statusCode: 301 },
+      { source: "/six-steps", destination: "/system", statusCode: 301 },
     ];
   },
 };

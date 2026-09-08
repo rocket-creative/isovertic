@@ -5,7 +5,7 @@ import { BrandLogo } from "@/components/ui/Logo";
 import { site } from "@/lib/site";
 
 const links = [
-  { href: "/how-it-works", label: "How it works" },
+  { href: "/system", label: "System" },
   { href: "/problems", label: "Problems" },
   { href: "/results", label: "Results" },
   { href: "/pricing", label: "Pricing" },

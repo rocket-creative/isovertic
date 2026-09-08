@@ -4,7 +4,7 @@ export const humansDo = ["Create", "Design", "Review", "Test", "Engage"] as cons
 export const aiHuman = {
   eyebrow: "AI and human",
   h2: "AI for automation. Humans for creation.",
-  lead: "We use AI where it saves your money and never where it costs your trust. The split is simple and it is the same on every tier.",
+  lead: "We use AI where it saves your money, and never where it costs your trust. The split is simple and it is the same on every tier.",
   aiLabel: "AI runs",
   aiNote: "Faster process, lower cost, and a tier price that starts at $2,500 instead of $8,500.",
   humanLabel: "Humans do",
@@ -30,7 +30,7 @@ export const trustStrip = [
   { label: "Written meeting volume commitment", href: "/resources/meeting-quality-standard" },
   { label: "Published pricing", href: "/pricing" },
   { label: "HIPAA aware, BAA ready", href: "/compliance/hipaa-posture" },
-  { label: "90 day ramp", href: "/how-it-works" },
+  { label: "12-month default", href: "/system" },
 ];
 
 export const heroAudit = { label: "Take the Pipeline Ownership Audit", href: "/audit" };
@@ -48,21 +48,21 @@ export const buyerRoles = {
       key: "founder",
       tab: "Founder or CEO",
       question: "Why does nothing I buy add up to a pipeline?",
-      body: "You have a web guy, an ads guy, and a sales hire who quit, and every one of them hit the number they were given. Nobody owned the meeting. We run all six steps inside one boundary, with one number at the end and the same senior team on every tier.",
-      cta: { label: "See how the system works", href: "/how-it-works" },
+      body: "You have a web guy, an ads guy, and a sales hire who quit, and every one of them hit the number they were given. Nobody owned the meeting. We run all six steps inside one boundary, on one seven-layer method, with one number at the end and the same senior team on every tier.",
+      cta: { label: "See how the system works", href: "/system" },
     },
     {
       key: "cfo",
       tab: "CFO or finance lead",
       question: "Is $10,000 a month worth it against hiring in house?",
-      body: "We publish the cost per meeting method, the tier economics, and a model that puts a fully loaded hire beside every tier over 24 months, with your salary, load, and deal value in it. You see the math before the call, and you see the month we agree to be judged on revenue.",
-      cta: { label: "Run the agency versus in house model", href: "/resources/agency-vs-inhouse" },
+      body: "We publish the cost-per-meeting method, the tier economics, and a model that puts a fully loaded hire beside every tier over 24 months, with your salary, load, and deal value in it. You see the math before the call, and you see the month we agree to be judged on revenue.",
+      cta: { label: "Run the agency versus in-house model", href: "/resources/agency-vs-inhouse" },
     },
     {
       key: "cro",
       tab: "Head of Sales or CRO",
       question: "Will these meetings actually close?",
-      body: "We define what counts as a meeting in writing before the program starts, verify each one against the criteria, and report meeting to opportunity conversion once an engagement has the data. Meetings that no show or fail the criteria do not count. The commitment is in the agreement.",
+      body: "Two answers. First, we define what counts as a meeting in writing before the program starts, verify each one against the criteria, and report meeting-to-opportunity conversion once an engagement has the data. Meetings that no-show or fail the criteria do not count. Second, the meetings close because they come from a specialist who searched for exactly what you sell, in the vocabulary they use professionally. That is a warmer opener than a cold list. The commitment is in the agreement.",
       cta: { label: "Read the meeting quality standard", href: "/resources/meeting-quality-standard" },
     },
   ],

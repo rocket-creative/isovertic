@@ -3,6 +3,8 @@ export type Person = {
   name: string;
   title: string;
   short: string;
+  /** Short-form canonical bio for homepage, /system, and founder-card surfaces. */
+  card: string;
   bio: string[];
   credentials: string[];
   knowsAbout: string[];
@@ -19,12 +21,13 @@ export const people: Person[] = [
     slug: "george-stoff",
     name: "George Stoff",
     title: "Founder and Lead Engineer",
-    short: "Thirty years building software, brands, and demand. On every account.",
+    short: "Full-stack engineer. More than 30 years building the systems companies sell through. Standards owner on every account.",
+    card: "Full-stack engineer with more than 30 years building the systems companies sell through. He built the seven-layer method Isovertic runs on and stays on every account as the standards owner and the escalation path. When the algorithm shifts or a compliance question comes up, you get his engineering judgment. The day-to-day execution runs on the team he trained.",
     initials: "GS",
     bio: [
-      "George Stoff is a full stack engineer and founder. He has spent more than 30 years building the systems companies sell through: production software on Next.js, TypeScript, and Supabase, server rendered sites with thousands of schema backed pages, the data pipelines that feed outbound, and the ad and content systems that run on top of them. He writes the build briefs our coding agents execute.",
-      "He has shipped SaaS products of his own, operated agencies, run media brands, and managed go to market for healthcare, biotech, and professional service companies. He has written more pages about mouse models than most people who make them.",
-      "ISOVERTIC exists because every owner he worked with was buying these capabilities in pieces, from vendors who never spoke, and wondering why the pieces never became a pipeline.",
+      "Full-stack engineer with more than 30 years building the systems companies sell through: server-rendered sites with thousands of schema-backed pages, the data pipelines that feed outbound, and the ad and content systems on top. He has shipped SaaS products of his own and run go-to-market for healthcare, biotech, and professional-service companies.",
+      "ISOVERTIC is the codified version of that method. George built it, wrote it down, and stays on every account as the standards owner and the escalation path. When the algorithm shifts or a compliance question comes up, you get his engineering judgment. The day-to-day execution runs on the team he trained.",
+      "He started ISOVERTIC because every owner he worked with was buying these capabilities in pieces, from vendors who never spoke, and wondering why the pieces never became a pipeline.",
     ],
     credentials: [
       "Founder, ISOVERTIC and Rocket Creative LLC",
@@ -38,12 +41,12 @@ export const people: Person[] = [
     slug: "kristen-coughlin",
     name: "Kristen Coughlin",
     title: "Chief Operating Officer",
-    short: "Molecular biologist. A decade selling for a genetic engineering CRO. Operations at Yale School of Medicine.",
+    short: "Molecular biologist. Ten years selling custom mouse models. Built the operation that runs the method.",
+    card: "Molecular biologist, ten years at a genetic-engineering CRO, then institutional operations in the Department of Microbial Pathogenesis at the Yale School of Medicine. She reviews the life-science work before it reaches a client's MLR reviewer. She also built the delivery operation: took the method George engineered, wrote it down, trained the team on it, and turned it into a repeatable engagement so the same seven-layer system runs the same way on every account.",
     initials: "KC",
     bio: [
-      "Kristen Coughlin is Chief Operating Officer at ISOVERTIC. She is a molecular biologist by training, with graduate laboratory work at Stony Brook University, and spent more than ten years selling custom mouse models and running business development at Ingenious Targeting Laboratory, a genetic engineering CRO. She has sat on both sides of the life science sale: at the bench choosing a vendor, and at the vendor answering the PI.",
-      "Most recently, she managed complex institutional operations in the Department of Microbial Pathogenesis at the Yale School of Medicine.",
-      "At ISOVERTIC she runs operations and is on every life science account: she reviews scientific content for register and accuracy, writes the sequences that go to lab managers, and takes the first call with any CRO or tools company that signs up.",
+      "Molecular biologist. Ten years selling custom mouse models for a genetic-engineering CRO, then institutional operations in the Department of Microbial Pathogenesis at the Yale School of Medicine. She reviews the life-science work for scientific register and accuracy before it reaches a client's MLR reviewer, and she is on every life-science account.",
+      "She also built the delivery operation. She took George's method, documented it, trained the team on it, and turned it into a repeatable engagement so the same seven-layer system runs the same way on every account. That is the reason the company can honestly say \"the founder is the source, not the bottleneck.\" Somebody had to build the operation that makes that true.",
     ],
     credentials: [
       "Molecular biologist, graduate laboratory work at Stony Brook University",
@@ -52,6 +55,7 @@ export const people: Person[] = [
     ],
     knowsAbout: ["Life science sales", "CRO business development", "Mouse model services", "Research institution operations", "Scientific content review"],
     alumniOf: ["Stony Brook University"],
+    sameAs: ["https://www.linkedin.com/in/kristen-coughlin/"],
     disclosure: "Kristen is a former team member of Ingenious Targeting Laboratory, an Isovertic client in the mouse-model space. Isovertic engagements with Ingenious are reviewed for conflicts by the founder, and Kristen recuses herself from account decisions where a conflict is possible.",
   },
 ];

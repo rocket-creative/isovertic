@@ -63,7 +63,7 @@ export default function Services() {
             ))}
           </ul>
           <div className="mt-8 flex flex-wrap gap-x-10 gap-y-4">
-            <Link href="/how-it-works" className="cta-link">How the system works <Arrow /></Link>
+            <Link href="/system" className="cta-link">How the system works <Arrow /></Link>
             <Link href="/pricing" className="cta-link">Pricing is published <Arrow /></Link>
           </div>
         </RevealBlock>

@@ -56,9 +56,8 @@ export const REPORTING_METHOD = {
   paragraphs: [
     "Every growth case study on this site covers the first eight months of an engagement and nothing after. We chose a fixed window so studies are comparable to each other and so a strong later month cannot inflate the story.",
     "A launch study is different. When a company did not exist before we started, there is no baseline to divide by, so we report the first ninety days: the last four weeks against the first four, and how many searches the new domain appears for. A launch study measures visibility. Lead figures are added at month eight under the growth method.",
-    "Each result is the average of months five through eight of the engagement divided by the client's own average over the six months before our start date. Same window for every stat and every brand, so no study can pick a flattering baseline. Where a client's tracking was broken before we arrived, we say so and report current share rather than growth.",
-    "Clients are named with their permission. Raw exports behind any figure, including search console and CRM data, are available on request under NDA.",
-    "Across the other brands we run, first eight month results have landed within a few points of the studies shown here. Each is added as it passes month eight.",
+    "Each growth result is the average of months five through eight of the engagement divided by the client's own average over the six months before our start date. Same window for every stat and every brand, so no study can pick a flattering baseline. Where a client's tracking was broken before we arrived, we say so and report current share rather than growth.",
+    "Clients are named with their written permission. Raw exports behind any figure, including Search Console and CRM data, are available on request under NDA.",
   ],
 };
 

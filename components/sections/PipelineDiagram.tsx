@@ -3,8 +3,8 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 const stations = [
-  { k: "BUILD", label: "The site, built to convert and be cited", href: "/web-development" },
-  { k: "RANK", label: "Content that wins Google and AI search", href: "/seo-content" },
+  { k: "BUILD", label: "The site, built on our seven-layer method to convert and be cited", href: "/web-development" },
+  { k: "RANK", label: "Content that wins Google and the AI answer layer", href: "/seo-content" },
   { k: "RUN", label: "Google Ads to a cost per meeting", href: "/google-ads" },
   { k: "BUY", label: "Media including streaming and TV", href: "/tv-ctv-advertising" },
   { k: "BOOK", label: "Outbound meetings on your calendar", href: "/outbound-appointment-setting" },

@@ -33,7 +33,7 @@ const cols = [
   {
     h: "Firm",
     items: [
-      ["How it works", "/how-it-works"],
+      ["System", "/system"],
       ["Results", "/results"],
       ["Problems we solve", "/problems"],
       ["Pricing", "/pricing"],

@@ -37,7 +37,7 @@ export default function Contact() {
             <p className="mt-4 text-[14px] text-ink-soft">If you would rather read first:</p>
             <div className="mt-4 flex flex-wrap gap-x-8 gap-y-3">
               <Link href="/pricing" className="cta-link">Pricing <Arrow /></Link>
-              <Link href="/how-it-works" className="cta-link">How it works <Arrow /></Link>
+              <Link href="/system" className="cta-link">See how the system works <Arrow /></Link>
               <Link href="/protocol" className="cta-link">Protocol <Arrow /></Link>
             </div>
             <div className="iso-mark mt-10 max-w-[280px]" aria-hidden="true" />
