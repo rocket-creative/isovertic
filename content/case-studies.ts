@@ -117,7 +117,7 @@ export const caseStudies: CaseStudy[] = [
       "HubSpot contact and form submission exports by first conversion date",
     ],
     metaTitle: "Case study: 6.5x inbound leads for ingenious targeting laboratory | ISOVERTIC",
-    metaDescription: "How a mouse model CRO with 14,000 plus products went from page two of Google to 6.5x the inbound form fills within eight months using the Searchable Repository Method.",
+    metaDescription: "How a mouse model CRO with 14,000 plus products went from page two of Google to 6.5x the inbound form fills in eight months.",
     publishedDate: "2026-09-04",
     published: false,
     sourceDomain: "genetargeting.com",

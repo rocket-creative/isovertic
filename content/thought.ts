@@ -34,7 +34,7 @@ export const categoryBySlug: Record<string, CategoryKey> = {
 export const hub = {
   path: "/field-notes",
   title: "Field Notes on Pipeline Ownership | ISOVERTIC",
-  description: "One argument we are willing to be wrong about in public, one diagnostic, original research in progress, and an archive organized by argument. From George Stoff and the ISOVERTIC team.",
+  description: "One argument we are willing to be wrong about in public, one diagnostic, original research in progress, and an archive organized by argument.",
   eyebrow: "Field notes",
   h1: "Notes from the operating side.",
   lead: "No trend summaries. One argument we are willing to defend against a smart critic, one diagnostic, one research report in progress, and an archive organized by argument, not by date. Every piece carries a number, a mechanism, and a named limit.",

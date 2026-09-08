@@ -112,8 +112,9 @@ export function caseStudyLd(c: { title: string; metaDescription: string; publish
     description: c.metaDescription,
     datePublished: c.publishedDate,
     about: { "@type": "Organization", name: c.clientName },
-    author: { "@type": "Organization", name: site.name },
-    publisher: { "@type": "Organization", name: site.name },
+    author: { "@id": personId },
+    publisher: { "@id": orgId },
+    image: `${site.url}/og.png`,
   };
 }
 

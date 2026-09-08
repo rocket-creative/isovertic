@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: { absolute: "Outsourced Sales and Marketing Pricing | ISOVERTIC" },
-  description: "Published pricing for four tiers, from $2,500 a month on a 12 month term with the $15,000 website rebuild and hosting included. Every tier checks out on the page by card or bank debit, no call.",
+  description: "Four published tiers from $2,500 a month on a 12 month term, with the $15,000 website rebuild and hosting included. Every tier checks out on the page, no call.",
   alternates: { canonical: "/pricing" },
 };
 

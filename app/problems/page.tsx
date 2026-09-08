@@ -9,8 +9,8 @@ import { breadcrumbLd } from "@/lib/schema";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "Problems We Solve: Pipeline, Leads, and Sales for Growing Companies | ISOVERTIC" },
-  description: "Forty problems owners, scientists, practices, and founders bring to a first call, each with the cause, the mechanism, and the fix. In house marketer not producing, agency with no leads, referrals slowing, and more.",
+  title: { absolute: "Problems We Solve: Pipeline, Leads, and Sales | ISOVERTIC" },
+  description: "Forty seven problems owners, scientists, practices, and founders bring to a first call, each with the cause, the mechanism, and the fix, priced to a tier.",
   alternates: { canonical: "/problems" },
 };
 

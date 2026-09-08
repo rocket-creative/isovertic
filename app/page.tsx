@@ -23,8 +23,8 @@ import { ClientQuote, LinkedCopy } from "@/components/ui/ClientQuote";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "ISOVERTIC | The growth agency for companies that sell to specialists" },
-  description: "One senior team owns your pipeline from the first search to the booked meeting: the website, the content, the search ads, the media, and the outbound, on the same method for every account. Published pricing. 12-month term. Long Island, NY.",
+  title: { absolute: "ISOVERTIC | Growth Agency for Companies That Sell to Specialists" },
+  description: "One senior team owns your pipeline from the first search to the booked meeting: site, content, ads, media, and outbound on one method. Published pricing.",
   alternates: { canonical: "/" },
 };
 

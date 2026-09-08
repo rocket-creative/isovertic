@@ -16,8 +16,8 @@ import { method as c } from "@/content/method";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "How the ISOVERTIC system works | Six steps, one team, one number at the end" },
-  description: "The six steps of the ISOVERTIC pipeline, Build, Rank, Run, Buy, Book, Educate, and the method under step one that makes the site get found by the specialist already searching for what you sell. One senior team runs it on every account. 12-month term.",
+  title: { absolute: "How the ISOVERTIC System Works | Six Steps, One Team" },
+  description: "The six steps of the ISOVERTIC pipeline, Build, Rank, Run, Buy, Book, Educate, and the method under step one that gets the site found by the specialist.",
   alternates: { canonical: "/system" },
 };
 

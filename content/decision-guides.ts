@@ -79,7 +79,7 @@ export const cfoGuide = {
 export const croGuide = {
   path: "/resources/meeting-quality-standard",
   title: "What Counts as a Qualified Meeting | ISOVERTIC",
-  description: "The ISOVERTIC meeting quality standard: what counts as a held, qualified meeting, how we verify it, what happens when one fails, and how conversion gets reported.",
+  description: "What counts as a held, qualified meeting, how we verify it, what happens when one fails, and how meeting to opportunity conversion gets reported.",
   eyebrow: "CRO decision guide",
   h1: "What counts as a meeting, and what happens when one does not.",
   lead: "Every appointment setting vendor reports meetings booked. Almost none define the word. This is the definition written into every Amplification and Quantum Leap agreement, the process that verifies it, and the rule for what happens when a meeting fails it.",
@@ -129,8 +129,8 @@ export const croGuide = {
 
 export const resourcesIndex = {
   path: "/resources",
-  title: "Resources for founders, CFOs, CROs, and compliance officers | ISOVERTIC",
-  description: "The standards ISOVERTIC publishes. How long marketing takes to work, what counts as a meeting, the agency-versus-in-house model, the healthcare compliance posture, and the six-minute diagnostic that ends in a written tier recommendation.",
+  title: "Resources for Founders, CFOs, and CROs | ISOVERTIC",
+  description: "The standards ISOVERTIC publishes: how long marketing takes to work, what counts as a meeting, agency versus in house, and compliance posture.",
   eyebrow: "Resources",
   h1: "The standards we publish, before the pitch.",
   lead: "Written for the people on the buying committee who are not the founder. The CFO who has to approve the fee. The CRO who has to accept the meetings. The compliance officer who has to sign the BAA. And the founder who wants a diagnosis before a first call.",

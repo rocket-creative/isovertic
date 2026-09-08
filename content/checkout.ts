@@ -2,7 +2,7 @@
 
 export const startCopy = {
   title: "Start Your Tier | ISOVERTIC",
-  metaDescription: "Sign up for any tier with a card or a bank debit. Every tier is a 12 month term with the $15,000 website rebuild and hosting included. Amplification and Quantum Leap are paid quarterly. No call required.",
+  metaDescription: "Sign up for any tier by card or bank debit. Every tier is a 12 month term with the $15,000 website rebuild and hosting included. No call required.",
   eyebrow: "Start",
   h1: "Pick a tier. Pick how to bill the year. Check out.",
   lead: "No discovery call. Choose the tier, choose how the 12 month term is billed, and pay by card or bank debit on Stripe. You land on a ten minute intake form, and the first content calendar arrives inside five business days. A 15 minute call is there if you want one, after you sign up.",

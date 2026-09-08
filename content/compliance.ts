@@ -8,7 +8,7 @@ import type { FAQ } from "./types";
 
 export const healthcareMeta = {
   path: "/industries/healthcare",
-  title: "Healthcare and Life Science Marketing, HIPAA Aware | ISOVERTIC",
+  title: "Healthcare Marketing Compliance Posture | ISOVERTIC",
   description:
     "HIPAA aware, BAA ready growth marketing for healthcare, life science, and regulated brands. MLR workflow support and sensitive data governance built into the agreement.",
   eyebrow: "Healthcare and life sciences",

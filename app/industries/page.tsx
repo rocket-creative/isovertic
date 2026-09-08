@@ -11,7 +11,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: { absolute: "Industries: Life Science, Healthcare, Startups | ISOVERTIC" },
-  description: "How the six step system flexes for life science and CROs, healthcare practices under HIPAA, startups before the sales hire, professional services, home services, and hospitality.",
+  description: "How the six step system flexes for life science and CROs, practices under HIPAA, startups before the sales hire, professional services, trades, and hospitality.",
   alternates: { canonical: "/industries" },
 };
 

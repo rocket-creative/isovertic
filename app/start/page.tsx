@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   title: { absolute: startCopy.title },
   description: startCopy.metaDescription,
   alternates: { canonical: "/start" },
+  robots: { index: false, follow: true },
 };
 
 export default async function Start({ searchParams }: { searchParams: Promise<{ plan?: string }> }) {

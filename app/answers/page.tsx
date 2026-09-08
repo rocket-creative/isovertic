@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: { absolute: "Answers for Scientists, Founders, and Practices | ISOVERTIC" },
-  description: "Short, direct answers to the questions life science companies, startups, and healthcare practices ask about marketing, outbound, pricing, HIPAA, and MLR review. One question per page.",
+  description: "Short, direct answers to what life science companies, startups, and practices ask about marketing, outbound, pricing, HIPAA, and MLR review.",
   alternates: { canonical: "/answers" },
 };
 

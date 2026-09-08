@@ -4,8 +4,8 @@ import { biotechMolecularBiologist, industryDiscipline, industryPipelineCta } fr
 export const industries: Page[] = [
   {
     slug: "healthcare",
-    title: "Healthcare Growth Agency for Practices: Marketing That Books Consults | ISOVERTIC",
-    dateModified: "2026-09-07",
+    title: "Healthcare Growth Agency for Practices | ISOVERTIC",
+    dateModified: "2026-09-08",
     metaDescription: "Patient acquisition for practices and healthcare brands. HIPAA literate web, ads, and outreach from one senior team.",
     eyebrow: "Healthcare",
     h1: "The healthcare growth agency for practices that compete on more than insurance lists.",
@@ -39,8 +39,8 @@ export const industries: Page[] = [
   },
   {
     slug: "biotech",
-    title: "Life Science Growth Agency for Biotech and CROs: Marketing to Researchers | ISOVERTIC",
-    dateModified: "2026-09-05",
+    title: "Life Science Growth Agency for Biotech and CROs | ISOVERTIC",
+    dateModified: "2026-09-08",
     metaDescription: "Life science growth agency for biotech, CROs, and research tools: scientific content systems, SEO at scale, MLR review gate, and outreach to researchers.",
     eyebrow: "Life sciences",
     h1: "The life science growth agency: scientific authority, engineered into a pipeline.",
@@ -80,8 +80,8 @@ export const industries: Page[] = [
   },
   {
     slug: "startups",
-    title: "Startup Growth Agency: Marketing and a Pipeline Before the Sales Hire | ISOVERTIC",
-    dateModified: "2026-09-05",
+    title: "Startup Growth Agency: Pipeline Before the Hire | ISOVERTIC",
+    dateModified: "2026-09-08",
     metaDescription: "Marketing and outbound for seed and Series A startups. Published pricing, a 90 day ramp, and meetings before you hire an SDR.",
     eyebrow: "Startups",
     h1: "The startup growth agency: a pipeline before the sales hire.",
@@ -112,9 +112,9 @@ export const industries: Page[] = [
   },
   {
     slug: "technical-b2b",
-    title: "Technical B2B Growth Agency: Marketing for Developer Tools and Infrastructure | ISOVERTIC",
-    dateModified: "2026-09-07",
-    metaDescription: "Growth marketing for developer tools, infrastructure, and technical SaaS: content engineers will read, search and AI citation, paid demand, and outbound to technical buyers.",
+    title: "Technical B2B Growth Agency for Developer Tools | ISOVERTIC",
+    dateModified: "2026-09-08",
+    metaDescription: "Growth agency for developer tools, infrastructure, and technical SaaS: content engineers read, search and AI citation, paid demand, and outbound.",
     eyebrow: "Technical B2B",
     h1: "The technical B2B growth agency: for buyers who read the docs before the pitch.",
     lead: "Developer tools, infrastructure, and technical SaaS sell to people who distrust marketing on sight and decide from documentation, benchmarks, and what a peer said. We build for that reader: pages with a technical spine, search and AI citation as the distribution channel, paid search steered to qualified meetings, and outbound written by people who can read a changelog.",
@@ -152,7 +152,7 @@ export const industries: Page[] = [
   {
     slug: "professional-services",
     title: "Growth Agency for Professional Services Firms | ISOVERTIC",
-    dateModified: "2026-09-05",
+    dateModified: "2026-09-08",
     metaDescription: "Lead generation and growth for consultancies, law firms, accounting firms, and agencies. Founder led positioning, content, and outbound.",
     eyebrow: "Professional services",
     h1: "The growth agency for professional services: firms sell trust, we build the evidence.",
@@ -188,8 +188,8 @@ export const industries: Page[] = [
   },
   {
     slug: "home-services",
-    title: "Home Services Growth Agency: Lead Generation for Trades | ISOVERTIC",
-    dateModified: "2026-09-05",
+    title: "Home Services Growth Agency for Trades | ISOVERTIC",
+    dateModified: "2026-09-08",
     metaDescription: "Marketing and sales pipeline for HVAC, roofing, electrical, and trade companies. Local search, ads, TV, and commercial outbound from one team.",
     eyebrow: "Home services",
     h1: "The home services growth agency: own your service area like the biggest player in it.",
@@ -223,8 +223,8 @@ export const industries: Page[] = [
   },
   {
     slug: "hospitality",
-    title: "Growth Agency for Hospitality and Event Businesses | ISOVERTIC",
-    dateModified: "2026-09-05",
+    title: "Hospitality and Venue Growth Agency | ISOVERTIC",
+    dateModified: "2026-09-08",
     metaDescription: "Demand generation for venues, hospitality groups, and event businesses, from a team with real venue operating history.",
     eyebrow: "Hospitality",
     h1: "The hospitality growth agency: fill the calendar, the venue kind and the sales kind.",

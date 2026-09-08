@@ -11,8 +11,8 @@ import { site } from "@/lib/site";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "Long Island Growth Agency That Books Your Meetings | ISOVERTIC" },
-  description: "Long Island growth agency in Bohemia, NY, running web, SEO, Google Ads, streaming TV, and outbound appointment setting as one system for Nassau and Suffolk businesses. Published pricing.",
+  title: { absolute: "Long Island Growth Agency That Books Meetings | ISOVERTIC" },
+  description: "Long Island growth agency in Bohemia, NY: web, SEO, Google Ads, streaming TV, and outbound as one system for Nassau and Suffolk. Published pricing.",
   alternates: { canonical: "/long-island" },
 };
 

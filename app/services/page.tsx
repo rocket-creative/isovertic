@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: { absolute: "Outsourced Sales and Marketing Services | ISOVERTIC" },
-  description: "Six services run as one system by one senior team: web development, SEO and AI search content, Google Ads, TV and CTV, outbound appointment setting, and team training. Published pricing from $2,500 a month.",
+  description: "Six services run as one system by one senior team: the website, SEO and AI search, Google Ads, TV and CTV, outbound, and team training. From $2,500 a month.",
   alternates: { canonical: "/services" },
 };
 
