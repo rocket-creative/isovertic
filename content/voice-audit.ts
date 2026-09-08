@@ -1,9 +1,8 @@
-// Placeholder client quote. Kristen replaces bracketed text before publish.
-// Do not invent a real quote.
+// Named client quote. Paul Sheiffele, President, Ingenious Targeting Laboratory. Written permission on file.
 
-export const quotePlaceholder = {
-  quote: "[One to three sentences from one real client, in their own voice, about one specific outcome. No adjectives about Isovertic. Just the number or the shift.]",
-  attribution: "[First name], [Role], [Company name]",
+export const clientQuote = {
+  quote: "We have worked with many independent marketers and digital marketing companies over the years. All promised increased visibility and qualified leads to our site. Every single one fell short, until George Stoff's team at Isovertic. Not only was it easy to work with George, but his team delivered a 300% increase in qualified leads, so much so that we had to then create an automated response workflow to keep up with the demand. Excellent work, George! Highly recommended.",
+  attribution: "Paul Sheiffele, President, Ingenious Targeting Laboratory",
 };
 
 export const healthcareComplianceOfficer = "A compliance officer on staff signs the BAA and owns the sensitive data governance process. Not a subcontracted consultant, not a lawyer we call. On staff, on payroll, on every account that touches PHI.";

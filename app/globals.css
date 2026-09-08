@@ -165,6 +165,8 @@ a, button, summary, label, [role="button"] { touch-action: manipulation; }
 @media (min-width: 480px) { .btn-block { width: auto; } }
 .btn-solid { background: var(--color-navy); color: var(--color-paper); transition: opacity 200ms var(--ease-hover); }
 .btn-solid:hover { opacity: 0.88; }
+.btn-signal { background: var(--color-signal); color: var(--color-paper); transition: opacity 200ms var(--ease-hover); }
+.btn-signal:hover { opacity: 0.88; }
 .btn-ghost { border: 1px solid var(--color-ink); color: var(--color-ink); transition: background 250ms var(--ease-inout-soft), color 250ms var(--ease-inout-soft); }
 .btn-ghost:hover { background: var(--color-ink); color: var(--color-paper); }
 .btn-ghost--paper { border-color: var(--color-paper); color: var(--color-paper); }

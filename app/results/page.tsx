@@ -6,6 +6,7 @@ import { JsonLd } from "@/components/ui/JsonLd";
 import { breadcrumbLd } from "@/lib/schema";
 import { REPORTING_METHOD } from "@/content/case-studies";
 import { resultsPage as r, roster } from "@/content/results";
+import { ClientQuote } from "@/components/ui/ClientQuote";
 import Link from "next/link";
 import { Arrow } from "@/components/ui/Arrow";
 import type { Metadata } from "next";
@@ -21,7 +22,12 @@ export default function Results() {
     <>
       <JsonLd data={breadcrumbLd([{ name: "Home", path: "/" }, { name: "Results", path: "/results" }])} />
       <PageHero eyebrow={r.eyebrow} h1={r.h1} lead={r.lead} />
-      <Section label="Roster" deferred={false}>
+      <Section label="Client" deferred={false}>
+        <RevealBlock>
+          <ClientQuote />
+        </RevealBlock>
+      </Section>
+      <Section label="Roster">
         <RevealBlock>
           <h2 className="font-display text-h2 font-medium">The numbers, per client.</h2>
         </RevealBlock>

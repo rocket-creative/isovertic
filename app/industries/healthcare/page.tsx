@@ -8,7 +8,7 @@ import { JsonLd } from "@/components/ui/JsonLd";
 import { CTABand } from "@/components/sections/CTABand";
 import { FounderStrip } from "@/components/sections/FounderStrip";
 import { TrackedLink } from "@/components/ui/TrackedLink";
-import { ClientQuotePlaceholder } from "@/components/ui/ClientQuote";
+import { ClientQuote } from "@/components/ui/ClientQuote";
 import { CompliancePosture, SensitiveDataGovernance, MlrWorkflow, ClaimDiscipline, MedicareNote } from "@/components/compliance/Compliance";
 import { SalesCycleTable } from "@/components/standard/Tables";
 import { DownloadCard } from "@/components/standard/DownloadCard";
@@ -40,7 +40,7 @@ export default function Healthcare() {
 
       <Section label="Client" deferred={false}>
         <RevealBlock>
-          <ClientQuotePlaceholder />
+          <ClientQuote />
         </RevealBlock>
       </Section>
 

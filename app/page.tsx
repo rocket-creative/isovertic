@@ -19,7 +19,7 @@ import { closeNote, systemNote, heroAudit, commitmentStandard } from "@/content/
 import { TrustStrip } from "@/components/sections/TrustStrip";
 import { BuyerRoleTabs } from "@/components/sections/BuyerRoleTabs";
 import { TrackedLink } from "@/components/ui/TrackedLink";
-import { LinkedCopy } from "@/components/ui/ClientQuote";
+import { ClientQuote, LinkedCopy } from "@/components/ui/ClientQuote";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -63,6 +63,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <Section label="Client" deferred={false}>
+        <RevealBlock>
+          <ClientQuote />
+        </RevealBlock>
+      </Section>
 
       <ClientStrip />
 

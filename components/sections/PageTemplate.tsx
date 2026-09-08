@@ -6,7 +6,7 @@ import { FAQ } from "@/components/ui/FAQ";
 import { Arrow } from "@/components/ui/Arrow";
 import { CTABand } from "@/components/sections/CTABand";
 import { FounderStrip } from "@/components/sections/FounderStrip";
-import { ClientQuotePlaceholder, PipelineCtaClose } from "@/components/ui/ClientQuote";
+import { ClientQuote, PipelineCtaClose } from "@/components/ui/ClientQuote";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { faqLd, serviceLd, breadcrumbLd } from "@/lib/schema";
 
@@ -39,8 +39,7 @@ export function PageTemplate({
       {page.showQuotePlaceholder && (
         <Section label="Client" deferred={false}>
           <RevealBlock>
-            {/* TODO: paste real client quote */}
-            <ClientQuotePlaceholder />
+            <ClientQuote />
           </RevealBlock>
         </Section>
       )}

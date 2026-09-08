@@ -1,14 +1,18 @@
 import Link from "next/link";
-import { quotePlaceholder } from "@/content/voice-audit";
+import { clientQuote } from "@/content/voice-audit";
 
-// TODO: paste real client quote
-export function ClientQuotePlaceholder() {
+export function ClientQuote() {
   return (
     <blockquote className="max-w-[62ch] border-l-2 border-signal pl-6">
-      <p className="font-display text-[clamp(18px,2.2vw,24px)] font-medium leading-snug text-ink">{quotePlaceholder.quote}</p>
-      <footer className="mt-5 text-[13px] uppercase tracking-[0.1em] text-ink-soft">{quotePlaceholder.attribution}</footer>
+      <p className="font-display text-[clamp(18px,2.2vw,24px)] font-medium leading-snug text-ink">{clientQuote.quote}</p>
+      <footer className="mt-5 text-[13px] uppercase tracking-[0.1em] text-ink-soft">{clientQuote.attribution}</footer>
     </blockquote>
   );
+}
+
+/** @deprecated Use ClientQuote. Kept so older imports keep working. */
+export function ClientQuotePlaceholder() {
+  return <ClientQuote />;
 }
 
 /** Renders a body string that may contain a single [label](/path) markdown link. */
