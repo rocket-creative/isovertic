@@ -20,7 +20,7 @@ export const services: Page[] = [
       ]},
       { h2: "How we run it", body: [
         "List. We build target lists from primary data: public datasets, firmographics, technographics, and trigger events. For one healthcare revenue client we built the entire prospect universe from federal public use files before a single email was sent.",
-        "Message. Sequences are written against your actual positioning, by the same team that wrote your website. The prospect who clicks through finds a site that confirms everything the email claimed. That coherence is the conversion advantage no standalone SDR shop can offer.",
+        "Message. Sequences are written against your actual positioning, by the same team that wrote your website. The prospect who clicks through finds a site that confirms everything the email claimed. That coherence is the conversion advantage no rented sales team can offer. A rented sales team celebrates dialed numbers. We report booked meetings, and we report the ones your team never called back.",
         "Motion. Email, phone, and LinkedIn in coordinated cadences. Eighteen documented plays cover triggers from new executive hires to competitor weaknesses.",
         "Qualify and book. Every meeting is qualified against criteria we agree on, confirmed with nurture sequences to kill no shows, and delivered with a brief: who they are, why they took the meeting, what they care about.",
       ]},
@@ -30,7 +30,7 @@ export const services: Page[] = [
     ],
     faqs: [
       { q: "How many meetings per month can we expect?", a: "Tier dependent and stated in writing before you sign. Volume targets are set in the 90 day ramp based on market size, offer strength, and average deal value." },
-      { q: "Do you use AI SDRs?", a: "We use automation for research, list building, and sequencing. Conversations that qualify and book are run by people, because your buyers can tell the difference." },
+      { q: "Do you use AI for outbound?", a: "We use automation for research, list building, and sequencing. Conversations that qualify and book are run by people, because your buyers can tell the difference." },
       { q: "Do we need your other services to get appointment setting?", a: "No, but programs paired with our web and content work convert meaningfully better, because the prospect's diligence confirms the outreach instead of contradicting it." },
       { q: "Who owns the data and sequences?", a: "You do. Lists, copy, and recordings are yours from day one." },
     ],
@@ -185,6 +185,8 @@ export const services: Page[] = [
       { q: "How do we know it works?", a: "Lift in branded search, direct traffic, and reply rates in exposed markets, read against control. We set the measurement plan before the first dollar runs." },
       { q: "Do you do production?", a: "Fully in house, script to delivery." },
     ],
+    disciplineNote: serviceDiscipline["tv-ctv-advertising"],
+    pipelineCta: servicePipelineCta["tv-ctv-advertising"],
     related: [
       { label: "How it works", href: "/how-it-works" },
       { label: "Pricing", href: "/pricing" },
@@ -216,6 +218,8 @@ export const services: Page[] = [
       { q: "What does brand work cost?", a: "Identity and messaging systems typically run $15K to $40K depending on scope, folded into the ramp." },
       { q: "Who does the work?", a: "Senior hands only. No juniors, no templates, no outsourcing." },
     ],
+    disciplineNote: serviceDiscipline["design-brand"],
+    pipelineCta: servicePipelineCta["design-brand"],
     related: [
       { label: "Web development", href: "/web-development" },
       { label: "How it works", href: "/how-it-works" },

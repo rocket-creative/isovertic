@@ -1,5 +1,5 @@
 import type { Page } from "./types";
-import { biotechMolecularBiologist } from "./voice-audit";
+import { biotechMolecularBiologist, industryDiscipline, industryPipelineCta } from "./voice-audit";
 
 export const industries: Page[] = [
   {
@@ -178,6 +178,8 @@ export const industries: Page[] = [
       { q: "Is this appropriate for regulated professions?", a: "We build inside advertising rules for legal, financial, and accounting professions per jurisdiction." },
       { q: "What size firm fits?", a: "Typically 5 to 100 professionals." },
     ],
+    disciplineNote: industryDiscipline["professional-services"],
+    pipelineCta: industryPipelineCta["professional-services"],
     related: [
       { label: "Appointment setting", href: "/outbound-appointment-setting" },
       { label: "Brand and design", href: "/design-brand" },
@@ -248,6 +250,8 @@ export const industries: Page[] = [
       { q: "What about OTAs and directories?", a: "We optimize the profiles that matter and build the direct funnel so you depend on them less every quarter." },
       { q: "Do you handle B2B events too?", a: "Corporate and social markets get separate funnels and separate sequences." },
     ],
+    disciplineNote: industryDiscipline.hospitality,
+    pipelineCta: industryPipelineCta.hospitality,
     related: [
       { label: "Brand and design", href: "/design-brand" },
       { label: "Google Ads", href: "/google-ads" },

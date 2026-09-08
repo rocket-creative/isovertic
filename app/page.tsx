@@ -76,7 +76,7 @@ export default function Home() {
         <RevealBlock>
           <h2 className="max-w-[20ch] font-display text-h2 font-medium">You have a web guy, an ads guy, and a sales hire who <span className="text-signal">quit.</span></h2>
           <p className="mt-6 max-w-[62ch] leading-relaxed text-ink/90">
-            Most growing companies run their pipeline across four vendors who have never spoken to each other. The agency celebrates impressions. The web shop celebrates a launch. The SDR firm celebrates dials. Nobody owns the number you actually care about, and when revenue stalls, everyone points at someone else. More than 70 percent of marketing leads are never contacted by sales at all. That is not a lead problem. That is an ownership problem. It is also why every tier here, down to the smallest, is run by the same team that runs the largest.
+            Most growing companies run their pipeline across four vendors who have never spoken to each other. The agency celebrates impressions. The web shop celebrates a launch. A rented sales team celebrates dialed numbers. Nobody owns the number you actually care about, and when revenue stalls, everyone points at someone else. More than 70 percent of marketing leads are never contacted by sales at all. That is not a lead problem. That is an ownership problem. It is also why every tier here, down to the smallest, is run by the same team that runs the largest.
           </p>
         </RevealBlock>
       </Section>

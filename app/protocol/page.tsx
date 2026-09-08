@@ -7,6 +7,7 @@ import { CTABand } from "@/components/sections/CTABand";
 import { FounderStrip } from "@/components/sections/FounderStrip";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { faqLd, breadcrumbLd } from "@/lib/schema";
+import { protocolRunbooksParagraph } from "@/content/voice-audit";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -90,7 +91,10 @@ export default function Protocol() {
         </RevealBlock>
       </Section>
       <Section label="Two versions" tone="bright">
-        <RevealBlock>
+        <RevealBlock className="max-w-[68ch]">
+          <p className="leading-relaxed text-ink/90">{protocolRunbooksParagraph}</p>
+        </RevealBlock>
+        <RevealBlock className="mt-10">
           <h2 className="font-display text-h2 font-medium">Priced on the page, like everything else here.</h2>
         </RevealBlock>
         <div className="mt-12 grid auto-rows-fr gap-px bg-rule lg:grid-cols-2">
