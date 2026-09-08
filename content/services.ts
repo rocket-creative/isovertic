@@ -12,7 +12,7 @@ export const services: Page[] = [
     lead: "Your sales team should spend its time in sales conversations. Ours makes sure it does. ISOVERTIC runs the entire outbound motion: list building from real data sources, multichannel sequences across email, phone, and LinkedIn, qualification against your ideal customer profile, and confirmed meetings booked directly on your calendar with context attached.",
     callout: {
       label: "Where this lives",
-      body: "Kinetic includes one outbound seat with a meeting number in writing. Critical Mass runs two. Catalyst can add a seat for $4,500 a month. A conference sprint that books meetings before and at one trade show is $7,500 per event. Pricing is published.",
+      body: "Amplification includes one outbound seat with a meeting number in writing. Quantum runs two. Excitation can add a seat for $4,500 a month. A conference sprint that books meetings before and at one trade show is $7,500 per event. Pricing is published.",
     },
     sections: [
       { h2: "Why most appointment setting fails before the first call", body: [
@@ -37,7 +37,7 @@ export const services: Page[] = [
     disciplineNote: serviceDiscipline["outbound-appointment-setting"],
     pipelineCta: servicePipelineCta["outbound-appointment-setting"],
     related: [
-      { label: "How the system works", href: "/how-it-works" },
+      { label: "How the system works", href: "/system" },
       { label: "Pricing", href: "/pricing" },
       { label: "Belkins alternative", href: "/compare/belkins-alternative" },
     ],
@@ -52,7 +52,7 @@ export const services: Page[] = [
     lead: "Most ad accounts are graded on metrics that cannot pay your bills. We run Google Ads as one stage of a pipeline that ends in a booked sales conversation, which changes every decision upstream: keyword intent over volume, landing pages we build ourselves, and budgets steered by cost per qualified meeting.",
     callout: {
       label: "Where this lives",
-      body: "Catalyst runs one campaign, built and read weekly. Kinetic runs multiple campaigns with A/B testing and multiple landing pages. A second product line is $1,000 a month as an add on. Pricing is published.",
+      body: "Excitation runs one campaign, built and read weekly. Amplification runs multiple campaigns with A/B testing and multiple landing pages. A second product line is $1,000 a month as an add on. Pricing is published.",
     },
     sections: [
       { h2: "What senior management actually looks like", body: [
@@ -76,7 +76,7 @@ export const services: Page[] = [
     related: [
       { label: "Healthcare industry page", href: "/industries/healthcare" },
       { label: "Pricing", href: "/pricing" },
-      { label: "How it works", href: "/how-it-works" },
+      { label: "System", href: "/system" },
     ],
   },
   {
@@ -89,7 +89,7 @@ export const services: Page[] = [
     lead: "Ranking is no longer the finish line. Your buyers ask ChatGPT, Perplexity, and Google's AI Overviews before they ever see a blue link, and those systems cite sites with server rendered content, entity schema, and structured answers. We build content systems that win both layers at once.",
     callout: {
       label: "Where this lives",
-      body: "Every tier, starting with Baseline at $2,500 a month for a newsletter, a blog post, and eight social posts. Catalyst doubles the social. Kinetic adds the full content system and a YouTube channel. Add the MLR review gate if your content makes clinical claims. Pricing is published.",
+      body: "Every tier, starting with Ground State at $2,500 a month for a newsletter, a blog post, and eight social posts. Excitation doubles the social. Amplification adds the full content system and a YouTube channel. Add the MLR review gate if your content makes clinical claims. Pricing is published.",
     },
     sections: [
       { h2: "Systems, not posts", body: [
@@ -113,7 +113,7 @@ export const services: Page[] = [
     related: [
       { label: "Web development", href: "/web-development" },
       { label: "Field notes", href: "/field-notes" },
-      { label: "How it works", href: "/how-it-works" },
+      { label: "System", href: "/system" },
     ],
   },
   {
@@ -126,7 +126,7 @@ export const services: Page[] = [
     lead: "Every ad click, every cold email reply, every referral ends up on your website doing diligence. If the site is slow, vague, or invisible to AI search, everything upstream gets more expensive. We design and build sites that close the loop: fast, server rendered, schema complete, and written to convert the traffic the rest of the system creates.",
     callout: {
       label: "Where this lives",
-      body: "Landing pages are built inside the ramp on Catalyst and Kinetic. The full website build on our stack is included with every tier, and every tier is a 12 month term. You own the code and the domain either way. Pricing is published.",
+      body: "Landing pages are built inside the ramp on Excitation and Amplification. The full website build on our stack is included with every tier, and every tier is a 12 month term. You own the code and the domain either way. Pricing is published.",
     },
     sections: [
       { h2: "The stack, stated plainly", body: [
@@ -150,7 +150,7 @@ export const services: Page[] = [
     related: [
       { label: "SEO and content", href: "/seo-content" },
       { label: "Brand and design", href: "/design-brand" },
-      { label: "How it works", href: "/how-it-works" },
+      { label: "System", href: "/system" },
     ],
   },
   {
@@ -163,7 +163,7 @@ export const services: Page[] = [
     lead: "The enterprise agencies that buy television serve enterprise budgets, so most growing companies never even price the channel. That is the opportunity. Streaming TV inventory can be bought with precision and tested with budgets in the low five figures, and a local or category audience seeing your brand on the biggest screen in the house changes how every cold email and search ad performs afterward.",
     callout: {
       label: "Where this lives",
-      body: "Critical Mass, with a $25,000 monthly media minimum spent in your own accounts and an exposed versus control measurement plan in the agreement. Pricing is published.",
+      body: "Quantum, with a $25,000 monthly media minimum spent in your own accounts and an exposed versus control measurement plan in the agreement. Pricing is published.",
     },
     sections: [
       { h2: "What we buy", body: [
@@ -188,7 +188,7 @@ export const services: Page[] = [
     disciplineNote: serviceDiscipline["tv-ctv-advertising"],
     pipelineCta: servicePipelineCta["tv-ctv-advertising"],
     related: [
-      { label: "How it works", href: "/how-it-works" },
+      { label: "System", href: "/system" },
       { label: "Pricing", href: "/pricing" },
       { label: "Field notes", href: "/field-notes" },
     ],
@@ -203,7 +203,7 @@ export const services: Page[] = [
     lead: "Buyers decide who is senior in about three seconds, and they decide it visually. We design identities and interfaces with editorial restraint: confident type, structural layout, real photography, nothing decorative. The work signals authority quietly, which is the only way authority can be signaled.",
     callout: {
       label: "Where this lives",
-      body: "A video and photography production day is $4,500 as an add on at any tier, included quarterly on Kinetic, and creative production is in house on Critical Mass. Pricing is published.",
+      body: "A video and photography production day is $4,500 as an add on at any tier, included quarterly on Amplification, and creative production is in house on Quantum. Pricing is published.",
     },
     sections: [
       { h2: "Brand in service of pipeline", body: [
@@ -222,7 +222,7 @@ export const services: Page[] = [
     pipelineCta: servicePipelineCta["design-brand"],
     related: [
       { label: "Web development", href: "/web-development" },
-      { label: "How it works", href: "/how-it-works" },
+      { label: "System", href: "/system" },
       { label: "Results", href: "/results" },
     ],
   },

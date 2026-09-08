@@ -52,7 +52,7 @@ export const terms = {
       "The tier you selected at checkout, with the deliverables listed for it on the pricing page on the date of purchase. Ad spend and media are not included in tier fees; they run in accounts you own and are paid by you to the platforms.",
     ]},
     { h2: "Billing", body: [
-      "Every tier is a 12 month term, billed monthly, quarterly, or up front as selected at checkout, in advance, by card or ACH debit through Stripe. Kinetic and Critical Mass are paid quarterly. A 90 day ramp with written deliverables applies to every new engagement. The website rebuild and hosting are included for the term.",
+      "Every tier is a 12 month term, billed monthly, quarterly, or up front as selected at checkout, in advance, by card or ACH debit through Stripe. Amplification and Quantum are paid quarterly. A 90 day ramp with written deliverables applies to every new engagement. The website rebuild and hosting are included for the term.",
       "Bank debits can take up to four business days to settle. The engagement start date is the date the first payment settles.",
     ]},
     { h2: "Early exit from a term", body: [
@@ -65,7 +65,7 @@ export const terms = {
       "You own the website code, content, lists, sequences, recordings, and ad accounts produced for you, from the day they are delivered. ISOVERTIC retains its runbooks, templates, and internal tooling. Protocol runbooks are licensed to one company for internal use, without resale or redistribution.",
     ]},
     { h2: "Results", body: [
-      "Kinetic and Critical Mass carry a monthly qualified meeting number stated in the client agreement during the ramp. Baseline and Catalyst carry stated deliverables. No tier carries a revenue guarantee. Published case studies follow the method on the results page.",
+      "Amplification and Quantum carry a monthly qualified meeting number stated in the client agreement during the ramp. Ground State and Excitation carry stated deliverables. No tier carries a revenue guarantee. Published case studies follow the method on the results page.",
     ]},
     { h2: "Refunds and disputes", body: [
       "Fees for months already served are not refunded. A payment disputed with your bank while services were delivered is treated as a breach; talk to us first, we answer the same business day. Disputes not resolved by conversation go to arbitration in Suffolk County, New York, under New York law.",

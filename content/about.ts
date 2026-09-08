@@ -48,7 +48,7 @@ export const about = {
   kristen: {
     h2: "Kristen Coughlin, Chief Operating Officer",
     body: [
-      "Molecular biologist. Ten years selling custom mouse models for a genetic-engineering CRO, then institutional operations in the Department of Microbial Pathogenesis at the Yale School of Medicine. She reviews the life-science work for scientific register and accuracy before it reaches a client's MLR reviewer, and she is on every life-science account.",
+      "Trained molecular biologist. Ten years selling translational research products, then institutional operations in the Department of Microbial Pathogenesis at the Yale School of Medicine. She reviews the life-science work for scientific register and accuracy before it reaches a client's MLR reviewer, and she is on every life-science account.",
       "She also built the delivery operation. She took George's method, documented it, trained the team on it, and turned it into a repeatable engagement so the same seven-layer system runs the same way on every account. That is the reason the company can honestly say \"the founder is the source, not the bottleneck.\" Somebody had to build the operation that makes that true.",
     ],
     bioLabel: "Full bio and credentials",

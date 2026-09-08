@@ -105,7 +105,7 @@ export function CostCalculator() {
               <th scope="row" className="py-4 pr-6 font-display text-[15px] font-medium">In house hire</th>
               <td data-label="Per month" className="py-4 pr-6">{usd(Math.round(monthly))}</td>
               <td data-label="24 months" className="py-4 pr-6">{usd(Math.round(total24))}</td>
-              <td data-label="Against in house" className="py-4 pr-6 text-ink-soft">Baseline</td>
+              <td data-label="Against in house" className="py-4 pr-6 text-ink-soft">Ground State</td>
               <td data-label="Break even" className="py-4">{breakEven(monthly)}</td>
             </tr>
             {tiers.map((t) => {
@@ -126,7 +126,7 @@ export function CostCalculator() {
           </tbody>
         </table>
       </div>
-      <p className="mt-4 text-[13px] leading-relaxed text-ink-soft">Tier figures are the 12 month term rate from the pricing page, excluding ad spend and media. Critical Mass is priced from $25,000 and scoped per brand.</p>
+      <p className="mt-4 text-[13px] leading-relaxed text-ink-soft">Tier figures are the 12 month term rate from the pricing page, excluding ad spend and media. Quantum is priced from $25,000 and scoped per brand.</p>
     </div>
   );
 }

@@ -29,7 +29,7 @@ export const compares: ComparePage[] = [
     ],
     related: [
       { label: "Pricing", href: "/pricing" },
-      { label: "How it works", href: "/how-it-works" },
+      { label: "System", href: "/system" },
       { label: "Field notes", href: "/field-notes" },
     ],
   },
@@ -82,7 +82,7 @@ export const compares: ComparePage[] = [
     related: [
       { label: "Field notes", href: "/field-notes" },
       { label: "Pricing", href: "/pricing" },
-      { label: "How it works", href: "/how-it-works" },
+      { label: "System", href: "/system" },
     ],
   },
 ];

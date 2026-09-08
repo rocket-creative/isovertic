@@ -5,7 +5,7 @@ create table if not exists public.answers (
   answer text not null check (char_length(answer) <= 320),
   detail text not null,
   audience text not null check (audience in ('life-science','healthcare','startup','all')),
-  tier text check (tier in ('baseline','catalyst','kinetic','critical-mass','protocol')),
+  tier text check (tier in ('ground-state','excitation','amplification','quantum','protocol')),
   related jsonb not null default '[]'::jsonb,
   author text not null check (author in ('george-stoff','kristen-coughlin')),
   source text, -- where the question came from: form, call, search, reddit, competitor

@@ -35,7 +35,7 @@ export default async function Welcome({ searchParams }: { searchParams: Promise<
         <Section label="Next" deferred={false}>
           <div className="flex flex-wrap gap-x-8 gap-y-3">
             <Link href="/pricing" className="cta-link">Pricing <Arrow /></Link>
-            <Link href="/start" className="cta-link">Start Baseline <Arrow /></Link>
+            <Link href="/start" className="cta-link">Start Ground State <Arrow /></Link>
           </div>
         </Section>
       </>

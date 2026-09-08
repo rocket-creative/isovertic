@@ -121,7 +121,7 @@ Gaps:
 
 6.4 No comparison tables, no data tables. Engines extract tables readily. The pricing grid is a table; the cost article, the appointment setting cost answer, and the CTV article are prose with numbers that belong in a table. [inference]
 
-6.5 No video, no images, no transcripts, although Kinetic sells "YouTube channel build." Google's AI features guidance: "supporting your textual content with high quality images and videos, when applicable." [verified, same URL] One founder video per service page with a transcript on the page would be the first video in this category with server rendered text behind it.
+6.5 No video, no images, no transcripts, although Amplification sells "YouTube channel build." Google's AI features guidance: "supporting your textual content with high quality images and videos, when applicable." [verified, same URL] One founder video per service page with a transcript on the page would be the first video in this category with server rendered text behind it.
 
 ## 7. Google search best practices, remaining items
 

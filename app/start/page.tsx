@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 export default async function Start({ searchParams }: { searchParams: Promise<{ plan?: string }> }) {
   const { plan } = await searchParams;
-  const initial = plan && isPlanKey(plan) ? plan : "baseline-term";
+  const initial = plan && isPlanKey(plan) ? plan : "ground-state-term";
   const tierData: StartTier[] = tiers.map((t) => ({ slug: t.slug, name: t.name, for: t.for, spend: t.spend }));
   const planData: StartPlan[] = planList.map((p) => ({
     key: p.key,

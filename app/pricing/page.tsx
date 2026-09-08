@@ -110,7 +110,7 @@ export default function Pricing() {
                     <th scope="row" className="py-4 pr-4 font-medium text-ink">{t.name}</th>
                     <td data-label={c[1]} className="py-4 pr-4 text-ink-soft">{f}{usd(t.term)}</td>
                     <td data-label={c[2]} className="py-4 pr-4 text-ink-soft">{f}{usd(m.termYear)}</td>
-                    <td data-label={c[3]} className="py-4 pr-4 text-ink-soft">{usd(15000)}{t.slug === "critical-mass" ? " per brand" : ""}</td>
+                    <td data-label={c[3]} className="py-4 pr-4 text-ink-soft">{usd(15000)}{t.slug === "quantum" ? " per brand" : ""}</td>
                     <td data-label={c[4]} className="py-4 pr-4 font-display font-semibold text-brass">{f}{usd(m.totalValue)}</td>
                     <td data-label={c[5]} className="py-4 pr-4 text-ink-soft">{t.quarterlyOnly ? `Quarterly, ${f}${usd(m.quarterly)} x 4` : `Monthly, or ${usd(m.quarterly)} x 4 quarterly (saves ${usd(m.quarterlySaved)})`}</td>
                     <td data-label={c[6]} className="py-4 pr-4 text-ink-soft">{t.quarterlyOnly ? "Not offered" : `${usd(m.upfront)}, saves ${usd(m.upfrontSaved)}`}</td>

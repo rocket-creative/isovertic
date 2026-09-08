@@ -21,7 +21,7 @@ export const problemAudiences: { key: ProblemAudience; label: string; intro: str
 ];
 
 const pricing = { label: "Pricing", href: "/pricing" };
-const howItWorks = { label: "How the system works", href: "/how-it-works" };
+const howItWorks = { label: "How the system works", href: "/system" };
 const contact = { label: "Book a pipeline call", href: "/contact" };
 
 export const problems: Problem[] = [
@@ -37,7 +37,7 @@ export const problems: Problem[] = [
     lead: "Sometimes it is a relative, sometimes a first hire out of school, sometimes a good generalist. The pattern is the same. Six months in, the social feed is active, the newsletter goes out, and the lead count has not moved. Before you blame the person, check the job you gave them. One marketer cannot build a website, run paid search, write technical content, and prospect. Nobody can.",
     callout: {
       label: "Where this lives",
-      body: "Most owners in this spot keep the marketer and add Catalyst at $5,000 a month: one Google Ads campaign, a landing page, and content run by a senior team, with the in house person owning social and the newsletter. Kinetic at $10,000 adds an outbound seat with a meeting number in writing. Pricing is published.",
+      body: "Most owners in this spot keep the marketer and add Excitation at $5,000 a month: one Google Ads campaign, a landing page, and content run by a senior team, with the in house person owning social and the newsletter. Amplification at $10,000 adds an outbound seat with a meeting number in writing. Pricing is published.",
     },
     searchPhrases: ["in house marketer not generating leads", "hired a marketing person no leads", "our marketing coordinator is not producing results", "should I fire my marketing manager or get an agency", "one person marketing team not working"],
     sections: [
@@ -50,18 +50,18 @@ export const problems: Problem[] = [
         "The other tell is the website. If the marketer inherited a five year old brochure site, every dollar they spend lands on a page that does not convert. We see conversion rates under 1 percent on those sites and 3 to 5 percent on pages built for the query. The marketer cannot fix that alone.",
       ]},
       { h2: "The three options, priced", body: [
-        "Option one: keep the person, buy the missing steps. Catalyst at $5,000 a month runs one Google Ads campaign, builds the landing page, and produces the search content, while your marketer keeps social and the list. The same team that will eventually run outbound builds the content, so nothing is thrown away later.",
+        "Option one: keep the person, buy the missing steps. Excitation at $5,000 a month runs one Google Ads campaign, builds the landing page, and produces the search content, while your marketer keeps social and the list. The same team that will eventually run outbound builds the content, so nothing is thrown away later.",
         "Option two: keep the person, teach them the system. The Protocol is one day at your office at $5,000, and your marketer leaves with the eight runbooks we use, rewritten in your brand: content production, page build, Google Ads weekly review, outbound, lead handoff, reporting, and the two compliance runbooks. Good for a capable person who was never given a process.",
-        "Option three: replace the function, not the person. Kinetic at $10,000 a month runs the whole pipeline including an outbound seat with a monthly meeting number in writing. The in house marketer becomes the point of contact who approves in 48 hours, which is the only job on your side the system needs.",
+        "Option three: replace the function, not the person. Amplification at $10,000 a month runs the whole pipeline including an outbound seat with a monthly meeting number in writing. The in house marketer becomes the point of contact who approves in 48 hours, which is the only job on your side the system needs.",
       ]},
       { h2: "How to decide in one meeting", body: [
         "Ask three questions. How many qualified meetings did marketing produce last quarter, and how do we know? Which of the six steps is running today? What would the person do with a senior team behind them? If the answer to the first is a shrug, the problem was never the person. It was that nobody wrote the number down. Writing it down is the first hour of every engagement we run.",
       ]},
     ],
     faqs: [
-      { q: "Do we have to let our marketer go to work with you?", a: "No. Most Catalyst and Kinetic clients keep an in house person as the approver and the owner of social and email. The system runs better with someone on your side who knows the company." },
+      { q: "Do we have to let our marketer go to work with you?", a: "No. Most Excitation and Amplification clients keep an in house person as the approver and the owner of social and email. The system runs better with someone on your side who knows the company." },
       { q: "What if the marketer is family?", a: "Then give them a system instead of an impossible job. The Protocol at $5,000 is the cheapest way to turn a willing person into an operator, and it keeps the relationship intact." },
-      { q: "How fast will we see leads?", a: "Paid search produces in weeks four through eight of the 90 day ramp. Organic content compounds from month three. Outbound on Kinetic carries a meeting number for the ramp in writing." },
+      { q: "How fast will we see leads?", a: "Paid search produces in weeks four through eight of the 90 day ramp. Organic content compounds from month three. Outbound on Amplification carries a meeting number for the ramp in writing." },
     ],
     related: [pricing, { label: "Protocol team training", href: "/protocol" }, { label: "Field notes", href: "/field-notes" }],
   },
@@ -76,7 +76,7 @@ export const problems: Problem[] = [
     lead: "The retainer bills on the first of the month. The report arrives on the fifth. It shows impressions up, followers up, and a traffic chart with an arrow. Nowhere on it is the number you hired them for. That is not an accident of reporting. The agency model is built to be paid for activity, and activity is what you are getting.",
     callout: {
       label: "Where this lives",
-      body: "Every ISOVERTIC tier states its deliverables for the 90 day ramp in writing, and Kinetic at $10,000 a month adds a monthly meeting number to the agreement. If the number is not met, the review at day 90 says what changes, in writing. Pricing is published.",
+      body: "Every ISOVERTIC tier states its deliverables for the 90 day ramp in writing, and Amplification at $10,000 a month adds a monthly meeting number to the agreement. If the number is not met, the review at day 90 says what changes, in writing. Pricing is published.",
     },
     searchPhrases: ["marketing agency not producing leads", "paying an agency and getting no results", "how long should I give a marketing agency", "agency reports traffic but no sales", "how to tell if my marketing agency is bad"],
     sections: [
@@ -89,7 +89,7 @@ export const problems: Problem[] = [
         "Ask all three in one email. A good agency answers in a day. A bad one schedules a call.",
       ]},
       { h2: "What to buy instead", body: [
-        "Buy the whole pipeline or buy nothing. One team that builds the page, writes the content, runs the ads, and books the meeting cannot hide behind a seam because it owns every seam. Our Catalyst tier at $5,000 a month runs content, one Google Ads campaign, a landing page, and lead follow up within one business day. Kinetic at $10,000 adds the outbound seat and a monthly meeting number in the agreement.",
+        "Buy the whole pipeline or buy nothing. One team that builds the page, writes the content, runs the ads, and books the meeting cannot hide behind a seam because it owns every seam. Our Excitation tier at $5,000 a month runs content, one Google Ads campaign, a landing page, and lead follow up within one business day. Amplification at $10,000 adds the outbound seat and a monthly meeting number in the agreement.",
         "The 90 day ramp has deliverables in writing and a written review at day 90 that reads leading indicators. The term is a year, because that is how long pipeline and revenue take to move, and revenue is judged at months six and twelve. If the leading indicators are not moving by day 60 we say so and change the plan before day 90.",
       ]},
       { h2: "How long to give an agency", body: [
@@ -99,7 +99,7 @@ export const problems: Problem[] = [
     faqs: [
       { q: "Should we fire the agency before hiring you?", a: "Not always. If they run one channel well, keep them on that channel and we run the rest. If they cannot answer the three questions above, the decision makes itself." },
       { q: "What if the agency says results take a year?", a: "Organic compounding does take months. A written 90 day number does not. Any firm can state landing pages live, campaigns at a cost per lead, and meetings booked by day 90. Ask for it." },
-      { q: "Will you commit to a number?", a: "Yes. Kinetic and above carry a monthly meeting number in writing, set in the ramp against your market size, offer, and deal value." },
+      { q: "Will you commit to a number?", a: "Yes. Amplification and above carry a monthly meeting number in writing, set in the ramp against your market size, offer, and deal value." },
     ],
     related: [{ label: "Field notes", href: "/field-notes" }, pricing, howItWorks],
   },
@@ -114,7 +114,7 @@ export const problems: Problem[] = [
     lead: "Traffic without meetings is a hobby. A site that converts under 1 percent of visitors is not a marketing problem, it is a page problem, and the page is usually failing for one of five reasons you can diagnose yourself before lunch.",
     callout: {
       label: "Where this lives",
-      body: "Landing pages built for the query ship inside the 90 day ramp on Catalyst and Kinetic. A full rebuild on our stack is included with every tier. You own the code. Pricing is published.",
+      body: "Landing pages built for the query ship inside the 90 day ramp on Excitation and Amplification. A full rebuild on our stack is included with every tier. You own the code. Pricing is published.",
     },
     searchPhrases: ["website traffic but no leads", "website visitors not converting", "why is my website not generating leads", "low conversion rate B2B website", "traffic up conversions down"],
     sections: [
@@ -137,7 +137,7 @@ export const problems: Problem[] = [
     faqs: [
       { q: "Do we need a new website?", a: "Usually you need new pages first: one per commercial query, built to convert. A full rebuild makes sense when the platform cannot render fast, cannot carry schema, or is held by a vendor you cannot leave." },
       { q: "What conversion rate should we expect?", a: "Under 1 percent on a brochure site is common. Pages built for the query and paired with ads run 3 to 5 percent in our accounts, higher when pricing is published." },
-      { q: "Can you just fix the pages we have?", a: "On Catalyst and Kinetic we build landing pages inside the ramp on our stack and point your traffic at them. Rebuilding an old platform page by page rarely pays." },
+      { q: "Can you just fix the pages we have?", a: "On Excitation and Amplification we build landing pages inside the ramp on our stack and point your traffic at them. Rebuilding an old platform page by page rarely pays." },
     ],
     related: [{ label: "Web development", href: "/web-development" }, { label: "SEO and content", href: "/seo-content" }, pricing],
   },
@@ -152,7 +152,7 @@ export const problems: Problem[] = [
     lead: "You paid for the ad, the page worked, the form fired, and the lead went to an inbox where it aged. This is the seam between marketing and sales, and it belongs to nobody, which is why more than 70 percent of marketing leads are never contacted by sales at all. It is the cheapest pipeline you will ever buy, because the leads are already paid for.",
     callout: {
       label: "Where this lives",
-      body: "On Catalyst and above, every lead is worked within one business day by a person on our team, with a written follow up sequence behind it. The lead handoff runbook is the fifth of the eight runbooks in the Protocol, if your team would rather run it. Pricing is published.",
+      body: "On Excitation and above, every lead is worked within one business day by a person on our team, with a written follow up sequence behind it. The lead handoff runbook is the fifth of the eight runbooks in the Protocol, if your team would rather run it. Pricing is published.",
     },
     searchPhrases: ["leads not being followed up", "sales not following up on marketing leads", "lead response time small business", "what happens to inbound leads", "marketing and sales handoff process"],
     sections: [
@@ -165,13 +165,13 @@ export const problems: Problem[] = [
         "In our engagements, fixing the handoff before touching any new channel has produced more held meetings in month one than any campaign, because the leads were already there.",
       ]},
       { h2: "What we do about it on each tier", body: [
-        "Catalyst at $5,000 a month includes lead follow up within one business day, worked by our team, with the sequence written to your offer. Kinetic adds the outbound seat, which runs the same sequences on cold prospects and confirms every meeting so it holds. If you would rather own it, the Protocol teaches the lead handoff runbook to your team in a day for $5,000, or $3,500 as a client.",
+        "Excitation at $5,000 a month includes lead follow up within one business day, worked by our team, with the sequence written to your offer. Amplification adds the outbound seat, which runs the same sequences on cold prospects and confirms every meeting so it holds. If you would rather own it, the Protocol teaches the lead handoff runbook to your team in a day for $5,000, or $3,500 as a client.",
       ]},
     ],
     faqs: [
       { q: "Can a CRM fix this?", a: "A CRM records the failure with timestamps. The fix is a person with a standard and a sequence. Our CRM build at $4,000 configures HubSpot or Pipedrive to the runbook, and it only helps once the runbook exists." },
       { q: "How do we know how bad it is?", a: "Pull the last 90 days of form submissions and match them to first contact dates. Most companies find a third were never contacted. That third is your first month of new pipeline." },
-      { q: "Who follows up, you or us?", a: "On Catalyst and Kinetic, our team makes first contact within a business day and books the meeting. Your closer takes the meeting. We brief you before it." },
+      { q: "Who follows up, you or us?", a: "On Excitation and Amplification, our team makes first contact within a business day and books the meeting. Your closer takes the meeting. We brief you before it." },
     ],
     related: [{ label: "Glossary: the seam", href: "/glossary/the-seam" }, { label: "Why marketing leads never get a call", href: "/answers/why-do-marketing-leads-never-get-a-call" }, { label: "Protocol", href: "/protocol" }],
   },
@@ -186,7 +186,7 @@ export const problems: Problem[] = [
     lead: "Referral businesses are good businesses. They close at high rates and they cost nothing to acquire. They also have a ceiling set by other people's calendars, and when the two people who send you most of your work retire, move, or get acquired, the ceiling drops to the floor with no warning. Consistency requires at least one channel you control the volume of.",
     callout: {
       label: "Where this lives",
-      body: "Baseline at $2,500 a month builds the content and the site that turn a referral into a booked meeting instead of a maybe. Catalyst at $5,000 adds the first channel you control, one Google Ads campaign. Kinetic at $10,000 adds outbound with a meeting number in writing. Pricing is published.",
+      body: "Ground State at $2,500 a month builds the content and the site that turn a referral into a booked meeting instead of a maybe. Excitation at $5,000 adds the first channel you control, one Google Ads campaign. Amplification at $10,000 adds outbound with a meeting number in writing. Pricing is published.",
     },
     searchPhrases: ["business relies too much on referrals", "referrals slowing down what to do", "how to get clients without referrals", "diversify lead sources small business", "referral only business growth"],
     sections: [
@@ -194,17 +194,17 @@ export const problems: Problem[] = [
         "Count your last 24 new clients and the referral source for each. Most owners find that 60 to 80 percent trace to three or four people. For specialist medical practices, Physicians Practice puts referrals and word of mouth at 80 to 90 percent of new patients. That is not diversification. That is dependence with a friendly face, and a single retirement or hospital acquisition can remove a third of next year's revenue.",
       ]},
       { h2: "Why referrals slow even when the work is good", body: [
-        "Referral sources refer whoever they thought of last. If your site has not changed in five years and you publish nothing, you fade from the front of their mind. A monthly newsletter to your own list, one substantive post a month, and social that shows the work keeps you current with the people who already send work, before a single new channel is added. That is the Baseline cadence, and for a referral business it often pays for itself on retained referral volume alone.",
+        "Referral sources refer whoever they thought of last. If your site has not changed in five years and you publish nothing, you fade from the front of their mind. A monthly newsletter to your own list, one substantive post a month, and social that shows the work keeps you current with the people who already send work, before a single new channel is added. That is the Ground State cadence, and for a referral business it often pays for itself on retained referral volume alone.",
       ]},
       { h2: "Add one channel you control, in order", body: [
-        "First, make the referral convert harder: when a referred prospect looks you up, the site should carry pricing or a range, a result with numbers, and the people. Referred prospects still do their homework, and a brochure site loses 20 to 40 percent of them to silence. Second, add search: one Google Ads campaign against the commercial terms your buyers type, which is Catalyst. Third, when you can take more meetings than referrals produce, add outbound: one seat working a list of the 200 accounts you want, with a meeting number in writing, which is Kinetic.",
+        "First, make the referral convert harder: when a referred prospect looks you up, the site should carry pricing or a range, a result with numbers, and the people. Referred prospects still do their homework, and a brochure site loses 20 to 40 percent of them to silence. Second, add search: one Google Ads campaign against the commercial terms your buyers type, which is Excitation. Third, when you can take more meetings than referrals produce, add outbound: one seat working a list of the 200 accounts you want, with a meeting number in writing, which is Amplification.",
         "Run all three continuously, especially when you are busy. Busy quarters are when the next slow quarter is built.",
       ]},
     ],
     faqs: [
       { q: "Will outbound annoy our referral network?", a: "Outbound goes to the accounts you want and have never met. Referral sources get the newsletter and the occasional lunch. The two lists do not overlap." },
       { q: "We do not want to look like we are advertising.", a: "Publishing pricing, methods, and results is not advertising. It is what your referred prospects already wish you did. Our clients in regulated fields publish under review gates and still grow." },
-      { q: "How fast does a second channel produce?", a: "Paid search reaches a stable cost per lead in weeks four through eight. Outbound meetings begin in the ramp on Kinetic, with the number in writing." },
+      { q: "How fast does a second channel produce?", a: "Paid search reaches a stable cost per lead in weeks four through eight. Outbound meetings begin in the ramp on Amplification, with the number in writing." },
     ],
     related: [{ label: "Field notes", href: "/field-notes" }, { label: "Professional services", href: "/industries/professional-services" }, pricing],
   },
@@ -219,7 +219,7 @@ export const problems: Problem[] = [
     lead: "Revenue depends on you explaining the product, and you are already explaining it 30 hours a week. The instinct is to hire a salesperson. The spreadsheet usually disagrees, because the part of your week worth renting is not the closing. It is the prospecting, the follow up, and the content that answers the question before the call.",
     callout: {
       label: "Where this lives",
-      body: "Kinetic at $10,000 a month runs the prospecting, the follow up, and the content, and books qualified meetings on your calendar with a brief. You take the meeting, which is the one job only you can do. Pricing is published.",
+      body: "Amplification at $10,000 a month runs the prospecting, the follow up, and the content, and books qualified meetings on your calendar with a brief. You take the meeting, which is the one job only you can do. Pricing is published.",
     },
     searchPhrases: ["founder led sales not scalable", "founder is the only salesperson", "how to get out of founder led sales", "founder doing all the selling", "should a founder hire a salesperson or outsource prospecting"],
     sections: [
@@ -232,14 +232,14 @@ export const problems: Problem[] = [
         "For a technical product this is worse. The rep also has to explain a knockout model, a diagnostic, or a billing workflow to a buyer who knows more than they do.",
       ]},
       { h2: "What to buy by stage", body: [
-        "Under $1 million: the founder sells, and the money goes to a site and content that carry the technical explanation so each call starts halfway done. That is Baseline at $2,500. $1 million to $10 million: rent the pipeline and keep the close. Kinetic at $10,000 runs content, ads, and one outbound seat with a monthly meeting number in writing, and the founder takes the meetings. Past $10 million with a sales team: hire sales leadership and hand them a documented system rather than a blank page. The Protocol exists for that handoff.",
+        "Under $1 million: the founder sells, and the money goes to a site and content that carry the technical explanation so each call starts halfway done. That is Ground State at $2,500. $1 million to $10 million: rent the pipeline and keep the close. Amplification at $10,000 runs content, ads, and one outbound seat with a monthly meeting number in writing, and the founder takes the meetings. Past $10 million with a sales team: hire sales leadership and hand them a documented system rather than a blank page. The Protocol exists for that handoff.",
       ]},
       { h2: "What changes in your week", body: [
-        "Prospecting hours go to zero. Meeting prep drops because every meeting arrives with a brief. Calls get shorter because the prospect has read the pricing page and the case study before showing up. Founders on Kinetic typically hold 8 to 15 more qualified conversations a month and spend fewer hours in sales than before, because the hours that remain are the ones that close.",
+        "Prospecting hours go to zero. Meeting prep drops because every meeting arrives with a brief. Calls get shorter because the prospect has read the pricing page and the case study before showing up. Founders on Amplification typically hold 8 to 15 more qualified conversations a month and spend fewer hours in sales than before, because the hours that remain are the ones that close.",
       ]},
     ],
     faqs: [
-      { q: "Who takes the meeting when you book it?", a: "You, or a closer on your side. Our contact form asks this before we quote Kinetic. If the answer is nobody yet, start with content and paid demand until there is." },
+      { q: "Who takes the meeting when you book it?", a: "You, or a closer on your side. Our contact form asks this before we quote Amplification. If the answer is nobody yet, start with content and paid demand until there is." },
       { q: "Can you close for us?", a: "No, on purpose. For a technical sale, founder knowledge closes and prospecting wastes it. We rent you the prospecting." },
       { q: "When should I finally hire?", a: "Around $5 million to $10 million, when the founder cannot take every meeting the system books. Hire an account executive who closes, not an SDR who prospects, and give them the runbooks." },
     ],
@@ -256,7 +256,7 @@ export const problems: Problem[] = [
     lead: "The severance is paid and the pipeline is exactly where it was a year ago, minus the $100,000 you spent finding that out. Before hiring again, understand what the rep walked into. In most companies at this stage, the rep failed on the demand environment, not on effort, and the next rep will fail the same way.",
     callout: {
       label: "Where this lives",
-      body: "Kinetic at $10,000 a month replaces the prospecting half of the hire and builds the demand environment the next hire will need: the site, the content, the ads, and an outbound seat with a meeting number in writing. Pricing is published.",
+      body: "Amplification at $10,000 a month replaces the prospecting half of the hire and builds the demand environment the next hire will need: the site, the content, the ads, and an outbound seat with a meeting number in writing. Pricing is published.",
     },
     searchPhrases: ["first sales hire failed", "salesperson not producing results", "sales rep quit after six months", "why do first sales hires fail", "rebuild sales pipeline after rep left"],
     sections: [
@@ -267,7 +267,7 @@ export const problems: Problem[] = [
         "An SDR loads to $70,000 to $90,000, an account executive to $120,000 to $180,000 with on target earnings. Ramp is three to four months. Average tenure across the industry is under two years. B2B sales hiring carries miss rates near a coin flip, so the honest budget is two hires to get one that works, roughly $150,000 to $300,000 before the first predictable quarter. And the second hire inherits the same empty room unless something changes first.",
       ]},
       { h2: "Build the room before you fill it", body: [
-        "Sequence it. First, the site carries pricing, proof, and the technical answer, so a prospect who looks you up finds what the email promised. Second, content that answers the questions your sales calls repeat, so the call starts halfway done. Third, a list built from real data and sequences written against your actual positioning. Fourth, an outbound seat working it with a meeting number in writing. That is Kinetic, and it costs about what the failed hire cost, with a notice period instead of a severance.",
+        "Sequence it. First, the site carries pricing, proof, and the technical answer, so a prospect who looks you up finds what the email promised. Second, content that answers the questions your sales calls repeat, so the call starts halfway done. Third, a list built from real data and sequences written against your actual positioning. Fourth, an outbound seat working it with a meeting number in writing. That is Amplification, and it costs about what the failed hire cost, with a notice period instead of a severance.",
         "When the system books more meetings than you can take, hire again. This time hire a closer, hand them the runbooks, and let them start on day one with a full calendar.",
       ]},
     ],
@@ -289,7 +289,7 @@ export const problems: Problem[] = [
     lead: "The account was fine two years ago. Same budget, same campaigns, and now each lead costs twice what it did. Before you blame Google, read the search term report and the landing page. In most accounts we take over, cost per lead is rising for reasons inside the account, and the fix is on the page, not in the bid.",
     callout: {
       label: "Where this lives",
-      body: "Catalyst at $5,000 a month runs one Google Ads campaign to a cost per meeting, with the search term report read weekly by a person and the landing page built by us. Kinetic runs multiple campaigns with A/B testing. Spend stays in your own account. Pricing is published.",
+      body: "Excitation at $5,000 a month runs one Google Ads campaign to a cost per meeting, with the search term report read weekly by a person and the landing page built by us. Amplification runs multiple campaigns with A/B testing. Spend stays in your own account. Pricing is published.",
     },
     searchPhrases: ["google ads cost per lead increasing", "google ads leads getting more expensive", "why is my cost per lead going up", "google ads not working anymore small business", "google ads cost per conversion rising 2026"],
     sections: [
@@ -324,7 +324,7 @@ export const problems: Problem[] = [
     lead: "You bought a tool, bought a list, wrote a sequence, and sent 2,000 emails. Nine people replied and four of them said unsubscribe. The instinct is to rewrite the copy. The copy is rarely the problem. The list is, and in a technical market the first sentence is, because the buyer decides in that sentence whether you understand their work.",
     callout: {
       label: "Where this lives",
-      body: "Kinetic at $10,000 a month includes one outbound seat: list building from primary data, sequences written by the team that wrote your site, coordinated email, phone, and LinkedIn, and a monthly meeting number in writing. Catalyst can add the seat for $4,500. Pricing is published.",
+      body: "Amplification at $10,000 a month includes one outbound seat: list building from primary data, sequences written by the team that wrote your site, coordinated email, phone, and LinkedIn, and a monthly meeting number in writing. Excitation can add the seat for $4,500. Pricing is published.",
     },
     searchPhrases: ["cold email no replies", "cold email reply rate too low", "why is nobody responding to my cold emails", "cold outreach not working B2B", "cold email reply rate benchmark 2026"],
     sections: [
@@ -360,7 +360,7 @@ export const problems: Problem[] = [
     lead: "You have done this work for fifteen years and a company half your size ranks above you for it. The usual explanation is backlinks or some technical mystery. The usual cause is simpler: they have a page for the query and you have a paragraph. A 12 page site ranks for its brand name. A 150 page site ranks for the category.",
     callout: {
       label: "Where this lives",
-      body: "Baseline at $2,500 a month starts the drumbeat: one page a month written to be found and cited. Kinetic runs the full content system. The programmatic page expansion add on ships 50 server rendered entity pages at a time for $2,500 a month. Pricing is published.",
+      body: "Ground State at $2,500 a month starts the drumbeat: one page a month written to be found and cited. Amplification runs the full content system. The programmatic page expansion add on ships 50 server rendered entity pages at a time for $2,500 a month. Pricing is published.",
     },
     searchPhrases: ["not showing up on google for my services", "competitors rank higher than us", "why does my business not appear in google search", "how to rank for our services", "how many pages does a website need to rank"],
     sections: [
@@ -393,7 +393,7 @@ export const problems: Problem[] = [
     lead: "A prospect told you they asked ChatGPT or Perplexity for a recommendation and your name was not in it. Your competitor's was. Ranking well on Google did not help, and it will not: Ahrefs found only 12 percent of URLs cited by AI tools overlap with Google's top ten organic results. Getting cited is a separate discipline, and most of it happens off your site.",
     callout: {
       label: "Where this lives",
-      body: "Every page we ship is server rendered with entity schema and a first paragraph that survives being quoted alone. Baseline at $2,500 publishes one page a month built that way. Kinetic runs the full system. Pricing is published.",
+      body: "Every page we ship is server rendered with entity schema and a first paragraph that survives being quoted alone. Ground State at $2,500 publishes one page a month built that way. Amplification runs the full system. Pricing is published.",
     },
     searchPhrases: ["how to get my company mentioned in chatgpt", "competitors appear in ai search we do not", "why does chatgpt not recommend my business", "get cited by perplexity", "ai search visibility for b2b company"],
     sections: [
@@ -461,7 +461,7 @@ export const problems: Problem[] = [
     lead: "When revenue stalls, everyone points at the seam next to them. The ads agency says the landing page is weak. The web shop says the traffic is bad. The SDR firm says the brand is invisible. Every one of them is right, and none of them is accountable, because you bought four parts of a system from four companies that have never spoken.",
     callout: {
       label: "Where this lives",
-      body: "One team, one number. Kinetic at $10,000 a month runs the site, the content, the ads, and the outbound seat with a meeting number in writing. Critical Mass adds TV and a second seat, per brand. Pricing is published.",
+      body: "One team, one number. Amplification at $10,000 a month runs the site, the content, the ads, and the outbound seat with a meeting number in writing. Quantum adds TV and a second seat, per brand. Pricing is published.",
     },
     searchPhrases: ["too many marketing vendors", "consolidate marketing agencies", "one agency for website ads and outbound", "marketing vendors blaming each other", "single vendor for marketing and sales"],
     sections: [
@@ -472,7 +472,7 @@ export const problems: Problem[] = [
         "The person who writes your cold email wrote your website, so the prospect's diligence confirms the outreach. The person who builds the landing page reads the search term report, so the page matches the query. The objection heard on a Tuesday call is in the ad copy by Friday. None of that is possible across vendor boundaries, and all of it is why our case study clients see leads grow faster than traffic: the visitor lands on the page that answers the exact search.",
       ]},
       { h2: "What consolidation costs and saves", body: [
-        "Separately, credible vendors run $2,000 to $10,000 for SEO, $1,500 to $7,500 for ads management, $5,000 to $15,000 for appointment setting, plus a web retainer. That stack runs $10,000 to $35,000 a month with the seams unowned. Kinetic runs all of it for $10,000 plus ad spend, with one report, one call a week, and one number in writing. The parts are cheaper together because they share a team.",
+        "Separately, credible vendors run $2,000 to $10,000 for SEO, $1,500 to $7,500 for ads management, $5,000 to $15,000 for appointment setting, plus a web retainer. That stack runs $10,000 to $35,000 a month with the seams unowned. Amplification runs all of it for $10,000 plus ad spend, with one report, one call a week, and one number in writing. The parts are cheaper together because they share a team.",
       ]},
     ],
     faqs: [
@@ -493,7 +493,7 @@ export const problems: Problem[] = [
     lead: "Every proposal you have received says it depends. It does depend, on your stage, your deal size, and your market, but the ranges are known, and the vendors who will not name them are protecting a sales process, not you. Here are the numbers, including ours.",
     callout: {
       label: "Where this lives",
-      body: "Four published tiers on a 12 month term: Baseline $2,500, Catalyst $5,000, Kinetic $10,000, Critical Mass from $25,000, all per month, plus ad spend in your own accounts where the tier runs ads. Every tier is a 12 month term and includes the $15,000 website build. Every add on is priced on the pricing page. No discovery call required to learn a price.",
+      body: "Four published tiers on a 12 month term: Ground State $2,500, Excitation $5,000, Amplification $10,000, Quantum from $25,000, all per month, plus ad spend in your own accounts where the tier runs ads. Every tier is a 12 month term and includes the $15,000 website build. Every add on is priced on the pricing page. No discovery call required to learn a price.",
     },
     searchPhrases: ["how much should a small business spend on marketing", "marketing budget for a $5 million company", "what does outsourced marketing cost", "marketing and sales budget by revenue", "how much does lead generation cost per month"],
     sections: [
@@ -504,11 +504,11 @@ export const problems: Problem[] = [
         "A marketing manager at $110,000 to $140,000 loads to $140,000 to $175,000. An SDR loads to $70,000 to $90,000. Tools and data add $20,000 a year. Ramp takes a quarter or two, and B2B sales hiring misses near half the time. One marketing lead plus one agency retainer runs $160,000 to $190,000 a year with the seam still unowned.",
       ]},
       { h2: "A budget by stage", body: [
-        "Under $1 million: $2,500 a month on content and a site that says something, and the founder sells. That is Baseline. $1 million to $3 million: $5,000 a month plus $3,000 to $10,000 in ad spend for content, one campaign, and a landing page per audience. That is Catalyst. $3 million to $10 million: $10,000 a month plus spend for the full pipeline with an outbound seat and a meeting number in writing. That is Kinetic. Past $10 million or more than one brand: from $25,000 with TV, two seats, and a board ready quarterly review. That is Critical Mass.",
+        "Under $1 million: $2,500 a month on content and a site that says something, and the founder sells. That is Ground State. $1 million to $3 million: $5,000 a month plus $3,000 to $10,000 in ad spend for content, one campaign, and a landing page per audience. That is Excitation. $3 million to $10 million: $10,000 a month plus spend for the full pipeline with an outbound seat and a meeting number in writing. That is Amplification. Past $10 million or more than one brand: from $25,000 with TV, two seats, and a board ready quarterly review. That is Quantum.",
         "As a share of revenue, those land between 3 and 8 percent for most companies, which matches what growing B2B companies spend when they are actually growing.",
       ]},
       { h2: "The number that makes the budget a decision", body: [
-        "Divide everything by qualified meetings. Kinetic at $10,000 producing ten meetings a month is $1,000 per meeting before spend. At a one in five close rate and a $25,000 deal, that is $5,000 of cost against $25,000 of revenue. The same program producing three meetings is $3,333 each and the math argues. A vendor who will not commit to a meeting number will not let you run this calculation, which is the whole point of refusing.",
+        "Divide everything by qualified meetings. Amplification at $10,000 producing ten meetings a month is $1,000 per meeting before spend. At a one in five close rate and a $25,000 deal, that is $5,000 of cost against $25,000 of revenue. The same program producing three meetings is $3,333 each and the math argues. A vendor who will not commit to a meeting number will not let you run this calculation, which is the whole point of refusing.",
       ]},
     ],
     faqs: [
@@ -561,7 +561,7 @@ export const problems: Problem[] = [
     lead: "The feed is active, the follower count climbs, and the contact form is quiet. This is what happens when content is measured on engagement instead of on the questions it answers. Likes come from peers and friends. Inquiries come from buyers who found the answer to a specific question on your site. Those are different pieces of content, and most companies publish only the first kind.",
     callout: {
       label: "Where this lives",
-      body: "Baseline at $2,500 a month: one blog post written to be found and cited, one newsletter to your own list, eight social posts, and a one page report on what it produced. Catalyst doubles the social and adds paid demand. Pricing is published.",
+      body: "Ground State at $2,500 a month: one blog post written to be found and cited, one newsletter to your own list, eight social posts, and a one page report on what it produced. Excitation doubles the social and adds paid demand. Pricing is published.",
     },
     searchPhrases: ["social media engagement but no leads", "blog not generating leads", "content marketing not working small business", "likes but no sales", "what content actually generates leads b2b"],
     sections: [
@@ -578,7 +578,7 @@ export const problems: Problem[] = [
     faqs: [
       { q: "Should we stop posting on social?", a: "No. Cut it to a cadence that shows the work and the founder, eight to sixteen posts a month, and stop treating it as the lead engine. Personal profiles outperform company pages in B2B by a wide margin." },
       { q: "Do you write the content or does AI?", a: "People write it. AI runs scheduling, deployment, research, and data collection. Every word a buyer reads was written by a person on your account." },
-      { q: "How do we know it is working?", a: "The monthly report on Baseline is one page: pages published, rankings gained, inquiries by source. If the number is not moving by month six, the page list is wrong and we change it." },
+      { q: "How do we know it is working?", a: "The monthly report on Ground State is one page: pages published, rankings gained, inquiries by source. If the number is not moving by month six, the page list is wrong and we change it." },
     ],
     related: [{ label: "SEO and content", href: "/seo-content" }, { label: "What should a small biotech publish monthly", href: "/answers/what-content-should-a-biotech-publish-monthly" }, pricing],
   },
@@ -626,7 +626,7 @@ export const problems: Problem[] = [
     lead: "The invoice says 15 meetings. Your calendar says six people showed, and two of those had no idea why they agreed. You are paying per meeting booked, the vendor is optimizing for meetings booked, and everyone is behaving rationally. The fix is a definition, written into the agreement, and a website that can carry the claim the setter made.",
     callout: {
       label: "Where this lives",
-      body: "On Kinetic, the monthly meeting number in writing counts held meetings with people who match agreed criteria. No shows and meetings that fail criteria do not count. Every booked meeting gets a confirmation sequence. Pricing is published.",
+      body: "On Amplification, the monthly meeting number in writing counts held meetings with people who match agreed criteria. No shows and meetings that fail criteria do not count. Every booked meeting gets a confirmation sequence. Pricing is published.",
     },
     searchPhrases: ["appointment setting no show rate", "appointment setter booking bad meetings", "outsourced sdr meetings not qualified", "pay per appointment leads not showing up", "what is a qualified meeting appointment setting"],
     sections: [
@@ -642,7 +642,7 @@ export const problems: Problem[] = [
     ],
     faqs: [
       { q: "Should we pay per meeting or a retainer?", a: "Pay per held qualified meeting if a vendor offers it. Most offer pay per booked, which creates exactly this problem. Our seat is a retainer with a held meeting number in writing." },
-      { q: "Can you fix our current vendor's meetings?", a: "Sometimes. If the site cannot carry the claim, fixing the site raises held rate for any setter, including theirs. That is Catalyst plus a landing page, then decide whether to keep them." },
+      { q: "Can you fix our current vendor's meetings?", a: "Sometimes. If the site cannot carry the claim, fixing the site raises held rate for any setter, including theirs. That is Excitation plus a landing page, then decide whether to keep them." },
       { q: "What if we only need outbound?", a: "Then a pure play like Belkins is a credible choice and we will say so. Meetings booked into a strong brand hold. Meetings booked into a weak one do not, whoever books them." },
     ],
     related: [{ label: "What counts as a qualified meeting", href: "/answers/what-is-a-qualified-meeting" }, { label: "Belkins alternative", href: "/compare/belkins-alternative" }, { label: "Appointment setting", href: "/outbound-appointment-setting" }],
@@ -658,7 +658,7 @@ export const problems: Problem[] = [
     lead: "The second product line has a different buyer, a different vocabulary, and sometimes a different regulatory regime, and the plan is to have the same two people market both. That plan produces two half run brands. The fix is not more people. It is a system that runs per brand, with its own accounts, its own report, and its own number, from one team.",
     callout: {
       label: "Where this lives",
-      body: "Every additional brand on the same tier is 15 percent off, and every brand gets its own report, its own accounts, and its own number. A second product line in Google Ads is $1,000 a month as an add on. Critical Mass, from $25,000, runs the full system per brand with two outbound seats and TV. Pricing is published.",
+      body: "Every additional brand on the same tier is 15 percent off, and every brand gets its own report, its own accounts, and its own number. A second product line in Google Ads is $1,000 a month as an add on. Quantum, from $25,000, runs the full system per brand with two outbound seats and TV. Pricing is published.",
     },
     searchPhrases: ["marketing two brands with one team", "launching a second product line marketing", "multi brand marketing small company", "how to market two businesses at once", "second brand launch pipeline"],
     sections: [
@@ -666,15 +666,15 @@ export const problems: Problem[] = [
         "The brands compete for the same hours. The established one has customers who call, so it wins every week, and the new one gets the leftover Friday afternoon. Its site goes up late, its campaign never gets read, its outbound list is never built. Eighteen months later the second brand has a logo and no pipeline, and the conclusion is that the market was not there. The market was there. The hours were not.",
       ]},
       { h2: "Run the same system twice, not two half systems", body: [
-        "Each brand gets its own six step run: its own pages, its own content cadence, its own ad account and campaigns, its own outbound list and sequences, its own report. The team is shared, the system is not. A company with a research product and a clinical product is a common case: two brands on Kinetic, each with a seat, each with a meeting number in writing, and the second at 15 percent off. The clinical brand adds the MLR gate; the research brand does not need it.",
+        "Each brand gets its own six step run: its own pages, its own content cadence, its own ad account and campaigns, its own outbound list and sequences, its own report. The team is shared, the system is not. A company with a research product and a clinical product is a common case: two brands on Amplification, each with a seat, each with a meeting number in writing, and the second at 15 percent off. The clinical brand adds the MLR gate; the research brand does not need it.",
       ]},
       { h2: "What the second brand costs", body: [
-        "On Catalyst, the second product line in Google Ads is $1,000 a month with its own campaigns, landing page, and reporting, and the content cadence expands to cover it. On Kinetic, the second brand runs at 15 percent off the tier price with its own seat. For companies running three or more brands, or ready to add TV, Critical Mass from $25,000 runs everything per brand with creative production in house and a quarterly board ready review across all of them.",
+        "On Excitation, the second product line in Google Ads is $1,000 a month with its own campaigns, landing page, and reporting, and the content cadence expands to cover it. On Amplification, the second brand runs at 15 percent off the tier price with its own seat. For companies running three or more brands, or ready to add TV, Quantum from $25,000 runs everything per brand with creative production in house and a quarterly board ready review across all of them.",
       ]},
     ],
     faqs: [
       { q: "Do the brands need separate websites?", a: "Separate sites when the buyers are different enough that one would confuse the other, which is usually the case for research versus clinical. Separate sections of one site when the buyer overlaps." },
-      { q: "Can one outbound seat cover both?", a: "It can split time, but a seat sized for one brand's meeting number cannot hit two. Two brands on Kinetic means two seats." },
+      { q: "Can one outbound seat cover both?", a: "It can split time, but a seat sized for one brand's meeting number cannot hit two. Two brands on Amplification means two seats." },
       { q: "How does reporting work?", a: "One report per brand, one call covering both, one number per brand in writing. You should never have to guess which brand produced what." },
     ],
     related: [{ label: "Multi brand discount", href: "/answers/do-you-offer-a-discount-for-multiple-brands" }, pricing, { label: "Results", href: "/results" }],
@@ -690,7 +690,7 @@ export const problems: Problem[] = [
     lead: "A great quarter, everyone too busy delivering to sell, then the cliff, then the scramble, then a great quarter born of panic. Founders blame the market, the team, or the season. It is none of those. Sales effort runs inversely to revenue, which guarantees a trough 90 days after every peak, and the only fix is a demand system that runs whether or not you are busy.",
     callout: {
       label: "Where this lives",
-      body: "Every tier runs continuously, especially when you are busy. Baseline at $2,500 keeps the drumbeat going. Kinetic at $10,000 keeps an outbound seat booking meetings through your busiest month, with the number in writing. Pricing is published.",
+      body: "Every tier runs continuously, especially when you are busy. Ground State at $2,500 keeps the drumbeat going. Amplification at $10,000 keeps an outbound seat booking meetings through your busiest month, with the number in writing. Pricing is published.",
     },
     searchPhrases: ["feast or famine business cycle", "inconsistent sales pipeline", "revenue up and down every quarter", "how to get consistent leads", "boom and bust revenue small business"],
     sections: [
@@ -701,7 +701,7 @@ export const problems: Problem[] = [
         "Write the math down first: how many qualified meetings a month hit the number, and what each costs by channel. That is the first hour of every engagement we run. Own the seam second: a response standard and a follow up sequence, which costs discipline. Add the channel you control third: content if you publish nothing, search if you have a site and no paid demand, outbound if you need meetings this quarter. Then run all of it continuously, because busy is when the next trough is being built.",
       ]},
       { h2: "What continuous looks like at each tier", body: [
-        "Baseline, $2,500: a newsletter, a post, and social every month, so demand exists before you need it. Catalyst, $5,000: one Google Ads campaign and a landing page with leads worked within a business day, so the phone rings in July. Kinetic, $10,000: an outbound seat working the list through your busiest quarter with a meeting number in writing, so the calendar for next quarter fills while this one delivers. The tier ladder exists because the fix is structural, not a campaign.",
+        "Ground State, $2,500: a newsletter, a post, and social every month, so demand exists before you need it. Excitation, $5,000: one Google Ads campaign and a landing page with leads worked within a business day, so the phone rings in July. Amplification, $10,000: an outbound seat working the list through your busiest quarter with a meeting number in writing, so the calendar for next quarter fills while this one delivers. The tier ladder exists because the fix is structural, not a campaign.",
       ]},
     ],
     faqs: [
@@ -724,7 +724,7 @@ export const problems: Problem[] = [
     lead: "Scientists search by gene, by modification type, by catalog number, by strain. Your catalog has the exact thing they typed and Google has never seen it, because the catalog lives behind a search box and Google treats a database as one page. The company with 40 products and 40 pages outranks you for your own inventory.",
     callout: {
       label: "Where this lives",
-      body: "The programmatic page expansion add on ships 50 server rendered entity pages at a time for $2,500 a month, on any tier. A full catalog rebuild, one page per product, generated from your own data, is scoped inside a Kinetic engagement with a 12 month term. Pricing is published.",
+      body: "The programmatic page expansion add on ships 50 server rendered entity pages at a time for $2,500 a month, on any tier. A full catalog rebuild, one page per product, generated from your own data, is scoped inside an Amplification engagement with a 12 month term. Pricing is published.",
     },
     searchPhrases: ["product catalog not indexed by google", "researchers cannot find our products", "programmatic seo for life science catalog", "how to get product pages indexed", "mouse model catalog seo"],
     sections: [
@@ -755,10 +755,10 @@ export const problems: Problem[] = [
     metaDescription: "Every new client trained in the same two labs, and the founders are the sales team. What small CRO business development looks like without a sales hire, from a decade selling for one.",
     eyebrow: "Problem · Life science",
     h1: "Our CRO's new business comes only from PIs who already know us.",
-    lead: "The scientific founders are the business development team. There is no ideal customer profile, no segmentation by therapeutic area or model type, no systematic prospecting, and no consistent follow up, so opportunities quietly disappear over a nine month sales cycle. Corstrate's 2026 write up of small CRO business development names those exact gaps. Our COO lived them for a decade selling custom models for a genetic engineering CRO.",
+    lead: "The scientific founders are the business development team. There is no ideal customer profile, no segmentation by therapeutic area or model type, no systematic prospecting, and no consistent follow up, so opportunities quietly disappear over a nine month sales cycle. Corstrate's 2026 write up of small CRO business development names those exact gaps. Our COO lived them for a decade selling translational research products.",
     callout: {
       label: "Where this lives",
-      body: "A CRO under $2 million: Baseline at $2,500 a month for a technical post, a newsletter to past clients, and social that shows the lab. At $3 million with a site and no paid demand: Catalyst. At $5 million needing meetings this quarter: Kinetic, with an outbound seat to lab managers and a meeting number in writing. Pricing is published.",
+      body: "A CRO under $2 million: Ground State at $2,500 a month for a technical post, a newsletter to past clients, and social that shows the lab. At $3 million with a site and no paid demand: Excitation. At $5 million needing meetings this quarter: Amplification, with an outbound seat to lab managers and a meeting number in writing. Pricing is published.",
     },
     searchPhrases: ["cro business development without sales team", "how do small cros get new clients", "contract research organization lead generation", "cro relying on referrals", "business development for small cro"],
     sections: [
@@ -778,7 +778,7 @@ export const problems: Problem[] = [
     faqs: [
       { q: "Can we compete with global CROs on search?", a: "On the specific queries, yes. A global CRO has one page about mouse models. You can have 147. Researchers search specifically, and specific pages win." },
       { q: "Who takes the meeting?", a: "A scientist on your side. Founder knowledge closes a technical sale. Our seat prospects, qualifies, confirms, and briefs." },
-      { q: "Do you understand the science?", a: "Our COO is a molecular biologist who sold custom models for more than ten years and ran operations at a medical school department. She is on every life science account." },
+      { q: "Do you understand the science?", a: "Our COO is a trained molecular biologist who sold translational research products for more than ten years and ran operations at a medical school department. She is on every life science account." },
     ],
     related: [{ label: "Marketing a CRO, biotech, or medtech", href: "/field-notes/marketing-cro-biotech-medtech" }, { label: "When should a CRO start outbound", href: "/answers/when-should-a-cro-start-outbound" }, { label: "Biotech and life sciences", href: "/industries/biotech" }],
   },
@@ -793,7 +793,7 @@ export const problems: Problem[] = [
     lead: "The draft is done. It goes to the scientific founder or the medical director for review. Two weeks later it comes back with comments on word choice, the writer revises, and the cycle repeats. Vodori's 2025 benchmark puts the average review job at 14.8 days from submission to approval; at large pharma Indegene reports 50 to 60. A small company does not need a committee. It needs one reviewer, a claim library, and a log.",
     callout: {
       label: "Where this lives",
-      body: "The MLR review gate add on: named reviewer workflow, sign off log, and claim library. $500 a month plus $750 setup on Baseline, $750 plus $1,000 on Catalyst, $1,200 plus $1,500 on Kinetic. You provide the reviewer. Pricing is published.",
+      body: "The MLR review gate add on: named reviewer workflow, sign off log, and claim library. $500 a month plus $750 setup on Ground State, $750 plus $1,000 on Excitation, $1,200 plus $1,500 on Amplification. You provide the reviewer. Pricing is published.",
     },
     searchPhrases: ["scientific content review bottleneck", "medical review slowing down marketing content", "how to speed up mlr review", "content approval process biotech", "claim library for marketing content"],
     sections: [
@@ -826,7 +826,7 @@ export const problems: Problem[] = [
     lead: "A capable generalist rep, a good script, and a list of principal investigators. Reply rates at a fraction of a percent and the few calls that connect end in 90 seconds, because the rep called a floxed allele a product and the PI heard everything they needed to. Scientific buyers punish generic outreach faster than any market we work in, and the fix is not a better script.",
     callout: {
       label: "Where this lives",
-      body: "Kinetic at $10,000 a month includes one outbound seat with sequences written in the register of the field, aimed at lab managers and core directors, with a meeting number in writing. Our COO, a molecular biologist with a decade of CRO sales, is on every life science account. Pricing is published.",
+      body: "Amplification at $10,000 a month includes one outbound seat with sequences written in the register of the field, aimed at lab managers and core directors, with a meeting number in writing. Our COO, a molecular biologist with a decade of CRO sales, is on every life science account. Pricing is published.",
     },
     searchPhrases: ["sales rep does not understand the science", "selling to scientists outbound", "sdr for life science company", "how to sell to principal investigators", "technical sales for biotech services"],
     sections: [
@@ -858,7 +858,7 @@ export const problems: Problem[] = [
     lead: "You built a list of 500 PIs from PubMed, wrote a respectful email about your services, and sent it. Three replies, two of them asking to be removed. PIs are the most emailed people in science and the least likely to buy anything directly. The person who does buy is down the hall, and they read vendor email because it is their job.",
     callout: {
       label: "Where this lives",
-      body: "Kinetic at $10,000 a month includes an outbound seat working lab managers and core directors with publication and grant triggers, coordinated across email, phone, and LinkedIn, with a meeting number in writing. Pricing is published.",
+      body: "Amplification at $10,000 a month includes an outbound seat working lab managers and core directors with publication and grant triggers, coordinated across email, phone, and LinkedIn, with a meeting number in writing. Pricing is published.",
     },
     searchPhrases: ["emailing principal investigators no response", "how to reach lab managers", "cold outreach to academic labs", "selling to research labs who to contact", "grant cycle timing for vendor outreach"],
     sections: [
@@ -890,7 +890,7 @@ export const problems: Problem[] = [
     lead: "Orders arrive in waves after funding notices and vanish in between. The lab is overbooked in October and idle in July, and staffing for either is wrong. The grant calendar is not going away. What changes is whether your pipeline is built to ride it or to be surprised by it every year.",
     callout: {
       label: "Where this lives",
-      body: "Kinetic at $10,000 a month runs an outbound seat timed to the grant cycle plus a separate sequence to venture backed industry accounts that do not run on it, with a meeting number in writing. Baseline keeps the content and newsletter running through the trough. Pricing is published.",
+      body: "Amplification at $10,000 a month runs an outbound seat timed to the grant cycle plus a separate sequence to venture backed industry accounts that do not run on it, with a meeting number in writing. Ground State keeps the content and newsletter running through the trough. Pricing is published.",
     },
     searchPhrases: ["life science revenue seasonal grant cycle", "cro revenue follows nih funding cycle", "how to smooth seasonal revenue biotech services", "grant cycle timing sales outreach", "summer slowdown research services"],
     sections: [
@@ -901,7 +901,7 @@ export const problems: Problem[] = [
         "Venture backed biotech companies buy on program timelines, not grant cycles. A separate sequence with funding event and publication triggers reaches them year round. For one CRO client, the outbound program runs two lists: featured academic labs and their institutions, and venture backed companies building programs that need custom models. The second list is what fills July.",
       ]},
       { h2: "Keep publishing through the trough", body: [
-        "Pausing content in a slow quarter costs more than it saves, because search and AI visibility compound and restart slowly. A researcher planning a fall purchase is reading in June. The Baseline cadence, one technical post, one newsletter to past clients, social that shows the lab, is what keeps you in the comparison set when the notices land. It is also the cheapest thing on the pricing page.",
+        "Pausing content in a slow quarter costs more than it saves, because search and AI visibility compound and restart slowly. A researcher planning a fall purchase is reading in June. The Ground State cadence, one technical post, one newsletter to past clients, social that shows the lab, is what keeps you in the comparison set when the notices land. It is also the cheapest thing on the pricing page.",
       ]},
     ],
     faqs: [
@@ -922,7 +922,7 @@ export const problems: Problem[] = [
     lead: "A sponsor compares you to a global CRO and picks the global CRO, and the conclusion is that size won. Corstrate's 2026 review of small CRO business development finds most small CROs describe themselves as flexible, high quality, and client focused, and notes that those are not differentiators because every competitor says them too. The sponsor did not choose size. The sponsor chose the firm whose website answered the question.",
     callout: {
       label: "Where this lives",
-      body: "Baseline at $2,500 a month builds the pages that carry the technical answer: model types, applications, methods, turnaround, validation. The brand and design work that makes a $5 million firm read like a $50 million one is scoped inside the ramp at $15,000 to $40,000. Pricing is published.",
+      body: "Ground State at $2,500 a month builds the pages that carry the technical answer: model types, applications, methods, turnaround, validation. The brand and design work that makes a $5 million firm read like a $50 million one is scoped inside the ramp at $15,000 to $40,000. Pricing is published.",
     },
     searchPhrases: ["small cro competing with large cros", "how to differentiate a small cro", "why do we lose to bigger competitors", "small biotech services company positioning", "compete with global cro on marketing"],
     sections: [
@@ -939,7 +939,7 @@ export const problems: Problem[] = [
     faqs: [
       { q: "Should we rebrand?", a: "Only if the identity signals junior work. Most small CROs need messaging and pages before a new logo. We scope identity inside pipeline engagements, not as a standalone project." },
       { q: "We cannot publish client names.", a: "Publish the method and the numbers with the client anonymized by category. A result with a baseline and a window is credible without a logo." },
-      { q: "Does this work for a CRO under $2 million?", a: "It works best there. Baseline at $2,500 a month publishes one specific page a month; twelve months later you own twelve searches the global firms never bothered with." },
+      { q: "Does this work for a CRO under $2 million?", a: "It works best there. Ground State at $2,500 a month publishes one specific page a month; twelve months later you own twelve searches the global firms never bothered with." },
     ],
     related: [{ label: "Brand and design", href: "/design-brand" }, { label: "Biotech and life sciences", href: "/industries/biotech" }, { label: "Marketing a CRO, biotech, or medtech", href: "/field-notes/marketing-cro-biotech-medtech" }],
   },
@@ -956,7 +956,7 @@ export const problems: Problem[] = [
     lead: "Physicians Practice puts referring physicians and word of mouth at 80 to 90 percent of new patients for specialty practices. That is not a marketing channel. It is a dependency, and it breaks when a referrer retires, when a hospital system employs them and points referrals inward, or when their front desk changes. Referring physicians are a market. Treat them like one.",
     callout: {
       label: "Where this lives",
-      body: "Kinetic at $10,000 a month includes one outbound seat working a list of the practices whose patients you want, with a monthly meeting number in writing. Catalyst builds the clinician forward pages and outcome data the referral coordinator will look for first. Pricing is published.",
+      body: "Amplification at $10,000 a month includes one outbound seat working a list of the practices whose patients you want, with a monthly meeting number in writing. Excitation builds the clinician forward pages and outcome data the referral coordinator will look for first. Pricing is published.",
     },
     searchPhrases: ["practice relies on few referring physicians", "how to get more physician referrals", "referring physician retiring lost referrals", "physician referral marketing specialty practice", "hospital system taking our referrals"],
     sections: [
@@ -989,7 +989,7 @@ export const problems: Problem[] = [
     lead: "The equipment is paid for, the clinician is trained, the front desk knows the script, and the schedule is empty. The program exists as one paragraph on the services page and one social post from launch week. Patients do not search for programs. They search for symptoms, and the practice that answers the symptom question gets the booking.",
     callout: {
       label: "Where this lives",
-      body: "Catalyst at $5,000 a month plus ad spend builds the service line hub and the matching Google Ads campaign, with the HIPAA form and call stack add on at $750 so intake is covered before the first ad runs. Pricing is published.",
+      body: "Excitation at $5,000 a month plus ad spend builds the service line hub and the matching Google Ads campaign, with the HIPAA form and call stack add on at $750 so intake is covered before the first ad runs. Pricing is published.",
     },
     searchPhrases: ["new service line not getting patients", "how to market a new medical program", "service line marketing for practices", "launched new treatment no patients booking", "service line seo healthcare"],
     sections: [
@@ -1021,7 +1021,7 @@ export const problems: Problem[] = [
     lead: "The campaign was built, the budget was set, and the ads sit in disapproved with a policy label nobody on your side understands. Some healthcare categories require third party certification before Google or Meta will serve a single ad, the application takes weeks, and an agency that has never carried an account through it will stall for months. This is a known process with known steps.",
     callout: {
       label: "Where this lives",
-      body: "Catalyst at $5,000 a month runs the campaign once certified, and the content system runs while certification is pending. We have carried accounts through LegitScript scoped programs and policy constrained categories. Category rules are scoped before we commit to any number. Pricing is published.",
+      body: "Excitation at $5,000 a month runs the campaign once certified, and the content system runs while certification is pending. We have carried accounts through LegitScript scoped programs and policy constrained categories. Category rules are scoped before we commit to any number. Pricing is published.",
     },
     searchPhrases: ["google ads disapproved healthcare", "legitscript certification for google ads", "healthcare ad account suspended", "restricted medical content google ads policy", "addiction treatment ads certification"],
     sections: [
@@ -1085,7 +1085,7 @@ export const problems: Problem[] = [
     lead: "The campaign report says 60 inquiries. The schedule shows nine new patients. The other 51 called during lunch, filled out a form that went to a shared inbox, or left a voicemail that was returned two days later after they had booked elsewhere. For a practice, the seam between marketing and the front desk is where most of the ad budget dies.",
     callout: {
       label: "Where this lives",
-      body: "Catalyst at $5,000 a month includes lead follow up within one business day and a written sequence for web inquiries. The HIPAA form and call stack at $750 adds call tracking with consent so missed calls are visible. The lead handoff runbook is taught in the Protocol. Pricing is published.",
+      body: "Excitation at $5,000 a month includes lead follow up within one business day and a written sequence for web inquiries. The HIPAA form and call stack at $750 adds call tracking with consent so missed calls are visible. The lead handoff runbook is taught in the Protocol. Pricing is published.",
     },
     searchPhrases: ["web leads not converting to appointments medical practice", "front desk missing new patient calls", "patient inquiry follow up process", "improve new patient conversion rate", "missed calls medical office losing patients"],
     sections: [
@@ -1100,7 +1100,7 @@ export const problems: Problem[] = [
       ]},
     ],
     faqs: [
-      { q: "Can you answer the calls for us?", a: "On Catalyst and Kinetic our team works web inquiries within a business day and books the consult. Phone answering stays with your front desk or a covered answering service, and we set the standard with them." },
+      { q: "Can you answer the calls for us?", a: "On Excitation and Amplification our team works web inquiries within a business day and books the consult. Phone answering stays with your front desk or a covered answering service, and we set the standard with them." },
       { q: "How do we track this under HIPAA?", a: "Call tracking from a vendor under BAA with consent spoken before recording, and forms posting to a covered backend. The reports show timing and outcome, not clinical detail." },
       { q: "What if the front desk pushes back?", a: "Show them the missed call report. Most front desks are relieved to have a standard and a queue instead of a shared inbox nobody owns." },
     ],
@@ -1117,7 +1117,7 @@ export const problems: Problem[] = [
     lead: "The group runs one website, one Google Ads campaign, and one report, and the leads go where the leads have always gone: the location with the original physician and the strongest reviews. The other locations get the overflow, which is not a marketing strategy. Each location is its own market and needs its own pages, its own campaign geography, and its own number.",
     callout: {
       label: "Where this lives",
-      body: "Kinetic at $10,000 a month runs multiple Google Ads campaigns with A/B testing and multiple landing pages, one per location and service line, with a weekly call. Groups treating each location as a brand run Critical Mass from $25,000, per brand. Pricing is published.",
+      body: "Amplification at $10,000 a month runs multiple Google Ads campaigns with A/B testing and multiple landing pages, one per location and service line, with a weekly call. Groups treating each location as a brand run Quantum from $25,000, per brand. Pricing is published.",
     },
     searchPhrases: ["multi location medical practice marketing", "uneven patient volume across locations", "location pages for medical group seo", "google ads per location healthcare", "how to fill a new practice location"],
     sections: [
@@ -1128,13 +1128,13 @@ export const problems: Problem[] = [
         "A location page for each site with its providers, its services, its parking, and its schema, plus service line spokes that name the town. A campaign per location with its own geography, budget, and negatives, landing on that location's pages. A review velocity system per location so the new site closes the gap. And a report with one row per location: inquiries, booked consults, cost per consult. When location three's number is visible every week, location three fills.",
       ]},
       { h2: "Use the flagship's overflow deliberately", body: [
-        "When the flagship is booked six weeks out, the front desk script offers the nearest location with an appointment this week, and the site shows real availability by location where the scheduling system allows it. That alone shifts 10 to 20 percent of new patients in most groups, at no ad cost. Then TV: streaming buys by ZIP code around the under filled locations, on Critical Mass, make the new site the one homeowners in that town have seen on screen.",
+        "When the flagship is booked six weeks out, the front desk script offers the nearest location with an appointment this week, and the site shows real availability by location where the scheduling system allows it. That alone shifts 10 to 20 percent of new patients in most groups, at no ad cost. Then TV: streaming buys by ZIP code around the under filled locations, on Quantum, make the new site the one homeowners in that town have seen on screen.",
       ]},
     ],
     faqs: [
       { q: "Do we need a separate website per location?", a: "No. One site with one real page per location and per service line, each with local schema. Separate sites only when the locations are separate brands." },
       { q: "How much budget per location?", a: "$3,000 a month per campaign is the floor for stable reading. A four location group typically runs $12,000 to $20,000 in spend plus the tier fee." },
-      { q: "Can outbound help a location?", a: "Yes. A seat working referring physicians within that location's radius fills a specialty site faster than ads alone. That is the Kinetic seat, pointed at one geography." },
+      { q: "Can outbound help a location?", a: "Yes. A seat working referring physicians within that location's radius fills a specialty site faster than ads alone. That is the Amplification seat, pointed at one geography." },
     ],
     related: [{ label: "Healthcare", href: "/industries/healthcare" }, { label: "Google Ads", href: "/google-ads" }, { label: "TV and CTV", href: "/tv-ctv-advertising" }],
   },
@@ -1149,7 +1149,7 @@ export const problems: Problem[] = [
     lead: "Patients search the specialty and the town, and three practices appear on the map before any website link. One of them is you, or none of them is, and a practice that opened two years ago sits at the top. The map pack does not rank outcomes. It ranks proximity, relevance, and prominence, and prominence is mostly reviews, review recency, and the pages on your site that name the town and the service.",
     callout: {
       label: "Where this lives",
-      body: "Catalyst at $5,000 a month builds the local service pages and runs the review velocity system alongside the campaign. Google Business Profile discipline is part of the ramp on any tier for a practice. Pricing is published.",
+      body: "Excitation at $5,000 a month builds the local service pages and runs the review velocity system alongside the campaign. Google Business Profile discipline is part of the ramp on any tier for a practice. Pricing is published.",
     },
     searchPhrases: ["competitor outranks us on google maps", "how to rank higher in google map pack medical practice", "get more google reviews for doctors office", "local seo for medical practice", "google business profile optimization healthcare"],
     sections: [
@@ -1215,7 +1215,7 @@ export const problems: Problem[] = [
     lead: "You have a product, a runway, and a board that wants to see the top of the funnel move before it funds the bottom. The conventional answer is to hire an SDR. The SDR inherits an empty demand environment, ramps for four months, and leaves in fourteen. Build the environment first, at a price that fits the model, and hire the closer into a full calendar.",
     callout: {
       label: "Where this lives",
-      body: "Kinetic at $10,000 a month plus ad spend replaces the first marketing hire and the first SDR: the site, the content, multiple campaigns, and one outbound seat with a monthly meeting number you can paste into the board update. Pricing is published so the cost line is in the model from day one.",
+      body: "Amplification at $10,000 a month plus ad spend replaces the first marketing hire and the first SDR: the site, the content, multiple campaigns, and one outbound seat with a monthly meeting number you can paste into the board update. Pricing is published so the cost line is in the model from day one.",
     },
     searchPhrases: ["how to build pipeline before hiring sales", "startup sales pipeline before first sdr", "outsourced sdr for seed stage startup", "when to hire first salesperson startup", "series a pipeline generation"],
     sections: [
@@ -1230,9 +1230,9 @@ export const problems: Problem[] = [
       ]},
     ],
     faqs: [
-      { q: "What does the board see?", a: "A 90 day ramp with deliverables in writing: pages live, campaigns at a stated cost per lead, and at Kinetic a monthly meeting number. Paste the agreement into the update and report against it." },
-      { q: "We are pre revenue. Is Kinetic too early?", a: "Yes. Kinetic needs a closer on your side. Pre revenue, Baseline at $2,500 gives the company a voice; seed with budget, Catalyst adds paid demand." },
-      { q: "Can we pause between raises?", a: "The term is a year, so a pause is a conversation rather than a button. Paid demand can be turned down inside the term; most startups keep Baseline running through a raise because visibility compounds and restarts slowly." },
+      { q: "What does the board see?", a: "A 90 day ramp with deliverables in writing: pages live, campaigns at a stated cost per lead, and at Amplification a monthly meeting number. Paste the agreement into the update and report against it." },
+      { q: "We are pre revenue. Is Amplification too early?", a: "Yes. Amplification needs a closer on your side. Pre revenue, Ground State at $2,500 gives the company a voice; seed with budget, Excitation adds paid demand." },
+      { q: "Can we pause between raises?", a: "The term is a year, so a pause is a conversation rather than a button. Paid demand can be turned down inside the term; most startups keep Ground State running through a raise because visibility compounds and restarts slowly." },
     ],
     related: [{ label: "Startups", href: "/industries/startups" }, { label: "Show pipeline to the board", href: "/answers/how-do-i-show-pipeline-to-my-board" }, { label: "Field notes", href: "/field-notes" }],
   },
@@ -1247,26 +1247,26 @@ export const problems: Problem[] = [
     lead: "The full service floor in this category was $8,500 a month for years, ours included. A seed stage company cannot put that in the model, so it hires a freelancer for the blog, another for the ads, and a founder's cousin for social, and owns every seam between them. The floor moved. Here is what $2,500 and $5,000 buy when the same team that runs the $25,000 engagement runs them.",
     callout: {
       label: "Where this lives",
-      body: "Baseline at $2,500 a month: a newsletter, a post written to be found and cited, eight social posts, and a one page report. Catalyst at $5,000 plus ad spend: content doubled, one Google Ads campaign, a landing page, lead follow up within a business day, a monthly call. Same team as Kinetic. Pricing is published.",
+      body: "Ground State at $2,500 a month: a newsletter, a post written to be found and cited, eight social posts, and a one page report. Excitation at $5,000 plus ad spend: content doubled, one Google Ads campaign, a landing page, lead follow up within a business day, a monthly call. Same team as Amplification. Pricing is published.",
     },
     searchPhrases: ["affordable marketing agency for startups", "marketing agency under $5000 a month", "seed stage marketing budget", "cheap b2b marketing that works", "what can I get for $2500 a month marketing"],
     sections: [
       { h2: "Why the floor could move", body: [
-        "AI runs scheduling, deployment, data collection, research, and reporting on every account. Humans create, design, review, test, and engage. You pay for judgment, not for hours spent scheduling posts. That split is why a tier can start at $2,500 instead of $8,500 without a junior tier of staff behind the lower price. Baseline buys fewer steps of the system than Kinetic, not a different team.",
+        "AI runs scheduling, deployment, data collection, research, and reporting on every account. Humans create, design, review, test, and engage. You pay for judgment, not for hours spent scheduling posts. That split is why a tier can start at $2,500 instead of $8,500 without a junior tier of staff behind the lower price. Ground State buys fewer steps of the system than Amplification, not a different team.",
       ]},
       { h2: "What $2,500 actually produces", body: [
-        "One page a month that answers a question your buyers type, with the answer in the first 40 words, one number a reader can quote, and schema so search and AI engines can name the entity. A newsletter that repeats the answer to your own list. Eight social posts from the founder's account, which reaches several times what a company page does in B2B. Twelve months later you own twelve searches and a list that opens your email. That is the demand environment the eventual hire, or the eventual Kinetic upgrade, lands in.",
+        "One page a month that answers a question your buyers type, with the answer in the first 40 words, one number a reader can quote, and schema so search and AI engines can name the entity. A newsletter that repeats the answer to your own list. Eight social posts from the founder's account, which reaches several times what a company page does in B2B. Twelve months later you own twelve searches and a list that opens your email. That is the demand environment the eventual hire, or the eventual Amplification upgrade, lands in.",
       ]},
       { h2: "When $5,000 is the right number", body: [
-        "When there is budget for paid demand and a closer to take the calls it produces. Catalyst adds one Google Ads campaign against commercial intent terms, a landing page built for the query, and a person working every lead within one business day. $3,000 a month in spend is the floor for stable reading. A seed company at $5,000 plus $3,000 in spend has content, paid demand, and follow up for less than half a junior marketing hire, with a 90 day number in writing.",
+        "When there is budget for paid demand and a closer to take the calls it produces. Excitation adds one Google Ads campaign against commercial intent terms, a landing page built for the query, and a person working every lead within one business day. $3,000 a month in spend is the floor for stable reading. A seed company at $5,000 plus $3,000 in spend has content, paid demand, and follow up for less than half a junior marketing hire, with a 90 day number in writing.",
       ]},
     ],
     faqs: [
-      { q: "Is Baseline just a blog package?", a: "It is the content step of the same six step system, run by the same team, on the same stack. The pages are built to be cited and to become the landing pages when you add ads." },
-      { q: "Can we upgrade later without starting over?", a: "Up at any time. Everything built on Baseline is the foundation Catalyst and Kinetic run on, because the team that built it is the team that runs them." },
-      { q: "What about the website?", a: "Included at every tier, including Baseline, as part of the 12 month term. Repo and domain are yours." },
+      { q: "Is Ground State just a blog package?", a: "It is the content step of the same six step system, run by the same team, on the same stack. The pages are built to be cited and to become the landing pages when you add ads." },
+      { q: "Can we upgrade later without starting over?", a: "Up at any time. Everything built on Ground State is the foundation Excitation and Amplification run on, because the team that built it is the team that runs them." },
+      { q: "What about the website?", a: "Included at every tier, including Ground State, as part of the 12 month term. Repo and domain are yours." },
     ],
-    related: [pricing, { label: "Baseline vs Catalyst", href: "/answers/what-is-the-difference-between-baseline-and-catalyst" }, { label: "Startups", href: "/industries/startups" }],
+    related: [pricing, { label: "Ground State vs Excitation", href: "/answers/what-is-the-difference-between-ground-state-and-excitation" }, { label: "Startups", href: "/industries/startups" }],
   },
   {
     slug: "board-wants-pipeline-numbers-we-cannot-produce",
@@ -1279,7 +1279,7 @@ export const problems: Problem[] = [
     lead: "The board deck has a slide titled pipeline and it contains a list of companies the founder has talked to. Investors want a number that was committed to before it was hit, a cost per meeting, and a trend. You do not have a sales team, so you cannot produce those the way a Series C company does. You can produce them another way: a 90 day ramp with deliverables in writing, reported against monthly.",
     callout: {
       label: "Where this lives",
-      body: "Every tier states its deliverables in the agreement. Kinetic at $10,000 a month adds a monthly qualified meeting number in writing. Paste the agreement into the board update and report against it. Pricing is published so the cost line is already in the model.",
+      body: "Every tier states its deliverables in the agreement. Amplification at $10,000 a month adds a monthly qualified meeting number in writing. Paste the agreement into the board update and report against it. Pricing is published so the cost line is already in the model.",
     },
     searchPhrases: ["how to report pipeline to board early stage", "pipeline metrics for seed stage startup", "board update sales pipeline no sales team", "pipeline coverage startup without sales", "what pipeline metrics do investors want"],
     sections: [
@@ -1287,7 +1287,7 @@ export const problems: Problem[] = [
         "A committed number, the actual against it, and the cost per unit. Not a list of logos. The number can be qualified meetings held, booked demos, or cost per booked consultation depending on the business, but it has to be stated before the month starts. A founder who writes down twelve meetings and delivers nine has a pipeline conversation. A founder with a list of 30 companies has a hope conversation.",
       ]},
       { h2: "How to get a committed number without a sales team", body: [
-        "Rent the function that produces it. The 90 day ramp on any tier states deliverables in writing: pages live by week six, campaigns at a stated cost per lead by week eight, and on Kinetic a monthly qualified meeting number set against your market size, offer, and deal value. Report each month with three lines: committed, actual, cost per meeting. By month four there is a trend, and by month six a coverage ratio, which is the slide the board wanted.",
+        "Rent the function that produces it. The 90 day ramp on any tier states deliverables in writing: pages live by week six, campaigns at a stated cost per lead by week eight, and on Amplification a monthly qualified meeting number set against your market size, offer, and deal value. Report each month with three lines: committed, actual, cost per meeting. By month four there is a trend, and by month six a coverage ratio, which is the slide the board wanted.",
       ]},
       { h2: "What goes in the update", body: [
         "Meetings committed and held, with the definition of qualified stated once. Cost per meeting including fees and spend. Pipeline created from those meetings, in dollars, with stage. Source mix: inbound content, paid, outbound. One sentence on what changed and what will change next month. Every case study we publish uses one window, months five through eight against a six month baseline, and we publish the method because a board will ask how the number was computed.",
@@ -1295,7 +1295,7 @@ export const problems: Problem[] = [
     ],
     faqs: [
       { q: "What if we miss the number?", a: "A written number you missed is still a better board conversation than no number. The review at day 90 says what changes, and if the miss is structural, wrong tier or wrong channel, we move you inside the term rather than run it out." },
-      { q: "Can you present to the board?", a: "On Critical Mass the quarterly growth review is board ready and we walk through it. On other tiers the one page report is written to be pasted." },
+      { q: "Can you present to the board?", a: "On Quantum the quarterly growth review is board ready and we walk through it. On other tiers the one page report is written to be pasted." },
       { q: "Do investors accept outsourced pipeline?", a: "Investors accept a committed number, a cost per meeting, and a trend. How it is staffed matters less than whether it is written down." },
     ],
     related: [{ label: "Show pipeline to the board", href: "/answers/how-do-i-show-pipeline-to-my-board" }, { label: "Startups", href: "/industries/startups" }, { label: "Results and method", href: "/results" }],
@@ -1343,7 +1343,7 @@ export const problems: Problem[] = [
     lead: "The new name is better. The new site is prettier. And inbound dropped to a trickle, because the old name had two years of search presence and the new one has a logo. A rebrand is only finished when the pipeline runs under the new name, and most rebrands stop at the launch announcement.",
     callout: {
       label: "Where this lives",
-      body: "Kinetic at $10,000 a month with a 12 month term includes the site rebuild under the new name plus the content, campaigns, and outbound seat that put a pipeline behind it. Pricing is published.",
+      body: "Amplification at $10,000 a month with a 12 month term includes the site rebuild under the new name plus the content, campaigns, and outbound seat that put a pipeline behind it. Pricing is published.",
     },
     searchPhrases: ["rebrand lost seo traffic", "company rename leads dropped", "how to rebrand without losing pipeline", "new brand name no search presence", "post rebrand marketing plan"],
     sections: [

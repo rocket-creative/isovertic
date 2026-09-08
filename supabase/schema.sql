@@ -12,7 +12,7 @@ create table if not exists public.leads (
 alter table public.leads enable row level security;
 -- No public policies: the service role key (server only) bypasses RLS.
 
--- Self serve Baseline. Written by the Stripe webhook (app/api/stripe/webhook/route.ts) and the intake form (app/welcome/actions.ts).
+-- Self serve Ground State. Written by the Stripe webhook (app/api/stripe/webhook/route.ts) and the intake form (app/welcome/actions.ts).
 create table if not exists public.subscriptions (
   id uuid primary key default gen_random_uuid(),
   created_at timestamptz not null default now(),

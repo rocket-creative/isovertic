@@ -54,10 +54,10 @@ export function DownloadCard({
               <label htmlFor="dl-tier" className="field-label">Tier you are weighing</label>
               <select id="dl-tier" name="tier" className="field field-select" defaultValue="">
                 <option value="">Not sure yet</option>
-                <option value="Baseline">Baseline</option>
-                <option value="Catalyst">Catalyst</option>
-                <option value="Kinetic">Kinetic</option>
-                <option value="Critical Mass">Critical Mass</option>
+                <option value="Ground State">Ground State</option>
+                <option value="Excitation">Excitation</option>
+                <option value="Amplification">Amplification</option>
+                <option value="Quantum">Quantum</option>
               </select>
             </div>
           ) : (

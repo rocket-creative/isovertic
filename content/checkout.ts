@@ -2,7 +2,7 @@
 
 export const startCopy = {
   title: "Start Your Tier | ISOVERTIC",
-  metaDescription: "Sign up for any tier with a card or a bank debit. Every tier is a 12 month term with the $15,000 website rebuild and hosting included. Kinetic and Critical Mass are paid quarterly. No call required.",
+  metaDescription: "Sign up for any tier with a card or a bank debit. Every tier is a 12 month term with the $15,000 website rebuild and hosting included. Amplification and Quantum are paid quarterly. No call required.",
   eyebrow: "Start",
   h1: "Pick a tier. Pick how to bill the year. Check out.",
   lead: "No discovery call. Choose the tier, choose how the 12 month term is billed, and pay by card or bank debit on Stripe. You land on a ten minute intake form, and the first content calendar arrives inside five business days. A 15 minute call is there if you want one, after you sign up.",
@@ -17,7 +17,7 @@ export const startCopy = {
   mediaNote: "Ad spend and media are not in the checkout total. They run in your own ad accounts, which you own.",
   whatHappens: [
     "Today: checkout on Stripe, then a ten minute intake form.",
-    "Inside five business days: your first content calendar. On Catalyst and above, the campaign build and landing page start the same week.",
+    "Inside five business days: your first content calendar. On Excitation and above, the campaign build and landing page start the same week.",
     "Weeks 1 to 2: onboarding, accounts, the review gate if your content needs one. Weeks 3 to 6: publishing live, campaigns and outbound built. Weeks 7 to 12: weekly optimization and the day 90 review against the deliverables in your agreement.",
     "The website rebuild starts inside the first 30 days on our stack, server rendered, schema on every page, hosted for the term at no charge.",
   ],
@@ -31,7 +31,7 @@ export const welcomeCopy = {
   title: "Welcome to ISOVERTIC",
   eyebrow: "You are in",
   h1: "Paid. Now tell us what to work on.",
-  lead: "Ten minutes here saves a call. Everything below is what our team needs to build the first content calendar and, on Catalyst and above, the first campaign. Skip anything you do not know; we will ask by email.",
+  lead: "Ten minutes here saves a call. Everything below is what our team needs to build the first content calendar and, on Excitation and above, the first campaign. Skip anything you do not know; we will ask by email.",
   pending: "Your bank debit is processing. It clears in up to four business days and we start the moment it settles. Fill out the intake now so nothing waits on the bank.",
   unverified: "We could not verify a completed checkout for this link. If you just paid, wait a minute and refresh. Otherwise start on the pricing page or email sale@isovertic.com.",
   fields: {

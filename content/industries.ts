@@ -12,7 +12,7 @@ export const industries: Page[] = [
     lead: "Healthcare marketing fails in two directions: agencies that understand ads but not compliance, and compliance minded vendors that cannot generate demand. We have shipped both sides together: service line architectures, compliant intake, certified ad accounts, and the content patients actually search before they book.",
     callout: {
       label: "Typical starting point",
-      body: "Catalyst with the HIPAA form and call stack add on, so every form and every recorded call is BAA covered before the first ad runs. Practices ready for outbound to referring physicians move to Kinetic. Pricing is published.",
+      body: "Excitation with the HIPAA form and call stack add on, so every form and every recorded call is BAA covered before the first ad runs. Practices ready for outbound to referring physicians move to Amplification. Pricing is published.",
     },
     sections: [
       { h2: "Built inside the rules", body: [
@@ -47,7 +47,7 @@ export const industries: Page[] = [
     lead: "Life science buyers are the hardest audience on the internet: technical, skeptical, and allergic to marketing voice. We have built for them at scale, including a content system of more than 100 SEO optimized pages across a 147 page sitemap for a mouse model service provider, plus an editorial researcher series engineered for backlinks from institutions.",
     callout: {
       label: "Typical starting point",
-      body: "Baseline or Catalyst with the MLR review gate, which routes every claim through a reviewer you name with an MD or PhD before it publishes. Labs selling to researchers add programmatic page expansion, 50 entity pages at a time. Pricing is published.",
+      body: "Ground State or Excitation with the MLR review gate, which routes every claim through a reviewer you name with an MD or PhD before it publishes. Labs selling to researchers add programmatic page expansion, 50 entity pages at a time. Pricing is published.",
     },
     sections: [
       { h2: "Content with technical spine", body: [
@@ -60,7 +60,7 @@ export const industries: Page[] = [
         "Editorial spotlights earn institutional links, links lift the commercial pages, commercial pages convert the demand the content created. One system, compounding.",
       ]},
       { h2: "Does this fit you? Five questions", body: [
-        "Your buyer is a scientist, a lab manager, or a procurement office that asks for a citation before a call. Your sales cycle runs six to eighteen months and your content passes through a reviewer with an MD or PhD. Your site has fewer than fifty pages a researcher could land on from a search. Your outbound today is a founder or a rep working conference badges. You need pipeline that survives the grant calendar. Four or five yes answers and Kinetic with the MLR gate fits. Two or three and start with Baseline or Catalyst. Fewer, and the honest answer may be a content program alone.",
+        "Your buyer is a scientist, a lab manager, or a procurement office that asks for a citation before a call. Your sales cycle runs six to eighteen months and your content passes through a reviewer with an MD or PhD. Your site has fewer than fifty pages a researcher could land on from a search. Your outbound today is a founder or a rep working conference badges. You need pipeline that survives the grant calendar. Four or five yes answers and Amplification with the MLR gate fits. Two or three and start with Ground State or Excitation. Fewer, and the honest answer may be a content program alone.",
       ]},
     ],
     showQuotePlaceholder: true,
@@ -88,7 +88,7 @@ export const industries: Page[] = [
     lead: "You have a product, a runway, and a board that wants to see the top of the funnel move before it funds the bottom. ISOVERTIC runs the marketing and, when you are ready, the outbound, at a price that fits a seed or Series A budget and is published so you can put it in the model.",
     callout: {
       label: "Typical starting point",
-      body: "Baseline if you publish nothing yet and need the site to say something before the next raise. Catalyst when there is budget for paid demand and a landing page per audience. Kinetic when the board wants meetings, not traffic, and you would rather rent a seat than hire an SDR who ramps for four months and leaves in fourteen. Pricing is published.",
+      body: "Ground State if you publish nothing yet and need the site to say something before the next raise. Excitation when there is budget for paid demand and a landing page per audience. Amplification when the board wants meetings, not traffic, and you would rather rent a seat than hire an SDR who ramps for four months and leaves in fourteen. Pricing is published.",
     },
     sections: [
       { h2: "What founders get that a freelancer cannot give them", body: [
@@ -96,13 +96,13 @@ export const industries: Page[] = [
         "A 90 day ramp with deliverables you can paste into a board update. A website build included with a 12 month term, on a stack your first engineering hire will not want to rip out.",
       ]},
       { h2: "The tier that matches the stage", body: [
-        "Pre revenue, Baseline: a newsletter, a blog post, and social every month so the company has a voice before it has a sales team. Seed with a budget for demand, Catalyst: one Google Ads campaign and a landing page per audience, with a human reading the account weekly. Series A with a board asking for pipeline, Kinetic: an outbound seat with a meeting number in writing, multiple campaigns, and a weekly call.",
+        "Pre revenue, Ground State: a newsletter, a blog post, and social every month so the company has a voice before it has a sales team. Seed with a budget for demand, Excitation: one Google Ads campaign and a landing page per audience, with a human reading the account weekly. Series A with a board asking for pipeline, Amplification: an outbound seat with a meeting number in writing, multiple campaigns, and a weekly call.",
       ]},
     ],
     faqs: [
-      { q: "Do we need a marketing hire first?", a: "No. Kinetic replaces the first two." },
+      { q: "Do we need a marketing hire first?", a: "No. Amplification replaces the first two." },
       { q: "Can we pause between raises?", a: "The term is a year, so a pause is a conversation. Paid demand can be turned down inside the term; content keeps running, because visibility compounds and restarts slowly." },
-      { q: "Do you work with pre revenue companies?", a: "Yes, on Baseline and Catalyst. Kinetic needs a closer on your side, because we book the meeting and you take it." },
+      { q: "Do you work with pre revenue companies?", a: "Yes, on Ground State and Excitation. Amplification needs a closer on your side, because we book the meeting and you take it." },
     ],
     related: [
       { label: "Pricing", href: "/pricing" },
@@ -120,7 +120,7 @@ export const industries: Page[] = [
     lead: "Developer tools, infrastructure, and technical SaaS sell to people who distrust marketing on sight and decide from documentation, benchmarks, and what a peer said. We build for that reader: pages with a technical spine, search and AI citation as the distribution channel, paid search steered to qualified meetings, and outbound written by people who can read a changelog.",
     callout: {
       label: "Typical starting point",
-      body: "Catalyst when the site exists and paid demand does not. Kinetic when the founder is still the only person booking meetings and the buying committee includes an engineering lead who has to be reached on their own terms. Pricing is published.",
+      body: "Excitation when the site exists and paid demand does not. Amplification when the founder is still the only person booking meetings and the buying committee includes an engineering lead who has to be reached on their own terms. Pricing is published.",
     },
     sections: [
       { h2: "Build: a site an engineer will not bounce from", body: [
@@ -133,7 +133,7 @@ export const industries: Page[] = [
         "Search campaigns steered by cost per qualified meeting rather than cost per lead, and outbound sequences that reference the prospect's stack, their last release, or the problem in their job posting. Meetings are defined in writing before the program starts.",
       ]},
       { h2: "Does this fit you? Five questions", body: [
-        "Your buyer evaluates with documentation, a trial, or a benchmark before talking to sales. Your sales cycle runs one to nine months and involves an engineering decision maker. You have a founder or product lead who can explain the product and no one dedicated to prospecting. Your content today is either release notes or nothing. You need meetings inside two quarters, not a brand campaign. Four or five yes answers and Kinetic fits. Two or three and start with Catalyst. Fewer, and paid search alone may be the honest answer.",
+        "Your buyer evaluates with documentation, a trial, or a benchmark before talking to sales. Your sales cycle runs one to nine months and involves an engineering decision maker. You have a founder or product lead who can explain the product and no one dedicated to prospecting. Your content today is either release notes or nothing. You need meetings inside two quarters, not a brand campaign. Four or five yes answers and Amplification fits. Two or three and start with Excitation. Fewer, and paid search alone may be the honest answer.",
       ]},
     ],
     faqs: [
@@ -159,7 +159,7 @@ export const industries: Page[] = [
     lead: "Professional services buyers hire people, not brochures. The firms winning in 2026 run founder forward content, publish real expertise, and back it with outbound that opens doors warmly because the diligence trail already exists. We build that whole trail.",
     callout: {
       label: "Typical starting point",
-      body: "Kinetic. Your buyer decides on a call, so the outbound seat and the meeting number in writing are the reason to hire us. Pricing is published.",
+      body: "Amplification. Your buyer decides on a call, so the outbound seat and the meeting number in writing are the reason to hire us. Pricing is published.",
     },
     sections: [
       { h2: "Founder led demand", body: [
@@ -196,7 +196,7 @@ export const industries: Page[] = [
     lead: "The lead generation industry treats trades like a commodity: shared leads, bought lists, junior account managers. We treat a $5M contractor like a brand, because in a local market, you can be one. Local search dominance, ads run to cost per booked job, streaming TV in your zip codes, and commercial outbound for the B2B side of the book.",
     callout: {
       label: "Typical starting point",
-      body: "Catalyst. One Google Ads campaign to a cost per booked job, one landing page, and lead follow up within a business day. Pricing is published.",
+      body: "Excitation. One Google Ads campaign to a cost per booked job, one landing page, and lead follow up within a business day. Pricing is published.",
     },
     sections: [
       { h2: "The local machine", body: [
@@ -231,7 +231,7 @@ export const industries: Page[] = [
     lead: "Hospitality marketing is usually pretty pictures with no pipeline behind them. We come from the operating side: venue management, wedding markets, event sales. We know the booking is won in the follow up sequence, the tour conversion, and the season pacing, not just the Instagram grid.",
     callout: {
       label: "Typical starting point",
-      body: "Catalyst, with the production day add on for the visuals that sell a venue. Venues running events at scale move to Kinetic for outbound to planners. Pricing is published.",
+      body: "Excitation, with the production day add on for the visuals that sell a venue. Venues running events at scale move to Amplification for outbound to planners. Pricing is published.",
     },
     sections: [
       { h2: "Demand by season", body: [

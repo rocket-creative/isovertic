@@ -142,7 +142,7 @@ export const questions: Question[] = [
   },
 ];
 
-export type TierKey = "baseline" | "catalyst" | "kinetic" | "critical-mass";
+export type TierKey = "ground-state" | "excitation" | "amplification" | "quantum";
 
 export type TierResult = {
   key: TierKey;
@@ -154,36 +154,36 @@ export type TierResult = {
 };
 
 export const tierResults: Record<TierKey, TierResult> = {
-  baseline: {
-    key: "baseline",
-    name: "Baseline",
+  "ground-state": {
+    key: "ground-state",
+    name: "Ground State",
     price: "$2,500 a month",
     headline: "Start the drumbeat.",
-    body: "Your constraint is publishing, not pipeline mechanics. Baseline runs the content system, one newsletter, one search cited post, and eight social posts a month, so the site has something to rank and AI search has something to cite. Move up when you want paid demand on top of it.",
+    body: "Your constraint is publishing, not pipeline mechanics. Ground State runs the content system, one newsletter, one search cited post, and eight social posts a month, so the site has something to rank and AI search has something to cite. Move up when you want paid demand on top of it.",
     href: "/pricing",
   },
-  catalyst: {
-    key: "catalyst",
-    name: "Catalyst",
+  excitation: {
+    key: "excitation",
+    name: "Excitation",
     price: "$5,000 a month plus ad spend",
     headline: "Add paid demand to the content.",
-    body: "You have a site and no reliable paid demand. Catalyst adds a Google Ads campaign, a landing page we build, and lead follow up inside one business day, on top of the content system. Cost per qualified meeting becomes measurable for the first time.",
+    body: "You have a site and no reliable paid demand. Excitation adds a Google Ads campaign, a landing page we build, and lead follow up inside one business day, on top of the content system. Cost per qualified meeting becomes measurable for the first time.",
     href: "/pricing",
   },
-  kinetic: {
-    key: "kinetic",
-    name: "Kinetic",
+  amplification: {
+    key: "amplification",
+    name: "Amplification",
     price: "$10,000 a month plus ad spend",
     headline: "You need meetings, and nobody owns the number.",
-    body: "Kinetic runs the whole pipeline: multiple ad campaigns, an outbound seat with a monthly meeting commitment in writing, and the content that makes the meetings show up warm. One firm accountable for the number, with the 90 day ramp and the two clock scorecard in the agreement.",
+    body: "Amplification runs the whole pipeline: multiple ad campaigns, an outbound seat with a monthly meeting commitment in writing, and the content that makes the meetings show up warm. One firm accountable for the number, with the 90 day ramp and the two clock scorecard in the agreement.",
     href: "/pricing",
   },
-  "critical-mass": {
-    key: "critical-mass",
-    name: "Critical Mass",
+  quantum: {
+    key: "quantum",
+    name: "Quantum",
     price: "From $25,000 a month plus media",
     headline: "The gap is big enough to own a market.",
-    body: "Your score says the vendor stack, the ownership gap, and the meeting need are all at the top of the scale. Critical Mass runs everything in Kinetic per brand, with two outbound seats, TV and streaming in your own accounts, and a quarterly board ready review. If you run one brand and want to start smaller, Kinetic is the honest starting point.",
+    body: "Your score says the vendor stack, the ownership gap, and the meeting need are all at the top of the scale. Quantum runs everything in Amplification per brand, with two outbound seats, TV and streaming in your own accounts, and a quarterly board ready review. If you run one brand and want to start smaller, Amplification is the honest starting point.",
     href: "/pricing",
   },
 };
@@ -198,12 +198,12 @@ export function scoreAnswers(answers: Record<string, number>): { score: number; 
     if (idx === undefined) continue;
     score += q.options[idx].points * q.weight;
   }
-  let tier: TierKey = score <= 10 ? "baseline" : score <= 20 ? "catalyst" : score <= 30 ? "kinetic" : "critical-mass";
+  let tier: TierKey = score <= 10 ? "ground-state" : score <= 20 ? "excitation" : score <= 30 ? "amplification" : "quantum";
   const when = answers.when;
   const meetings = answers.meetings;
-  // Meetings needed this month or next quarter with fewer than 16 booked last month is a Kinetic problem whatever the total says.
-  if ((when === 0 || when === 1) && meetings !== undefined && meetings <= 1 && (tier === "baseline" || tier === "catalyst")) tier = "kinetic";
-  // Exploring with almost no publishing is a Baseline problem whatever the total says.
-  if (when === 3 && answers.content === 0 && tier !== "baseline" && score <= 20) tier = "baseline";
+  // Meetings needed this month or next quarter with fewer than 16 booked last month is an Amplification problem whatever the total says.
+  if ((when === 0 || when === 1) && meetings !== undefined && meetings <= 1 && (tier === "ground-state" || tier === "excitation")) tier = "amplification";
+  // Exploring with almost no publishing is a Ground State problem whatever the total says.
+  if (when === 3 && answers.content === 0 && tier !== "ground-state" && score <= 20) tier = "ground-state";
   return { score, max, tier };
 }

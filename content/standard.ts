@@ -69,7 +69,7 @@ export const anchors: Anchor[] = [
   },
   {
     heading: "On brand",
-    body: "Binet and Field's analysis of 996 campaigns in the IPA Databank supports a 60 percent brand, 40 percent activation split as the default for sustained growth. Brand effects build over quarters, not weeks, which is why TV and video carry a six month floor on Critical Mass.",
+    body: "Binet and Field's analysis of 996 campaigns in the IPA Databank supports a 60 percent brand, 40 percent activation split as the default for sustained growth. Brand effects build over quarters, not weeks, which is why TV and video carry a six month floor on Quantum.",
     source: [{ label: "IPA, The Long and the Short of It", href: "https://ipa.co.uk/knowledge/publications-reports/the-long-and-the-short-of-it" }],
   },
   {
