@@ -21,7 +21,7 @@ export const whyBuyers = {
 export const educateGridCell = "Protocol, $3,500 client add on";
 
 export const systemNote =
-  "Pick a tier and we run the steps in it. Baseline runs step two. Catalyst runs one through three. Kinetic runs everything but TV. Critical Mass runs all of it, per brand. Step six is Protocol: we teach your team the system and hand over the runbooks in your name. The pricing page shows the grid.";
+  "Pick a tier and we run the steps in it. Ground State runs step two. Excitation runs one through three. Amplification runs everything but TV. Quantum Leap runs all of it, per brand. Step six is Protocol: we teach your team the system and hand over the runbooks in your name. The pricing page shows the grid.";
 
 export const closeNote = "Then the only step left is yours. Close.";
 
@@ -30,7 +30,7 @@ export const trustStrip = [
   { label: "Written meeting volume commitment", href: "/resources/meeting-quality-standard" },
   { label: "Published pricing", href: "/pricing" },
   { label: "HIPAA aware, BAA ready", href: "/compliance/hipaa-posture" },
-  { label: "12-month default", href: "/system" },
+  { label: "12-month term", href: "/system" },
 ];
 
 export const heroAudit = { label: "Take the Pipeline Ownership Audit", href: "/audit" };
@@ -48,7 +48,7 @@ export const buyerRoles = {
       key: "founder",
       tab: "Founder or CEO",
       question: "Why does nothing I buy add up to a pipeline?",
-      body: "You have a web guy, an ads guy, and a sales hire who quit, and every one of them hit the number they were given. Nobody owned the meeting. We run all six steps inside one boundary, on one seven-layer method, with one number at the end and the same senior team on every tier.",
+      body: "You have a web guy, an ads guy, and a sales hire who quit, and every one of them hit the number they were given. Nobody owned the meeting. We run all six steps inside one boundary, on one method, with one number at the end and the same senior team on every tier.",
       cta: { label: "See how the system works", href: "/system" },
     },
     {

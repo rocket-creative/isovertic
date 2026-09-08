@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 const stations = [
-  { k: "BUILD", label: "The site, built on our seven-layer method to convert and be cited", href: "/web-development" },
+  { k: "BUILD", label: "The site, built to be found by the specialist and cited by AI", href: "/web-development" },
   { k: "RANK", label: "Content that wins Google and the AI answer layer", href: "/seo-content" },
   { k: "RUN", label: "Google Ads to a cost per meeting", href: "/google-ads" },
   { k: "BUY", label: "Media including streaming and TV", href: "/tv-ctv-advertising" },

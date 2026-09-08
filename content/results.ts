@@ -37,7 +37,7 @@ export const roster: RosterItem[] = [
       "An editorial researcher-spotlight series engineered for institutional backlinks from academic sites.",
       "Outbound sequences targeting venture-backed biotech prospects, running against a defined qualified-meeting standard.",
     ],
-    whatWeDid: "The full seven-layer method, run on a life-science catalog. Keyword architecture mapped to the researcher's own vocabulary. Site architecture built to prevent cannibalization across thousands of near-identical product pages. Page templates a scientist will trust. Server-side tracking. Algorithm-drift monitoring across two Google core updates that hit inside the window. Ongoing catalog expansion based on Search Console signal.",
+    whatWeDid: "The full method, run on a life-science catalog. Keyword architecture mapped to the researcher's own vocabulary. Site architecture built to prevent cannibalization across thousands of near-identical product pages. Page templates a scientist will trust. Server-side tracking. Algorithm-drift monitoring across two Google core updates that hit inside the window. Ongoing catalog expansion based on Search Console signal.",
     kicker: "Technical authority converted into compounding search demand, at a scale most agencies will not attempt.",
   },
   {
@@ -113,7 +113,7 @@ export const roster: RosterItem[] = [
       "Pages structured so the researcher who searches for the method finds them first.",
     ],
     numbersStatus: "New engagement. Growth-method numbers publish at month eight.",
-    kicker: "Scientific software sells when the researcher finds the answer before the demo. The Baseline cadence, run on a research-tools company.",
+    kicker: "Scientific software sells when the researcher finds the answer before the demo. The Ground State cadence, run on a research-tools company.",
   },
   {
     id: "riviera-waterfront-mansion",
@@ -162,6 +162,6 @@ export const roster: RosterItem[] = [
       "Search campaigns run to a cost per booked consultation.",
     ],
     numbersStatus: "The local playbook we sell to practices and venues, proven on a business we own in the same market. Local numbers publish on the Elena Kay site.",
-    kicker: "The same seven-layer method, run in a completely different vertical.",
+    kicker: "The same method, run in a completely different vertical.",
   },
 ];

@@ -4,11 +4,11 @@ import { biotechMolecularBiologist, industryDiscipline, industryPipelineCta } fr
 export const industries: Page[] = [
   {
     slug: "healthcare",
-    title: "Healthcare Marketing Agency for Practices | ISOVERTIC",
+    title: "Healthcare Growth Agency for Practices: Marketing That Books Consults | ISOVERTIC",
     dateModified: "2026-09-07",
     metaDescription: "Patient acquisition for practices and healthcare brands. HIPAA literate web, ads, and outreach from one senior team.",
     eyebrow: "Healthcare",
-    h1: "Healthcare marketing agency for practices that compete on more than insurance lists.",
+    h1: "The healthcare growth agency for practices that compete on more than insurance lists.",
     lead: "Healthcare marketing fails in two directions: agencies that understand ads but not compliance, and compliance minded vendors that cannot generate demand. We have shipped both sides together: service line architectures, compliant intake, certified ad accounts, and the content patients actually search before they book.",
     callout: {
       label: "Typical starting point",
@@ -39,11 +39,11 @@ export const industries: Page[] = [
   },
   {
     slug: "biotech",
-    title: "Life Science Marketing Agency for Biotech and CROs | ISOVERTIC",
+    title: "Life Science Growth Agency for Biotech and CROs: Marketing to Researchers | ISOVERTIC",
     dateModified: "2026-09-05",
-    metaDescription: "Life science marketing agency for biotech, CROs, and research tools: scientific content systems, SEO at scale, MLR review gate, and outreach to researchers.",
+    metaDescription: "Life science growth agency for biotech, CROs, and research tools: scientific content systems, SEO at scale, MLR review gate, and outreach to researchers.",
     eyebrow: "Life sciences",
-    h1: "Life science marketing agency: scientific authority, engineered for demand.",
+    h1: "The life science growth agency: scientific authority, engineered into a pipeline.",
     lead: "Life science buyers are the hardest audience on the internet: technical, skeptical, and allergic to marketing voice. We have built for them at scale, including a content system of more than 100 SEO optimized pages across a 147 page sitemap for a mouse model service provider, plus an editorial researcher series engineered for backlinks from institutions.",
     callout: {
       label: "Typical starting point",
@@ -80,11 +80,11 @@ export const industries: Page[] = [
   },
   {
     slug: "startups",
-    title: "Startup Marketing Agency, Pipeline Before the Sales Hire | ISOVERTIC",
+    title: "Startup Growth Agency: Marketing and a Pipeline Before the Sales Hire | ISOVERTIC",
     dateModified: "2026-09-05",
     metaDescription: "Marketing and outbound for seed and Series A startups. Published pricing, a 90 day ramp, and meetings before you hire an SDR.",
     eyebrow: "Startups",
-    h1: "Startup marketing agency: a pipeline before the sales hire.",
+    h1: "The startup growth agency: a pipeline before the sales hire.",
     lead: "You have a product, a runway, and a board that wants to see the top of the funnel move before it funds the bottom. ISOVERTIC runs the marketing and, when you are ready, the outbound, at a price that fits a seed or Series A budget and is published so you can put it in the model.",
     callout: {
       label: "Typical starting point",
@@ -112,11 +112,11 @@ export const industries: Page[] = [
   },
   {
     slug: "technical-b2b",
-    title: "Technical B2B Marketing Agency for Developer Tools and Infrastructure | ISOVERTIC",
+    title: "Technical B2B Growth Agency: Marketing for Developer Tools and Infrastructure | ISOVERTIC",
     dateModified: "2026-09-07",
     metaDescription: "Growth marketing for developer tools, infrastructure, and technical SaaS: content engineers will read, search and AI citation, paid demand, and outbound to technical buyers.",
     eyebrow: "Technical B2B",
-    h1: "Technical B2B marketing agency: for buyers who read the docs before the pitch.",
+    h1: "The technical B2B growth agency: for buyers who read the docs before the pitch.",
     lead: "Developer tools, infrastructure, and technical SaaS sell to people who distrust marketing on sight and decide from documentation, benchmarks, and what a peer said. We build for that reader: pages with a technical spine, search and AI citation as the distribution channel, paid search steered to qualified meetings, and outbound written by people who can read a changelog.",
     callout: {
       label: "Typical starting point",
@@ -151,11 +151,11 @@ export const industries: Page[] = [
   },
   {
     slug: "professional-services",
-    title: "Marketing for Professional Services Firms | ISOVERTIC",
+    title: "Growth Agency for Professional Services Firms | ISOVERTIC",
     dateModified: "2026-09-05",
     metaDescription: "Lead generation and growth for consultancies, law firms, accounting firms, and agencies. Founder led positioning, content, and outbound.",
     eyebrow: "Professional services",
-    h1: "Professional services marketing: firms sell trust, we manufacture the evidence.",
+    h1: "The growth agency for professional services: firms sell trust, we build the evidence.",
     lead: "Professional services buyers hire people, not brochures. The firms winning in 2026 run founder forward content, publish real expertise, and back it with outbound that opens doors warmly because the diligence trail already exists. We build that whole trail.",
     callout: {
       label: "Typical starting point",
@@ -188,11 +188,11 @@ export const industries: Page[] = [
   },
   {
     slug: "home-services",
-    title: "Home Services Lead Generation for Trades | ISOVERTIC",
+    title: "Home Services Growth Agency: Lead Generation for Trades | ISOVERTIC",
     dateModified: "2026-09-05",
     metaDescription: "Marketing and sales pipeline for HVAC, roofing, electrical, and trade companies. Local search, ads, TV, and commercial outbound from one team.",
     eyebrow: "Home services",
-    h1: "Home services lead generation: own your service area like the biggest player in it.",
+    h1: "The home services growth agency: own your service area like the biggest player in it.",
     lead: "The lead generation industry treats trades like a commodity: shared leads, bought lists, junior account managers. We treat a $5M contractor like a brand, because in a local market, you can be one. Local search dominance, ads run to cost per booked job, streaming TV in your zip codes, and commercial outbound for the B2B side of the book.",
     callout: {
       label: "Typical starting point",
@@ -223,11 +223,11 @@ export const industries: Page[] = [
   },
   {
     slug: "hospitality",
-    title: "Marketing for Hospitality and Event Businesses | ISOVERTIC",
+    title: "Growth Agency for Hospitality and Event Businesses | ISOVERTIC",
     dateModified: "2026-09-05",
     metaDescription: "Demand generation for venues, hospitality groups, and event businesses, from a team with real venue operating history.",
     eyebrow: "Hospitality",
-    h1: "Hospitality and venue marketing: fill the calendar, the venue kind and the sales kind.",
+    h1: "The hospitality growth agency: fill the calendar, the venue kind and the sales kind.",
     lead: "Hospitality marketing is usually pretty pictures with no pipeline behind them. We come from the operating side: venue management, wedding markets, event sales. We know the booking is won in the follow up sequence, the tour conversion, and the season pacing, not just the Instagram grid.",
     callout: {
       label: "Typical starting point",

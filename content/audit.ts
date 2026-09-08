@@ -175,7 +175,7 @@ export const tierResults: Record<TierKey, TierResult> = {
     name: "Amplification",
     price: "$10,000 a month plus ad spend",
     headline: "You need meetings, and nobody owns the number.",
-    body: "Amplification runs the whole pipeline: multiple ad campaigns, an outbound seat with a monthly meeting commitment in writing, and the content that makes the meetings show up warm. One firm accountable for the number, with the 90 day ramp and the two clock scorecard in the agreement.",
+    body: "Amplification runs the whole pipeline: multiple ad campaigns, an outbound seat with a monthly meeting commitment in writing, and the content that makes the meetings show up warm. One team accountable for the number, with the 90 day ramp and the two clock scorecard in the agreement.",
     href: "/pricing",
   },
   "quantum-leap": {
@@ -183,7 +183,7 @@ export const tierResults: Record<TierKey, TierResult> = {
     name: "Quantum Leap",
     price: "From $25,000 a month plus media",
     headline: "The gap is big enough to own a market.",
-    body: "Your score says the vendor stack, the ownership gap, and the meeting need are all at the top of the scale. Quantum Leap runs everything in Amplification per brand, with two outbound seats, TV and streaming in your own accounts, and a quarterly board ready review. If you run one brand and want to start smaller, Amplification is the honest starting point.",
+    body: "Your score says the vendor stack, the ownership gap, and the meeting need are all at the top of the scale. Quantum Leap runs everything in Amplification per brand, with two outbound seats, TV and streaming in your own accounts, and a quarterly board ready review. It also starts inside the company: we map how a lead moves through it, find where it leaks, automate what does not need a person, and write the SOPs before we turn up the ads and outbound. If you run one brand and want to start smaller, Amplification is the honest starting point.",
     href: "/pricing",
   },
 };

@@ -30,7 +30,7 @@ export default function Contact() {
           </RevealBlock>
           <RevealBlock delay={140} className="max-w-[48ch]">
             <h2 className="font-display text-h3 font-medium">What happens next</h2>
-            <p className="mt-4 leading-relaxed text-ink/90">Same business day reply with a calendar link. On the call we map your pipeline math, tell you which tier fits or whether none does, and if we are not the right firm, point you somewhere honest. The &quot;point you somewhere honest&quot; part is real, we keep a short list of firms we trust for the situations we don&apos;t take.</p>
+            <p className="mt-4 leading-relaxed text-ink/90">Same business day reply with a calendar link. On the call we map your pipeline math, tell you which tier fits or whether none does, and if we are not the right agency, point you somewhere honest. The &quot;point you somewhere honest&quot; part is real, we keep a short list of firms we trust for the situations we don&apos;t take.</p>
             <p className="mt-4 text-[14px] text-ink-soft">
               Or skip the form: <a href={`mailto:${site.email}`} className="underline underline-offset-4 hover:text-navy">{site.email}</a> or <a href={`tel:${site.phone}`} className="underline underline-offset-4 hover:text-navy">{site.phone.replace("+1-", "")}</a>. {site.address.street}, {site.address.locality}, {site.address.region} {site.address.postalCode}.
             </p>

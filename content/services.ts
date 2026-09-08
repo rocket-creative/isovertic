@@ -118,12 +118,12 @@ export const services: Page[] = [
   },
   {
     slug: "web-development",
-    title: "Web Design and Development Built to Convert | ISOVERTIC",
+    title: "Website Build for Companies That Sell to Specialists | ISOVERTIC",
     dateModified: "2026-09-05",
-    metaDescription: "Conversion focused web design and development on Next.js, TypeScript, and Vercel. Server rendered, schema complete, built by the team that runs your pipeline.",
+    metaDescription: "The website is step one of the pipeline, not a project. Built on Next.js, server rendered, schema complete, and found by the specialist already searching, by the team that runs your ads and outbound.",
     eyebrow: "Build",
-    h1: "Web design and development for the asset every dollar flows through.",
-    lead: "Every ad click, every cold email reply, every referral ends up on your website doing diligence. If the site is slow, vague, or invisible to AI search, everything upstream gets more expensive. We design and build sites that close the loop: fast, server rendered, schema complete, and written to convert the traffic the rest of the system creates.",
+    h1: "The website is step one of the pipeline, not a project.",
+    lead: "We are not a web design company, and this page is not a web design offer. The site is where the pipeline starts: it is built to be found by the specialist already searching for what you sell, and every ad click, cold email reply, and referral ends up on it doing diligence. We build it fast, server rendered, schema complete, and written to turn that visit into a meeting, then we run the ads and outbound that point at it.",
     callout: {
       label: "Where this lives",
       body: "Landing pages are built inside the ramp on Excitation and Amplification. The full website build on our stack is included with every tier, and every tier is a 12 month term. You own the code and the domain either way. Pricing is published.",
@@ -143,7 +143,7 @@ export const services: Page[] = [
       { q: "Do you work with WordPress or Webflow?", a: "We migrate from them. New builds ship on our stack because performance, schema control, and server rendering are the point." },
       { q: "How long does a build take?", a: "A commercial site of 15 to 40 pages typically ships in 6 to 10 weeks inside the 90 day ramp, content included." },
       { q: "Do we own the code?", a: "Fully. Repo, content, and infrastructure accounts are yours." },
-      { q: "Can you just do the website?", a: "Yes, though sites built as part of the full pipeline convert better because the messaging is shared with the ads and outbound from day one." },
+      { q: "Can you just do the website?", a: "The build is included in every tier, so the honest answer is that you get the site and the step that runs on it. Sites built as part of the full pipeline convert better because the messaging is shared with the ads and outbound from day one." },
     ],
     disciplineNote: serviceDiscipline["web-development"],
     pipelineCta: servicePipelineCta["web-development"],
@@ -170,7 +170,7 @@ export const services: Page[] = [
         "Connected and streaming TV across the major platforms with audience and geographic targeting, broadcast and cable where local density makes it efficient, and audio where the buyer commutes. Buys are planned against the same ideal customer profile that drives your outbound lists, because it is one pipeline.",
       ]},
       { h2: "Creative included, not subcontracted", body: [
-        "Thirty years of media production live inside the firm. Spots are written and produced against your positioning, in the same voice as your site and your outreach, at budgets that respect the test.",
+        "Thirty years of media production live inside the agency. Spots are written and produced against your positioning, in the same voice as your site and your outreach, at budgets that respect the test.",
       ]},
       { h2: "Measurement without the mystery", body: [
         "TV's job in this system is observable: branded search lift, direct traffic lift, and outbound reply rates in exposed geographies. We report those movements next to your meeting numbers, and we are honest about what TV did and did not do. When the test works, we scale. When it does not, we say so and reallocate.",

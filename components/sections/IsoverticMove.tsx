@@ -7,7 +7,7 @@ export const isoverticMoveHome =
   "If you want to see whether this fits, send us your best-converting landing page URL. In about ten minutes we will tell you what is firing, whether any of it is a lawsuit, and whether you are already fine. Sometimes the honest answer is that you are fine, and we are happy to say so and hand you back your afternoon.";
 
 export const isoverticMoveSystem =
-  "If you want to see whether this fits, send us your best-converting landing page URL. In about ten minutes we will tell you what is firing on the seven layers above, whether any of it is a lawsuit, and whether you are already fine. Sometimes the honest answer is that you are fine, and we are happy to say so and hand you back your afternoon.";
+  "If you want to see whether this fits, send us your best-converting landing page URL. In about ten minutes we will tell you what is firing on the layers above, whether any of it is a lawsuit, and whether you are already fine. Sometimes the honest answer is that you are fine, and we are happy to say so and hand you back your afternoon.";
 
 export function IsoverticMove({
   body,

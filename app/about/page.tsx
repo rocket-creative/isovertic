@@ -8,8 +8,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "About ISOVERTIC | Founder Led Growth Firm on Long Island" },
-  description: "ISOVERTIC was built for companies that have to prove their results. One senior team runs a method the company owns, on every account, every tier.",
+  title: { absolute: "About ISOVERTIC | Founder Led Growth Agency on Long Island" },
+  description: "ISOVERTIC was built for companies that have to prove their results. One senior team owns the pipeline, on every account, every tier.",
   alternates: { canonical: "/about" },
 };
 

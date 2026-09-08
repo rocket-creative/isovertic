@@ -11,8 +11,8 @@ import { site } from "@/lib/site";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "Long Island Marketing Agency That Books Your Meetings | ISOVERTIC" },
-  description: "Long Island marketing agency in Bohemia, NY, running web, SEO, Google Ads, streaming TV, and outbound appointment setting as one system for Nassau and Suffolk businesses. Published pricing.",
+  title: { absolute: "Long Island Growth Agency That Books Your Meetings | ISOVERTIC" },
+  description: "Long Island growth agency in Bohemia, NY, running web, SEO, Google Ads, streaming TV, and outbound appointment setting as one system for Nassau and Suffolk businesses. Published pricing.",
   alternates: { canonical: "/long-island" },
 };
 
@@ -37,8 +37,8 @@ export default function LongIsland() {
       <JsonLd data={[faqLd(faqs), breadcrumbLd([{ name: "Home", path: "/" }, { name: "Long Island", path: "/long-island" }])]} />
       <PageHero
         eyebrow="Long Island, NY"
-        h1="The Long Island firm that hands you meetings, not reports."
-        lead="Long Island has web shops, ad agencies, and SEO vendors. What it has not had is one senior firm that builds the site, runs the ads, buys the media including TV, and cold calls the market until meetings land on your calendar. ISOVERTIC is based in Suffolk County and built for the owner operated businesses that run this island."
+        h1="The Long Island growth agency that hands you meetings, not reports."
+        lead="Long Island has web shops, ad agencies, and SEO vendors. What it has not had is one senior team that builds the site, runs the ads, buys the media including TV, and cold calls the market until meetings land on your calendar. ISOVERTIC is based in Suffolk County and built for the owner operated businesses that run this island."
       />
       <Section label="Home field">
         <RevealBlock className="max-w-[68ch]">

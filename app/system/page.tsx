@@ -16,8 +16,8 @@ import { method as c } from "@/content/method";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "How the ISOVERTIC system works | Six steps you buy, seven layers that make step one actually work" },
-  description: "The six steps you buy and the seven-layer method underneath the website build. Keyword architecture, site architecture, page templates, tracking, compliance, algorithm-drift monitoring, catalog expansion. One senior team runs it on every account. 12-month default with a 6-month floor.",
+  title: { absolute: "How the ISOVERTIC system works | Six steps, one team, one number at the end" },
+  description: "The six steps of the ISOVERTIC pipeline, Build, Rank, Run, Buy, Book, Educate, and the method under step one that makes the site get found by the specialist already searching for what you sell. One senior team runs it on every account. 12-month term.",
   alternates: { canonical: "/system" },
 };
 
@@ -53,7 +53,7 @@ export default function System() {
         </RevealBlock>
       </Section>
 
-      <Section label="The moat" tone="bright">
+      <Section label="The method" tone="bright">
         <RevealBlock className="max-w-[68ch]">
           <h2 className="font-display text-h2 font-medium">{c.moat.h2}</h2>
           {c.moat.body.map((p, i) => (

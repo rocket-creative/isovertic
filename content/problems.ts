@@ -1322,7 +1322,7 @@ export const problems: Problem[] = [
         "Next.js with TypeScript, server rendered, on Vercel, with content in typed files or Postgres. It is what your first engineering hire already knows, it renders fully for crawlers and AI engines, and it has no plugin layer to rot. Content lives in typed data files: a services file, an articles folder, a schema builder. Marketing edits copy; the type checker catches the mistakes; the build fails before the typo ships. That is the stack every build we ship uses, and the reason engineers approve it in one review.",
       ]},
       { h2: "Who owns what, written down", body: [
-        "Engineering owns the deploy pipeline, the domain, and the initial review. Marketing owns every page, every word, and the publishing cadence. The growth partner, if you have one, builds inside that split and hands the repo back with the runbook for adding a page. Request any page without JavaScript and read the copy; that is the acceptance test, and it is the one most page builder sites fail.",
+        "Engineering owns the deploy pipeline, the domain, and the initial review. Marketing owns every page, every word, and the publishing cadence. The growth agency, if you have one, builds inside that split and hands the repo back with the runbook for adding a page. Request any page without JavaScript and read the copy; that is the acceptance test, and it is the one most page builder sites fail.",
       ]},
     ],
     faqs: [

@@ -8,6 +8,14 @@ Next.js App Router, TypeScript strict, Tailwind v4 (CSS first, tokens in app/glo
 ## Design law
 Editorial luxury minimalism. Warm white #F5F4F0, ink #14181B, one accent: Navy #0F2C3F. No gradients, no shadows, no border radius above 4px, no stock photos, no custom cursor (system cursor only), no decoration that does not encode information. The ISOVERTIC mark motif (.iso-mark) is the signature: a filled circle and an angled rise. Do not invent new motifs.
 
+## Positioning canon
+`CORE-MESSAGE-FOUNDATION.md` at the repo root is the source of truth for what ISOVERTIC is. Every line of copy that describes the company traces to it. Short version: the growth agency for companies that sell to specialists; one senior team owns the pipeline from the first search to the booked meeting; the method is the how, not the hat. Say growth agency, never growth firm, capture engine, or pipeline shop. Tier names are Ground State, Excitation, Amplification, Quantum Leap.
+
+## Skills (docs/skills/)
+- `docs/skills/isovertic-voice/SKILL.md`: how to write anything a prospect or client reads. Load for copy, field notes, emails, decks.
+- `docs/skills/isovertic-marketing/SKILL.md`: positioning, ICP, offer, engagement length defense, and the ten client model playbooks under `references/`. Load for strategy, proposals, briefs.
+Read the relevant SKILL.md before writing site copy or client material.
+
 ## Writing law (hard rules, lint enforced)
 - No hyphens used as dashes, no em dashes, no en dashes anywhere in copy. Slugs and CSS are exempt.
 - Banned phrases: "clean and professional", "this framing", "happy to", "through line", "operationally".

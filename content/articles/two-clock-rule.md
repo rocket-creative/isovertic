@@ -60,7 +60,7 @@ A lead your marketing team generated in March may not become closed revenue unti
 
 You would not fire an in-house head of marketing at 90 days. **Average S&P 500 CMO tenure is 4.1 years**, compared to **5.0 years for other C-suite roles** ([Spencer Stuart CMO Tenure 2026](https://www.spencerstuart.com/research-and-insight/cmo-tenure-2026-snapshot-of-an-expanding-role-for-marketing-leaders)). Fortune 500 CMO tenure is 4.3 years ([Spencer Stuart CMO Tenure Study 2025](https://www.spencerstuart.com/research-and-insight/cmo-tenure-study-2025-the-evolution-of-marketing-leadership)).
 
-An in-house CMO gets 6 to 12 months before performance is judged. If your outside pipeline shop can be fired at 90 days on the same work, you are applying two different rules to the same job.
+An in-house CMO gets 6 to 12 months before performance is judged. If your outside growth agency can be fired at 90 days on the same work, you are applying two different rules to the same job.
 
 ## Why 90-day agency contracts fail
 
