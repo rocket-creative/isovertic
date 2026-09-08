@@ -10,6 +10,8 @@ export type Person = {
   sameAs?: string[];
   initials: string;
   dateModified?: string;
+  /** Optional disclosure shown below the bio paragraphs. */
+  disclosure?: string;
 };
 
 export const people: Person[] = [
@@ -50,6 +52,7 @@ export const people: Person[] = [
     ],
     knowsAbout: ["Life science sales", "CRO business development", "Mouse model services", "Research institution operations", "Scientific content review"],
     alumniOf: ["Stony Brook University"],
+    disclosure: "Kristen is a former team member of Ingenious Targeting Laboratory, an Isovertic client in the mouse-model space. Isovertic engagements with Ingenious are reviewed for conflicts by the founder, and Kristen recuses herself from account decisions where a conflict is possible.",
   },
 ];
 

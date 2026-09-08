@@ -33,6 +33,11 @@ export default async function PersonPage({ params }: { params: Promise<{ slug: s
       <Section label="Bio">
         <RevealBlock className="max-w-[68ch] space-y-5 leading-relaxed text-ink/90">
           {p.bio.map((b, i) => <p key={i}>{b}</p>)}
+          {p.disclosure && (
+            <p>
+              <strong>Disclosure.</strong> {p.disclosure}
+            </p>
+          )}
         </RevealBlock>
       </Section>
       <Section label="Credentials" tone="bright">
