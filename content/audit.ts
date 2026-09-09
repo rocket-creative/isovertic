@@ -8,16 +8,43 @@ export type Question = { id: string; text: string; weight: 1 | 2; options: Optio
 export const auditMeta = {
   path: "/audit",
   title: "The Pipeline Ownership Audit | ISOVERTIC",
-  description: "Ten questions. Score your pipeline ownership, get a tier recommendation and a written diagnosis. No sales call required; the report is yours.",
+  description: "Ten questions, about 10 minutes. Score your pipeline ownership, get a tier recommendation and a written diagnosis. Nobody calls unless you ask.",
   eyebrow: "The Pipeline Ownership Audit",
   h1: "Who owns your number?",
-  lead: "Ten questions, about six minutes. You get a score, a tier recommendation, and a written diagnosis you can keep or ignore. Nobody calls you unless you ask.",
-  completionTime: "6 min",
-  whyH2: "Why these ten questions.",
-  why: [
-    "Five of them count double: how many vendors you pay, who owns the number, how many meetings you booked last month, what each one cost, and when you need the next ones. Those five predict whether a pipeline exists. The other five, publishing cadence, a written meeting definition, regulated buyers, cycle length, and the trigger that brought you here, decide which tier fits and when revenue can honestly be judged.",
-    "The score is not a grade. A high score means the ownership gap is large and the fix is worth more. A low score means start small and measure.",
+  lead: [
+    "A pipeline fails in the handoffs. The website vendor reports a launch. The ads vendor reports clicks. The sales vendor reports dials. Nobody can say who owns the meeting or why a lead stopped moving.",
+    "The Pipeline Ownership Audit identifies that gap in about 10 minutes. You receive a score, a tier recommendation, and a written diagnosis you can keep or ignore. Nobody calls unless you ask.",
   ],
+  completionTime: "10 min",
+  whyH2: "Ten questions, one operating picture.",
+  why: [
+    "The audit asks about the vendors under contract, who owns the number, meetings booked last month, cost per meeting, and when the next meetings are needed. Those questions establish whether the work is connected to a real pipeline or divided into reports.",
+    "It also asks about publishing cadence, a written meeting definition, regulated buyers, sales-cycle length, and the trigger that brought you here. Those answers determine which part of the Isovertic system may fit and when it would be honest to judge revenue.",
+    "The score is not a grade. A high score means the ownership gap is larger and the repair may be worth more. A low score can mean start smaller, measure, or leave the work alone.",
+  ],
+  sections: [
+    { h2: "What you get in about ten minutes", body: ["The result gives you three things:"], list: [
+      "A pipeline-ownership score. A direct read on whether one person or team owns the path from search to booked meeting.",
+      "A tier recommendation. Ground State for the content drumbeat, Excitation for content plus paid demand, Amplification for the full pipeline program, or Quantum Leap for multi-brand operation.",
+      "A written diagnosis. The missed handoff, the next sensible step, and the condition that would make the recommendation wrong.",
+    ], after: "You can compare the tier recommendation against [published pricing](/pricing) before taking a call. Every tier has a 12-month term, because the ramp, search work, and long sales cycle need a fair review window." },
+    { h2: "The system the audit tests", body: [
+      "The audit does not test whether you have a handsome site or a large report. It tests whether the operating pieces connect.",
+      "Build is the site that a specialist can find and trust. Rank is content that answers the terms specialists search. Run is paid search measured in meetings. Buy is media when recognition is part of the sale. Book is outbound that creates a defensible appointment. Educate is Protocol, where your team receives the runbooks to operate the system internally.",
+      "The seven layers under Build make the rest measurable: keyword architecture, site architecture, specialist templates, tracking, compliance, algorithm monitoring, and catalog expansion. Read the full method on the [system page](/system).",
+    ] },
+    { h2: "The honest limits", body: [
+      "The audit can tell you that the method is a poor fit. It works when buyers already search with specific vocabulary. If your category has no search language yet, a specialist-search site cannot find those buyers. That is a different problem.",
+      "It can also tell you that a small budget will produce a small result. A lead a week is a trickle, not a flood. The correct next step may be a focused content program, not an overpromised campaign.",
+      "Sometimes the diagnosis is that your current team is already fine. That is useful. The point is a better operating decision, not a forced engagement.",
+    ] },
+    { h2: "What the audit does not sell", body: [
+      "Isovertic is not the brand shop, creative shop, positioning shop, or sales-enablement shop. Those disciplines may be useful, and a freelancer, internal hire, or other specialist may be the right way to obtain them.",
+      "Our work is the capture system: the website that gets found, the content and paid work that direct the right buyer there, and the tracking that proves which page and campaign produced the meeting. The audit only recommends a tier when that system is the relevant repair.",
+    ] },
+  ] as { h2: string; body: string[]; list?: string[]; after?: string }[],
+  move: "Send us your best-converting landing page URL. If your site is invisible to answer engines, [book a pipeline call](/contact) and paste us the URL. In about ten minutes we'll tell you what is firing, whether the issue is the page or the tracking, and what a rebuild would cost, or whether you need one at all. Sometimes the honest answer is you're already fine, and we're happy to say so and hand you back your afternoon.",
+  moveNote: "If you already know the fit, the [pricing page](/pricing) has every tier, add-on, and commitment shape.",
   gate: {
     label: "Unlock the written diagnosis",
     body: "Ten answers, ten plain readings, and what each one means for the tier above. A work email unlocks it. We do not call unless you book.",

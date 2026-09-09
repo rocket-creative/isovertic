@@ -8,7 +8,9 @@ import { JsonLd } from "@/components/ui/JsonLd";
 import { CTABand } from "@/components/sections/CTABand";
 import { FounderStrip } from "@/components/sections/FounderStrip";
 import { TrackedLink } from "@/components/ui/TrackedLink";
-import { ClientQuote } from "@/components/ui/ClientQuote";
+import { ClientQuote, PipelineCtaClose } from "@/components/ui/ClientQuote";
+import { PageBlocks } from "@/components/sections/PageTemplate";
+import { getIndustry } from "@/content/industries";
 import { CompliancePosture, SensitiveDataGovernance, MlrWorkflow, ClaimDiscipline, MedicareNote } from "@/components/compliance/Compliance";
 import { SalesCycleTable } from "@/components/standard/Tables";
 import { DownloadCard } from "@/components/standard/DownloadCard";
@@ -16,12 +18,13 @@ import { breadcrumbLd, faqLd, resourceLd, serviceLd } from "@/lib/schema";
 import { healthcareMeta as m, healthcareHeadings as h, whyDifferent, mlr, claims, complianceFaqs, healthcareRelated } from "@/content/compliance";
 import { healthcareComplianceOfficer } from "@/content/voice-audit";
 
-// Static route wins over app/industries/[slug]. The healthcare entry in content/industries.ts still feeds
-// the industries index, the footer, and the sitemap.
+// Static route wins over app/industries/[slug]. The healthcare entry in content/industries.ts carries the page copy
+// (hero, sections, close), and this route adds the compliance posture modules underneath it.
+const page = getIndustry("healthcare")!;
 
 export const metadata: Metadata = {
-  title: { absolute: m.title },
-  description: m.description,
+  title: { absolute: page.title },
+  description: page.metaDescription,
   alternates: { canonical: m.path },
 };
 
@@ -30,18 +33,35 @@ export default function Healthcare() {
     <>
       <JsonLd
         data={[
-          serviceLd(m.h1, m.description, m.path),
-          resourceLd({ headline: m.h1, description: m.description, path: m.path, datePublished: "2026-09-05", dateModified: m.dateModified, section: "Compliance" }),
+          serviceLd(page.h1, page.metaDescription, m.path),
+          resourceLd({ headline: page.h1, description: page.metaDescription, path: m.path, datePublished: "2026-09-05", dateModified: page.dateModified ?? m.dateModified, section: "Compliance" }),
           faqLd(complianceFaqs),
-          breadcrumbLd([{ name: "Home", path: "/" }, { name: "Industries", path: "/industries" }, { name: m.eyebrow, path: m.path }]),
+          breadcrumbLd([{ name: "Home", path: "/" }, { name: "Industries", path: "/industries" }, { name: page.eyebrow, path: m.path }]),
         ]}
       />
-      <PageHero eyebrow={m.eyebrow} h1={m.h1} lead={m.lead} />
+      <PageHero eyebrow={page.eyebrow} h1={page.h1} lead={page.lead} />
 
       <Section label="Client" deferred={false}>
         <RevealBlock>
           <ClientQuote />
         </RevealBlock>
+      </Section>
+
+      {page.callout && (
+        <Section label={page.callout.label} deferred={false}>
+          <RevealBlock>
+            <p className="max-w-[62ch] leading-relaxed text-ink/90">{page.callout.body}</p>
+          </RevealBlock>
+        </Section>
+      )}
+
+      <Section label={page.eyebrow} tone="bright">
+        <PageBlocks blocks={page.sections} />
+        {page.pipelineCta && (
+          <RevealBlock className="mt-16">
+            <PipelineCtaClose headline={page.pipelineCta.headline} body={page.pipelineCta.body} />
+          </RevealBlock>
+        )}
       </Section>
 
       <Section label="Why it is different" deferred={false}>

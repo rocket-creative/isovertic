@@ -1,12 +1,12 @@
 import Link from "next/link";
-import type { Page } from "@/content/types";
+import type { Block, Page } from "@/content/types";
 import { Section, PageHero } from "@/components/sections/Shell";
 import { RevealBlock } from "@/components/ui/RevealBlock";
 import { FAQ } from "@/components/ui/FAQ";
 import { Arrow } from "@/components/ui/Arrow";
 import { CTABand } from "@/components/sections/CTABand";
 import { FounderStrip } from "@/components/sections/FounderStrip";
-import { ClientQuote, PipelineCtaClose } from "@/components/ui/ClientQuote";
+import { ClientQuote, LinkedCopy, PipelineCtaClose } from "@/components/ui/ClientQuote";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { faqLd, serviceLd, breadcrumbLd } from "@/lib/schema";
 
@@ -60,16 +60,7 @@ export function PageTemplate({
         </Section>
       )}
       <Section label={page.eyebrow} tone="bright">
-        <div className="max-w-[72ch] space-y-16">
-          {page.sections.map((s, i) => (
-            <RevealBlock key={i}>
-              <h2 className="font-display text-h2 font-medium">{s.h2}</h2>
-              {s.body.map((p, j) => (
-                <p key={j} className="mt-5 leading-relaxed text-ink/90">{p}</p>
-              ))}
-            </RevealBlock>
-          ))}
-        </div>
+        <PageBlocks blocks={page.sections} />
       </Section>
       <Section label="Questions">
         {page.disciplineNote && (
@@ -99,5 +90,36 @@ export function PageTemplate({
       <FounderStrip />
       <CTABand />
     </>
+  );
+}
+
+/** Renders a page's section blocks: h2, paragraphs, an optional list, and optional h3 subsections. */
+export function PageBlocks({ blocks }: { blocks: Block[] }) {
+  return (
+    <div className="max-w-[72ch] space-y-16">
+      {blocks.map((s, i) => (
+        <RevealBlock key={i}>
+          <h2 className="font-display text-h2 font-medium">{s.h2}</h2>
+          {s.body.map((p, j) => (
+            <p key={j} className="mt-5 leading-relaxed text-ink/90"><LinkedCopy text={p} /></p>
+          ))}
+          {s.list && (
+            <ul className="mt-5 space-y-3 leading-relaxed text-ink/90">
+              {s.list.map((x) => (
+                <li key={x} className="flex gap-3"><span aria-hidden="true">·</span><span><LinkedCopy text={x} /></span></li>
+              ))}
+            </ul>
+          )}
+          {s.subs?.map((sub) => (
+            <div key={sub.h3} className="mt-10">
+              <h3 className="font-display text-h3 font-medium">{sub.h3}</h3>
+              {sub.body.map((p, j) => (
+                <p key={j} className="mt-4 leading-relaxed text-ink/90"><LinkedCopy text={p} /></p>
+              ))}
+            </div>
+          ))}
+        </RevealBlock>
+      ))}
+    </div>
   );
 }

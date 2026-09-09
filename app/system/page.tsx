@@ -16,8 +16,8 @@ import { method as c } from "@/content/method";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "How the ISOVERTIC System Works | Six Steps, One Team" },
-  description: "The six steps of the ISOVERTIC pipeline, Build, Rank, Run, Buy, Book, Educate, and the method under step one that gets the site found by the specialist.",
+  title: { absolute: "How the ISOVERTIC System Works | Six Steps, Seven Layers" },
+  description: "The six steps of the ISOVERTIC pipeline, Build, Rank, Run, Buy, Book, Educate, and the seven layers under Build that get the site found by the specialist already searching.",
   alternates: { canonical: "/system" },
 };
 
@@ -53,18 +53,27 @@ export default function System() {
         </RevealBlock>
       </Section>
 
-      <Section label="The method" tone="bright">
-        <RevealBlock className="max-w-[68ch]">
-          <h2 className="font-display text-h2 font-medium">{c.moat.h2}</h2>
-          {c.moat.body.map((p, i) => (
-            <p key={i} className={`${i === 0 ? "mt-6" : "mt-5"} leading-relaxed text-ink/90`}>{p}</p>
-          ))}
+      <Section label="The six in practice" tone="bright">
+        <RevealBlock>
+          <h2 className="font-display text-h2 font-medium">{c.stepsDetail.h2}</h2>
         </RevealBlock>
+        <ol className="mt-12 max-w-[72ch] grid gap-px bg-rule">
+          {c.stepsDetail.items.map((step, i) => (
+            <RevealBlock key={step.n} as="li" delay={i * 60} className="surface-card p-8">
+              <p className="eyebrow">Step {step.n}</p>
+              <h3 className="mt-3 font-display text-h3 font-medium">{step.title}</h3>
+              {step.body.map((p, j) => (
+                <p key={j} className="mt-4 leading-relaxed text-ink/90"><LinkedCopy text={p} /></p>
+              ))}
+            </RevealBlock>
+          ))}
+        </ol>
       </Section>
 
       <Section label="The seven layers">
-        <RevealBlock>
+        <RevealBlock className="max-w-[68ch]">
           <h2 className="font-display text-h2 font-medium">{c.layers.h2}</h2>
+          <p className="mt-6 leading-relaxed text-ink/90">{c.layers.intro}</p>
         </RevealBlock>
         <ol className="mt-12 max-w-[72ch] grid gap-px bg-rule">
           {c.layers.items.map((layer, i) => (
@@ -75,21 +84,9 @@ export default function System() {
             </RevealBlock>
           ))}
         </ol>
-      </Section>
-
-      <Section label="The six in practice" tone="bright">
-        <RevealBlock>
-          <h2 className="font-display text-h2 font-medium">{c.stepsDetail.h2}</h2>
+        <RevealBlock className="mt-10 max-w-[68ch]">
+          <p className="leading-relaxed text-ink/90">{c.layers.close}</p>
         </RevealBlock>
-        <ol className="mt-12 max-w-[72ch] grid gap-px bg-rule">
-          {c.stepsDetail.items.map((step, i) => (
-            <RevealBlock key={step.n} as="li" delay={i * 60} className="surface-card p-8">
-              <p className="eyebrow">{step.n}</p>
-              <h3 className="mt-3 font-display text-h3 font-medium">{step.title}</h3>
-              <p className="mt-4 leading-relaxed text-ink/90">{step.body}</p>
-            </RevealBlock>
-          ))}
-        </ol>
       </Section>
 
       <AiHuman />
@@ -98,7 +95,7 @@ export default function System() {
       <Section label="Limits">
         <RevealBlock className="max-w-[68ch]">
           <h2 className="font-display text-h2 font-medium">{c.limits.h2}</h2>
-          <p className="mt-6 leading-relaxed text-ink/90">{c.limits.intro}</p>
+          {c.limits.intro ? <p className="mt-6 leading-relaxed text-ink/90">{c.limits.intro}</p> : null}
           <ol className="mt-6 list-decimal space-y-4 pl-5 leading-relaxed text-ink/90">
             {c.limits.items.map((item) => (
               <li key={item.title}>
@@ -119,15 +116,18 @@ export default function System() {
       <Section label="The commitment">
         <RevealBlock className="max-w-[68ch]">
           <h2 className="font-display text-h2 font-medium">{c.commitment.h2}</h2>
-          <p className="mt-6 leading-relaxed text-ink/90">{c.commitment.intro}</p>
-          <ol className="mt-6 list-decimal space-y-4 pl-5 leading-relaxed text-ink/90">
-            {c.commitment.ramp.map((item) => (
-              <li key={item.title}>
-                <strong>{item.title}</strong> {item.body}
-              </li>
-            ))}
-          </ol>
+          <p className="mt-6 leading-relaxed text-ink/90"><LinkedCopy text={c.commitment.intro} /></p>
+          {c.commitment.ramp.length > 0 && (
+            <ol className="mt-6 list-decimal space-y-4 pl-5 leading-relaxed text-ink/90">
+              {c.commitment.ramp.map((item) => (
+                <li key={item.title}>
+                  <strong>{item.title}</strong> {item.body}
+                </li>
+              ))}
+            </ol>
+          )}
           <p className="mt-6 leading-relaxed text-ink/90">{c.commitment.after}</p>
+          <p className="mt-6 leading-relaxed text-ink/90"><LinkedCopy text={c.commitment.cta} /></p>
         </RevealBlock>
       </Section>
 

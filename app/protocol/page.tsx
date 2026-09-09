@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: { absolute: "Protocol Team Training | ISOVERTIC" },
-  description: "One or two days at your office. Your team leaves with the same runbooks our account teams work from, rewritten in your name. From $5,000.",
+  description: "Protocol is step 06 of the Isovertic system. We hand over the eight runbooks and your team runs the system. One or two days at your office. $5,000 for one department, $20,000 for a full team.",
   alternates: { canonical: "/protocol" },
 };
 
@@ -47,20 +47,20 @@ const versions = [
 ];
 
 const runbooks = [
-  "01 Content production: blog, newsletter, and social on a weekly cadence",
-  "02 Search and AI citation page build",
+  "01 Content production for blog, newsletter, and social publishing on a weekly cadence",
+  "02 Search and answer-engine citation page build",
   "03 Google Ads build and the weekly review",
-  "04 Outbound sequence, call script, and CRM hygiene",
-  "05 Lead handoff, so the 70 percent of leads that never get a call get one",
+  "04 Outbound sequence, call script, and customer relationship management hygiene",
+  "05 Lead handoff, so leads receive a call rather than disappearing between teams",
   "06 Reporting cadence and the one number each role owns",
-  "07 MLR review workflow for clinical, safety, and efficacy claims",
-  "08 HIPAA rules for patient facing pages and forms",
+  "07 Medical, legal, and regulatory review workflow for clinical, safety, and efficacy claims",
+  "08 HIPAA rules for patient-facing pages and forms",
 ];
 
 const faqs = [
   { q: "Can we buy the Protocol and a monthly tier?", a: "Yes. Companies on any monthly tier can add the one day Protocol for $3,500, since our team already knows your stack. Most use it to train the sales side while we run marketing." },
-  { q: "Do we need a medical reviewer?", a: "Only if your content makes clinical, safety, or efficacy claims. If it does, we write the MLR step around a reviewer you name with an MD or PhD credential. We do not supply one." },
-  { q: "Can this run remotely?", a: "The one day Protocol can run as two remote half days. The full team Protocol is onsite. You cannot audit a CRM and a sales floor over video." },
+  { q: "Do we need a medical reviewer?", a: "Only if your content makes clinical, safety, or efficacy claims. If it does, we write the review step around a reviewer you name with the appropriate credential. Protocol does not supply one. That responsibility should sit with the organization making the claim." },
+  { q: "Can this run remotely?", a: "The one-day format can run as two remote half days. The full-team format is on site because the work includes examining the customer relationship management system and the handoffs between real people. Video can explain a process. It cannot show every operational seam." },
   { q: "Who teaches it?", a: "The founder, on every Protocol. Thirty years building software, brands, and demand, and every runbook in the library was written from an account we run." },
 ];
 
@@ -70,8 +70,11 @@ export default function Protocol() {
       <JsonLd data={[faqLd(faqs), breadcrumbLd([{ name: "Home", path: "/" }, { name: "Protocol", path: "/protocol" }])]} />
       <PageHero
         eyebrow="Step 06 · Protocol · For teams that run it themselves"
-        h1="We hand over the protocol. Your team runs it."
-        lead="One or two days at your office. Your team leaves with the same runbooks our account teams work from, rewritten in your name, with the compliance steps a biotech or healthcare marketer cannot skip."
+        h1="Protocol: the system your team can run."
+        lead={[
+          "Protocol is step 06 of the Isovertic system: Educate. We hand over the runbooks. Your team runs the system. The work takes one or two days at your office, then continues with a follow-up once the process meets your real calendar and approval chain.",
+          "This is not generic training. The Google Ads runbook is written by the specialists who operate paid search. The compliance runbook is written by the compliance officer. The review workflow is written by the molecular biologist. The content runbook is written by the people who produce it.",
+        ]}
       />
       <section className="border-b border-rule">
         <div className="mx-auto flex max-w-[1440px] flex-wrap items-center gap-4 gutter py-8">
@@ -81,9 +84,12 @@ export default function Protocol() {
       </section>
       <Section label="Who this is for">
         <RevealBlock className="max-w-[68ch]">
-          <h2 className="font-display text-h2 font-medium">You have the people. You do not have the process.</h2>
+          <h2 className="font-display text-h2 font-medium">For teams with people but no shared process.</h2>
           <p className="mt-6 leading-relaxed text-ink/90">
-            Protocol is step six of the system: educate. You already have a marketing hire, a sales hire, maybe a developer. What you do not have is a written process they share, so every quarter someone rebuilds the outbound sequence from memory and the ads account drifts. Protocol is for companies that want to keep the work in house and stop paying for that drift. If you would rather hand the whole pipeline to us, that is the tier page.
+            Protocol fits a company that already has a marketing hire, a sales hire, or a developer. The missing piece is a written process they share. Without one, the outbound sequence is rebuilt from memory, the ads account drifts, and no one can show why a lead did or did not receive a follow-up.
+          </p>
+          <p className="mt-5 leading-relaxed text-ink/90">
+            If you want us to operate the work month to month, choose a monthly tier. If you want your people to operate it, Protocol gives them the documented method in your brand.
           </p>
           <div className="mt-6">
             <Link href="/pricing" className="cta-link">See the monthly tiers <Arrow /></Link>
@@ -95,7 +101,7 @@ export default function Protocol() {
           <p className="leading-relaxed text-ink/90">{protocolRunbooksParagraph}</p>
         </RevealBlock>
         <RevealBlock className="mt-10">
-          <h2 className="font-display text-h2 font-medium">Priced on the page, like everything else here.</h2>
+          <h2 className="font-display text-h2 font-medium">Two ways to buy Protocol.</h2>
         </RevealBlock>
         <div className="mt-12 grid auto-rows-fr gap-px bg-rule lg:grid-cols-2">
           {versions.map((t, i) => (
@@ -113,17 +119,54 @@ export default function Protocol() {
             </RevealBlock>
           ))}
         </div>
+        <RevealBlock className="mt-10 max-w-[68ch]">
+          <p className="leading-relaxed text-ink/90">
+            Choose Build, Rank, Run, Buy, or Book for the deep session. The goal is not to cover every subject quickly. It is to leave one team able to run one part of the system without rebuilding it from guesswork.
+          </p>
+          <p className="mt-5 leading-relaxed text-ink/90">
+            The full-team version also rewrites the library to your tools, approval chain, and named medical reviewer. It includes recorded sessions, two calls a month for 90 days, one revision round, and travel in the United States.
+          </p>
+          <p className="mt-5 leading-relaxed text-ink/90">
+            Current monthly clients can add the one-day Protocol for a $3,500 one-time fee. We already know the stack, so the session can focus on the internal handoff.
+          </p>
+        </RevealBlock>
       </Section>
       <Section label="The runbook library">
         <RevealBlock className="max-w-[68ch]">
-          <h2 className="font-display text-h2 font-medium">Eight runbooks. Your logo on every page.</h2>
+          <h2 className="font-display text-h2 font-medium">The eight runbooks.</h2>
+          <p className="mt-6 leading-relaxed text-ink/90">Every Protocol engagement is built around eight runbooks:</p>
           <ol className="mt-8 space-y-3 text-[15px] leading-relaxed text-ink/90">
             {runbooks.map((r) => (
               <li key={r} className="flex gap-3"><span aria-hidden="true">·</span>{r}</li>
             ))}
           </ol>
           <p className="mt-8 leading-relaxed text-ink/90">
-            Runbooks 7 and 8 are the ones a general sales trainer cannot sell you. They are written for a named medical reviewer and a BAA covered form stack, because that is how our own biotech and healthcare accounts run.
+            The final two are why a generic sales trainer is not an equivalent substitute for a healthcare or biotech team. Clinical claims need a named medical reviewer. Patient-facing forms need the appropriate handling path. Protocol maps that work to the people who have to approve it.
+          </p>
+        </RevealBlock>
+      </Section>
+      <Section label="What the team learns" tone="bright">
+        <RevealBlock className="max-w-[68ch]">
+          <h2 className="font-display text-h2 font-medium">What the team learns.</h2>
+          <p className="mt-6 leading-relaxed text-ink/90">
+            The team learns the operating sequence, not merely a set of templates. That includes where the website build affects paid search, where content creates the next page opportunity, and where a booked meeting becomes a data point for the next campaign decision.
+          </p>
+          <p className="mt-5 leading-relaxed text-ink/90">
+            The developer track explains the build rules that protect the site as the catalog grows: server rendering, structured content, page hierarchy, and tracking. The marketing and sales tracks explain the handoff, the weekly review, and the reporting rhythm.
+          </p>
+        </RevealBlock>
+      </Section>
+      <Section label="The honest limit">
+        <RevealBlock className="max-w-[68ch]">
+          <h2 className="font-display text-h2 font-medium">The honest limit.</h2>
+          <p className="mt-6 leading-relaxed text-ink/90">
+            Protocol is only useful when the team can dedicate a focused day and then run the work. A runbook library does not improve a program from a shared drive. It improves the program when the people named in it use it.
+          </p>
+          <p className="mt-5 leading-relaxed text-ink/90">
+            Protocol also does not supply a medical reviewer. If your content makes clinical, safety, or efficacy claims, we write the review step around a reviewer you name with the appropriate credential. That responsibility should sit with the organization making the claim.
+          </p>
+          <p className="mt-5 leading-relaxed text-ink/90">
+            The one-day format can run as two remote half days. The full-team format is on site because the work includes examining the customer relationship management system and the handoffs between real people. Video can explain a process. It cannot show every operational seam.
           </p>
         </RevealBlock>
       </Section>
@@ -131,13 +174,24 @@ export default function Protocol() {
         <RevealBlock className="max-w-[68ch]">
           <h2 className="font-display text-h2 font-medium">Yours to run. Not yours to resell.</h2>
           <p className="mt-6 leading-relaxed text-ink/90">
-            The runbooks are licensed to your company for internal use. One company, no resale, no redistribution to an agency or to your own clients. Agencies who want to run our system for their clients should ask about the agency license, which is priced separately.
+            The license is for your company to use internally. It is not for resale or distribution to an agency or your own clients. Agencies that want to use the system with client accounts should ask about the separately priced agency license.
           </p>
         </RevealBlock>
       </Section>
       <Section label="Questions">
         <h2 className="font-display text-h2 font-medium">What operators ask first</h2>
         <div className="mt-10 max-w-[72ch]"><FAQ faqs={faqs} /></div>
+      </Section>
+      <Section label="Start here" tone="bright">
+        <RevealBlock className="max-w-[68ch]">
+          <h2 className="font-display text-h2 font-medium">Start with your existing process.</h2>
+          <p className="mt-6 leading-relaxed text-ink/90">
+            Send us your current process document, approval chain, or campaign brief. If your team is rebuilding the same work from memory, <Link href="/contact" className="underline underline-offset-4 hover:text-navy">book a pipeline call</Link> and paste us the artifact. In about ten minutes we'll tell you which runbook is missing, whether Protocol or a monthly tier fits, and what the work would cost. Sometimes the honest answer is you're already fine, and we're happy to say so and hand you back your afternoon.
+          </p>
+          <p className="mt-5 leading-relaxed text-ink/90">
+            For the monthly options and current-client add-on, see <Link href="/pricing" className="underline underline-offset-4 hover:text-navy">published pricing</Link>.
+          </p>
+        </RevealBlock>
       </Section>
       <FounderStrip />
       <CTABand />

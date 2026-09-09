@@ -35,7 +35,7 @@ export const tiers: Tier[] = [
     spend: "",
     price: "$2,500",
     per: "per month on a 12 month term",
-    for: "The content drumbeat, running without meetings.",
+    for: "The compounding layer. The content drumbeat that gets you cited, running without a meetings program.",
     includes: [
       "One newsletter a month, sent from your own list",
       "One blog post a month, written to be cited by search and AI",
@@ -68,7 +68,7 @@ export const tiers: Tier[] = [
     spend: "plus ad spend",
     price: "$10,000",
     per: "per month on a 12 month term, plus ad spend",
-    for: "The full pipeline. The flagship engagement.",
+    for: "The full pipeline: content, paid search, outbound, production, weekly review, and the compliance stack for regulated buyers.",
     includes: [
       "Everything in Excitation",
       "Multiple Google Ads campaigns with A/B testing and multiple landing pages",
@@ -88,7 +88,7 @@ export const tiers: Tier[] = [
     spend: "plus media",
     price: "From $25,000",
     per: "per month on a 12 month term, plus media",
-    for: "For companies running more than one brand, ready to own a market, or growing faster than the business behind the pipeline can handle.",
+    for: "Multi-brand operation. Every step, every layer, and multiple brands from one accountable team.",
     includes: [
       "Everything in Amplification, run per brand",
       "Two outbound seats",
@@ -129,7 +129,7 @@ export const billing = {
   upfrontNote: "Amplification and Quantum Leap are paid quarterly.",
   eyebrow: "The term",
   h2: "Every tier is a year. The website comes with it.",
-  intro: "We sign a minimum one year term on every tier, because a year is the shortest window in which pipeline and revenue can move on a long cycle account and we would rather not take money we cannot earn. The 90 day ramp still has deliverables in writing and a review at day 90; that review reads leading indicators, and revenue is judged at months six and twelve. Ground State and Excitation bill the term monthly, quarterly at 4 percent off, or up front at eleven months for twelve. Amplification and Quantum Leap are paid quarterly. The website rebuild and hosting come with every term.",
+  intro: "Every engagement is 12 months because a year is the shortest honest window for a long-cycle account. Google Search Central explains that search changes need time to be processed and reflected. We report leading indicators every 30 days, then review pipeline and revenue at months six and 12 against the sales cycle in the agreement. Ground State and Excitation bill the term monthly, quarterly at 4 percent off, or up front at eleven months for twelve. Amplification and Quantum Leap are paid quarterly. The website rebuild and hosting come with every term.",
   columns: ["What", "How it works"],
   rows: [
     ["Term", "12 months on every tier. Nothing shorter is sold, including a paid search sprint."],
@@ -174,7 +174,7 @@ export const multiBrand = {
 };
 
 export const addOns: { name: string; price: string }[] = [
-  { name: "MLR review gate: named reviewer workflow, sign off log, claim library", price: "Ground State $500 per month plus $750 setup. Excitation $750 per month plus $1,000 setup. Amplification $1,200 per month plus $1,500 setup. Quantum Leap quoted" },
+  { name: "Medical, legal, and regulatory review gate: named reviewer workflow, sign off log, claim library", price: "Ground State $500 per month plus $750 setup. Excitation $750 per month plus $1,000 setup. Amplification $1,200 per month plus $1,500 setup. Quantum Leap quoted" },
   { name: "HIPAA form and call stack: BAA covered forms, call tracking, consent language", price: "$750 per month" },
   { name: "Outbound seat added to Excitation", price: "$4,500 per month" },
   { name: "Second product line in Google Ads: separate campaigns, landing page, reporting", price: "$1,000 per month per line" },
@@ -213,9 +213,68 @@ export const protocolTiers = [
   },
 ];
 
+export const pricingHero = {
+  eyebrow: "Pricing",
+  lead: [
+    "The price comes before the pitch. Every tier is a 12-month commitment, includes the website rebuild and hosting, and can be started with card or bank debit. Book a pipeline call if you want to discuss fit first. You do not have to take a discovery call to see the numbers.",
+    "The tiers are not bundles of disconnected deliverables. Each one is built around the pipeline outcome it is engineered to produce. Features are the evidence underneath the outcome.",
+  ],
+};
+
+// Who each tier is for, its limit, and how it bills. Rendered under the tier cards on /pricing.
+export const tierNotes: { slug: Tier["slug"]; h2: string; body: string[] }[] = [
+  {
+    slug: "ground-state",
+    h2: "Ground State: the compounding layer",
+    body: [
+      "Ground State is $2,500 per month on a 12-month term. It produces the content drumbeat that gets you cited, running without a meetings program.",
+      "It includes the $15,000 website rebuild and hosting, one newsletter each month from your list, one blog post designed for search and answer-engine citation, eight social posts across two channels, and a one-page monthly report. The annual term represents $45,000 of work, with $30,000 in monthly fees and the included build.",
+      "Ground State is for a company that needs to publish every week but does not yet need paid search or outbound. It fits founders who are still the only salesperson and know it.",
+      "Its limit is plain. There is no paid demand, no landing-page program, and no meeting number. Ground State is the compounding layer, not the pipeline layer.",
+      "Billing can be monthly, quarterly at 4 percent off, or $27,500 paid up front, which is 11 months for 12.",
+    ],
+  },
+  {
+    slug: "excitation",
+    h2: "Excitation: content plus paid demand",
+    body: [
+      "Excitation is $5,000 per month plus ad spend on a 12-month term. It is content plus paid demand, with a human on the account.",
+      "It includes everything in Ground State, 16 social posts monthly, one Google Ads campaign, one landing page, lead follow-up within one business day, and one strategy call each month. The annual term represents $75,000 of work, with $60,000 in fees and the included build.",
+      "Excitation is for a company with a real offer, a real site conversion path, and $1,000 to $5,000 monthly ad spend to test capture in specialist vocabulary. It uses one product line and one ad campaign. A second product line is an add-on, not an implied part of the tier.",
+      "Billing can be monthly, quarterly at 4 percent off, or $55,000 paid up front. Paid spend goes to the platforms in your own accounts.",
+    ],
+  },
+  {
+    slug: "amplification",
+    h2: "Amplification: the full pipeline",
+    body: [
+      "Amplification is $10,000 per month plus ad spend on a 12-month term. It is the full pipeline program: content, paid search, outbound, production, weekly review, and the compliance stack for regulated buyers.",
+      "It includes everything in Excitation, multiple Google Ads campaigns with testing and more landing pages, one outbound seat with a monthly meeting number in writing, a YouTube channel build, one video and photo production day each quarter, and a weekly call. The annual term represents $135,000 of work, with $120,000 in fees and the included build.",
+      "Amplification is for a company with more than $2 million in annual recurring revenue, a defined ideal client, and a sales team of one or more. It is the rung where the founder stops being the only salesperson.",
+      "It requires a real ad budget of at least $5,000 monthly and a named person on the client side who owns the calendar. It is billed in four quarterly payments of $30,000.",
+    ],
+  },
+  {
+    slug: "quantum-leap",
+    h2: "Quantum Leap: multi-brand operation",
+    body: [
+      "Quantum Leap starts at $25,000 per month plus media on a 12-month term. It operates every step, every layer, and multiple brands from one accountable team.",
+      "It includes Amplification per brand, two outbound seats, streaming and broadcast television buying in your accounts, in-house creative production, an operations audit covering lead flow, automations, and written procedures, and a quarterly board-ready review. The annual value starts at $315,000, including the $15,000 build for each brand.",
+      "Quantum Leap is for Series C and later healthcare, biotech, medtech, or multi-brand groups that run two or more brands through one team. It requires a genuine operating budget. If the number is a stretch, Amplification is the right first purchase.",
+      "It is billed in four quarterly payments starting at $75,000. Additional brands on the same tier receive 15 percent off and keep their own report, accounts, and accountable number.",
+    ],
+  },
+];
+
 export const pricingContext = {
-  commitmentH2: "The commitment",
-  commitment: "Every tier carries a defined 90 day ramp with deliverables and, for Amplification and above, a meeting volume number in writing. Every tier is a one year term, because that is how long it takes for the lagging indicators to move and we would rather lose a sale than sell a window in which we cannot show growth. Inside the year we still re earn the engagement quarterly: leading indicators every 30 days, revenue at months six and twelve.",
+  commitmentH2: "What every term includes",
+  commitment: "The website rebuild begins within the first 30 days. It is built with Next.js, server-rendered pages, and schema on every page. Hosting and bandwidth are included for the term. The first 90 days are the ramp. Deliverables are written into the agreement, and the day-90 review examines leading indicators. Amplification and Quantum Leap carry a monthly meeting number from the ramp onward. Every engagement is 12 months because a year is the shortest honest window for a long-cycle account. We report leading indicators every 30 days, then review pipeline and revenue at months six and 12 against the sales cycle in the agreement. The early-exit clause is direct. The unbilled balance of the included $15,000 build is due on the final invoice, prorated to months served. Nothing else. Code, content, and domain stay yours.",
+  choiceH2: "The choice is explicit",
+  choice: [
+    "Start Ground State if you need the publishing cadence. Start Excitation if you have a conversion path and want to test specialist search with paid demand. Start Amplification if you need the full pipeline program. Start Quantum Leap if multiple brands and media buying are already operational requirements.",
+    "The wrong tier is not a victory for us. We will move you. The method works only when the scope matches the sales cycle, budget, and operating capacity.",
+    "[Start a tier](/pricing#tiers) with card or bank debit, no call required. Or [book a pipeline call](/contact) first if you'd rather talk through the fit. Every tier is a 12-month term. Every price is on the page.",
+  ],
   comparisonH2: "Context for comparison",
   comparison: "An in house equivalent runs $160K to $190K per year for one marketing lead plus one agency, before a single SDR is hired. Standalone appointment setting firms charge $5K to $15K monthly for outbound alone, into whatever website and brand you already have. We price the whole system below the sum of its parts because the parts share a team. Ground State exists for the company that is not ready for any of that yet and still needs to publish every week.",
 };

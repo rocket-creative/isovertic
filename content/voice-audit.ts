@@ -25,28 +25,28 @@ export const industryDiscipline = {
 
 export const servicePipelineCta = {
   "google-ads": {
-    headline: "Send us your Google Ads account.",
-    body: "If your account is on a Performance Max campaign that's spending on your own brand terms and calling it conversion, or if your Quality Score is stuck at 4 and nobody has told you why, [book a pipeline call](/contact) and send us view-only access. In about ten minutes we'll tell you what's firing, what's wasted, and whether the account is the problem or the landing page is. Sometimes the honest answer is the account is fine and the leads aren't calling back, and we're happy to say so and hand you back your afternoon.",
+    headline: "Send us your landing page URL.",
+    body: "If cost per lead is climbing, the account is spending on your own brand terms, or nobody can tell you what a booked meeting costs, [book a pipeline call](/contact) and send us the landing page URL. In about ten minutes we will tell you what is firing, what is wasted, whether the account or page is the problem, and what a fix would require. Sometimes the account is fine and the leads are not being called back. We are happy to say so and hand you back your afternoon.",
   },
   "seo-content": {
     headline: "Send us your site URL.",
-    body: "If your organic traffic is flat, or if you're publishing weekly and none of it ranks or gets cited by AI answer engines, [book a pipeline call](/contact) and send us the URL. In about ten minutes we'll tell you what's indexed, what's cited, what's cannibalizing itself, and whether the fix is content or infrastructure. Sometimes the honest answer is the site is fine and the content just needs more time, and we're happy to say so and hand you back your afternoon.",
+    body: "If organic traffic is flat, or you publish every week and none of it appears in search or answer engines, [book a pipeline call](/contact) and paste in your site URL. In about ten minutes we will tell you what is indexed, what is competing with itself, what has a citation case, and whether the fix is content or infrastructure. Sometimes the honest answer is that the site is fine and the work needs more time. We are happy to say so and hand you back your afternoon.",
   },
   "web-development": {
-    headline: "Send us your site URL.",
-    body: "If your site is on WordPress or Webflow and you can't tell whether crawlers see the copy, or if your page speed score is dragging your ad quality score down with it, [book a pipeline call](/contact) and send us the URL. In about ten minutes we'll tell you what's in the HTML, what's hidden behind JavaScript, what that costs you in AI citations, and whether the fix is a rebuild or a patch. Sometimes the honest answer is the site is fine and the problem is content, and we're happy to say so and hand you back your afternoon.",
+    headline: "Send us your current site.",
+    body: "If your site is on WordPress or Webflow and you cannot tell what a crawler sees, [book a pipeline call](/contact) and send us the URL. In about ten minutes we will tell you what is in the initial HTML, what is hidden behind JavaScript, whether the fix is a patch or rebuild, and what the work would cost. Sometimes the honest answer is that the site is fine and the problem is content. We are happy to say so and hand you back your afternoon.",
   },
   "outbound-appointment-setting": {
-    headline: "Send us your best outbound sequence.",
-    body: "If your reply rate is under 3% or your booked-meeting rate is a rounding error, [book a pipeline call](/contact) and paste us the current sequence. In about ten minutes we'll tell you what's broken (subject line, opening line, ask, timing, or the list), and whether the fix is a rewrite or a new list. Sometimes the honest answer is the sequence is fine and the target list is wrong, and we're happy to say so and hand you back your afternoon.",
+    headline: "Send us your current sequence.",
+    body: "If reply rate is under 3%, booked meetings are a rounding error, or the messages do not match the site, [book a pipeline call](/contact) and paste in the current sequence. In about ten minutes we will tell you whether the subject line, opening, ask, timing, list, or sales surface is broken, and whether the fix is a rewrite or a new list. Sometimes the sequence is fine and the target list is wrong. We are happy to say so and hand you back your afternoon.",
   },
   "design-brand": {
-    headline: "Send us your current brand system.",
-    body: "If your website, your deck, your ads, and your one-pagers look like they came from four different agencies, [book a pipeline call](/contact) and send us the four artifacts. In about ten minutes we'll tell you where the system is inconsistent and what a rebuild would cost, or whether you need one at all. Sometimes the honest answer is the brand is fine and the templates just need to be enforced, and we're happy to say so and hand you back your afternoon.",
+    headline: "Send us your current brand assets.",
+    body: "If your site, deck, ads, and one-pagers look as if they came from four different agencies, [book a pipeline call](/contact) and send us the current brand assets. In about ten minutes we will tell you where the system breaks, whether the issue is identity, message, or execution, and what a rebuild would cost. Sometimes the brand is fine and the templates just need to be enforced. We are happy to say so and hand you back your afternoon.",
   },
   "tv-ctv-advertising": {
-    headline: "Send us your target market and your target buyer.",
-    body: "If you're weighing whether CTV makes sense before you have a national footprint, [book a pipeline call](/contact) and tell us the market and the buyer. In about ten minutes we'll tell you whether CTV is the right buy at your stage or whether your budget belongs on paid search first. Sometimes the honest answer is you're not ready for CTV, and we're happy to say so and hand you back your afternoon.",
+    headline: "Send us your target market.",
+    body: "If you are weighing CTV before you have a national footprint, [book a pipeline call](/contact) and send us your target market and buyer. In about ten minutes we will tell you whether the channel fits your stage, what the test needs to measure, and whether the budget belongs in paid search first. Sometimes the honest answer is that you are not ready for CTV. We are happy to say so and hand you back your afternoon.",
   },
 } as const;
 

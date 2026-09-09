@@ -1,120 +1,105 @@
-// /system page copy. Verbatim from the system rewrite. Do not invent, paraphrase, or restyle.
+// /system page copy. Rewritten 2026-09-09 from the "Rewrite system" draft. Do not invent, paraphrase, or restyle.
 
 export const method = {
   eyebrow: "How it works",
-  h1: "Six steps. One team. One number at the end.",
-  lead: "Every ISOVERTIC engagement uses the same system. The tier sets which steps we operate and how deep. Nothing is custom scoped in a proposal you cannot compare, so a Ground State client and a Quantum Leap client can read the same page and know what they bought.",
+  h1: "Six steps, seven layers, one system.",
+  lead: [
+    "Every Isovertic engagement uses the same system. The tier sets which steps we operate and how deep. Nothing is custom-scoped in a proposal you cannot compare, so a Ground State client and a Quantum Leap client can read the same page and know what they bought.",
+    "The system builds the site that gets found by the specialist already searching for what you sell, then puts paid spend only behind those people. The last step is yours: close.",
+  ],
   heroCta: { label: "Book a pipeline call", href: "/contact" },
-  closeNote: "Then the only step left is yours. Close.",
-  moat: {
-    h2: "Why step 01 is the part nobody else can copy.",
-    body: [
-      "Brand, creative, positioning, mental availability, sales enablement, and copy are commoditized now. A competent freelancer with Claude or ChatGPT can produce most of them. The one part of the pipeline AI and generalists still cannot ship well is the site that gets found by the specialist who is already searching for what you sell, in the exact vocabulary they use at work.",
-      "Not because writing pages is hard. AI can draft pages. Because the work underneath is a systems-engineering job, and most agencies split it across four people (a writer, an SEO specialist, a developer, an account manager) who each own one piece. Nobody owns the whole stack, so the seams leak. Our step 01 is one method, seven layers deep, that one team runs together. This is the only page on the site that lists the layers, because the layers are the how. What you buy is the pipeline and the meeting at the end of it.",
-    ],
-  },
-  layers: {
-    h2: "The seven layers underneath step 01 BUILD.",
-    items: [
-      {
-        n: "01",
-        title: "Keyword architecture",
-        body: "Before a single page gets drafted, we decide which specialist terms are worth building for. Which terms have real search volume, real commercial intent, and low enough competition to earn a page. Which do not. This is a spreadsheet-and-judgment job that requires understanding the category well enough to spot which terms will convert a specialist into a form fill. AI can list keywords. AI cannot tell you which ones are worth writing for.",
-      },
-      {
-        n: "02",
-        title: "Site architecture",
-        body: "When you publish hundreds of pages on similar topics, Google has to understand which page is the authoritative one for each specific query. Build it wrong and pages cannibalize each other. Both try to rank for the same term. Both lose. Preventing this requires a taxonomy: parent pages, child pages, canonical tags, breadcrumb schema, internal linking patterns that reinforce hierarchy. This is the same skill as designing a database schema.",
-      },
-      {
-        n: "03",
-        title: "Page templates a specialist will trust",
-        body: "A scientist searching for a gene model, or a billing director searching for a CPT code, has a bullshit detector that AI content triggers instantly. Wrong vocabulary. Wrong depth. No primary sources. They close the tab. Building a page template that survives specialist scrutiny requires knowing what specialists check first: is this the right protein family, is the mouse strain background specified, is the reference cited. This is not writing skill. It is a design decision about what has to be on the page before the specialist will read the rest.",
-      },
-      {
-        n: "04",
-        title: "Tracking that proves attribution",
-        body: "The whole point is proving which page produced which lead. That requires server-side conversion tracking so ad blockers and iOS do not lose the data, UTM structure that survives hundreds of pages without collisions, CRM field mapping so HubSpot knows which page a lead came from, and call tracking with dynamic number insertion per source. Most agencies install GA4 and call it done. Then, eight months later, they cannot answer \"which page produced this deal,\" and the renewal conversation collapses because there is no attribution story.",
-      },
-      {
-        n: "05",
-        title: "Compliance stack",
-        body: "For healthcare clients, every page has to be reviewed against HIPAA's marketing rules. Every form has to route through a BAA-covered handler. Every pixel has to be excluded from pages with PHI. Every conversion event has to be server-side. Get any layer wrong and the client is one letter away from a very bad quarter. Regulated categories add SOX, FDA, AdvaMed, and state privacy laws. Every catalog page has to survive that filter.",
-      },
-      {
-        n: "06",
-        title: "Algorithm-drift monitoring",
-        body: "Google runs thousands of algorithm updates a year. A site that ranks in month three can drop in month five because of a core update, then recover in month seven if the technical foundation is right. Someone has to watch this, diagnose what shifted, and adjust, usually by tightening internal linking, refreshing content depth, or rebuilding a page template. This is the reason the engagement is 12 months, not three. Ship the site and walk away and the ranking walks away with you.",
-      },
-      {
-        n: "07",
-        title: "Catalog expansion",
-        body: "The best-performing pages are almost never the ones you expected. Search Console tells you which pages get impressions for queries you did not plan for. That is a signal to build the next page. The system compounds because each month's data informs the next month's builds. A generalist ships the initial set and stops. We keep building based on what the data is telling us.",
-      },
-    ],
-  },
+  closeNote: "The last step is yours: close.",
   stepsDetail: {
-    h2: "What happens in each of the six steps.",
+    h2: "The six steps.",
     items: [
       {
         n: "01",
         title: "Build",
-        body: "The site is the asset every other step points at. We build on Next.js, server rendered, with schema on every page so Google and the AI answer layer can cite it. The seven layers above run underneath the build. Excitation and Amplification get landing pages inside the ramp. The full website build is included at every tier and starts inside the first 30 days of the term.",
+        body: [
+          "Build is the website as sales rep. It is server-rendered, schema-complete, and organized around specialist search terms. The point is not a launch date. The point is a site that can be found, trusted, and connected to a measurable handoff.",
+          "Every tier includes a full website rebuild and hosting. Excitation and Amplification also receive landing pages during the ramp. We build on our stack, with structured content and server-rendered pages. If you must remain on Wix or Squarespace, this is not the right shop.",
+        ],
       },
       {
         n: "02",
         title: "Rank",
-        body: "Content that answers the questions your buyers type and the questions the AI answer layer answers for them. A newsletter, a blog post, and social every month on Ground State, doubled on Excitation, and a full content system with a YouTube channel on Amplification. For biotech and healthcare clients, the MLR add-on puts a named medical reviewer between draft and publish.",
+        body: [
+          "Rank is a content system, not a blog calendar. Commercial terms receive pages. Articles feed the relevant service page. Each page answers a precise question early, carries structured answers, and is reviewed at the level the subject requires.",
+          "Ground State includes one newsletter, one blog post, and eight social posts each month. Higher tiers deepen the cadence and add a YouTube channel. Organic work compounds from evidence gathered after publishing, so it is not the right month-one answer for a company that needs immediate meetings.",
+        ],
       },
       {
         n: "03",
         title: "Run",
-        body: "Google Ads managed to a cost per meeting, not a cost per click. One campaign on Excitation, multiple campaigns with A/B testing on Amplification, and the search-term report read weekly by a person, not a dashboard.",
+        body: [
+          "Run is Google Ads against the vocabulary specialists actually type. We report meetings and cost per meeting, not clicks and cost per click. A click belongs to the platform. A meeting belongs to the business.",
+          "Excitation includes one campaign. Amplification adds multiple campaigns and weekly review. Below about $1,000 a month in ad spend, the learning phase may not complete, so the campaign becomes a coin flip. In that case, Ground State and organic work are the honest recommendation.",
+        ],
       },
       {
         n: "04",
         title: "Buy",
-        body: "Streaming and broadcast TV bought in your own accounts, with an exposed versus control measurement plan so you can see whether it moved the number. Quantum Leap only, with a $25,000 monthly media minimum.",
+        body: [
+          "Buy is streaming and broadcast television when recognition affects the sale. Creative, media buying, and measurement are connected to the pipeline number, not left as a reach report.",
+          "Connected television changed the buying mechanics. It can support a geographic, household-income, or streaming-service selection without treating national television as the only option. It belongs on Amplification and Quantum Leap when the sales cycle and budget support it. It is not the first move for a company still testing whether specialist search can find them.",
+        ],
       },
       {
         n: "05",
         title: "Book",
-        body: "Outbound sequences, cold calls, and a qualified meeting on your calendar with the objection intelligence fed back into the site and the ads. One seat on Amplification with a meeting number in writing. Two seats on Quantum Leap. Excitation can add a seat for $4,500 a month.",
+        body: [
+          "Book is outbound appointment setting. We build the list from real data sources, write the sequences against the live positioning, qualify against the ideal client, and place meetings on your calendar with a written brief.",
+          "Most outbound fails in three places: a bought list, a generic message, and a meeting pointed at a site that cannot defend the claim. Build comes first when that is the condition. Amplification includes one outbound seat and a meeting number in writing. Quantum Leap includes two. Excitation can add a seat through [pricing](/pricing).",
+        ],
       },
       {
         n: "06",
         title: "Educate",
-        body: "Your team, taught the system at your office, with the runbooks rewritten in your brand and licensed to you for internal use. One or two days on-site. Bought on its own as Protocol at $5,000 or $20,000, or added to any tier for $3,500. This is the step for companies that want the system and their own hands on it. Then you close: we book the meeting, brief you, and step out.",
+        body: [
+          "Educate is Protocol. We hand over the runbooks and your team runs the system. One or two days at your office, eight runbooks in your brand, and follow-up after the work begins.",
+          "Protocol is for companies that have people and want the capability in-house. It is not a replacement for a monthly tier when you need an outside team to run the work. It can be an alternative or a complement. Read the [Protocol options](/protocol).",
+        ],
       },
     ],
   },
+  layers: {
+    h2: "The seven layers under Build.",
+    intro: "The six steps are the operating system. Seven layers make the first step defensible.",
+    items: [
+      { n: "01", title: "Keyword architecture", body: "We determine which specialist terms have search volume, commercial intent, and a credible path to a page." },
+      { n: "02", title: "Site architecture", body: "Parent pages, child pages, canonical tags, breadcrumb schema, and internal links tell Google which page owns which query." },
+      { n: "03", title: "Specialist page templates", body: "The page must survive scrutiny from a scientist, clinician, or billing director who checks vocabulary, depth, and sources before they read the pitch." },
+      { n: "04", title: "Tracking", body: "Server-side conversion tracking, source rules, customer relationship management fields, and call tracking connect a lead to the page and campaign that produced it." },
+      { n: "05", title: "Compliance", body: "Healthcare accounts need form handling, consent, pixel exclusions, and review that match their requirements. Other regulated accounts bring their own filters." },
+      { n: "06", title: "Algorithm-drift monitoring", body: "Search systems change. We monitor the result, diagnose the shift, and adjust content depth, internal linking, or the page template." },
+      { n: "07", title: "Catalog expansion", body: "Search data shows the questions we did not predict. Those signals guide the next pages, so the catalog becomes more useful over time." },
+    ],
+    close: "A writer alone cannot operate these layers. Neither can a developer alone. The system joins engineering, content, tracking, and regulated review under one accountable team.",
+  },
   limits: {
-    h2: "Two honest limits.",
-    intro: "We say these out loud because they are true, and because they make the rest of the claim credible.",
+    h2: "What the site does not do.",
+    intro: "",
     items: [
       {
-        title: "This works when buyers already search with specific terms.",
-        body: "If nobody searches for your category yet, this method will not find them, and we will say so before you pay us. Category creation is a different playbook and a different shop.",
+        title: "The method captures existing specialist demand.",
+        body: "It does not manufacture a category when buyers have no language for it. If your market does not search for specific terms, we will tell you the method is a poor fit before a contract starts.",
       },
       {
-        title: "A lead a week on a small budget is a trickle, not a flood.",
-        body: "It is the right result for the spend. We do not promise a flood. What we promise is that every lead came from a specialist who searched for exactly what you sell, and that we can prove which page produced it.",
+        title: "It also does not turn a small budget into a flood of meetings.",
+        body: "A lead a week can be the correct result for the spend. The promise is that the work is connected to the page and campaign that produced it, and that the team can show the path.",
       },
     ],
   },
   scope: {
-    h2: "The pieces we do not sell (and why).",
-    body: "We are not the brand shop, the creative shop, the positioning shop, or the sales-enablement shop. Those pieces of the marketing program still matter, and you still need them. A good in-house marketer or a freelancer can produce them, and AI can accelerate most of that work now. Clients bring those or hire them elsewhere. We run the pipeline, from the site that gets found to the meeting on your calendar, and the tracking that proves which page and which campaign produced it.",
+    h2: "What we are not.",
+    body: "We are not the brand shop, the creative shop, the positioning shop, or the sales-enablement shop. Those pieces can matter. Clients can bring them, hire them elsewhere, or use their internal team. We operate the capture engine and the tracking that proves it worked.",
   },
   commitment: {
-    h2: "12 months. Two clocks. Revenue judged on the right one.",
-    intro: "Every engagement is a 12-month term. The first 90 days are the ramp:",
-    ramp: [
-      { title: "Weeks 1 to 2.", body: "Onboarding, accounts, the MLR or HIPAA gate if your content needs one, and the first content calendar." },
-      { title: "Weeks 3 to 6.", body: "First publishing cadence live, landing pages and campaigns built, outbound lists and sequences approved." },
-      { title: "Weeks 7 to 12.", body: "Campaigns optimized weekly, the first meetings booked on Amplification and above, and a written review at day 90 against the deliverables in your agreement." },
-    ],
-    after: "After the ramp, the year continues on two clocks. Leading indicators (rankings, impressions, cost per lead, learning-phase status) arrive every 30 days. Lagging indicators (pipeline, revenue, CAC payback) are reviewed at months six and twelve, tied to your actual sales cycle. Healthcare, biotech, and medtech sales cycles run 125 days to 24 months, so a lead we generate in month 2 may not close until month 12 or later. Judging pipeline on a 90-day clock measures marketing that has not had time to convert.",
+    h2: "The commitment shape.",
+    intro: "Every tier is a 12-month term because a year is the shortest window in which a long-cycle program can move from build to pipeline to revenue. [Google Search Central notes that search changes take time to be reflected](https://developers.google.com/search/docs/appearance/site-names), which is why a 90-day scorecard should judge the ramp, not closed revenue.",
+    ramp: [] as { title: string; body: string }[],
+    after: "Leading indicators are reported every 30 days. Pipeline and revenue are reviewed at months six and 12, tied to the sales cycle in the agreement. The early-exit clause is direct: the unbilled balance of the $15,000 build is due, prorated to months served. Code and domain stay with the client.",
+    cta: "[Start a tier](/pricing) with card or bank debit, no call required. Or [book a pipeline call](/contact) first if you'd rather talk through the fit. Every tier is a 12-month term. Every price is on the page.",
   },
   tiers: {
     h2: "Which tier runs which steps.",

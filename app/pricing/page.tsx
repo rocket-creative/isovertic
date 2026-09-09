@@ -6,7 +6,8 @@ import { PricingTiers } from "@/components/sections/PricingTiers";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { faqLd, breadcrumbLd, offersLd } from "@/lib/schema";
 import { Arrow } from "@/components/ui/Arrow";
-import { tiers, tierGrid, billing, multiBrand, addOns, protocolTiers, pricingContext, pricingFaqs, tierMath, usd } from "@/content/tiers";
+import { tiers, tierGrid, billing, multiBrand, addOns, protocolTiers, pricingContext, pricingFaqs, pricingHero, tierNotes, tierMath, usd } from "@/content/tiers";
+import { LinkedCopy } from "@/components/ui/ClientQuote";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -22,15 +23,30 @@ export default function Pricing() {
     <>
       <JsonLd data={[offersLd("ISOVERTIC growth system", offers, "/pricing"), faqLd(pricingFaqs), breadcrumbLd([{ name: "Home", path: "/" }, { name: "Pricing", path: "/pricing" }])]} />
       <PageHero
-        eyebrow="Pricing"
-        h1={<>The <span className="text-signal">price</span>, before the pitch.</>}
-        lead="Nobody in this category publishes pricing, which tells you something about how they sell. Here is ours. Four tiers, each a 12 month term with the website rebuild and hosting included, because a year is the shortest window in which real growth shows. Every tier checks out on the page, card or bank debit, no call required."
+        eyebrow={pricingHero.eyebrow}
+        h1={<>Published <span className="text-signal">pricing</span> for the pipeline system.</>}
+        lead={pricingHero.lead}
       />
       <Section label="Tiers">
-        <PricingTiers />
+        <div id="tiers">
+          <PricingTiers />
+        </div>
       </Section>
 
-      <Section label="Which steps" tone="bright">
+      <Section label="Who each tier is for" tone="bright">
+        <div className="max-w-[72ch] space-y-16">
+          {tierNotes.map((t) => (
+            <RevealBlock key={t.slug}>
+              <h2 className="font-display text-h2 font-medium">{t.h2}</h2>
+              {t.body.map((p, j) => (
+                <p key={j} className="mt-5 leading-relaxed text-ink/90">{p}</p>
+              ))}
+            </RevealBlock>
+          ))}
+        </div>
+      </Section>
+
+      <Section label="Which steps">
         <RevealBlock>
           <h2 className="font-display text-h2 font-medium">Which steps each tier runs</h2>
         </RevealBlock>
@@ -188,6 +204,10 @@ export default function Pricing() {
           <p className="mt-4 leading-relaxed text-ink/90">{pricingContext.commitment}</p>
           <h2 className="mt-10 font-display text-h3 font-medium">{pricingContext.comparisonH2}</h2>
           <p className="mt-4 leading-relaxed text-ink/90">{pricingContext.comparison}</p>
+          <h2 className="mt-10 font-display text-h3 font-medium">{pricingContext.choiceH2}</h2>
+          {pricingContext.choice.map((p, j) => (
+            <p key={j} className="mt-4 leading-relaxed text-ink/90"><LinkedCopy text={p} /></p>
+          ))}
         </RevealBlock>
       </Section>
 
