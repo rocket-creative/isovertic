@@ -16,17 +16,20 @@ export const metadata: Metadata = {
 };
 
 export default function Industries() {
+  const listed = industries.filter((s) =>
+    ["healthcare", "biotech", "medical-devices", "life-sciences-tools-and-diagnostics"].includes(s.slug),
+  );
   return (
     <>
       <JsonLd data={breadcrumbLd([{ name: "Home", path: "/" }, { name: "Industries", path: "/industries" }])} />
       <PageHero
         eyebrow="Industries"
         h1="The growth agency for healthcare, biotech, medical devices, and life sciences."
-        lead="Practice administrators, chief scientific officers, VPs of commercial, and founders. The system is the same six steps everywhere; what changes is the compliance gate, the buyer of record, and the page the search lands on. One page per industry below."
+        lead="Practice administrators, chief scientific officers, VPs of commercial, and founders. The system is the same six steps everywhere; what changes is the compliance gate, the buyer of record, and the page the search lands on. Each industry has its own page below."
       />
       <Section label="Pick yours">
         <ul className="divide-y divide-rule border-y border-rule">
-          {industries.map((s, i) => (
+          {listed.map((s, i) => (
             <RevealBlock key={s.slug} as="li" delay={Math.min(i * 60, 300)}>
               <Link href={`/industries/${s.slug}`} className="group grid gap-2 py-7 sm:grid-cols-[64px_1fr_auto] sm:items-baseline sm:gap-8">
                 <span className="eyebrow">{String(i + 1).padStart(2, "0")}</span>

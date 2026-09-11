@@ -393,7 +393,7 @@ export const industries: Page[] = [
         "A 90 day ramp with deliverables you can paste into a board update. A website build included with a 12 month term.",
       ]},
       { h2: "The package that matches the stage", body: [
-        "Pre revenue, Ground State: a newsletter, a published article, and social every month so the company has a voice before it has a sales team. Seed with a budget for demand, Excitation: one Google Ads campaign and a landing page per audience, with a human reading the account weekly. Series A with a board asking for pipeline, Amplification: an outbound seat with a meeting number in writing, multiple campaigns, and a weekly call.",
+        "Pre revenue, Ground State: a newsletter, a published article, and social every month so the company has a voice before it has a sales team. Seed with a budget for demand, Excitation: one Google Ads campaign and a landing page per audience, with a human reading the account weekly. Series A with a board asking for pipeline, Amplification: an outbound seat with meetings verified against the meeting quality standard, multiple campaigns, and a weekly call.",
       ]},
     ],
     faqs: [
@@ -417,7 +417,7 @@ export const industries: Page[] = [
     lead: "Professional services buyers hire people, not brochures. The firms winning in 2026 run founder forward content, publish real expertise, and back it with outbound that opens doors warmly because the diligence trail already exists. We build that whole trail.",
     callout: {
       label: "Typical starting point",
-      body: "Amplification. Your buyer decides on a call, so the outbound seat and the meeting number in writing are the reason to hire us. Pricing is published.",
+      body: "Amplification. Your buyer decides on a call, so the outbound seat and the meeting quality standard are the reason to hire us. Pricing is published.",
     },
     sections: [
       { h2: "Founder led demand", body: [

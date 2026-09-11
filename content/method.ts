@@ -54,7 +54,7 @@ export const method = {
         title: "Book. Qualified meetings on your calendar with a written brief",
         body: [
           "What it does. Book runs outbound for you through phone, email, and LinkedIn. We contact the people your sales team needs to meet, qualify the conversation, and put a qualified meeting on your calendar with a written brief for your salesperson before they take the call.",
-          "What shows up. One outbound seat at Amplification, with a written commitment for the number of meetings per month. Two outbound seats at Quantum Leap. An additional seat on any package for $4,500 per month. Conference sprints for $7,500 per event.",
+          "What shows up. One outbound seat at Amplification. Two outbound seats at Quantum Leap. An additional seat on any package for $4,500 per month. Conference sprints for $7,500 per event. We define what counts as a meeting, we verify each one, and we report cost per qualified meeting.",
           "Honest limit. Outbound before the website can defend the pitch wastes your buyer's time. If the site does not confirm what the email claims, we Build first and begin outreach after it can.",
         ],
       },
@@ -62,7 +62,7 @@ export const method = {
         n: "06",
         title: "Educate. Runbooks for the team you already have",
         body: [
-          "What it does. Educate hands the operating instructions to your team. We spend one or two days at your office, write eight runbooks in your brand, and hold a follow-up call at 30 days. Each runbook comes from the person who does that work: a Google Ads specialist, a compliance officer, and a molecular biologist where the subject requires it.",
+          "What it does. Educate hands the operating instructions to your team. We spend one or two days at your office, write eight runbooks, and hold a follow-up call at 30 days. Each runbook comes from the person who does that work: a Google Ads specialist, a compliance officer, and a molecular biologist where the subject requires it.",
           "What shows up. One department, one day, $5,000: up to 15 people and one step taught in depth. Full team, two days, $20,000: up to 40 people, all six steps, and a developer track. A Protocol day for current clients, $3,500.",
           "Honest limit. Training works when your team can commit one focused day. If they cannot, do not buy it.",
         ],

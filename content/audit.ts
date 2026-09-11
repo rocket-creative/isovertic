@@ -205,7 +205,7 @@ export const tierResults: Record<TierKey, TierResult> = {
     name: "Amplification",
     price: "$10,000 a month plus ad spend",
     headline: "You need meetings, and nobody owns the number.",
-    body: "Amplification runs the whole pipeline: multiple ad campaigns, an outbound seat with a monthly meeting commitment in writing, and the content that makes the meetings show up warm. One team accountable for the number, with the 90 day ramp and the two clock scorecard in the agreement.",
+    body: "Amplification runs the whole pipeline: multiple ad campaigns, an outbound seat, and the content that makes the meetings show up warm. We define what counts, we verify each meeting, and we report cost per qualified meeting. One team accountable for the work, with the 90 day ramp and the two clock scorecard in the agreement.",
     href: "/pricing",
   },
   "quantum-leap": {

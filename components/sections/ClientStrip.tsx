@@ -1,7 +1,6 @@
 const clients = [
   "ingenious targeting laboratory",
   "Sydra",
-  "Kavera",
   "Pathways Within",
   "Capseus",
   "Metablify",

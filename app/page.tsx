@@ -14,6 +14,7 @@ import { IsoverticMove } from "@/components/sections/IsoverticMove";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { faqLd } from "@/lib/schema";
 import { closeNote, heroAudit, commitmentStandard, home } from "@/content/system";
+import { about } from "@/content/about";
 import { TrustStrip } from "@/components/sections/TrustStrip";
 import { BuyerRoleTabs } from "@/components/sections/BuyerRoleTabs";
 import { TrackedLink } from "@/components/ui/TrackedLink";
@@ -32,7 +33,8 @@ const homeFaqs = [
   { q: "How is this different from an appointment setting company?", a: "Appointment setters book meetings into whatever you already have. If the website is weak and the brand is invisible, those meetings show up cold and close poorly. We build the asset and the air cover, then book the meetings into a system designed to convert them." },
   { q: "What does it cost?", a: "Engagements start at $2,500 per month for publishing and run to $25,000 and up for multi-brand programs with television. Every package is a 12-month engagement that includes the $15,000 website rebuild and hosting. Every package, every add-on, and the term table are on the pricing page, and every package checks out on the page by card or bank debit, no call." },
   { q: "Which package should we start on?", a: "If you publish nothing today, Ground State. If you have a site and no paid advertising, Excitation. If you need meetings this quarter, Amplification. If you run more than one brand or want television, Quantum Leap. Wrong package, we move you." },
-  { q: "What if we already have an in house team?", a: "Then we teach them. That is step six, Protocol: one or two days at your office where your team learns the system and leaves with our runbooks in your brand. It starts at $5,000 and is priced on the page." },
+  { q: "What if we already have an in house team?", a: "Then we teach them. That is step six, Protocol: one or two days at your office where your team learns the system and leaves with our written instructions. It starts at $5,000 and is priced on the page." },
+  { q: "Do you promise a specific number of meetings a month?", a: "No. We define what counts, we verify each meeting, and we report cost per qualified meeting. The definition is on the meeting quality standard page." },
   { q: "Where are you located?", a: "Long Island, New York. We serve clients nationally." },
 ];
 
@@ -214,6 +216,21 @@ export default function Home() {
       </Section>
 
       <TeamBios />
+
+      <Section label="The team">
+        <RevealBlock className="max-w-[68ch]">
+          <h2 className="font-display text-h2 font-medium">{about.team.h2}</h2>
+          <ul className="mt-6 space-y-4 leading-relaxed text-ink/90">
+            {about.team.roles.map((r) => (
+              <li key={r.title}>
+                <strong>{r.title}</strong> {r.body}
+              </li>
+            ))}
+          </ul>
+          <p className="mt-6 leading-relaxed text-ink/90">{about.team.close}</p>
+        </RevealBlock>
+      </Section>
+
       <CTABand />
       <IsoverticMove />
     </>

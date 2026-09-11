@@ -35,21 +35,6 @@ export default function About() {
         </RevealBlock>
       </Section>
 
-      <Section label="The team">
-        <RevealBlock className="max-w-[68ch]">
-          <h2 className="font-display text-h2 font-medium">{c.team.h2}</h2>
-          <p className="mt-6 leading-relaxed text-ink/90">{c.team.lead}</p>
-          <ul className="mt-6 space-y-4 leading-relaxed text-ink/90">
-            {c.team.roles.map((r) => (
-              <li key={r.title}>
-                <strong>{r.title}</strong> {r.body}
-              </li>
-            ))}
-          </ul>
-          <p className="mt-6 leading-relaxed text-ink/90">{c.team.close}</p>
-        </RevealBlock>
-      </Section>
-
       <Section label="Founder" tone="bright">
         <RevealBlock className="max-w-[68ch]">
           <h2 className="font-display text-h2 font-medium">{c.george.h2}</h2>
@@ -77,6 +62,20 @@ export default function About() {
             </Link>
             .
           </p>
+        </RevealBlock>
+      </Section>
+
+      <Section label="The team">
+        <RevealBlock className="max-w-[68ch]">
+          <h2 className="font-display text-h2 font-medium">{c.team.h2}</h2>
+          <ul className="mt-6 space-y-4 leading-relaxed text-ink/90">
+            {c.team.roles.map((r) => (
+              <li key={r.title}>
+                <strong>{r.title}</strong> {r.body}
+              </li>
+            ))}
+          </ul>
+          <p className="mt-6 leading-relaxed text-ink/90">{c.team.close}</p>
         </RevealBlock>
       </Section>
 

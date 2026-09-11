@@ -4,7 +4,7 @@ export const protocol = {
   eyebrow: "Step 06 · Protocol · For teams that run it themselves",
   h1: "Protocol. Train your team to run the system.",
   lead: [
-    "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. Protocol is the training offer. We spend one or two days at your office, write eight runbooks in your brand, and hold a follow-up call at 30 days. The point is a documented way for the people you already pay to work together on the commercial number.",
+    "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. Protocol is the training offer. We spend one or two days at your office, write eight runbooks, and hold a follow-up call at 30 days. The point is a documented way for the people you already pay to work together on the commercial number.",
     "This page is for CEOs, presidents, chief operating officers, VPs of commercial, VPs of marketing, chief medical officers, medical directors, practice administrators, and directors of billing who have capable people in the building already. Your marketing lead should not have to recreate the advertising routine from memory each quarter, and your sales team should not have to guess whether the website supports the claim in the email.",
   ],
   keep: {
@@ -34,11 +34,11 @@ export const protocol = {
       name: "Protocol, one department",
       price: "$5,000",
       per: "one time",
-      for: "This version is for one department and up to 15 people. It includes one day at your office, one step taught in depth, the standard runbook library in your brand, and one follow-up call at 30 days.",
+      for: "This version is for one department and up to 15 people. It includes one day at your office, one step taught in depth, the standard runbook library, and one follow-up call at 30 days.",
       includes: [
         "One day onsite",
         "One step taught in depth: your pick of Build, Rank, Run, Buy, or Book",
-        "The standard runbook library in your brand",
+        "The standard runbook library",
         "One follow-up call at 30 days",
         "Travel billed at cost beyond 50 miles of Long Island",
       ],
@@ -52,7 +52,7 @@ export const protocol = {
         "Two days onsite plus one preparation day at your office",
         "Audit of your current process, tools, and CRM before we arrive",
         "All six steps, plus a developer track",
-        "All eight runbooks in your brand",
+        "All eight runbooks",
         "Follow-up call at 30 days",
         "Travel included in the US",
       ],

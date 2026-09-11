@@ -27,7 +27,7 @@ export const closeNote = "The last step is yours: close.";
 
 // Hero trust strip. Four facts a buyer can verify on the site, separated by a middle dot.
 export const trustStrip = [
-  { label: "Written meeting volume commitment", href: "/resources/meeting-quality-standard" },
+  { label: "Meeting quality standard", href: "/resources/meeting-quality-standard" },
   { label: "Published pricing", href: "/pricing" },
   { label: "HIPAA aware, BAA ready", href: "/compliance/hipaa-posture" },
   { label: "12-month term", href: "/system" },
@@ -62,7 +62,7 @@ export const buyerRoles = {
       key: "cro",
       tab: "Head of Sales or CRO",
       question: "Will these meetings actually close?",
-      body: "Two answers. First, we define what counts as a meeting in writing before the program starts, verify each one against the criteria, and report meeting-to-opportunity conversion once an engagement has the data. Meetings that no-show or fail the criteria do not count. Second, the meetings close because they come from a specialist who searched for exactly what you sell, in the vocabulary they use professionally. That is a warmer opener than a cold list. The commitment is in the agreement.",
+      body: "Two answers. First, we define what counts as a meeting in writing before the program starts, verify each one against the criteria, and report meeting-to-opportunity conversion once an engagement has the data. Meetings that no-show or fail the criteria do not count. Second, the meetings close because they come from a specialist who searched for exactly what you sell, in the vocabulary they use professionally. That is a warmer opener than a cold list. The definition is on the meeting quality standard page.",
       cta: { label: "Read the meeting quality standard", href: "/resources/meeting-quality-standard" },
     },
   ],
@@ -136,7 +136,7 @@ export const home = {
         for: "For a company with a defined ideal client, at least $5,000 a month for advertising, and a named person who owns the calendar. Everything in Excitation, plus:",
         list: [
           "Higher-volume publishing, including a YouTube channel",
-          "One outbound seat with a written commitment for the number of meetings per month",
+          "One outbound seat that books qualified meetings with a written brief, verified against the meeting quality standard",
           "Weekly account review",
           "The option to add the HIPAA or MLR compliance stack",
         ],

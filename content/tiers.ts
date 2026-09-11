@@ -73,7 +73,7 @@ export const tiers: Tier[] = [
       "Everything in Excitation",
       "The full monthly content system, at higher volume, across article, newsletter, social, and video",
       "A YouTube channel: research, script, produce, and publish",
-      "One outbound seat with a written brief for each meeting and a written monthly meeting commitment",
+      "One outbound seat with a written brief for each meeting, verified against the meeting quality standard",
       "Weekly account review",
     ],
     cta: "Start Amplification",
@@ -136,7 +136,7 @@ export const billing = {
     ["Billing", "Ground State and Excitation: monthly, quarterly at 4 percent off, or up front at eleven months for twelve. Amplification and Quantum Leap: four quarterly payments."],
     ["Website rebuild", "Included in every package, valued at $15,000. The build starts inside the first 30 days. You own the code and the domain."],
     ["Hosting", "Hosting and bandwidth included for the term."],
-    ["The ramp", "90 days with deliverables in writing and a written review at day 90 against leading indicators. Amplification and above carry a monthly meeting number from the ramp on."],
+    ["The ramp", "90 days with deliverables in writing and a written review at day 90 against leading indicators. Amplification and above define, verify, and report cost per qualified meeting from the ramp on."],
     ["When revenue is judged", "At months six and twelve, tied to your sales cycle in the agreement. The two clock standard is published."],
     ["Early exit", "The unbilled balance of the $15,000 build is due on the final invoice, prorated to the months served. Nothing else. Code, content, and domain stay yours."],
   ],
@@ -146,12 +146,12 @@ export const billing = {
 };
 
 export const steps = [
-  { k: "BUILD", label: "The site, built to convert and be cited", href: "/web-development" },
-  { k: "RANK", label: "Content that wins Google and AI search", href: "/seo-content" },
-  { k: "RUN", label: "Google Ads to a cost per meeting", href: "/google-ads" },
-  { k: "BUY", label: "Media including streaming and TV", href: "/tv-ctv-advertising" },
-  { k: "BOOK", label: "Outbound meetings on your calendar", href: "/outbound-appointment-setting" },
-  { k: "EDUCATE", label: "Your team trained, runbooks in your brand", href: "/protocol" },
+  { k: "BUILD", label: "We rebuild your website so the pages, proof, pricing, and next step are all in front of the buyer. Included in every package.", href: "/web-development" },
+  { k: "RANK", label: "We publish on a steady rhythm so your site earns visibility in Google and in the AI-generated answers that now appear at the top of search results.", href: "/seo-content" },
+  { k: "RUN", label: "We run Google Ads against the exact phrases your buyers type when they are actively shopping. We report cost per booked meeting, not clicks.", href: "/google-ads" },
+  { k: "BUY", label: "We buy streaming TV, cable, broadcast television, and radio when the math supports it so your brand is recognized when your specialist buyer sees your name in Google later that week.", href: "/tv-ctv-advertising" },
+  { k: "BOOK", label: "We put qualified meetings on your calendar with a written brief on each one, run by the same team that built your website.", href: "/outbound-appointment-setting" },
+  { k: "EDUCATE", label: "We hand your team the step-by-step written instructions and the training to run any of this in-house when they are ready.", href: "/protocol" },
 ] as const;
 
 export const stepsNote =
@@ -163,7 +163,7 @@ export const tierGrid: { step: string; cells: string[] }[] = [
   { step: "02 Rank", cells: ["Newsletter, blog, social", "Doubled social", "Full content system plus YouTube", "Per brand"] },
   { step: "03 Run", cells: ["", "One Google Ads campaign", "Multiple campaigns, A/B tested", "Per brand"] },
   { step: "04 Buy", cells: ["", "", "", "Streaming and broadcast TV"] },
-  { step: "05 Book", cells: ["", "Add on seat $4,500", "One seat, meeting number in writing", "Two seats"] },
+  { step: "05 Book", cells: ["", "Add on seat $4,500", "One seat, meetings verified against the quality standard", "Two seats"] },
   { step: "06 Educate", cells: ["Protocol, $3,500 client add on", "Protocol, $3,500 client add on", "Protocol, $3,500 client add on", "Protocol, $3,500 client add on"] },
 ];
 
@@ -195,7 +195,7 @@ export const protocolTiers = [
     includes: [
       "One day onsite",
       "One step taught in depth: your pick of Build, Rank, Run, Buy, or Book",
-      "The standard runbook library in your brand",
+      "The standard runbook library",
       "One follow up call at 30 days",
     ],
   },
@@ -246,7 +246,7 @@ export const tierNotes: { slug: Tier["slug"]; h2: string; body: string[] }[] = [
     h2: "Amplification, $10,000 per month plus advertising spend",
     body: [
       "Amplification is the full pipeline program. It is for a company with a defined ideal client, at least $5,000 a month for advertising, and a named person on the client side, often a VP of commercial or a practice administrator, who owns the calendar.",
-      "You get everything in Excitation, plus the full monthly content system at higher volume, a YouTube channel, one outbound seat that books qualified meetings with a written brief, a written commitment for the number of meetings per month, and weekly account review. The compliance stack for regulated buyers is priced separately as an add-on when needed.",
+      "You get everything in Excitation, plus the full monthly content system at higher volume, a YouTube channel, one outbound seat that books qualified meetings with a written brief, and weekly account review. We define what counts as a meeting, we verify each one, and we report cost per qualified meeting. The compliance stack for regulated buyers is priced separately as an add-on when needed.",
       "Amplification is billed quarterly. This package is for a team prepared to answer the meetings it receives. If the calendar owner is unclear, resolve that before adding outbound. A meeting without a capable follow-up is an expensive way to collect polite no-thank-yous.",
     ],
   },
@@ -263,7 +263,7 @@ export const tierNotes: { slug: Tier["slug"]; h2: string; body: string[] }[] = [
 
 export const pricingContext = {
   commitmentH2: "What every term includes",
-  commitment: "The website rebuild begins within the first 30 days. Hosting and bandwidth are included for the term. The first 90 days are the ramp. Deliverables are written into the agreement, and the day-90 review examines leading indicators. Amplification and Quantum Leap carry a monthly meeting number from the ramp onward. Every engagement is 12 months because a year is the shortest honest window for a long-cycle account. We report leading indicators every 30 days, then review pipeline and revenue at months six and 12 against the sales cycle in the agreement. The early-exit clause is direct. The unbilled balance of the included $15,000 build is due on the final invoice, prorated to months served. Nothing else. Code, content, and domain stay yours.",
+  commitment: "The website rebuild begins within the first 30 days. Hosting and bandwidth are included for the term. The first 90 days are the ramp. Deliverables are written into the agreement, and the day-90 review examines leading indicators. Amplification and Quantum Leap define, verify, and report cost per qualified meeting from the ramp onward. Every engagement is 12 months because a year is the shortest honest window for a long-cycle account. We report leading indicators every 30 days, then review pipeline and revenue at months six and 12 against the sales cycle in the agreement. The early-exit clause is direct. The unbilled balance of the included $15,000 build is due on the final invoice, prorated to months served. Nothing else. Code, content, and domain stay yours.",
   choiceH2: "The choice is explicit",
   choice: [
     "Start Ground State if you need the publishing cadence. Start Excitation if you have a conversion path and want to test paid search. Start Amplification if you need the full pipeline program. Start Quantum Leap if multiple brands and media buying are already operational requirements.",

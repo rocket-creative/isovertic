@@ -18,7 +18,7 @@ export const resultsPage = {
   description: "Named work across biotech, healthcare technology, medical devices, wellness, and hospitality. Numbers publish when a client confirms them in writing.",
   eyebrow: "Results",
   h1: "The roster. The numbers we can show. The rest, when they land.",
-  lead: "Seven clients and two brands we own, all run on the same six-step system. Every growth case study on this site covers the first eight months of an engagement and nothing after. Numbers publish at month eight so a strong later month cannot inflate the story. Where a client has approved the number in writing, it is on the page below their name. Where the engagement is still inside its first eight months, we say so.",
+  lead: "Six clients and two brands we own, all run on the same six-step system. Every growth case study on this site covers the first eight months of an engagement and nothing after. Numbers publish at month eight so a strong later month cannot inflate the story. Where a client has approved the number in writing, it is on the page below their name. Where the engagement is still inside its first eight months, we say so.",
 };
 
 export const roster: RosterItem[] = [
@@ -32,12 +32,12 @@ export const roster: RosterItem[] = [
     confirmed: [
       "Approximately 5x lift in monthly form fills, average of months five through eight versus the client's own six-month baseline before start.",
       "3.7x growth in monthly organic clicks from Google Search over the same window, measured in Search Console.",
-      "Hundreds of hand-built specialist pages shipped on top of a catalog of thousands of product pages generated one page per model from the client's own data.",
+      "Hundreds of hand-built specialist pages shipped on top of a catalog of thousands of product pages generated from the client's own data.",
       "A documented technical content system governing terminology, mouse strain nomenclature, and citation standards.",
       "An editorial researcher-spotlight series engineered for institutional backlinks from academic sites.",
       "Outbound sequences targeting venture-backed biotech prospects, running against a defined qualified-meeting standard.",
     ],
-    whatWeDid: "The full method, run on a life-science catalog. Keyword architecture mapped to the researcher's own vocabulary. Site architecture built to prevent cannibalization across thousands of near-identical product pages. Page templates a scientist will trust. Server-side tracking. Algorithm-drift monitoring across two Google core updates that hit inside the window. Ongoing catalog expansion based on Search Console signal.",
+    whatWeDid: "The full method, run on a life-science catalog. Pages written in the researcher's own vocabulary. Site structure built so thousands of near-identical product pages do not compete with each other. Page templates a scientist will trust. Tracking that stays on our side of the form. Monitoring across two Google core updates that hit inside the window. Ongoing catalog expansion based on Search Console signal.",
     kicker: "Technical authority converted into compounding search demand, at a scale most agencies will not attempt.",
   },
   {
@@ -54,20 +54,6 @@ export const roster: RosterItem[] = [
       "Master implementation brief for the site rebuild, which now runs on our stack.",
     ],
     whatWeDid: "The audit-to-brief-to-build pattern our SEO page promises, executed on a new-brand launch. Sydra needed to move from invisible to architected inside a year, on a budget where flood-of-leads was never the goal. A qualified lead per week from paid on a small budget, into a brand that did not exist three months earlier, is the right result for the spend. We do not promise a flood. We promise every lead came from a specialist who searched for exactly what Sydra sells, and that we can prove which page produced it.",
-    kicker: "A rebrand is only finished when the pipeline runs under the new name. We built both.",
-  },
-  {
-    id: "kavera",
-    name: "Kavera",
-    sector: "Healthcare technology",
-    sectorHref: "/industries/healthcare",
-    window: "Rebrand and outbound program, ongoing.",
-    confirmedLabel: "Confirmed scope",
-    confirmed: [
-      "Brand transition from the original Synaptix identity through naming, positioning, and launch infrastructure.",
-      "Outbound sales program reaching neurology, sports medicine, and pediatric practices.",
-    ],
-    numbersStatus: "Inside the eight-month growth-method window. Reported numbers publish when the window closes.",
     kicker: "A rebrand is only finished when the pipeline runs under the new name. We built both.",
   },
   {
@@ -140,7 +126,7 @@ export const roster: RosterItem[] = [
     confirmedLabel: "Confirmed scope",
     confirmed: [
       "Our own wedding-day timeline and shot-list software for photographers and couples.",
-      "Built on the same stack we sell: Next.js, server-rendered, schema on every page.",
+      "Built on the same stack we sell, so the engineers who maintain this site are the engineers who rebuild yours.",
       "Published pricing at $29.95, no call required.",
       "Content system aimed at the questions photographers type before a wedding.",
     ],

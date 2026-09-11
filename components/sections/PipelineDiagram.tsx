@@ -3,12 +3,12 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 const stations = [
-  { k: "BUILD", label: "The site, built to be found by the specialist and cited by AI", href: "/web-development" },
-  { k: "RANK", label: "Content that wins Google and the AI answer layer", href: "/seo-content" },
-  { k: "RUN", label: "Google Ads to a cost per meeting", href: "/google-ads" },
-  { k: "BUY", label: "Media including streaming and TV", href: "/tv-ctv-advertising" },
-  { k: "BOOK", label: "Outbound meetings on your calendar", href: "/outbound-appointment-setting" },
-  { k: "EDUCATE", label: "Your team trained, runbooks in your brand", href: "/protocol" },
+  { k: "BUILD", label: "We rebuild your website so the pages, proof, pricing, and next step are all in front of the buyer. Included in every package.", href: "/web-development" },
+  { k: "RANK", label: "We publish on a steady rhythm so your site earns visibility in Google and in the AI-generated answers that now appear at the top of search results.", href: "/seo-content" },
+  { k: "RUN", label: "We run Google Ads against the exact phrases your buyers type when they are actively shopping. We report cost per booked meeting, not clicks.", href: "/google-ads" },
+  { k: "BUY", label: "We buy streaming TV, cable, broadcast television, and radio when the math supports it so your brand is recognized when your specialist buyer sees your name in Google later that week.", href: "/tv-ctv-advertising" },
+  { k: "BOOK", label: "We put qualified meetings on your calendar with a written brief on each one, run by the same team that built your website.", href: "/outbound-appointment-setting" },
+  { k: "EDUCATE", label: "We hand your team the step-by-step written instructions and the training to run any of this in-house when they are ready.", href: "/protocol" },
 ] as const;
 
 export function PipelineDiagram() {

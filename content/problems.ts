@@ -37,7 +37,7 @@ export const problems: Problem[] = [
     lead: "Sometimes it is a relative, sometimes a first hire out of school, sometimes a good generalist. The pattern is the same. Six months in, the social feed is active, the newsletter goes out, and the lead count has not moved. Before you blame the person, check the job you gave them. One marketer cannot build a website, run paid search, write technical content, and prospect. Nobody can.",
     callout: {
       label: "Where this lives",
-      body: "Most owners in this spot keep the marketer and add Excitation at $5,000 a month: one Google Ads campaign, a landing page, and content run by a senior team, with the in house person owning social and the newsletter. Amplification at $10,000 adds an outbound seat with a meeting number in writing. Pricing is published.",
+      body: "Most owners in this spot keep the marketer and add Excitation at $5,000 a month: one Google Ads campaign, a landing page, and content run by a senior team, with the in house person owning social and the newsletter. Amplification at $10,000 adds an outbound seat with meetings verified against the meeting quality standard. Pricing is published.",
     },
     searchPhrases: ["in house marketer not generating leads", "hired a marketing person no leads", "our marketing coordinator is not producing results", "should I fire my marketing manager or get an agency", "one person marketing team not working"],
     sections: [
@@ -51,8 +51,8 @@ export const problems: Problem[] = [
       ]},
       { h2: "The three options, priced", body: [
         "Option one: keep the person, buy the missing steps. Excitation at $5,000 a month runs one Google Ads campaign, builds the landing page, and produces the search content, while your marketer keeps social and the list. The same team that will eventually run outbound builds the content, so nothing is thrown away later.",
-        "Option two: keep the person, teach them the system. The Protocol is one day at your office at $5,000, and your marketer leaves with the eight runbooks we use, rewritten in your brand: content production, page build, Google Ads weekly review, outbound, lead handoff, reporting, and the two compliance runbooks. Good for a capable person who was never given a process.",
-        "Option three: replace the function, not the person. Amplification at $10,000 a month runs the whole pipeline including an outbound seat with a monthly meeting number in writing. The in house marketer becomes the point of contact who approves in 48 hours, which is the only job on your side the system needs.",
+        "Option two: keep the person, teach them the system. The Protocol is one day at your office at $5,000, and your marketer leaves with the eight runbooks we use, rewritten for your team: content production, page build, Google Ads weekly review, outbound, lead handoff, reporting, and the two compliance runbooks. Good for a capable person who was never given a process.",
+        "Option three: replace the function, not the person. Amplification at $10,000 a month runs the whole pipeline including an outbound seat with meetings verified against the meeting quality standard. The in house marketer becomes the point of contact who approves in 48 hours, which is the only job on your side the system needs.",
       ]},
       { h2: "How to decide in one meeting", body: [
         "Ask three questions. How many qualified meetings did marketing produce last quarter, and how do we know? Which of the six steps is running today? What would the person do with a senior team behind them? If the answer to the first is a shrug, the problem was never the person. It was that nobody wrote the number down. Writing it down is the first hour of every engagement we run.",
@@ -76,7 +76,7 @@ export const problems: Problem[] = [
     lead: "The retainer bills on the first of the month. The report arrives on the fifth. It shows impressions up, followers up, and a traffic chart with an arrow. Nowhere on it is the number you hired them for. That is not an accident of reporting. The agency model is built to be paid for activity, and activity is what you are getting.",
     callout: {
       label: "Where this lives",
-      body: "Every ISOVERTIC tier states its deliverables for the 90 day ramp in writing, and Amplification at $10,000 a month adds a monthly meeting number to the agreement. If the number is not met, the review at day 90 says what changes, in writing. Pricing is published.",
+      body: "Every ISOVERTIC tier states its deliverables for the 90 day ramp in writing. Amplification at $10,000 a month adds an outbound seat. We define what counts, we verify each meeting, and we report cost per qualified meeting. If the work is not meeting the standard, the review at day 90 says what changes, in writing. Pricing is published.",
     },
     searchPhrases: ["marketing agency not producing leads", "paying an agency and getting no results", "how long should I give a marketing agency", "agency reports traffic but no sales", "how to tell if my marketing agency is bad"],
     sections: [
@@ -89,7 +89,7 @@ export const problems: Problem[] = [
         "Ask all three in one email. A good agency answers in a day. A bad one schedules a call.",
       ]},
       { h2: "What to buy instead", body: [
-        "Buy the whole pipeline or buy nothing. One team that builds the page, writes the content, runs the ads, and books the meeting cannot hide behind a seam because it owns every seam. Our Excitation tier at $5,000 a month runs content, one Google Ads campaign, a landing page, and lead follow up within one business day. Amplification at $10,000 adds the outbound seat and a monthly meeting number in the agreement.",
+        "Buy the whole pipeline or buy nothing. One team that builds the page, writes the content, runs the ads, and books the meeting cannot hide behind a seam because it owns every seam. Our Excitation tier at $5,000 a month runs content, one Google Ads campaign, a landing page, and lead follow up within one business day. Amplification at $10,000 adds the outbound seat. We define what counts, we verify each meeting, and we report cost per qualified meeting.",
         "The 90 day ramp has deliverables in writing and a written review at day 90 that reads leading indicators. The term is a year, because that is how long pipeline and revenue take to move, and revenue is judged at months six and twelve. If the leading indicators are not moving by day 60 we say so and change the plan before day 90.",
       ]},
       { h2: "How long to give an agency", body: [
@@ -99,7 +99,7 @@ export const problems: Problem[] = [
     faqs: [
       { q: "Should we fire the agency before hiring you?", a: "Not always. If they run one channel well, keep them on that channel and we run the rest. If they cannot answer the three questions above, the decision makes itself." },
       { q: "What if the agency says results take a year?", a: "Organic compounding does take months. A written 90 day number does not. Any firm can state landing pages live, campaigns at a cost per lead, and meetings booked by day 90. Ask for it." },
-      { q: "Will you commit to a number?", a: "Yes. Amplification and above carry a monthly meeting number in writing, set in the ramp against your market size, offer, and deal value." },
+      { q: "Will you commit to a number?", a: "No. We do not promise a specific number of meetings a month. We define what counts, we verify each meeting, and we report cost per qualified meeting." },
     ],
     related: [{ label: "Field notes", href: "/field-notes" }, pricing, howItWorks],
   },
@@ -186,7 +186,7 @@ export const problems: Problem[] = [
     lead: "Referral businesses are good businesses. They close at high rates and they cost nothing to acquire. They also have a ceiling set by other people's calendars, and when the two people who send you most of your work retire, move, or get acquired, the ceiling drops to the floor with no warning. Consistency requires at least one channel you control the volume of.",
     callout: {
       label: "Where this lives",
-      body: "Ground State at $2,500 a month builds the content and the site that turn a referral into a booked meeting instead of a maybe. Excitation at $5,000 adds the first channel you control, one Google Ads campaign. Amplification at $10,000 adds outbound with a meeting number in writing. Pricing is published.",
+      body: "Ground State at $2,500 a month builds the content and the site that turn a referral into a booked meeting instead of a maybe. Excitation at $5,000 adds the first channel you control, one Google Ads campaign. Amplification at $10,000 adds outbound with meetings verified against the meeting quality standard. Pricing is published.",
     },
     searchPhrases: ["business relies too much on referrals", "referrals slowing down what to do", "how to get clients without referrals", "diversify lead sources small business", "referral only business growth"],
     sections: [
@@ -197,7 +197,7 @@ export const problems: Problem[] = [
         "Referral sources refer whoever they thought of last. If your site has not changed in five years and you publish nothing, you fade from the front of their mind. A monthly newsletter to your own list, one substantive post a month, and social that shows the work keeps you current with the people who already send work, before a single new channel is added. That is the Ground State cadence, and for a referral business it often pays for itself on retained referral volume alone.",
       ]},
       { h2: "Add one channel you control, in order", body: [
-        "First, make the referral convert harder: when a referred prospect looks you up, the site should carry pricing or a range, a result with numbers, and the people. Referred prospects still do their homework, and a brochure site loses 20 to 40 percent of them to silence. Second, add search: one Google Ads campaign against the commercial terms your buyers type, which is Excitation. Third, when you can take more meetings than referrals produce, add outbound: one seat working a list of the 200 accounts you want, with a meeting number in writing, which is Amplification.",
+        "First, make the referral convert harder: when a referred prospect looks you up, the site should carry pricing or a range, a result with numbers, and the people. Referred prospects still do their homework, and a brochure site loses 20 to 40 percent of them to silence. Second, add search: one Google Ads campaign against the commercial terms your buyers type, which is Excitation. Third, when you can take more meetings than referrals produce, add outbound: one seat working a list of the 200 accounts you want, with meetings verified against the meeting quality standard, which is Amplification.",
         "Run all three continuously, especially when you are busy. Busy quarters are when the next slow quarter is built.",
       ]},
     ],
@@ -232,7 +232,7 @@ export const problems: Problem[] = [
         "For a technical product this is worse. The rep also has to explain a knockout model, a diagnostic, or a billing workflow to a buyer who knows more than they do.",
       ]},
       { h2: "What to buy by stage", body: [
-        "Under $1 million: the founder sells, and the money goes to a site and content that carry the technical explanation so each call starts halfway done. That is Ground State at $2,500. $1 million to $10 million: rent the pipeline and keep the close. Amplification at $10,000 runs content, ads, and one outbound seat with a monthly meeting number in writing, and the founder takes the meetings. Past $10 million with a sales team: hire sales leadership and hand them a documented system rather than a blank page. The Protocol exists for that handoff.",
+        "Under $1 million: the founder sells, and the money goes to a site and content that carry the technical explanation so each call starts halfway done. That is Ground State at $2,500. $1 million to $10 million: rent the pipeline and keep the close. Amplification at $10,000 runs content, ads, and one outbound seat with meetings verified against the meeting quality standard, and the founder takes the meetings. Past $10 million with a sales team: hire sales leadership and hand them a documented system rather than a blank page. The Protocol exists for that handoff.",
       ]},
       { h2: "What changes in your week", body: [
         "Prospecting hours go to zero. Meeting prep drops because every meeting arrives with a brief. Calls get shorter because the prospect has read the pricing page and the case study before showing up. Founders on Amplification typically hold 8 to 15 more qualified conversations a month and spend fewer hours in sales than before, because the hours that remain are the ones that close.",
@@ -256,7 +256,7 @@ export const problems: Problem[] = [
     lead: "The severance is paid and the pipeline is exactly where it was a year ago, minus the $100,000 you spent finding that out. Before hiring again, understand what the rep walked into. In most companies at this stage, the rep failed on the demand environment, not on effort, and the next rep will fail the same way.",
     callout: {
       label: "Where this lives",
-      body: "Amplification at $10,000 a month replaces the prospecting half of the hire and builds the demand environment the next hire will need: the site, the content, the ads, and an outbound seat with a meeting number in writing. Pricing is published.",
+      body: "Amplification at $10,000 a month replaces the prospecting half of the hire and builds the demand environment the next hire will need: the site, the content, the ads, and an outbound seat with meetings verified against the meeting quality standard. Pricing is published.",
     },
     searchPhrases: ["first sales hire failed", "salesperson not producing results", "sales rep quit after six months", "why do first sales hires fail", "rebuild sales pipeline after rep left"],
     sections: [
@@ -267,7 +267,7 @@ export const problems: Problem[] = [
         "An SDR loads to $70,000 to $90,000, an account executive to $120,000 to $180,000 with on target earnings. Ramp is three to four months. Average tenure across the industry is under two years. B2B sales hiring carries miss rates near a coin flip, so the honest budget is two hires to get one that works, roughly $150,000 to $300,000 before the first predictable quarter. And the second hire inherits the same empty room unless something changes first.",
       ]},
       { h2: "Build the room before you fill it", body: [
-        "Sequence it. First, the site carries pricing, proof, and the technical answer, so a prospect who looks you up finds what the email promised. Second, content that answers the questions your sales calls repeat, so the call starts halfway done. Third, a list built from real data and sequences written against your actual positioning. Fourth, an outbound seat working it with a meeting number in writing. That is Amplification, and it costs about what the failed hire cost, with a notice period instead of a severance.",
+        "Sequence it. First, the site carries pricing, proof, and the technical answer, so a prospect who looks you up finds what the email promised. Second, content that answers the questions your sales calls repeat, so the call starts halfway done. Third, a list built from real data and sequences written against your actual positioning. Fourth, an outbound seat working it with meetings verified against the meeting quality standard. That is Amplification, and it costs about what the failed hire cost, with a notice period instead of a severance.",
         "When the system books more meetings than you can take, hire again. This time hire a closer, hand them the runbooks, and let them start on day one with a full calendar.",
       ]},
     ],
@@ -324,7 +324,7 @@ export const problems: Problem[] = [
     lead: "You bought a tool, bought a list, wrote a sequence, and sent 2,000 emails. Nine people replied and four of them said unsubscribe. The instinct is to rewrite the copy. The copy is rarely the problem. The list is, and in a technical market the first sentence is, because the buyer decides in that sentence whether you understand their work.",
     callout: {
       label: "Where this lives",
-      body: "Amplification at $10,000 a month includes one outbound seat: list building from primary data, sequences written by the team that wrote your site, coordinated email, phone, and LinkedIn, and a monthly meeting number in writing. Excitation can add the seat for $4,500. Pricing is published.",
+      body: "Amplification at $10,000 a month includes one outbound seat: list building from primary data, sequences written by the team that wrote your site, coordinated email, phone, and LinkedIn, and meetings verified against the meeting quality standard. Excitation can add the seat for $4,500. Pricing is published.",
     },
     searchPhrases: ["cold email no replies", "cold email reply rate too low", "why is nobody responding to my cold emails", "cold outreach not working B2B", "cold email reply rate benchmark 2026"],
     sections: [
@@ -415,7 +415,7 @@ export const problems: Problem[] = [
       { q: "How long does it take?", a: "Perplexity can pick up a fresh, specific page within days. ChatGPT rewards stability over months. Third party mentions take a quarter to earn and last for years." },
       { q: "Can you get us reviews and mentions?", a: "We build the assets that earn them: original data, editorial series, comparison pages, and outreach to the labs and practices we feature. We do not buy reviews or links." },
     ],
-    related: [{ label: "How to get cited by AI search", href: "/field-notes" }, { label: "What is AEO", href: "/answers/what-is-aeo" }, { label: "SEO and content", href: "/seo-content" }],
+    related: [{ label: "How to get cited in AI search", href: "/field-notes" }, { label: "What is AEO", href: "/answers/what-is-aeo" }, { label: "SEO and content", href: "/seo-content" }],
   },
   {
     slug: "old-website-and-the-agency-controls-it",
@@ -461,7 +461,7 @@ export const problems: Problem[] = [
     lead: "When revenue stalls, everyone points at the seam next to them. The ads agency says the landing page is weak. The web shop says the traffic is bad. The SDR firm says the brand is invisible. Every one of them is right, and none of them is accountable, because you bought four parts of a system from four companies that have never spoken.",
     callout: {
       label: "Where this lives",
-      body: "One team, one number. Amplification at $10,000 a month runs the site, the content, the ads, and the outbound seat with a meeting number in writing. Quantum Leap adds TV and a second seat, per brand. Pricing is published.",
+      body: "One team, one number. Amplification at $10,000 a month runs the site, the content, the ads, and the outbound seat with meetings verified against the meeting quality standard. Quantum Leap adds TV and a second seat, per brand. Pricing is published.",
     },
     searchPhrases: ["too many marketing vendors", "consolidate marketing agencies", "one agency for website ads and outbound", "marketing vendors blaming each other", "single vendor for marketing and sales"],
     sections: [
@@ -504,7 +504,7 @@ export const problems: Problem[] = [
         "A marketing manager at $110,000 to $140,000 loads to $140,000 to $175,000. An SDR loads to $70,000 to $90,000. Tools and data add $20,000 a year. Ramp takes a quarter or two, and B2B sales hiring misses near half the time. One marketing lead plus one agency retainer runs $160,000 to $190,000 a year with the seam still unowned.",
       ]},
       { h2: "A budget by stage", body: [
-        "Under $1 million: $2,500 a month on content and a site that says something, and the founder sells. That is Ground State. $1 million to $3 million: $5,000 a month plus $3,000 to $10,000 in ad spend for content, one campaign, and a landing page per audience. That is Excitation. $3 million to $10 million: $10,000 a month plus spend for the full pipeline with an outbound seat and a meeting number in writing. That is Amplification. Past $10 million or more than one brand: from $25,000 with TV, two seats, and a board ready quarterly review. That is Quantum Leap.",
+        "Under $1 million: $2,500 a month on content and a site that says something, and the founder sells. That is Ground State. $1 million to $3 million: $5,000 a month plus $3,000 to $10,000 in ad spend for content, one campaign, and a landing page per audience. That is Excitation. $3 million to $10 million: $10,000 a month plus spend for the full pipeline with an outbound seat and meetings verified against the meeting quality standard. That is Amplification. Past $10 million or more than one brand: from $25,000 with TV, two seats, and a board ready quarterly review. That is Quantum Leap.",
         "As a share of revenue, those land between 3 and 8 percent for most companies, which matches what growing B2B companies spend when they are actually growing.",
       ]},
       { h2: "The number that makes the budget a decision", body: [
@@ -626,7 +626,7 @@ export const problems: Problem[] = [
     lead: "The invoice says 15 meetings. Your calendar says six people showed, and two of those had no idea why they agreed. You are paying per meeting booked, the vendor is optimizing for meetings booked, and everyone is behaving rationally. The fix is a definition, written into the agreement, and a website that can carry the claim the setter made.",
     callout: {
       label: "Where this lives",
-      body: "On Amplification, the monthly meeting number in writing counts held meetings with people who match agreed criteria. No shows and meetings that fail criteria do not count. Every booked meeting gets a confirmation sequence. Pricing is published.",
+      body: "On Amplification, we define what counts as a meeting, we verify each one, and we report cost per qualified meeting. Held meetings with people who match agreed criteria count. No shows and meetings that fail criteria do not. Every booked meeting gets a confirmation sequence. Pricing is published.",
     },
     searchPhrases: ["appointment setting no show rate", "appointment setter booking bad meetings", "outsourced sdr meetings not qualified", "pay per appointment leads not showing up", "what is a qualified meeting appointment setting"],
     sections: [
@@ -641,7 +641,7 @@ export const problems: Problem[] = [
       ]},
     ],
     faqs: [
-      { q: "Should we pay per meeting or a retainer?", a: "Pay per held qualified meeting if a vendor offers it. Most offer pay per booked, which creates exactly this problem. Our seat is a retainer with a held meeting number in writing." },
+      { q: "Should we pay per meeting or a retainer?", a: "Pay per held qualified meeting if a vendor offers it. Most offer pay per booked, which creates exactly this problem. Our seat is a retainer. We define what counts, we verify each meeting, and we report cost per qualified meeting." },
       { q: "Can you fix our current vendor's meetings?", a: "Sometimes. If the site cannot carry the claim, fixing the site raises held rate for any setter, including theirs. That is Excitation plus a landing page, then decide whether to keep them." },
       { q: "What if we only need outbound?", a: "Then a pure play like Belkins is a credible choice and we will say so. Meetings booked into a strong brand hold. Meetings booked into a weak one do not, whoever books them." },
     ],
@@ -666,7 +666,7 @@ export const problems: Problem[] = [
         "The brands compete for the same hours. The established one has customers who call, so it wins every week, and the new one gets the leftover Friday afternoon. Its site goes up late, its campaign never gets read, its outbound list is never built. Eighteen months later the second brand has a logo and no pipeline, and the conclusion is that the market was not there. The market was there. The hours were not.",
       ]},
       { h2: "Run the same system twice, not two half systems", body: [
-        "Each brand gets its own six step run: its own pages, its own content cadence, its own ad account and campaigns, its own outbound list and sequences, its own report. The team is shared, the system is not. A company with a research product and a clinical product is a common case: two brands on Amplification, each with a seat, each with a meeting number in writing, and the second at 15 percent off. The clinical brand adds the MLR gate; the research brand does not need it.",
+        "Each brand gets its own six step run: its own pages, its own content cadence, its own ad account and campaigns, its own outbound list and sequences, its own report. The team is shared, the system is not. A company with a research product and a clinical product is a common case: two brands on Amplification, each with a seat, each with meetings verified against the meeting quality standard, and the second at 15 percent off. The clinical brand adds the MLR gate; the research brand does not need it.",
       ]},
       { h2: "What the second brand costs", body: [
         "On Excitation, the second product line in Google Ads is $1,000 a month with its own campaigns, landing page, and reporting, and the content cadence expands to cover it. On Amplification, the second brand runs at 15 percent off the tier price with its own seat. For companies running three or more brands, or ready to add TV, Quantum Leap from $25,000 runs everything per brand with creative production in house and a quarterly board ready review across all of them.",
@@ -701,7 +701,7 @@ export const problems: Problem[] = [
         "Write the math down first: how many qualified meetings a month hit the number, and what each costs by channel. That is the first hour of every engagement we run. Own the seam second: a response standard and a follow up sequence, which costs discipline. Add the channel you control third: content if you publish nothing, search if you have a site and no paid demand, outbound if you need meetings this quarter. Then run all of it continuously, because busy is when the next trough is being built.",
       ]},
       { h2: "What continuous looks like at each tier", body: [
-        "Ground State, $2,500: a newsletter, a post, and social every month, so demand exists before you need it. Excitation, $5,000: one Google Ads campaign and a landing page with leads worked within a business day, so the phone rings in July. Amplification, $10,000: an outbound seat working the list through your busiest quarter with a meeting number in writing, so the calendar for next quarter fills while this one delivers. The tier ladder exists because the fix is structural, not a campaign.",
+        "Ground State, $2,500: a newsletter, a post, and social every month, so demand exists before you need it. Excitation, $5,000: one Google Ads campaign and a landing page with leads worked within a business day, so the phone rings in July. Amplification, $10,000: an outbound seat working the list through your busiest quarter with meetings verified against the meeting quality standard, so the calendar for next quarter fills while this one delivers. The tier ladder exists because the fix is structural, not a campaign.",
       ]},
     ],
     faqs: [
@@ -758,7 +758,7 @@ export const problems: Problem[] = [
     lead: "The scientific founders are the business development team. There is no ideal customer profile, no segmentation by therapeutic area or model type, no systematic prospecting, and no consistent follow up, so opportunities quietly disappear over a nine month sales cycle. Corstrate's 2026 write up of small CRO business development names those exact gaps. Our COO lived them for a decade selling translational research products.",
     callout: {
       label: "Where this lives",
-      body: "A CRO under $2 million: Ground State at $2,500 a month for a technical post, a newsletter to past clients, and social that shows the lab. At $3 million with a site and no paid demand: Excitation. At $5 million needing meetings this quarter: Amplification, with an outbound seat to lab managers and a meeting number in writing. Pricing is published.",
+      body: "A CRO under $2 million: Ground State at $2,500 a month for a technical post, a newsletter to past clients, and social that shows the lab. At $3 million with a site and no paid demand: Excitation. At $5 million needing meetings this quarter: Amplification, with an outbound seat to lab managers and meetings verified against the meeting quality standard. Pricing is published.",
     },
     searchPhrases: ["cro business development without sales team", "how do small cros get new clients", "contract research organization lead generation", "cro relying on referrals", "business development for small cro"],
     sections: [
@@ -769,7 +769,7 @@ export const problems: Problem[] = [
         "For purchases under roughly $50,000, the lab manager or core facility director handles vendors, compares quotes, and places the order. The PI approves. Outbound to lab managers referencing the lab's recent publication and the model it implies gets read. Outbound to PIs with no context gets deleted. Timing matters: outreach converts in the months after grant notices go out, when the money is real and the timeline is short.",
       ]},
       { h2: "The system for a CRO, by revenue", body: [
-        "Under $2 million: publish. One deep technical post a month, one newsletter to every past client, social that shows the lab rather than stock photos. That is enough to be found and cited, and it reactivates past clients who forgot you exist. At $3 million: add one Google Ads campaign against the model and service terms buyers type, with a landing page per service and leads worked within a business day. At $5 million: add one outbound seat working lab managers with a monthly meeting number in writing, plus programmatic page expansion, 50 entity pages at a time, to keep owning the search. Someone on your side with scientific credibility takes the meeting.",
+        "Under $2 million: publish. One deep technical post a month, one newsletter to every past client, social that shows the lab rather than stock photos. That is enough to be found and cited, and it reactivates past clients who forgot you exist. At $3 million: add one Google Ads campaign against the model and service terms buyers type, with a landing page per service and leads worked within a business day. At $5 million: add one outbound seat working lab managers with meetings verified against the meeting quality standard, plus programmatic page expansion, 50 entity pages at a time, to keep owning the search. Someone on your side with scientific credibility takes the meeting.",
       ]},
       { h2: "The claims layer a generalist skips", body: [
         "If your content touches preclinical efficacy or a translational outcome, some claims want a named scientific reviewer before they publish. We run that as a review gate: a claim library, a reviewer you name, a sign off log. $500 to $1,200 a month depending on tier. It is the difference between content that ships weekly and content that waits for a scientist's spare afternoon.",
@@ -826,7 +826,7 @@ export const problems: Problem[] = [
     lead: "A capable generalist rep, a good script, and a list of principal investigators. Reply rates at a fraction of a percent and the few calls that connect end in 90 seconds, because the rep called a floxed allele a product and the PI heard everything they needed to. Scientific buyers punish generic outreach faster than any market we work in, and the fix is not a better script.",
     callout: {
       label: "Where this lives",
-      body: "Amplification at $10,000 a month includes one outbound seat with sequences written in the register of the field, aimed at lab managers and core directors, with a meeting number in writing. Our COO, a molecular biologist with a decade of CRO sales, is on every life science account. Pricing is published.",
+      body: "Amplification at $10,000 a month includes one outbound seat with sequences written in the register of the field, aimed at lab managers and core directors, with meetings verified against the meeting quality standard. Our COO, a molecular biologist with a decade of CRO sales, is on every life science account. Pricing is published.",
     },
     searchPhrases: ["sales rep does not understand the science", "selling to scientists outbound", "sdr for life science company", "how to sell to principal investigators", "technical sales for biotech services"],
     sections: [
@@ -858,7 +858,7 @@ export const problems: Problem[] = [
     lead: "You built a list of 500 PIs from PubMed, wrote a respectful email about your services, and sent it. Three replies, two of them asking to be removed. PIs are the most emailed people in science and the least likely to buy anything directly. The person who does buy is down the hall, and they read vendor email because it is their job.",
     callout: {
       label: "Where this lives",
-      body: "Amplification at $10,000 a month includes an outbound seat working lab managers and core directors with publication and grant triggers, coordinated across email, phone, and LinkedIn, with a meeting number in writing. Pricing is published.",
+      body: "Amplification at $10,000 a month includes an outbound seat working lab managers and core directors with publication and grant triggers, coordinated across email, phone, and LinkedIn, with meetings verified against the meeting quality standard. Pricing is published.",
     },
     searchPhrases: ["emailing principal investigators no response", "how to reach lab managers", "cold outreach to academic labs", "selling to research labs who to contact", "grant cycle timing for vendor outreach"],
     sections: [
@@ -890,7 +890,7 @@ export const problems: Problem[] = [
     lead: "Orders arrive in waves after funding notices and vanish in between. The lab is overbooked in October and idle in July, and staffing for either is wrong. The grant calendar is not going away. What changes is whether your pipeline is built to ride it or to be surprised by it every year.",
     callout: {
       label: "Where this lives",
-      body: "Amplification at $10,000 a month runs an outbound seat timed to the grant cycle plus a separate sequence to venture backed industry accounts that do not run on it, with a meeting number in writing. Ground State keeps the content and newsletter running through the trough. Pricing is published.",
+      body: "Amplification at $10,000 a month runs an outbound seat timed to the grant cycle plus a separate sequence to venture backed industry accounts that do not run on it, with meetings verified against the meeting quality standard. Ground State keeps the content and newsletter running through the trough. Pricing is published.",
     },
     searchPhrases: ["life science revenue seasonal grant cycle", "cro revenue follows nih funding cycle", "how to smooth seasonal revenue biotech services", "grant cycle timing sales outreach", "summer slowdown research services"],
     sections: [
@@ -956,7 +956,7 @@ export const problems: Problem[] = [
     lead: "Physicians Practice puts referring physicians and word of mouth at 80 to 90 percent of new patients for specialty practices. That is not a marketing channel. It is a dependency, and it breaks when a referrer retires, when a hospital system employs them and points referrals inward, or when their front desk changes. Referring physicians are a market. Treat them like one.",
     callout: {
       label: "Where this lives",
-      body: "Amplification at $10,000 a month includes one outbound seat working a list of the practices whose patients you want, with a monthly meeting number in writing. Excitation builds the clinician forward pages and outcome data the referral coordinator will look for first. Pricing is published.",
+      body: "Amplification at $10,000 a month includes one outbound seat working a list of the practices whose patients you want, with meetings verified against the meeting quality standard. Excitation builds the clinician forward pages and outcome data the referral coordinator will look for first. Pricing is published.",
     },
     searchPhrases: ["practice relies on few referring physicians", "how to get more physician referrals", "referring physician retiring lost referrals", "physician referral marketing specialty practice", "hospital system taking our referrals"],
     sections: [
@@ -1215,7 +1215,7 @@ export const problems: Problem[] = [
     lead: "You have a product, a runway, and a board that wants to see the top of the funnel move before it funds the bottom. The conventional answer is to hire an SDR. The SDR inherits an empty demand environment, ramps for four months, and leaves in fourteen. Build the environment first, at a price that fits the model, and hire the closer into a full calendar.",
     callout: {
       label: "Where this lives",
-      body: "Amplification at $10,000 a month plus ad spend replaces the first marketing hire and the first SDR: the site, the content, multiple campaigns, and one outbound seat with a monthly meeting number you can paste into the board update. Pricing is published so the cost line is in the model from day one.",
+      body: "Amplification at $10,000 a month plus ad spend replaces the first marketing hire and the first SDR: the site, the content, multiple campaigns, and one outbound seat. We define what counts, we verify each meeting, and we report cost per qualified meeting. Pricing is published so the cost line is in the model from day one.",
     },
     searchPhrases: ["how to build pipeline before hiring sales", "startup sales pipeline before first sdr", "outsourced sdr for seed stage startup", "when to hire first salesperson startup", "series a pipeline generation"],
     sections: [
@@ -1223,14 +1223,14 @@ export const problems: Problem[] = [
         "An SDR loads to $70,000 to $90,000, ramps three to four months, and average tenure sits well under two years. They arrive to no list, no sequences, a website that describes features, and no content to send after a call. They spend a quarter building marketing and a quarter selling into silence, and the board sees a salary line with no pipeline line. Then you start over, with the same empty room.",
       ]},
       { h2: "What to build, in order", body: [
-        "First, a site that says something a buyer can verify: the problem, the price or a range, the proof, the people. Second, one page per question your buyers ask, so the prospect who looks you up finds an answer rather than a mission statement. Third, one Google Ads campaign and a landing page per audience, read weekly by a person. Fourth, a list built from real data and an outbound seat working it with a meeting number in writing. Each step makes the next cheaper, and all four together are what the future sales hire will need on day one.",
+        "First, a site that says something a buyer can verify: the problem, the price or a range, the proof, the people. Second, one page per question your buyers ask, so the prospect who looks you up finds an answer rather than a mission statement. Third, one Google Ads campaign and a landing page per audience, read weekly by a person. Fourth, a list built from real data and an outbound seat working it with meetings verified against the meeting quality standard. Each step makes the next cheaper, and all four together are what the future sales hire will need on day one.",
       ]},
       { h2: "Rent the seat, keep the close", body: [
         "The outbound seat prospects, qualifies, confirms, and briefs. The founder takes the meeting, because founder knowledge closes and prospecting wastes it. When the seat books more meetings than the founder can take, usually around $3 million to $5 million in revenue, hire an account executive who closes into a full calendar with documented runbooks. That hire works because the room is no longer empty.",
       ]},
     ],
     faqs: [
-      { q: "What does the board see?", a: "A 90 day ramp with deliverables in writing: pages live, campaigns at a stated cost per lead, and at Amplification a monthly meeting number. Paste the agreement into the update and report against it." },
+      { q: "What does the board see?", a: "A 90 day ramp with deliverables in writing: pages live, campaigns at a stated cost per lead, and at Amplification a report of cost per qualified meeting. Paste the agreement into the update and report against it." },
       { q: "We are pre revenue. Is Amplification too early?", a: "Yes. Amplification needs a closer on your side. Pre revenue, Ground State at $2,500 gives the company a voice; seed with budget, Excitation adds paid demand." },
       { q: "Can we pause between raises?", a: "The term is a year, so a pause is a conversation rather than a button. Paid demand can be turned down inside the term; most startups keep Ground State running through a raise because visibility compounds and restarts slowly." },
     ],
@@ -1279,7 +1279,7 @@ export const problems: Problem[] = [
     lead: "The board deck has a slide titled pipeline and it contains a list of companies the founder has talked to. Investors want a number that was committed to before it was hit, a cost per meeting, and a trend. You do not have a sales team, so you cannot produce those the way a Series C company does. You can produce them another way: a 90 day ramp with deliverables in writing, reported against monthly.",
     callout: {
       label: "Where this lives",
-      body: "Every tier states its deliverables in the agreement. Amplification at $10,000 a month adds a monthly qualified meeting number in writing. Paste the agreement into the board update and report against it. Pricing is published so the cost line is already in the model.",
+      body: "Every tier states its deliverables in the agreement. Amplification at $10,000 a month adds meetings verified against the meeting quality standard. Paste the agreement into the board update and report against it. Pricing is published so the cost line is already in the model.",
     },
     searchPhrases: ["how to report pipeline to board early stage", "pipeline metrics for seed stage startup", "board update sales pipeline no sales team", "pipeline coverage startup without sales", "what pipeline metrics do investors want"],
     sections: [
@@ -1501,7 +1501,7 @@ export const problems: Problem[] = [
     audience: "owners",
     dateModified: "2026-09-08",
     title: "Google AI Answers the Question and Nobody Clicks",
-    metaDescription: "Impressions are up, clicks are down, and the answer box quotes someone else. What the AI answer layer cites, and how to become the citation.",
+    metaDescription: "Impressions are up, clicks are down, and the answer box quotes someone else. What AI-generated answers cite, and how to become the citation.",
     eyebrow: "Problem · Owners",
     h1: "Google's AI answers the question and nobody clicks through to us.",
     lead: "Your Search Console report shows the same impressions as last year and fewer clicks, and when you search your own topic, the first thing on the page is a paragraph Google wrote, with three small citations, none of them you. The buyer got the answer and left. You did not lose a ranking. You lost the click to a summary, and the only way to get it back is to become what the summary quotes.",
@@ -1539,7 +1539,7 @@ export const problems: Problem[] = [
     lead: "You sell to engineers, and engineers do not book demos. They read the documentation, run the trial, check the changelog, and ask a peer. By the time one of them talks to a human, they have decided, and half the time they decided against you for a reason nobody on your side ever heard. Marketing to that buyer with a marketing voice makes it worse. Building for the way they actually evaluate is the only thing that works.",
     callout: {
       label: "Where this lives",
-      body: "Excitation at $5,000 a month when the site exists and paid demand does not. Amplification at $10,000 when the founder is still the only person booking meetings and the buying committee includes an engineering lead who has to be reached on their own terms, with an outbound seat and a meeting number in writing. Pricing is published.",
+      body: "Excitation at $5,000 a month when the site exists and paid demand does not. Amplification at $10,000 when the founder is still the only person booking meetings and the buying committee includes an engineering lead who has to be reached on their own terms, with an outbound seat and meetings verified against the meeting quality standard. Pricing is published.",
     },
     searchPhrases: ["marketing to developers who hate marketing", "technical buyers do not book demos", "developer tool pipeline without sales calls", "how to sell to engineers who evaluate with docs", "b2b technical marketing content engineers read"],
     sections: [
@@ -1571,7 +1571,7 @@ export const problems: Problem[] = [
     lead: "Clients hire your firm because of three or four specific people, and those people bill by the hour. Asking a partner to write a monthly article is asking for the most expensive hour in the building, so nothing gets written, and the firm's website says what every competitor's website says. The fix is not to make partners into writers. It is to capture what they already say, on calls, in pitches, over lunch, and turn that into the writing.",
     callout: {
       label: "Where this lives",
-      body: "Ground State at $2,500 a month: one field note a month in a named partner's voice, a newsletter, and the LinkedIn cadence, captured from a recorded thirty minute conversation rather than a blank page. Amplification when the firm wants outbound to the right 200 accounts with a meeting number in writing. Pricing is published.",
+      body: "Ground State at $2,500 a month: one field note a month in a named partner's voice, a newsletter, and the LinkedIn cadence, captured from a recorded thirty minute conversation rather than a blank page. Amplification when the firm wants outbound to the right 200 accounts with meetings verified against the meeting quality standard. Pricing is published.",
     },
     searchPhrases: ["how to get partners to write thought leadership", "law firm content partners will not write", "ghostwriting for consultants and partners", "professional services marketing founder led content", "consulting firm blog nobody writes"],
     sections: [

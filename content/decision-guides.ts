@@ -82,9 +82,9 @@ export const croGuide = {
   description: "What counts as a held, qualified meeting, how we verify it, what happens when one fails, and how meeting to opportunity conversion gets reported.",
   eyebrow: "CRO decision guide",
   h1: "What counts as a meeting, and what happens when one does not.",
-  lead: "Every appointment setting vendor reports meetings booked. Almost none define the word. This is the definition written into every Amplification and Quantum Leap agreement, the process that verifies it, and the rule for what happens when a meeting fails it.",
+  lead: "You get a monthly report that says \"eight meetings booked,\" but two were no-shows. We define what counts, we verify each meeting, and we report cost per qualified meeting.",
   datePublished: "2026-09-07",
-  dateModified: "2026-09-07",
+  dateModified: "2026-09-11",
   definition: {
     h2: "What counts as a meeting.",
     statement: "A qualified meeting is a held conversation with a person who matches criteria agreed before the program starts: role, company type, and a stated need, confirmed in advance, and delivered with a brief on who they are and why they said yes.",
@@ -98,7 +98,7 @@ export const croGuide = {
   verification: {
     h2: "How we verify it.",
     steps: [
-      { n: "01", name: "Criteria in writing", body: "Role, company type, and need are written into the agreement in week one of the ramp, beside the monthly number." },
+      { n: "01", name: "Criteria in writing", body: "Role, company type, and need are written into the agreement in week one of the ramp." },
       { n: "02", name: "Confirmation and brief", body: "Every booked meeting gets a confirmation sequence. You receive a brief before the call: who they are, why they said yes, what they care about." },
       { n: "03", name: "Held or not", body: "Meetings are logged as held only after the conversation happens. Your calendar is the record." },
       { n: "04", name: "Acceptance", body: "After the call you accept the meeting or dispute it against the criteria. Call recordings, where you record, and the brief are the evidence on both sides." },
@@ -106,8 +106,8 @@ export const croGuide = {
   },
   failure: {
     h2: "What happens when a meeting fails the standard.",
-    body: "It does not count. No shows and meetings that fail criteria are not counted toward the monthly number, and the number is what we owe. We do not argue a bad meeting into the total, and we do not charge per meeting, so there is no incentive to.",
-    note: "Amplification and above carry the monthly meeting commitment in writing during the 90 day ramp, set against your market size, offer, and deal value.",
+    body: "It does not count. No shows and meetings that fail criteria are not counted. We do not argue a bad meeting into the total, and we do not charge per meeting, so there is no incentive to.",
+    note: "We define what counts, we verify each meeting, and we report cost per qualified meeting.",
   },
   conversion: {
     h2: "Meeting to opportunity conversion.",
@@ -116,7 +116,7 @@ export const croGuide = {
   faqs: [
     { q: "Who decides whether a meeting was qualified?", a: "You do, against the written criteria. If we disagree, the brief and the recording settle it. In practice disputes are rare because the criteria are specific." },
     { q: "What if the prospect reschedules?", a: "A rescheduled meeting that is later held counts when it is held. A meeting that reschedules and never happens does not count." },
-    { q: "Do you charge per meeting?", a: "No. The tier fee is flat and the meeting number is a commitment inside it. Per meeting pricing rewards volume over fit, which is how vendors end up booking meetings that fail this standard." },
+    { q: "Do you charge per meeting?", a: "No. The tier fee is flat. We define what counts, we verify each meeting, and we report cost per qualified meeting. Per meeting pricing rewards volume over fit, which is how vendors end up booking meetings that fail this standard." },
     { q: "How is this different from an appointment setting company?", a: "Appointment setters book meetings into whatever brand you have. We build the site, run the content and the ads, and then book the meetings into a system designed to convert them, so the prospect who said yes still says yes after looking you up." },
   ] as FAQ[],
   related: [

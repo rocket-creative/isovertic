@@ -85,7 +85,7 @@ Each cluster needs one page declared the hub (the article or the service page) t
 
 4.5 Medium. One number, two versions. ProofBand, /results roster, answers, and the glossary say "147 pages" for the ITL work. The ITL case study says "Over 14,000 pages shipped." [verified, components/sections/ProofBand.tsx, app/results/page.tsx line 459, content/case-studies.ts line 167] Both may be true (147 hand written service pages plus a 14,000 page catalog), but no page says so, and a skeptical PI or an AI model will read it as a contradiction. Write one sentence that reconciles it and use it everywhere.
 
-4.6 Medium. Case studies never link to the client. `sourceDomain` exists on every study (genetargeting.com, sydra.health, kaverasoft.com) and is never rendered. [verified] An outbound link to the named client is the cheapest corroboration you can add.
+4.6 Medium. Case studies never link to the client. `sourceDomain` exists on every study (genetargeting.com, sydra.health) and is never rendered. [verified] An outbound link to the named client is the cheapest corroboration you can add.
 
 4.7 Low. Article body length 537 to 652 words for 13 of 14 pieces; the guide is 997. [verified] For "complete guide" and "best companies" queries where the current top results are G2, TrustRadius, Martal, and Callbox pages, 600 words will not hold. [verified for the SERPs, inference for the conclusion] Target 1,500 plus on the five commercial intent articles (guide, cost, best companies, Abstrakt alternatives, HIPAA) and leave the rest.
 
