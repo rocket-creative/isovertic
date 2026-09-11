@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 };
 
 const homeFaqs = [
-  { q: "What does ISOVERTIC actually do?", a: "We build the website that gets found by the specialist already searching for what you sell, then spend advertising only on those people. One team runs the site, the publishing, Google Ads, media, outbound, and training. You choose how much of that we run." },
+  { q: "What does ISOVERTIC actually do?", a: "We build the website that gets found by the buyer already searching for what you sell, then spend advertising only on those people. One team runs the site, the publishing, Google Ads, media, outbound, and training. You choose how much of that we run." },
   { q: "How is this different from a marketing agency or a web design company?", a: "A marketing agency hands you traffic and reports. A web design company hands you a launch. We hand you meetings, or, on the smaller packages, the site, content, and campaigns that a meeting program is built on, produced by the team that will eventually run it." },
   { q: "How is this different from an appointment setting company?", a: "Appointment setters book meetings into whatever you already have. If the website is weak and the brand is invisible, those meetings show up cold and close poorly. We build the asset and the air cover, then book the meetings into a system designed to convert them." },
   { q: "What does it cost?", a: "Engagements start at $2,500 per month for publishing and run to $25,000 and up for multi-brand programs with television. Every package is a 12-month engagement that includes the $15,000 website rebuild and hosting. Every package, every add-on, and the term table are on the pricing page, and every package checks out on the page by card or bank debit, no call." },

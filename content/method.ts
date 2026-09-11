@@ -2,10 +2,10 @@
 
 export const method = {
   eyebrow: "How it works",
-  h1: "The six-step system that books specialist meetings",
+  h1: "The six-step system that books qualified meetings",
   lead: [
     "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. We build the website, run the advertising, publish the content, and book the meetings. One team, one number, one clock. This page is for the founders, CEOs, presidents, VPs of commercial, chief scientific officers, chief medical officers, and practice administrators who want to see the whole system before they buy.",
-    "The system has one purpose: bring the specialist already searching for what you sell to a qualified meeting with your sales team. The website does the first part. The five other steps make that work reach farther, move faster, or become teachable inside your company.",
+    "The system has one purpose: bring the buyer already searching for what you sell to a qualified meeting with your sales team. The website does the first part. The five other steps make that work reach farther, move faster, or become teachable inside your company.",
     "Every engagement uses the same six steps: Build, Rank, Run, Buy, Book, and Educate. Your package sets which steps we operate and how deep each one goes. The steps do not change.",
   ],
   heroCta: { label: "Book a pipeline call", href: "/contact" },

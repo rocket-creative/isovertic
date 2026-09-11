@@ -83,7 +83,7 @@ export const services: Page[] = [
         "We run ads against the searches your buyers make when they are already looking for a solution: a device model, a regulation, a billing code, a clinical protocol, a specific service. The ad leads to a page that answers that exact question in plain language and gives one clear next step. Your team sees the meetings that came out of it, not a pile of impressions.",
       ]},
       { h2: "Why this kind of buyer requires a different setup", body: [
-        "The healthcare, biotech, medical device, and life sciences tools and diagnostics buyer is not casual. A medical director may need a clinically defensible answer before they will book time. A director of billing wants a plain explanation of what actually happens in the office. A principal investigator wants to see the assay data on the same page as the offer. A founder looking for a specialist vendor after a board request will not spend 30 seconds on a home page that reads like a brochure.",
+        "The healthcare, biotech, medical device, and life sciences tools and diagnostics buyer is not casual. A medical director may need a clinically defensible answer before they will book time. A director of billing wants a plain explanation of what actually happens in the office. A principal investigator wants to see the assay data on the same page as the offer. A founder looking for a vendor after a board request will not spend 30 seconds on a home page that reads like a brochure.",
         "Every campaign we run has a landing page written for the reader who clicked. Every page has a real next step: book a meeting, request a scoping call, download the specification sheet, join a briefing. The ad, the page, the follow-up, and the meeting are one connected job owned by one team.",
       ]},
       { h2: "The deliverables, by name", body: [], list: [
@@ -128,19 +128,19 @@ export const services: Page[] = [
     slug: "seo-content",
     title: "Articles, Newsletters, and Video That Get Your Company Found and Cited | ISOVERTIC",
     dateModified: "2026-09-10",
-    metaDescription: "Articles, newsletters, social posts, and video for healthcare, biotech, medical devices, and life sciences. Publishing that a specialist can find, cite, and forward.",
+    metaDescription: "Articles, newsletters, social posts, and video for healthcare, biotech, medical devices, and life sciences. Publishing that a scientist or clinician can find, cite, and forward.",
     eyebrow: "Search and content",
     h1: "Articles, newsletters, and video that get your company found and cited.",
-    lead: "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences tools and diagnostics. We publish the articles, newsletters, social posts, and video that put your company in front of the specialist already looking for what you sell. Founders, CEOs, presidents, VPs of commercial, VPs of marketing, chief scientific officers, chief medical officers, medical directors, principal investigators, practice administrators, and directors of billing hire us when their website has to earn a serious reader's trust before a salesperson ever joins the conversation.",
+    lead: "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences tools and diagnostics. We publish the articles, newsletters, social posts, and video that put your company in front of the buyer already looking for what you sell. Founders, CEOs, presidents, VPs of commercial, VPs of marketing, chief scientific officers, chief medical officers, medical directors, principal investigators, practice administrators, and directors of billing hire us when their website has to earn a serious reader's trust before a salesperson ever joins the conversation.",
     callout: {
       label: "Where this lives",
       body: "Ground State includes one published article, one newsletter, eight social posts, and a monthly report, with the website rebuild included. Excitation doubles social to 16 posts. Amplification adds a YouTube channel. Pricing is published.",
     },
     sections: [
       { h2: "What this actually is", body: [
-        "A steady, published rhythm of articles a specialist can find, cite, and forward. Not a blog that fills an empty navigation item. Not a content library that reads like it was written for a general audience by someone who has never sat in a clinical or scientific meeting.",
+        "A steady, published rhythm of articles a scientist or clinician can find, cite, and forward. Not a blog that fills an empty navigation item. Not a content library that reads like it was written for a general audience by someone who has never sat in a clinical or scientific meeting.",
         "A principal investigator comparing an assay wants a clear write-up of how yours performs. A practice administrator trying to price a service change wants a plain explanation of what actually happens in the office. A chief medical officer preparing for a committee wants evidence before the room votes. If your site has the answer in language they recognize, you have a real advantage before your salesperson makes the first call.",
-        "The writing is built for the specialist, not a general audience. We work from your evidence, your approved claims, your product knowledge, your clinical or scientific review process, and the objections your salespeople hear on real calls. If the answer needs a caveat, it gets one. If your medical, legal, and regulatory reviewer needs to see it first, we set up that path.",
+        "The writing is built for the scientist or clinician, not a general audience. We work from your evidence, your approved claims, your product knowledge, your clinical or scientific review process, and the objections your salespeople hear on real calls. If the answer needs a caveat, it gets one. If your medical, legal, and regulatory reviewer needs to see it first, we set up that path.",
       ]},
       { h2: "The deliverables, by name", body: [], list: [
         "Articles on your site, written from your source material and reviewed for accuracy.",
@@ -197,17 +197,17 @@ export const services: Page[] = [
     sections: [
       { h2: "What this actually is", body: [
         "A full website rebuild, hosting, ownership of your code and domain, and pages built to receive a search visitor, an ad click, a referral, or an outbound reply and give that person a credible reason to book a meeting. Not a brochure. Not a design project handed off and forgotten.",
-        "Most company sites in this space describe the company, list some services, and wait for someone to already be convinced. That is not enough for a specialist sale. Your buyer is doing diligence. They want to know whether you understand their problem, whether the evidence holds up, whether you operate in their setting, what the next step looks like, and who will answer if they reach out. We rebuild the site so those answers are on the page, not hidden behind a contact form.",
+        "Most company sites in this space describe the company, list some services, and wait for someone to already be convinced. That is not enough for a scientific or clinical sale. Your buyer is doing diligence. They want to know whether you understand their problem, whether the evidence holds up, whether you operate in their setting, what the next step looks like, and who will answer if they reach out. We rebuild the site so those answers are on the page, not hidden behind a contact form.",
       ]},
       { h2: "Why the website is the load-bearing piece", body: [
         "Every part of the program lands on the site. A Google Ads campaign needs a landing page worth reading after the click. An outbound message needs a real page to send the prospect to. A published article needs a home. A streaming television spot needs a page ready for the branded search that follows two weeks later. When the site cannot carry the argument, nothing else in the program pays off, and every other line item is subsidizing the weakness.",
-        "The site loads quickly and can be found by search engines and by AI answer engines. It is built so a specialist can read the evidence, understand the offer, see the price when a price belongs on the page, and take the next step without fighting through animations or a maze of navigation. Good design here is useful design.",
+        "The site loads quickly and can be found by search engines and by AI answer engines. It is built so a scientist or clinician can read the evidence, understand the offer, see the price when a price belongs on the page, and take the next step without fighting through animations or a maze of navigation. Good design here is useful design.",
       ]},
       { h2: "The deliverables, by name", body: [], list: [
         "A full website rebuild included in every package as a $15,000 value spread across the 12-month engagement.",
         "Hosting included for the engagement.",
         "Ownership of your code and your domain, permanent, with no vendor lock.",
-        "Pages that present the offer, the evidence, the price where appropriate, and the next step in plain language a specialist recognizes.",
+        "Pages that present the offer, the evidence, the price where appropriate, and the next step in plain language the buyer recognizes.",
         "A site built for search engines and AI answer engines, loading quickly, with the technical work done by our engineering team.",
         "Landing pages for advertising campaigns in Excitation and above, refreshed as the evidence from the campaign calls for it.",
         "The HIPAA form-and-call stack at $750 per month for healthcare accounts, built against the [HHS OCR online tracking guidance](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html).",
@@ -306,7 +306,7 @@ export const services: Page[] = [
     slug: "design-brand",
     title: "Design and Brand That Make the Sale Easier | ISOVERTIC",
     dateModified: "2026-09-10",
-    metaDescription: "Design and brand for healthcare, biotech, medical devices, and life sciences. Identity, message, decks, and pages that survive a specialist reader.",
+    metaDescription: "Design and brand for healthcare, biotech, medical devices, and life sciences. Identity, message, decks, and pages that survive a scientific or clinical reader.",
     eyebrow: "Brand",
     h1: "Design and brand that make the sale easier.",
     lead: "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences tools and diagnostics. Design and brand run across everything else we do. We are not a stand-alone identity shop, and design here is not decoration with a nice invoice. Founders, CEOs, presidents, chief operating officers, VPs of commercial, and VPs of marketing rely on it when the visible surfaces of their company have to survive a chief medical officer, a chief scientific officer, a principal investigator, a medical director, a procurement committee, or a director of billing.",
@@ -343,7 +343,7 @@ export const services: Page[] = [
       ]},
       { h2: "The honest limit", body: [
         "Design will not fix an unclear offer, unsupported claims, or a sales team that does not follow up. It can make a strong offer more legible and credible. It cannot make a weak promise true.",
-        "It also cannot replace the evidence a specialist sale requires. A medical director still needs clinical support. A principal investigator still needs technical detail. A director of billing still needs a plain explanation of the operational change. Good design makes those answers easier to find and use. It does not ask the buyer to accept less proof.",
+        "It also cannot replace the evidence a scientific or clinical sale requires. A medical director still needs clinical support. A principal investigator still needs technical detail. A director of billing still needs a plain explanation of the operational change. Good design makes those answers easier to find and use. It does not ask the buyer to accept less proof.",
         "If all you need is a logo with no connection to the site, the sales material, or the message, we are probably not the right shop. There are excellent independent designers for that work, and we will say so rather than force a larger program into a smaller problem.",
       ]},
       { h2: "What we don't do", body: [
@@ -371,7 +371,7 @@ export const servicesOverview = {
   eyebrow: "Services",
   h1: "Services that book meetings, not reports.",
   lead: [
-    "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. We build the website that gets found by the specialist already searching for what you sell, then we spend advertising only on those people. One team owns the site, the publishing, the ads, the media, the outbound, and the training. That is what keeps the work connected to a real meeting on your calendar.",
+    "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. We build the website that gets found by the buyer already searching for what you sell, then we spend advertising only on those people. One team owns the site, the publishing, the ads, the media, the outbound, and the training. That is what keeps the work connected to a real meeting on your calendar.",
     "This page is for founders, CEOs, presidents, VPs of commercial, chief scientific officers, chief medical officers, medical directors, principal investigators, VPs of regulatory, practice administrators, and directors of billing who want to see the offer before they book a call. Six connected steps, four ways to buy them.",
   ],
   protocolListing: {
@@ -391,7 +391,7 @@ export const servicesOverview = {
       "Honest limit. We build on our own stack. If you must stay on Wix or Squarespace, we are not the right shop and we will say so.",
     ]},
     { h2: "02 Rank. Published answers your buyers can find", body: [
-      "Rank produces the articles, newsletters, and social posts that help buyers answer real questions before they contact you. The goal is a cited, useful page a specialist can send to a colleague, a supervisor, or a compliance officer.",
+      "Rank produces the articles, newsletters, and social posts that help buyers answer real questions before they contact you. The goal is a cited, useful page a buyer can send to a colleague, a supervisor, or a compliance officer.",
       "Ground State includes one published article, one newsletter, eight social posts, and the monthly report for $2,500 per month. It is the correct place to start if you need a regular presence but are not ready to buy advertising.",
       "Honest limit. Search results build over time. You should see early movement from month three, more useful momentum from month six. If the calendar needs meetings sooner, pair Rank with Run.",
     ]},

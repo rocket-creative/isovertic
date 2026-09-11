@@ -62,7 +62,7 @@ export const buyerRoles = {
       key: "cro",
       tab: "Head of Sales or CRO",
       question: "Will these meetings actually close?",
-      body: "Two answers. First, we define what counts as a meeting in writing before the program starts, verify each one against the criteria, and report meeting-to-opportunity conversion once an engagement has the data. Meetings that no-show or fail the criteria do not count. Second, the meetings close because they come from a specialist who searched for exactly what you sell, in the vocabulary they use professionally. That is a warmer opener than a cold list. The definition is on the meeting quality standard page.",
+      body: "Two answers. First, we define what counts as a meeting in writing before the program starts, verify each one against the criteria, and report meeting-to-opportunity conversion once an engagement has the data. Meetings that no-show or fail the criteria do not count. Second, the meetings close because they come from a buyer who searched for exactly what you sell, in the vocabulary they use professionally. That is a warmer opener than a cold list. The definition is on the meeting quality standard page.",
       cta: { label: "Read the meeting quality standard", href: "/resources/meeting-quality-standard" },
     },
   ],
@@ -73,7 +73,7 @@ export const commitmentStandard = { label: "What results to expect, and when", h
 // Homepage copy. Rewritten 2026-09-10 from Site Rewrite v3.
 export const home = {
   h1: "The Growth Agency for Healthcare, Biotech, Medical Devices, and Life Sciences",
-  sub: "Isovertic is a growth agency for companies that sell to specialists. We build the website, run the advertising, publish the content, and book the meetings. Founders, CEOs, presidents, and vice presidents of commercial hire us when the marketing has to survive a chief scientific officer, a medical director, a compliance officer, or a VP of regulatory, not just a scroll.",
+  sub: "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. We build the website, run the advertising, publish the content, and book the meetings. Founders, CEOs, presidents, and vice presidents of commercial hire us when the marketing has to survive a chief scientific officer, a medical director, a compliance officer, or a VP of regulatory, not just a scroll.",
   who: {
     h2: "Who we work with",
     intro: "We serve four kinds of companies:",
@@ -87,9 +87,9 @@ export const home = {
   },
   what: {
     h2: "What we actually do",
-    lead: "We build the website that gets found by the specialist already searching for what you sell, then we spend advertising only on those people.",
+    lead: "We build the website that gets found by the buyer already searching for what you sell, then we spend advertising only on those people.",
     body: [
-      "Your website is not a brochure. It is your best salesperson, working alone at 3 a.m., when a specialist has a real question and starts looking for an answer. If your site can answer that question in language the specialist recognizes, it hands your team a qualified meeting the next morning. That is the whole point.",
+      "Your website is not a brochure. It is your best salesperson, working alone at 3 a.m., when a buyer has a real question and starts looking for an answer. If your site can answer that question in language the buyer recognizes, it hands your team a qualified meeting the next morning. That is the whole point.",
       "Every engagement gives you one team responsible for the connected work: the website, the published articles, the newsletter, the social posts, Google Ads, streaming television and radio when the math supports it, outbound meetings on your calendar, and training for your team.",
     ],
   },

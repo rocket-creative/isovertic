@@ -4,7 +4,7 @@ export const about = {
   h1: "One senior team owns the pipeline. Every account. Every tier.",
   lead: [
     "ISOVERTIC was built for companies that have to prove their results to someone: a review board, an investor, a regulator, a patient. That buyer does not want a deck of adjectives. They want the number, the method, and the people who own both.",
-    "ISOVERTIC is a growth agency. Not a marketing agency, which hands you traffic and reports. Not a web design company, which hands you a launch. One senior team owns the whole pipeline: the site that gets found by the specialist already searching for what you sell, the content they trust, the ads spent only on them, and the outbound that turns a found page into a meeting on your calendar, with tracking that proves which page produced which meeting. That is what we sell.",
+    "ISOVERTIC is a growth agency. Not a marketing agency, which hands you traffic and reports. Not a web design company, which hands you a launch. One senior team owns the whole pipeline: the site that gets found by the buyer already searching for what you sell, the content they trust, the ads spent only on them, and the outbound that turns a found page into a meeting on your calendar, with tracking that proves which page produced which meeting. That is what we sell.",
   ],
   name: {
     h2: "Why the name",
@@ -14,7 +14,7 @@ export const about = {
     h2: "What you are actually buying",
     body: [
       "You are buying company knowledge, not one person's calendar.",
-      "George engineered the method over 30 years of building the systems companies sell through. Kristen wrote it down, taught the team to run it, and built the operation that ships it consistently across every account. Every engagement runs the same method. We say what it produces: a website the specialist already searching for you can trust, advertising spent only on those people, and a meeting on your calendar with a written brief. We do not publish how we choose what to build, publish, or bid on. The six steps are on the system page.",
+      "George engineered the method over 30 years of building the systems companies sell through. Kristen wrote it down, taught the team to run it, and built the operation that ships it consistently across every account. Every engagement runs the same method. We say what it produces: a website the buyer already searching for you can trust, advertising spent only on those people, and a meeting on your calendar with a written brief. We do not publish how we choose what to build, publish, or bid on. The six steps are on the system page.",
       "The method is written down. The team is trained on it. The founder is the source and the escalation path, not the bottleneck. That is why the account keeps moving in a slow week, and it is why year two does not fall off a cliff.",
     ],
   },
@@ -22,7 +22,7 @@ export const about = {
     h2: "The team behind every account",
     lead: "The same senior team runs every tier. Ground State clients get the same people writing their articles and building their site that Quantum Leap clients get. Nothing is offshored. Nothing is subcontracted to a freelancer who was hired that morning. If you buy a tier, you get the team.",
     roles: [
-      { title: "Content writers.", body: "Trained scientists and clinicians on staff who write the articles, newsletters, ad copy, and social posts. Every page a specialist reads was written by a person who understands the subject, not an AI draft with a human polish." },
+      { title: "Content writers.", body: "Trained scientists and clinicians on staff who write the articles, newsletters, ad copy, and social posts. Every page a scientist or clinician reads was written by a person who understands the subject, not an AI draft with a human polish." },
       { title: "Full-stack developers.", body: "The engineers who build and maintain your website, the tracking, the forms, and the integrations that connect your site to your CRM." },
       { title: "Google Ads specialists.", body: "The team that plans, launches, and manages your search campaigns and reports cost per booked meeting every month." },
       { title: "Media buyers.", body: "The team that plans and buys streaming TV, cable, broadcast, and radio when the math supports it, and reports on reach and lift." },

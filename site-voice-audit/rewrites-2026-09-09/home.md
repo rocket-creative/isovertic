@@ -1,6 +1,6 @@
 # The Growth Agency for Healthcare, Biotech, Medical Devices, and Life Sciences
 
-**Isovertic is a growth agency for companies that sell to specialists.** We build the website, run the advertising, publish the content, and book the meetings. Founders, CEOs, presidents, and vice presidents of commercial hire us when the marketing has to survive a chief scientific officer, a medical director, a compliance officer, or a VP of regulatory, not just a scroll.
+**Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences.** We build the website, run the advertising, publish the content, and book the meetings. Founders, CEOs, presidents, and vice presidents of commercial hire us when the marketing has to survive a chief scientific officer, a medical director, a compliance officer, or a VP of regulatory, not just a scroll.
 
 ## Who We Work With
 

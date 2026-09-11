@@ -53,7 +53,7 @@ export const roster: RosterItem[] = [
       "Ten-article content launch to seed the topic authority.",
       "Master implementation brief for the site rebuild, which now runs on our stack.",
     ],
-    whatWeDid: "The audit-to-brief-to-build pattern our SEO page promises, executed on a new-brand launch. Sydra needed to move from invisible to architected inside a year, on a budget where flood-of-leads was never the goal. A qualified lead per week from paid on a small budget, into a brand that did not exist three months earlier, is the right result for the spend. We do not promise a flood. We promise every lead came from a specialist who searched for exactly what Sydra sells, and that we can prove which page produced it.",
+    whatWeDid: "The audit-to-brief-to-build pattern our SEO page promises, executed on a new-brand launch. Sydra needed to move from invisible to architected inside a year, on a budget where flood-of-leads was never the goal. A qualified lead per week from paid on a small budget, into a brand that did not exist three months earlier, is the right result for the spend. We do not promise a flood. We promise every lead came from a buyer who searched for exactly what Sydra sells, and that we can prove which page produced it.",
     kicker: "A rebrand is only finished when the pipeline runs under the new name. We built both.",
   },
   {
