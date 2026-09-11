@@ -6,8 +6,6 @@ import { FAQ } from "@/components/ui/FAQ";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { breadcrumbLd, faqLd } from "@/lib/schema";
 import { PipelineDiagram } from "@/components/sections/PipelineDiagram";
-import { AiHuman } from "@/components/sections/AiHuman";
-import { WhyBuyers } from "@/components/sections/WhyBuyers";
 import { TeamBios } from "@/components/sections/TeamBios";
 import { CTABand } from "@/components/sections/CTABand";
 import { IsoverticMove } from "@/components/sections/IsoverticMove";
@@ -16,8 +14,8 @@ import { method as c } from "@/content/method";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "How the ISOVERTIC System Works | Six Steps, Seven Layers" },
-  description: "The six steps of the ISOVERTIC pipeline, Build, Rank, Run, Buy, Book, Educate, and the seven layers under Build that get the site found by the specialist already searching.",
+  title: { absolute: "How the ISOVERTIC System Works | Six Steps That Book Meetings" },
+  description: "The six steps of the ISOVERTIC pipeline: Build, Rank, Run, Buy, Book, Educate. One team for healthcare, biotech, medical devices, and life sciences.",
   alternates: { canonical: "/system" },
 };
 
@@ -70,85 +68,37 @@ export default function System() {
         </ol>
       </Section>
 
-      <Section label="The seven layers">
+      <Section label="Measurement">
         <RevealBlock className="max-w-[68ch]">
-          <h2 className="font-display text-h2 font-medium">{c.layers.h2}</h2>
-          <p className="mt-6 leading-relaxed text-ink/90">{c.layers.intro}</p>
-        </RevealBlock>
-        <ol className="mt-12 max-w-[72ch] grid gap-px bg-rule">
-          {c.layers.items.map((layer, i) => (
-            <RevealBlock key={layer.n} as="li" delay={i * 60} className="surface-card p-8">
-              <p className="eyebrow">{layer.n}</p>
-              <h3 className="mt-3 font-display text-h3 font-medium">{layer.title}</h3>
-              <p className="mt-4 leading-relaxed text-ink/90">{layer.body}</p>
-            </RevealBlock>
+          <h2 className="font-display text-h2 font-medium">{c.measurement.h2}</h2>
+          {c.measurement.body.map((p, i) => (
+            <p key={i} className={`${i === 0 ? "mt-6" : "mt-5"} leading-relaxed text-ink/90`}>{p}</p>
           ))}
-        </ol>
-        <RevealBlock className="mt-10 max-w-[68ch]">
-          <p className="leading-relaxed text-ink/90">{c.layers.close}</p>
         </RevealBlock>
       </Section>
 
-      <AiHuman />
-      <WhyBuyers />
-
-      <Section label="Limits">
+      <Section label="Proof" tone="bright">
         <RevealBlock className="max-w-[68ch]">
-          <h2 className="font-display text-h2 font-medium">{c.limits.h2}</h2>
-          {c.limits.intro ? <p className="mt-6 leading-relaxed text-ink/90">{c.limits.intro}</p> : null}
-          <ol className="mt-6 list-decimal space-y-4 pl-5 leading-relaxed text-ink/90">
-            {c.limits.items.map((item) => (
-              <li key={item.title}>
-                <strong>{item.title}</strong> {item.body}
-              </li>
-            ))}
-          </ol>
+          <h2 className="font-display text-h2 font-medium">{c.proof.h2}</h2>
+          {c.proof.body.map((p, i) => (
+            <p key={i} className={`${i === 0 ? "mt-6" : "mt-5"} leading-relaxed text-ink/90`}>{p}</p>
+          ))}
         </RevealBlock>
       </Section>
 
-      <Section label="Scope" tone="bright">
+      <Section label="Start">
         <RevealBlock className="max-w-[68ch]">
-          <h2 className="font-display text-h2 font-medium">{c.scope.h2}</h2>
-          <p className="mt-6 leading-relaxed text-ink/90">{c.scope.body}</p>
-        </RevealBlock>
-      </Section>
-
-      <Section label="The commitment">
-        <RevealBlock className="max-w-[68ch]">
-          <h2 className="font-display text-h2 font-medium">{c.commitment.h2}</h2>
-          <p className="mt-6 leading-relaxed text-ink/90"><LinkedCopy text={c.commitment.intro} /></p>
-          {c.commitment.ramp.length > 0 && (
-            <ol className="mt-6 list-decimal space-y-4 pl-5 leading-relaxed text-ink/90">
-              {c.commitment.ramp.map((item) => (
-                <li key={item.title}>
-                  <strong>{item.title}</strong> {item.body}
-                </li>
-              ))}
-            </ol>
-          )}
-          <p className="mt-6 leading-relaxed text-ink/90">{c.commitment.after}</p>
-          <p className="mt-6 leading-relaxed text-ink/90"><LinkedCopy text={c.commitment.cta} /></p>
-        </RevealBlock>
-      </Section>
-
-      <Section label="Tiers" tone="bright">
-        <RevealBlock className="max-w-[68ch]">
-          <h2 className="font-display text-h2 font-medium">{c.tiers.h2}</h2>
-          <p className="mt-6 leading-relaxed text-ink/90">{c.tiers.intro}</p>
-          <ul className="mt-8 space-y-4 leading-relaxed text-ink/90">
-            {c.tiers.items.map((item) => (
-              <li key={item.name}>
-                <strong>{item.name}</strong> {item.body}
-              </li>
-            ))}
-          </ul>
-          <p className="mt-8 leading-relaxed text-ink/90">
-            <LinkedCopy text={c.tiers.gridNote} />
+          <h2 className="font-display text-h2 font-medium">{c.start.h2}</h2>
+          <p className="mt-6 leading-relaxed text-ink/90">
+            <strong>{c.start.known.label}</strong> <LinkedCopy text={c.start.known.body} />
+          </p>
+          <p className="mt-5 leading-relaxed text-ink/90">
+            <strong>{c.start.talk.label}</strong> <LinkedCopy text={c.start.talk.body} />
           </p>
         </RevealBlock>
       </Section>
 
-      <Section label="Questions">
+      <Section label="Questions" tone="bright">
         <RevealBlock>
           <h2 className="font-display text-h2 font-medium">Questions on the process.</h2>
           <div className="mt-10 max-w-[72ch]">

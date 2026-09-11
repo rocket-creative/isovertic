@@ -11,8 +11,8 @@ export const biotechMolecularBiologist = "Scientific content is reviewed by a mo
 
 export const serviceDiscipline = {
   "google-ads": "Google Ads is run by Google Ads specialists on staff, not by a generalist account manager splitting time across five accounts. Every campaign is built, read weekly, and reported by the same person for the life of the engagement.",
-  "seo-content": "Written by content writers on staff, structured by SEO and AEO specialists on staff, and reviewed by a subject-matter expert when the content is technical. The 147-page life science system was built by that exact team.",
-  "web-development": "Built by full stack developers on staff who write production code every day, not by a templating agency. The stack we sell is the stack this site runs on, and the same engineers maintain both.",
+  "seo-content": "Written by content writers on staff and reviewed by a subject-matter expert when the content is technical. A molecular biologist reviews life-science work before it reaches a client's medical, legal, and regulatory reviewer.",
+  "web-development": "Built by full stack developers on staff who write production code every day, not by a templating agency. The engineers who maintain this site are the engineers who rebuild yours.",
   "outbound-appointment-setting": "Content writers on staff write the sequences by hand. The same team that wrote your website writes your outbound, so the voice on the cold email matches the voice on the landing page it links to.",
   "design-brand": "Videographers, photographers, and designers all in-house. A production day is a real production day: a real videographer, real photographer, real lighting, real editorial direction. No stock, no subcontracted crew.",
   "tv-ctv-advertising": "Creative is written and produced by the videographers and photographers on staff. The same team that shoots your commercial photography for the website shoots your TV spot.",
@@ -25,28 +25,28 @@ export const industryDiscipline = {
 
 export const servicePipelineCta = {
   "google-ads": {
-    headline: "Send us your landing page URL.",
-    body: "If cost per lead is climbing, the account is spending on your own brand terms, or nobody can tell you what a booked meeting costs, [book a pipeline call](/contact) and send us the landing page URL. In about ten minutes we will tell you what is firing, what is wasted, whether the account or page is the problem, and what a fix would require. Sometimes the account is fine and the leads are not being called back. We are happy to say so and hand you back your afternoon.",
+    headline: "Send us your current landing page and cost per lead.",
+    body: "If you would rather talk it through, [book a pipeline call](/contact) and send us your current landing page URL and your cost per lead. In about ten minutes we will tell you whether the problem is the page, the follow-up, the campaign, or the budget, and whether a rebuild would cost less than continuing as you are. Sometimes the honest answer is you are already fine, and we are happy to say so and hand you back your afternoon.",
   },
   "seo-content": {
-    headline: "Send us your site URL.",
-    body: "If organic traffic is flat, or you publish every week and none of it appears in search or answer engines, [book a pipeline call](/contact) and paste in your site URL. In about ten minutes we will tell you what is indexed, what is competing with itself, what has a citation case, and whether the fix is content or infrastructure. Sometimes the honest answer is that the site is fine and the work needs more time. We are happy to say so and hand you back your afternoon.",
+    headline: "Send us your best-converting landing page and one article you are proud of.",
+    body: "If you would rather talk it through, [book a pipeline call](/contact) and send us your best-converting landing page and one article you are proud of. In about ten minutes we will tell you whether the article is doing useful work, what your site is missing, and whether the right next move is publishing, paid ads, or a rebuild. Sometimes the honest answer is you are already fine, and we are happy to say so and hand you back your afternoon.",
   },
   "web-development": {
-    headline: "Send us your current site.",
-    body: "If your site is on WordPress or Webflow and you cannot tell what a crawler sees, [book a pipeline call](/contact) and send us the URL. In about ten minutes we will tell you what is in the initial HTML, what is hidden behind JavaScript, whether the fix is a patch or rebuild, and what the work would cost. Sometimes the honest answer is that the site is fine and the problem is content. We are happy to say so and hand you back your afternoon.",
+    headline: "Send us your best-converting landing page URL.",
+    body: "If you would rather talk it through, [book a pipeline call](/contact) and send us your best-converting landing page URL. In about ten minutes we will tell you what is unclear, what a rebuild would need to fix, and whether you need a rebuild at all. Sometimes the honest answer is you are already fine, and we are happy to say so and hand you back your afternoon.",
   },
   "outbound-appointment-setting": {
-    headline: "Send us your current sequence.",
-    body: "If reply rate is under 3%, booked meetings are a rounding error, or the messages do not match the site, [book a pipeline call](/contact) and paste in the current sequence. In about ten minutes we will tell you whether the subject line, opening, ask, timing, list, or sales surface is broken, and whether the fix is a rewrite or a new list. Sometimes the sequence is fine and the target list is wrong. We are happy to say so and hand you back your afternoon.",
+    headline: "Send us your current outbound sequence and reply rate.",
+    body: "If you would rather talk it through, [book a pipeline call](/contact) and send us your best-converting landing page along with your current outbound sequence and reply rate. In about ten minutes we will tell you whether the message, the website, the list, or the follow-up is holding the work back, and whether an outbound seat is the right next move. Sometimes the honest answer is you are already fine, and we are happy to say so and hand you back your afternoon.",
   },
   "design-brand": {
-    headline: "Send us your current brand assets.",
-    body: "If your site, deck, ads, and one-pagers look as if they came from four different agencies, [book a pipeline call](/contact) and send us the current brand assets. In about ten minutes we will tell you where the system breaks, whether the issue is identity, message, or execution, and what a rebuild would cost. Sometimes the brand is fine and the templates just need to be enforced. We are happy to say so and hand you back your afternoon.",
+    headline: "Send us your current identity, deck, and one-pager.",
+    body: "If you would rather talk it through, [book a pipeline call](/contact) and send us your best-converting landing page along with your current identity, deck, and one-pager. In about ten minutes we will tell you which surface is weakening the sale, whether the issue is identity, message, or website design, and whether you need a focused repair or a larger rebuild. Sometimes the honest answer is you are already fine, and we are happy to say so and hand you back your afternoon.",
   },
   "tv-ctv-advertising": {
-    headline: "Send us your target market.",
-    body: "If you are weighing CTV before you have a national footprint, [book a pipeline call](/contact) and send us your target market and buyer. In about ten minutes we will tell you whether the channel fits your stage, what the test needs to measure, and whether the budget belongs in paid search first. Sometimes the honest answer is that you are not ready for CTV. We are happy to say so and hand you back your afternoon.",
+    headline: "Send us your landing page and the markets that need more familiarity.",
+    body: "If you would rather talk it through, [book a pipeline call](/contact) and send us your best-converting landing page and the markets where your sales team needs more familiarity. In about ten minutes we will tell you whether media fits the sale, what has to be ready first, and whether a test is sensible at your stage. Sometimes the honest answer is you are already fine, and we are happy to say so and hand you back your afternoon.",
   },
 } as const;
 

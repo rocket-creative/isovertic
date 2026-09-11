@@ -12,8 +12,8 @@ import { breadcrumbLd } from "@/lib/schema";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "Outsourced Sales and Marketing Services | ISOVERTIC" },
-  description: "Six services run as one system by one senior team: the website, SEO and AI search, Google Ads, TV and CTV, outbound, and team training. From $2,500 a month.",
+  title: { absolute: "Services That Book Meetings, Not Reports | ISOVERTIC" },
+  description: "The growth agency for healthcare, biotech, medical devices, and life sciences. Six connected steps: website, publishing, Google Ads, media, outbound, and training.",
   alternates: { canonical: "/services" },
 };
 

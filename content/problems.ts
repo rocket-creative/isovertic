@@ -1558,7 +1558,7 @@ export const problems: Problem[] = [
       { q: "Can your writers handle developer facing content?", a: "Content is produced inside a documented technical system with terminology controls and a named reviewer. We write to the standard of the reader, and for technical products that reader is an engineer." },
       { q: "How do you measure a nine month sales cycle?", a: "Two clocks. Leading indicators every 30 days, revenue at the month that matches your cycle, written into the agreement. The standard is published." },
     ],
-    related: [{ label: "Technical B2B industry page", href: "/industries/technical-b2b" }, { label: "Engagement and measurement standard", href: "/resources/engagement-and-measurement-standard" }, pricing],
+    related: [{ label: "Life sciences tools and diagnostics", href: "/industries/life-sciences-tools-and-diagnostics" }, { label: "Engagement and measurement standard", href: "/resources/engagement-and-measurement-standard" }, pricing],
   },
   {
     slug: "our-partners-are-the-brand-and-none-of-them-will-write",

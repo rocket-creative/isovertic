@@ -8,46 +8,49 @@ export type Question = { id: string; text: string; weight: 1 | 2; options: Optio
 export const auditMeta = {
   path: "/audit",
   title: "The Pipeline Ownership Audit | ISOVERTIC",
-  description: "Ten questions, about 10 minutes. Score your pipeline ownership, get a tier recommendation and a written diagnosis. Nobody calls unless you ask.",
+  description: "Ten questions, about six minutes. Score who owns the meeting number, get a package recommendation and a written diagnosis. Nobody calls unless you ask.",
   eyebrow: "The Pipeline Ownership Audit",
-  h1: "Who owns your number?",
+  h1: "Who owns the number?",
   lead: [
-    "A pipeline fails in the handoffs. The website vendor reports a launch. The ads vendor reports clicks. The sales vendor reports dials. Nobody can say who owns the meeting or why a lead stopped moving.",
-    "The Pipeline Ownership Audit identifies that gap in about 10 minutes. You receive a score, a tier recommendation, and a written diagnosis you can keep or ignore. Nobody calls unless you ask.",
+    "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. A commercial system should produce one simple answer for the person signing the checks: who owns the number of qualified meetings this month? If the website team owns visits, the ad vendor owns clicks, and sales owns the missed follow-up, you do not have one answer. You have four reports and a familiar problem.",
+    "The Pipeline Ownership Audit is a six-minute self-assessment for CEOs, presidents, chief operating officers, chief financial officers, VPs of commercial, VPs of marketing, chief medical officers, medical directors, practice administrators, and directors of billing. Answer ten questions. You receive a score, a package recommendation, and a written diagnosis you can keep or ignore. Nobody calls you unless you ask.",
   ],
-  completionTime: "10 min",
-  whyH2: "Ten questions, one operating picture.",
+  completionTime: "6 min",
+  whyH2: "Ten questions about the work you already pay for",
   why: [
-    "The audit asks about the vendors under contract, who owns the number, meetings booked last month, cost per meeting, and when the next meetings are needed. Those questions establish whether the work is connected to a real pipeline or divided into reports.",
-    "It also asks about publishing cadence, a written meeting definition, regulated buyers, sales-cycle length, and the trigger that brought you here. Those answers determine which part of the Isovertic system may fit and when it would be honest to judge revenue.",
-    "The score is not a grade. A high score means the ownership gap is larger and the repair may be worth more. A low score can mean start smaller, measure, or leave the work alone.",
+    "The audit asks how many vendors you have, who owns the number, how many meetings you booked last month, what each one cost, and when you need the next ones. Those questions show whether anyone is accountable for the commercial result.",
+    "It also asks about publishing cadence, your written definition of a qualified meeting, regulated buyers (HIPAA, FDA 510(k) and PMA pathways, MLR review), sales-cycle length, and the reason you are looking now. Those details help decide what should be repaired first and what kind of engagement makes sense.",
+    "The score is not a grade. A higher score means the ownership gap is wider and the repair may be worth more. A lower score can mean you should start smaller and measure, or that the work is already in good hands.",
   ],
   sections: [
-    { h2: "What you get in about ten minutes", body: ["The result gives you three things:"], list: [
-      "A pipeline-ownership score. A direct read on whether one person or team owns the path from search to booked meeting.",
-      "A tier recommendation. Ground State for the content drumbeat, Excitation for content plus paid demand, Amplification for the full pipeline program, or Quantum Leap for multi-brand operation.",
-      "A written diagnosis. The missed handoff, the next sensible step, and the condition that would make the recommendation wrong.",
-    ], after: "You can compare the tier recommendation against [published pricing](/pricing) before taking a call. Every tier has a 12-month term, because the ramp, search work, and long sales cycle need a fair review window." },
-    { h2: "The system the audit tests", body: [
-      "The audit does not test whether you have a handsome site or a large report. It tests whether the operating pieces connect.",
-      "Build is the site that a specialist can find and trust. Rank is content that answers the terms specialists search. Run is paid search measured in meetings. Buy is media when recognition is part of the sale. Book is outbound that creates a defensible appointment. Educate is Protocol, where your team receives the runbooks to operate the system internally.",
-      "The seven layers under Build make the rest measurable: keyword architecture, site architecture, specialist templates, tracking, compliance, algorithm monitoring, and catalog expansion. Read the full method on the [system page](/system).",
+    { h2: "The question behind the score", body: [
+      "Your chief executive officer should be able to ask a direct question: how many qualified meetings did we receive last month, what did they cost, and what happened after our team followed up?",
+      "If the answer requires four calendars, three vendors, and a week of archaeology, the commercial work is not connected. The issue may be the site, the follow-up, the advertising, or simply unclear responsibility. The audit is built to separate those possibilities.",
+      "You will not get a vague recommendation to improve visibility. You will get a practical diagnosis of the gap and the next reasonable step.",
     ] },
-    { h2: "The honest limits", body: [
-      "The audit can tell you that the method is a poor fit. It works when buyers already search with specific vocabulary. If your category has no search language yet, a specialist-search site cannot find those buyers. That is a different problem.",
-      "It can also tell you that a small budget will produce a small result. A lead a week is a trickle, not a flood. The correct next step may be a focused content program, not an overpromised campaign.",
-      "Sometimes the diagnosis is that your current team is already fine. That is useful. The point is a better operating decision, not a forced engagement.",
+    { h2: "What a useful result can say", body: [
+      "Sometimes the issue is the website. A buyer arrives but cannot find proof, pricing, or a clear next step in language a chief scientific officer, principal investigator, or director of billing recognizes. The first repair is Build, included in every package at $15,000 across the year.",
+      "Sometimes the site is ready but nobody is publishing enough useful answers for the people already looking. The right start is Ground State at $2,500 per month: one published article, one newsletter to your list, eight social posts, and a monthly report.",
+      "Sometimes your company needs meetings sooner and has at least $1,000 a month for Google Ads. Excitation at $5,000 per month plus spend adds a managed campaign, a landing page, and follow-up within one business day.",
+      "Sometimes the calendar needs direct help. Amplification at $10,000 per month plus spend adds an outbound seat that books qualified meetings with written briefs. If you have capable internal people but no shared operating process, Protocol training may be the better answer at $5,000 for one department or $20,000 for the full team.",
+      "Sometimes the answer is Quantum Leap from $25,000 per month plus spend, the multi-brand program for later-stage healthcare, biotech, medical device, and life sciences tools and diagnostics groups running two or more brands.",
+      "The audit can also say you do not need us. That result saves you time and preserves our calendar for teams we can help. Everyone survives.",
     ] },
-    { h2: "What the audit does not sell", body: [
-      "Isovertic is not the brand shop, creative shop, positioning shop, or sales-enablement shop. Those disciplines may be useful, and a freelancer, internal hire, or other specialist may be the right way to obtain them.",
-      "Our work is the capture system: the website that gets found, the content and paid work that direct the right buyer there, and the tracking that proves which page and campaign produced the meeting. The audit only recommends a tier when that system is the relevant repair.",
+    { h2: "Regulated buyers get different recommendations", body: [
+      "If your buyers are on the healthcare side, the audit factors in HIPAA. Our compliance layer is $750 per month for a form-and-call stack built against HHS OCR guidance on [online tracking technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html) and the June 2024 ruling in [AHA v. Becerra](https://www.aha.org/legal-documents/2024-06-20-aha-v-becerra-court-ruling-online-tracking-technologies). The 2023 [FTC action against GoodRx](https://www.ftc.gov/legal-library/browse/cases-proceedings/2023130-goodrx-holdings-inc) is a useful reminder of what happens when a healthcare site leaks protected data through third-party pixels.",
+      "If your buyers include a chief medical officer, a medical director, a VP of regulatory, or a principal investigator reviewing claims, the audit checks for MLR review capacity. Our review gate is $500 to $1,200 per month plus setup: a named reviewer, a sign-off log for every asset, and a claim library your team can reuse.",
+    ] },
+    { h2: "The audit does not make promises it cannot keep", body: [
+      "A small advertising budget may produce a qualified meeting a week rather than a flood. That can still be a good outcome if the meeting fits your sale. Sydra Health went from no online presence in mid-June 2026 to about one qualified meeting a week on roughly $1,000 in monthly ad spend and $2,500 in monthly site work. Internal, September 2026.",
+      "The system works when your buyers already search in specific language: a gene name, a device model, a regulation, a billing code, a protocol, a clinical question. If nobody is looking for the thing you sell, this work cannot locate them. We will not describe it as a fit merely because a website needs updating.",
+      "A 12-month engagement is standard because search visibility can take four months to a year, per [Google Search Central](https://developers.google.com/search/docs/appearance/site-names). We report the work every 30 days and review pipeline and revenue at months six and 12 against your actual sales cycle.",
     ] },
   ] as { h2: string; body: string[]; list?: string[]; after?: string }[],
-  move: "Send us your best-converting landing page URL. If your site is invisible to answer engines, [book a pipeline call](/contact) and paste us the URL. In about ten minutes we'll tell you what is firing, whether the issue is the page or the tracking, and what a rebuild would cost, or whether you need one at all. Sometimes the honest answer is you're already fine, and we're happy to say so and hand you back your afternoon.",
-  moveNote: "If you already know the fit, the [pricing page](/pricing) has every tier, add-on, and commitment shape.",
+  move: "If you know which package you want, [start on the pricing page](/pricing) with card or bank debit. No call required.",
+  moveNote: "If your commercial work is spread across vendors who cannot explain the meeting number, [book a pipeline call](/contact) and send us your best-converting landing page. In about ten minutes we will tell you what is broken, whether the fix is the site or the follow-up, and what a rebuild would cost, or whether you need one at all. Sometimes the honest answer is you are already fine, and we are happy to say so and hand you back your afternoon.",
   gate: {
     label: "Unlock the written diagnosis",
-    body: "Ten answers, ten plain readings, and what each one means for the tier above. A work email unlocks it. We do not call unless you book.",
+    body: "Ten answers, ten plain readings, and what each one means for the package above. A work email unlocks it. We do not call unless you book.",
     error: "A work email is required to unlock the diagnosis.",
   },
   related: [

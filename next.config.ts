@@ -37,6 +37,7 @@ const nextConfig: NextConfig = {
       })),
       { source: "/how-it-works", destination: "/system", statusCode: 301 },
       { source: "/six-steps", destination: "/system", statusCode: 301 },
+      { source: "/industries/technical-b2b", destination: "/industries", statusCode: 301 },
     ];
   },
 };

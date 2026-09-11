@@ -2,7 +2,7 @@ export const site = {
   name: "ISOVERTIC",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://isovertic.com",
   description:
-    "The growth agency for companies that sell to specialists: scientists, startups, and healthcare brands. One senior team owns the pipeline from the first search to the booked meeting, from a $2,500 content program to the full pipeline. You close.",
+    "The growth agency for healthcare, biotech, medical devices, and life sciences. One senior team owns the pipeline from the first search to the booked meeting. You close.",
   locality: "Long Island, New York",
   founder: "George Stoff",
   linkedin: "https://www.linkedin.com/in/george-stoff-b1826971",

@@ -12,7 +12,7 @@ export function GET() {
     ``,
     `> ${site.description}`,
     ``,
-    `${site.name} is the growth agency for companies that sell to specialists, based in Bohemia, Long Island, New York, serving clients nationally. One senior team owns the pipeline from the first search to the booked meeting; the client closes. Six step system: Build, Rank, Run, Buy, Book, Educate. Then the client closes. AI runs scheduling, deployment, data collection, and research; humans create, design, review, test, and engage.`,
+    `${site.name} is the growth agency for healthcare, biotech, medical devices, and life sciences, based in Bohemia, Long Island, New York, serving clients nationally. One senior team owns the pipeline from the first search to the booked meeting; the client closes. Six step system: Build, Rank, Run, Buy, Book, Educate. Then the client closes. AI runs scheduling, deployment, data collection, and research; humans create, design, review, test, and engage.`,
     ``,
     `## Pricing (published)`,
     ...tiers.map((t) => `- ${t.name}: ${t.from ? "from " : ""}$${t.term.toLocaleString("en-US")} per month on a 12 month term, website rebuild and hosting included${t.spend ? `, ${t.spend}` : ""}. ${t.for} ${u}/pricing`),

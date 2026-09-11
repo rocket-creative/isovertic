@@ -14,7 +14,7 @@ export const about = {
     h2: "What you are actually buying",
     body: [
       "You are buying company knowledge, not one person's calendar.",
-      "George engineered the method over 30 years of building the systems companies sell through. Kristen wrote it down, taught the team to run it, and built the operation that ships it consistently across every account. Every engagement runs the same method: find the exact terms your specialist buyer types, build the site so hundreds of pages do not compete with each other, write pages a scientist or a billing director will trust, track every meeting back to the page that produced it, wire in HIPAA and other compliance where you are regulated, watch the algorithm, and keep building from what the data says. The layers are listed on the system page.",
+      "George engineered the method over 30 years of building the systems companies sell through. Kristen wrote it down, taught the team to run it, and built the operation that ships it consistently across every account. Every engagement runs the same method. We say what it produces: a website the specialist already searching for you can trust, advertising spent only on those people, and a meeting on your calendar with a written brief. We do not publish how we choose what to build, publish, or bid on. The six steps are on the system page.",
       "The method is written down. The team is trained on it. The founder is the source and the escalation path, not the bottleneck. That is why the account keeps moving in a slow week, and it is why year two does not fall off a cliff.",
     ],
   },
@@ -38,7 +38,7 @@ export const about = {
   george: {
     h2: "George Stoff, Founder and Lead Engineer",
     body: [
-      "Full-stack engineer with more than 30 years building the systems companies sell through: server-rendered sites with thousands of schema-backed pages, the data pipelines that feed outbound, and the ad and content systems on top. He has shipped SaaS products of his own and run go-to-market for healthcare, biotech, and professional-service companies.",
+      "Full-stack engineer with more than 30 years building the systems companies sell through: the websites, the data pipelines that feed outbound, and the ad and content systems on top. He has shipped products of his own and run go-to-market for healthcare, biotech, medical device, and life sciences companies.",
       "ISOVERTIC is the codified version of that method. George built it, wrote it down, and stays on every account as the standards owner and the escalation path. When the algorithm shifts or a compliance question comes up, you get his engineering judgment. The day-to-day execution runs on the team he trained.",
       "He started ISOVERTIC because every owner he worked with was buying these capabilities in pieces, from vendors who never spoke, and wondering why the pieces never became a pipeline.",
     ],
@@ -49,14 +49,14 @@ export const about = {
     h2: "Kristen Coughlin, Chief Operating Officer",
     body: [
       "Trained molecular biologist. Ten years selling translational research products, then institutional operations in the Department of Microbial Pathogenesis at the Yale School of Medicine. She reviews the life-science work for scientific register and accuracy before it reaches a client's MLR reviewer, and she is on every life-science account.",
-      "She also built the delivery operation. She took George's method, documented it, trained the team on it, and turned it into a repeatable engagement so the same seven-layer system runs the same way on every account. That is the reason the company can honestly say \"the founder is the source, not the bottleneck.\" Somebody had to build the operation that makes that true.",
+      "She also built the delivery operation. She took George's method, documented it, trained the team on it, and turned it into a repeatable engagement so the same system runs the same way on every account. That is the reason the company can honestly say \"the founder is the source, not the bottleneck.\" Somebody had to build the operation that makes that true.",
     ],
     bioLabel: "Full bio and credentials",
     bioHref: "/people/kristen-coughlin",
   },
   serve: {
     h2: "Who we serve",
-    body: "Scientists and the companies built around them, from a lab selling models and reagents to a diagnostics startup with a Series A to spend. Startups that need a pipeline before they can afford a sales team. Healthcare brands that have to market under HIPAA and MLR review and still fill the calendar. The industry pages cover how the system flexes for each.",
+    body: "Healthcare, biotech, medical devices, and life sciences. Practice groups under HIPAA. Therapeutics companies with a scientific buyer. 510(k) and PMA device companies. Labs selling reagents, antibodies, kits, instruments, mouse models, and diagnostics. Startups that need a pipeline before they can afford a sales team. The industry pages cover how the system flexes for each.",
   },
   work: {
     h2: "How we work",

@@ -24,19 +24,21 @@ Do not load this skill for pure marketing execution with no strategy angle (a bl
 
 ## Step 1: Isovertic's positioning, in one page
 
-Source of truth: `CORE-MESSAGE-FOUNDATION.md` at the repo root and the live site (isovertic.com). If this section and that file disagree, the file wins. Updated September 8, 2026.
+Source of truth: `CORE-MESSAGE-FOUNDATION.md` at the repo root and the live site (isovertic.com). If this section and that file disagree, the file wins. Updated September 10, 2026.
 
-**The one sentence.** The growth agency for companies that sell to specialists. One senior team owns your pipeline from the first search to the booked meeting.
+**The one sentence.** The growth agency for healthcare, biotech, medical devices, and life sciences. One senior team owns your pipeline from the first search to the booked meeting.
 
 **What Isovertic is.** A growth agency. Not a marketing agency (traffic and reports), not a web design company (a launch), not an appointment setter (meetings booked into whatever you already have). Six steps inside one boundary: Build, Rank, Run, Buy, Book, Educate. The client closes. The end result is a booked meeting, and Amplification and above carry the meeting number in writing.
 
-**Vocabulary.** Say "growth agency" or "ISOVERTIC." Never growth firm, growth company, growth engine, capture engine, pipeline systems shop, pipeline shop, or full service agency. Say "meetings," not customers we deliver. Say "the method" or "the same method on every account"; the seven layers are listed only on /system. The long tail website is the how, not the hat: it appears after the promise and the proof, never in a hero or a title.
+**Vocabulary.** Say "growth agency" or "ISOVERTIC." Never growth firm, growth company, growth engine, capture engine, pipeline systems shop, pipeline shop, or full service agency. Say "meetings," not customers we deliver. Say "the method" or "the same method on every account." Do not name or list the seven layers on any public page. Do not describe how we choose what to publish, bid on, or build.
 
-**ICP (ideal client):** companies that sell to specialists (scientists, clinicians, billing directors, engineers, procurement offices), because specialists search in exact vocabulary and almost nobody competes for those terms.
-- Life science: labs, CROs, research tools, biotech selling to researchers. Home turf.
-- Healthcare: practices, medical groups, healthcare technology, medical devices, marketing under HIPAA and MLR review.
+**ICP (ideal client):** healthcare, biotech, medical devices, and life sciences companies whose buyers are specialists (scientists, clinicians, billing directors, VPs of regulatory, practice administrators), because specialists search in exact vocabulary and almost nobody competes for those terms.
+- Healthcare: practice groups, hospitals, health systems, revenue-cycle companies, dental and vet and urgent-care groups, telehealth, and digital health.
+- Biotech: therapeutics companies pre-clinical through commercial, research services, translational programs, and platform companies with a scientific buyer.
+- Medical devices: 510(k) and PMA companies making implants, diagnostics, surgical instruments, capital equipment, in vitro diagnostics, and wearables.
+- Life sciences tools and diagnostics: reagents, antibodies, kits, instruments, mouse models, cell lines, laboratory automation, and diagnostics sold into hospitals and reference labs.
 - Startups from pre revenue (Ground State) to Series A with a board asking for pipeline (Amplification).
-- Technical B2B, professional services, home services, and hospitality each have an industry page and a starting tier.
+- Professional services, home services, and hospitality each still have an industry page and a starting tier. Do not use "technical B2B" as an industry.
 
 **Two buyers say yes.** (1) Ready to grow, no experienced team: usually scientists who spun out of academia, or a founder with a raise to spend, who would rather hire one team than five specialists. (2) Leads dried up: something changed and the pipeline that used to work does not.
 

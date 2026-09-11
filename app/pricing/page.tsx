@@ -12,8 +12,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "Outsourced Sales and Marketing Pricing | ISOVERTIC" },
-  description: "Four published tiers from $2,500 a month on a 12 month term, with the $15,000 website rebuild and hosting included. Every tier checks out on the page, no call.",
+  title: { absolute: "Published Prices, 12-Month Engagements | ISOVERTIC" },
+  description: "Published prices for the growth agency for healthcare, biotech, medical devices, and life sciences. Four packages from $2,500 a month. Website rebuild included. Card or bank debit to start.",
   alternates: { canonical: "/pricing" },
 };
 
@@ -24,7 +24,7 @@ export default function Pricing() {
       <JsonLd data={[offersLd("ISOVERTIC growth system", offers, "/pricing"), faqLd(pricingFaqs), breadcrumbLd([{ name: "Home", path: "/" }, { name: "Pricing", path: "/pricing" }])]} />
       <PageHero
         eyebrow={pricingHero.eyebrow}
-        h1={<>Published <span className="text-signal">pricing</span> for the pipeline system.</>}
+        h1={<>Published <span className="text-signal">prices</span> for 12-month engagements.</>}
         lead={pricingHero.lead}
       />
       <Section label="Tiers">

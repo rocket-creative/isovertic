@@ -4,10 +4,10 @@ import { RevealBlock } from "@/components/ui/RevealBlock";
 import { Arrow } from "@/components/ui/Arrow";
 
 export const isoverticMoveHome =
-  "If you want to see whether this fits, send us your best-converting landing page URL. In about ten minutes we will tell you what is firing, whether any of it is a lawsuit, and whether you are already fine. Sometimes the honest answer is that you are fine, and we are happy to say so and hand you back your afternoon.";
+  "If you know which package you want, start on the pricing page with card or bank debit. No call required. If you would rather talk it through, send us your best-converting landing page URL. In about ten minutes we will tell you what is working, what is not, and whether the fix is the site, the offer, or the follow-up. Sometimes the honest answer is you are already fine, and we are happy to say so and hand you back your afternoon.";
 
 export const isoverticMoveSystem =
-  "If you want to see whether this fits, send us your best-converting landing page URL. In about ten minutes we will tell you what is firing on the layers above, whether any of it is a lawsuit, and whether you are already fine. Sometimes the honest answer is that you are fine, and we are happy to say so and hand you back your afternoon.";
+  "If you know which package you want, start on the pricing page with card or bank debit. No call required. If you would rather talk it through, send us your best-converting landing page URL. In about ten minutes we will tell you what is working, what is not, and whether the fix is the site, the offer, or the follow-up. Sometimes the honest answer is you are already fine, and we are happy to say so and hand you back your afternoon.";
 
 export function IsoverticMove({
   body,

@@ -10,8 +10,8 @@ import { breadcrumbLd } from "@/lib/schema";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "Industries: Life Science, Healthcare, Startups | ISOVERTIC" },
-  description: "How the six step system flexes for life science and CROs, practices under HIPAA, startups before the sales hire, professional services, trades, and hospitality.",
+  title: { absolute: "Industries: Healthcare, Biotech, Medical Devices, Life Sciences | ISOVERTIC" },
+  description: "The growth agency for healthcare, biotech, medical devices, and life sciences. How the six-step system flexes for each buyer.",
   alternates: { canonical: "/industries" },
 };
 
@@ -21,8 +21,8 @@ export default function Industries() {
       <JsonLd data={breadcrumbLd([{ name: "Home", path: "/" }, { name: "Industries", path: "/industries" }])} />
       <PageHero
         eyebrow="Industries"
-        h1="Marketing and outbound for the buyers who check everything."
-        lead="Scientists, clinicians, founders, and owner operators. The system is the same six steps everywhere; what changes is the compliance gate, the buyer of record, and the page the search lands on. One page per industry below."
+        h1="The growth agency for healthcare, biotech, medical devices, and life sciences."
+        lead="Practice administrators, chief scientific officers, VPs of commercial, and founders. The system is the same six steps everywhere; what changes is the compliance gate, the buyer of record, and the page the search lands on. One page per industry below."
       />
       <Section label="Pick yours">
         <ul className="divide-y divide-rule border-y border-rule">

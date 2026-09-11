@@ -9,7 +9,7 @@ Next.js App Router, TypeScript strict, Tailwind v4 (CSS first, tokens in app/glo
 Editorial luxury minimalism. Warm white #F5F4F0, ink #14181B, one accent: Navy #0F2C3F. No gradients, no shadows, no border radius above 4px, no stock photos, no custom cursor (system cursor only), no decoration that does not encode information. The ISOVERTIC mark motif (.iso-mark) is the signature: a filled circle and an angled rise. Do not invent new motifs.
 
 ## Positioning canon
-`CORE-MESSAGE-FOUNDATION.md` at the repo root is the source of truth for what ISOVERTIC is. Every line of copy that describes the company traces to it. Short version: the growth agency for companies that sell to specialists; one senior team owns the pipeline from the first search to the booked meeting; the method is the how, not the hat. Say growth agency, never growth firm, capture engine, or pipeline shop. Tier names are Ground State, Excitation, Amplification, Quantum Leap.
+`CORE-MESSAGE-FOUNDATION.md` at the repo root is the source of truth for what ISOVERTIC is. Every line of copy that describes the company traces to it. Short version: the growth agency for healthcare, biotech, medical devices, and life sciences; one senior team owns the pipeline from the first search to the booked meeting; the method is the how, not the hat, and it is not listed on public pages. Say growth agency, never growth firm, capture engine, or pipeline shop. Tier names are Ground State, Excitation, Amplification, Quantum Leap.
 
 ## Skills (docs/skills/)
 - `docs/skills/isovertic-voice/SKILL.md`: how to write anything a prospect or client reads. Load for copy, field notes, emails, decks.

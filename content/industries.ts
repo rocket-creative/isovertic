@@ -4,82 +4,88 @@ import { biotechMolecularBiologist, industryDiscipline, industryPipelineCta } fr
 export const industries: Page[] = [
   {
     slug: "healthcare",
-    title: "Healthcare Marketing That Books Appointments and Passes Review | ISOVERTIC",
-    dateModified: "2026-09-09",
-    metaDescription: "Healthcare marketing for practices, health systems, and RCM teams: event and vendor inventory before the campaign, a HIPAA form-and-call stack, an MLR review gate, and paid search to pages that can defend the click.",
+    title: "The Growth Agency for Healthcare: Meetings That Pass Audit | ISOVERTIC",
+    dateModified: "2026-09-10",
+    metaDescription: "The growth agency for healthcare practices, health systems, and revenue-cycle companies. A BAA-covered form and call stack, appointment marketing that can be inspected, and meetings that pass audit.",
     eyebrow: "Healthcare",
-    h1: "Healthcare marketing that books appointments and passes review.",
-    lead: "The good news first, because HIPAA anxiety is a fairly poor use of anyone's Tuesday: you can run useful healthcare marketing without guessing which vendor setup has quietly put patient data in the wrong place. If you're a practice administrator, medical director, hospital marketing lead, or compliance officer who gets a little tense every time a new landing page ships, you're the right reader. You'll leave with a clear way to separate the work that can run from the work that needs a stop sign.",
+    h1: "The growth agency for healthcare: meetings that pass audit.",
+    lead: [
+      "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. This page is about healthcare specifically: practice groups, hospitals, health systems, revenue-cycle companies, dental and vet and urgent-care groups, telehealth, and digital health. If you are on the therapeutics, device, or research-tools side of the same organization, we cover those too. Our [biotech page](/industries/biotech), [medical devices page](/industries/medical-devices), and [life sciences tools and diagnostics page](/industries/life-sciences-tools-and-diagnostics) show what changes when the buyer is a chief scientific officer or a VP of regulatory instead of a practice administrator.",
+      "If you are a practice administrator, medical director, chief medical officer, revenue-cycle director, director of billing, hospital marketing lead, compliance officer, chief operating officer, or president of a specialty group, you already know the awkward truth. A new campaign can create work for three departments before it creates one appointment. Compliance asks where the data goes. Billing asks whether the patient is eligible. Operations asks where the schedule has room. Your team is not being difficult. It is protecting a care operation.",
+      "The honest big thing is simple. A form, a call recording, or a page with the wrong tracker can turn ordinary appointment marketing into a privacy question. The Office for Civil Rights guidance on online tracking technologies still matters after the June 2024 decision in American Hospital Association v. Becerra, No. 4:23-cv-01110-P (N.D. Tex.), which did not erase the rest of HIPAA's Privacy Rule. The [OCR guidance](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html) and the [court ruling](https://www.aha.org/legal-documents/2024-06-20-aha-v-becerra-court-ruling-online-tracking-technologies) are worth having in the same meeting.",
+      "We build the appointment path so it can be inspected, explained, and used by the people who answer the phone. You will leave with a practical picture of what belongs on a compliant path, what does not, and what we can actually fix.",
+    ],
     callout: {
       label: "Typical starting point",
-      body: "Most established practices, health systems, and RCM companies start with Excitation, at $5,000 per month plus ad spend, then add the $750 per month HIPAA form-and-call stack. If no one owns the calendar, several service lines need support, or paid demand must coordinate with referral work and a clinical review process, Amplification is the right conversation. Pricing is published.",
+      body: "Start with Excitation at $5,000 per month plus advertising spend, then add the HIPAA form-and-call stack at $750 per month. If no one owns the calendar, several service lines need support, or paid demand must coordinate with referral work, Amplification is the right conversation. Pricing is published.",
     },
     sections: [
       { h2: "What you'll take away", body: [], list: [
-        "Which website events, forms, calls, and pixels need a privacy review before a campaign goes live.",
-        "What the June 2024 American Hospital Association v. Becerra ruling changed, and what it did not.",
-        "How to make a medical, legal, and regulatory review gate move work without turning every page into a committee artifact.",
-        "How a $750 per month HIPAA form-and-call stack fits onto any Isovertic tier.",
-        "Where marketing stops and operational capacity, scheduling, payer access, and counsel take over.",
-      ]},
-      { h2: "The pixel is the exposure", body: [
-        "Here's the big thing. A pixel doesn't need to cause a breach by breaking in. It can create exposure by sending identifiers and health-related context to an advertising platform exactly as configured. The FTC's actions against [GoodRx](https://www.ftc.gov/news-events/news/press-releases/2023/02/ftc-enforcement-action-bar-goodrx-sharing-consumers-sensitive-health-info-advertising), [BetterHelp](https://www.ftc.gov/news-events/news/press-releases/2023/07/ftc-gives-final-approval-order-banning-betterhelp-sharing-sensitive-health-data-advertising), and [Cerebral](https://www.ftc.gov/news-events/news/press-releases/2024/04/proposed-ftc-order-will-prohibit-telehealth-firm-cerebral-using-or-disclosing-sensitive-data) all center on sensitive health data used for advertising. That is not a reason to stop marketing. It is a reason to build the form, call, tracking, and review system before buying traffic.",
+        "Which patient-facing pages deserve a tracker review before your next campaign runs.",
+        "How a BAA-covered form and call process keeps intake useful without sending protected health information into the wrong system.",
+        "What the June 2024 American Hospital Association v. Becerra ruling changed, and what it left intact.",
+        "How to measure booked consults, completed visits, and referral quality without treating a click as a clinical outcome.",
+        "Which package is a sensible first step for a practice group, health system, or revenue-cycle company.",
       ]},
       { h2: "What actually breaks in healthcare marketing", body: [], subs: [
-        { h3: "The pixel gets installed before anyone maps the data", body: [
-          "Someone adds analytics to a service-line page, appointment flow, chat widget, call tracker, or patient portal. Each tool looks ordinary in its own tab. Together, the page URL, click, identifier, and timestamp can say much more than the person who installed the tag intended.",
-          "HHS OCR's [online tracking guidance](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html) says a regulated entity may not impermissibly disclose protected health information to tracking vendors and explains when a business associate agreement may be required. The relevant baseline is [45 CFR Parts 160 and 164](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164), not the cookie banner a vendor supplied. Cookie banners have many talents. Replacing legal analysis is not one of them.",
+        { h3: "The patient page that behaves like an ad page", body: [
+          "A scheduling page, symptom page, or confirmation page is not ordinary website inventory. It may reveal a patient's relationship with a provider or a condition. Treating it like a generic advertising destination is where teams get surprised, usually after someone sensible finally asks what fires there.",
         ]},
-        { h3: "The court ruling gets read as a green light", body: [
-          "In American Hospital Association v. Becerra, No. 4:23-cv-01110-P, the Northern District of Texas vacated one part of HHS's bulletin involving an IP address plus a visit to certain unauthenticated public webpages. The [AHA's June 20, 2024 summary](https://www.aha.org/news/news/2024-06-20-judge-rules-favor-aha-vacating-hhs-online-tracking-bulletin-unlawful-and-beyond-agency-authority) and its [August 2024 update that HHS would not appeal](https://www.aha.org/news/headline/2024-08-29-hhs-will-not-appeal-aha-court-victory-online-tracking-case) are useful reading. They do not make portals, appointment flows, condition-specific conversion events, or actual patient-relationship disclosures safe to send to ad vendors.",
-          "Treat public information, care-seeking pages, forms, calls, authenticated spaces, and post-appointment pages as different zones with different allowed data flows.",
+        { h3: "The form that creates a second chart", body: [
+          "Patients put far more in a free-text field than the form asked for. If that message lands in an ordinary inbox, spreadsheet, chat workspace, or call tool, the convenience is short-lived. The intake process has to assume people will tell you what hurts.",
         ]},
-        { h3: "Capacity and access are missing from the promise", body: [
-          "A campaign can produce a good call and still create a bad patient experience. The office may have no appointments, take a narrow set of plans, require a referral, or serve only defined age groups and locations. Marketing cannot repair those facts with a nicer headline.",
-          "For a practice group, we want a current answer to who can book, where, with which plan, for which service, and how soon. HHS explains that telehealth availability can be limited by state licensure rules in its [cross-state licensure guidance](https://telehealth.hhs.gov/licensure/licensing-across-state-lines). A campaign should know that before it promises care.",
+        { h3: "Calls counted, capacity ignored", body: [
+          "A hospital marketing lead can produce calls while a chief operating officer is staring at an overbooked service line, a referral prerequisite, or a payer mismatch. Calls are evidence of interest, not proof that the operation can serve the patient. The scorecard has to show booked consults and completed visits alongside availability and referral quality.",
         ]},
-        { h3: "Review happens after the page is designed", body: [
-          "Healthcare teams often send a finished page into review and wait for a redlined surprise. The better sequence is a claim packet first: audience, source for every claim, required qualification, destination, data collected, expiry trigger, and named reviewer. Medical, legal, and regulatory review, usually called MLR review, is not a decorative approval stamp. It is how the team tests whether the page says what the evidence allows it to say.",
-          "For drug promotion, FDA's [product-claim advertising example](https://www.fda.gov/drugs/prescription-drug-advertising/product-claim-ad-correct) shows the benefit and risk pairing the agency expects. For devices, a 510(k) clearance and a premarket approval are different regulatory paths, as FDA explains in its [510(k) overview](https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/premarket-notification-510k) and [PMA overview](https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/premarket-approval-pma). The copy needs the exact language your authorized materials support, not a more exciting cousin of it.",
+        { h3: "The compliance review after launch", body: [
+          "A compliance officer should not discover a new vendor through a monthly invoice. The data path, approved systems, and removal plan belong before launch. That is less dramatic than an emergency meeting, which is an underappreciated benefit.",
         ]},
       ]},
       { h2: "What we do differently for healthcare", body: [], subs: [
-        { h3: "We map the event before we run the campaign", body: [
-          "We inventory each page, form field, call event, CRM route, tag, and vendor. We ask what data leaves the page, who receives it, whether it can identify a person or reveal care-seeking intent, what agreement governs the vendor, and whether the event belongs in advertising at all. Then we remove what should not be there and document the rest.",
+        { h3: "A BAA-covered form and call stack", body: [
+          "For healthcare accounts, we recommend the HIPAA form-and-call stack at $750 per month. It covers the intake path: forms, email, CRM handling, call tracking, consent, and tracker exclusions. We map fields with your compliance lead, keep protected health information out of systems that are not approved for it, and document who can access each step. The legal baseline is [45 CFR Parts 160 and 164](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C), not a vendor's reassuring sales page.",
         ]},
-        { h3: "We add the HIPAA form-and-call stack where it belongs", body: [
-          "The HIPAA form-and-call stack is a flat $750 per month add-on to any tier. It covers BAA-aligned forms and routing, email and CRM handling, call tracking controls, consent, pixel exclusions, and server-side conversion design. We keep protected information out of advertising payloads and build a measurement path your privacy team can examine.",
+        { h3: "A tracking boundary, written down", body: [
+          "We inventory the tags and tools already firing, then set boundaries for patient-facing pages. We do not promise that a button color solves a privacy issue. We make a written decision about what can run, what cannot, and what needs counsel. The Federal Trade Commission action against [GoodRx](https://www.ftc.gov/legal-library/browse/cases-proceedings/2023130-goodrx-holdings-inc) is a useful reminder that HIPAA status is not the only privacy question a director of billing or a revenue-cycle director will hear about.",
         ]},
-        { h3: "We build an MLR review gate into production", body: [
-          "For regulated service lines, digital health, devices, biotech, and pharmaceutical work, the MLR review gate is an add-on of $500 to $1,200 per month, depending on tier. You name the reviewer; we provide versioned source packets and track approvals, required disclosures, channels, and refresh dates.",
+        { h3: "Advertising approval that fits the channel", body: [
+          "Healthcare and medicines advertising has platform rules as well as internal policy. We review the intended audience, landing page, claim language, and destination before paid work begins, including [Google's healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031). Telemedicine organizations may also need [LegitScript certification](https://www.legitscript.com/certification/telemedicine/) before certain advertising activity. We will tell you if the certification or review path is the gating item. Buying ads around it is not a plan.",
         ]},
-        { h3: "We send paid search to pages that can defend the click", body: [
-          "Healthcare ads must meet platform and clinical constraints. Google's [healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031?hl=en) limits advertising by product and geography, and some categories require certification. Once approved, we target specific service and provider terms, then measure booked consults, appointments, and qualified referrals where the data design permits.",
+        { h3: "A referral and appointment scorecard", body: [
+          "A director of billing and a medical director need a scorecard that shows more than form volume. We reconcile inquiries to booked consults, attended visits, referral source, service line, and the operational reasons a lead did not become care. We have a method for deciding what to publish and how to direct paid activity. What you get is a record your operations team can use in the next staffing conversation.",
         ]},
+        { h3: "A schedule-aware operating rhythm", body: [
+          "Every campaign has a named owner, a stated service line, and a check on capacity. If a specialty group's new-patient access is closed, we pause or redirect. If a hospital needs referrals from a defined geography, the message and measurement follow that reality. More inquiries into a closed schedule is not success. It is expensive voicemail.",
+        ]},
+      ]},
+      { h2: "What actually shows up each month", body: [
+        "Every package includes named deliverables, not strategy. On Excitation at $5,000 per month plus advertising spend, for a healthcare account, each month you get one published article on your site, one newsletter to your list, 16 social posts across your active channels, one managed Google Ads campaign built around the searches a patient or referring physician actually types, one landing page for that campaign refreshed as needed, one-business-day inbound response, and a monthly strategy call with the account lead. The website rebuild and hosting are included across the year. See every package and add-on on the [pricing page](/pricing).",
       ]},
       { h2: "What this looks like on an account like yours", body: [
-        "Consider a hypothetical eight-location specialty practice group. Its paid search had been producing calls, but the call center could not tell which service line the caller wanted without replaying recordings. A general analytics tag appeared across care-seeking pages and the appointment confirmation screen. Several location pages also listed plans the offices no longer accepted. Everyone was working hard. The system was just telling several versions of the truth at once.",
-        "We would start with an event and vendor inventory, remove ad-platform events from appointment and confirmation pages, and split public corporate content from care-seeking flows. Next, we would make a BAA-covered lead form route only the information scheduling needs into the approved system, set call tracking to capture source without passing condition terms to an advertising recipient, and make a simple capacity file part of weekly campaign decisions.",
-        "The content work would build one page for each real service and location combination the practice can serve, with accepted plans, referral requirements, clinician credentials, and a route to book. Search ads would go only to pages with open capacity and a review-approved conversion path. The first report would show approved pages live, risky events removed, calls and forms by service line, booked appointments, and access friction.",
+        "Here is a hypothetical account. A multisite specialty practice with a practice administrator, a director of billing, a revenue-cycle director, and a compliance officer. The group wants more new-patient consults for one service line, but the existing form sends detailed messages to a general inbox and the confirmation page has third-party tracking.",
+        "In the first month, we map the form fields, call route, follow-up owner, trackers, and appointment availability. With the compliance officer, we move intake into approved systems and remove tools from pages that should not carry them. With billing, we add the insurance and referral questions that prevent wasted calls. With the medical director, we prepare plain-language education that reflects the actual intake criteria. Then we run one controlled campaign to a reviewed page and report inquiries, booked consults, attended visits, and the reasons for drop-off.",
+        "The result is not a magic promise about patient volume. It is a traceable process. The chief operating officer can see whether the next constraint is advertising, referral access, staffing, or schedule capacity. Those are different problems, and pretending otherwise is how a monthly report becomes decorative.",
       ]},
-      { h2: "The tier you'd probably start on", body: [
-        "Most established practices, health systems, and RCM companies start with Excitation, at $5,000 per month plus ad spend, then add the $750 per month HIPAA form-and-call stack. Excitation includes the site foundation, content, one landing page, one paid-search campaign, and a person accountable for reviewing the work with you. It fits teams with a real conversion path and at least $1,000 to $5,000 in monthly ad spend to test search capture.",
-        "If no one owns the calendar, several service lines need support, or paid demand must coordinate with referral work and a clinical review process, Amplification is the right conversation. It is $10,000 per month plus ad spend and assumes a named person on your side can own scheduling and follow-up. Every tier is structured as a 12-month engagement, with a six-month floor for work outside the published tiers. Google's [guidance on SEO changes](https://developers.google.com/search/docs/appearance/site-names) says effects can take four months to a year, so a 90-day verdict would mostly measure how quickly a team can become disappointed.",
+      { h2: "Proof, before the pitch", body: [
+        "Sydra Health, a revenue-cycle company serving healthcare billing directors, went from no online presence in mid-June 2026 to roughly one qualified meeting a week on about $1,000 in monthly advertising spend and about $2,500 in monthly site work. Internal, September 2026. It is unusual for the category and it is not a promise for yours. It is an example of what happens when the site can carry the sales argument and one team owns the number at the end.",
+      ]},
+      { h2: "The package you'd probably start on", body: [
+        "Start with Excitation at $5,000 per month plus advertising spend, then add the HIPAA form-and-call stack at $750 per month. Excitation includes a website rebuild across the year, one published article, a newsletter, social posts, one managed Google Ads campaign, a campaign landing page, and a one-business-day inbound response. It is a 12-month engagement.",
+        "Why not judge it after one quarter? Google says changes to search visibility can take [four months to a year](https://developers.google.com/search/docs/appearance/site-names). A practice group may also need time to improve intake, scheduling, and follow-up before increased interest turns into completed care. We report the early operating signals every 30 days, then review pipeline and revenue at months six and 12 against your actual sales cycle.",
       ]},
       { h2: "The honest limits", body: [
-        "This does not replace healthcare counsel or decide whether your organization is a covered entity or business associate. It does not make a vendor acceptable because it has a reassuring sales deck. It also does not make a full schedule appear. If access, referral processing, eligibility, or staffing is broken, we will show you where the campaign meets that wall and help prioritize the operating fix.",
-        "It also works best when people already search for a specific service, specialty, procedure, or operational solution. If the buyer has no established vocabulary yet, this system cannot find demand that does not exist. We will say so before you pay us.",
+        "We cannot make a full schedule accept patients. We cannot repair a broken referral agreement, payer contract, or clinical eligibility policy. And we do not replace healthcare counsel. We can make the path visible, safer, and easier to operate, then tell you where the next constraint sits.",
       ]},
       { h2: "Disclaimer", body: [
-        "This piece is a marketing operating framework, not legal advice. HIPAA compliance depends on your specific facts, jurisdiction, and covered-entity or business-associate status. The controlling sources are [45 CFR Parts 160 and 164](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164), OCR's [Revised Bulletin on tracking technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html), and the June 20, 2024 opinion in American Hospital Association v. Becerra, No. 4:23-cv-01110-P (N.D. Tex.). Consult qualified healthcare counsel before implementing any of the above.",
+        "This piece is a marketing operating framework, not legal advice. HIPAA compliance depends on your specific facts, jurisdiction, and covered-entity or business-associate status. The controlling sources are 45 CFR Parts 160 and 164, OCR's [Revised Bulletin on tracking technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html), and the June 20, 2024 opinion in American Hospital Association v. Becerra, No. 4:23-cv-01110-P (N.D. Tex.). Consult qualified healthcare counsel before implementing any of the above.",
       ]},
     ],
     pipelineCta: {
-      headline: "Send us your current lead-capture form.",
-      body: "If your practice, hospital, health system, or RCM team is unsure where patient information travels after someone submits or calls, [book a pipeline call](/contact) and paste it in. In about ten minutes we'll tell you which events need review, whether the fix is a form, call, or pixel change, and whether the $750 stack is enough. Sometimes the honest answer is you're already fine, and we're happy to say so and hand you back your afternoon.",
+      headline: "Send us your best-converting landing page.",
+      body: "If you would rather talk it through, [book a pipeline call](/contact) and send us your best-converting landing page. In about ten minutes we will tell you what is firing, whether the fix is a form-and-call stack or a smaller correction, and what a rebuild would cost, or whether you need one at all. Sometimes the honest answer is you are already fine, and we are happy to say so and hand you back your afternoon.",
     },
     faqs: [
-      { q: "Are you HIPAA compliant in how you handle leads?", a: "Intake flows are designed so PHI is handled by compliant infrastructure, with BAAs where required. The HIPAA form-and-call stack is a flat $750 per month add-on to any tier." },
+      { q: "Are you HIPAA compliant in how you handle leads?", a: "Intake flows are designed so PHI is handled by compliant infrastructure, with BAAs where required. The HIPAA form-and-call stack is a flat $750 per month add-on to any package." },
       { q: "Can you run ads for restricted healthcare categories?", a: "We have managed certification including LegitScript and policy constrained accounts. Category rules are scoped before we commit to numbers." },
       { q: "Do you work with multi provider groups?", a: "Yes. One page for each real service and location combination the practice can serve, with accepted plans, referral requirements, and clinician credentials." },
       { q: "What results should a practice expect?", a: "Booked consults, appointments, and qualified referrals measured where the data design permits, with leading indicators every 30 days and revenue reviewed against the actual sales cycle." },
@@ -88,92 +94,89 @@ export const industries: Page[] = [
       { label: "Google Ads", href: "/google-ads" },
       { label: "Web development", href: "/web-development" },
       { label: "HIPAA posture, printable", href: "/compliance/hipaa-posture" },
-      { label: "Results", href: "/results" },
+      { label: "Medical devices", href: "/industries/medical-devices" },
     ],
   },
   {
     slug: "biotech",
-    title: "Biotech Marketing That Survives Scientific Review | ISOVERTIC",
-    dateModified: "2026-09-09",
-    metaDescription: "Biotech marketing for founder-scientists, CROs, and research tools: a claim library before the content calendar, an MLR review gate with a named reviewer, and one page per gene, model, assay, or research use case.",
-    eyebrow: "Life sciences",
-    h1: "Biotech marketing that survives scientific review.",
+    title: "The Growth Agency for Biotech: Meetings That Hold Up in MLR Review | ISOVERTIC",
+    dateModified: "2026-09-10",
+    metaDescription: "The growth agency for biotech: therapeutics, research services, and translational programs. An MLR review gate, evidence discipline, and meetings a chief scientific officer can trust.",
+    eyebrow: "Biotech",
+    h1: "The growth agency for biotech: meetings that hold up in MLR review.",
     lead: [
-      "You are not imagining it. Your buyers can smell unsupported copy in one line, and they will close the tab without filing a formal complaint about it. A founder-scientist, CSO, life-science operations lead, or communications leader has to carry that risk while still answering the very practical question, \"How will the right research team find us?\" The payoff here is a system that makes your evidence easier to find, easier to review, and harder to accidentally overstate.",
-      "The honest number is internal: on Ingenious Targeting Laboratory's account, form fills rose 4.9x and organic clicks rose 3.7x over the first eight months, measured in HubSpot and Google Search Console in September 2026. Those are internal results, not a promise or a public benchmark. The reason they matter is simpler: research buyers were already searching for specific entities and methods. We built pages that answered those exact searches with enough technical detail to survive contact with a scientist.",
+      "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. This page is about biotech: therapeutics companies pre-clinical through commercial, research services, translational programs, and platform companies with a scientific buyer. Many biotech operators also have a device arm, a diagnostics pipeline, or a hospital-facing service line. If that is you, our [medical devices page](/industries/medical-devices), [life sciences tools and diagnostics page](/industries/life-sciences-tools-and-diagnostics), and [healthcare page](/industries/healthcare) show what changes when the buyer is a lab director, a director of clinical affairs, or a practice administrator.",
+      "Founders, chief executive officers, chief scientific officers, VP of research, VP of regulatory, VP of communications, VP of commercial, medical and legal and regulatory reviewers, principal investigators running startups, and directors of translational research are not allergic to marketing. You are allergic to someone sanding off the scientific conditions until a result means something it did not mean. Fair.",
+      "The honest big thing is that a biotech page can be technically literate and still be commercially unsafe. A claim has an audience, a qualification, a source, and sometimes a regulatory boundary. FDA's guidance on [communications about unapproved uses of approved or cleared medical products](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/communications-firms-unapproved-uses-approved-cleared-medical-products) is not a suggestion to let promotional work wander into medical affairs.",
+      "We help your team publish work that a researcher can read without wincing and a reviewer can trace without detective work. You get a production process that respects translational research, commercial deadlines, and the person who has to approve the final asset.",
     ],
     callout: {
       label: "Typical starting point",
-      body: "For an early commercial biotech company with approved claims, start with Ground State at $2,500 per month plus the MLR review gate. For a CRO, tool provider, or established biotech with a reviewed conversion path and $1,000 to $5,000 per month in ad spend, Excitation at $5,000 per month plus ad spend adds one campaign, a landing page, and a monthly review. Pricing is published.",
+      body: "Start with Ground State at $2,500 per month and add the MLR review gate. If you already have a clear offer, an approved intake path, and $1,000 to $5,000 a month available for Google Ads, Excitation is the next sensible choice. Pricing is published.",
     },
     sections: [
       { h2: "What you'll take away", body: [], list: [
-        "How to turn your approved evidence into pages research buyers can find and trust.",
-        "What MLR review means, and how to put it in front of production instead of after it.",
-        "How one page per gene, model, assay, indication, or research use case creates a catalog that earns its keep.",
-        "What the ITL result tells you, and what it does not promise your company.",
-        "Which Isovertic tier gives a founder-scientist enough operating support without buying a larger program too early.",
+        "How to keep a scientific claim connected to the study, label, or approved source behind it.",
+        "What an MLR review gate changes for a founder, chief scientific officer, VP of research, and VP of commercial.",
+        "How to distinguish commercial communication from scientific exchange around unapproved uses.",
+        "What the Ingenious Targeting Laboratory results mean, and what they do not prove.",
+        "Which package makes sense before a biotech team adds more channels or agencies.",
       ]},
       { h2: "What actually breaks in biotech marketing", body: [], subs: [
-        { h3: "The scientific claim gets translated into marketing fog", body: [
-          "A team starts with useful evidence, then removes the qualifier, population, comparator, limitation, and source until the headline sounds impressive to someone who was not in the room. Unfortunately, the person who was in the room is often the buyer.",
-          "For therapeutics, the claim perimeter begins with approved labeling; for devices, with the authorized intended use and instructions for use. FDA explains [510(k) clearance](https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/premarket-notification-510k) and [premarket approval](https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/premarket-approval-pma). Research-use products still need claims that match the evidence.",
+        { h3: "The claim that outruns the evidence", body: [
+          "A study in a selected model, cell line, or small clinical cohort can support a narrow statement. It does not automatically support efficacy in a broader patient population or superiority against a competitor. The draft gets faster when every claim starts with its evidence. It gets slower when the citation appears only after someone asks for it.",
         ]},
-        { h3: "MLR is treated as a finish-line obstacle", body: [
-          "MLR means medical, legal, and regulatory review. At its best, it is the system that keeps a claim attached to its source, audience, channel, and approved context. At its worst, it receives a finished page, six versions of a deck, a deadline, and a vague note saying \"quick review?\" Nobody enjoys that arrangement, including the reviewer.",
-          "FDA's [OPDP frequently asked questions](https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/opdp-frequently-asked-questions-faqs) are a useful reference for promotional-material responsibilities. The reviewer needs a structured packet before layout is final: claim, evidence, population, limits, required language, destination, and expiry trigger.",
+        { h3: "Medical, legal, and regulatory review becomes a parking lot", body: [
+          "Review is not the enemy. An unclear owner, a missing reference set, and version confusion are the enemy. A VP of communications should not be mediating whether a paragraph is approved because nobody can find the current source.",
         ]},
-        { h3: "One broad services page is asked to carry the whole search job", body: [
-          "Google's [people-first content guidance](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) is direct about showing expertise, trustworthy sourcing, and clear purpose. A long tail page should not be thin filler built to occupy a query. It should answer the technical question, define the fit and limits, cite the source material, and give the reader a sensible next step.",
+        { h3: "Commercial and scientific work blur together", body: [
+          "A principal investigator may want to discuss a compelling translational hypothesis while the VP of commercial needs a clear request for a meeting. Both can be legitimate. They are not interchangeable, especially around an IND, an ANDA, an investigational use, or an unapproved use.",
         ]},
-        { h3: "The team measures interest, not the work that follows", body: [
-          "A researcher downloads a protocol, asks a question, or submits an inquiry. Then the lead disappears into a general inbox, sales does not know the source page, and marketing gets a report of clicks. That is several systems avoiding eye contact.",
-          "We track the page and query family that started the conversation, the form or call route, response time, and qualified meeting. For long-cycle research sales, revenue is reviewed against the real sales cycle at month six and month twelve, while the early scorecard reports what is actually available: pages live, impressions, relevant traffic, inquiries, and meetings.",
+        { h3: "The site sounds fluent but not native", body: [
+          "Scientists notice imprecise model names, vague endpoints, and a methods section that has been written like a brochure. They notice quickly. One suspicious paragraph can make the rest of the page work much harder than it should.",
         ]},
       ]},
       { h2: "What we do differently for biotech", body: [], subs: [
-        { h3: "We build a claim library before we build a content calendar", body: [
-          "We start with your approved claims, source documents, author or reviewer, permitted audiences, and required context. Each material claim gets a source link or document reference, a date, a limitation, and an owner. This creates a working library that writers, scientists, sales, and MLR reviewers can use without rediscovering the same evidence each time.",
-          "For drug and device work, the review checks whether words, images, metadata, and linked content create a net impression broader than the evidence. FDA's [guidance on scientific information to healthcare professionals](https://www.fda.gov/media/184871/download) explains why context matters.",
+        { h3: "An MLR review gate with a named owner", body: [
+          "For biotech, the usual add-on is the MLR review gate, $500 to $1,200 per month plus setup. We maintain a sign-off log, route each asset to the medical, legal, and regulatory reviewer you name, and keep an approved claim library your team can reuse. The goal is not to bypass review. It is to make the review record usable. A VP of regulatory should be able to see the source, the reviewer, the version, and the release date without opening five folders.",
         ]},
-        { h3: "We give MLR a real gate, with a named reviewer", body: [
-          "Our MLR review gate is a $500 to $1,200 per month add-on, depending on the tier. You identify the MD, PhD, regulatory lead, legal reviewer, or committee that owns final approval. We submit content as a traceable packet, capture required edits, track approved versions, and flag assets for renewal when an evidence source, label, or product scope changes.",
+        { h3: "Evidence discipline for scientific claims", body: [
+          "We attach a source to the claim before the copy moves forward. That source might be a peer-reviewed paper, protocol, prescribing information, investigator brochure, validation dataset, or an internally approved summary. We record the population, model, endpoint, limitation, and intended audience. A founder or chief scientific officer can still speak plainly. Plain language does not require pretending that a mouse model is a patient.",
         ]},
-        { h3: "We build the long-tail catalog around buyer vocabulary", body: [
-          "A biotech site should act like a sales rep that knows the field. For a CRO, that may mean separate pages for study design, disease model, assay type, species, and endpoint. For a tools company, it may mean a page per integration, analyte, platform, workflow, protocol step, or research application. For a diagnostics or bioinformatics business, it may mean clinical-use constraints, validation details, and implementation environment.",
-          "Every page has a narrow job: answer a specific question early, show the evidence and limitations, link to related methods, and offer a route to speak with someone who can handle the next technical question. We do not make an AI writing tool invent authority. We use people who know how to recognize what needs a source and who to ask for it.",
+        { h3: "Clear boundaries for scientific information", body: [
+          "FDA's guidance addresses firms communicating scientific information on unapproved uses of approved or cleared products. The [current FDA guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/communications-firms-unapproved-uses-approved-cleared-medical-products) is the place to start with your regulatory lead. We work from the approved boundary, then label and route material so commercial requests do not become informal medical claims.",
         ]},
-        { h3: "We use paid search only after the destination is defensible", body: [
-          "Paid search can put an approved page in front of a person already looking for a particular capability. It should not send a scientist to a generic landing page that makes them work to find the method, evidence, or appropriate contact. We set campaigns around specific research terms and measure qualified conversations rather than platform activity alone.",
-          "If your product falls in a restricted category, platform rules belong in the setup. Google's [healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031?hl=en) restricts advertising by category and geography. A campaign that gets approved is not therefore clinically or legally approved. It still needs the claim control system.",
+        { h3: "Pages that respect the researcher's question", body: [
+          "We write for a scientist trying to decide whether your platform, assay, therapeutic hypothesis, or contract research organization can answer a real experimental question. The page needs the right biological context, model limitations, readout, and next step. We have a method for deciding what to publish. We do not publish that method. Your audience sees a useful explanation and a clear route to the scientist or commercial person who can answer the next question.",
         ]},
-        { h3: "We create an authority loop that does not ask buyers to lower their standards", body: [
-          "Useful technical explainers and method pages can earn citations and institutional links when they answer real questions. Those links help commercial pages get discovered and convert the searcher who needs the specific service or product.",
+        { h3: "Measurement tied to the sales conversation", body: [
+          "A VP of commercial needs to know whether an inquiry became a qualified discussion, material transfer conversation, study request, partnership conversation, or dead end. We connect the published work and paid activity to that record, then review the result with the people who can interpret it. A document download by itself is not a commercial result. It may be the beginning of one.",
         ]},
       ]},
-      { h2: "What this looks like on a real account", body: [
-        "Ingenious Targeting Laboratory is the real example. The account needed a site that could meet researchers in the vocabulary of models, targets, and applications rather than hope a single company page would cover a scientific catalog. We built a large content system across a 147-page sitemap and added more than 100 search-focused pages for its mouse model services.",
-        "HubSpot and Google Search Console showed 4.9x form fills and 3.7x organic clicks in the first eight months, as of September 2026. Those results are internal, and raw counts remain private unless the client gives written permission. Results depend on starting site, demand, follow-up, and buyer search specificity.",
-        "The transferable mechanism is the catalog: specific terms, technically credible pages, a monitored conversion route, and a review process that respects the science.",
+      { h2: "What actually shows up each month", body: [
+        "Every package includes named deliverables, not strategy. On Ground State at $2,500 per month, each month you get one article published on your site, one newsletter sent to your list, eight social posts, one short monthly report, and the website rebuild and hosting spread across the year. On Excitation at $5,000 per month plus advertising spend, you also get one managed Google Ads campaign, one campaign landing page refreshed as needed, 16 social posts, a one-business-day inbound response commitment, and a monthly strategy call with the account lead. The full list of add-ons, including the MLR review gate, lives on the [pricing page](/pricing).",
       ]},
-      { h2: "The tier you'd probably start on", body: [
-        "For an early commercial biotech company with approved claims, start with Ground State at $2,500 per month plus the MLR review gate. It builds authority before paid spend.",
-        "For a CRO, tool provider, or established biotech with a reviewed conversion path and $1,000 to $5,000 per month in ad spend, Excitation at $5,000 per month plus ad spend adds one campaign, a landing page, and a monthly review. Labs with a deep entity catalog can add programmatic page expansion at $2,500 per month per 50 pages after the information architecture and evidence standard are in place.",
-        "All published tiers run for 12 months. Google notes that search improvements can take [four months to a year](https://developers.google.com/search/docs/appearance/site-names). We report leading indicators every 30 days and review downstream pipeline on your actual sales-cycle clock.",
+      { h2: "Proof, before the pitch", body: [
+        "Ingenious Targeting Laboratory, a mouse-model company selling to research scientists and principal investigators, moved from 13 monthly form submissions to about 64 in its first eight months with Isovertic. Its organic search traffic rose 3.7 times in that period. Internal, September 2026. Those are internal operating results for one account, not a controlled study, and they should be read as one account's operating record.",
+        "The useful lesson is not that every biotech company will reproduce those numbers. Ingenious Targeting Laboratory had a specific scientific audience, a technical offer, and a team able to respond to inquiries. The work gave researchers clear routes into the relevant model and service information, while the commercial team had a usable record of what prospects asked for. That is the standard we care about: evidence a chief scientific officer trusts and conversations a VP of commercial can act on.",
+        "For a company developing a therapeutic, the same operating shape changes with the evidence and regulatory stage. For a research-services company, it changes with the assay, cell line, animal model, gene knockout, or humanized mouse in question. The production process stays disciplined. The approved substance does the changing.",
+      ]},
+      { h2: "The package you'd probably start on", body: [
+        "Start with Ground State at $2,500 per month and add the MLR review gate. Ground State includes a website rebuild across the year, one published article each month, one newsletter, eight social posts, hosting, and a short monthly report. It is a 12-month engagement. It gives a chief scientific officer, a VP of regulatory, and the reviewer enough room to establish the claim library and approval rhythm before paid work adds another moving part.",
+        "If you already have a clear offer, an approved intake path, and $1,000 to $5,000 a month available for Google Ads, Excitation at $5,000 per month plus advertising spend is the next sensible choice. It adds one managed campaign, a landing page, a one-business-day inbound response commitment, and a monthly strategy call. We will not advise paid work before the evidence and review path can support it.",
       ]},
       { h2: "The honest limits", body: [
-        "We cannot create evidence you do not have, turn an exploratory finding into an approved claim, or substitute for regulatory counsel and MLR sign-off. We also cannot help a buyer understand a product your internal team cannot explain in plain, technically exact terms. That work starts before marketing.",
-        "This system works when research buyers already use a specific vocabulary to find the problem, model, capability, or provider. If your category is new enough that nobody searches for it yet, search capture is not the first move. We will tell you that rather than sell you a very organized way to wait.",
+        "We cannot manufacture clinical data, accelerate an FDA decision, or make an early research signal into proof of patient benefit. We cannot make an investigator answer inquiries faster. And we cannot replace your medical, legal, regulatory, or scientific judgment. We can give those people a process that is easier to inspect and run.",
       ]},
       { h2: "Disclaimer", body: [
-        "This piece is a marketing operating framework, not legal advice. HIPAA compliance depends on your specific facts, jurisdiction, and covered-entity or business-associate status. The controlling sources are [45 CFR Parts 160 and 164](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164), OCR's [Revised Bulletin on tracking technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html), and the June 20, 2024 opinion in American Hospital Association v. Becerra, No. 4:23-cv-01110-P (N.D. Tex.). Consult qualified healthcare counsel before implementing any of the above.",
+        "This piece is a marketing operating framework, not legal advice. Promotional review for biotech depends on your regulatory status, product stage, and applicable FDA guidance. The controlling sources include the [FDA guidance on communications from firms about unapproved uses](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/communications-firms-unapproved-uses-approved-cleared-medical-products) and your company's approved labeling. Consult qualified regulatory counsel before implementing any of the above.",
       ]},
     ],
     showQuotePlaceholder: true,
     disciplineNote: biotechMolecularBiologist,
     pipelineCta: {
-      headline: "Send us your MLR-reviewed pillar page.",
-      body: "If you have a good piece of technical content that is not producing the conversations it should, [book a pipeline call](/contact) and paste it in. In about ten minutes we'll tell you which claims travel, what catalog pages belong around it, whether a paid search test makes sense, and whether you need the MLR gate. Sometimes the honest answer is you're already fine, and we're happy to say so and hand you back your afternoon.",
+      headline: "Send us your best-converting landing page, or your current MLR-reviewed pillar page.",
+      body: "If you would rather talk it through, [book a pipeline call](/contact) and send us your best-converting landing page, or your current MLR-reviewed pillar page. In about ten minutes we will tell you what is unclear, whether the fix is an MLR review gate or a smaller correction, and what a rebuild would cost, or whether you need one at all. Sometimes the honest answer is you are already fine, and we are happy to say so and hand you back your afternoon.",
     },
     faqs: [
       { q: "Do your writers understand the science?", a: "Content is produced inside a documented technical system with a claim library, terminology controls, and review gates built for life science accuracy. A molecular biologist on staff reviews the work before it reaches your MLR reviewer." },
@@ -182,9 +185,193 @@ export const industries: Page[] = [
       { q: "Do you work with CROs and service providers?", a: "That is our deepest pattern." },
     ],
     related: [
+      { label: "Life sciences tools and diagnostics", href: "/industries/life-sciences-tools-and-diagnostics" },
       { label: "SEO and content", href: "/seo-content" },
       { label: "Appointment setting", href: "/outbound-appointment-setting" },
-      { label: "Engagement and measurement standard", href: "/resources/engagement-and-measurement-standard" },
+      { label: "Results", href: "/results" },
+    ],
+  },
+  {
+    slug: "medical-devices",
+    title: "The Growth Agency for Medical Devices: 510(k) and PMA | ISOVERTIC",
+    dateModified: "2026-09-10",
+    metaDescription: "The growth agency for 510(k) and PMA medical device companies. Claims that follow clearance or approval, an MLR review gate, and meetings a VP of regulatory can defend.",
+    eyebrow: "Medical devices",
+    h1: "The growth agency for medical devices: 510(k) and PMA.",
+    lead: [
+      "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. This page is about medical devices: 510(k) and PMA companies making implants, diagnostics, surgical instruments, capital equipment, in vitro diagnostics, and wearables. If your organization also has a therapeutic pipeline, a research-tools catalog, or a hospital-facing service line, our [biotech page](/industries/biotech), [life sciences tools and diagnostics page](/industries/life-sciences-tools-and-diagnostics), and [healthcare page](/industries/healthcare) show what changes when the buyer is a chief scientific officer, a laboratory director, or a practice administrator.",
+      "If you are a chief executive officer, president, VP of commercial, VP of marketing, VP of regulatory, director of clinical affairs, quality director, or chief medical officer at a 510(k) or PMA-track device company, you have likely received a page draft that says the device is \"FDA approved\" when it is cleared. The correction seems small to the person who wrote it. It is not small to you.",
+      "The honest big thing is that commercial language has to follow the device's actual path. FDA explains the [510(k) pathway](https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/premarket-notification-510k) and the [PMA pathway](https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/premarket-approval-pma) separately because they are separate. A Class II cleared diagnostic, a Class III PMA implant, and an investigational wearable cannot be described as though they share the same evidence and indication.",
+      "We help your commercial team say enough to earn the next meeting without asking regulatory to spend every Friday repairing adjectives. You get a claims process, a review record, and work that acknowledges the people who must use, evaluate, or purchase the device.",
+    ],
+    callout: {
+      label: "Typical starting point",
+      body: "Start with Excitation at $5,000 per month plus advertising spend, and add the MLR review gate. Pricing is published.",
+    },
+    sections: [
+      { h2: "What you'll take away", body: [], list: [
+        "How to describe a cleared or approved device without overstating its regulatory status.",
+        "What a VP of regulatory needs from an MLR review gate before commercial work moves.",
+        "How claims differ for implants, diagnostics, surgical instruments, capital equipment, and wearables.",
+        "What a workable account plan looks like for a Class I, II, or III device company.",
+        "Which package gives a president, VP of commercial, or chief medical officer a sensible starting point.",
+      ]},
+      { h2: "What actually breaks in medical device marketing", body: [], subs: [
+        { h3: "Cleared becomes approved", body: [
+          "The 510(k) pathway concerns substantial equivalence. PMA involves FDA approval based on a different statutory standard. The words matter in sales materials, advertisements, conference graphics, and a LinkedIn post. They also matter when a hospital value analysis committee is deciding whether your team understands its own product.",
+        ]},
+        { h3: "A claim floats free of the IFU", body: [
+          "A surgical instrument's time-saving statement, a diagnostic's performance statement, or a wearable's clinical assertion needs to stay within the authorized indication and supporting evidence. The source cannot live only in one regulatory person's memory.",
+        ]},
+        { h3: "The commercial calendar outruns review", body: [
+          "A VP of commercial has a meeting, a congress, and a launch date. A VP of regulatory and a quality director have the labeling, evidence, and open questions. Without a defined review gate, every urgent request becomes a fresh argument about process. Nobody enjoys that meeting twice.",
+        ]},
+        { h3: "One message for every buyer", body: [
+          "A surgeon evaluating an implant, a laboratory director considering a diagnostic, and a hospital executive assessing capital equipment need different proof. Clinical utility, workflow, service requirements, cost, training, and purchasing rules change by device and setting.",
+        ]},
+      ]},
+      { h2: "What we do differently for medical devices", body: [], subs: [
+        { h3: "Product-claim advertising aligned to 510(k) or PMA status", body: [
+          "We begin with the device classification, current regulatory status, indication for use, and approved source material. For a 510(k) device, the language reflects clearance rather than approval. For a PMA device, it reflects the approved indication and evidence. We do not make regulatory status do more work than it can. FDA's [device approvals and clearances materials](https://www.fda.gov/medical-devices/products-and-medical-procedures/device-approvals-and-clearances) support the distinction.",
+        ]},
+        { h3: "An MLR review gate", body: [
+          "The MLR review gate, $500 to $1,200 per month plus setup, gives your VP of regulatory and director of clinical affairs a named reviewer, a sign-off log, and a reusable claim library. We route pages, advertisements, emails, and sales-support materials through the reviewer your company designates. The record supports the next approval rather than forcing your quality director to reconstruct the last one.",
+        ]},
+        { h3: "Evidence matched to the device category", body: [
+          "For implants, we distinguish bench, clinical, and post-market evidence. For diagnostics and in vitro diagnostics, we keep performance claims tied to the appropriate validation and intended use. For surgical instruments, we examine training, workflow, and procedural statements. For capital equipment, we account for installation, service, throughput, and purchasing review. For wearables, we separate wellness language from clinical claims. Specificity is not decoration. It is how the page earns trust.",
+        ]},
+        { h3: "Commercial work that respects clinical affairs", body: [
+          "Your director of clinical affairs should be able to see why a requested statement exists, which evidence supports it, and what audience will read it. Your VP of marketing should be able to plan work against real review time. We track the asset, source, owner, approval status, and release date. This is not bureaucracy for its own sake. It prevents an old deck from quietly becoming the current claim set.",
+        ]},
+        { h3: "Ethics and purchasing context", body: [
+          "Many device purchases run through hospital value analysis, and physician interactions may implicate the [AdvaMed Code of Ethics](https://www.advamed.org/our-work/code-of-ethics/) and the [Open Payments](https://www.cms.gov/OpenPayments) reporting context. We do not provide legal advice. We do make sure commercial assets and meeting requests do not pretend those controls are someone else's concern.",
+        ]},
+        { h3: "Measurement that reaches the buying group", body: [
+          "We report inquiries, booked meetings, clinical evaluation requests, and progression through the account's own commercial stages. For capital equipment, the path may include procurement and value analysis. For an in vitro diagnostic, it may include laboratory validation. Gartner reports that business buyers spend only 17% of their buying time with any one supplier, which is a useful reason to make each interaction specific and useful. [Gartner's research](https://www.gartner.com/en/sales/insights/b2b-buying-journey) has the detail.",
+        ]},
+      ]},
+      { h2: "What actually shows up each month", body: [
+        "Every package includes named deliverables, not strategy. On Excitation at $5,000 per month plus advertising spend, each month you get one published article on your site, one newsletter to your list, 16 social posts, one managed Google Ads campaign built around the searches a surgeon, laboratory director, or hospital service-line lead actually types, one campaign landing page refreshed as needed, one-business-day inbound response, and a 60-minute monthly strategy call with the account lead. The website rebuild and hosting are included across the year. Add the MLR review gate on top. See every package and add-on on the [pricing page](/pricing).",
+      ]},
+      { h2: "What this looks like on an account like yours", body: [
+        "Here is a hypothetical account. A Class II surgical instrument company preparing its first regional commercial push. The president wants meetings with health-system service-line leaders. The VP of regulatory has an approved indication and supporting evidence, but the current site mixes cleared language with broad claims about outcomes. The director of clinical affairs is fielding the same evidence question repeatedly.",
+        "We start by collecting the indication, IFU, approved references, current product language, and the questions sales hears most often. We form a claim library with the regulatory reviewer, then rebuild the product and meeting-request pages around what the device is cleared to do. We prepare a small set of approved supporting materials for the commercial team. When paid activity is appropriate, it directs prospects to a reviewed page and reports booked meetings and evaluation requests, not applause.",
+        "The first report may show that the obstacle is not interest. It may be training capacity, purchasing timing, a missing economic case, or the lack of a local reference site. That is useful news. A page cannot repair a missing clinical program, but it can stop inventing confidence around one.",
+      ]},
+      { h2: "The package you'd probably start on", body: [
+        "Start with Excitation at $5,000 per month plus advertising spend, and add the MLR review gate. Excitation includes a website rebuild across the year, one published article, a newsletter, 16 social posts, one managed Google Ads campaign, a campaign page, one-business-day inbound response, and a monthly strategy call. It is a 12-month engagement.",
+        "The 12-month term is deliberate. FDA and clinical affairs review cycles do not become shorter because a launch date is close. Google also says search changes can take [four months to a year](https://developers.google.com/search/docs/appearance/site-names). We report early operating signals every 30 days and review pipeline and revenue at months six and 12, matched to the actual commercial cycle.",
+      ]},
+      { h2: "The honest limits", body: [
+        "We cannot obtain clearance or approval, create clinical evidence, or turn an investigational product into a commercially promotable device. We cannot override your regulatory reviewer or your quality director. We also cannot make a capital purchase happen before the hospital's budget and value analysis process permit it. We can make the commercial work clearer and easier to defend.",
+      ]},
+      { h2: "Disclaimer", body: [
+        "This piece is a marketing operating framework, not legal advice. Regulatory obligations for a medical device depend on classification, indication, and the applicable FDA pathway. The controlling sources include the FDA's [510(k) pathway page](https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/premarket-notification-510k), the [PMA pathway page](https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/premarket-approval-pma), and your device's cleared or approved labeling. Consult qualified regulatory counsel before implementing any of the above.",
+      ]},
+    ],
+    pipelineCta: {
+      headline: "Send us your best-converting landing page.",
+      body: "If you would rather talk it through, [book a pipeline call](/contact) and send us your best-converting landing page. In about ten minutes we will tell you what is unclear, whether the fix is an MLR review gate or a smaller correction, and what a rebuild would cost, or whether you need one at all. Sometimes the honest answer is you are already fine, and we are happy to say so and hand you back your afternoon.",
+    },
+    faqs: [
+      { q: "Do you understand 510(k) versus PMA language?", a: "Yes. For a 510(k) device, the language reflects clearance rather than approval. For a PMA device, it reflects the approved indication and evidence. We route commercial assets through the reviewer your company names." },
+      { q: "Can you work with our existing regulatory reviewer?", a: "Yes. The MLR review gate uses the reviewer you designate. We keep the sign-off log and claim library so the next approval does not start from a blank page." },
+      { q: "What results should a device company expect?", a: "Inquiries, booked meetings, clinical evaluation requests, and progression through your own commercial stages, with leading indicators every 30 days and revenue reviewed against the actual sales cycle." },
+    ],
+    related: [
+      { label: "Healthcare", href: "/industries/healthcare" },
+      { label: "Biotech", href: "/industries/biotech" },
+      { label: "Life sciences tools and diagnostics", href: "/industries/life-sciences-tools-and-diagnostics" },
+      { label: "Pricing", href: "/pricing" },
+    ],
+  },
+  {
+    slug: "life-sciences-tools-and-diagnostics",
+    title: "The Growth Agency for Life Sciences Tools and Diagnostics | ISOVERTIC",
+    dateModified: "2026-09-10",
+    metaDescription: "The growth agency for reagents, antibodies, kits, instruments, mouse models, cell lines, lab automation, and diagnostics. Pages a researcher can use, and a meeting a VP of commercial can follow.",
+    eyebrow: "Life sciences tools",
+    h1: "The growth agency for life sciences tools and diagnostics.",
+    lead: [
+      "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. This page is about life sciences tools and diagnostics: reagents, antibodies, kits, instruments, mouse models, cell lines, laboratory automation, and the diagnostics companies that sell into hospitals and reference labs. If your organization also has a therapeutic pipeline, a 510(k) or PMA device program, or a hospital-facing service line, our [biotech page](/industries/biotech), [medical devices page](/industries/medical-devices), and [healthcare page](/industries/healthcare) show what changes when the buyer is a VP of regulatory, a director of clinical affairs, or a practice administrator.",
+      "Chief scientific officers, founder-scientists, VP of commercial, product managers, laboratory directors, and principal investigators turned CEOs know the job is not \"make us look scientific.\" You already are scientific. The job is to let the right researcher assess whether your reagent, antibody, kit, instrument, mouse model, cell line, in vitro diagnostic, or lab automation system belongs in the experiment they are planning.",
+      "The honest big thing is that researchers can spot a thin product page quickly. They need clone identity, species reactivity, validation context, assay compatibility, genotype, strain background, throughput, workflow, or performance information. The required detail changes by product. A vague promise does not make the page simpler. It makes the scientist leave and ask a colleague.",
+      "We build pages and programs that respect the research question and hand the commercial team a real conversation to follow up on. You will leave with a practical plan for publishing useful scientific material, connecting it to a meeting request, and keeping claims under control.",
+    ],
+    callout: {
+      label: "Typical starting point",
+      body: "Start with Ground State at $2,500 per month. Move to Excitation at $5,000 per month plus advertising spend when the product page, offer, and response owner are ready. Pricing is published.",
+    },
+    sections: [
+      { h2: "What you'll take away", body: [], list: [
+        "How to help a researcher find the evidence, protocol context, and commercial next step without overselling the result.",
+        "Why reagents, antibodies, kits, instruments, mouse models, cell lines, in vitro diagnostics, and lab automation need different proof.",
+        "What the Ingenious Targeting Laboratory account results show about useful scientific pages and responsive follow-up.",
+        "How a chief scientific officer, laboratory director, and VP of commercial can share one operating record without flattening scientific nuance.",
+        "Which package is the right starting point for a founder-scientist, product manager, or principal investigator turned CEO.",
+      ]},
+      { h2: "What actually breaks in life sciences tools and diagnostics marketing", body: [], subs: [
+        { h3: "The product page stops before the experiment begins", body: [
+          "An antibody page that omits validation context or an instrument page that never addresses workflow leaves the scientist to assemble the answer elsewhere. The reader may still be interested. They are simply not ready to spend time explaining the basics to a sales form.",
+        ]},
+        { h3: "One voice for every product category", body: [
+          "Reagents and kits invite questions about protocol fit. Mouse models raise questions about genotype, background strain, phenotype, colony status, and study design. Cell lines need authentication and culture context. In vitro diagnostics need intended-use and performance discipline. Lab automation calls for throughput, integration, and failure-handling detail. One generic structure makes all of them feel generic.",
+        ]},
+        { h3: "Scientific evidence and commercial follow-up do not meet", body: [
+          "A product manager may have excellent technical documentation while the VP of commercial sees a form submission with no context. The handoff needs to retain the product, application, model, assay, and question the researcher expressed, without asking the scientist to complete a dissertation before they can talk to someone.",
+        ]},
+        { h3: "A successful inquiry waits too long", body: [
+          "Researchers often reach out near an experiment deadline, procurement decision, grant milestone, or animal-study planning window. A response that arrives days later can still be polite and still be useless. The team needs a named owner and a one-business-day response commitment.",
+        ]},
+      ]},
+      { h2: "What we do differently for life sciences tools and diagnostics", body: [], subs: [
+        { h3: "Evidence discipline by product type", body: [
+          "We establish the product facts and source material before drafting. For antibodies, that may include clone, target, species reactivity, application, and validation. For kits, it may include inputs, workflow, controls, readout, and limitations. For instruments and lab automation, it may include throughput, sample types, integration, training, and service. For mouse models and cell lines, it may include genotype, background, authentication, handling, and study context. The page answers the question the researcher actually brought.",
+        ]},
+        { h3: "A clear route from scientific question to human answer", body: [
+          "We have a method for deciding what to publish and how to direct paid activity. We do not publish that method. The resulting pages give researchers enough substance to judge fit, then offer a sensible next step: speak to a scientist, request a quote, ask about a model, or plan an evaluation. The commercial team receives the question with its context instead of a bare email address.",
+        ]},
+        { h3: "Claim review sized to the product", body: [
+          "Most research-use tools do not require the same review process as a regulated therapeutic. But \"research use only,\" analytical performance, clinical performance, and intended-use language still deserve care. For an in vitro diagnostic, we keep product statements within the device's authorized status and source set, informed by FDA's [510(k) pathway](https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/premarket-notification-510k) and [PMA pathway](https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/premarket-approval-pma) materials, and we route them through your regulatory reviewer. For general research tools, we maintain an evidence record so a product manager can correct a statement before it becomes tomorrow's sales slide.",
+        ]},
+        { h3: "Programs that serve the researcher and the commercial team", body: [
+          "A founder-scientist or laboratory director may need technical credibility while a VP of commercial needs meetings. Those goals are compatible if the work starts with real scientific questions. We publish useful material on cadence, send it to your list, and use paid activity only where the product and intake path are ready. Each month, the reporting records what was published, how it performed, and what the team needs to answer next.",
+        ]},
+        { h3: "Follow-up that treats the inquiry as a scientific conversation", body: [
+          "Ground State creates the foundation. Excitation adds one campaign and a one-business-day response commitment. We help assign that response to the correct person: an application scientist, product manager, commercial lead, or founder. The goal is not to make every inquiry identical. It is to make sure a serious question reaches someone who can answer it.",
+        ]},
+      ]},
+      { h2: "What actually shows up each month", body: [
+        "Every package includes named deliverables, not strategy. On Ground State at $2,500 per month, each month you get one published article on your site, one newsletter to your list, eight social posts, one short monthly report, and the website rebuild and hosting spread across the year. On Excitation at $5,000 per month plus advertising spend, you also get one managed Google Ads campaign, one campaign landing page refreshed as needed, 16 social posts, a one-business-day inbound response commitment, and a monthly strategy call with the account lead. See every package and add-on on the [pricing page](/pricing).",
+      ]},
+      { h2: "Proof, before the pitch", body: [
+        "Ingenious Targeting Laboratory, a mouse-model company selling to research scientists and principal investigators, moved from 13 monthly form submissions to about 64 in its first eight months with Isovertic. Its organic search traffic rose 3.7 times in that period. Internal, September 2026. Those figures are internal operating results for one account. They are not a guarantee and they do not tell us which other company will see the same pattern.",
+        "What makes the story useful is the fit between material and audience. A researcher looking for an animal model needs more than a broad company description. They need to see whether the model, gene knockout, humanized mouse, phenotype, breeding plan, and service support the study. The account gave those questions a place to land, then gave the team an inquiry record it could use.",
+        "For a reagents company, the relevant questions may be assay compatibility and validation. For a lab automation company, they may be throughput and integration. For an in vitro diagnostic company, the commercial language requires a more formal review path. The operating approach remains the same: useful scientific material, a clear handoff, timely response, and an account record that distinguishes real opportunity from general interest.",
+      ]},
+      { h2: "The package you'd probably start on", body: [
+        "Start with Ground State at $2,500 per month. It includes a website rebuild across the year, one published article per month, one newsletter, eight social posts, hosting, and a short monthly report. It is a 12-month engagement. For a founder-scientist or early commercial team, Ground State creates the evidence library and publishing rhythm before adding more activity.",
+        "Move to Excitation at $5,000 per month plus advertising spend when the product page, offer, and response owner are ready. It adds one managed Google Ads campaign, a campaign page, 16 social posts, a monthly strategy call, and a one-business-day inbound response commitment. Google says search improvements may take [four months to a year](https://developers.google.com/search/docs/appearance/site-names). That is why we report early operating signals every 30 days and review pipeline and revenue at months six and 12.",
+      ]},
+      { h2: "The honest limits", body: [
+        "We cannot manufacture a validation study, make a product fit an experiment it does not fit, or fix an unreliable supply chain. We cannot replace a thoughtful applications scientist in a technical conversation. We can make the evidence easier to find, the inquiry easier to route, and the commercial follow-up easier to run.",
+      ]},
+    ],
+    showQuotePlaceholder: true,
+    disciplineNote: biotechMolecularBiologist,
+    pipelineCta: {
+      headline: "Send us your best-converting landing page or current product page.",
+      body: "If you would rather talk it through, [book a pipeline call](/contact) and send us your best-converting landing page or current product page. In about ten minutes we will tell you what is unclear, whether the fix is a revised product page or a larger rebuild, and what a rebuild would cost, or whether you need one at all. Sometimes the honest answer is you are already fine, and we are happy to say so and hand you back your afternoon.",
+    },
+    faqs: [
+      { q: "Do your writers understand the science?", a: "A molecular biologist on staff reviews life-science work before it reaches a client's reviewer. We write from your product facts, validation, and the questions researchers actually ask." },
+      { q: "Is this the same as your biotech page?", a: "No. Biotech covers therapeutics and translational programs. This page is for reagents, instruments, mouse models, cell lines, lab automation, and diagnostics sold into labs and hospitals." },
+      { q: "How do you handle long sales cycles?", a: "Revenue is reviewed against the real sales cycle at month six and month twelve, while the early scorecard reports what was published, how it performed, and what the team needs to answer next." },
+    ],
+    related: [
+      { label: "Biotech", href: "/industries/biotech" },
+      { label: "Medical devices", href: "/industries/medical-devices" },
+      { label: "SEO and content", href: "/seo-content" },
       { label: "Results", href: "/results" },
     ],
   },
@@ -195,7 +382,7 @@ export const industries: Page[] = [
     metaDescription: "Marketing and outbound for seed and Series A startups. Published pricing, a 90 day ramp, and meetings before you hire an SDR.",
     eyebrow: "Startups",
     h1: "The startup growth agency: a pipeline before the sales hire.",
-    lead: "You have a product, a runway, and a board that wants to see the top of the funnel move before it funds the bottom. ISOVERTIC runs the marketing and, when you are ready, the outbound, at a price that fits a seed or Series A budget and is published so you can put it in the model.",
+    lead: "You have a product, a runway, and a board that wants to see meetings move before it funds the sales hire. ISOVERTIC runs the marketing and, when you are ready, the outbound, at a price that fits a seed or Series A budget and is published so you can put it in the model.",
     callout: {
       label: "Typical starting point",
       body: "Ground State if you publish nothing yet and need the site to say something before the next raise. Excitation when there is budget for paid demand and a landing page per audience. Amplification when the board wants meetings, not traffic, and you would rather rent a seat than hire an SDR who ramps for four months and leaves in fourteen. Pricing is published.",
@@ -203,10 +390,10 @@ export const industries: Page[] = [
     sections: [
       { h2: "What founders get that a freelancer cannot give them", body: [
         "One team across the site, the content, the ads, and the calls, so the objection heard on a Tuesday call is in the ad copy by Friday.",
-        "A 90 day ramp with deliverables you can paste into a board update. A website build included with a 12 month term, on a stack your first engineering hire will not want to rip out.",
+        "A 90 day ramp with deliverables you can paste into a board update. A website build included with a 12 month term.",
       ]},
-      { h2: "The tier that matches the stage", body: [
-        "Pre revenue, Ground State: a newsletter, a blog post, and social every month so the company has a voice before it has a sales team. Seed with a budget for demand, Excitation: one Google Ads campaign and a landing page per audience, with a human reading the account weekly. Series A with a board asking for pipeline, Amplification: an outbound seat with a meeting number in writing, multiple campaigns, and a weekly call.",
+      { h2: "The package that matches the stage", body: [
+        "Pre revenue, Ground State: a newsletter, a published article, and social every month so the company has a voice before it has a sales team. Seed with a budget for demand, Excitation: one Google Ads campaign and a landing page per audience, with a human reading the account weekly. Series A with a board asking for pipeline, Amplification: an outbound seat with a meeting number in writing, multiple campaigns, and a weekly call.",
       ]},
     ],
     faqs: [
@@ -218,93 +405,6 @@ export const industries: Page[] = [
       { label: "Pricing", href: "/pricing" },
       { label: "Appointment setting", href: "/outbound-appointment-setting" },
       { label: "Web development", href: "/web-development" },
-    ],
-  },
-  {
-    slug: "technical-b2b",
-    title: "Technical B2B Marketing for Buyers Who Read the Docs | ISOVERTIC",
-    dateModified: "2026-09-09",
-    metaDescription: "Technical B2B marketing for developer tools, infrastructure, and technical SaaS: one page per use case, integration, and role, paid search that measures booked meetings, and follow-up that keeps the technical thread.",
-    eyebrow: "Technical B2B",
-    h1: "Technical B2B marketing for buyers who read the docs.",
-    lead: [
-      "You know the feeling: the site looks like a competent software company made it, but your buyer is an engineer, IT lead, or operations person who notices that the documentation is hidden, the integration claim has no detail, and the page has somehow said a lot without answering their question. They do not send feedback. They leave. It is efficient, if a little rude.",
-      "The useful payoff is not a new coat of marketing paint. It is a website that behaves like a technical sales rep: it meets a buyer in the specific language they searched, gives them enough detail to continue, and records the meeting or inquiry without confusing activity for progress. [Gartner B2B buying research](https://growthmethod.com/gartner-b2b-buying-journey/) reports that buyers spend roughly 17% of their buying time with any one supplier. You do not get much time to make a vague claim feel credible.",
-    ],
-    callout: {
-      label: "Typical starting point",
-      body: "Excitation is the typical starting point for a technical B2B company with a real offer, a working conversion path, and a modest paid-search budget. It is $5,000 per month plus ad spend and includes the site foundation, content system, one landing page, one campaign, lead follow-up in one business day, and a monthly strategy call. Pricing is published.",
-    },
-    sections: [
-      { h2: "What you'll take away", body: [], list: [
-        "Why a technical buyer leaves a polished site that cannot answer a specific implementation question.",
-        "How to build one page per use case, integration, role, problem, and technical term without creating a pile of thin pages.",
-        "What paid search should measure after a technical buyer reaches the right documentation or landing page.",
-        "Why a buying committee gives any one supplier only a sliver of its attention, and what to do with that fact.",
-        "Why Excitation is usually the right starting tier for a technical B2B company with a real offer.",
-      ]},
-      { h2: "What actually breaks in technical B2B marketing", body: [], subs: [
-        { h3: "The site speaks software while the buyer speaks implementation", body: [
-          "\"Modern platform\" and \"end-to-end visibility\" may be true in a conference booth. They are not a substitute for a page that explains supported environments, integration behavior, deployment requirements, data flow, latency, security constraints, or ownership. A technical buyer often reads the docs before the pitch because the docs show whether the company understands the job.",
-          "The person searching a detailed term should find the detail without requesting a demonstration first.",
-        ]},
-        { h3: "One product page is expected to rank for every real question", body: [
-          "A technical product usually has many commercial entry points: a use case, a role, an integration, an incident type, a standard, an architecture choice, a migration, a competitor replacement, or a concrete task. One broad page cannot be the best answer for all of them.",
-          "Google's [people-first content guidance](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) favors content created to help people, with clear expertise and purpose. The implication is not \"publish more pages.\" It is \"publish one page for each real question your team can answer better than a generic result.\" Each page needs a distinct purpose, technical source material, related links, and a route to a human conversation.",
-        ]},
-        { h3: "Paid demand gets sent to an abstract landing page", body: [
-          "Search ads work well when someone already types a specific problem or solution term. They work poorly when the ad promises a practical answer and the landing page opens with a slogan. The buyer should be able to confirm the use case, technical fit, proof, implementation shape, and next step in one visit.",
-        ]},
-        { h3: "Sales follow-up loses the technical thread", body: [
-          "An engineering leader asks about one integration. The follow-up email says \"Would love to learn more about your needs.\" That sentence has done a remarkable job of learning nothing from the request.",
-          "The page, form, routing, and follow-up should retain the context: which term, use case, integration, or document brought the person in. Then a sales or solutions person can respond with the relevant proof, a technical resource, and an appropriate next step. This is not personalization theater. It is basic continuity.",
-        ]},
-      ]},
-      { h2: "What we do differently for technical B2B", body: [], subs: [
-        { h3: "We make the site the sales rep, not the brochure", body: [
-          "We build server-rendered sites that deliver the important content on the first load, with structured pages and clear paths to documentation, pricing, security, and contact. The website works while your technical founders and solutions team are doing the work they were hired to do.",
-          "The job is capture: get found by the person already searching for what you sell, then spend ads only on those people. That is why the information architecture comes before the publishing calendar. We need to know the specialist terms, the existing proof, and the conversion route first.",
-        ]},
-        { h3: "We build a long-tail catalog with an engineering standard", body: [
-          "A catalog page may cover an integration, a migration path, a specific workload, a compliance requirement, a user role, a deployment option, an API pattern, or a technical comparison. It includes an answer early, boundaries and requirements, proof or documentation links, related pages, and a way to speak with the right person.",
-          "The pages connect so a visitor can reach implementation, security, and commercial information without starting over. We use your product team, documentation, customer language, and support patterns as source material. If the answer does not exist internally, we flag the product question.",
-        ]},
-        { h3: "We create pages that humans and answer engines can quote", body: [
-          "Clear definitions, exact terminology, source-backed specifications, and strong internal linking make a page useful to technical readers and discovery systems. We own useful questions close to your product and buying process, then expand what earns qualified attention.",
-        ]},
-        { h3: "We connect paid search to a qualified meeting", body: [
-          "On Excitation, we run one search campaign around the terms with a credible destination and enough demand to test. We build or revise the landing page, set the tracking path, and review cost per booked meeting with you monthly. If the term is informational, we may send it to a technical page with a relevant next step rather than force a sales form into the first screen.",
-          "A monthly ad budget of about $1,000 to $5,000 gives one campaign room to learn. Below that, platform learning can become a coin flip. We would rather say \"start with the content system\" than keep a tiny campaign alive because the spreadsheet needs a tab.",
-        ]},
-      ]},
-      { h2: "What this looks like on an account like yours", body: [
-        "Consider a hypothetical infrastructure company selling observability tooling to platform teams. Its homepage says the product provides \"actionable visibility.\" Its best leads actually come from searches around Kubernetes cost allocation, incident response handoffs, and a particular cloud integration. The docs are good, but isolated from the commercial site. Sales has no reliable record of which technical question led to a booked meeting.",
-        "We would start by mapping the questions and collecting the source material: docs, implementation guides, support tickets, release notes, security answers, and the language used by successful customers. Then we would make a page family around the real terms, beginning with the few areas that have clear demand and strong product proof. Each page would clarify fit, setup requirements, limitations, and the relevant demonstration or technical conversation.",
-        "We would run paid search only to pages that can answer the query and retain the source context for follow-up. The report would show which page families earned visibility and meetings, what objections appeared, and what page comes next. This stops one homepage from carrying an entire technical product category.",
-      ]},
-      { h2: "The tier you'd probably start on", body: [
-        "Excitation is the typical starting point for a technical B2B company with a real offer, a working conversion path, and a modest paid-search budget. It is $5,000 per month plus ad spend and includes the site foundation, content system, one landing page, one campaign, lead follow-up in one business day, and a monthly strategy call. It gives you a practical way to test the terms your buyers already use while the catalog compounds.",
-      ]},
-      { h2: "The honest limits", body: [
-        "This cannot fix unclear positioning, missing documentation, a harder-than-advertised implementation, or sales follow-up without technical substance. It also cannot capture a search that is not happening.",
-        "We are also not the right shop if you need to stay on a site builder that cannot support the technical structure and measurement system. The build runs on our server-rendered stack, and you own the code and domain.",
-      ]},
-    ],
-    pipelineCta: {
-      headline: "Send us your best-converting landing page or one-pager.",
-      body: "If it gets attention but your technical buyer still disappears before a meeting, [book a pipeline call](/contact) and paste it in. In about ten minutes we'll tell you which questions the page does not answer, what catalog pages belong around it, whether paid search has a destination worth buying, and whether Excitation fits. Sometimes the honest answer is you're already fine, and we're happy to say so and hand you back your afternoon.",
-    },
-    faqs: [
-      { q: "Can your writers handle developer facing content?", a: "We use your product team, documentation, customer language, and support patterns as source material, inside a documented technical system with terminology controls and a named reviewer. If the answer does not exist internally, we flag the product question." },
-      { q: "Do you run product led motions?", a: "We build the demand side: the site, the content, the search, and the outbound that gets an engineering lead into a conversation. Activation inside the product is yours." },
-      { q: "How do you reach engineering decision makers with outbound?", a: "With sequences that reference something true about their stack or their last release, sent by a person who can answer a technical reply. Generic sequences to engineers get reported as spam, and we do not send them." },
-      { q: "How do you measure a nine month sales cycle?", a: "Two clocks. Leading indicators every 30 days, revenue at the month that matches your cycle, written into the agreement. The standard is published." },
-    ],
-    related: [
-      { label: "Engagement and measurement standard", href: "/resources/engagement-and-measurement-standard" },
-      { label: "SEO and content", href: "/seo-content" },
-      { label: "Appointment setting", href: "/outbound-appointment-setting" },
-      { label: "Results", href: "/results" },
     ],
   },
   {

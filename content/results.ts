@@ -25,8 +25,8 @@ export const roster: RosterItem[] = [
   {
     id: "ingenious-targeting-laboratory",
     name: "ingenious targeting laboratory",
-    sector: "Biotech and life sciences",
-    sectorHref: "/industries/biotech",
+    sector: "Life sciences tools and diagnostics",
+    sectorHref: "/industries/life-sciences-tools-and-diagnostics",
     window: "August 2024 through present, growth-method reporting active.",
     confirmedLabel: "Confirmed numbers",
     confirmed: [
