@@ -73,7 +73,7 @@ export const commitmentStandard = { label: "What results to expect, and when", h
 // Homepage copy. Rewritten 2026-09-10 from Site Rewrite v3.
 export const home = {
   h1: "The Growth Agency for Healthcare, Biotech, Medical Devices, and Life Sciences",
-  sub: "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. We build the website, run the advertising, publish the content, and book the meetings. Founders, CEOs, presidents, and vice presidents of commercial hire us when the marketing has to survive a chief scientific officer, a medical director, a compliance officer, or a VP of regulatory, not just a scroll.",
+  sub: "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. We build the website, run the advertising, publish the content, and book the meetings. One senior team owns every step, and we report a single number: the cost of each qualified meeting we put on your calendar. The job is to take the buyer already searching for what you sell and hand that person to your sales team. Your website does that first part. The five other steps carry the work farther, move it faster, or teach it to your own staff. Founders, CEOs, presidents, and vice presidents hire us when their marketing has to hold up for a scientific, clinical, or compliance reader. A chief scientific officer, a chief medical officer, a medical director, a principal investigator, a practice administrator, or a compliance officer will read it closely, and looking good on a screen is not enough.",
   who: {
     h2: "Who we work with",
     intro: "We serve four kinds of companies:",
@@ -87,10 +87,10 @@ export const home = {
   },
   what: {
     h2: "What we actually do",
-    lead: "We build the website that gets found by the buyer already searching for what you sell, then we spend advertising only on those people.",
+    lead: "We build the website that gets found by the buyer already searching for what you sell, and we spend advertising only on those people. Then we add the five steps that carry that work further.",
     body: [
-      "Your website is not a brochure. It is your best salesperson, working alone at 3 a.m., when a buyer has a real question and starts looking for an answer. If your site can answer that question in language the buyer recognizes, it hands your team a qualified meeting the next morning. That is the whole point.",
-      "Every engagement gives you one team responsible for the connected work: the website, the published articles, the newsletter, the social posts, Google Ads, streaming television and radio when the math supports it, outbound meetings on your calendar, and training for your team.",
+      "Your website is not a brochure. It is your best salesperson, working alone at 3 a.m., when a buyer has a real question and starts looking for an answer. If your site can answer that question in language the buyer recognizes, it hands your team a qualified meeting.",
+      "The five steps are publishing, advertising, media, outbound, and training. Publishing puts articles, a newsletter, and social posts behind the site on a real cadence. Advertising runs Google Ads against the searches that mean a buyer is looking right now. Media adds streaming television and radio when name recognition helps the sale and the math supports it. Outbound puts qualified meetings on your calendar, each with a written brief for the salesperson taking the call. Training hands your own team the runbooks when they would rather run the work themselves. One team is responsible for all of it.",
     ],
   },
   move: {
