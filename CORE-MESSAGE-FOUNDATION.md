@@ -79,7 +79,7 @@ Public case studies may name the client with those figures when written permissi
 | one senior team owns the pipeline | we build the website (as the lead claim) |
 | healthcare, pharma, biotech, medical devices, and life sciences | companies that sell to specialists (as the only category label) |
 | Ground State, Excitation, Amplification, Quantum Leap | Baseline, Catalyst, Kinetic, Critical Mass |
-| six steps: Build, Rank, Run, Buy, Book, Educate; you close | seven steps, funnel, growth hacking |
+| five steps: Build, Rank, Run, Buy, Book, plus Educate as an add-on; you close | seven steps, funnel, growth hacking |
 | a published article, a newsletter, eight social posts, a landing page, a monthly report | strategy, optimization, content flywheel |
 
 Also banned in public copy: creating demand, brand awareness, funnel, growth hacking, ROI framework, Next.js, server-rendered, schema, hub and spoke, SERP, MQL, SQL, ICP. They describe another playbook or they describe the method.
@@ -88,8 +88,8 @@ Describe deliverables in words the reader would use in a status meeting: a month
 
 ## Where each idea lives
 
-- Homepage: hero is the category sentence. Then who we work with, then what we do, then proof, then the four packages, then the six steps.
-- /system: the six steps, what shows up, and the honest limit for each. No layer list.
+- Homepage: hero is the category sentence. Then who we work with, then what we do, then proof, then the four packages, then the five steps.
+- /system: the five steps plus the training add-on, what shows up, and the honest limit for each. No layer list.
 - /about: what you are buying (company knowledge, one team), who is on it, George and Kristen.
 - /results: numbers first, mechanism second, per the case study rule.
 - Industry and service pages: the industry's own vocabulary, the package to start on, and the meeting as the end result. "Growth agency" in H1s and titles; "marketing" stays as a word so the page still matches what people type.

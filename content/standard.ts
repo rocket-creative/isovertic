@@ -147,7 +147,7 @@ export type Stage = { n: string; name: string; window: string; body: string };
 
 export const stages: Stage[] = [
   { n: "01", name: "Foundation", window: "Months 0 to 3", body: "Audit, tracking, quick wins, paid search launch. Fixed scope and defined deliverables. The purpose is the fastest honest early proof plus the infrastructure the growth term depends on. This is the 90 day ramp on every tier." },
-  { n: "02", name: "Growth", window: "Months 4 to 12", body: "The six step system in full motion. Monthly leading indicator report. Quarterly review of learning phase status and channel mix, with budget moved toward what the data supports." },
+  { n: "02", name: "Growth", window: "Months 4 to 12", body: "The five step system in full motion. Monthly leading indicator report. Quarterly review of learning phase status and channel mix, with budget moved toward what the data supports." },
   { n: "03", name: "Compound", window: "Month 12 and on", body: "Lagging indicator review: CAC payback and pipeline attribution against the sales cycle we wrote down. Then a roadmap for the next twelve months, or an exit with the runbooks in your name if we are no longer the right fit." },
 ];
 

@@ -14,7 +14,7 @@ export const about = {
     h2: "What you are actually buying",
     body: [
       "You are buying company knowledge, not one person's calendar.",
-      "George engineered the method over 30 years of building the systems companies sell through. Kristen wrote it down, taught the team to run it, and built the operation that ships it consistently across every account. Every engagement runs the same method. We say what it produces: a website the buyer already searching for you can trust, advertising spent only on those people, and a meeting on your calendar with a written brief. We do not publish how we choose what to build, publish, or bid on. The six steps are on the system page.",
+      "George engineered the method over 30 years of building the systems companies sell through. Kristen wrote it down, taught the team to run it, and built the operation that ships it consistently across every account. Every engagement runs the same method. We say what it produces: a website the buyer already searching for you can trust, advertising spent only on those people, and a meeting on your calendar with a written brief. We do not publish how we choose what to build, publish, or bid on. The five steps are on the system page.",
       "The method is written down. The team is trained on it. The founder is the source and the escalation path, not the bottleneck. That is why the account keeps moving in a slow week, and it is why year two does not fall off a cliff.",
     ],
   },

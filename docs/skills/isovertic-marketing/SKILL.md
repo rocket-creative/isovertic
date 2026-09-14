@@ -28,7 +28,7 @@ Source of truth: `CORE-MESSAGE-FOUNDATION.md` at the repo root and the live site
 
 **The one sentence.** The growth agency for healthcare, pharma, biotech, medical devices, and life sciences. One senior team owns your pipeline from the first search to the booked meeting.
 
-**What Isovertic is.** A growth agency. Not a marketing agency (traffic and reports), not a web design company (a launch), not an appointment setter (meetings booked into whatever you already have). Six steps inside one boundary: Build, Rank, Run, Buy, Book, Educate. The client closes. The end result is a booked meeting, and Amplification and above carry the meeting number in writing.
+**What Isovertic is.** A growth agency. Not a marketing agency (traffic and reports), not a web design company (a launch), not an appointment setter (meetings booked into whatever you already have). Five steps inside one boundary: Build, Rank, Run, Buy, Book. Educate, the training, is an add-on. The client closes. The end result is a booked meeting, and Amplification and above carry the meeting number in writing.
 
 **Vocabulary.** Say "growth agency" or "ISOVERTIC." Never growth firm, growth company, growth engine, capture engine, pipeline systems shop, pipeline shop, or full service agency. Say "meetings," not customers we deliver. Say "the method" or "the same method on every account." Do not name or list the seven layers on any public page. Do not describe how we choose what to publish, bid on, or build.
 

@@ -38,7 +38,7 @@ export const servicePipelineCta = {
   },
   "outbound-appointment-setting": {
     headline: "Send us your current outbound sequence and reply rate.",
-    body: "If you would rather talk it through, [book a pipeline call](/contact) and send us your best-converting landing page along with your current outbound sequence and reply rate. In about ten minutes we will tell you whether the message, the website, the list, or the follow-up is holding the work back, and whether an outbound seat is the right next move. Sometimes the honest answer is you are already fine, and we are happy to say so and hand you back your afternoon.",
+    body: "If you would rather talk it through, [book a pipeline call](/contact) and send us your best-converting landing page along with your current outbound sequence and reply rate. In about ten minutes we will tell you whether the message, the website, the list, or the follow-up is holding the work back, and whether a dedicated person calling and emailing your prospects is the right next move. Sometimes the honest answer is you are already fine, and we are happy to say so and hand you back your afternoon.",
   },
   "design-brand": {
     headline: "Send us your current identity, deck, and one-pager.",

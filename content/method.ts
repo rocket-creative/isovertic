@@ -2,16 +2,16 @@
 
 export const method = {
   eyebrow: "How it works",
-  h1: "The six-step system that books qualified meetings",
+  h1: "The five-step system that books qualified meetings",
   lead: [
     "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. We build the website, run the advertising, publish the content, and book the meetings. One team, one number, one clock. This page is for the founders, CEOs, presidents, VPs of commercial, chief scientific officers, chief medical officers, and practice administrators who want to see the whole system before they buy.",
     "The system has one purpose: bring the buyer already searching for what you sell to a qualified meeting with your sales team. The website does the first part. The five other steps make that work reach farther, move faster, or become teachable inside your company.",
-    "Every engagement uses the same six steps: Build, Rank, Run, Buy, Book, and Educate. Your package sets which steps we operate and how deep each one goes. The steps do not change.",
+    "Every engagement uses the same five steps: Build, Rank, Run, Buy, and Book. Educate, the training that hands the work to your own team, is an add-on. Your package sets which steps we operate and how deep each one goes.",
   ],
   heroCta: { label: "Book a pipeline call", href: "/contact" },
   closeNote: "The last step is yours: close.",
   stepsDetail: {
-    h2: "The six steps",
+    h2: "The five steps, plus the training add-on",
     items: [
       {
         n: "01",
@@ -54,16 +54,16 @@ export const method = {
         title: "Book. Qualified meetings on your calendar with a written brief",
         body: [
           "What it does. Book runs outbound for you through phone, email, and LinkedIn. We contact the people your sales team needs to meet, qualify the conversation, and put a qualified meeting on your calendar with a written brief for your salesperson before they take the call.",
-          "What shows up. One outbound seat at Amplification. Two outbound seats at Quantum Leap. An additional seat on any package for $4,500 per month. Conference sprints for $7,500 per event. We define what counts as a meeting, we verify each one, and we report cost per qualified meeting.",
+          "What shows up. One dedicated person calling and emailing your prospects at Amplification. Two at Quantum Leap. An additional person on any package for $4,500 per month. Conference sprints for $7,500 per event. We define what counts as a meeting, we verify each one, and we report cost per qualified meeting.",
           "Honest limit. Outbound before the website can defend the pitch wastes your buyer's time. If the site does not confirm what the email claims, we Build first and begin outreach after it can.",
         ],
       },
       {
         n: "06",
-        title: "Educate. Runbooks for the team you already have",
+        title: "Educate, an add-on. Runbooks for the team you already have",
         body: [
           "What it does. Educate hands the operating instructions to your team. We spend one or two days at your office, write eight runbooks, and hold a follow-up call at 30 days. Each runbook comes from the person who does that work: a Google Ads specialist, a compliance officer, and a molecular biologist where the subject requires it.",
-          "What shows up. One department, one day, $5,000: up to 15 people and one step taught in depth. Full team, two days, $20,000: up to 40 people, all six steps, and a developer track. A Protocol day for current clients, $3,500.",
+          "What shows up. One department, one day, $5,000: up to 15 people and one step taught in depth. Full team, two days, $20,000: up to 40 people, all five steps, and a developer track. A Protocol day for current clients, $3,500.",
           "Honest limit. Training works when your team can commit one focused day. If they cannot, do not buy it.",
         ],
       },

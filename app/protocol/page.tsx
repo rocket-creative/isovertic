@@ -45,7 +45,7 @@ export default function Protocol() {
         </RevealBlock>
       </Section>
 
-      <Section label="The six steps">
+      <Section label="The steps">
         <RevealBlock className="max-w-[68ch]">
           <h2 className="font-display text-h2 font-medium">{c.steps.h2}</h2>
           <ul className="mt-6 space-y-4 leading-relaxed text-ink/90">

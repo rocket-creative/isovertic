@@ -18,7 +18,7 @@ export const protocol = {
     body: "The people who run the work write the instructions and teach the appropriate section. Google Ads specialists write the Google Ads runbook. Our compliance officer writes the HIPAA and MLR procedures, grounded in the HHS OCR guidance on [online tracking technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html) and the June 2024 ruling in [AHA v. Becerra](https://www.aha.org/legal-documents/2024-06-20-aha-v-becerra-court-ruling-online-tracking-technologies). Our molecular biologist writes the life-science material for biotech and diagnostics clients whose buyers include chief scientific officers, principal investigators, and VPs of regulatory.",
   },
   steps: {
-    h2: "The six steps your team learns",
+    h2: "What your team learns",
     items: [
       { name: "Build.", body: "The website that answers buyer questions and clearly presents proof, pricing, and the next step. Your team gets the rules for reviewing a page before it goes live and the definition of a page that is ready for a chief medical officer or a director of billing." },
       { name: "Rank.", body: "The cadence of published articles, newsletters sent to your list, and social posts. Your team gets a publishing routine and a review process that keeps evidence close to the claim." },
@@ -47,11 +47,11 @@ export const protocol = {
       name: "Protocol, full team",
       price: "$20,000",
       per: "one time",
-      for: "This version is for marketing, sales, and development together, with up to 40 people. It includes two days at your office, one preparation day, an audit of your current process, tools, and CRM before we arrive, all six steps, and a developer track.",
+      for: "This version is for marketing, sales, and development together, with up to 40 people. It includes two days at your office, one preparation day, an audit of your current process, tools, and CRM before we arrive, all five steps, and a developer track.",
       includes: [
         "Two days onsite plus one preparation day at your office",
         "Audit of your current process, tools, and CRM before we arrive",
-        "All six steps, plus a developer track",
+        "All five steps, plus a developer track",
         "All eight runbooks",
         "Follow-up call at 30 days",
         "Travel included in the US",

@@ -56,7 +56,7 @@ export const tiers: Tier[] = [
       "Everything in Ground State, social doubled to 16 posts",
       "One Google Ads campaign, built and managed",
       "One landing page for that campaign, refreshed as needed",
-      "Lead follow-up within one business day",
+      "Automated lead follow-up within 30 seconds",
       "One 60-minute strategy call a month with the account lead",
     ],
     cta: "Start Excitation",
@@ -73,7 +73,7 @@ export const tiers: Tier[] = [
       "Everything in Excitation",
       "The full monthly content system, at higher volume, across article, newsletter, social, and video",
       "A YouTube channel: research, script, produce, and publish",
-      "One outbound seat with a written brief for each meeting, verified against the meeting quality standard",
+      "One dedicated person calling and emailing your prospects with a written brief for each meeting, verified against the meeting quality standard",
       "Weekly account review",
     ],
     cta: "Start Amplification",
@@ -159,7 +159,7 @@ export const steps = [
 ] as const;
 
 export const stepsNote =
-  "Pick a tier and we run the steps in it. Ground State runs step two. Excitation runs one through three. Amplification runs everything but TV. Quantum Leap runs all of it, per brand. Step six is Protocol: we teach your team the system and hand over the runbooks in your name.";
+  "Pick a tier and we run the steps in it. Ground State runs step two. Excitation runs one through three. Amplification runs everything but TV. Quantum Leap runs all of it, per brand. Step six, Protocol, is an add-on: we teach your team the system and hand over the runbooks in your name.";
 
 // Rows: one per step. Cells: one per tier, in tier order. Empty string means the tier does not run the step.
 export const tierGrid: { step: string; cells: string[] }[] = [
@@ -181,7 +181,7 @@ export const addOns: { name: string; price: string }[] = [
   { name: "Medical, legal, and regulatory review gate: named reviewer workflow, sign off log, claim library", price: "Ground State $500 per month plus $750 setup. Excitation $750 per month plus $1,000 setup. Amplification $1,200 per month plus $1,500 setup. Quantum Leap quoted" },
   { name: "HIPAA form and call stack: BAA covered forms, call tracking, consent language", price: "$750 per month" },
   { name: "Compliance paperwork: business associate agreement signed, security questionnaire completed, subprocessor list and data map for your SOC 2 review", price: "Quoted per request" },
-  { name: "Outbound seat added to Excitation", price: "$4,500 per month" },
+  { name: "One more person calling and emailing your prospects, added to Excitation", price: "$4,500 per month" },
   { name: "Second product line in Google Ads: separate campaigns, landing page, reporting", price: "$1,000 per month per line" },
   { name: "LinkedIn outbound and paid: sequences plus sponsored content", price: "$2,500 per month" },
   { name: "Conference sprint: meetings booked before and at one trade show", price: "$7,500 per event" },
@@ -212,7 +212,7 @@ export const protocolTiers = [
     includes: [
       "Two days onsite plus one prep day at your office",
       "Audit of your current process, tool stack, and CRM before we arrive",
-      "All six steps taught, plus a developer track",
+      "All five steps taught, plus a developer track",
       "Runbook library rewritten to your tools, your approval chain, and your named medical reviewer",
     ],
   },
@@ -242,7 +242,7 @@ export const tierNotes: { slug: Tier["slug"]; h2: string; body: string[] }[] = [
     h2: "Excitation, $5,000 per month plus advertising spend",
     body: [
       "Excitation is the pipeline starter. It is for a company with a real offer, a working website conversion path, and the appetite to spend $1,000 to $5,000 a month on Google Ads.",
-      "You get everything in Ground State, plus one Google Ads campaign, built and managed; one landing page for that campaign, refreshed as needed; lead follow-up within one business day; 16 social posts a month; and one 60-minute strategy call each month with the account lead.",
+      "You get everything in Ground State, plus one Google Ads campaign, built and managed; one landing page for that campaign, refreshed as needed; automated lead follow-up within 30 seconds; 16 social posts a month; and one 60-minute strategy call each month with the account lead.",
       "The $5,000 monthly fee does not include advertising spend. We report cost per booked meeting, not merely traffic or clicks. Below about $1,000 a month in Google Ads spend, the platform does not have enough activity to produce reliable results. If that is your budget, Ground State is the more sensible place to start.",
     ],
   },
@@ -250,8 +250,8 @@ export const tierNotes: { slug: Tier["slug"]; h2: string; body: string[] }[] = [
     slug: "amplification",
     h2: "Amplification, $10,000 per month plus advertising spend",
     body: [
-      "Amplification is the full pipeline program. It is for a company with a defined ideal client, at least $5,000 a month for advertising, and a named person on the client side, often a VP of commercial or a practice administrator, who owns the calendar.",
-      "You get everything in Excitation, plus the full monthly content system at higher volume, a YouTube channel, one outbound seat that books qualified meetings with a written brief, and weekly account review. We define what counts as a meeting, we verify each one, and we report cost per qualified meeting. The compliance stack for regulated buyers is priced separately as an add-on when needed.",
+      "Amplification is the full pipeline program. It is for a company with a defined ideal client, at least $5,000 a month for advertising, and a designated person on the client side, often a VP of commercial or a practice administrator, who owns the calendar.",
+      "You get everything in Excitation, plus the full monthly content system at higher volume, a YouTube channel, one dedicated person calling and emailing your prospects, who books qualified meetings with a written brief, and weekly account review. We define what counts as a meeting, we verify each one, and we report cost per qualified meeting. The compliance stack for regulated buyers is priced separately as an add-on when needed.",
       "Amplification is billed quarterly. This package is for a team prepared to answer the meetings it receives. If the calendar owner is unclear, resolve that before adding outbound. A meeting without a capable follow-up is an expensive way to collect polite no-thank-yous.",
     ],
   },

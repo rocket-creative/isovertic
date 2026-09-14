@@ -31,9 +31,9 @@ export const auditMeta = {
     { h2: "What a useful result can say", body: [
       "Sometimes the issue is the website. A buyer arrives but cannot find proof, pricing, or a clear next step in language a chief scientific officer, principal investigator, or director of billing recognizes. The first repair is Build, included in every package at $15,000 across the year.",
       "Sometimes the site is ready but nobody is publishing enough useful answers for the people already looking. The right start is Ground State at $2,500 per month: one published article, one newsletter to your list, eight social posts, and a monthly report.",
-      "Sometimes your company needs meetings sooner and has at least $1,000 a month for Google Ads. Excitation at $5,000 per month plus spend adds a managed campaign, a landing page, and follow-up within one business day.",
-      "Sometimes the calendar needs direct help. Amplification at $10,000 per month plus spend adds an outbound seat that books qualified meetings with written briefs. If you have capable internal people but no shared operating process, Protocol training may be the better answer at $5,000 for one department or $20,000 for the full team.",
-      "Sometimes the answer is Quantum Leap from $25,000 per month plus spend, the multi-brand program for later-stage healthcare, pharma, biotech, medical device, and life sciences tools and diagnostics groups running two or more brands.",
+      "Sometimes your company needs meetings sooner and has at least $1,000 a month for Google Ads. Excitation at $5,000 per month plus spend adds a managed campaign, a landing page, and automated follow-up within 30 seconds.",
+      "Sometimes the calendar needs direct help. Amplification at $10,000 per month plus spend adds a dedicated person calling and emailing your prospects, who books qualified meetings with written briefs. If you have capable internal people but no shared operating process, Protocol training may be the better answer at $5,000 for one department or $20,000 for the full team.",
+      "Sometimes the answer is Quantum Leap from $25,000 per month plus spend, the full program for later-stage healthcare, pharma, biotech, medical device, and life sciences tools and diagnostics companies, on one brand or several.",
       "The audit can also say you do not need us. That result saves you time and preserves our calendar for teams we can help. Everyone survives.",
     ] },
     { h2: "Regulated buyers get different recommendations", body: [
@@ -197,7 +197,7 @@ export const tierResults: Record<TierKey, TierResult> = {
     name: "Excitation",
     price: "$5,000 a month plus ad spend",
     headline: "Add paid demand to the content.",
-    body: "You have a site and no reliable paid demand. Excitation adds a Google Ads campaign, a landing page we build, and lead follow up inside one business day, on top of the content system. Cost per qualified meeting becomes measurable for the first time.",
+    body: "You have a site and no reliable paid demand. Excitation adds a Google Ads campaign, a landing page we build, and automated lead follow up inside 30 seconds, on top of the content system. Cost per qualified meeting becomes measurable for the first time.",
     href: "/pricing",
   },
   amplification: {
@@ -205,7 +205,7 @@ export const tierResults: Record<TierKey, TierResult> = {
     name: "Amplification",
     price: "$10,000 a month plus ad spend",
     headline: "You need meetings, and nobody owns the number.",
-    body: "Amplification runs the whole pipeline: multiple ad campaigns, an outbound seat, and the content that makes the meetings show up warm. We define what counts, we verify each meeting, and we report cost per qualified meeting. One team accountable for the work, with the 90 day ramp and the two clock scorecard in the agreement.",
+    body: "Amplification runs the whole pipeline: multiple ad campaigns, a dedicated person calling and emailing your prospects, and the content that makes the meetings show up warm. We define what counts, we verify each meeting, and we report cost per qualified meeting. One team accountable for the work, with the 90 day ramp and the two clock scorecard in the agreement.",
     href: "/pricing",
   },
   "quantum-leap": {
@@ -213,7 +213,7 @@ export const tierResults: Record<TierKey, TierResult> = {
     name: "Quantum Leap",
     price: "From $25,000 a month plus media",
     headline: "The gap is big enough to own a market.",
-    body: "Your score says the vendor stack, the ownership gap, and the meeting need are all at the top of the scale. Quantum Leap runs everything in Amplification per brand, with two outbound seats, TV and streaming in your own accounts, and a quarterly board ready review. It also starts inside the company: we map how a lead moves through it, find where it leaks, automate what does not need a person, and write the SOPs before we turn up the ads and outbound. If you run one brand and want to start smaller, Amplification is the honest starting point.",
+    body: "Your score says the vendor stack, the ownership gap, and the meeting need are all at the top of the scale. Quantum Leap runs everything in Amplification per brand, with two dedicated people calling and emailing your prospects, TV and streaming in your own accounts, and a quarterly board ready review. It also starts inside the company: we map how a lead moves through it, find where it leaks, automate what does not need a person, and write the SOPs before we turn up the ads and outbound. If you run one brand and want to start smaller, Amplification is the honest starting point.",
     href: "/pricing",
   },
 };

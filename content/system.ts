@@ -21,7 +21,7 @@ export const whyBuyers = {
 export const educateGridCell = "Protocol, $3,500 client add on";
 
 export const systemNote =
-  "Pick a tier and we run the steps in it. Ground State runs step two. Excitation runs one through three. Amplification runs everything but TV. Quantum Leap runs all of it, per brand. Step six is Protocol: we teach your team the system and hand over the runbooks in your name. The pricing page shows the grid.";
+  "Pick a tier and we run the steps in it. Ground State runs step two. Excitation runs one through three. Amplification runs everything but TV. Quantum Leap runs all of it, per brand. Step six, Protocol, is an add-on: we teach your team the system and hand over the runbooks in your name. The pricing page shows the grid.";
 
 export const closeNote = "The last step is yours: close.";
 
@@ -48,7 +48,7 @@ export const buyerRoles = {
       key: "founder",
       tab: "Founder or CEO",
       question: "Why does nothing I buy add up to a pipeline?",
-      body: "You have a web vendor, an ads vendor, and a sales hire who quit, and every one of them hit the number they were given. Nobody owned the meeting. We run all six steps inside one boundary, with one number at the end and the same senior team on every package.",
+      body: "You have a web vendor, an ads vendor, and a sales hire who quit, and every one of them hit the number they were given. Nobody owned the meeting. We run all five steps inside one boundary, with one number at the end and the same senior team on every package.",
       cta: { label: "See how the system works", href: "/system" },
     },
     {

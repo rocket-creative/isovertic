@@ -45,7 +45,7 @@ export const cfoGuide = {
   whoWins: {
     h2: "When each option wins.",
     items: [
-      { name: "In house wins when", body: "you can hire a proven operator who has already run every one of the six steps, you have a manager who can direct them, and you can wait two quarters for output. That person is rare and expensive, and if you can get them, hire them." },
+      { name: "In house wins when", body: "you can hire a proven operator who has already run every one of the five steps, you have a manager who can direct them, and you can wait two quarters for output. That person is rare and expensive, and if you can get them, hire them." },
       { name: "Agency wins when", body: "you need meetings inside a quarter, the buyer has to be educated before they take a meeting, or nobody on staff can judge whether the marketing is working. A firm with a written number and a two clock scorecard removes the judgment problem." },
       { name: "Hybrid wins when", body: "you already have one marketer. Keep them, make them the owner, and put a senior team behind them. The Protocol training day exists to hand that person the runbooks so the system becomes theirs." },
     ],

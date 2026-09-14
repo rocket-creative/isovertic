@@ -11,7 +11,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: { absolute: "Industries: Healthcare, Pharma, Biotech, Medical Devices, Life Sciences | ISOVERTIC" },
-  description: "The growth agency for healthcare, pharma, biotech, medical devices, and life sciences. How the six-step system flexes for each buyer.",
+  description: "The growth agency for healthcare, pharma, biotech, medical devices, and life sciences. How the five-step system flexes for each buyer.",
   alternates: { canonical: "/industries" },
 };
 
@@ -25,7 +25,7 @@ export default function Industries() {
       <PageHero
         eyebrow="Industries"
         h1="The growth agency for healthcare, pharma, biotech, medical devices, and life sciences."
-        lead="Practice administrators, chief scientific officers, VPs of commercial, and founders. The system is the same six steps everywhere; what changes is the compliance gate, the buyer of record, and the page the search lands on. Each industry has its own page below."
+        lead="Practice administrators, chief scientific officers, VPs of commercial, and founders. The system is the same five steps everywhere; what changes is the compliance gate, the buyer of record, and the page the search lands on. Each industry has its own page below."
       />
       <Section label="Pick yours">
         <ul className="divide-y divide-rule border-y border-rule">

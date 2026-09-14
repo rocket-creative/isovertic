@@ -59,7 +59,7 @@ export const industries: Page[] = [
         ]},
       ]},
       { h2: "What actually shows up each month", body: [
-        "Every package includes named deliverables, not strategy. On Excitation at $5,000 per month plus advertising spend, for a healthcare account, each month you get one published article on your site, one newsletter to your list, 16 social posts across your active channels, one managed Google Ads campaign built around the searches a patient or referring physician actually types, one landing page for that campaign refreshed as needed, one-business-day inbound response, and a monthly strategy call with the account lead. The website rebuild and hosting are included across the year. See every package and add-on on the [pricing page](/pricing).",
+        "Every package includes named deliverables, not strategy. On Excitation at $5,000 per month plus advertising spend, for a healthcare account, each month you get one published article on your site, one newsletter to your list, 16 social posts across your active channels, one managed Google Ads campaign built around the searches a patient or referring physician actually types, one landing page for that campaign refreshed as needed, automated inbound response within 30 seconds, and a monthly strategy call with the account lead. The website rebuild and hosting are included across the year. See every package and add-on on the [pricing page](/pricing).",
       ]},
       { h2: "What this looks like on an account like yours", body: [
         "Here is a hypothetical account. A multisite specialty practice with a practice administrator, a director of billing, a revenue-cycle director, and a compliance officer. The group wants more new-patient consults for one service line, but the existing form sends detailed messages to a general inbox and the confirmation page has third-party tracking.",
@@ -70,7 +70,7 @@ export const industries: Page[] = [
         "Sydra Health, a revenue-cycle company serving healthcare billing directors, went from no online presence in mid-June 2026 to roughly one qualified meeting a week on about $1,000 in monthly advertising spend and about $2,500 in monthly site work. Internal, September 2026. It is unusual for the category and it is not a promise for yours. It is an example of what happens when the site can carry the sales argument and one team owns the number at the end.",
       ]},
       { h2: "The package you'd probably start on", body: [
-        "Start with Excitation at $5,000 per month plus advertising spend, then add the HIPAA form-and-call stack at $750 per month. Excitation includes a website rebuild across the year, one published article, a newsletter, social posts, one managed Google Ads campaign, a campaign landing page, and a one-business-day inbound response. It is a 12-month engagement.",
+        "Start with Excitation at $5,000 per month plus advertising spend, then add the HIPAA form-and-call stack at $750 per month. Excitation includes a website rebuild across the year, one published article, a newsletter, social posts, one managed Google Ads campaign, a campaign landing page, and an automated inbound response within 30 seconds. It is a 12-month engagement.",
         "Why not judge it after one quarter? Google says changes to search visibility can take [four months to a year](https://developers.google.com/search/docs/appearance/site-names). A practice group may also need time to improve intake, scheduling, and follow-up before increased interest turns into completed care. We report the early operating signals every 30 days, then review pipeline and revenue at months six and 12 against your actual sales cycle.",
       ]},
       { h2: "The honest limits", body: [
@@ -251,7 +251,7 @@ export const industries: Page[] = [
         ]},
       ]},
       { h2: "What actually shows up each month", body: [
-        "Every package includes named deliverables, not strategy. On Ground State at $2,500 per month, each month you get one article published on your site, one newsletter sent to your list, eight social posts, one short monthly report, and the website rebuild and hosting spread across the year. On Excitation at $5,000 per month plus advertising spend, you also get one managed Google Ads campaign, one campaign landing page refreshed as needed, 16 social posts, a one-business-day inbound response commitment, and a monthly strategy call with the account lead. The full list of add-ons, including the MLR review gate, lives on the [pricing page](/pricing).",
+        "Every package includes named deliverables, not strategy. On Ground State at $2,500 per month, each month you get one article published on your site, one newsletter sent to your list, eight social posts, one short monthly report, and the website rebuild and hosting spread across the year. On Excitation at $5,000 per month plus advertising spend, you also get one managed Google Ads campaign, one campaign landing page refreshed as needed, 16 social posts, an automated inbound response within 30 seconds, and a monthly strategy call with the account lead. The full list of add-ons, including the MLR review gate, lives on the [pricing page](/pricing).",
       ]},
       { h2: "Proof, before the pitch", body: [
         "Ingenious Targeting Laboratory, a mouse-model company selling to research scientists and principal investigators, moved from 13 monthly form submissions to about 64 in its first eight months with Isovertic. Its organic search traffic rose 3.7 times in that period. Internal, September 2026. Those are internal operating results for one account, not a controlled study, and they should be read as one account's operating record.",
@@ -260,7 +260,7 @@ export const industries: Page[] = [
       ]},
       { h2: "The package you'd probably start on", body: [
         "Start with Ground State at $2,500 per month and add the MLR review gate. Ground State includes a website rebuild across the year, one published article each month, one newsletter, eight social posts, hosting, and a short monthly report. It is a 12-month engagement. It gives a chief scientific officer, a VP of regulatory, and the reviewer enough room to establish the claim library and approval rhythm before paid work adds another moving part.",
-        "If you already have a clear offer, an approved intake path, and $1,000 to $5,000 a month available for Google Ads, Excitation at $5,000 per month plus advertising spend is the next sensible choice. It adds one managed campaign, a landing page, a one-business-day inbound response commitment, and a monthly strategy call. We will not advise paid work before the evidence and review path can support it.",
+        "If you already have a clear offer, an approved intake path, and $1,000 to $5,000 a month available for Google Ads, Excitation at $5,000 per month plus advertising spend is the next sensible choice. It adds one managed campaign, a landing page, an automated inbound response within 30 seconds, and a monthly strategy call. We will not advise paid work before the evidence and review path can support it.",
       ]},
       { h2: "The honest limits", body: [
         "We cannot manufacture clinical data, accelerate an FDA decision, or make an early research signal into proof of patient benefit. We cannot make an investigator answer inquiries faster. And we cannot replace your medical, legal, regulatory, or scientific judgment. We can give those people a process that is easier to inspect and run.",
@@ -349,7 +349,7 @@ export const industries: Page[] = [
         ]},
       ]},
       { h2: "What actually shows up each month", body: [
-        "Every package includes named deliverables, not strategy. On Excitation at $5,000 per month plus advertising spend, each month you get one published article on your site, one newsletter to your list, 16 social posts, one managed Google Ads campaign built around the searches a surgeon, laboratory director, or hospital service-line lead actually types, one campaign landing page refreshed as needed, one-business-day inbound response, and a 60-minute monthly strategy call with the account lead. The website rebuild and hosting are included across the year. Add the MLR review gate on top. See every package and add-on on the [pricing page](/pricing).",
+        "Every package includes named deliverables, not strategy. On Excitation at $5,000 per month plus advertising spend, each month you get one published article on your site, one newsletter to your list, 16 social posts, one managed Google Ads campaign built around the searches a surgeon, laboratory director, or hospital service-line lead actually types, one campaign landing page refreshed as needed, automated inbound response within 30 seconds, and a 60-minute monthly strategy call with the account lead. The website rebuild and hosting are included across the year. Add the MLR review gate on top. See every package and add-on on the [pricing page](/pricing).",
       ]},
       { h2: "What this looks like on an account like yours", body: [
         "Here is a hypothetical account. A Class II surgical instrument company preparing its first regional commercial push. The president wants meetings with health-system service-line leaders. The VP of regulatory has an approved indication and supporting evidence, but the current site mixes cleared language with broad claims about outcomes. The director of clinical affairs is fielding the same evidence question repeatedly.",
@@ -357,7 +357,7 @@ export const industries: Page[] = [
         "The first report may show that the obstacle is not interest. It may be training capacity, purchasing timing, a missing economic case, or the lack of a local reference site. That is useful news. A page cannot repair a missing clinical program, but it can stop inventing confidence around one.",
       ]},
       { h2: "The package you'd probably start on", body: [
-        "Start with Excitation at $5,000 per month plus advertising spend, and add the MLR review gate. Excitation includes a website rebuild across the year, one published article, a newsletter, 16 social posts, one managed Google Ads campaign, a campaign page, one-business-day inbound response, and a monthly strategy call. It is a 12-month engagement.",
+        "Start with Excitation at $5,000 per month plus advertising spend, and add the MLR review gate. Excitation includes a website rebuild across the year, one published article, a newsletter, 16 social posts, one managed Google Ads campaign, a campaign page, automated inbound response within 30 seconds, and a monthly strategy call. It is a 12-month engagement.",
         "The 12-month term is deliberate. FDA and clinical affairs review cycles do not become shorter because a launch date is close. Google also says search changes can take [four months to a year](https://developers.google.com/search/docs/appearance/site-names). We report early operating signals every 30 days and review pipeline and revenue at months six and 12, matched to the actual commercial cycle.",
       ]},
       { h2: "The honest limits", body: [
@@ -420,7 +420,7 @@ export const industries: Page[] = [
           "A product manager may have excellent technical documentation while the VP of commercial sees a form submission with no context. The handoff needs to retain the product, application, model, assay, and question the researcher expressed, without asking the scientist to complete a dissertation before they can talk to someone.",
         ]},
         { h3: "A successful inquiry waits too long", body: [
-          "Researchers often reach out near an experiment deadline, procurement decision, grant milestone, or animal-study planning window. A response that arrives days later can still be polite and still be useless. The team needs a named owner and a one-business-day response commitment.",
+          "Researchers often reach out near an experiment deadline, procurement decision, grant milestone, or animal-study planning window. A response that arrives days later can still be polite and still be useless. The team needs a named owner and an automated response within 30 seconds.",
         ]},
       ]},
       { h2: "What we do differently for life sciences tools and diagnostics", body: [], subs: [
@@ -437,11 +437,11 @@ export const industries: Page[] = [
           "A founder-scientist or laboratory director may need technical credibility while a VP of commercial needs meetings. Those goals are compatible if the work starts with real scientific questions. We publish useful material on cadence, send it to your list, and use paid activity only where the product and intake path are ready. Each month, the reporting records what was published, how it performed, and what the team needs to answer next.",
         ]},
         { h3: "Follow-up that treats the inquiry as a scientific conversation", body: [
-          "Ground State creates the foundation. Excitation adds one campaign and a one-business-day response commitment. We help assign that response to the correct person: an application scientist, product manager, commercial lead, or founder. The goal is not to make every inquiry identical. It is to make sure a serious question reaches someone who can answer it.",
+          "Ground State creates the foundation. Excitation adds one campaign and an automated response within 30 seconds. We help assign that response to the correct person: an application scientist, product manager, commercial lead, or founder. The goal is not to make every inquiry identical. It is to make sure a serious question reaches someone who can answer it.",
         ]},
       ]},
       { h2: "What actually shows up each month", body: [
-        "Every package includes named deliverables, not strategy. On Ground State at $2,500 per month, each month you get one published article on your site, one newsletter to your list, eight social posts, one short monthly report, and the website rebuild and hosting spread across the year. On Excitation at $5,000 per month plus advertising spend, you also get one managed Google Ads campaign, one campaign landing page refreshed as needed, 16 social posts, a one-business-day inbound response commitment, and a monthly strategy call with the account lead. See every package and add-on on the [pricing page](/pricing).",
+        "Every package includes named deliverables, not strategy. On Ground State at $2,500 per month, each month you get one published article on your site, one newsletter to your list, eight social posts, one short monthly report, and the website rebuild and hosting spread across the year. On Excitation at $5,000 per month plus advertising spend, you also get one managed Google Ads campaign, one campaign landing page refreshed as needed, 16 social posts, an automated inbound response within 30 seconds, and a monthly strategy call with the account lead. See every package and add-on on the [pricing page](/pricing).",
       ]},
       { h2: "Proof, before the pitch", body: [
         "Ingenious Targeting Laboratory, a mouse-model company selling to research scientists and principal investigators, moved from 13 monthly form submissions to about 64 in its first eight months with Isovertic. Its organic search traffic rose 3.7 times in that period. Internal, September 2026. Those figures are internal operating results for one account. They are not a guarantee and they do not tell us which other company will see the same pattern.",
@@ -450,7 +450,7 @@ export const industries: Page[] = [
       ]},
       { h2: "The package you'd probably start on", body: [
         "Start with Ground State at $2,500 per month. It includes a website rebuild across the year, one published article per month, one newsletter, eight social posts, hosting, and a short monthly report. It is a 12-month engagement. For a founder-scientist or early commercial team, Ground State creates the evidence library and publishing rhythm before adding more activity.",
-        "Move to Excitation at $5,000 per month plus advertising spend when the product page, offer, and response owner are ready. It adds one managed Google Ads campaign, a campaign page, 16 social posts, a monthly strategy call, and a one-business-day inbound response commitment. Google says search improvements may take [four months to a year](https://developers.google.com/search/docs/appearance/site-names). That is why we report early operating signals every 30 days and review pipeline and revenue at months six and 12.",
+        "Move to Excitation at $5,000 per month plus advertising spend when the product page, offer, and response owner are ready. It adds one managed Google Ads campaign, a campaign page, 16 social posts, a monthly strategy call, and an automated inbound response within 30 seconds. Google says search improvements may take [four months to a year](https://developers.google.com/search/docs/appearance/site-names). That is why we report early operating signals every 30 days and review pipeline and revenue at months six and 12.",
       ]},
       { h2: "The honest limits", body: [
         "We cannot manufacture a validation study, make a product fit an experiment it does not fit, or fix an unreliable supply chain. We cannot replace a thoughtful applications scientist in a technical conversation. We can make the evidence easier to find, the inquiry easier to route, and the commercial follow-up easier to run.",
@@ -493,7 +493,7 @@ export const industries: Page[] = [
         "A 90 day ramp with deliverables you can paste into a board update. A website build included with a 12 month term.",
       ]},
       { h2: "The package that matches the stage", body: [
-        "Pre revenue, Ground State: a newsletter, a published article, and social every month so the company has a voice before it has a sales team. Seed with a budget for demand, Excitation: one Google Ads campaign and a landing page per audience, with a human reading the account weekly. Series A with a board asking for pipeline, Amplification: an outbound seat with meetings verified against the meeting quality standard, multiple campaigns, and a weekly call.",
+        "Pre revenue, Ground State: a newsletter, a published article, and social every month so the company has a voice before it has a sales team. Seed with a budget for demand, Excitation: one Google Ads campaign and a landing page per audience, with a human reading the account weekly. Series A with a board asking for pipeline, Amplification: a dedicated person calling and emailing your prospects with meetings verified against the meeting quality standard, multiple campaigns, and a weekly call.",
       ]},
     ],
     faqs: [
@@ -517,7 +517,7 @@ export const industries: Page[] = [
     lead: "Professional services buyers hire people, not brochures. The firms winning in 2026 run founder forward content, publish real expertise, and back it with outbound that opens doors warmly because the diligence trail already exists. We build that whole trail.",
     callout: {
       label: "Typical starting point",
-      body: "Amplification. Your buyer decides on a call, so the outbound seat and the meeting quality standard are the reason to hire us. Pricing is published.",
+      body: "Amplification. Your buyer decides on a call, so the dedicated person calling and emailing your prospects and the meeting quality standard are the reason to hire us. Pricing is published.",
     },
     sections: [
       { h2: "Founder led demand", body: [

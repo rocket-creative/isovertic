@@ -14,8 +14,8 @@ import { method as c } from "@/content/method";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "How the ISOVERTIC System Works | Six Steps That Book Meetings" },
-  description: "The six steps of the ISOVERTIC pipeline: Build, Rank, Run, Buy, Book, Educate. One team for healthcare, pharma, biotech, medical devices, and life sciences.",
+  title: { absolute: "How the ISOVERTIC System Works | Five Steps That Book Meetings" },
+  description: "The five steps of the ISOVERTIC pipeline: Build, Rank, Run, Buy, and Book, plus Educate as a training add-on. One team for healthcare, pharma, biotech, medical devices, and life sciences.",
   alternates: { canonical: "/system" },
 };
 
@@ -39,9 +39,9 @@ export default function System() {
         }
       />
 
-      <Section label="The six steps" deferred={false}>
+      <Section label="The steps" deferred={false}>
         <RevealBlock>
-          <h2 className="font-display text-h2 font-medium">The six steps.</h2>
+          <h2 className="font-display text-h2 font-medium">The five steps, plus the training that hands them over.</h2>
         </RevealBlock>
         <div className="mt-14">
           <PipelineDiagram />
@@ -51,7 +51,7 @@ export default function System() {
         </RevealBlock>
       </Section>
 
-      <Section label="The six in practice" tone="bright">
+      <Section label="The steps in practice" tone="bright">
         <RevealBlock>
           <h2 className="font-display text-h2 font-medium">{c.stepsDetail.h2}</h2>
         </RevealBlock>

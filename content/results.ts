@@ -18,7 +18,7 @@ export const resultsPage = {
   description: "Named work across biotech, healthcare technology, medical devices, wellness, and hospitality. Numbers publish when a client confirms them in writing.",
   eyebrow: "Results",
   h1: "The roster. The numbers we can show. The rest, when they land.",
-  lead: "Six clients and two brands we own, all run on the same six-step system. Every growth case study on this site covers the first eight months of an engagement and nothing after. Numbers publish at month eight so a strong later month cannot inflate the story. Where a client has approved the number in writing, it is on the page below their name. Where the engagement is still inside its first eight months, we say so.",
+  lead: "Six clients and two brands we own, all run on the same five-step system. Every growth case study on this site covers the first eight months of an engagement and nothing after. Numbers publish at month eight so a strong later month cannot inflate the story. Where a client has approved the number in writing, it is on the page below their name. Where the engagement is still inside its first eight months, we say so.",
 };
 
 export const roster: RosterItem[] = [

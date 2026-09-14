@@ -14,11 +14,11 @@ export const services: Page[] = [
     lead: "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences tools and diagnostics. We run outbound appointment setting as part of the same team that built your site, wrote your material, and supports the sales conversation after the meeting. CEOs, presidents, chief operating officers, VPs of commercial, VPs of marketing, and founders hire us when their salespeople are spending too much time prospecting and not enough time in real conversations with a chief medical officer, a chief scientific officer, a director of billing, a principal investigator, or a practice administrator.",
     callout: {
       label: "Where this lives",
-      body: "Amplification includes one outbound seat. Quantum Leap includes two outbound seats. You can add a seat to any package for $4,500 per month. A conference sprint is $7,500 per event. We define what counts as a meeting, we verify each one, and we report cost per qualified meeting. Pricing is published.",
+      body: "Amplification includes one dedicated person calling and emailing your prospects. Quantum Leap includes two. You can add another person to any package for $4,500 per month. A conference sprint is $7,500 per event. We define what counts as a meeting, we verify each one, and we report cost per qualified meeting. Pricing is published.",
     },
     sections: [
       { h2: "What this actually is", body: [
-        "A dedicated outbound seat that runs coordinated phone, email, and LinkedIn outreach against a target list built from real data. Qualified meetings on your salesperson's calendar. A written brief for each meeting, with the context the salesperson needs before the call. We define what counts, we verify each meeting, and we report cost per qualified meeting.",
+        "A dedicated person on our team who runs coordinated phone, email, and LinkedIn outreach against a target list built from real data. Qualified meetings on your salesperson's calendar. A written brief for each meeting, with the context the salesperson needs before the call. We define what counts, we verify each meeting, and we report cost per qualified meeting.",
         "Outbound fails when it is treated as a volume contest. A vendor buys a list, sends generic messages, celebrates activity, and leaves your team to discover whether anyone was serious. The prospect clicks through to a website that does not support the message, or lands on a calendar with no context. Nobody wins that exchange. We run the work from first contact through the scheduled meeting, and we own the handoff.",
       ]},
       { h2: "Why the brief matters", body: [
@@ -26,7 +26,7 @@ export const services: Page[] = [
         "It is basic operational hygiene. It also respects the prospect, which is a surprisingly low bar in this category. A salesperson who reads a two-paragraph brief before a call handles the meeting better than a salesperson who reads the LinkedIn profile in the elevator.",
       ]},
       { h2: "The deliverables, by name", body: [], list: [
-        "A dedicated outbound seat running coordinated phone, email, and LinkedIn outreach against a target list built for your sale.",
+        "A dedicated person on our team running coordinated phone, email, and LinkedIn outreach against a target list built for your sale.",
         "A target list built from real data sources, not a purchased spreadsheet alone, filtered against the kind of organization and decision-maker you need to reach.",
         "Sequenced messages written to match your offer, your evidence, your website, and your sales material. If a prospect asks for evidence, the material we send confirms what the message promised.",
         "A qualified meeting booked directly on your salesperson's calendar.",
@@ -37,9 +37,9 @@ export const services: Page[] = [
         "The HIPAA form-and-call stack at $750 per month when the outreach touches protected health information.",
       ]},
       { h2: "Which package includes outbound", body: [
-        "Amplification, $10,000 per month plus ad spend, includes one outbound seat alongside the website rebuild, higher-volume publishing, Google Ads, a YouTube channel, and weekly account review. The seat lands the meeting inside a company that can already defend the pitch when a prospect checks the site. That order is deliberate.",
-        "Quantum Leap, from $25,000 per month plus ad spend, includes two outbound seats and runs across two or more brands with in-house creative and media buying.",
-        "You can add an outbound seat to any package for $4,500 per month. That includes the person running the work and the meeting briefs.",
+        "Amplification, $10,000 per month plus ad spend, includes one dedicated person calling and emailing your prospects alongside the website rebuild, higher-volume publishing, Google Ads, a YouTube channel, and weekly account review. The seat lands the meeting inside a company that can already defend the pitch when a prospect checks the site. That order is deliberate.",
+        "Quantum Leap, from $25,000 per month plus ad spend, includes two dedicated people calling and emailing your prospects and runs on one brand or several with in-house creative and media buying.",
+        "You can add a dedicated person calling and emailing your prospects to any package for $4,500 per month. That includes the person running the work and the meeting briefs.",
         "Ground State is often the right place to begin if the website cannot yet defend the claim an email will make. Build first, then start the outreach. Excitation can add a seat once the site is ready. We would rather start later with a credible destination than start early and waste a buyer's time. See the [pricing page](/pricing).",
       ]},
       { h2: "The honest limit", body: [
@@ -75,11 +75,11 @@ export const services: Page[] = [
     lead: "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences tools and diagnostics. We build and run Google Ads campaigns that put qualified meetings on your sales team's calendar and tell you exactly what each meeting cost. CEOs, presidents, VPs of commercial, VPs of marketing, chief operating officers, and chief financial officers hire us when their advertising is producing activity that will not convert into real conversations with a chief medical officer, a director of billing, a principal investigator, or a practice administrator.",
     callout: {
       label: "Where this lives",
-      body: "Google Ads begins at Excitation: $5,000 per month plus ad spend, one managed campaign, one landing page, one-business-day follow-up, and a monthly strategy call. Amplification adds more campaigns. A second product line is $1,000 per month per line. Pricing is published.",
+      body: "Google Ads begins at Excitation: $5,000 per month plus ad spend, one managed campaign, one landing page, automated follow-up within 30 seconds, and a monthly strategy call. Amplification adds more campaigns. A second product line is $1,000 per month per line. Pricing is published.",
     },
     sections: [
       { h2: "What this actually is", body: [
-        "A managed Google Ads campaign, a landing page built to receive the click, one-business-day follow-up on the inbound lead, and a monthly report centered on cost per booked meeting. Not a click count. Not a dashboard your team has to translate.",
+        "A managed Google Ads campaign, a landing page built to receive the click, automated follow-up on the inbound lead within 30 seconds, and a monthly report centered on cost per booked meeting. Not a click count. Not a dashboard your team has to translate.",
         "We run ads against the searches your buyers make when they are already looking for a solution: a device model, a regulation, a billing code, a clinical protocol, a specific service. The ad leads to a page that answers that exact question in plain language and gives one clear next step. Your team sees the meetings that came out of it, not a pile of impressions.",
       ]},
       { h2: "Why this kind of buyer requires a different setup", body: [
@@ -90,15 +90,15 @@ export const services: Page[] = [
         "One Google Ads campaign built, launched, and managed inside Excitation. More campaigns in Amplification and Quantum Leap when the sale supports them.",
         "One landing page for the campaign, refreshed when the campaign says the page needs a revision.",
         "Weekly build, review, and adjustment by the people running the account.",
-        "One-business-day follow-up on inbound leads, with the process wired into your intake.",
+        "Automated follow-up on inbound leads within 30 seconds, with the process wired into your intake.",
         "A monthly report with cost per booked meeting, the campaign context behind the number, and what we are changing next.",
         "A second product line available as an add-on at $1,000 per month per line.",
         "The HIPAA form-and-call stack at $750 per month when the campaign runs against protected health information rules, built against the [HHS OCR online tracking guidance](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html).",
       ]},
       { h2: "Which package includes Google Ads", body: [
-        "Google Ads begins at Excitation, $5,000 per month plus ad spend. It includes the Ground State publishing program, one managed Google Ads campaign, one campaign landing page, 16 social posts a month, a monthly strategy call, one-business-day follow-up for inbound leads, and the $15,000 website rebuild spread across the 12-month engagement.",
-        "Amplification, $10,000 per month plus ad spend, adds a larger publishing program, a YouTube channel, weekly account review, and one outbound seat with meetings verified against the meeting quality standard.",
-        "Quantum Leap, from $25,000 per month plus ad spend, runs the program across two or more brands with two outbound seats, in-house creative, and media buying across streaming and broadcast when the math supports it.",
+        "Google Ads begins at Excitation, $5,000 per month plus ad spend. It includes the Ground State publishing program, one managed Google Ads campaign, one campaign landing page, 16 social posts a month, a monthly strategy call, automated follow-up for inbound leads within 30 seconds, and the $15,000 website rebuild spread across the 12-month engagement.",
+        "Amplification, $10,000 per month plus ad spend, adds a larger publishing program, a YouTube channel, weekly account review, and one dedicated person calling and emailing your prospects with meetings verified against the meeting quality standard.",
+        "Quantum Leap, from $25,000 per month plus ad spend, runs the program on one brand or several with two dedicated people calling and emailing your prospects, in-house creative, and media buying across streaming and broadcast when the math supports it.",
         "Ground State does not include Google Ads. If your budget is not ready for paid advertising, the more honest first move is to publish the material that lets buyers find and assess you over time, then add ads when the site can carry the sales argument. See the full package terms on the [pricing page](/pricing).",
       ]},
       { h2: "The honest limit", body: [
@@ -156,13 +156,13 @@ export const services: Page[] = [
       ]},
       { h2: "Which package includes publishing", body: [
         "Ground State, $2,500 per month. One published article, one newsletter, eight social posts a month, one monthly report, and the $15,000 website rebuild and hosting spread across the 12-month engagement. The right first step for a company that needs to appear regularly before it adds paid advertising or outbound.",
-        "Excitation, $5,000 per month plus ad spend. Doubles social to 16 posts a month, adds a managed Google Ads campaign, a landing page, one-business-day inbound follow-up, and a monthly strategy call.",
-        "Amplification, $10,000 per month plus ad spend. Higher-volume articles and social, a YouTube channel, weekly account review, one outbound seat with meetings verified against the meeting quality standard, and the option to add the HIPAA form-and-call stack at $750 per month or the MLR review gate at $500 to $1,200 per month.",
-        "Quantum Leap, from $25,000 per month plus ad spend. The publishing program run across two or more brands, in-house video and photography, two outbound seats, media buying across streaming and broadcast, and a quarterly operations audit.",
+        "Excitation, $5,000 per month plus ad spend. Doubles social to 16 posts a month, adds a managed Google Ads campaign, a landing page, automated inbound follow-up within 30 seconds, and a monthly strategy call.",
+        "Amplification, $10,000 per month plus ad spend. Higher-volume articles and social, a YouTube channel, weekly account review, one dedicated person calling and emailing your prospects with meetings verified against the meeting quality standard, and the option to add the HIPAA form-and-call stack at $750 per month or the MLR review gate at $500 to $1,200 per month.",
+        "Quantum Leap, from $25,000 per month plus ad spend. The publishing program run on one brand or several, in-house video and photography, two dedicated people calling and emailing your prospects, media buying across streaming and broadcast, and a quarterly operations audit.",
         "Every package is a 12-month engagement. Every package includes the website rebuild and hosting. See the full breakdown on the [pricing page](/pricing).",
       ]},
       { h2: "The honest limit", body: [
-        "Published work compounds slowly. You may see the first signs that pieces are being found around month three. The effect usually gets clearer from month six. If you need meetings sooner, pair publishing with a Google Ads campaign or an outbound seat. We will not tell a founder that one article repairs a quarter. It does not.",
+        "Published work compounds slowly. You may see the first signs that pieces are being found around month three. The effect usually gets clearer from month six. If you need meetings sooner, pair publishing with a Google Ads campaign or a dedicated person calling and emailing your prospects. We will not tell a founder that one article repairs a quarter. It does not.",
         "This moves fastest when your buyers already search in specific language: a gene, a regulation, a billing code, a device model, a clinical protocol. If your category is so new that nobody is looking for it yet, publishing alone cannot put a meeting on the calendar. The program has to lead with calls, emails, and LinkedIn to reach the people who should own what you sell, while the published work builds the recognition that makes those conversations easier. We will tell you that before you sign.",
       ]},
       { h2: "What we don't do", body: [
@@ -215,9 +215,9 @@ export const services: Page[] = [
       { h2: "Which package includes the rebuild", body: [
         "Every package. The $15,000 website rebuild is included in Ground State, Excitation, Amplification, and Quantum Leap and spread across the 12-month engagement. Hosting is included.",
         "Ground State, $2,500 per month. Rebuild plus one published article, one newsletter, eight social posts, and one monthly report.",
-        "Excitation, $5,000 per month plus ad spend. Ground State plus one Google Ads campaign, a campaign landing page, 16 social posts, a monthly strategy call, and one-business-day inbound follow-up.",
-        "Amplification, $10,000 per month plus ad spend. Higher-volume publishing, a YouTube channel, weekly account review, one outbound seat with meetings verified against the meeting quality standard, and the option to add the HIPAA or MLR compliance stacks.",
-        "Quantum Leap, from $25,000 per month plus ad spend. Two brands, in-house creative, two outbound seats, media buying across streaming and broadcast, and a quarterly operations audit.",
+        "Excitation, $5,000 per month plus ad spend. Ground State plus one Google Ads campaign, a campaign landing page, 16 social posts, a monthly strategy call, and automated inbound follow-up within 30 seconds.",
+        "Amplification, $10,000 per month plus ad spend. Higher-volume publishing, a YouTube channel, weekly account review, one dedicated person calling and emailing your prospects with meetings verified against the meeting quality standard, and the option to add the HIPAA or MLR compliance stacks.",
+        "Quantum Leap, from $25,000 per month plus ad spend. One brand or several, in-house creative, two dedicated people calling and emailing your prospects, media buying across streaming and broadcast, and a quarterly operations audit.",
         "If the engagement ends early, the unbilled balance of the $15,000 rebuild is due on the final invoice, prorated to the months served. Nothing else is added. Your code and domain stay with you. See the [pricing page](/pricing).",
       ]},
       { h2: "The honest limit", body: [
@@ -275,8 +275,8 @@ export const services: Page[] = [
         "In-house video, photography, and design production in Quantum Leap for larger and multi-brand programs.",
       ]},
       { h2: "Which package includes media", body: [
-        "Media is available in Amplification, $10,000 per month plus ad spend, which also includes the higher-volume publishing program, Google Ads, a YouTube channel, weekly account review, and one outbound seat. Amplification fits a company that already has the basics in place and wants media to support a defined sales effort.",
-        "Quantum Leap, from $25,000 per month plus ad spend, runs the system across two or more brands with two outbound seats, in-house creative production, and media buying across streaming television, broadcast, and radio when it fits. It is built for later-stage healthcare, pharma, biotech, medical device, and life sciences groups running two or more brands from one operating team.",
+        "Media is available in Amplification, $10,000 per month plus ad spend, which also includes the higher-volume publishing program, Google Ads, a YouTube channel, weekly account review, and one dedicated person calling and emailing your prospects. Amplification fits a company that already has the basics in place and wants media to support a defined sales effort.",
+        "Quantum Leap, from $25,000 per month plus ad spend, runs the system on one brand or several with two dedicated people calling and emailing your prospects, in-house creative production, and media buying across streaming television, broadcast, and radio when it fits. It is built for later-stage healthcare, pharma, biotech, medical device, and life sciences companies that want one accountable team on all of it.",
         "Ground State and Excitation do not include media buying. That is intentional. First build the website that can answer a buyer's questions, publish the material, run paid search where buyers already look, and make sure the sales team can carry the meetings. Media becomes useful after those pieces are already doing their jobs. See the full package terms on the [pricing page](/pricing).",
       ]},
       { h2: "The honest limit", body: [
@@ -336,8 +336,8 @@ export const services: Page[] = [
       ]},
       { h2: "Which package includes it", body: [
         "Design and brand is a supporting layer across Build, Rank, Run, Buy, Book, and Educate. It shows up wherever the work needs an identity, a page, a deck, a one-pager, or a visual asset.",
-        "Amplification, $10,000 per month plus ad spend, combines higher-volume publishing, Google Ads, a YouTube channel, weekly account review, and one outbound seat. Design keeps those materials coherent across the channels a buyer sees.",
-        "Quantum Leap, from $25,000 per month plus ad spend, is the two-brand program with in-house video, photography, and design, two outbound seats, and media buying across streaming and broadcast.",
+        "Amplification, $10,000 per month plus ad spend, combines higher-volume publishing, Google Ads, a YouTube channel, weekly account review, and one dedicated person calling and emailing your prospects. Design keeps those materials coherent across the channels a buyer sees.",
+        "Quantum Leap, from $25,000 per month plus ad spend, is the two-brand program with in-house video, photography, and design, two dedicated people calling and emailing your prospects, and media buying across streaming and broadcast.",
         "Ground State and Excitation can add defined production work when it supports the engagement. A video and photography production day is $4,500.",
         "A stand-alone identity project is rare. It can be appropriate when the company has a real commercial problem a clear identity and message system will address. More often the identity work belongs inside the broader engagement, where we can make sure it survives contact with the actual material buyers see. See the [pricing page](/pricing).",
       ]},
@@ -372,7 +372,7 @@ export const servicesOverview = {
   h1: "Services that book meetings, not reports.",
   lead: [
     "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. We build the website that gets found by the buyer already searching for what you sell, then we spend advertising only on those people. One team owns the site, the publishing, the ads, the media, the outbound, and the training. That is what keeps the work connected to a real meeting on your calendar.",
-    "This page is for founders, CEOs, presidents, VPs of commercial, chief scientific officers, chief medical officers, medical directors, principal investigators, VPs of regulatory, practice administrators, and directors of billing who want to see the offer before they book a call. Six connected steps, four ways to buy them.",
+    "This page is for founders, CEOs, presidents, VPs of commercial, chief scientific officers, chief medical officers, medical directors, principal investigators, VPs of regulatory, practice administrators, and directors of billing who want to see the offer before they book a call. Five connected steps, four ways to buy them.",
   ],
   protocolListing: {
     heading: "Educate: Protocol team training",
@@ -397,7 +397,7 @@ export const servicesOverview = {
     ]},
     { h2: "03 Run. Google Ads measured in meetings", body: [
       "Run manages Google Ads around the searches your buyers make when they need an answer now. We build and adjust the campaign, keep the landing page current, and report what a qualified meeting cost.",
-      "Excitation is $5,000 per month plus advertising spend. It includes the Ground State work, one Google Ads campaign, one campaign landing page, lead follow-up within one business day, 16 social posts, and a 60-minute strategy call each month.",
+      "Excitation is $5,000 per month plus advertising spend. It includes the Ground State work, one Google Ads campaign, one campaign landing page, automated lead follow-up within 30 seconds, 16 social posts, and a 60-minute strategy call each month.",
       "Honest limit. Below about $1,000 a month in Google Ads spend, the platform cannot collect enough activity to produce reliable results. If that is your budget, Ground State plus organic work is the better recommendation.",
     ]},
     { h2: "04 Buy. Media when recognition helps the sale", body: [
@@ -407,7 +407,7 @@ export const servicesOverview = {
     ]},
     { h2: "05 Book. Qualified meetings with a written brief", body: [
       "Book runs outbound through phone, email, and LinkedIn. We qualify the person and the conversation, then put a qualified meeting on your calendar with a written brief for your salesperson.",
-      "Amplification is $10,000 per month plus advertising spend. It adds higher-volume publishing, a YouTube channel, one outbound seat, and weekly account review. A named person on your side must own the calendar.",
+      "Amplification is $10,000 per month plus advertising spend. It adds higher-volume publishing, a YouTube channel, one dedicated person calling and emailing your prospects, and weekly account review. A designated person on your side must own the calendar.",
       "Honest limit. Do not buy outbound first if the website cannot defend the pitch. We Build first, then begin outreach when a buyer can verify what the email says.",
     ]},
     { h2: "06 Educate. Runbooks for your team", body: [
@@ -416,7 +416,7 @@ export const servicesOverview = {
       "One department, one day, $5,000. Full team, two days, $20,000. A Protocol day for current clients, $3,500. This works when your team can commit one focused day. If they cannot, do not buy it.",
     ]},
   ],
-  supporting: { h2: "Brand and design supports the six steps", body: [
+  supporting: { h2: "Brand and design supports the five steps", body: [
     "Brand and Design is a supporting layer, not a seventh step. It covers identity, message system, sales materials, and interface design across the work. It is included in Amplification and Quantum Leap and available as an add-on to lower packages.",
   ]},
   connect: { h2: "The work has clear edges", body: [
