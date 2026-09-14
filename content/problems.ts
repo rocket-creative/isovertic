@@ -186,7 +186,7 @@ export const problems: Problem[] = [
     lead: "Referral businesses are good businesses. They close at high rates and they cost nothing to acquire. They also have a ceiling set by other people's calendars, and when the two people who send you most of your work retire, move, or get acquired, the ceiling drops to the floor with no warning. Consistency requires at least one channel you control the volume of.",
     callout: {
       label: "Where this lives",
-      body: "Ground State at $2,500 a month builds the content and the site that turn a referral into a booked meeting instead of a maybe. Excitation at $5,000 adds the first channel you control, one Google Ads campaign. Amplification at $10,000 adds outbound with meetings verified against the meeting quality standard. Pricing is published.",
+      body: "Ground State at $3,000 a month builds the content and the site that turn a referral into a booked meeting instead of a maybe. Excitation at $5,000 adds the first channel you control, one Google Ads campaign. Amplification at $10,000 adds outbound with meetings verified against the meeting quality standard. Pricing is published.",
     },
     searchPhrases: ["business relies too much on referrals", "referrals slowing down what to do", "how to get clients without referrals", "diversify lead sources small business", "referral only business growth"],
     sections: [
@@ -232,7 +232,7 @@ export const problems: Problem[] = [
         "For a technical product this is worse. The rep also has to explain a knockout model, a diagnostic, or a billing workflow to a buyer who knows more than they do.",
       ]},
       { h2: "What to buy by stage", body: [
-        "Under $1 million: the founder sells, and the money goes to a site and content that carry the technical explanation so each call starts halfway done. That is Ground State at $2,500. $1 million to $10 million: rent the pipeline and keep the close. Amplification at $10,000 runs content, ads, and one dedicated person calling and emailing your prospects with meetings verified against the meeting quality standard, and the founder takes the meetings. Past $10 million with a sales team: hire sales leadership and hand them a documented system rather than a blank page. The Protocol exists for that handoff.",
+        "Under $1 million: the founder sells, and the money goes to a site and content that carry the technical explanation so each call starts halfway done. That is Ground State at $3,000. $1 million to $10 million: rent the pipeline and keep the close. Amplification at $10,000 runs content, ads, and one dedicated person calling and emailing your prospects with meetings verified against the meeting quality standard, and the founder takes the meetings. Past $10 million with a sales team: hire sales leadership and hand them a documented system rather than a blank page. The Protocol exists for that handoff.",
       ]},
       { h2: "What changes in your week", body: [
         "Prospecting hours go to zero. Meeting prep drops because every meeting arrives with a brief. Calls get shorter because the prospect has read the pricing page and the case study before showing up. Founders on Amplification typically hold 8 to 15 more qualified conversations a month and spend fewer hours in sales than before, because the hours that remain are the ones that close.",
@@ -360,7 +360,7 @@ export const problems: Problem[] = [
     lead: "You have done this work for fifteen years and a company half your size ranks above you for it. The usual explanation is backlinks or some technical mystery. The usual cause is simpler: they have a page for the query and you have a paragraph. A 12 page site ranks for its brand name. A 150 page site ranks for the category.",
     callout: {
       label: "Where this lives",
-      body: "Ground State at $2,500 a month starts the drumbeat: one page a month written to be found and cited. Amplification runs the full content system. The programmatic page expansion add on ships 50 server rendered entity pages at a time for $2,500 a month. Pricing is published.",
+      body: "Ground State at $3,000 a month starts the drumbeat: one page a month written to be found and cited. Amplification runs the full content system. The programmatic page expansion add on ships 50 server rendered entity pages at a time for $2,500 a month. Pricing is published.",
     },
     searchPhrases: ["not showing up on google for my services", "competitors rank higher than us", "why does my business not appear in google search", "how to rank for our services", "how many pages does a website need to rank"],
     sections: [
@@ -393,7 +393,7 @@ export const problems: Problem[] = [
     lead: "A prospect told you they asked ChatGPT or Perplexity for a recommendation and your name was not in it. Your competitor's was. Ranking well on Google did not help, and it will not: Ahrefs found only 12 percent of URLs cited by AI tools overlap with Google's top ten organic results. Getting cited is a separate discipline, and most of it happens off your site.",
     callout: {
       label: "Where this lives",
-      body: "Every page we ship is server rendered with entity schema and a first paragraph that survives being quoted alone. Ground State at $2,500 publishes one page a month built that way. Amplification runs the full system. Pricing is published.",
+      body: "Every page we ship is server rendered with entity schema and a first paragraph that survives being quoted alone. Ground State at $3,000 publishes one page a month built that way. Amplification runs the full system. Pricing is published.",
     },
     searchPhrases: ["how to get my company mentioned in chatgpt", "competitors appear in ai search we do not", "why does chatgpt not recommend my business", "get cited by perplexity", "ai search visibility for b2b company"],
     sections: [
@@ -493,7 +493,7 @@ export const problems: Problem[] = [
     lead: "Every proposal you have received says it depends. It does depend, on your stage, your deal size, and your market, but the ranges are known, and the vendors who will not name them are protecting a sales process, not you. Here are the numbers, including ours.",
     callout: {
       label: "Where this lives",
-      body: "Four published tiers on a 12 month term: Ground State $2,500, Excitation $5,000, Amplification $10,000, Quantum Leap from $25,000, all per month, plus ad spend in your own accounts where the tier runs ads. Every tier is a 12 month term and includes the $15,000 website build. Every add on is priced on the pricing page. No discovery call required to learn a price.",
+      body: "Four published tiers on a 12 month term: Ground State $3,000, Excitation $5,000, Amplification $10,000, Quantum Leap from $25,000, all per month, plus ad spend in your own accounts where the tier runs ads. Every tier is a 12 month term and includes the $15,000 website build. Every add on is priced on the pricing page. No discovery call required to learn a price.",
     },
     searchPhrases: ["how much should a small business spend on marketing", "marketing budget for a $5 million company", "what does outsourced marketing cost", "marketing and sales budget by revenue", "how much does lead generation cost per month"],
     sections: [
@@ -561,7 +561,7 @@ export const problems: Problem[] = [
     lead: "The feed is active, the follower count climbs, and the contact form is quiet. This is what happens when content is measured on engagement instead of on the questions it answers. Likes come from peers and friends. Inquiries come from buyers who found the answer to a specific question on your site. Those are different pieces of content, and most companies publish only the first kind.",
     callout: {
       label: "Where this lives",
-      body: "Ground State at $2,500 a month: one blog post written to be found and cited, one newsletter to your own list, eight social posts, and a one page report on what it produced. Excitation doubles the social and adds paid demand. Pricing is published.",
+      body: "Ground State at $3,000 a month: one blog post written to be found and cited, one newsletter to your own list, eight social posts, and a one page report on what it produced. Excitation doubles the social and adds paid demand. Pricing is published.",
     },
     searchPhrases: ["social media engagement but no leads", "blog not generating leads", "content marketing not working small business", "likes but no sales", "what content actually generates leads b2b"],
     sections: [
@@ -690,7 +690,7 @@ export const problems: Problem[] = [
     lead: "A great quarter, everyone too busy delivering to sell, then the cliff, then the scramble, then a great quarter born of panic. Founders blame the market, the team, or the season. It is none of those. Sales effort runs inversely to revenue, which guarantees a trough 90 days after every peak, and the only fix is a demand system that runs whether or not you are busy.",
     callout: {
       label: "Where this lives",
-      body: "Every tier runs continuously, especially when you are busy. Ground State at $2,500 keeps the drumbeat going. Amplification at $10,000 keeps a dedicated person calling and emailing your prospects booking meetings through your busiest month, with the number in writing. Pricing is published.",
+      body: "Every tier runs continuously, especially when you are busy. Ground State at $3,000 keeps the drumbeat going. Amplification at $10,000 keeps a dedicated person calling and emailing your prospects booking meetings through your busiest month, with the number in writing. Pricing is published.",
     },
     searchPhrases: ["feast or famine business cycle", "inconsistent sales pipeline", "revenue up and down every quarter", "how to get consistent leads", "boom and bust revenue small business"],
     sections: [
@@ -701,7 +701,7 @@ export const problems: Problem[] = [
         "Write the math down first: how many qualified meetings a month hit the number, and what each costs by channel. That is the first hour of every engagement we run. Own the seam second: a response standard and a follow up sequence, which costs discipline. Add the channel you control third: content if you publish nothing, search if you have a site and no paid demand, outbound if you need meetings this quarter. Then run all of it continuously, because busy is when the next trough is being built.",
       ]},
       { h2: "What continuous looks like at each tier", body: [
-        "Ground State, $2,500: a newsletter, a post, and social every month, so demand exists before you need it. Excitation, $5,000: one Google Ads campaign and a landing page with leads worked within a business day, so the phone rings in July. Amplification, $10,000: a dedicated person calling and emailing your prospects working the list through your busiest quarter with meetings verified against the meeting quality standard, so the calendar for next quarter fills while this one delivers. The tier ladder exists because the fix is structural, not a campaign.",
+        "Ground State, $3,000: a newsletter, a post, and social every month, so demand exists before you need it. Excitation, $5,000: one Google Ads campaign and a landing page with leads worked within a business day, so the phone rings in July. Amplification, $10,000: a dedicated person calling and emailing your prospects working the list through your busiest quarter with meetings verified against the meeting quality standard, so the calendar for next quarter fills while this one delivers. The tier ladder exists because the fix is structural, not a campaign.",
       ]},
     ],
     faqs: [
@@ -758,7 +758,7 @@ export const problems: Problem[] = [
     lead: "The scientific founders are the business development team. There is no ideal customer profile, no segmentation by therapeutic area or model type, no systematic prospecting, and no consistent follow up, so opportunities quietly disappear over a nine month sales cycle. Corstrate's 2026 write up of small CRO business development names those exact gaps. Our COO lived them for a decade selling translational research products.",
     callout: {
       label: "Where this lives",
-      body: "A CRO under $2 million: Ground State at $2,500 a month for a technical post, a newsletter to past clients, and social that shows the lab. At $3 million with a site and no paid demand: Excitation. At $5 million needing meetings this quarter: Amplification, with a dedicated person calling and emailing your prospects to lab managers and meetings verified against the meeting quality standard. Pricing is published.",
+      body: "A CRO under $2 million: Ground State at $3,000 a month for a technical post, a newsletter to past clients, and social that shows the lab. At $3 million with a site and no paid demand: Excitation. At $5 million needing meetings this quarter: Amplification, with a dedicated person calling and emailing your prospects to lab managers and meetings verified against the meeting quality standard. Pricing is published.",
     },
     searchPhrases: ["cro business development without sales team", "how do small cros get new clients", "contract research organization lead generation", "cro relying on referrals", "business development for small cro"],
     sections: [
@@ -922,7 +922,7 @@ export const problems: Problem[] = [
     lead: "A sponsor compares you to a global CRO and picks the global CRO, and the conclusion is that size won. Corstrate's 2026 review of small CRO business development finds most small CROs describe themselves as flexible, high quality, and client focused, and notes that those are not differentiators because every competitor says them too. The sponsor did not choose size. The sponsor chose the firm whose website answered the question.",
     callout: {
       label: "Where this lives",
-      body: "Ground State at $2,500 a month builds the pages that carry the technical answer: model types, applications, methods, turnaround, validation. The brand and design work that makes a $5 million firm read like a $50 million one is scoped inside the ramp at $15,000 to $40,000. Pricing is published.",
+      body: "Ground State at $3,000 a month builds the pages that carry the technical answer: model types, applications, methods, turnaround, validation. The brand and design work that makes a $5 million firm read like a $50 million one is scoped inside the ramp at $15,000 to $40,000. Pricing is published.",
     },
     searchPhrases: ["small cro competing with large cros", "how to differentiate a small cro", "why do we lose to bigger competitors", "small biotech services company positioning", "compete with global cro on marketing"],
     sections: [
@@ -939,7 +939,7 @@ export const problems: Problem[] = [
     faqs: [
       { q: "Should we rebrand?", a: "Only if the identity signals junior work. Most small CROs need messaging and pages before a new logo. We scope identity inside pipeline engagements, not as a standalone project." },
       { q: "We cannot publish client names.", a: "Publish the method and the numbers with the client anonymized by category. A result with a baseline and a window is credible without a logo." },
-      { q: "Does this work for a CRO under $2 million?", a: "It works best there. Ground State at $2,500 a month publishes one specific page a month; twelve months later you own twelve searches the global firms never bothered with." },
+      { q: "Does this work for a CRO under $2 million?", a: "It works best there. Ground State at $3,000 a month publishes one specific page a month; twelve months later you own twelve searches the global firms never bothered with." },
     ],
     related: [{ label: "Brand and design", href: "/design-brand" }, { label: "Biotech and life sciences", href: "/industries/biotech" }, { label: "Marketing a CRO, biotech, or medtech", href: "/field-notes/marketing-cro-biotech-medtech" }],
   },
@@ -1231,7 +1231,7 @@ export const problems: Problem[] = [
     ],
     faqs: [
       { q: "What does the board see?", a: "A 90 day ramp with deliverables in writing: pages live, campaigns at a stated cost per lead, and at Amplification a report of cost per qualified meeting. Paste the agreement into the update and report against it." },
-      { q: "We are pre revenue. Is Amplification too early?", a: "Yes. Amplification needs a closer on your side. Pre revenue, Ground State at $2,500 gives the company a voice; seed with budget, Excitation adds paid demand." },
+      { q: "We are pre revenue. Is Amplification too early?", a: "Yes. Amplification needs a closer on your side. Pre revenue, Ground State at $3,000 gives the company a voice; seed with budget, Excitation adds paid demand." },
       { q: "Can we pause between raises?", a: "The term is a year, so a pause is a conversation rather than a button. Paid demand can be turned down inside the term; most startups keep Ground State running through a raise because visibility compounds and restarts slowly." },
     ],
     related: [{ label: "Startups", href: "/industries/startups" }, { label: "Show pipeline to the board", href: "/answers/how-do-i-show-pipeline-to-my-board" }, { label: "Field notes", href: "/field-notes" }],
@@ -1241,18 +1241,18 @@ export const problems: Problem[] = [
     audience: "startup",
     dateModified: "2026-09-04",
     title: "Cannot Afford a $10,000 Agency Retainer? Start Here",
-    metaDescription: "Every credible agency quotes $8,500 and up. What a seed stage company can buy for $2,500 and $5,000 a month that still compounds, and why the floor moved.",
+    metaDescription: "Every credible agency quotes $8,500 and up. What a seed stage company can buy for $3,000 and $5,000 a month that still compounds, and why the floor moved.",
     eyebrow: "Problem · Startups",
     h1: "Every agency we talk to starts at $10,000 a month and we do not have it.",
-    lead: "The full service floor in this category was $8,500 a month for years, ours included. A seed stage company cannot put that in the model, so it hires a freelancer for the blog, another for the ads, and a founder's cousin for social, and owns every seam between them. The floor moved. Here is what $2,500 and $5,000 buy when the same team that runs the $25,000 engagement runs them.",
+    lead: "The full service floor in this category was $8,500 a month for years, ours included. A seed stage company cannot put that in the model, so it hires a freelancer for the blog, another for the ads, and a founder's cousin for social, and owns every seam between them. The floor moved. Here is what $3,000 and $5,000 buy when the same team that runs the $25,000 engagement runs them.",
     callout: {
       label: "Where this lives",
-      body: "Ground State at $2,500 a month: a newsletter, a post written to be found and cited, eight social posts, and a one page report. Excitation at $5,000 plus ad spend: content doubled, one Google Ads campaign, a landing page, lead follow up within a business day, a monthly call. Same team as Amplification. Pricing is published.",
+      body: "Ground State at $3,000 a month: a newsletter, a post written to be found and cited, eight social posts, and a one page report. Excitation at $5,000 plus ad spend: content doubled, one Google Ads campaign, a landing page, lead follow up within a business day, a monthly call. Same team as Amplification. Pricing is published.",
     },
     searchPhrases: ["affordable marketing agency for startups", "marketing agency under $5000 a month", "seed stage marketing budget", "cheap b2b marketing that works", "what can I get for $2500 a month marketing"],
     sections: [
       { h2: "Why the floor could move", body: [
-        "AI runs scheduling, deployment, data collection, research, and reporting on every account. Humans create, design, review, test, and engage. You pay for judgment, not for hours spent scheduling posts. That split is why a tier can start at $2,500 instead of $8,500 without a junior tier of staff behind the lower price. Ground State buys fewer steps of the system than Amplification, not a different team.",
+        "AI runs scheduling, deployment, data collection, research, and reporting on every account. Humans create, design, review, test, and engage. You pay for judgment, not for hours spent scheduling posts. That split is why a tier can start at $3,000 instead of $8,500 without a junior tier of staff behind the lower price. Ground State buys fewer steps of the system than Amplification, not a different team.",
       ]},
       { h2: "What $2,500 actually produces", body: [
         "One page a month that answers a question your buyers type, with the answer in the first 40 words, one number a reader can quote, and schema so search and AI engines can name the entity. A newsletter that repeats the answer to your own list. Eight social posts from the founder's account, which reaches several times what a company page does in B2B. Twelve months later you own twelve searches and a list that opens your email. That is the demand environment the eventual hire, or the eventual Amplification upgrade, lands in.",
@@ -1409,7 +1409,7 @@ export const problems: Problem[] = [
     lead: "You spun the company out of an academic lab, or you left a big supplier to build the thing they would not build. The science is sound. The customers who know you buy again. And the word marketing makes everyone in the room a little uncomfortable, because it sounds like the opposite of rigor. Here is the reassuring part: your buyer is a scientist too, and scientists do not respond to marketing. They respond to being found with the right answer at the moment they search for it.",
     callout: {
       label: "Where this lives",
-      body: "Ground State at $2,500 a month if you publish nothing today: a newsletter, a blog post written to be cited, and social, with the $15,000 website rebuild included on the 12 month term. Excitation at $5,000 when you are ready to spend on one Google Ads campaign against the terms your buyers type. A trained molecular biologist on staff reviews the life science pages before they ship. Pricing is published.",
+      body: "Ground State at $3,000 a month if you publish nothing today: a newsletter, a blog post written to be cited, and social, with the $15,000 website rebuild included on the 12 month term. Excitation at $5,000 when you are ready to spend on one Google Ads campaign against the terms your buyers type. A trained molecular biologist on staff reviews the life science pages before they ship. Pricing is published.",
     },
     searchPhrases: ["marketing for scientists who started a company", "biotech startup marketing where to start", "spinout company marketing plan", "how to market a research product", "life science startup first marketing hire or agency"],
     sections: [
@@ -1507,7 +1507,7 @@ export const problems: Problem[] = [
     lead: "Your Search Console report shows the same impressions as last year and fewer clicks, and when you search your own topic, the first thing on the page is a paragraph Google wrote, with three small citations, none of them you. The buyer got the answer and left. You did not lose a ranking. You lost the click to a summary, and the only way to get it back is to become what the summary quotes.",
     callout: {
       label: "Where this lives",
-      body: "Every tier, starting with Ground State at $2,500 a month: pages and posts written to be cited, with the structured answer and the schema the AI layer reads, on a server rendered site the engines can crawl in full. The $15,000 rebuild included in every term is what makes the citation possible. Pricing is published.",
+      body: "Every tier, starting with Ground State at $3,000 a month: pages and posts written to be cited, with the structured answer and the schema the AI layer reads, on a server rendered site the engines can crawl in full. The $15,000 rebuild included in every term is what makes the citation possible. Pricing is published.",
     },
     searchPhrases: ["ai overviews taking our clicks", "google ai overview cites competitor not us", "impressions up clicks down ai search", "how to get cited in ai overviews", "zero click searches hurting our traffic"],
     sections: [
@@ -1571,7 +1571,7 @@ export const problems: Problem[] = [
     lead: "Clients hire your firm because of three or four specific people, and those people bill by the hour. Asking a partner to write a monthly article is asking for the most expensive hour in the building, so nothing gets written, and the firm's website says what every competitor's website says. The fix is not to make partners into writers. It is to capture what they already say, on calls, in pitches, over lunch, and turn that into the writing.",
     callout: {
       label: "Where this lives",
-      body: "Ground State at $2,500 a month: one field note a month in a named partner's voice, a newsletter, and the LinkedIn cadence, captured from a recorded thirty minute conversation rather than a blank page. Amplification when the firm wants outbound to the right 200 accounts with meetings verified against the meeting quality standard. Pricing is published.",
+      body: "Ground State at $3,000 a month: one field note a month in a named partner's voice, a newsletter, and the LinkedIn cadence, captured from a recorded thirty minute conversation rather than a blank page. Amplification when the firm wants outbound to the right 200 accounts with meetings verified against the meeting quality standard. Pricing is published.",
     },
     searchPhrases: ["how to get partners to write thought leadership", "law firm content partners will not write", "ghostwriting for consultants and partners", "professional services marketing founder led content", "consulting firm blog nobody writes"],
     sections: [

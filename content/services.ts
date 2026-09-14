@@ -155,7 +155,7 @@ export const services: Page[] = [
         "Every piece we publish also makes the rest of the program stronger. A Google Ads landing page needs a real article to link to. An outbound message needs a useful follow-up link. A salesperson needs a credible written answer when a buyer asks for evidence. The website turns into a working library your company owns, rather than a set of claims that vanish when a campaign ends.",
       ]},
       { h2: "Which package includes publishing", body: [
-        "Ground State, $2,500 per month. One published article, one newsletter, eight social posts a month, one monthly report, and the $15,000 website rebuild and hosting spread across the 12-month engagement. The right first step for a company that needs to appear regularly before it adds paid advertising or outbound.",
+        "Ground State, $3,000 per month. One published article, one newsletter, eight social posts a month, one monthly report, and the $15,000 website rebuild and hosting spread across the 12-month engagement. The right first step for a company that needs to appear regularly before it adds paid advertising or outbound.",
         "Excitation, $5,000 per month plus ad spend. Doubles social to 16 posts a month, adds a managed Google Ads campaign, a landing page, automated inbound follow-up within 30 seconds, and a monthly strategy call.",
         "Amplification, $10,000 per month plus ad spend. Higher-volume articles and social, a YouTube channel, weekly account review, one dedicated person calling and emailing your prospects with meetings verified against the meeting quality standard, and the option to add the HIPAA form-and-call stack at $750 per month or the MLR review gate at $500 to $1,200 per month.",
         "Quantum Leap, from $25,000 per month plus ad spend. The publishing program run on one brand or several, in-house video and photography, two dedicated people calling and emailing your prospects, media buying across streaming and broadcast, and a quarterly operations audit.",
@@ -214,7 +214,7 @@ export const services: Page[] = [
       ]},
       { h2: "Which package includes the rebuild", body: [
         "Every package. The $15,000 website rebuild is included in Ground State, Excitation, Amplification, and Quantum Leap and spread across the 12-month engagement. Hosting is included.",
-        "Ground State, $2,500 per month. Rebuild plus one published article, one newsletter, eight social posts, and one monthly report.",
+        "Ground State, $3,000 per month. Rebuild plus one published article, one newsletter, eight social posts, and one monthly report.",
         "Excitation, $5,000 per month plus ad spend. Ground State plus one Google Ads campaign, a campaign landing page, 16 social posts, a monthly strategy call, and automated inbound follow-up within 30 seconds.",
         "Amplification, $10,000 per month plus ad spend. Higher-volume publishing, a YouTube channel, weekly account review, one dedicated person calling and emailing your prospects with meetings verified against the meeting quality standard, and the option to add the HIPAA or MLR compliance stacks.",
         "Quantum Leap, from $25,000 per month plus ad spend. One brand or several, in-house creative, two dedicated people calling and emailing your prospects, media buying across streaming and broadcast, and a quarterly operations audit.",
@@ -392,7 +392,7 @@ export const servicesOverview = {
     ]},
     { h2: "02 Rank. Published answers your buyers can find", body: [
       "Rank produces the articles, newsletters, and social posts that help buyers answer real questions before they contact you. The goal is a cited, useful page a buyer can send to a colleague, a supervisor, or a compliance officer.",
-      "Ground State includes one published article, one newsletter, eight social posts, and the monthly report for $2,500 per month. It is the correct place to start if you need a regular presence but are not ready to buy advertising.",
+      "Ground State includes one published article, one newsletter, eight social posts, and the monthly report for $3,000 per month. It is the correct place to start if you need a regular presence but are not ready to buy advertising.",
       "Honest limit. Search results build over time. You should see early movement from month three, more useful momentum from month six. If the calendar needs meetings sooner, pair Rank with Run.",
     ]},
     { h2: "03 Run. Google Ads measured in meetings", body: [

@@ -20,7 +20,7 @@ const faqs = [
   { q: "Do you meet in person?", a: "Yes, across Nassau and Suffolk. The office is at 600 Johnson Ave, Suite D5, Bohemia, off Veterans Memorial Highway, and the founder sits across the table for the kickoff and the day 90 review." },
   { q: "Do you only serve Long Island?", a: "We serve clients nationally; the island is home field. Two of the nine brands on our roster are our own Long Island companies, run on the same system we sell." },
   { q: "Which local industries fit best?", a: "Healthcare practices and medical groups, professional firms, home services, and hospitality and wedding venues. Each has its own page and its own starting tier." },
-  { q: "What does a Long Island engagement cost?", a: "The same published prices as everywhere else: from $2,500 a month on a 12 month term for content, $5,000 with Google Ads, $10,000 for the full pipeline with outbound. No local surcharge and no discovery call to learn the number." },
+  { q: "What does a Long Island engagement cost?", a: "The same published prices as everywhere else: from $3,000 a month on a 12 month term for content, $5,000 with Google Ads, $10,000 for the full pipeline with outbound. No local surcharge and no discovery call to learn the number." },
   { q: "Can you buy TV just for Nassau or Suffolk?", a: "Yes. Streaming TV is bought by ZIP code, so a practice in Garden City or a contractor in Smithtown can be the only company in its category homeowners have seen on screen, for a test budget of $10,000 to $15,000 a month." },
 ];
 

@@ -70,7 +70,7 @@ export const protocol = {
     h2: "What Protocol does not do",
     body: [
       "Protocol does not make a team available for a day they cannot protect. It does not replace a commercial owner who will make decisions, approve claims, or hold the calendar. It does not solve a website that cannot support the pitch without first doing the Build work.",
-      "If you need us to run the work, look at the monthly packages. Ground State supports steady publishing at $2,500 per month. Excitation adds Google Ads at $5,000 per month plus advertising spend. Amplification adds outbound and a higher-volume program at $10,000 per month plus advertising spend. Quantum Leap runs the system across multiple brands from $25,000 per month plus spend.",
+      "If you need us to run the work, look at the monthly packages. Ground State supports steady publishing at $3,000 per month. Excitation adds Google Ads at $5,000 per month plus advertising spend. Amplification adds outbound and a higher-volume program at $10,000 per month plus advertising spend. Quantum Leap runs the system across multiple brands from $25,000 per month plus spend.",
       "If your existing team already runs the system and it is working, we may be the wrong fit. That is a useful answer too.",
     ],
   },

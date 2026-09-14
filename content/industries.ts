@@ -112,7 +112,7 @@ export const industries: Page[] = [
     ],
     callout: {
       label: "Typical starting point",
-      body: "Start with Ground State at $2,500 per month and add the MLR review gate. If your approved claim library already exists and you have $1,000 to $5,000 a month available for Google Ads, Excitation is the next sensible step. Pricing is published.",
+      body: "Start with Ground State at $3,000 per month and add the MLR review gate. If your approved claim library already exists and you have $1,000 to $5,000 a month available for Google Ads, Excitation is the next sensible step. Pricing is published.",
     },
     sections: [
       { h2: "What you'll take away", body: [], list: [
@@ -157,14 +157,14 @@ export const industries: Page[] = [
         ]},
       ]},
       { h2: "What actually shows up each month", body: [
-        "Every package includes named deliverables, not strategy. On Ground State at $2,500 per month, each month you get one article published on your site, one newsletter sent to your list, eight social posts, one short monthly report, and the website rebuild and hosting spread across the year. On Excitation at $5,000 per month plus advertising spend, you also get one managed Google Ads campaign, one campaign landing page refreshed as needed, an additional eight social posts, automated inbound follow-up, and a monthly strategy call with the account lead. The MLR review gate and the full add-on list are on the [pricing page](/pricing).",
+        "Every package includes named deliverables, not strategy. On Ground State at $3,000 per month, each month you get one article published on your site, one newsletter sent to your list, eight social posts, one short monthly report, and the website rebuild and hosting spread across the year. On Excitation at $5,000 per month plus advertising spend, you also get one managed Google Ads campaign, one campaign landing page refreshed as needed, an additional eight social posts, automated inbound follow-up, and a monthly strategy call with the account lead. The MLR review gate and the full add-on list are on the [pricing page](/pricing).",
       ]},
       { h2: "Proof, before the pitch", body: [
         "We do not have a published pharma case study yet, and we are not going to borrow one. What we can show you is the closest adjacent work. Ingenious Targeting Laboratory, a mouse-model company selling to research scientists and principal investigators, moved from 13 monthly form submissions to about 64 in its first eight months with Isovertic, and its organic search traffic rose 3.7 times in that period. Internal, September 2026. Those are internal operating results for one account, not a controlled study, and not a promise for a pharma brand with a review gate and a different buyer.",
         "What transfers from that account is the operating shape: attach the claim to its source, publish on a real cadence, make the review record usable, and connect the published work to the conversation it produced. What does not transfer is the timeline. A regulated brand with an MLR gate moves slower in the first quarter than a research-tools company, and we would rather say that now than explain it at month three.",
       ]},
       { h2: "The package you'd probably start on", body: [
-        "Start with Ground State at $2,500 per month and add the MLR review gate. That combination gives your reviewer and your brand team a quarter to build the approved claim library and settle the approval rhythm before paid work adds another moving part. It is a 12-month engagement and it includes the website rebuild across the year.",
+        "Start with Ground State at $3,000 per month and add the MLR review gate. That combination gives your reviewer and your brand team a quarter to build the approved claim library and settle the approval rhythm before paid work adds another moving part. It is a 12-month engagement and it includes the website rebuild across the year.",
         "If the claim library already exists, the intake path is approved, and you have $1,000 to $5,000 a month available for Google Ads, Excitation at $5,000 per month plus advertising spend is the next step. We will not recommend paid promotion before the review path can keep up with it.",
       ]},
       { h2: "The honest limits", body: [
@@ -209,7 +209,7 @@ export const industries: Page[] = [
     ],
     callout: {
       label: "Typical starting point",
-      body: "Start with Ground State at $2,500 per month and add the MLR review gate. If you already have a clear offer, an approved intake path, and $1,000 to $5,000 a month available for Google Ads, Excitation is the next sensible choice. Pricing is published.",
+      body: "Start with Ground State at $3,000 per month and add the MLR review gate. If you already have a clear offer, an approved intake path, and $1,000 to $5,000 a month available for Google Ads, Excitation is the next sensible choice. Pricing is published.",
     },
     sections: [
       { h2: "What you'll take away", body: [], list: [
@@ -251,7 +251,7 @@ export const industries: Page[] = [
         ]},
       ]},
       { h2: "What actually shows up each month", body: [
-        "Every package includes named deliverables, not strategy. On Ground State at $2,500 per month, each month you get one article published on your site, one newsletter sent to your list, eight social posts, one short monthly report, and the website rebuild and hosting spread across the year. On Excitation at $5,000 per month plus advertising spend, you also get one managed Google Ads campaign, one campaign landing page refreshed as needed, 16 social posts, an automated inbound response within 30 seconds, and a monthly strategy call with the account lead. The full list of add-ons, including the MLR review gate, lives on the [pricing page](/pricing).",
+        "Every package includes named deliverables, not strategy. On Ground State at $3,000 per month, each month you get one article published on your site, one newsletter sent to your list, eight social posts, one short monthly report, and the website rebuild and hosting spread across the year. On Excitation at $5,000 per month plus advertising spend, you also get one managed Google Ads campaign, one campaign landing page refreshed as needed, 16 social posts, an automated inbound response within 30 seconds, and a monthly strategy call with the account lead. The full list of add-ons, including the MLR review gate, lives on the [pricing page](/pricing).",
       ]},
       { h2: "Proof, before the pitch", body: [
         "Ingenious Targeting Laboratory, a mouse-model company selling to research scientists and principal investigators, moved from 13 monthly form submissions to about 64 in its first eight months with Isovertic. Its organic search traffic rose 3.7 times in that period. Internal, September 2026. Those are internal operating results for one account, not a controlled study, and they should be read as one account's operating record.",
@@ -259,7 +259,7 @@ export const industries: Page[] = [
         "For a company developing a therapeutic, the same operating shape changes with the evidence and regulatory stage. For a research-services company, it changes with the assay, cell line, animal model, gene knockout, or humanized mouse in question. The production process stays disciplined. The approved substance does the changing.",
       ]},
       { h2: "The package you'd probably start on", body: [
-        "Start with Ground State at $2,500 per month and add the MLR review gate. Ground State includes a website rebuild across the year, one published article each month, one newsletter, eight social posts, hosting, and a short monthly report. It is a 12-month engagement. It gives a chief scientific officer, a VP of regulatory, and the reviewer enough room to establish the claim library and approval rhythm before paid work adds another moving part.",
+        "Start with Ground State at $3,000 per month and add the MLR review gate. Ground State includes a website rebuild across the year, one published article each month, one newsletter, eight social posts, hosting, and a short monthly report. It is a 12-month engagement. It gives a chief scientific officer, a VP of regulatory, and the reviewer enough room to establish the claim library and approval rhythm before paid work adds another moving part.",
         "If you already have a clear offer, an approved intake path, and $1,000 to $5,000 a month available for Google Ads, Excitation at $5,000 per month plus advertising spend is the next sensible choice. It adds one managed campaign, a landing page, an automated inbound response within 30 seconds, and a monthly strategy call. We will not advise paid work before the evidence and review path can support it.",
       ]},
       { h2: "The honest limits", body: [
@@ -399,7 +399,7 @@ export const industries: Page[] = [
     ],
     callout: {
       label: "Typical starting point",
-      body: "Start with Ground State at $2,500 per month. Move to Excitation at $5,000 per month plus advertising spend when the product page, offer, and response owner are ready. Pricing is published.",
+      body: "Start with Ground State at $3,000 per month. Move to Excitation at $5,000 per month plus advertising spend when the product page, offer, and response owner are ready. Pricing is published.",
     },
     sections: [
       { h2: "What you'll take away", body: [], list: [
@@ -441,7 +441,7 @@ export const industries: Page[] = [
         ]},
       ]},
       { h2: "What actually shows up each month", body: [
-        "Every package includes named deliverables, not strategy. On Ground State at $2,500 per month, each month you get one published article on your site, one newsletter to your list, eight social posts, one short monthly report, and the website rebuild and hosting spread across the year. On Excitation at $5,000 per month plus advertising spend, you also get one managed Google Ads campaign, one campaign landing page refreshed as needed, 16 social posts, an automated inbound response within 30 seconds, and a monthly strategy call with the account lead. See every package and add-on on the [pricing page](/pricing).",
+        "Every package includes named deliverables, not strategy. On Ground State at $3,000 per month, each month you get one published article on your site, one newsletter to your list, eight social posts, one short monthly report, and the website rebuild and hosting spread across the year. On Excitation at $5,000 per month plus advertising spend, you also get one managed Google Ads campaign, one campaign landing page refreshed as needed, 16 social posts, an automated inbound response within 30 seconds, and a monthly strategy call with the account lead. See every package and add-on on the [pricing page](/pricing).",
       ]},
       { h2: "Proof, before the pitch", body: [
         "Ingenious Targeting Laboratory, a mouse-model company selling to research scientists and principal investigators, moved from 13 monthly form submissions to about 64 in its first eight months with Isovertic. Its organic search traffic rose 3.7 times in that period. Internal, September 2026. Those figures are internal operating results for one account. They are not a guarantee and they do not tell us which other company will see the same pattern.",
@@ -449,7 +449,7 @@ export const industries: Page[] = [
         "For a reagents company, the relevant questions may be assay compatibility and validation. For a lab automation company, they may be throughput and integration. For an in vitro diagnostic company, the commercial language requires a more formal review path. The operating approach remains the same: useful scientific material, a clear handoff, timely response, and an account record that distinguishes real opportunity from general interest.",
       ]},
       { h2: "The package you'd probably start on", body: [
-        "Start with Ground State at $2,500 per month. It includes a website rebuild across the year, one published article per month, one newsletter, eight social posts, hosting, and a short monthly report. It is a 12-month engagement. For a founder-scientist or early commercial team, Ground State creates the evidence library and publishing rhythm before adding more activity.",
+        "Start with Ground State at $3,000 per month. It includes a website rebuild across the year, one published article per month, one newsletter, eight social posts, hosting, and a short monthly report. It is a 12-month engagement. For a founder-scientist or early commercial team, Ground State creates the evidence library and publishing rhythm before adding more activity.",
         "Move to Excitation at $5,000 per month plus advertising spend when the product page, offer, and response owner are ready. It adds one managed Google Ads campaign, a campaign page, 16 social posts, a monthly strategy call, and an automated inbound response within 30 seconds. Google says search improvements may take [four months to a year](https://developers.google.com/search/docs/appearance/site-names). That is why we report early operating signals every 30 days and review pipeline and revenue at months six and 12.",
       ]},
       { h2: "The honest limits", body: [

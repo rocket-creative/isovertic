@@ -16,7 +16,7 @@ export const compares: ComparePage[] = [
       { h2: "Where the two firms differ", body: [
         "Team: ISOVERTIC is senior hands only with the founder on the account. Abstrakt runs a large staff model across hundreds of accounts.",
         "Scope: both run outbound plus marketing. ISOVERTIC adds full custom development on a modern stack and TV and CTV media buying with in house creative.",
-        "Pricing: ISOVERTIC publishes four tiers from $2,500 to $25,000 plus a month. Abstrakt quotes by conversation.",
+        "Pricing: ISOVERTIC publishes four tiers from $3,000 to $25,000 plus a month. Abstrakt quotes by conversation.",
         "Fit: Abstrakt suits trades and SMBs comfortable in a high volume system. ISOVERTIC suits scientists, startups, and healthcare brands who want one senior team accountable end to end and who market under MLR or HIPAA rules.",
       ]},
       { h2: "A fair note", body: [
@@ -24,7 +24,7 @@ export const compares: ComparePage[] = [
       ]},
     ],
     faqs: [
-      { q: "Is ISOVERTIC cheaper than Abstrakt?", a: "Our tiers are published on the pricing page, from $2,500 a month, so you can compare without a sales process. Value per dollar depends on whether you want a machine or a senior team." },
+      { q: "Is ISOVERTIC cheaper than Abstrakt?", a: "Our tiers are published on the pricing page, from $3,000 a month, so you can compare without a sales process. Value per dollar depends on whether you want a machine or a senior team." },
       { q: "Do you offer industry exclusivity?", a: "We keep a deliberately short roster, which functions as exclusivity in practice. Formal territory exclusivity is available by agreement." },
     ],
     related: [

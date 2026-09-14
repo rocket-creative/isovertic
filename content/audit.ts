@@ -30,7 +30,7 @@ export const auditMeta = {
     ] },
     { h2: "What a useful result can say", body: [
       "Sometimes the issue is the website. A buyer arrives but cannot find proof, pricing, or a clear next step in language a chief scientific officer, principal investigator, or director of billing recognizes. The first repair is Build, included in every package at $15,000 across the year.",
-      "Sometimes the site is ready but nobody is publishing enough useful answers for the people already looking. The right start is Ground State at $2,500 per month: one published article, one newsletter to your list, eight social posts, and a monthly report.",
+      "Sometimes the site is ready but nobody is publishing enough useful answers for the people already looking. The right start is Ground State at $3,000 per month: one published article, one newsletter to your list, eight social posts, and a monthly report.",
       "Sometimes your company needs meetings sooner and has at least $1,000 a month for Google Ads. Excitation at $5,000 per month plus spend adds a managed campaign, a landing page, and automated follow-up within 30 seconds.",
       "Sometimes the calendar needs direct help. Amplification at $10,000 per month plus spend adds a dedicated person calling and emailing your prospects, who books qualified meetings with written briefs. If you have capable internal people but no shared operating process, Protocol training may be the better answer at $5,000 for one department or $20,000 for the full team.",
       "Sometimes the answer is Quantum Leap from $25,000 per month plus spend, the full program for later-stage healthcare, pharma, biotech, medical device, and life sciences tools and diagnostics companies, on one brand or several.",

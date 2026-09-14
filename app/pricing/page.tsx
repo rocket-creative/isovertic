@@ -13,7 +13,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: { absolute: "Published Prices, 12-Month Engagements | ISOVERTIC" },
-  description: "Published prices for the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. Four packages from $2,500 a month. Website rebuild included. Card or bank debit to start.",
+  description: "Published prices for the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. Four packages from $3,000 a month. Website rebuild included. Card or bank debit to start.",
   alternates: { canonical: "/pricing" },
 };
 

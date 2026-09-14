@@ -31,9 +31,9 @@ export const tiers: Tier[] = [
   {
     slug: "ground-state",
     name: "Ground State",
-    term: 2500,
+    term: 3000,
     spend: "",
-    price: "$2,500",
+    price: "$3,000",
     per: "per month on a 12 month term",
     for: "The compounding layer. One published article, one newsletter, eight social posts, and a monthly report, running without a meetings program.",
     includes: [
@@ -230,7 +230,7 @@ export const pricingHero = {
 export const tierNotes: { slug: Tier["slug"]; h2: string; body: string[] }[] = [
   {
     slug: "ground-state",
-    h2: "Ground State, $2,500 per month",
+    h2: "Ground State, $3,000 per month",
     body: [
       "Ground State is the compounding layer. It is for a company that needs to show up in front of buyers every week but is not ready to spend on advertising or outbound.",
       "Each month you get one published article on your site, one newsletter sent to your list, eight social posts across your active channels, and one short monthly report: what was published, how it performed, and what to publish next. Included across the year: a full website rebuild, valued at $15,000, and hosting.",

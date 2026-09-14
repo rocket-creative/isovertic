@@ -70,7 +70,7 @@ export const coverage = {
   h2: "How we run when George is on a plane.",
   lead: "Two people are on every account and the runbooks are written down. This is what that means in practice.",
   steps: [
-    { n: "01", name: "A named second on every account", body: "Kristen Coughlin is on every life science account and takes the first call with any CRO or tools company that signs up. On every other account a named senior contractor holds the second seat, and you meet them in the 90 day ramp, not in an emergency." },
+    { n: "01", name: "A named second on every account", body: "Kristen Coughlin, our chief operating officer, is on every life science account and takes the first call with any CRO or tools company that signs up. On every other account a named senior contractor holds the second seat, and you meet them in the 90 day ramp, not in an emergency." },
     { n: "02", name: "The system is in the runbooks, not in a head", body: "Every step we run is documented in the same runbooks we hand clients at Protocol. Sequences, ad structures, publishing cadence, reporting. A second operator can pick up any account from the documents, because the documents are how we run it in the first place." },
     { n: "03", name: "One escalation path, in writing", body: "Your agreement names the second operator, the response window for a live campaign issue (acknowledged within four business hours, a plan the same business day), and the email that reaches both of us." },
   ],

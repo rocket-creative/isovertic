@@ -25,7 +25,7 @@ export function organizationLd() {
     sameAs: [site.linkedin],
     knowsAbout: site.knowsAbout,
     areaServed: ["United States", "Nassau County NY", "Suffolk County NY", "New York Metro"],
-    priceRange: "$2,500 to $25,000 per month",
+    priceRange: "$3,000 to $25,000 per month",
     address: {
       "@type": "PostalAddress",
       streetAddress: site.address.street,

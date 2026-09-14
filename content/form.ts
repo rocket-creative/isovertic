@@ -39,7 +39,7 @@ export const industries = [
 
 export const tiers = [
   { value: "", label: "Not sure yet" },
-  { value: "Ground State, $2,500", label: "Ground State, $2,500" },
+  { value: "Ground State, $3,000", label: "Ground State, $3,000" },
   { value: "Excitation, $5,000", label: "Excitation, $5,000" },
   { value: "Amplification, $10,000", label: "Amplification, $10,000" },
   { value: "Quantum Leap, from $25,000", label: "Quantum Leap, from $25,000" },
@@ -49,8 +49,8 @@ export const tiers = [
 export const spends = [
   pick,
   { value: "Nothing yet", label: "Nothing yet" },
-  { value: "Under $2,500", label: "Under $2,500" },
-  { value: "$2,500 to $5,000", label: "$2,500 to $5,000" },
+  { value: "Under $3,000", label: "Under $3,000" },
+  { value: "$3,000 to $5,000", label: "$3,000 to $5,000" },
   { value: "$5,000 to $10,000", label: "$5,000 to $10,000" },
   { value: "$10,000 to $25,000", label: "$10,000 to $25,000" },
   { value: "Over $25,000", label: "Over $25,000" },

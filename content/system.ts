@@ -111,7 +111,7 @@ export const home = {
     intro: "Every price is published. Every package is a 12-month engagement. Every one includes a $15,000 website rebuild and hosting, spread across the year. You can start with card or bank debit without a call.",
     items: [
       {
-        name: "Ground State, $2,500 per month",
+        name: "Ground State, $3,000 per month",
         for: "For a company that needs to show up consistently before it adds advertising or outbound calls and emails. Each month you get:",
         list: [
           "One published article on your site",
