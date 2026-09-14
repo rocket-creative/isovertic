@@ -25,7 +25,7 @@ export function PricingTiers() {
                 per month{t.spend ? `, ${t.spend}` : ""}, 12 month term
               </p>
               <p className={`mt-3 text-[13px] leading-relaxed ${t.featured ? "text-paper/80" : "text-brass"}`}>
-                {usd(15000)} website rebuild and hosting included. {usd(m.totalValue)} of work on the year.
+                {usd(15000)} website rebuild and hosting included. {usd(m.totalValue)} of work across the 12 months.
               </p>
               <p className={`mt-2 text-[12px] leading-relaxed ${t.featured ? "text-paper/70" : "text-ink-soft"}`}>
                 {t.quarterlyOnly
