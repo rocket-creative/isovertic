@@ -778,7 +778,7 @@ export const problems: Problem[] = [
     faqs: [
       { q: "Can we compete with global CROs on search?", a: "On the specific queries, yes. A global CRO has one page about mouse models. You can have 147. Researchers search specifically, and specific pages win." },
       { q: "Who takes the meeting?", a: "A scientist on your side. Founder knowledge closes a technical sale. Our seat prospects, qualifies, confirms, and briefs." },
-      { q: "Do you understand the science?", a: "Our COO is a trained molecular biologist who sold translational research products for more than ten years and ran operations at a medical school department. She is on every life science account." },
+      { q: "Do you understand the science?", a: "Our COO is a trained molecular biologist who sold translational research products for more than ten years and ran operations at a medical school department. She reads the technical drafts." },
     ],
     related: [{ label: "Marketing a CRO, biotech, or medtech", href: "/field-notes/marketing-cro-biotech-medtech" }, { label: "When should a CRO start outbound", href: "/answers/when-should-a-cro-start-outbound" }, { label: "Biotech and life sciences", href: "/industries/biotech" }],
   },
@@ -826,7 +826,7 @@ export const problems: Problem[] = [
     lead: "A capable generalist rep, a good script, and a list of principal investigators. Reply rates at a fraction of a percent and the few calls that connect end in 90 seconds, because the rep called a floxed allele a product and the PI heard everything they needed to. Scientific buyers punish generic outreach faster than any market we work in, and the fix is not a better script.",
     callout: {
       label: "Where this lives",
-      body: "Amplification at $10,000 a month includes one outbound seat with sequences written in the register of the field, aimed at lab managers and core directors, with meetings verified against the meeting quality standard. Our COO, a molecular biologist with a decade of CRO sales, is on every life science account. Pricing is published.",
+      body: "Amplification at $10,000 a month includes one outbound seat with sequences written in the register of the field, aimed at lab managers and core directors, with meetings verified against the meeting quality standard. Our COO is a molecular biologist with a decade of CRO sales and reads the technical drafts. Pricing is published.",
     },
     searchPhrases: ["sales rep does not understand the science", "selling to scientists outbound", "sdr for life science company", "how to sell to principal investigators", "technical sales for biotech services"],
     sections: [
@@ -1409,7 +1409,7 @@ export const problems: Problem[] = [
     lead: "You spun the company out of an academic lab, or you left a big supplier to build the thing they would not build. The science is sound. The customers who know you buy again. And the word marketing makes everyone in the room a little uncomfortable, because it sounds like the opposite of rigor. Here is the reassuring part: your buyer is a scientist too, and scientists do not respond to marketing. They respond to being found with the right answer at the moment they search for it.",
     callout: {
       label: "Where this lives",
-      body: "Ground State at $2,500 a month if you publish nothing today: a newsletter, a blog post written to be cited, and social, with the $15,000 website rebuild included on the 12 month term. Excitation at $5,000 when you are ready to spend on one Google Ads campaign against the terms your buyers type. Kristen Coughlin, a trained molecular biologist, reviews every life science page before it ships. Pricing is published.",
+      body: "Ground State at $2,500 a month if you publish nothing today: a newsletter, a blog post written to be cited, and social, with the $15,000 website rebuild included on the 12 month term. Excitation at $5,000 when you are ready to spend on one Google Ads campaign against the terms your buyers type. A trained molecular biologist on staff reviews the life science pages before they ship. Pricing is published.",
     },
     searchPhrases: ["marketing for scientists who started a company", "biotech startup marketing where to start", "spinout company marketing plan", "how to market a research product", "life science startup first marketing hire or agency"],
     sections: [
@@ -1426,7 +1426,7 @@ export const problems: Problem[] = [
     ],
     faqs: [
       { q: "Should we hire a marketing person instead?", a: "Not yet. A marketing hire without a system produces social posts and a newsletter. Build the system first, then hire the person who will own it, and teach them at Protocol." },
-      { q: "Will you write in the scientific register?", a: "Yes. Every life science page is reviewed by a trained molecular biologist before it reaches you, and the MLR review gate add on routes clinical claims through a reviewer you name." },
+      { q: "Will you write in the scientific register?", a: "Yes. Life science pages are reviewed by a trained molecular biologist on staff before they reach you, and the MLR review gate add on routes clinical claims through a reviewer you name." },
       { q: "We have almost no budget. Is $2,500 a month the floor?", a: "Yes. Below that we cannot run the cadence and include the build, and we would rather tell you that than sell you a smaller version that does not work." },
     ],
     related: [{ label: "Life science industry page", href: "/industries/biotech" }, pricing, { label: "Results", href: "/results" }],

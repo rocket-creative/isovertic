@@ -153,8 +153,8 @@ export const steps = [
   { k: "BUILD", label: "We rebuild your website so the pages, proof, pricing, and next step are all in front of the buyer. Included in every package.", href: "/web-development" },
   { k: "RANK", label: "We publish on a steady rhythm so your site earns visibility in Google and in the AI-generated answers that now appear at the top of search results.", href: "/seo-content" },
   { k: "RUN", label: "We run Google Ads against the exact phrases your buyers type when they are actively shopping. We report cost per booked meeting, not clicks.", href: "/google-ads" },
-  { k: "BUY", label: "We buy streaming TV, cable, broadcast television, and radio when the math supports it so your brand is recognized when your buyer sees your name in Google later that week.", href: "/tv-ctv-advertising" },
-  { k: "BOOK", label: "We put qualified meetings on your calendar with a written brief on each one, run by the same team that built your website.", href: "/outbound-appointment-setting" },
+  { k: "BUY", label: "We buy streaming TV, cable, broadcast television, and radio when the math supports it so your brand is recognized when your buyer sees your name in Google.", href: "/tv-ctv-advertising" },
+  { k: "BOOK", label: "We call and email the people your sales team needs to meet, then book the meeting with a short summary of who they are and what they want.", href: "/outbound-appointment-setting" },
   { k: "EDUCATE", label: "We hand your team the step-by-step written instructions and the training to run any of this in-house when they are ready.", href: "/protocol" },
 ] as const;
 
@@ -180,6 +180,7 @@ export const multiBrand = {
 export const addOns: { name: string; price: string }[] = [
   { name: "Medical, legal, and regulatory review gate: named reviewer workflow, sign off log, claim library", price: "Ground State $500 per month plus $750 setup. Excitation $750 per month plus $1,000 setup. Amplification $1,200 per month plus $1,500 setup. Quantum Leap quoted" },
   { name: "HIPAA form and call stack: BAA covered forms, call tracking, consent language", price: "$750 per month" },
+  { name: "Compliance paperwork: business associate agreement signed, security questionnaire completed, subprocessor list and data map for your SOC 2 review", price: "Quoted per request" },
   { name: "Outbound seat added to Excitation", price: "$4,500 per month" },
   { name: "Second product line in Google Ads: separate campaigns, landing page, reporting", price: "$1,000 per month per line" },
   { name: "LinkedIn outbound and paid: sequences plus sponsored content", price: "$2,500 per month" },

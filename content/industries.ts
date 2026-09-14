@@ -184,6 +184,7 @@ export const industries: Page[] = [
       { q: "Can you work inside our existing MLR process?", a: "Yes. We route to the reviewers you name and keep the sign-off log in the format your team already uses. The MLR review gate add-on is $500 to $1,200 per month plus setup, on any package." },
       { q: "Do you give regulatory advice on whether a piece complies?", a: "No. Your medical, legal, and regulatory reviewers own that call, and so does your regulatory counsel. We own the process that gets them a clean draft with the source attached." },
       { q: "Who writes the technical content?", a: "Content writers on staff, with a molecular biologist on staff reviewing scientific material before it reaches your MLR reviewer. That review catches terminology errors that would otherwise waste a reviewer's cycle." },
+      { q: "Can you clear our vendor security review?", a: "Yes. We complete your security questionnaire, hand your auditor our subprocessor list and a map of where your data sits for a SOC 2 review, and sign a business associate agreement wherever protected health information is in scope. Quoted per request." },
       { q: "How long does a pharma engagement take to show results?", a: "Slower than an unregulated account in the first quarter, because the claim library and approval rhythm come first. We report leading indicators every 30 days and review pipeline and revenue at months six and 12 against your actual sales cycle." },
     ],
     related: [
@@ -279,6 +280,7 @@ export const industries: Page[] = [
       { q: "Can you reach academic and industry buyers in one program?", a: "Yes, with separate sequences and offers per segment." },
       { q: "How do you handle long sales cycles?", a: "Revenue is reviewed against the real sales cycle at month six and month twelve, while the early scorecard reports pages live, impressions, relevant traffic, inquiries, and meetings." },
       { q: "Do you work with CROs and service providers?", a: "That is our deepest pattern." },
+      { q: "Can you clear our vendor security review?", a: "Yes. We complete your security questionnaire, hand your auditor our subprocessor list and a map of where your data sits for a SOC 2 review, and sign a business associate agreement wherever protected health information is in scope. Quoted per request." },
     ],
     related: [
       { label: "Life sciences tools and diagnostics", href: "/industries/life-sciences-tools-and-diagnostics" },
@@ -372,6 +374,7 @@ export const industries: Page[] = [
     faqs: [
       { q: "Do you understand 510(k) versus PMA language?", a: "Yes. For a 510(k) device, the language reflects clearance rather than approval. For a PMA device, it reflects the approved indication and evidence. We route commercial assets through the reviewer your company names." },
       { q: "Can you work with our existing regulatory reviewer?", a: "Yes. The MLR review gate uses the reviewer you designate. We keep the sign-off log and claim library so the next approval does not start from a blank page." },
+      { q: "Can you clear our vendor security review?", a: "Yes. We complete your security questionnaire, hand your auditor our subprocessor list and a map of where your data sits for a SOC 2 review, and sign a business associate agreement wherever protected health information is in scope. Quoted per request." },
       { q: "What results should a device company expect?", a: "Inquiries, booked meetings, clinical evaluation requests, and progression through your own commercial stages, with leading indicators every 30 days and revenue reviewed against the actual sales cycle." },
     ],
     related: [
@@ -463,6 +466,7 @@ export const industries: Page[] = [
       { q: "Do your writers understand the science?", a: "A molecular biologist on staff reviews life-science work before it reaches a client's reviewer. We write from your product facts, validation, and the questions researchers actually ask." },
       { q: "Is this the same as your biotech page?", a: "No. Biotech covers therapeutics and translational programs. This page is for reagents, instruments, mouse models, cell lines, lab automation, and diagnostics sold into labs and hospitals." },
       { q: "How do you handle long sales cycles?", a: "Revenue is reviewed against the real sales cycle at month six and month twelve, while the early scorecard reports what was published, how it performed, and what the team needs to answer next." },
+      { q: "Can you clear our vendor security review?", a: "Yes. We complete your security questionnaire, hand your auditor our subprocessor list and a map of where your data sits for a SOC 2 review, and sign a business associate agreement wherever protected health information is in scope. Quoted per request." },
     ],
     related: [
       { label: "Biotech", href: "/industries/biotech" },

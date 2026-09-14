@@ -153,16 +153,15 @@ export const home = {
   system: {
     eyebrow: "One team. The whole pipeline.",
     h2: "What one team actually owns",
-    intro: "Most growth agencies hand you a web vendor, an advertising vendor, a writer, and a monthly report from each one. Each can describe activity. None is responsible for a qualified meeting on your calendar. Isovertic runs six connected steps. The package sets how deep we go. The steps do not change.",
+    intro: "Most growth agencies hand you a web vendor, an advertising vendor, a writer, and a monthly report from each one. Each can describe activity. None is responsible for a qualified meeting on your calendar. Isovertic runs five connected steps. The sixth, training your team to run the work themselves, is an add-on. The package sets how deep we go.",
     steps: [
       { name: "Build", body: "gives your website the pages, proof, pricing, and next step your buyers need. It is the base layer. Every package includes it." },
       { name: "Rank", body: "puts a steady publishing rhythm behind the site: articles, a newsletter that goes to your list, and social posts your team can stand behind." },
       { name: "Run", body: "manages Google Ads around the searches that signal a buyer is looking now. We report qualified meetings and cost per meeting, not a report full of traffic charts." },
       { name: "Buy", body: "adds streaming television, broadcast, or radio when name recognition helps the sale and the math supports it." },
-      { name: "Book", body: "puts qualified meetings on your calendar, each with a written brief, through outbound run by the same team that knows your website and offer." },
+      { name: "Book", body: "calls and emails the people your sales team needs to meet, then puts the meeting on your calendar with a short written summary of who they are and what they want, so your salesperson is not walking in cold. The people making those calls know your product and the people who buy it. They are the same team that built your website, not a call center reading a script." },
       { name: "Educate", body: "hands your team the runbooks and training when they would rather run the work themselves." },
     ],
-    after: "We do not publish the method used to decide what gets built, published, or purchased. That method is what you hire us to do. Read the six steps on the [system page](/system).",
   },
   regulated: {
     h2: "Built for regulated companies",
@@ -170,12 +169,13 @@ export const home = {
     items: [
       { name: "HIPAA form-and-call stack, $750 per month.", body: "Intake forms that do not leak, phone tracking that does not violate protected health information rules, and a data flow you can defend in an audit. Available on any package." },
       { name: "MLR review gate, $500 to $1,200 per month plus setup.", body: "For medical, legal, and regulatory review. A named reviewer, a sign-off log for each asset, and a claim library your team can reuse. Standard for biotech, medical device, and pharma accounts." },
+      { name: "Business associate agreements and SOC 2 vendor review, priced per request.", body: "We sign a BAA before any protected health information reaches a form, a call recording, or an analytics tool. For a SOC 2 review we complete your security questionnaire, hand your auditor our subprocessor list and a map of where your data sits, and work inside the controls your program already requires. If your compliance team needs something else, ask and we will quote it." },
     ],
   },
   commitment: {
     h2: "The limits we state before you sign",
     body: [
-      "This works when your buyers already search in specific language. A device model, a regulation, a protocol, a billing code, a gene, or a clinical question. If nobody is looking for your category yet, this work cannot locate them. We will tell you before you pay.",
+      "Search is the fastest way in when your buyers already type specific language: a device model, a regulation, a protocol, a billing code, a gene, or a clinical question. When that search volume does not exist yet, it does not mean you have no buyers. It means we go find them. We build the list of the people who should own what you sell, reach them with calls and emails, on LinkedIn, in the trade press they read, and on television when the math supports it, and keep publishing so your name is familiar before the first conversation. Creating demand costs more per meeting than catching it and takes longer to show. We will tell you which of the two you are buying before you pay.",
       "A qualified meeting a week on a small advertising budget is a trickle, not a flood. It can still be a good result. We will not promise a flood to get a signature.",
       "A year is the shortest window in which pipeline and revenue can move on a long healthcare or business-to-business sale. Google's own guidance says changes to search visibility can take four months to a year, per [Google Search Central](https://developers.google.com/search/docs/appearance/site-names). Healthcare sales average 125 days to 24 months. We report leading indicators every 30 days and review pipeline and revenue at months six and 12 against your actual sales cycle.",
     ],
@@ -183,8 +183,8 @@ export const home = {
   start: {
     h2: "Start where you are",
     known: {
-      label: "If you know what package you want,",
-      body: "[start on the pricing page](/pricing) with card or bank debit. No call required.",
+      label: "If you are ready to start,",
+      body: "[sign up on the pricing page](/pricing). Pick the package, pick how the year is billed, and pay by card or bank debit. Next is a ten minute intake form, and your first content calendar lands inside five business days. No discovery call, no proposal, no contract sitting in someone's inbox for a week. A 15 minute call is there if you want one, after you sign up.",
     },
     talk: {
       label: "If you would rather talk it through,",

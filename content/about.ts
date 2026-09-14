@@ -20,7 +20,7 @@ export const about = {
   },
   team: {
     h2: "The team behind every account",
-    lead: "The same senior team runs every tier. Ground State clients get the same people writing their articles and building their site that Quantum Leap clients get. Nothing is offshored. Nothing is subcontracted to a freelancer who was hired that morning. If you buy a tier, you get the team.",
+    lead: "The same senior team runs every tier. Ground State clients get the same people writing their articles and building their site that Quantum Leap clients get. Nothing is subcontracted to a freelancer. If you buy a tier, you get the team.",
     roles: [
       { title: "Content writers.", body: "Trained scientists and clinicians on staff who write the articles, newsletters, ad copy, and social posts. Every page a scientist or clinician reads was written by a person who understands the subject, not an AI draft with a human polish." },
       { title: "Full-stack developers.", body: "The engineers who build and maintain your website, the tracking, the forms, and the integrations that connect your site to your CRM." },
@@ -30,10 +30,10 @@ export const about = {
       { title: "Videographers.", body: "In-house video production for interviews, product demos, TV creative, and streaming ads." },
       { title: "Photographers.", body: "In-house photography for team pages, product shots, event coverage, and social content." },
       { title: "Outbound appointment setters.", body: "The people who send the emails, make the calls, and book qualified meetings on your calendar, briefed by the same team that built your website." },
-      { title: "Editors and reviewers.", body: "Kristen leads a review pass on every life-science piece of content before it reaches your medical, legal, and regulatory reviewer. No claim ships unreviewed." },
+      { title: "Editors and reviewers.", body: "Every piece gets an editing pass, and life-science work gets a scientific review before it reaches your medical, legal, and regulatory reviewer. No claim ships unreviewed." },
       { title: "Account leads.", body: "One senior person owns your account and stays with you across the twelve months. You do not get handed off." },
     ],
-    close: "The same senior team runs every tier. Ground State clients get the same people writing their articles and building their site that Quantum Leap clients get. Nothing is offshored. Nothing is subcontracted to a freelancer who was hired that morning. If you buy a tier, you get the team.",
+    close: "The same senior team runs every tier. Ground State clients get the same people writing their articles and building their site that Quantum Leap clients get. Nothing is subcontracted to a freelancer. If you buy a tier, you get the team.",
   },
   george: {
     h2: "George Stoff, Founder and Lead Engineer",
@@ -48,7 +48,7 @@ export const about = {
   kristen: {
     h2: "Kristen Coughlin, Chief Operating Officer",
     body: [
-      "Trained molecular biologist. Ten years selling translational research products, then institutional operations in the Department of Microbial Pathogenesis at the Yale School of Medicine. She reviews the life-science work for scientific register and accuracy before it reaches a client's MLR reviewer, and she is on every life-science account.",
+      "Trained molecular biologist. Ten years selling translational research products, then institutional operations at the Yale School of Medicine. She reviews the life-science work for scientific register and accuracy before it reaches a client's MLR reviewer.",
       "She also built the delivery operation. She took George's method, documented it, trained the team on it, and turned it into a repeatable engagement so the same system runs the same way on every account. That is the reason the company can honestly say \"the founder is the source, not the bottleneck.\" Somebody had to build the operation that makes that true.",
     ],
     bioLabel: "Full bio and credentials",

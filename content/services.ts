@@ -163,7 +163,7 @@ export const services: Page[] = [
       ]},
       { h2: "The honest limit", body: [
         "Published work compounds slowly. You may see the first signs that pieces are being found around month three. The effect usually gets clearer from month six. If you need meetings sooner, pair publishing with a Google Ads campaign or an outbound seat. We will not tell a founder that one article repairs a quarter. It does not.",
-        "This also works when your buyers already search in specific language: a gene, a regulation, a billing code, a device model, a clinical protocol. If your category is so new that nobody is looking for it yet, publishing alone cannot put a meeting on the calendar. We will tell you that before you sign.",
+        "This moves fastest when your buyers already search in specific language: a gene, a regulation, a billing code, a device model, a clinical protocol. If your category is so new that nobody is looking for it yet, publishing alone cannot put a meeting on the calendar. The program has to lead with calls, emails, and LinkedIn to reach the people who should own what you sell, while the published work builds the recognition that makes those conversations easier. We will tell you that before you sign.",
       ]},
       { h2: "What we don't do", body: [
         "We are not a volume writing vendor, a general promotion shop, or a studio that ships clever posts without knowing what happens after the click. We do not publish clinical or scientific claims your reviewer has not seen. We do not hand your team a topic spreadsheet and ask them to turn it into work. We plan, write, review, publish, and report.",
