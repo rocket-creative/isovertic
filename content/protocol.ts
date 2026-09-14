@@ -4,7 +4,7 @@ export const protocol = {
   eyebrow: "Step 06 · Protocol · For teams that run it themselves",
   h1: "Protocol. Train your team to run the system.",
   lead: [
-    "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. Protocol is the training offer. We spend one or two days at your office, write eight runbooks, and hold a follow-up call at 30 days. The point is a documented way for the people you already pay to work together on the commercial number.",
+    "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. Protocol is the training offer. We spend one or two days at your office, write eight runbooks, and hold a follow-up call at 30 days. The point is a documented way for the people you already pay to work together on the commercial number.",
     "This page is for CEOs, presidents, chief operating officers, VPs of commercial, VPs of marketing, chief medical officers, medical directors, practice administrators, and directors of billing who have capable people in the building already. Your marketing lead should not have to recreate the advertising routine from memory each quarter, and your sales team should not have to guess whether the website supports the claim in the email.",
   ],
   keep: {

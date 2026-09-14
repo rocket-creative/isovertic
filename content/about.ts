@@ -38,7 +38,7 @@ export const about = {
   george: {
     h2: "George Stoff, Founder and Lead Engineer",
     body: [
-      "Full-stack engineer with more than 30 years building the systems companies sell through: the websites, the data pipelines that feed outbound, and the ad and content systems on top. He has shipped products of his own and run go-to-market for healthcare, biotech, medical device, and life sciences companies.",
+      "Full-stack engineer with more than 30 years building the systems companies sell through: the websites, the data pipelines that feed outbound, and the ad and content systems on top. He has shipped products of his own and run go-to-market for healthcare, pharma, biotech, medical device, and life sciences companies.",
       "ISOVERTIC is the codified version of that method. George built it, wrote it down, and stays on every account as the standards owner and the escalation path. When the algorithm shifts or a compliance question comes up, you get his engineering judgment. The day-to-day execution runs on the team he trained.",
       "He started ISOVERTIC because every owner he worked with was buying these capabilities in pieces, from vendors who never spoke, and wondering why the pieces never became a pipeline.",
     ],
@@ -56,7 +56,7 @@ export const about = {
   },
   serve: {
     h2: "Who we serve",
-    body: "Healthcare, biotech, medical devices, and life sciences. Practice groups under HIPAA. Therapeutics companies with a scientific buyer. 510(k) and PMA device companies. Labs selling reagents, antibodies, kits, instruments, mouse models, and diagnostics. Startups that need a pipeline before they can afford a sales team. The industry pages cover how the system flexes for each.",
+    body: "Healthcare, pharma, biotech, medical devices, and life sciences. Practice groups under HIPAA. Therapeutics companies with a scientific buyer. 510(k) and PMA device companies. Labs selling reagents, antibodies, kits, instruments, mouse models, and diagnostics. Startups that need a pipeline before they can afford a sales team. The industry pages cover how the system flexes for each.",
   },
   work: {
     h2: "How we work",

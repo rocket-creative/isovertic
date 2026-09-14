@@ -22,8 +22,8 @@ import { ClientQuote, LinkedCopy } from "@/components/ui/ClientQuote";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "ISOVERTIC | Growth Agency for Healthcare, Biotech, Medical Devices, and Life Sciences" },
-  description: "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. We build the website, run the advertising, publish the content, and book the meetings.",
+  title: { absolute: "ISOVERTIC | Growth Agency for Healthcare, Pharma, Biotech, Medical Devices, and Life Sciences" },
+  description: "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. We build the website, run the advertising, publish the content, and book the meetings.",
   alternates: { canonical: "/" },
 };
 

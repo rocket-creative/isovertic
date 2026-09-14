@@ -26,6 +26,7 @@ const pick = { value: "", label: "Pick one" };
 export const industries = [
   pick,
   { value: "Biotech or life science", label: "Biotech or life science" },
+  { value: "Pharma", label: "Pharma" },
   { value: "Healthcare practice or brand", label: "Healthcare practice or brand" },
   { value: "Medical devices", label: "Medical devices" },
   { value: "Life sciences tools and diagnostics", label: "Life sciences tools and diagnostics" },

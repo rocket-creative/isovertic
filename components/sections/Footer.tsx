@@ -22,6 +22,7 @@ const cols = [
     items: [
       ["All industries", "/industries"],
       ["Healthcare", "/industries/healthcare"],
+      ["Pharma", "/industries/pharma"],
       ["Biotech", "/industries/biotech"],
       ["Medical Devices", "/industries/medical-devices"],
       ["Life Sciences Tools and Diagnostics", "/industries/life-sciences-tools-and-diagnostics"],

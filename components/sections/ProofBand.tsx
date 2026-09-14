@@ -4,7 +4,7 @@ import { LinkedCopy } from "@/components/ui/ClientQuote";
 const stats = [
   {
     value: "Roughly 5x",
-    claim: "Form-fill lift for [ingenious targeting laboratory](/results#ingenious-targeting-laboratory), months five through eight versus the six-month baseline before start.",
+    claim: "Customer form-fill increase for [ingenious targeting laboratory](/results#ingenious-targeting-laboratory), months five through eight versus the six-month baseline before start.",
   },
   {
     value: "3.7x",

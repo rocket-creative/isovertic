@@ -12,7 +12,7 @@ export const auditMeta = {
   eyebrow: "The Pipeline Ownership Audit",
   h1: "Who owns the number?",
   lead: [
-    "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. A commercial system should produce one simple answer for the person signing the checks: who owns the number of qualified meetings this month? If the website team owns visits, the ad vendor owns clicks, and sales owns the missed follow-up, you do not have one answer. You have four reports and a familiar problem.",
+    "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. A commercial system should produce one simple answer for the person signing the checks: who owns the number of qualified meetings this month? If the website team owns visits, the ad vendor owns clicks, and sales owns the missed follow-up, you do not have one answer. You have four reports and a familiar problem.",
     "The Pipeline Ownership Audit is a six-minute self-assessment for CEOs, presidents, chief operating officers, chief financial officers, VPs of commercial, VPs of marketing, chief medical officers, medical directors, practice administrators, and directors of billing. Answer ten questions. You receive a score, a package recommendation, and a written diagnosis you can keep or ignore. Nobody calls you unless you ask.",
   ],
   completionTime: "6 min",
@@ -33,7 +33,7 @@ export const auditMeta = {
       "Sometimes the site is ready but nobody is publishing enough useful answers for the people already looking. The right start is Ground State at $2,500 per month: one published article, one newsletter to your list, eight social posts, and a monthly report.",
       "Sometimes your company needs meetings sooner and has at least $1,000 a month for Google Ads. Excitation at $5,000 per month plus spend adds a managed campaign, a landing page, and follow-up within one business day.",
       "Sometimes the calendar needs direct help. Amplification at $10,000 per month plus spend adds an outbound seat that books qualified meetings with written briefs. If you have capable internal people but no shared operating process, Protocol training may be the better answer at $5,000 for one department or $20,000 for the full team.",
-      "Sometimes the answer is Quantum Leap from $25,000 per month plus spend, the multi-brand program for later-stage healthcare, biotech, medical device, and life sciences tools and diagnostics groups running two or more brands.",
+      "Sometimes the answer is Quantum Leap from $25,000 per month plus spend, the multi-brand program for later-stage healthcare, pharma, biotech, medical device, and life sciences tools and diagnostics groups running two or more brands.",
       "The audit can also say you do not need us. That result saves you time and preserves our calendar for teams we can help. Everyone survives.",
     ] },
     { h2: "Regulated buyers get different recommendations", body: [

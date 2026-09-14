@@ -26,13 +26,13 @@ Do not load this skill for pure marketing execution with no strategy angle (a bl
 
 Source of truth: `CORE-MESSAGE-FOUNDATION.md` at the repo root and the live site (isovertic.com). If this section and that file disagree, the file wins. Updated September 10, 2026.
 
-**The one sentence.** The growth agency for healthcare, biotech, medical devices, and life sciences. One senior team owns your pipeline from the first search to the booked meeting.
+**The one sentence.** The growth agency for healthcare, pharma, biotech, medical devices, and life sciences. One senior team owns your pipeline from the first search to the booked meeting.
 
 **What Isovertic is.** A growth agency. Not a marketing agency (traffic and reports), not a web design company (a launch), not an appointment setter (meetings booked into whatever you already have). Six steps inside one boundary: Build, Rank, Run, Buy, Book, Educate. The client closes. The end result is a booked meeting, and Amplification and above carry the meeting number in writing.
 
 **Vocabulary.** Say "growth agency" or "ISOVERTIC." Never growth firm, growth company, growth engine, capture engine, pipeline systems shop, pipeline shop, or full service agency. Say "meetings," not customers we deliver. Say "the method" or "the same method on every account." Do not name or list the seven layers on any public page. Do not describe how we choose what to publish, bid on, or build.
 
-**ICP (ideal client):** healthcare, biotech, medical devices, and life sciences companies whose buyers are specialists (scientists, clinicians, billing directors, VPs of regulatory, practice administrators), because specialists search in exact vocabulary and almost nobody competes for those terms.
+**ICP (ideal client):** healthcare, pharma, biotech, medical devices, and life sciences companies whose buyers are specialists (scientists, clinicians, billing directors, VPs of regulatory, practice administrators), because specialists search in exact vocabulary and almost nobody competes for those terms.
 - Healthcare: practice groups, hospitals, health systems, revenue-cycle companies, dental and vet and urgent-care groups, telehealth, and digital health.
 - Biotech: therapeutics companies pre-clinical through commercial, research services, translational programs, and platform companies with a scientific buyer.
 - Medical devices: 510(k) and PMA companies making implants, diagnostics, surgical instruments, capital equipment, in vitro diagnostics, and wearables.

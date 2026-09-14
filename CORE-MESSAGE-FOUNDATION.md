@@ -4,7 +4,7 @@ Status: the positioning canon. Nothing here ships verbatim, but every line of si
 
 ## The one sentence
 
-The growth agency for healthcare, biotech, medical devices, and life sciences. One senior team owns your pipeline from the first search to the booked meeting.
+The growth agency for healthcare, pharma, biotech, medical devices, and life sciences. One senior team owns your pipeline from the first search to the booked meeting.
 
 That is the hat. It is what the homepage H1 says, what the meta title says, and what a client repeats when someone asks who we are.
 
@@ -77,7 +77,7 @@ Public case studies may name the client with those figures when written permissi
 | booked meeting, meeting on your calendar | customers we deliver, leads as the end result |
 | the method, the same method on every account | the seven layer method, long tail, hub and spoke, keyword architecture |
 | one senior team owns the pipeline | we build the website (as the lead claim) |
-| healthcare, biotech, medical devices, and life sciences | companies that sell to specialists (as the only category label) |
+| healthcare, pharma, biotech, medical devices, and life sciences | companies that sell to specialists (as the only category label) |
 | Ground State, Excitation, Amplification, Quantum Leap | Baseline, Catalyst, Kinetic, Critical Mass |
 | six steps: Build, Rank, Run, Buy, Book, Educate; you close | seven steps, funnel, growth hacking |
 | a published article, a newsletter, eight social posts, a landing page, a monthly report | strategy, optimization, content flywheel |

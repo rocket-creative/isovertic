@@ -88,12 +88,16 @@ export const tiers: Tier[] = [
     spend: "plus media",
     price: "From $25,000",
     per: "per month on a 12 month term, plus media",
-    for: "Multi-brand operation for later-stage healthcare, biotech, medical device, and life sciences groups. Two or more brands from one accountable team.",
+    for: "For later-stage healthcare, pharma, biotech, medical device, and life sciences companies. One brand or several, run by one accountable team.",
     includes: [
       "Everything in Amplification, run per brand",
-      "Two outbound seats",
+      "A second dedicated person calling and emailing your prospects",
       "Streaming and broadcast TV buying in your own accounts",
       "Creative production in house",
+      "Founder social: your executive's posts written, published, and monitored for replies worth answering",
+      "Speaking placements: conference and panel pitches written and submitted on your executive's behalf",
+      "Press releases written, distributed, and pitched to the trade press that covers your category",
+      "A managed YouTube channel doing three jobs: answering buyer questions before the sale, walking customers through the product after it, and training your own team inside the company",
       "Operations audit: lead flow map, automations, written SOPs",
       "Quarterly board ready growth review",
     ],
@@ -129,7 +133,7 @@ export const billing = {
   upfrontNote: "Amplification and Quantum Leap are paid quarterly.",
   eyebrow: "The term",
   h2: "Every package is a year. The website comes with it.",
-  intro: "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. Every engagement is 12 months because a year is the shortest honest window for a long-cycle account. Google Search Central explains that search changes need time to be processed and reflected. We report leading indicators every 30 days, then review pipeline and revenue at months six and 12 against the sales cycle in the agreement. Ground State and Excitation bill the term monthly, quarterly at 4 percent off, or up front at eleven months for twelve. Amplification and Quantum Leap are paid quarterly. The website rebuild and hosting come with every term.",
+  intro: "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. Every engagement is 12 months because a year is the shortest honest window for a long-cycle account. Google Search Central explains that search changes need time to be processed and reflected. We report leading indicators every 30 days, then review pipeline and revenue at months six and 12 against the sales cycle in the agreement. Ground State and Excitation bill the term monthly, quarterly at 4 percent off, or up front at eleven months for twelve. Amplification and Quantum Leap are paid quarterly. The website rebuild and hosting come with every term.",
   columns: ["What", "How it works"],
   rows: [
     ["Term", "12 months on every package. Nothing shorter is sold, including a paid search sprint."],
@@ -216,7 +220,7 @@ export const protocolTiers = [
 export const pricingHero = {
   eyebrow: "Pricing",
   lead: [
-    "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. Every package is a 12-month engagement. Every one includes a $15,000 website rebuild and hosting, spread across the year. The price is on this page before the call. You can start with card or bank debit without talking to us.",
+    "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. Every package is a 12-month engagement. Every one includes a $15,000 website rebuild and hosting, spread across the year. The price is on this page before the call. You can start with card or bank debit without talking to us.",
     "This page is for the founders, CEOs, presidents, VPs of commercial, chief scientific officers, chief medical officers, medical directors, VPs of regulatory, practice administrators, and directors of billing who prefer to compare prices in one place and choose. We build the website that gets found by the buyers already searching for what you sell, then we spend advertising only on those people. The packages add publishing, Google Ads, media, outbound, and training around that work.",
   ],
 };
@@ -254,8 +258,8 @@ export const tierNotes: { slug: Tier["slug"]; h2: string; body: string[] }[] = [
     slug: "quantum-leap",
     h2: "Quantum Leap, from $25,000 per month plus advertising spend",
     body: [
-      "Quantum Leap is the multi-brand program. It is for later-stage healthcare, biotech, medical device, and life sciences tools and diagnostics groups running two or more brands from one team, often reporting to a chief operating officer or a chief financial officer.",
-      "You get everything in Amplification, plus the full system run across two or more brands, two outbound seats, in-house creative production, media buying across streaming television, broadcast, and radio when it fits the sale, and a quarterly operations audit.",
+      "Quantum Leap is the full program. It is for later-stage healthcare, pharma, biotech, medical device, and life sciences tools and diagnostics companies, one brand or several, often reporting to a chief operating officer or a chief financial officer.",
+      "You get everything in Amplification, plus a second dedicated person calling and emailing your prospects, in-house creative production, media buying across streaming television, broadcast, and radio when it fits the sale, and a quarterly operations audit. It also adds the work that puts your executive in front of the market: their social posts written and published, conference and panel pitches submitted on their behalf, press releases written and pitched to the trade press, and a managed YouTube channel that answers buyer questions before the sale, walks customers through the product after it, and trains your own team inside the company. When you run more than one brand, the system runs per brand.",
       "Quantum Leap is billed quarterly, from $75,000 per quarter. Advertising spend is separate. This is not a larger version of a basic website project. It is an operating commitment across several commercial programs, with one team responsible for keeping the parts connected.",
     ],
   },
@@ -271,7 +275,7 @@ export const pricingContext = {
     "[Start a package](/pricing#tiers) with card or bank debit, no call required. Or [book a pipeline call](/contact) first if you would rather talk through the fit. Every package is a 12-month engagement. Every price is on the page.",
   ],
   comparisonH2: "Why a year",
-  comparison: "A 12-month term is not a way to make cancellation difficult. It is a way to avoid judging revenue before a buyer can reasonably close. Search work takes time to become visible. Google gives a four-month-to-one-year window. In healthcare, biotech, medical devices, and life sciences tools and diagnostics, a new commercial relationship can involve scientific review, clinical review, VP of regulatory sign-off, procurement, finance, and legal before a contract is signed. We do not ask you to wait a year without information. The monthly report shows what was published, what it did, and what happens next. The six- and 12-month reviews look at pipeline and revenue.",
+  comparison: "A 12-month term is not a way to make cancellation difficult. It is a way to avoid judging revenue before a buyer can reasonably close. Search work takes time to become visible. Google gives a four-month-to-one-year window. In healthcare, pharma, biotech, medical devices, and life sciences tools and diagnostics, a new commercial relationship can involve scientific review, clinical review, VP of regulatory sign-off, procurement, finance, and legal before a contract is signed. We do not ask you to wait a year without information. The monthly report shows what was published, what it did, and what happens next. The six- and 12-month reviews look at pipeline and revenue.",
 };
 
 export const pricingFaqs = [

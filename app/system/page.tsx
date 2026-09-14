@@ -15,7 +15,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: { absolute: "How the ISOVERTIC System Works | Six Steps That Book Meetings" },
-  description: "The six steps of the ISOVERTIC pipeline: Build, Rank, Run, Buy, Book, Educate. One team for healthcare, biotech, medical devices, and life sciences.",
+  description: "The six steps of the ISOVERTIC pipeline: Build, Rank, Run, Buy, Book, Educate. One team for healthcare, pharma, biotech, medical devices, and life sciences.",
   alternates: { canonical: "/system" },
 };
 

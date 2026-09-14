@@ -4,7 +4,7 @@ export const method = {
   eyebrow: "How it works",
   h1: "The six-step system that books qualified meetings",
   lead: [
-    "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. We build the website, run the advertising, publish the content, and book the meetings. One team, one number, one clock. This page is for the founders, CEOs, presidents, VPs of commercial, chief scientific officers, chief medical officers, and practice administrators who want to see the whole system before they buy.",
+    "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. We build the website, run the advertising, publish the content, and book the meetings. One team, one number, one clock. This page is for the founders, CEOs, presidents, VPs of commercial, chief scientific officers, chief medical officers, and practice administrators who want to see the whole system before they buy.",
     "The system has one purpose: bring the buyer already searching for what you sell to a qualified meeting with your sales team. The website does the first part. The five other steps make that work reach farther, move faster, or become teachable inside your company.",
     "Every engagement uses the same six steps: Build, Rank, Run, Buy, Book, and Educate. Your package sets which steps we operate and how deep each one goes. The steps do not change.",
   ],
@@ -44,7 +44,7 @@ export const method = {
         n: "04",
         title: "Buy. Streaming television, broadcast, and radio when recognition helps",
         body: [
-          "What it does. Buy places advertising in streaming television, broadcast, and radio when name recognition assists the sale. It gives growing healthcare, biotech, medical device, and life sciences companies access to media options that used to require a much larger operation.",
+          "What it does. Buy places advertising in streaming television, broadcast, and radio when name recognition assists the sale. It gives growing healthcare, pharma, biotech, medical device, and life sciences companies access to media options that used to require a much larger operation.",
           "What shows up. Available at Amplification and Quantum Leap. Creative, buying, and reporting from one team. Measurement that connects spend to inbound activity.",
           "Honest limit. Media is useful when recognition helps close a high-consideration sale, such as regional healthcare or a complex business purchase reviewed by five or more people. It is not the first move for a company whose website cannot yet be found or defended.",
         ],
@@ -73,7 +73,7 @@ export const method = {
     h2: "How the system is measured",
     body: [
       "The first 90 days are a written ramp with deliverables named in the agreement. Every 30 days we report the leading signs: publishing, site activity, advertising results, conversions, and cost per meeting where paid work is active.",
-      "At months six and 12 we review pipeline and revenue against your actual sales cycle. A year is the shortest window in which a long healthcare, biotech, medical device, or life sciences tools and diagnostics sale can move from a first click to a signed contract. Healthcare sales average 125 days to 24 months, and buying committees can include a chief scientific officer, a chief medical officer, a VP of regulatory, a practice administrator, a director of billing, procurement, and legal.",
+      "At months six and 12 we review pipeline and revenue against your actual sales cycle. A year is the shortest window in which a long healthcare, pharma, biotech, medical device, or life sciences tools and diagnostics sale can move from a first click to a signed contract. Healthcare sales average 125 days to 24 months, and buying committees can include a chief scientific officer, a chief medical officer, a VP of regulatory, a practice administrator, a director of billing, procurement, and legal.",
     ],
   },
   proof: {

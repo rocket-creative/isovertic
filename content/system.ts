@@ -36,7 +36,7 @@ export const trustStrip = [
 export const heroAudit = { label: "Take the Pipeline Ownership Audit", href: "/audit" };
 
 // Brand tagline. Hero eyebrow and footer, one source.
-export const tagline = "The growth agency for healthcare, biotech, medical devices, and life sciences.";
+export const tagline = "The growth agency for healthcare, pharma, biotech, medical devices, and life sciences.";
 
 // Buyer role tabs. The founder tab keeps the framing from the problem section; the CFO and CRO tabs answer the
 // question each of them walks in with, and point to the page that shows the math.
@@ -55,7 +55,7 @@ export const buyerRoles = {
       key: "cfo",
       tab: "CFO or finance lead",
       question: "Is $10,000 a month worth it against hiring in house?",
-      body: "We publish the cost-per-meeting method, the tier economics, and a model that puts a fully loaded hire beside every tier over 24 months, with your salary, load, and deal value in it. You see the math before the call, and you see the month we agree to be judged on revenue.",
+      body: "We publish the cost-per-meeting method, the tier economics, and a model that puts a fully loaded hire beside every tier over 24 months, with your salary, benefits, overhead, and deal value in it. You see the math before the call, and we agree up front on the month when revenue becomes the measure.",
       cta: { label: "Run the agency versus in-house model", href: "/resources/agency-vs-inhouse" },
     },
     {
@@ -72,13 +72,14 @@ export const commitmentStandard = { label: "What results to expect, and when", h
 
 // Homepage copy. Rewritten 2026-09-10 from Site Rewrite v3.
 export const home = {
-  h1: "The Growth Agency for Healthcare, Biotech, Medical Devices, and Life Sciences",
-  sub: "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. We build the website, run the advertising, publish the content, and book the meetings. One senior team owns every step, and we report a single number: the cost of each qualified meeting we put on your calendar. The job is to take the buyer already searching for what you sell and hand that person to your sales team. Your website does that first part. The five other steps carry the work farther, move it faster, or teach it to your own staff. Founders, CEOs, presidents, and vice presidents hire us when their marketing has to hold up for a scientific, clinical, or compliance reader. A chief scientific officer, a chief medical officer, a medical director, a principal investigator, a practice administrator, or a compliance officer will read it closely, and looking good on a screen is not enough.",
+  h1: "The Growth Agency for Healthcare, Pharma, Biotech, Medical Devices, and Life Sciences",
+  sub: "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. We build the website, run the advertising, publish the content, and book the meetings. One senior team owns every step, and we report a single number: the cost of each qualified meeting we put on your calendar. The job is to take the buyer already searching for what you sell and hand that person to your sales team. Your website does that first part. The five other steps carry the work farther, move it faster, or teach it to your own staff. Founders, CEOs, presidents, and vice presidents hire us when their marketing has to hold up for a scientific, clinical, or compliance reader. A chief scientific officer, a chief medical officer, a medical director, a principal investigator, a practice administrator, or a compliance officer will read it closely, and looking good on a screen is not enough.",
   who: {
     h2: "Who we work with",
-    intro: "We serve four kinds of companies:",
+    intro: "We serve five kinds of companies:",
     items: [
       { name: "Healthcare.", body: "Practice groups, hospitals, health systems, revenue-cycle companies, dental and vet and urgent-care groups, telehealth, and digital health." },
+      { name: "Pharma.", body: "Commercial-stage drug makers, specialty and generic manufacturers, and the brand and medical affairs teams whose material has to clear medical, legal, and regulatory review before it publishes." },
       { name: "Biotech.", body: "Therapeutics companies pre-clinical through commercial, research services, translational programs, and platform companies with a scientific buyer." },
       { name: "Medical devices.", body: "510(k) and PMA companies making implants, diagnostics, surgical instruments, capital equipment, in vitro diagnostics, and wearables." },
       { name: "Life sciences tools and diagnostics.", body: "Reagents, antibodies, kits, instruments, mouse models, cell lines, laboratory automation, and the diagnostics companies that sell into hospitals and reference labs." },
@@ -102,7 +103,7 @@ export const home = {
     body: [
       "Ingenious Targeting Laboratory, a mouse-model company selling to research scientists, moved from 13 monthly form submissions to about 64 in its first eight months with Isovertic. Its organic search traffic rose 3.7 times in that period. Internal, September 2026.",
       "Sydra Health, a revenue-cycle company serving healthcare billing directors, went from no online presence in mid-June 2026 to roughly one qualified meeting a week on about $1,000 in monthly advertising spend and $2,500 in monthly site work. Internal, September 2026.",
-      "Both are unusual for their category and neither is a promise for yours. They are examples of what happens when the site can carry the sales argument and one team owns the number at the end.",
+      "Both figures are internal operating results from two accounts, measured in our own reporting. They are not audited, not a controlled study, and not a sample large enough to predict your outcome. Your category, your budget, your offer, and the length of your sales cycle all change the result. What these two accounts show is the mechanism we sell: when the website can carry the sales argument and one team owns the number at the end, the meetings come from buyers who were already looking.",
     ],
   },
   tiers: {
@@ -111,7 +112,7 @@ export const home = {
     items: [
       {
         name: "Ground State, $2,500 per month",
-        for: "For a company that needs to show up consistently before it adds advertising or outbound. Each month you get:",
+        for: "For a company that needs to show up consistently before it adds advertising or outbound calls and emails. Each month you get:",
         list: [
           "One published article on your site",
           "One newsletter sent to your list",
@@ -122,28 +123,28 @@ export const home = {
       },
       {
         name: "Excitation, $5,000 per month plus advertising spend",
-        for: "For a company with a real offer, a working conversion path, and $1,000 to $5,000 a month available for Google Ads. Everything in Ground State, plus:",
+        for: "For a company with settled pricing, someone on staff who answers inbound inquiries, and $1,000 to $5,000 a month available for Google Ads. Everything in Ground State, plus:",
         list: [
           "One Google Ads campaign, built and managed",
           "One landing page for the campaign, refreshed as needed",
-          "Lead follow-up within one business day",
-          "16 social posts a month",
+          "Automated lead follow-up within 30 seconds",
+          "An additional 8 social posts a month, for 16 in total",
           "A 60-minute monthly strategy call with the account lead",
         ],
       },
       {
         name: "Amplification, $10,000 per month plus advertising spend",
-        for: "For a company with a defined ideal client, at least $5,000 a month for advertising, and a named person who owns the calendar. Everything in Excitation, plus:",
+        for: "For a company with a defined ideal client, at least $5,000 a month for advertising, and a designated person who owns the calendar. Everything in Excitation, plus:",
         list: [
           "Higher-volume publishing, including a YouTube channel",
-          "One outbound seat that books qualified meetings with a written brief, verified against the meeting quality standard",
+          "One dedicated person on our team who calls and emails your prospects and books qualified meetings, each with a written brief and verified against the meeting quality standard",
           "Weekly account review",
           "The option to add the HIPAA or MLR compliance stack",
         ],
       },
       {
         name: "Quantum Leap, from $25,000 per month plus advertising spend",
-        for: "For later-stage healthcare, biotech, medical device, and life sciences groups running two or more brands. Everything in Amplification, plus the system run across brands, two outbound seats, in-house creative production, media buying across streaming and broadcast, and a quarterly operations audit.",
+        for: "For later-stage healthcare, pharma, biotech, medical device, and life sciences companies. Everything in Amplification on one brand, plus a second dedicated person calling and emailing your prospects, creative produced in house, streaming television and radio buying, and a quarterly review of how a lead moves through your company. It also covers the work that puts you in front of the market: your social posts written and published, conference and panel pitches submitted on your behalf, press releases written and pitched to the trade press, and a managed YouTube channel that answers buyer questions before the sale, walks customers through the product after it, and trains your own team inside the company. Advertising is billed as a percentage of your spend.",
         list: [] as string[],
       },
     ],

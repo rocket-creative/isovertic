@@ -10,7 +10,7 @@ export const industries: Page[] = [
     eyebrow: "Healthcare",
     h1: "The growth agency for healthcare: meetings that pass audit.",
     lead: [
-      "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. This page is about healthcare specifically: practice groups, hospitals, health systems, revenue-cycle companies, dental and vet and urgent-care groups, telehealth, and digital health. If you are on the therapeutics, device, or research-tools side of the same organization, we cover those too. Our [biotech page](/industries/biotech), [medical devices page](/industries/medical-devices), and [life sciences tools and diagnostics page](/industries/life-sciences-tools-and-diagnostics) show what changes when the buyer is a chief scientific officer or a VP of regulatory instead of a practice administrator.",
+      "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. This page is about healthcare specifically: practice groups, hospitals, health systems, revenue-cycle companies, dental and vet and urgent-care groups, telehealth, and digital health. If you are on the therapeutics, device, or research-tools side of the same organization, we cover those too. Our [biotech page](/industries/biotech), [medical devices page](/industries/medical-devices), and [life sciences tools and diagnostics page](/industries/life-sciences-tools-and-diagnostics) show what changes when the buyer is a chief scientific officer or a VP of regulatory instead of a practice administrator.",
       "If you are a practice administrator, medical director, chief medical officer, revenue-cycle director, director of billing, hospital marketing lead, compliance officer, chief operating officer, or president of a specialty group, you already know the awkward truth. A new campaign can create work for three departments before it creates one appointment. Compliance asks where the data goes. Billing asks whether the patient is eligible. Operations asks where the schedule has room. Your team is not being difficult. It is protecting a care operation.",
       "The honest big thing is simple. A form, a call recording, or a page with the wrong tracker can turn ordinary appointment marketing into a privacy question. The Office for Civil Rights guidance on online tracking technologies still matters after the June 2024 decision in American Hospital Association v. Becerra, No. 4:23-cv-01110-P (N.D. Tex.), which did not erase the rest of HIPAA's Privacy Rule. The [OCR guidance](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html) and the [court ruling](https://www.aha.org/legal-documents/2024-06-20-aha-v-becerra-court-ruling-online-tracking-technologies) are worth having in the same meeting.",
       "We build the appointment path so it can be inspected, explained, and used by the people who answer the phone. You will leave with a practical picture of what belongs on a compliant path, what does not, and what we can actually fix.",
@@ -98,6 +98,102 @@ export const industries: Page[] = [
     ],
   },
   {
+    slug: "pharma",
+    title: "The Growth Agency for Pharma: Promotion That Clears MLR and OPDP | ISOVERTIC",
+    dateModified: "2026-09-14",
+    metaDescription: "The growth agency for pharma: commercial-stage drug makers, specialty and generic manufacturers, and brand and medical affairs teams. An MLR review gate, fair balance discipline, and meetings a medical director can trust.",
+    eyebrow: "Pharma",
+    h1: "The growth agency for pharma: promotion that clears review before it clears the calendar.",
+    lead: [
+      "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. This page is about pharma: commercial-stage drug makers, specialty and generic manufacturers, and the brand, commercial, and medical affairs teams whose material has to clear medical, legal, and regulatory review before anyone outside the building reads it. If your company is pre-commercial, our [biotech page](/industries/biotech) is closer to your situation. If you sell a combination product or a device arm alongside the drug, the [medical devices page](/industries/medical-devices) covers what changes when the buyer is a clinical engineer or a value analysis committee.",
+      "Founders, chief commercial officers, VPs of marketing, brand leads, medical affairs directors, and the medical, legal, and regulatory reviewers who sign off are not the obstacle. The obstacle is a production process that hands review a draft with no source attached, no version history, and a deadline that was set before anyone asked what the claim actually says.",
+      "The honest big thing is that pharma promotion fails on process far more often than it fails on creative. Prescription drug advertising carries requirements that consumer marketing does not: the presentation of risk, the relationship between a claim and the approved labeling, and a record that survives inspection. The requirements for prescription drug advertisements sit in [21 CFR 202.1](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-202/section-202.1), and FDA's [Office of Prescription Drug Promotion](https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/office-prescription-drug-promotion-opdp) is the office that reviews it.",
+      "We build the site, publish the content, and run the advertising with the review record built into the workflow rather than bolted on at the end. Your reviewer sees the source, the version, and the approver without opening five folders.",
+    ],
+    callout: {
+      label: "Typical starting point",
+      body: "Start with Ground State at $2,500 per month and add the MLR review gate. If your approved claim library already exists and you have $1,000 to $5,000 a month available for Google Ads, Excitation is the next sensible step. Pricing is published.",
+    },
+    sections: [
+      { h2: "What you'll take away", body: [], list: [
+        "Why a promotional claim needs its approved source attached before the copy moves, not after review asks.",
+        "What an MLR review gate changes for a brand lead, a medical affairs director, and the reviewer who signs.",
+        "How firm communications to health care providers about unapproved uses differ from promotional work.",
+        "Why speaker programs and sponsored content carry risk that a marketing calendar does not see.",
+        "Which package makes sense before a pharma brand team adds another agency.",
+      ]},
+      { h2: "What actually breaks in pharma marketing", body: [], subs: [
+        { h3: "The claim arrives at review without its source", body: [
+          "A promotional claim has to trace to the approved labeling or an approved data source. When the draft reaches the reviewer with the claim written and the citation missing, review becomes research, and a two-day cycle becomes two weeks. The fix is upstream: the source is attached when the claim is written.",
+        ]},
+        { h3: "Risk information is treated as a layout problem", body: [
+          "The presentation of risk is a requirement, not a design preference, and it applies across the pieces a brand team ships. When risk is handled at the end by whoever is building the asset, it gets inconsistent across the site, the ad, and the leave-behind. Then review has to catch the same issue three times.",
+        ]},
+        { h3: "Promotional work drifts toward medical affairs", body: [
+          "A brand team wants to answer a real clinical question. Medical affairs owns part of that answer, and the boundary matters. FDA's guidance on [communications from firms to health care providers about unapproved uses](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/communications-firms-health-care-providers-regarding-scientific-information-unapproved-uses) describes the enforcement policy for that category of communication. Note that the January 2025 final guidance says it is not for current implementation pending an Office of Management and Budget decision on the collection of information, which is exactly the kind of detail your regulatory lead will want to confirm rather than take from a vendor.",
+        ]},
+        { h3: "Speaker programs are planned like events, not like risk", body: [
+          "A speaker program is a marketing activity with fraud and abuse exposure attached. The HHS Office of Inspector General issued a [Special Fraud Alert on speaker programs](https://www.oig.hhs.gov/documents/special-fraud-alerts/865/SpecialFraudAlertSpeakerPrograms.pdf) in November 2020 listing the characteristics that raise enforcement risk. Payments to health care professionals are also reportable and publicly searchable through [Open Payments](https://openpaymentsdata.cms.gov/). Marketing does not get to plan these alone.",
+        ]},
+        { h3: "Nobody can reconstruct what was approved", body: [
+          "Six months later, a question arrives about a claim on a page. If the answer requires three people and a shared drive archaeology project, the process is the problem, not the page.",
+        ]},
+      ]},
+      { h2: "What we do differently for pharma", body: [], subs: [
+        { h3: "An MLR review gate with a named owner", body: [
+          "The usual add-on for pharma is the MLR review gate, $500 to $1,200 per month plus setup. We route each asset to the medical, legal, and regulatory reviewers you name, keep a sign-off log per asset, and maintain an approved claim library your team reuses instead of rewriting. The goal is not to shortcut review. It is to make the review record inspectable.",
+        ]},
+        { h3: "Claim to source, before the copy moves", body: [
+          "Every promotional claim carries its approved source, the population it applies to, its limitation, and its intended audience, recorded at the moment it is written. A brand lead can still write plainly. Plain language does not require dropping the qualification that makes the claim true.",
+        ]},
+        { h3: "Risk presentation handled as a standard, once", body: [
+          "We set how risk information appears across the site, the landing pages, and the campaign assets, then build to that standard everywhere rather than deciding per asset. Review stops catching the same issue in three places.",
+        ]},
+        { h3: "A boundary between promotional and scientific communication", body: [
+          "We work from the approved boundary your regulatory lead sets, then label and route material so a commercial request does not quietly become a medical claim, and so a genuine clinical question reaches medical affairs instead of being answered by a landing page.",
+        ]},
+        { h3: "Measurement your commercial team can act on", body: [
+          "A VP of marketing needs to know which page produced which conversation, and a medical director needs to know that nothing unapproved reached a prescriber. We report cost per qualified meeting alongside the review record, so the commercial number and the compliance record come from the same system.",
+        ]},
+      ]},
+      { h2: "What actually shows up each month", body: [
+        "Every package includes named deliverables, not strategy. On Ground State at $2,500 per month, each month you get one article published on your site, one newsletter sent to your list, eight social posts, one short monthly report, and the website rebuild and hosting spread across the year. On Excitation at $5,000 per month plus advertising spend, you also get one managed Google Ads campaign, one campaign landing page refreshed as needed, an additional eight social posts, automated inbound follow-up, and a monthly strategy call with the account lead. The MLR review gate and the full add-on list are on the [pricing page](/pricing).",
+      ]},
+      { h2: "Proof, before the pitch", body: [
+        "We do not have a published pharma case study yet, and we are not going to borrow one. What we can show you is the closest adjacent work. Ingenious Targeting Laboratory, a mouse-model company selling to research scientists and principal investigators, moved from 13 monthly form submissions to about 64 in its first eight months with Isovertic, and its organic search traffic rose 3.7 times in that period. Internal, September 2026. Those are internal operating results for one account, not a controlled study, and not a promise for a pharma brand with a review gate and a different buyer.",
+        "What transfers from that account is the operating shape: attach the claim to its source, publish on a real cadence, make the review record usable, and connect the published work to the conversation it produced. What does not transfer is the timeline. A regulated brand with an MLR gate moves slower in the first quarter than a research-tools company, and we would rather say that now than explain it at month three.",
+      ]},
+      { h2: "The package you'd probably start on", body: [
+        "Start with Ground State at $2,500 per month and add the MLR review gate. That combination gives your reviewer and your brand team a quarter to build the approved claim library and settle the approval rhythm before paid work adds another moving part. It is a 12-month engagement and it includes the website rebuild across the year.",
+        "If the claim library already exists, the intake path is approved, and you have $1,000 to $5,000 a month available for Google Ads, Excitation at $5,000 per month plus advertising spend is the next step. We will not recommend paid promotion before the review path can keep up with it.",
+      ]},
+      { h2: "The honest limits", body: [
+        "We cannot speed up an FDA decision, write around your approved labeling, or make a claim your reviewer will not sign. We cannot replace your regulatory, medical, or legal judgment, and we do not offer an opinion on whether a specific piece complies. We can give the people who own those calls a process that is faster to run and easier to inspect.",
+      ]},
+      { h2: "Disclaimer", body: [
+        "This piece is a marketing operating framework, not legal advice. Promotional compliance for pharma depends on your product's approval status, your approved labeling, and applicable FDA regulation and guidance. The controlling sources include [21 CFR 202.1](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-202/section-202.1), FDA guidance published through the [Office of Prescription Drug Promotion](https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/office-prescription-drug-promotion-opdp), and the OIG [Special Fraud Alert on speaker programs](https://www.oig.hhs.gov/documents/special-fraud-alerts/865/SpecialFraudAlertSpeakerPrograms.pdf). Consult qualified regulatory counsel before implementing any of the above.",
+      ]},
+    ],
+    showQuotePlaceholder: true,
+    disciplineNote: biotechMolecularBiologist,
+    pipelineCta: {
+      headline: "Send us the page your reviewer argued about last.",
+      body: "If you would rather talk it through, [book a pipeline call](/contact) and send us the page your reviewer argued about last, or your best-converting landing page. In about ten minutes we will tell you whether the problem is the claim, the risk presentation, or the process that produced it, and what a rebuild would cost, or whether you need one at all. Sometimes the honest answer is you are already fine, and we are happy to say so and hand you back your afternoon.",
+    },
+    faqs: [
+      { q: "Can you work inside our existing MLR process?", a: "Yes. We route to the reviewers you name and keep the sign-off log in the format your team already uses. The MLR review gate add-on is $500 to $1,200 per month plus setup, on any package." },
+      { q: "Do you give regulatory advice on whether a piece complies?", a: "No. Your medical, legal, and regulatory reviewers own that call, and so does your regulatory counsel. We own the process that gets them a clean draft with the source attached." },
+      { q: "Who writes the technical content?", a: "Content writers on staff, with a molecular biologist on staff reviewing scientific material before it reaches your MLR reviewer. That review catches terminology errors that would otherwise waste a reviewer's cycle." },
+      { q: "How long does a pharma engagement take to show results?", a: "Slower than an unregulated account in the first quarter, because the claim library and approval rhythm come first. We report leading indicators every 30 days and review pipeline and revenue at months six and 12 against your actual sales cycle." },
+    ],
+    related: [
+      { label: "Biotech", href: "/industries/biotech" },
+      { label: "Medical devices", href: "/industries/medical-devices" },
+      { label: "SEO and content", href: "/seo-content" },
+      { label: "Pricing", href: "/pricing" },
+    ],
+  },
+  {
     slug: "biotech",
     title: "The Growth Agency for Biotech: Meetings That Hold Up in MLR Review | ISOVERTIC",
     dateModified: "2026-09-10",
@@ -105,9 +201,9 @@ export const industries: Page[] = [
     eyebrow: "Biotech",
     h1: "The growth agency for biotech: meetings that hold up in MLR review.",
     lead: [
-      "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. This page is about biotech: therapeutics companies pre-clinical through commercial, research services, translational programs, and platform companies with a scientific buyer. Many biotech operators also have a device arm, a diagnostics pipeline, or a hospital-facing service line. If that is you, our [medical devices page](/industries/medical-devices), [life sciences tools and diagnostics page](/industries/life-sciences-tools-and-diagnostics), and [healthcare page](/industries/healthcare) show what changes when the buyer is a lab director, a director of clinical affairs, or a practice administrator.",
+      "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. This page is about biotech: therapeutics companies pre-clinical through commercial, research services, translational programs, and platform companies with a scientific buyer. Many biotech operators also have a device arm, a diagnostics pipeline, or a hospital-facing service line. If that is you, our [medical devices page](/industries/medical-devices), [life sciences tools and diagnostics page](/industries/life-sciences-tools-and-diagnostics), and [healthcare page](/industries/healthcare) show what changes when the buyer is a lab director, a director of clinical affairs, or a practice administrator.",
       "Founders, chief executive officers, chief scientific officers, VP of research, VP of regulatory, VP of communications, VP of commercial, medical and legal and regulatory reviewers, principal investigators running startups, and directors of translational research are not allergic to marketing. You are allergic to someone sanding off the scientific conditions until a result means something it did not mean. Fair.",
-      "The honest big thing is that a biotech page can be technically literate and still be commercially unsafe. A claim has an audience, a qualification, a source, and sometimes a regulatory boundary. FDA's guidance on [communications about unapproved uses of approved or cleared medical products](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/communications-firms-unapproved-uses-approved-cleared-medical-products) is not a suggestion to let promotional work wander into medical affairs.",
+      "The honest big thing is that a biotech page can be technically literate and still be commercially unsafe. A claim has an audience, a qualification, a source, and sometimes a regulatory boundary. FDA's guidance on [communications about unapproved uses of approved or cleared medical products](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/communications-firms-health-care-providers-regarding-scientific-information-unapproved-uses) is not a suggestion to let promotional work wander into medical affairs.",
       "We help your team publish work that a researcher can read without wincing and a reviewer can trace without detective work. You get a production process that respects translational research, commercial deadlines, and the person who has to approve the final asset.",
     ],
     callout: {
@@ -144,7 +240,7 @@ export const industries: Page[] = [
           "We attach a source to the claim before the copy moves forward. That source might be a peer-reviewed paper, protocol, prescribing information, investigator brochure, validation dataset, or an internally approved summary. We record the population, model, endpoint, limitation, and intended audience. A founder or chief scientific officer can still speak plainly. Plain language does not require pretending that a mouse model is a patient.",
         ]},
         { h3: "Clear boundaries for scientific information", body: [
-          "FDA's guidance addresses firms communicating scientific information on unapproved uses of approved or cleared products. The [current FDA guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/communications-firms-unapproved-uses-approved-cleared-medical-products) is the place to start with your regulatory lead. We work from the approved boundary, then label and route material so commercial requests do not become informal medical claims.",
+          "FDA's guidance addresses firms communicating scientific information on unapproved uses of approved or cleared products. The [current FDA guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/communications-firms-health-care-providers-regarding-scientific-information-unapproved-uses) is the place to start with your regulatory lead. We work from the approved boundary, then label and route material so commercial requests do not become informal medical claims.",
         ]},
         { h3: "Pages that respect the researcher's question", body: [
           "We write for a scientist trying to decide whether your platform, assay, therapeutic hypothesis, or contract research organization can answer a real experimental question. The page needs the right biological context, model limitations, readout, and next step. We have a method for deciding what to publish. We do not publish that method. Your audience sees a useful explanation and a clear route to the scientist or commercial person who can answer the next question.",
@@ -169,7 +265,7 @@ export const industries: Page[] = [
         "We cannot manufacture clinical data, accelerate an FDA decision, or make an early research signal into proof of patient benefit. We cannot make an investigator answer inquiries faster. And we cannot replace your medical, legal, regulatory, or scientific judgment. We can give those people a process that is easier to inspect and run.",
       ]},
       { h2: "Disclaimer", body: [
-        "This piece is a marketing operating framework, not legal advice. Promotional review for biotech depends on your regulatory status, product stage, and applicable FDA guidance. The controlling sources include the [FDA guidance on communications from firms about unapproved uses](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/communications-firms-unapproved-uses-approved-cleared-medical-products) and your company's approved labeling. Consult qualified regulatory counsel before implementing any of the above.",
+        "This piece is a marketing operating framework, not legal advice. Promotional review for biotech depends on your regulatory status, product stage, and applicable FDA guidance. The controlling sources include the [FDA guidance on communications from firms about unapproved uses](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/communications-firms-health-care-providers-regarding-scientific-information-unapproved-uses) and your company's approved labeling. Consult qualified regulatory counsel before implementing any of the above.",
       ]},
     ],
     showQuotePlaceholder: true,
@@ -199,7 +295,7 @@ export const industries: Page[] = [
     eyebrow: "Medical devices",
     h1: "The growth agency for medical devices: 510(k) and PMA.",
     lead: [
-      "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. This page is about medical devices: 510(k) and PMA companies making implants, diagnostics, surgical instruments, capital equipment, in vitro diagnostics, and wearables. If your organization also has a therapeutic pipeline, a research-tools catalog, or a hospital-facing service line, our [biotech page](/industries/biotech), [life sciences tools and diagnostics page](/industries/life-sciences-tools-and-diagnostics), and [healthcare page](/industries/healthcare) show what changes when the buyer is a chief scientific officer, a laboratory director, or a practice administrator.",
+      "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. This page is about medical devices: 510(k) and PMA companies making implants, diagnostics, surgical instruments, capital equipment, in vitro diagnostics, and wearables. If your organization also has a therapeutic pipeline, a research-tools catalog, or a hospital-facing service line, our [biotech page](/industries/biotech), [life sciences tools and diagnostics page](/industries/life-sciences-tools-and-diagnostics), and [healthcare page](/industries/healthcare) show what changes when the buyer is a chief scientific officer, a laboratory director, or a practice administrator.",
       "If you are a chief executive officer, president, VP of commercial, VP of marketing, VP of regulatory, director of clinical affairs, quality director, or chief medical officer at a 510(k) or PMA-track device company, you have likely received a page draft that says the device is \"FDA approved\" when it is cleared. The correction seems small to the person who wrote it. It is not small to you.",
       "The honest big thing is that commercial language has to follow the device's actual path. FDA explains the [510(k) pathway](https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/premarket-notification-510k) and the [PMA pathway](https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/premarket-approval-pma) separately because they are separate. A Class II cleared diagnostic, a Class III PMA implant, and an investigational wearable cannot be described as though they share the same evidence and indication.",
       "We help your commercial team say enough to earn the next meeting without asking regulatory to spend every Friday repairing adjectives. You get a claims process, a review record, and work that acknowledges the people who must use, evaluate, or purchase the device.",
@@ -293,7 +389,7 @@ export const industries: Page[] = [
     eyebrow: "Life sciences tools",
     h1: "The growth agency for life sciences tools and diagnostics.",
     lead: [
-      "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. This page is about life sciences tools and diagnostics: reagents, antibodies, kits, instruments, mouse models, cell lines, laboratory automation, and the diagnostics companies that sell into hospitals and reference labs. If your organization also has a therapeutic pipeline, a 510(k) or PMA device program, or a hospital-facing service line, our [biotech page](/industries/biotech), [medical devices page](/industries/medical-devices), and [healthcare page](/industries/healthcare) show what changes when the buyer is a VP of regulatory, a director of clinical affairs, or a practice administrator.",
+      "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. This page is about life sciences tools and diagnostics: reagents, antibodies, kits, instruments, mouse models, cell lines, laboratory automation, and the diagnostics companies that sell into hospitals and reference labs. If your organization also has a therapeutic pipeline, a 510(k) or PMA device program, or a hospital-facing service line, our [biotech page](/industries/biotech), [medical devices page](/industries/medical-devices), and [healthcare page](/industries/healthcare) show what changes when the buyer is a VP of regulatory, a director of clinical affairs, or a practice administrator.",
       "Chief scientific officers, founder-scientists, VP of commercial, product managers, laboratory directors, and principal investigators turned CEOs know the job is not \"make us look scientific.\" You already are scientific. The job is to let the right researcher assess whether your reagent, antibody, kit, instrument, mouse model, cell line, in vitro diagnostic, or lab automation system belongs in the experiment they are planning.",
       "The honest big thing is that researchers can spot a thin product page quickly. They need clone identity, species reactivity, validation context, assay compatibility, genotype, strain background, throughput, workflow, or performance information. The required detail changes by product. A vague promise does not make the page simpler. It makes the scientist leave and ask a colleague.",
       "We build pages and programs that respect the research question and hand the commercial team a real conversation to follow up on. You will leave with a practical plan for publishing useful scientific material, connecting it to a meeting request, and keeping claims under control.",

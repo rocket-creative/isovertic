@@ -25,7 +25,7 @@ export const people: Person[] = [
     card: "Full-stack engineer with more than 30 years building the systems companies sell through. He built the method Isovertic runs on and stays on every account as the standards owner and the escalation path. When search algorithms shift or a compliance question comes up, you get his engineering judgment. Day-to-day execution runs on the team he trained.",
     initials: "GS",
     bio: [
-      "Full-stack engineer with more than 30 years building the systems companies sell through. He has shipped products of his own and run go-to-market for healthcare, biotech, medical device, and life sciences companies.",
+      "Full-stack engineer with more than 30 years building the systems companies sell through. He has shipped products of his own and run go-to-market for healthcare, pharma, biotech, medical device, and life sciences companies.",
       "ISOVERTIC is the method he built, written down so the team can run it. George stays on every account as the standards owner and the escalation path. When search algorithms shift or a compliance question comes up, you get his engineering judgment. Day-to-day execution runs on the team he trained.",
       "He started ISOVERTIC because every owner he worked with was buying these capabilities in pieces, from vendors who never spoke, and wondering why the pieces never became a pipeline.",
     ],

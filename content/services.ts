@@ -8,10 +8,10 @@ export const services: Page[] = [
     slug: "outbound-appointment-setting",
     title: "Qualified Meetings on Your Calendar, Each With a Written Brief | ISOVERTIC",
     dateModified: "2026-09-10",
-    metaDescription: "Outbound appointment setting for healthcare, biotech, medical devices, and life sciences. Qualified meetings on your calendar, each with a written brief.",
+    metaDescription: "Outbound appointment setting for healthcare, pharma, biotech, medical devices, and life sciences. Qualified meetings on your calendar, each with a written brief.",
     eyebrow: "Outbound",
     h1: "Qualified meetings on your calendar, each with a written brief.",
-    lead: "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences tools and diagnostics. We run outbound appointment setting as part of the same team that built your site, wrote your material, and supports the sales conversation after the meeting. CEOs, presidents, chief operating officers, VPs of commercial, VPs of marketing, and founders hire us when their salespeople are spending too much time prospecting and not enough time in real conversations with a chief medical officer, a chief scientific officer, a director of billing, a principal investigator, or a practice administrator.",
+    lead: "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences tools and diagnostics. We run outbound appointment setting as part of the same team that built your site, wrote your material, and supports the sales conversation after the meeting. CEOs, presidents, chief operating officers, VPs of commercial, VPs of marketing, and founders hire us when their salespeople are spending too much time prospecting and not enough time in real conversations with a chief medical officer, a chief scientific officer, a director of billing, a principal investigator, or a practice administrator.",
     callout: {
       label: "Where this lives",
       body: "Amplification includes one outbound seat. Quantum Leap includes two outbound seats. You can add a seat to any package for $4,500 per month. A conference sprint is $7,500 per event. We define what counts as a meeting, we verify each one, and we report cost per qualified meeting. Pricing is published.",
@@ -69,10 +69,10 @@ export const services: Page[] = [
     slug: "google-ads",
     title: "Google Ads Measured in Booked Meetings, Not Clicks | ISOVERTIC",
     dateModified: "2026-09-10",
-    metaDescription: "Google Ads for healthcare, biotech, medical devices, and life sciences, measured in booked meetings and cost per meeting, not clicks.",
+    metaDescription: "Google Ads for healthcare, pharma, biotech, medical devices, and life sciences, measured in booked meetings and cost per meeting, not clicks.",
     eyebrow: "Paid search",
     h1: "Google Ads measured in booked meetings, not clicks.",
-    lead: "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences tools and diagnostics. We build and run Google Ads campaigns that put qualified meetings on your sales team's calendar and tell you exactly what each meeting cost. CEOs, presidents, VPs of commercial, VPs of marketing, chief operating officers, and chief financial officers hire us when their advertising is producing activity that will not convert into real conversations with a chief medical officer, a director of billing, a principal investigator, or a practice administrator.",
+    lead: "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences tools and diagnostics. We build and run Google Ads campaigns that put qualified meetings on your sales team's calendar and tell you exactly what each meeting cost. CEOs, presidents, VPs of commercial, VPs of marketing, chief operating officers, and chief financial officers hire us when their advertising is producing activity that will not convert into real conversations with a chief medical officer, a director of billing, a principal investigator, or a practice administrator.",
     callout: {
       label: "Where this lives",
       body: "Google Ads begins at Excitation: $5,000 per month plus ad spend, one managed campaign, one landing page, one-business-day follow-up, and a monthly strategy call. Amplification adds more campaigns. A second product line is $1,000 per month per line. Pricing is published.",
@@ -83,7 +83,7 @@ export const services: Page[] = [
         "We run ads against the searches your buyers make when they are already looking for a solution: a device model, a regulation, a billing code, a clinical protocol, a specific service. The ad leads to a page that answers that exact question in plain language and gives one clear next step. Your team sees the meetings that came out of it, not a pile of impressions.",
       ]},
       { h2: "Why this kind of buyer requires a different setup", body: [
-        "The healthcare, biotech, medical device, and life sciences tools and diagnostics buyer is not casual. A medical director may need a clinically defensible answer before they will book time. A director of billing wants a plain explanation of what actually happens in the office. A principal investigator wants to see the assay data on the same page as the offer. A founder looking for a vendor after a board request will not spend 30 seconds on a home page that reads like a brochure.",
+        "The healthcare, pharma, biotech, medical device, and life sciences tools and diagnostics buyer is not casual. A medical director may need a clinically defensible answer before they will book time. A director of billing wants a plain explanation of what actually happens in the office. A principal investigator wants to see the assay data on the same page as the offer. A founder looking for a vendor after a board request will not spend 30 seconds on a home page that reads like a brochure.",
         "Every campaign we run has a landing page written for the reader who clicked. Every page has a real next step: book a meeting, request a scoping call, download the specification sheet, join a briefing. The ad, the page, the follow-up, and the meeting are one connected job owned by one team.",
       ]},
       { h2: "The deliverables, by name", body: [], list: [
@@ -128,10 +128,10 @@ export const services: Page[] = [
     slug: "seo-content",
     title: "Articles, Newsletters, and Video That Get Your Company Found and Cited | ISOVERTIC",
     dateModified: "2026-09-10",
-    metaDescription: "Articles, newsletters, social posts, and video for healthcare, biotech, medical devices, and life sciences. Publishing that a scientist or clinician can find, cite, and forward.",
+    metaDescription: "Articles, newsletters, social posts, and video for healthcare, pharma, biotech, medical devices, and life sciences. Publishing that a scientist or clinician can find, cite, and forward.",
     eyebrow: "Search and content",
     h1: "Articles, newsletters, and video that get your company found and cited.",
-    lead: "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences tools and diagnostics. We publish the articles, newsletters, social posts, and video that put your company in front of the buyer already looking for what you sell. Founders, CEOs, presidents, VPs of commercial, VPs of marketing, chief scientific officers, chief medical officers, medical directors, principal investigators, practice administrators, and directors of billing hire us when their website has to earn a serious reader's trust before a salesperson ever joins the conversation.",
+    lead: "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences tools and diagnostics. We publish the articles, newsletters, social posts, and video that put your company in front of the buyer already looking for what you sell. Founders, CEOs, presidents, VPs of commercial, VPs of marketing, chief scientific officers, chief medical officers, medical directors, principal investigators, practice administrators, and directors of billing hire us when their website has to earn a serious reader's trust before a salesperson ever joins the conversation.",
     callout: {
       label: "Where this lives",
       body: "Ground State includes one published article, one newsletter, eight social posts, and a monthly report, with the website rebuild included. Excitation doubles social to 16 posts. Amplification adds a YouTube channel. Pricing is published.",
@@ -151,7 +151,7 @@ export const services: Page[] = [
         "Sales enablement material your team can send after a call, before a committee review, or when a prospect asks for proof.",
       ]},
       { h2: "Why publishing matters for this kind of sale", body: [
-        "Healthcare, biotech, medical device, and life sciences tools and diagnostics buyers do diligence before they take a meeting. Google's own guidance says search visibility takes four months to a year to move, per [Google Search Central](https://developers.google.com/search/docs/appearance/site-names). Sales cycles run 125 days to 24 months. That gap between first search and closed deal is exactly where a real publishing program earns its money. You cannot cold-call your way through it, and a paid ad without a page worth reading after the click is a fast way to spend a budget with nothing to show.",
+        "Healthcare, pharma, biotech, medical device, and life sciences tools and diagnostics buyers do diligence before they take a meeting. Google's own guidance says search visibility takes four months to a year to move, per [Google Search Central](https://developers.google.com/search/docs/appearance/site-names). Sales cycles run 125 days to 24 months. That gap between first search and closed deal is exactly where a real publishing program earns its money. You cannot cold-call your way through it, and a paid ad without a page worth reading after the click is a fast way to spend a budget with nothing to show.",
         "Every piece we publish also makes the rest of the program stronger. A Google Ads landing page needs a real article to link to. An outbound message needs a useful follow-up link. A salesperson needs a credible written answer when a buyer asks for evidence. The website turns into a working library your company owns, rather than a set of claims that vanish when a campaign ends.",
       ]},
       { h2: "Which package includes publishing", body: [
@@ -186,10 +186,10 @@ export const services: Page[] = [
     slug: "web-development",
     title: "The Website That Works Like Your Best Salesperson | ISOVERTIC",
     dateModified: "2026-09-10",
-    metaDescription: "Website rebuilds for healthcare, biotech, medical devices, and life sciences. Included in every package. You own the code and the domain.",
+    metaDescription: "Website rebuilds for healthcare, pharma, biotech, medical devices, and life sciences. Included in every package. You own the code and the domain.",
     eyebrow: "Build",
     h1: "The website that works like your best salesperson.",
-    lead: "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences tools and diagnostics. We rebuild the website into the salesperson that works while your team is in clinic, in the lab, with a customer, or asleep. Founders, CEOs, presidents, chief operating officers, VPs of commercial, VPs of marketing, and chief medical officers hire us when their site has to convince a chief scientific officer, a director of billing, a principal investigator, a medical director, or a practice administrator that the company on the other end is real, ready, and worth a meeting.",
+    lead: "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences tools and diagnostics. We rebuild the website into the salesperson that works while your team is in clinic, in the lab, with a customer, or asleep. Founders, CEOs, presidents, chief operating officers, VPs of commercial, VPs of marketing, and chief medical officers hire us when their site has to convince a chief scientific officer, a director of billing, a principal investigator, a medical director, or a practice administrator that the company on the other end is real, ready, and worth a meeting.",
     callout: {
       label: "Where this lives",
       body: "The $15,000 website rebuild is included in every package and spread across the 12-month engagement. Hosting is included. You own the code and the domain. Pricing is published.",
@@ -223,7 +223,7 @@ export const services: Page[] = [
       { h2: "The honest limit", body: [
         "We build on our own engineering stack. If your company must stay on Wix or Squarespace, we are not the right shop, and we will say so before you pay us anything.",
         "A rebuilt website does not replace a clear offer or a sales team that responds to buyers. It gives both a better place to land. If nobody is searching for your category yet, the site cannot create those searches on its own. If your offer is still unsettled, we will help identify what needs to be resolved, but design alone will not resolve it.",
-        "Google's own guidance says search visibility takes four months to a year to move after a site changes, per [Google Search Central](https://developers.google.com/search/docs/appearance/site-names). Healthcare, biotech, medical device, and life sciences sales cycles run 125 days to 24 months. The 12-month engagement is set to that reality, not to a billing convenience.",
+        "Google's own guidance says search visibility takes four months to a year to move after a site changes, per [Google Search Central](https://developers.google.com/search/docs/appearance/site-names). Healthcare, pharma, biotech, medical device, and life sciences sales cycles run 125 days to 24 months. The 12-month engagement is set to that reality, not to a billing convenience.",
       ]},
       { h2: "What we don't do", body: [
         "We are not a template vendor, a general promotion shop, or a design studio that ships a homepage image and sends you to find someone else to make it work. We do not leave you with a site your team cannot own. We do not treat speed, readability, or findability as extras.",
@@ -247,10 +247,10 @@ export const services: Page[] = [
     slug: "tv-ctv-advertising",
     title: "Streaming Television, Broadcast, and Radio That Support the Sale | ISOVERTIC",
     dateModified: "2026-09-10",
-    metaDescription: "Streaming television, broadcast, and radio for healthcare, biotech, medical devices, and life sciences when the sales math supports it.",
+    metaDescription: "Streaming television, broadcast, and radio for healthcare, pharma, biotech, medical devices, and life sciences when the sales math supports it.",
     eyebrow: "Media",
     h1: "Streaming television, broadcast, and radio that support the sale.",
-    lead: "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences tools and diagnostics. We plan, place, and measure streaming television, broadcast, and radio when the sales math supports it, and we say no when it does not. Founders, CEOs, presidents, chief operating officers, chief financial officers, VPs of commercial, and VPs of marketing hire us when the sale is considered, the buying committee is cautious, and the company needs to look established before a chief medical officer, a chief scientific officer, a medical director, or a procurement committee will give the sales team time.",
+    lead: "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences tools and diagnostics. We plan, place, and measure streaming television, broadcast, and radio when the sales math supports it, and we say no when it does not. Founders, CEOs, presidents, chief operating officers, chief financial officers, VPs of commercial, and VPs of marketing hire us when the sale is considered, the buying committee is cautious, and the company needs to look established before a chief medical officer, a chief scientific officer, a medical director, or a procurement committee will give the sales team time.",
     callout: {
       label: "Where this lives",
       body: "Media is available in Amplification and included more fully in Quantum Leap. Ground State and Excitation do not include media buying. That is intentional. Pricing is published.",
@@ -276,7 +276,7 @@ export const services: Page[] = [
       ]},
       { h2: "Which package includes media", body: [
         "Media is available in Amplification, $10,000 per month plus ad spend, which also includes the higher-volume publishing program, Google Ads, a YouTube channel, weekly account review, and one outbound seat. Amplification fits a company that already has the basics in place and wants media to support a defined sales effort.",
-        "Quantum Leap, from $25,000 per month plus ad spend, runs the system across two or more brands with two outbound seats, in-house creative production, and media buying across streaming television, broadcast, and radio when it fits. It is built for later-stage healthcare, biotech, medical device, and life sciences groups running two or more brands from one operating team.",
+        "Quantum Leap, from $25,000 per month plus ad spend, runs the system across two or more brands with two outbound seats, in-house creative production, and media buying across streaming television, broadcast, and radio when it fits. It is built for later-stage healthcare, pharma, biotech, medical device, and life sciences groups running two or more brands from one operating team.",
         "Ground State and Excitation do not include media buying. That is intentional. First build the website that can answer a buyer's questions, publish the material, run paid search where buyers already look, and make sure the sales team can carry the meetings. Media becomes useful after those pieces are already doing their jobs. See the full package terms on the [pricing page](/pricing).",
       ]},
       { h2: "The honest limit", body: [
@@ -306,10 +306,10 @@ export const services: Page[] = [
     slug: "design-brand",
     title: "Design and Brand That Make the Sale Easier | ISOVERTIC",
     dateModified: "2026-09-10",
-    metaDescription: "Design and brand for healthcare, biotech, medical devices, and life sciences. Identity, message, decks, and pages that survive a scientific or clinical reader.",
+    metaDescription: "Design and brand for healthcare, pharma, biotech, medical devices, and life sciences. Identity, message, decks, and pages that survive a scientific or clinical reader.",
     eyebrow: "Brand",
     h1: "Design and brand that make the sale easier.",
-    lead: "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences tools and diagnostics. Design and brand run across everything else we do. We are not a stand-alone identity shop, and design here is not decoration with a nice invoice. Founders, CEOs, presidents, chief operating officers, VPs of commercial, and VPs of marketing rely on it when the visible surfaces of their company have to survive a chief medical officer, a chief scientific officer, a principal investigator, a medical director, a procurement committee, or a director of billing.",
+    lead: "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences tools and diagnostics. Design and brand run across everything else we do. We are not a stand-alone identity shop, and design here is not decoration with a nice invoice. Founders, CEOs, presidents, chief operating officers, VPs of commercial, and VPs of marketing rely on it when the visible surfaces of their company have to survive a chief medical officer, a chief scientific officer, a principal investigator, a medical director, a procurement committee, or a director of billing.",
     callout: {
       label: "Where this lives",
       body: "Design and brand is a supporting layer, not a seventh step. It is included in Amplification and Quantum Leap and available as defined production work on lower packages. A video and photography production day is $4,500. Pricing is published.",
@@ -371,7 +371,7 @@ export const servicesOverview = {
   eyebrow: "Services",
   h1: "Services that book meetings, not reports.",
   lead: [
-    "Isovertic is the growth agency for healthcare, biotech, medical devices, and life sciences. We build the website that gets found by the buyer already searching for what you sell, then we spend advertising only on those people. One team owns the site, the publishing, the ads, the media, the outbound, and the training. That is what keeps the work connected to a real meeting on your calendar.",
+    "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. We build the website that gets found by the buyer already searching for what you sell, then we spend advertising only on those people. One team owns the site, the publishing, the ads, the media, the outbound, and the training. That is what keeps the work connected to a real meeting on your calendar.",
     "This page is for founders, CEOs, presidents, VPs of commercial, chief scientific officers, chief medical officers, medical directors, principal investigators, VPs of regulatory, practice administrators, and directors of billing who want to see the offer before they book a call. Six connected steps, four ways to buy them.",
   ],
   protocolListing: {
@@ -401,7 +401,7 @@ export const servicesOverview = {
       "Honest limit. Below about $1,000 a month in Google Ads spend, the platform cannot collect enough activity to produce reliable results. If that is your budget, Ground State plus organic work is the better recommendation.",
     ]},
     { h2: "04 Buy. Media when recognition helps the sale", body: [
-      "Buy places your message in streaming television, broadcast, and radio when those channels help the sale. It is available to healthcare, biotech, medical device, and life sciences companies that need more than search and direct outreach, but it does not replace either.",
+      "Buy places your message in streaming television, broadcast, and radio when those channels help the sale. It is available to healthcare, pharma, biotech, medical device, and life sciences companies that need more than search and direct outreach, but it does not replace either.",
       "For some regional healthcare providers, multi-location groups, and high-consideration business sales, a buyer who recognizes the company is more willing to take the meeting. For a new company with a weak website, media simply makes more people aware of the weakness. We do not recommend that version.",
       "Honest limit. Media works when recognition assists a sale that already has a credible site and a clear offer behind it. It is not the first move for a company still testing whether buyers can find and trust its website.",
     ]},
