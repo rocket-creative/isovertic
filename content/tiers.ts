@@ -183,10 +183,10 @@ export const addOns: { name: string; price: string }[] = [
   { name: "Compliance paperwork: business associate agreement signed, security questionnaire completed, subprocessor list and data map for your SOC 2 review", price: "Quoted per request" },
   { name: "One more person calling and emailing your prospects, added to Excitation", price: "$4,500 per month" },
   { name: "Second product line in Google Ads: separate campaigns, landing page, reporting", price: "$1,000 per month per line" },
-  { name: "LinkedIn outbound and paid: sequences plus sponsored content", price: "$2,500 per month" },
+  { name: "LinkedIn outbound and paid: sequences plus sponsored content", price: "$3,000 per month" },
   { name: "Conference sprint: meetings booked before and at one trade show", price: "$7,500 per event" },
   { name: "Production day: video and photography, edited assets delivered", price: "$4,500 per day" },
-  { name: "Programmatic page expansion: 50 additional pages published", price: "$2,500 per month per 50 pages" },
+  { name: "Programmatic page expansion: 50 additional pages published", price: "$3,000 per month per 50 pages" },
   { name: "CRM build: HubSpot or Pipedrive configured to the runbook", price: "$4,000 one time" },
   { name: "Protocol, one day, for current clients", price: "$3,500 one time" },
 ];

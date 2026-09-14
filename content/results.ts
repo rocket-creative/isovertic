@@ -48,7 +48,7 @@ export const roster: RosterItem[] = [
     window: "New-brand launch, first year complete.",
     confirmedLabel: "Confirmed numbers",
     confirmed: [
-      "Approximately one qualified lead per week on a small paid budget (roughly $1,000 per month in ad spend against roughly $2,500 per month in site and campaign work) from a brand that did not exist online at start.",
+      "Approximately one qualified lead per week on a small paid budget (roughly $1,000 per month in ad spend against the entry package of site and campaign work) from a brand that did not exist online at start.",
       "Full SEO and design gap analysis shipped before build.",
       "Ten-article content launch to seed the topic authority.",
       "Master implementation brief for the site rebuild, which now runs on our stack.",

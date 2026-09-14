@@ -360,7 +360,7 @@ export const problems: Problem[] = [
     lead: "You have done this work for fifteen years and a company half your size ranks above you for it. The usual explanation is backlinks or some technical mystery. The usual cause is simpler: they have a page for the query and you have a paragraph. A 12 page site ranks for its brand name. A 150 page site ranks for the category.",
     callout: {
       label: "Where this lives",
-      body: "Ground State at $3,000 a month starts the drumbeat: one page a month written to be found and cited. Amplification runs the full content system. The programmatic page expansion add on ships 50 server rendered entity pages at a time for $2,500 a month. Pricing is published.",
+      body: "Ground State at $3,000 a month starts the drumbeat: one page a month written to be found and cited. Amplification runs the full content system. The programmatic page expansion add on ships 50 server rendered entity pages at a time for $3,000 a month. Pricing is published.",
     },
     searchPhrases: ["not showing up on google for my services", "competitors rank higher than us", "why does my business not appear in google search", "how to rank for our services", "how many pages does a website need to rank"],
     sections: [
@@ -504,7 +504,7 @@ export const problems: Problem[] = [
         "A marketing manager at $110,000 to $140,000 loads to $140,000 to $175,000. An SDR loads to $70,000 to $90,000. Tools and data add $20,000 a year. Ramp takes a quarter or two, and B2B sales hiring misses near half the time. One marketing lead plus one agency retainer runs $160,000 to $190,000 a year with the seam still unowned.",
       ]},
       { h2: "A budget by stage", body: [
-        "Under $1 million: $2,500 a month on content and a site that says something, and the founder sells. That is Ground State. $1 million to $3 million: $5,000 a month plus $3,000 to $10,000 in ad spend for content, one campaign, and a landing page per audience. That is Excitation. $3 million to $10 million: $10,000 a month plus spend for the full pipeline with a dedicated person calling and emailing your prospects and meetings verified against the meeting quality standard. That is Amplification. Past $10 million or more than one brand: from $25,000 with TV, two seats, and a board ready quarterly review. That is Quantum Leap.",
+        "Under $1 million: $3,000 a month on content and a site that says something, and the founder sells. That is Ground State. $1 million to $3 million: $5,000 a month plus $3,000 to $10,000 in ad spend for content, one campaign, and a landing page per audience. That is Excitation. $3 million to $10 million: $10,000 a month plus spend for the full pipeline with a dedicated person calling and emailing your prospects and meetings verified against the meeting quality standard. That is Amplification. Past $10 million or more than one brand: from $25,000 with TV, two seats, and a board ready quarterly review. That is Quantum Leap.",
         "As a share of revenue, those land between 3 and 8 percent for most companies, which matches what growing B2B companies spend when they are actually growing.",
       ]},
       { h2: "The number that makes the budget a decision", body: [
@@ -724,7 +724,7 @@ export const problems: Problem[] = [
     lead: "Scientists search by gene, by modification type, by catalog number, by strain. Your catalog has the exact thing they typed and Google has never seen it, because the catalog lives behind a search box and Google treats a database as one page. The company with 40 products and 40 pages outranks you for your own inventory.",
     callout: {
       label: "Where this lives",
-      body: "The programmatic page expansion add on ships 50 server rendered entity pages at a time for $2,500 a month, on any tier. A full catalog rebuild, one page per product, generated from your own data, is scoped inside an Amplification engagement with a 12 month term. Pricing is published.",
+      body: "The programmatic page expansion add on ships 50 server rendered entity pages at a time for $3,000 a month, on any tier. A full catalog rebuild, one page per product, generated from your own data, is scoped inside an Amplification engagement with a 12 month term. Pricing is published.",
     },
     searchPhrases: ["product catalog not indexed by google", "researchers cannot find our products", "programmatic seo for life science catalog", "how to get product pages indexed", "mouse model catalog seo"],
     sections: [
@@ -778,7 +778,7 @@ export const problems: Problem[] = [
     faqs: [
       { q: "Can we compete with global CROs on search?", a: "On the specific queries, yes. A global CRO has one page about mouse models. You can have 147. Researchers search specifically, and specific pages win." },
       { q: "Who takes the meeting?", a: "A scientist on your side. Founder knowledge closes a technical sale. Our seat prospects, qualifies, confirms, and briefs." },
-      { q: "Do you understand the science?", a: "Our COO is a trained molecular biologist who sold translational research products for more than ten years and ran operations at a medical school department. She reads the technical drafts." },
+      { q: "Do you understand the science?", a: "Our COO is a trained molecular biologist who sold translational research products for more than ten years and ran operations at a medical school department. The people writing your pages work to the standard she set." },
     ],
     related: [{ label: "Marketing a CRO, biotech, or medtech", href: "/field-notes/marketing-cro-biotech-medtech" }, { label: "When should a CRO start outbound", href: "/answers/when-should-a-cro-start-outbound" }, { label: "Biotech and life sciences", href: "/industries/biotech" }],
   },
@@ -826,7 +826,7 @@ export const problems: Problem[] = [
     lead: "A capable generalist rep, a good script, and a list of principal investigators. Reply rates at a fraction of a percent and the few calls that connect end in 90 seconds, because the rep called a floxed allele a product and the PI heard everything they needed to. Scientific buyers punish generic outreach faster than any market we work in, and the fix is not a better script.",
     callout: {
       label: "Where this lives",
-      body: "Amplification at $10,000 a month includes one dedicated person calling and emailing your prospects with sequences written in the register of the field, aimed at lab managers and core directors, with meetings verified against the meeting quality standard. Our COO is a molecular biologist with a decade of CRO sales and reads the technical drafts. Pricing is published.",
+      body: "Amplification at $10,000 a month includes one dedicated person calling and emailing your prospects with sequences written in the register of the field, aimed at lab managers and core directors, with meetings verified against the meeting quality standard. Our COO is a molecular biologist with a decade of CRO sales, and the technical work is held to the standard she set. Pricing is published.",
     },
     searchPhrases: ["sales rep does not understand the science", "selling to scientists outbound", "sdr for life science company", "how to sell to principal investigators", "technical sales for biotech services"],
     sections: [
@@ -1249,12 +1249,12 @@ export const problems: Problem[] = [
       label: "Where this lives",
       body: "Ground State at $3,000 a month: a newsletter, a post written to be found and cited, eight social posts, and a one page report. Excitation at $5,000 plus ad spend: content doubled, one Google Ads campaign, a landing page, lead follow up within a business day, a monthly call. Same team as Amplification. Pricing is published.",
     },
-    searchPhrases: ["affordable marketing agency for startups", "marketing agency under $5000 a month", "seed stage marketing budget", "cheap b2b marketing that works", "what can I get for $2500 a month marketing"],
+    searchPhrases: ["affordable marketing agency for startups", "marketing agency under $5000 a month", "seed stage marketing budget", "cheap b2b marketing that works", "what can I get for $3000 a month marketing"],
     sections: [
       { h2: "Why the floor could move", body: [
         "AI runs scheduling, deployment, data collection, research, and reporting on every account. Humans create, design, review, test, and engage. You pay for judgment, not for hours spent scheduling posts. That split is why a tier can start at $3,000 instead of $8,500 without a junior tier of staff behind the lower price. Ground State buys fewer steps of the system than Amplification, not a different team.",
       ]},
-      { h2: "What $2,500 actually produces", body: [
+      { h2: "What $3,000 actually produces", body: [
         "One page a month that answers a question your buyers type, with the answer in the first 40 words, one number a reader can quote, and schema so search and AI engines can name the entity. A newsletter that repeats the answer to your own list. Eight social posts from the founder's account, which reaches several times what a company page does in B2B. Twelve months later you own twelve searches and a list that opens your email. That is the demand environment the eventual hire, or the eventual Amplification upgrade, lands in.",
       ]},
       { h2: "When $5,000 is the right number", body: [
@@ -1409,7 +1409,7 @@ export const problems: Problem[] = [
     lead: "You spun the company out of an academic lab, or you left a big supplier to build the thing they would not build. The science is sound. The customers who know you buy again. And the word marketing makes everyone in the room a little uncomfortable, because it sounds like the opposite of rigor. Here is the reassuring part: your buyer is a scientist too, and scientists do not respond to marketing. They respond to being found with the right answer at the moment they search for it.",
     callout: {
       label: "Where this lives",
-      body: "Ground State at $3,000 a month if you publish nothing today: a newsletter, a blog post written to be cited, and social, with the $15,000 website rebuild included on the 12 month term. Excitation at $5,000 when you are ready to spend on one Google Ads campaign against the terms your buyers type. A trained molecular biologist on staff reviews the life science pages before they ship. Pricing is published.",
+      body: "Ground State at $3,000 a month if you publish nothing today: a newsletter, a blog post written to be cited, and social, with the $15,000 website rebuild included on the 12 month term. Excitation at $5,000 when you are ready to spend on one Google Ads campaign against the terms your buyers type. Life science pages are written to a claim library and terminology controls set by a trained molecular biologist. Pricing is published.",
     },
     searchPhrases: ["marketing for scientists who started a company", "biotech startup marketing where to start", "spinout company marketing plan", "how to market a research product", "life science startup first marketing hire or agency"],
     sections: [
@@ -1426,8 +1426,8 @@ export const problems: Problem[] = [
     ],
     faqs: [
       { q: "Should we hire a marketing person instead?", a: "Not yet. A marketing hire without a system produces social posts and a newsletter. Build the system first, then hire the person who will own it, and teach them at Protocol." },
-      { q: "Will you write in the scientific register?", a: "Yes. Life science pages are reviewed by a trained molecular biologist on staff before they reach you, and the MLR review gate add on routes clinical claims through a reviewer you name." },
-      { q: "We have almost no budget. Is $2,500 a month the floor?", a: "Yes. Below that we cannot run the cadence and include the build, and we would rather tell you that than sell you a smaller version that does not work." },
+      { q: "Will you write in the scientific register?", a: "Yes. Life science pages are written to terminology controls set by a trained molecular biologist, and the MLR review gate add on routes clinical claims through a reviewer you name." },
+      { q: "We have almost no budget. Is $3,000 a month the floor?", a: "Yes. Below that we cannot run the cadence and include the build, and we would rather tell you that than sell you a smaller version that does not work." },
     ],
     related: [{ label: "Life science industry page", href: "/industries/biotech" }, pricing, { label: "Results", href: "/results" }],
   },

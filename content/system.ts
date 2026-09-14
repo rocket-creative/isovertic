@@ -6,7 +6,7 @@ export const aiHuman = {
   h2: "AI for automation. Humans for creation.",
   lead: "Automation handles scheduling, deployment, data collection, research, and reporting. People create, design, review, test, and engage. You are paying for judgment, not for someone to spend an afternoon moving a post between systems.",
   aiLabel: "AI runs",
-  aiNote: "Faster process, lower cost, and a tier price that starts at $2,500 instead of $8,500.",
+  aiNote: "Faster process, lower cost, and a tier price that starts at $3,000 instead of $8,500.",
   humanLabel: "Humans do",
   humanNote: "Only a human understands another human, and your buyer is one.",
   close: "Published pages are architected, edited, and fact-checked by people. Technical work is reviewed by people who know the subject. In regulated work, the method includes the approval and form-handling steps the account requires.",
@@ -102,7 +102,7 @@ export const home = {
     h2: "Proof, before the pitch",
     body: [
       "Ingenious Targeting Laboratory, a mouse-model company selling to research scientists, moved from 13 monthly form submissions to about 64 in its first eight months with Isovertic. Its organic search traffic rose 3.7 times in that period. Internal, September 2026.",
-      "Sydra Health, a revenue-cycle company serving healthcare billing directors, went from no online presence in mid-June 2026 to roughly one qualified meeting a week on about $1,000 in monthly advertising spend and $2,500 in monthly site work. Internal, September 2026.",
+      "Sydra Health, a revenue-cycle company serving healthcare billing directors, went from no online presence in mid-June 2026 to roughly one qualified meeting a week on about $1,000 in monthly advertising spend and the entry package of site work. Internal, September 2026.",
       "Both figures are internal operating results from two accounts, measured in our own reporting. They are not audited, not a controlled study, and not a sample large enough to predict your outcome. Your category, your budget, your offer, and the length of your sales cycle all change the result. What these two accounts show is the mechanism we sell: when the website can carry the sales argument and one team owns the number at the end, the meetings come from buyers who were already looking.",
     ],
   },

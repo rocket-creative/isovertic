@@ -41,7 +41,7 @@ export const auditMeta = {
       "If your buyers include a chief medical officer, a medical director, a VP of regulatory, or a principal investigator reviewing claims, the audit checks for MLR review capacity. Our review gate is $500 to $1,200 per month plus setup: a named reviewer, a sign-off log for every asset, and a claim library your team can reuse.",
     ] },
     { h2: "The audit does not make promises it cannot keep", body: [
-      "A small advertising budget may produce a qualified meeting a week rather than a flood. That can still be a good outcome if the meeting fits your sale. Sydra Health went from no online presence in mid-June 2026 to about one qualified meeting a week on roughly $1,000 in monthly ad spend and $2,500 in monthly site work. Internal, September 2026.",
+      "A small advertising budget may produce a qualified meeting a week rather than a flood. That can still be a good outcome if the meeting fits your sale. Sydra Health went from no online presence in mid-June 2026 to about one qualified meeting a week on roughly $1,000 in monthly ad spend and the entry package of site work. Internal, September 2026.",
       "The system moves fastest when your buyers already search in specific language: a gene name, a device model, a regulation, a billing code, a protocol, a clinical question. When nobody is searching yet, the honest answer is not that you have no market. It is that we have to go find the audience with calls and emails, LinkedIn, and the trade press first, which costs more per meeting and takes longer to show. We will not describe it as a fit merely because a website needs updating.",
       "A 12-month engagement is standard because search visibility can take four months to a year, per [Google Search Central](https://developers.google.com/search/docs/appearance/site-names). We report the work every 30 days and review pipeline and revenue at months six and 12 against your actual sales cycle.",
     ] },
@@ -187,7 +187,7 @@ export const tierResults: Record<TierKey, TierResult> = {
   "ground-state": {
     key: "ground-state",
     name: "Ground State",
-    price: "$2,500 a month",
+    price: "$3,000 a month",
     headline: "Start the drumbeat.",
     body: "Your constraint is publishing, not pipeline mechanics. Ground State runs the content system, one newsletter, one search cited post, and eight social posts a month, so the site has something to rank and AI search has something to cite. Move up when you want paid demand on top of it.",
     href: "/pricing",

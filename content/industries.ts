@@ -67,7 +67,7 @@ export const industries: Page[] = [
         "The result is not a magic promise about patient volume. It is a traceable process. The chief operating officer can see whether the next constraint is advertising, referral access, staffing, or schedule capacity. Those are different problems, and pretending otherwise is how a monthly report becomes decorative.",
       ]},
       { h2: "Proof, before the pitch", body: [
-        "Sydra Health, a revenue-cycle company serving healthcare billing directors, went from no online presence in mid-June 2026 to roughly one qualified meeting a week on about $1,000 in monthly advertising spend and about $2,500 in monthly site work. Internal, September 2026. It is unusual for the category and it is not a promise for yours. It is an example of what happens when the site can carry the sales argument and one team owns the number at the end.",
+        "Sydra Health, a revenue-cycle company serving healthcare billing directors, went from no online presence in mid-June 2026 to roughly one qualified meeting a week on about $1,000 in monthly advertising spend and the entry package of site work. Internal, September 2026. It is unusual for the category and it is not a promise for yours. It is an example of what happens when the site can carry the sales argument and one team owns the number at the end.",
       ]},
       { h2: "The package you'd probably start on", body: [
         "Start with Excitation at $5,000 per month plus advertising spend, then add the HIPAA form-and-call stack at $750 per month. Excitation includes a website rebuild across the year, one published article, a newsletter, social posts, one managed Google Ads campaign, a campaign landing page, and an automated inbound response within 30 seconds. It is a 12-month engagement.",
@@ -183,7 +183,7 @@ export const industries: Page[] = [
     faqs: [
       { q: "Can you work inside our existing MLR process?", a: "Yes. We route to the reviewers you name and keep the sign-off log in the format your team already uses. The MLR review gate add-on is $500 to $1,200 per month plus setup, on any package." },
       { q: "Do you give regulatory advice on whether a piece complies?", a: "No. Your medical, legal, and regulatory reviewers own that call, and so does your regulatory counsel. We own the process that gets them a clean draft with the source attached." },
-      { q: "Who writes the technical content?", a: "Content writers on staff, with a molecular biologist on staff reviewing scientific material before it reaches your MLR reviewer. That review catches terminology errors that would otherwise waste a reviewer's cycle." },
+      { q: "Who writes the technical content?", a: "Content writers on staff, working to a claim library and terminology controls set by a molecular biologist on staff, before anything reaches your MLR reviewer. Those controls catch the terminology errors that would otherwise waste a reviewer's cycle." },
       { q: "Can you clear our vendor security review?", a: "Yes. We complete your security questionnaire, hand your auditor our subprocessor list and a map of where your data sits for a SOC 2 review, and sign a business associate agreement wherever protected health information is in scope. Quoted per request." },
       { q: "How long does a pharma engagement take to show results?", a: "Slower than an unregulated account in the first quarter, because the claim library and approval rhythm come first. We report leading indicators every 30 days and review pipeline and revenue at months six and 12 against your actual sales cycle." },
     ],
@@ -276,7 +276,7 @@ export const industries: Page[] = [
       body: "If you would rather talk it through, [book a pipeline call](/contact) and send us your best-converting landing page, or your current MLR-reviewed pillar page. In about ten minutes we will tell you what is unclear, whether the fix is an MLR review gate or a smaller correction, and what a rebuild would cost, or whether you need one at all. Sometimes the honest answer is you are already fine, and we are happy to say so and hand you back your afternoon.",
     },
     faqs: [
-      { q: "Do your writers understand the science?", a: "Content is produced inside a documented technical system with a claim library, terminology controls, and review gates built for life science accuracy. A molecular biologist on staff reviews the work before it reaches your MLR reviewer." },
+      { q: "Do your writers understand the science?", a: "Content is produced inside a documented technical system with a claim library, terminology controls, and review gates built for life science accuracy. The claim library and terminology controls were set by a molecular biologist on staff." },
       { q: "Can you reach academic and industry buyers in one program?", a: "Yes, with separate sequences and offers per segment." },
       { q: "How do you handle long sales cycles?", a: "Revenue is reviewed against the real sales cycle at month six and month twelve, while the early scorecard reports pages live, impressions, relevant traffic, inquiries, and meetings." },
       { q: "Do you work with CROs and service providers?", a: "That is our deepest pattern." },
@@ -463,7 +463,7 @@ export const industries: Page[] = [
       body: "If you would rather talk it through, [book a pipeline call](/contact) and send us your best-converting landing page or current product page. In about ten minutes we will tell you what is unclear, whether the fix is a revised product page or a larger rebuild, and what a rebuild would cost, or whether you need one at all. Sometimes the honest answer is you are already fine, and we are happy to say so and hand you back your afternoon.",
     },
     faqs: [
-      { q: "Do your writers understand the science?", a: "A molecular biologist on staff reviews life-science work before it reaches a client's reviewer. We write from your product facts, validation, and the questions researchers actually ask." },
+      { q: "Do your writers understand the science?", a: "Life-science work follows terminology controls a molecular biologist on staff wrote. We write from your product facts, validation, and the questions researchers actually ask." },
       { q: "Is this the same as your biotech page?", a: "No. Biotech covers therapeutics and translational programs. This page is for reagents, instruments, mouse models, cell lines, lab automation, and diagnostics sold into labs and hospitals." },
       { q: "How do you handle long sales cycles?", a: "Revenue is reviewed against the real sales cycle at month six and month twelve, while the early scorecard reports what was published, how it performed, and what the team needs to answer next." },
       { q: "Can you clear our vendor security review?", a: "Yes. We complete your security questionnaire, hand your auditor our subprocessor list and a map of where your data sits for a SOC 2 review, and sign a business associate agreement wherever protected health information is in scope. Quoted per request." },

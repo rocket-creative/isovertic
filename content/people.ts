@@ -45,7 +45,7 @@ export const people: Person[] = [
     card: "Trained molecular biologist. Ten years selling translational research products, then institutional operations at the Yale School of Medicine. She built the delivery operation: took the method George engineered, wrote it down, trained the team on it, and turned it into a repeatable engagement so the same system runs the same way on every account.",
     initials: "KC",
     bio: [
-      "Trained molecular biologist. Ten years selling translational research products, then institutional operations at the Yale School of Medicine. She reviews the life-science work for scientific register and accuracy before it reaches a client's MLR reviewer.",
+      "Trained molecular biologist. Ten years selling translational research products, then institutional operations at the Yale School of Medicine. That background is why the standard for life-science work reads the way it does.",
       "She also built the delivery operation. She took George's method, documented it, trained the team on it, and turned it into a repeatable engagement so the same system runs the same way on every account. That is the reason the company can honestly say \"the founder is the source, not the bottleneck.\" Somebody had to build the operation that makes that true.",
     ],
     credentials: [
@@ -70,7 +70,7 @@ export const coverage = {
   h2: "How we run when George is on a plane.",
   lead: "Two people are on every account and the runbooks are written down. This is what that means in practice.",
   steps: [
-    { n: "01", name: "A named second on every account", body: "Kristen Coughlin, our chief operating officer, is on every life science account and takes the first call with any CRO or tools company that signs up. On every other account a named senior contractor holds the second seat, and you meet them in the 90 day ramp, not in an emergency." },
+    { n: "01", name: "A designated second on every account", body: "Besides George, every account has a designated senior operator who holds the second seat, and you meet them in the 90 day ramp, not in an emergency. Kristen Coughlin, our chief operating officer, owns the delivery operation itself: the runbooks, the training, and the standard every account runs to." },
     { n: "02", name: "The system is in the runbooks, not in a head", body: "Every step we run is documented in the same runbooks we hand clients at Protocol. Sequences, ad structures, publishing cadence, reporting. A second operator can pick up any account from the documents, because the documents are how we run it in the first place." },
     { n: "03", name: "One escalation path, in writing", body: "Your agreement names the second operator, the response window for a live campaign issue (acknowledged within four business hours, a plan the same business day), and the email that reaches both of us." },
   ],

@@ -12,7 +12,7 @@ const stats = [
   },
   {
     value: "One a week",
-    claim: "Qualified leads for [Sydra](/results#sydra) on roughly $1,000 a month in ad spend and $2,500 a month in site and campaign work, from a brand that did not exist online at start.",
+    claim: "Qualified leads for [Sydra](/results#sydra) on roughly $1,000 a month in ad spend and the entry package of site and campaign work, from a brand that did not exist online at start.",
   },
   {
     value: "Hundreds",

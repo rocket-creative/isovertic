@@ -7,11 +7,11 @@ export const clientQuote = {
 
 export const healthcareComplianceOfficer = "A compliance officer on staff signs the BAA and owns the sensitive data governance process. Not a subcontracted consultant, not a lawyer we call. On staff, on payroll, on every account that touches PHI.";
 
-export const biotechMolecularBiologist = "Scientific content is reviewed by a molecular biologist on staff before it ships to a client's MLR reviewer. That review catches the small terminology mistakes that would waste a reviewer's cycle and delay a launch by a week.";
+export const biotechMolecularBiologist = "Scientific content is written to terminology controls a molecular biologist on staff set, before it ships to a client's MLR reviewer. That review catches the small terminology mistakes that would waste a reviewer's cycle and delay a launch by a week.";
 
 export const serviceDiscipline = {
   "google-ads": "Google Ads is run by Google Ads specialists on staff, not by a generalist account manager splitting time across five accounts. Every campaign is built, read weekly, and reported by the same person for the life of the engagement.",
-  "seo-content": "Written by content writers on staff and reviewed by a subject-matter expert when the content is technical. A molecular biologist reviews life-science work before it reaches a client's medical, legal, and regulatory reviewer.",
+  "seo-content": "Written by content writers on staff and reviewed by a subject-matter expert when the content is technical. Life-science work follows terminology controls a molecular biologist on staff wrote, before it reaches a client's medical, legal, and regulatory reviewer.",
   "web-development": "Built by full stack developers on staff who write production code every day, not by a templating agency. The engineers who maintain this site are the engineers who rebuild yours.",
   "outbound-appointment-setting": "Content writers on staff write the sequences by hand. The same team that wrote your website writes your outbound, so the voice on the cold email matches the voice on the landing page it links to.",
   "design-brand": "Videographers, photographers, and designers all in-house. A production day is a real production day: a real videographer, real photographer, real lighting, real editorial direction. No stock, no subcontracted crew.",
