@@ -137,12 +137,21 @@ async function ensureProduct(s: Stripe, tier: Tier): Promise<string> {
 }
 
 // Returns the Stripe price id for a plan, creating product and price on first use.
+// A Stripe price is immutable, so when content/tiers.ts changes an amount the old price keeps the
+// lookup key and would keep charging the old number. Replace it rather than reuse it.
 export async function ensurePrice(plan: Plan): Promise<string> {
   const cached = priceCache.get(plan.lookupKey);
   if (cached) return cached;
   const s = stripe();
   const existing = await s.prices.list({ lookup_keys: [plan.lookupKey], active: true, limit: 1 });
-  let id = existing.data[0]?.id;
+  const found = existing.data[0];
+  const stale = Boolean(
+    found &&
+      (found.unit_amount !== plan.unitAmount ||
+        found.recurring?.interval !== plan.interval ||
+        found.recurring?.interval_count !== plan.intervalCount)
+  );
+  let id = stale ? undefined : found?.id;
   if (!id) {
     const tier = tiers.find((t) => t.slug === plan.tier)!;
     const product = await ensureProduct(s, tier);
@@ -157,6 +166,8 @@ export async function ensurePrice(plan: Plan): Promise<string> {
       metadata: { plan: plan.key, tier: plan.tier, billing: plan.billing, term_months: String(plan.termMonths) },
     });
     id = created.id;
+    // transfer_lookup_key moved the key to the new price; retire the old one so the dashboard shows one live price.
+    if (stale && found) await s.prices.update(found.id, { active: false });
   }
   priceCache.set(plan.lookupKey, id);
   return id;
