@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { glossary, getTerm } from "@/content/glossary";
-import { Section } from "@/components/sections/Shell";
+import { explainPrompt } from "@/components/ui/ImagePlaceholder";
+import { HeroFrame, Section } from "@/components/sections/Shell";
 import { RevealBlock } from "@/components/ui/RevealBlock";
 import { Arrow } from "@/components/ui/Arrow";
 import { CTABand } from "@/components/sections/CTABand";
@@ -29,15 +30,13 @@ export default async function TermPage({ params }: { params: Promise<{ slug: str
   return (
     <>
       <JsonLd data={[definedTermLd(t), breadcrumbLd([{ name: "Home", path: "/" }, { name: "Glossary", path: "/glossary" }, { name: t.term, path: `/glossary/${t.slug}` }])]} />
-      <article className="border-b border-rule bg-bright">
-        <div className="mx-auto max-w-[1440px] gutter pt-32 pb-14 lg:pt-40">
-          <p className="eyebrow">Glossary</p>
-          <h1 className="mt-5 max-w-[20ch] font-display text-h1 font-medium">{t.term}</h1>
-          <p className="mt-8 max-w-[62ch] font-display text-[clamp(20px,2.2vw,26px)] font-medium leading-snug">{t.definition}</p>
-          <p className="mt-6 max-w-[62ch] leading-relaxed text-ink/90">{t.detail}</p>
-          <div className="iso-mark rule-draw mt-10 max-w-[560px]" aria-hidden="true" />
-        </div>
-      </article>
+      <HeroFrame image={explainPrompt(t.term)}>
+        <p className="eyebrow">Glossary</p>
+        <h1 className="hero-title mt-5">{t.term}</h1>
+        <p className="mt-5 max-w-[62ch] text-[16px] leading-[1.55] text-ink sm:text-[17px] sm:leading-relaxed">{t.definition}</p>
+        <p className="mt-4 max-w-[62ch] leading-relaxed text-ink/90">{t.detail}</p>
+        <div className="iso-mark rule-draw mt-8 max-w-[560px]" aria-hidden="true" />
+      </HeroFrame>
       <Section label="Related">
         <RevealBlock>
           <div className="flex flex-wrap gap-x-10 gap-y-4">

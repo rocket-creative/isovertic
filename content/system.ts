@@ -73,7 +73,11 @@ export const commitmentStandard = { label: "What results to expect, and when", h
 // Homepage copy. Rewritten 2026-09-10 from Site Rewrite v3.
 export const home = {
   h1: "The Growth Agency for Healthcare, Pharma, Biotech, Medical Devices, and Life Sciences",
-  sub: "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. We build the website, run the advertising, publish the content, and book the meetings. One senior team owns every step, and we report a single number: the cost of each qualified meeting we put on your calendar. The job is to take the buyer already searching for what you sell and hand that person to your sales team. Your website does that first part. The five other steps carry the work farther, move it faster, or teach it to your own staff. Founders, CEOs, presidents, and vice presidents hire us when their marketing has to hold up for a scientific, clinical, or compliance reader. A chief scientific officer, a chief medical officer, a medical director, a principal investigator, a practice administrator, or a compliance officer will read it closely, and looking good on a screen is not enough.",
+  sub: [
+    "We build the website, run the advertising, publish the content, and book the meetings.",
+    "One senior team owns every step. We report the cost of each qualified meeting.",
+    "We hand the buyer already searching to your sales team. The work has to hold up for a scientific, clinical, or compliance reader.",
+  ],
   who: {
     h2: "Who we work with",
     intro: "We serve five kinds of companies:",

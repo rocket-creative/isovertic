@@ -1,8 +1,12 @@
 // Named client quote. Paul Sheiffele, President, Ingenious Targeting Laboratory. Written permission on file.
 
 export const clientQuote = {
-  quote: "We have worked with many independent marketers and digital marketing companies over the years. All promised increased visibility and qualified leads to our site. Every single one fell short, until George Stoff's team at Isovertic. Not only was it easy to work with George, but his team delivered a 300% increase in qualified leads, so much so that we had to then create an automated response workflow to keep up with the demand. Excellent work, George! Highly recommended.",
-  attribution: "Paul Sheiffele, President, Ingenious Targeting Laboratory",
+  paragraphs: [
+    "We have worked with several independent marketers and digital marketing firms over the years, with mixed results. Working with George Stoff and the Isovertic team was a meaningful change. They were responsive, easy to work with, and substantially improved our online visibility and the volume of qualified inbound leads.",
+    "Their work contributed to approximately a 300% increase in qualified inbound inquiries, leading us to implement an automated response workflow to manage the increased volume. We have been very pleased with the results and would highly recommend George and the Isovertic team.",
+  ],
+  name: "Paul Sheiffele, President",
+  company: "inGenious Targeting Laboratory, Inc.",
 };
 
 export const healthcareComplianceOfficer = "A compliance officer on staff signs the BAA and owns the sensitive data governance process. Not a subcontracted consultant, not a lawyer we call. On staff, on payroll, on every account that touches PHI.";

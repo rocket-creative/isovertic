@@ -19,6 +19,7 @@ import { TrustStrip } from "@/components/sections/TrustStrip";
 import { BuyerRoleTabs } from "@/components/sections/BuyerRoleTabs";
 import { TrackedLink } from "@/components/ui/TrackedLink";
 import { ClientQuote, LinkedCopy } from "@/components/ui/ClientQuote";
+import { VoxelSphere } from "@/components/ui/VoxelSphere";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -44,18 +45,27 @@ export default function Home() {
       <JsonLd data={faqLd(homeFaqs)} />
 
       <section className="relative overflow-hidden border-b border-rule bg-bright">
-        <div className="hero-top mx-auto max-w-[1440px] gutter pb-20 lg:pb-28">
-          <h1 className="max-w-[22ch] font-display text-h1 font-medium">
-            <SplitHeadline text={home.h1} />
+        <div className="hero-top relative z-10 mx-auto flex max-w-[1440px] flex-col gutter pb-8 lg:block lg:pb-10">
+          <h1 className="hero-title">
+            <SplitHeadline text={home.h1} emphasis="Growth Agency" highlight="Healthcare Pharma Biotech Medical Devices Life Sciences" />
           </h1>
-          <p className="hero-sub mt-4 max-w-[58ch] text-[16px] leading-[1.55] text-ink-soft sm:text-[17px] sm:leading-relaxed">
-            {home.sub}
-          </p>
-          <TrustStrip />
-          <div className="hero-cta mt-9 flex flex-wrap items-center gap-5 sm:mt-12 sm:gap-8">
-            <Link href="/contact" className="btn btn-solid btn-block">Book a pipeline call</Link>
-            <Link href="/pricing" className="cta-link">See published pricing <Arrow /></Link>
-            <TrackedLink href={heroAudit.href} section="hero" label={heroAudit.label} className="cta-link">{heroAudit.label} <Arrow /></TrackedLink>
+          <div className="mt-5 max-w-[46rem]">
+            <div className="hero-sub space-y-3 text-[16px] leading-[1.55] text-ink-soft sm:text-[17px] sm:leading-relaxed">
+              {home.sub.map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
+            </div>
+            <div className="pointer-events-auto">
+              <TrustStrip />
+              <div className="hero-cta mt-8 flex flex-wrap items-center gap-5 sm:gap-8">
+                <Link href="/contact" className="btn btn-solid btn-block">Book a pipeline call</Link>
+                <Link href="/pricing" className="cta-link">See published pricing <Arrow /></Link>
+                <TrackedLink href={heroAudit.href} section="hero" label={heroAudit.label} className="cta-link">{heroAudit.label} <Arrow /></TrackedLink>
+              </div>
+            </div>
+          </div>
+          <div className="pointer-events-auto relative z-0 mx-auto mt-10 aspect-square w-[min(78vw,420px)] lg:absolute lg:top-[calc(50%+(var(--header-h)+1rem)/2)] lg:left-[58%] lg:mt-0 lg:w-[min(62vh,600px)] lg:-translate-y-1/2" aria-hidden="true">
+            <VoxelSphere className="h-full w-full" />
           </div>
         </div>
       </section>
@@ -68,7 +78,7 @@ export default function Home() {
 
       <ClientStrip />
 
-      <Section label="Who">
+      <Section label="Who" tone="bright">
         <RevealBlock className="max-w-[68ch]">
           <h2 className="max-w-[20ch] font-display text-h2 font-medium">{home.who.h2}</h2>
           <p className="mt-6 max-w-[62ch] leading-relaxed text-ink/90">{home.who.intro}</p>
@@ -81,7 +91,7 @@ export default function Home() {
         </RevealBlock>
       </Section>
 
-      <Section label="What we do" tone="bright">
+      <Section label="What we do">
         <RevealBlock className="max-w-[68ch]">
           <h2 className="max-w-[20ch] font-display text-h2 font-medium">{home.what.h2}</h2>
           <p className="mt-6 max-w-[62ch] font-display text-[18px] font-medium leading-snug text-ink">{home.what.lead}</p>
@@ -91,7 +101,7 @@ export default function Home() {
         </RevealBlock>
       </Section>
 
-      <Section label="The move">
+      <Section label="The move" tone="bright">
         <RevealBlock className="max-w-[68ch]">
           <h2 className="max-w-[22ch] font-display text-h2 font-medium">{home.move.h2}</h2>
           <p className="mt-6 leading-relaxed text-ink/90"><LinkedCopy text={home.move.body} /></p>
@@ -121,7 +131,7 @@ export default function Home() {
 
       <BuyerRoleTabs />
 
-      <Section label="Packages" tone="bright">
+      <Section label="Packages">
         <RevealBlock className="max-w-[68ch]">
           <h2 className="max-w-[20ch] font-display text-h2 font-medium">{home.tiers.h2}</h2>
           <p className="mt-6 leading-relaxed text-ink/90">{home.tiers.intro}</p>
@@ -142,7 +152,7 @@ export default function Home() {
         </RevealBlock>
       </Section>
 
-      <Section label="The system">
+      <Section label="The system" tone="bright">
         <RevealBlock>
           <p className="eyebrow">{home.system.eyebrow}</p>
           <h2 className="mt-4 max-w-[18ch] font-display text-h2 font-medium">{home.system.h2}</h2>
@@ -163,7 +173,7 @@ export default function Home() {
         </RevealBlock>
       </Section>
 
-      <Section label="Regulated" tone="bright">
+      <Section label="Regulated">
         <RevealBlock className="max-w-[68ch]">
           <h2 className="max-w-[20ch] font-display text-h2 font-medium">{home.regulated.h2}</h2>
           <p className="mt-6 leading-relaxed text-ink/90">{home.regulated.intro}</p>
@@ -175,7 +185,7 @@ export default function Home() {
         </RevealBlock>
       </Section>
 
-      <section className="section-deferred bg-slate-soft text-ink">
+      <section className="section-deferred bg-bright text-ink">
         <div className="mx-auto max-w-[1440px] gutter py-24">
           <RevealBlock>
             <p className="eyebrow">The commitment</p>
@@ -228,7 +238,7 @@ export default function Home() {
         </RevealBlock>
       </Section>
 
-      <CTABand />
+      <CTABand tone="bright" />
       <IsoverticMove />
     </>
   );

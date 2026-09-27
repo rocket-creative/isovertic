@@ -12,7 +12,7 @@ import { buyerRoles } from "@/content/system";
 export function BuyerRoleTabs() {
   const [active, setActive] = useState(0);
   return (
-    <Section label={buyerRoles.eyebrow}>
+    <Section label={buyerRoles.eyebrow} tone="bright">
       <RevealBlock>
         <h2 className="max-w-[24ch] font-display text-h2 font-medium">{buyerRoles.h2}</h2>
       </RevealBlock>

@@ -133,11 +133,18 @@ a, button, summary, label, [role="button"] { touch-action: manipulation; }
 }
 
 /* Hero and article tops measure off the header so nothing sits under the bar or the notch. */
-/* The header offset is dead space under fixed chrome, so the optical padding is
-   what is added on top of it. That addition matches the section rhythm of
-   py-20 and lg:py-28, which is why a hero and a section now read the same. */
-.hero-top { padding-top: calc(var(--header-h) + var(--safe-top) + 5rem); }
-@media (min-width: 1024px) { .hero-top { padding-top: calc(var(--header-h) + var(--safe-top) + 7rem); } }
+/* The header offset is dead space under fixed chrome. The addition on top of
+   it is the air between the bar and the headline. */
+.hero-top { padding-top: calc(var(--header-h) + var(--safe-top) + 2.5rem); }
+@media (min-width: 1024px) { .hero-top { padding-top: calc(var(--header-h) + var(--safe-top) + 3.5rem); } }
+.hero-title {
+  max-width: 46rem;
+  font-family: var(--font-display);
+  font-size: clamp(24px, 2.15vw, 32px);
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+}
 
 /* The one horizontal gutter. Held against the landscape notch inset, which on a
    rotated phone is wider than the tablet gutter that would otherwise win. */
@@ -152,8 +159,12 @@ a, button, summary, label, [role="button"] { touch-action: manipulation; }
   .gutter { padding-left: max(4rem, var(--safe-left)); padding-right: max(4rem, var(--safe-right)); }
 }
 
+/* Display lives in the components layer so utilities like hidden can win on small screens. */
+@layer components {
+  .btn { display: inline-flex; }
+}
 .btn {
-  display: inline-flex; align-items: center; justify-content: center; gap: 12px;
+  align-items: center; justify-content: center; gap: 12px;
   min-height: var(--tap); min-width: var(--tap);
   padding: 12px 24px;
   font-size: 13px; line-height: 1.25; letter-spacing: 0.1em; text-transform: uppercase;
@@ -214,6 +225,13 @@ textarea.field { min-height: 96px; resize: vertical; }
 
   @keyframes word-in { from { opacity: 0; transform: translateY(105%); } to { opacity: 1; transform: translateY(0); } }
   .animate-word-in { animation: word-in 700ms var(--ease-editorial) both; }
+  @keyframes emphasis-grow {
+    from { font-weight: 500; font-stretch: 100%; font-size: 1em; }
+    to { font-weight: 760; font-stretch: 125%; font-size: 1.5em; color: var(--color-signal); }
+  }
+  .animate-word-in.hero-emphasis {
+    animation: word-in 700ms var(--ease-editorial) both, emphasis-grow 900ms var(--ease-out-soft) both;
+  }
 
   @keyframes fade-up { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
   .hero-sub { animation: fade-up 600ms var(--ease-out-soft) 600ms both; }
@@ -234,6 +252,10 @@ textarea.field { min-height: 96px; resize: vertical; }
     @keyframes hero-drift { from { transform: translateY(0); } to { transform: translateY(90px); } }
   }
 }
+.hero-emphasis { font-weight: 760; font-stretch: 125%; font-size: 1.5em; color: var(--color-signal); }
+.hero-highlight { color: var(--color-signal); }
+.title-emphasis { color: var(--color-signal); font-weight: 760; font-stretch: 125%; font-size: 1.5em; }
+.title-highlight { color: var(--color-signal); }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .reveal { opacity: 1 !important; transform: none !important; }

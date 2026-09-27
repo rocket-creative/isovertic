@@ -1,7 +1,8 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Arrow } from "@/components/ui/Arrow";
-import { Section } from "@/components/sections/Shell";
+import { casePrompt } from "@/components/ui/ImagePlaceholder";
+import { HeroFrame, Section } from "@/components/sections/Shell";
 import { RevealBlock } from "@/components/ui/RevealBlock";
 import { CTABand } from "@/components/sections/CTABand";
 import { JsonLd } from "@/components/ui/JsonLd";
@@ -43,15 +44,10 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
         ]}
       />
 
-      <article className="border-b border-rule bg-bright">
-        <div className="mx-auto max-w-[1440px] gutter pt-32 pb-14 lg:pt-40">
-          <p className="eyebrow">Results · {c.industry}</p>
-          <p className="mt-6 text-[13px] uppercase tracking-[0.18em] text-signal">{c.clientName}</p>
-          <h1 className="mt-4 max-w-[24ch] font-display text-h1 font-medium">{c.title}</h1>
-          <p className="mt-6 max-w-[62ch] text-[16px] text-ink-soft">{c.clientDescriptor}</p>
-          <p className="mt-8 max-w-[62ch] text-[17px] leading-relaxed text-ink/90">{c.summary}</p>
-          <div className="iso-mark rule-draw mt-12 max-w-[560px]" aria-hidden="true" />
-
+      <HeroFrame
+        image={casePrompt(c.clientName, c.industry)}
+        after={
+          <>
           <div className="mt-14 grid gap-px bg-rule sm:grid-cols-2 lg:grid-cols-3">
             {c.stats.map((s) => (
               <RevealBlock key={s.label} className="surface-card p-8">
@@ -64,8 +60,16 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
           <p className="mt-6 text-[13px] leading-relaxed text-ink-soft">
             {STUDY_WINDOW_NOTE[c.studyType]}
           </p>
-        </div>
-      </article>
+          </>
+        }
+      >
+        <p className="eyebrow">Results · {c.industry}</p>
+        <p className="mt-6 text-[13px] uppercase tracking-[0.18em] text-signal">{c.clientName}</p>
+        <h1 className="hero-title mt-4">{c.title}</h1>
+        <p className="mt-5 max-w-[62ch] text-[16px] text-ink-soft">{c.clientDescriptor}</p>
+        <p className="mt-4 max-w-[62ch] text-[16px] leading-[1.55] text-ink/90 sm:text-[17px] sm:leading-relaxed">{c.summary}</p>
+        <div className="iso-mark rule-draw mt-8 max-w-[560px]" aria-hidden="true" />
+      </HeroFrame>
 
       <Section label="Situation" tone="bright">
         <RevealBlock>

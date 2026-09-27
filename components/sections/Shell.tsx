@@ -1,4 +1,6 @@
 import type { ReactNode } from "react";
+import { HighlightedTitle } from "@/components/ui/HighlightedTitle";
+import { describeHeroImage, ImagePlaceholder, showImagePlaceholders } from "@/components/ui/ImagePlaceholder";
 import { RevealBlock } from "@/components/ui/RevealBlock";
 
 export function Section({
@@ -26,20 +28,40 @@ export function Section({
   );
 }
 
-export function PageHero({ eyebrow, h1, lead, cta }: { eyebrow?: string; h1: ReactNode; lead?: string | readonly string[]; cta?: ReactNode }) {
-  const leads = lead == null ? [] : typeof lead === "string" ? [lead] : [...lead];
+export function HeroFrame({ children, image, after }: { children: ReactNode; image: string; after?: ReactNode }) {
   return (
-    <section className="border-b border-rule bg-bright pt-[calc(var(--spacing-safe-top)+6.5rem)] lg:pt-[calc(var(--spacing-safe-top)+9.25rem)]">
-      <div className="mx-auto max-w-[1440px] gutter pb-14">
-        {eyebrow ? <p className="eyebrow">{eyebrow}</p> : null}
-        <h1 className={`${eyebrow ? "mt-5" : ""} max-w-[18ch] font-display text-h1 font-medium`}>{h1}</h1>
-        {leads.map((p, i) => (
-          <p key={i} className={`${i === 0 ? "mt-7" : "mt-4"} max-w-[62ch] text-[17px] leading-relaxed text-ink-soft`}>{p}</p>
-        ))}
-        {cta ? <div className="mt-8">{cta}</div> : null}
-        <div className="iso-mark rule-draw mt-12 max-w-[560px]" aria-hidden="true" />
+    <section className="border-b border-rule bg-bright">
+      <div className="hero-top mx-auto max-w-[1440px] gutter pb-8 lg:pb-10">
+        <div className={showImagePlaceholders ? "grid items-center gap-8 lg:grid-cols-[minmax(0,46rem)_minmax(220px,1fr)] lg:gap-12" : ""}>
+          <div>
+            {children}
+          </div>
+          {showImagePlaceholders ? (
+            <ImagePlaceholder
+              description={image}
+              className="aspect-[4/3] w-full lg:aspect-square lg:w-[min(62vh,600px)] lg:max-w-full lg:justify-self-end"
+            />
+          ) : null}
+        </div>
+        {after}
       </div>
     </section>
+  );
+}
+
+export function PageHero({ eyebrow, h1, lead, cta, image }: { eyebrow?: string; h1: ReactNode; lead?: string | readonly string[]; cta?: ReactNode; image?: string }) {
+  const leads = lead == null ? [] : typeof lead === "string" ? [lead] : [...lead];
+  const title = typeof h1 === "string" ? h1 : undefined;
+  return (
+    <HeroFrame image={image ?? describeHeroImage(eyebrow, title)}>
+      {eyebrow ? <p className="eyebrow">{eyebrow}</p> : null}
+      <h1 className={`${eyebrow ? "mt-5" : ""} hero-title`}>{typeof h1 === "string" ? <HighlightedTitle text={h1} /> : h1}</h1>
+      {leads.map((p, i) => (
+        <p key={i} className={`${i === 0 ? "mt-5" : "mt-4"} max-w-[62ch] text-[16px] leading-[1.55] text-ink-soft sm:text-[17px] sm:leading-relaxed`}>{p}</p>
+      ))}
+      {cta ? <div className="mt-8">{cta}</div> : null}
+      <div className="iso-mark rule-draw mt-8 max-w-[560px]" aria-hidden="true" />
+    </HeroFrame>
   );
 }
 

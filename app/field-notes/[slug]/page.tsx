@@ -7,6 +7,8 @@ import { CTABand } from "@/components/sections/CTABand";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { articleLd, breadcrumbLd } from "@/lib/schema";
 import { getPerson } from "@/content/people";
+import { fieldNotePrompt } from "@/components/ui/ImagePlaceholder";
+import { HeroFrame } from "@/components/sections/Shell";
 import { AuthorBio, RelatedEssays, categoryLabel } from "@/components/thought/Cards";
 import { SubscribeCard } from "@/components/thought/SubscribeCard";
 import { ReadTracker } from "@/components/thought/ReadTracker";
@@ -41,27 +43,25 @@ export default async function Article({ params }: { params: Promise<{ slug: stri
       <JsonLd data={[articleLd(a), breadcrumbLd([{ name: "Home", path: "/" }, { name: hub.eyebrow, path: hub.path }, { name: a.title, path: `/field-notes/${slug}` }])]} />
       <ReadTracker slug={a.slug} category={a.category} />
       <article>
-        <header className="border-b border-rule bg-bright">
-          <div className="mx-auto max-w-[1440px] gutter pt-32 pb-14 lg:pt-40">
-            <p className="eyebrow">
-              {a.flagship ? hub.flagshipEyebrow : categoryLabel(a.category)} · {a.readingMinutes} min read · Published {a.datePublished}
-              {a.dateModified !== a.datePublished ? ` · Updated ${a.dateModified}` : ""}
-            </p>
-            <h1 className="mt-5 max-w-[24ch] font-display text-h1 font-medium">{a.title}</h1>
-            <p className="mt-6 max-w-[62ch] text-[17px] leading-relaxed text-ink-soft">{a.description}</p>
-            <p className="mt-6 max-w-[62ch] text-[15px] text-ink-soft">
-              By <Link href={`/people/${author?.slug}`} className="underline underline-offset-4 hover:text-navy">{author?.name}</Link>, {author?.title}
-              {reviewer && <> · Reviewed by <Link href={`/people/${reviewer.slug}`} className="underline underline-offset-4 hover:text-navy">{reviewer.name}</Link>, {reviewer.title}</>}
-            </p>
-            <div className="iso-mark rule-draw mt-10 max-w-[560px]" aria-hidden="true" />
-            {a.correction && (
-              <aside className="callout callout--correction mt-10 max-w-[68ch]">
-                <p className="callout__label">{t.correctionLabel}</p>
-                <p>{a.correction}</p>
-              </aside>
-            )}
-          </div>
-        </header>
+        <HeroFrame image={fieldNotePrompt(a.title)}>
+          <p className="eyebrow">
+            {a.flagship ? hub.flagshipEyebrow : categoryLabel(a.category)} · {a.readingMinutes} min read · Published {a.datePublished}
+            {a.dateModified !== a.datePublished ? ` · Updated ${a.dateModified}` : ""}
+          </p>
+          <h1 className="hero-title mt-5">{a.title}</h1>
+          <p className="mt-5 max-w-[62ch] text-[16px] leading-[1.55] text-ink-soft sm:text-[17px] sm:leading-relaxed">{a.description}</p>
+          <p className="mt-5 max-w-[62ch] text-[15px] text-ink-soft">
+            By <Link href={`/people/${author?.slug}`} className="underline underline-offset-4 hover:text-navy">{author?.name}</Link>, {author?.title}
+            {reviewer && <> · Reviewed by <Link href={`/people/${reviewer.slug}`} className="underline underline-offset-4 hover:text-navy">{reviewer.name}</Link>, {reviewer.title}</>}
+          </p>
+          <div className="iso-mark rule-draw mt-8 max-w-[560px]" aria-hidden="true" />
+          {a.correction && (
+            <aside className="callout callout--correction mt-8 max-w-[68ch]">
+              <p className="callout__label">{t.correctionLabel}</p>
+              <p>{a.correction}</p>
+            </aside>
+          )}
+        </HeroFrame>
         <div className="mx-auto max-w-[1440px] gutter">
           <div className="prose-iso mt-14 pb-10">{renderMd(a.body)}</div>
           <div className="max-w-[68ch] pb-16">

@@ -2,9 +2,9 @@ import Link from "next/link";
 import { Arrow } from "@/components/ui/Arrow";
 import { RevealBlock } from "@/components/ui/RevealBlock";
 
-export function CTABand() {
+export function CTABand({ tone = "slate" }: { tone?: "slate" | "bright" } = {}) {
   return (
-    <section className="bg-slate-soft text-ink">
+    <section className={`${tone === "bright" ? "bg-bright" : "bg-slate-soft"} text-ink`}>
       <div className="mx-auto max-w-[1440px] gutter py-24">
         <RevealBlock>
           <p className="eyebrow">The division of labor</p>

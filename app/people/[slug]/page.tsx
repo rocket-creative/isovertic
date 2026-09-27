@@ -1,5 +1,6 @@
 import { people, getPerson } from "@/content/people";
 import { getArticles } from "@/lib/articles";
+import { portraitPrompt } from "@/components/ui/ImagePlaceholder";
 import { PageHero, Section } from "@/components/sections/Shell";
 import { RevealBlock } from "@/components/ui/RevealBlock";
 import { CTABand } from "@/components/sections/CTABand";
@@ -29,7 +30,12 @@ export default async function PersonPage({ params }: { params: Promise<{ slug: s
   return (
     <>
       <JsonLd data={[personLd(p), breadcrumbLd([{ name: "Home", path: "/" }, { name: "About", path: "/about" }, { name: p.name, path: `/people/${p.slug}` }])]} />
-      <PageHero eyebrow={p.title} h1={p.name} lead={p.short} />
+      <PageHero
+        eyebrow={p.title}
+        h1={p.name}
+        lead={p.short}
+        image={portraitPrompt(p.name, p.title)}
+      />
       <Section label="Bio">
         <RevealBlock className="max-w-[68ch] space-y-5 leading-relaxed text-ink/90">
           {p.bio.map((b, i) => <p key={i}>{b}</p>)}

@@ -4,8 +4,15 @@ import { clientQuote } from "@/content/voice-audit";
 export function ClientQuote() {
   return (
     <blockquote className="max-w-[62ch] border-l-2 border-signal pl-6">
-      <p className="font-display text-[clamp(18px,2.2vw,24px)] font-medium leading-snug text-ink">{clientQuote.quote}</p>
-      <footer className="mt-5 text-[13px] uppercase tracking-[0.1em] text-ink-soft">{clientQuote.attribution}</footer>
+      <div className="space-y-4">
+        {clientQuote.paragraphs.map((paragraph) => (
+          <p key={paragraph} className="font-display text-[clamp(18px,2.2vw,24px)] font-medium leading-snug text-ink">{paragraph}</p>
+        ))}
+      </div>
+      <footer className="mt-5 text-[13px] uppercase tracking-[0.1em] text-ink-soft">
+        <span className="block">{clientQuote.name}</span>
+        <span className="mt-1 block">{clientQuote.company}</span>
+      </footer>
     </blockquote>
   );
 }

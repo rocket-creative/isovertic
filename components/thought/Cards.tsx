@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Article } from "@/lib/articles";
 import { Arrow } from "@/components/ui/Arrow";
+import { ImagePlaceholder, portraitPrompt, showImagePlaceholders } from "@/components/ui/ImagePlaceholder";
 import { TrackedLink } from "@/components/ui/TrackedLink";
 import { getPerson } from "@/content/people";
 import { categories, hub } from "@/content/thought";
@@ -109,7 +110,15 @@ export function AuthorGrid({ articles }: { articles: Article[] }) {
     <div className="grid gap-px bg-rule md:grid-cols-2">
       {authors.map(({ p, count }) => (
         <div key={p!.slug} className="surface-card flex gap-6 p-8">
-          <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-[2px] bg-navy font-display text-lg font-semibold text-paper" aria-hidden="true">{p!.initials}</div>
+          {showImagePlaceholders ? (
+            <ImagePlaceholder
+              label="Portrait prompt"
+              description={portraitPrompt(p!.name, p!.title)}
+              className="aspect-square w-[140px] shrink-0"
+            />
+          ) : (
+            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-[2px] bg-navy font-display text-lg font-semibold text-paper" aria-hidden="true">{p!.initials}</div>
+          )}
           <div>
             <p className="font-display text-[17px] font-medium"><Link href={`/people/${p!.slug}`} className="hover:text-signal">{p!.name}</Link>, {p!.title}</p>
             <p className="mt-2 text-[14px] leading-relaxed text-ink-soft">{p!.short}</p>
@@ -129,8 +138,16 @@ export function AuthorBio({ slug, eyebrow }: { slug: string; eyebrow: string }) 
   const p = getPerson(slug);
   if (!p) return null;
   return (
-    <div className="grid gap-6 border-t border-rule pt-10 sm:grid-cols-[56px_1fr]">
-      <div className="flex h-14 w-14 items-center justify-center rounded-[2px] bg-navy font-display text-lg font-semibold text-paper" aria-hidden="true">{p.initials}</div>
+    <div className={`grid gap-6 border-t border-rule pt-10 ${showImagePlaceholders ? "sm:grid-cols-[180px_1fr]" : "sm:grid-cols-[56px_1fr]"}`}>
+      {showImagePlaceholders ? (
+        <ImagePlaceholder
+          label="Portrait prompt"
+          description={portraitPrompt(p.name, p.title)}
+          className="aspect-square w-full max-w-[180px]"
+        />
+      ) : (
+        <div className="flex h-14 w-14 items-center justify-center rounded-[2px] bg-navy font-display text-lg font-semibold text-paper" aria-hidden="true">{p.initials}</div>
+      )}
       <div className="max-w-[68ch]">
         <p className="eyebrow">{eyebrow}</p>
         <p className="mt-2 font-display text-[18px] font-medium">{p.name}, {p.title}</p>
