@@ -42,11 +42,11 @@ export const people: Person[] = [
     name: "Kristen Coughlin",
     title: "Chief Operating Officer",
     short: "Trained molecular biologist. Ten years selling translational research products. Built the operation that runs the method.",
-    card: "Trained molecular biologist. Ten years selling translational research products, then institutional operations at the Yale School of Medicine. She built the delivery operation: took the method George engineered, wrote it down, trained the team on it, and turned it into a repeatable engagement so the same system runs the same way on every account.",
+    card: "Trained molecular biologist. Ten years selling translational research products, then institutional operations at the Yale School of Medicine. She documented George's method, trained the team on it, and built the operation so the same system runs the same way on every account.",
     initials: "KC",
     bio: [
-      "Trained molecular biologist. Ten years selling translational research products, then institutional operations at the Yale School of Medicine. That background is why the standard for life-science work reads the way it does.",
-      "She also built the delivery operation. She took George's method, documented it, trained the team on it, and turned it into a repeatable engagement so the same system runs the same way on every account. That is the reason the company can honestly say \"the founder is the source, not the bottleneck.\" Somebody had to build the operation that makes that true.",
+      "Trained molecular biologist. Ten years selling translational research products, then institutional operations at the Yale School of Medicine.",
+      "She documented George's method, trained the team on it, and built the operation so the same system runs the same way on every account.",
     ],
     credentials: [
       "Molecular biologist, graduate laboratory work at Stony Brook University",
@@ -56,7 +56,7 @@ export const people: Person[] = [
     knowsAbout: ["Life science sales", "CRO business development", "Mouse model services", "Research institution operations", "Scientific content review"],
     alumniOf: ["Stony Brook University"],
     sameAs: ["https://www.linkedin.com/in/kristen-coughlin/"],
-    disclosure: "Kristen is a former team member of Ingenious Targeting Laboratory, an Isovertic client in the mouse-model space. Isovertic engagements with Ingenious are reviewed for conflicts by the founder, and Kristen recuses herself from account decisions where a conflict is possible.",
+    disclosure: "Kristen previously worked at Ingenious Targeting Laboratory, an Isovertic client in the mouse model space. George reviews Isovertic work with Ingenious for conflicts. Kristen steps out of account decisions where a conflict is possible.",
   },
 ];
 

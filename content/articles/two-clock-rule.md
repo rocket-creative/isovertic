@@ -28,7 +28,7 @@ Here is the answer that is true. You are judging a system with a 12 to 24 month 
 
 ## The four clocks running on your spend
 
-Marketing spend at a growth-stage healthcare or life-science company runs on four independent clocks. All four need to run their course before you can honestly judge the spend. Cutting the spend early does not speed up the clocks. It just wastes the money that has already run.
+Marketing spend at a growth-stage healthcare or life science company runs on four independent clocks. All four need to run their course before you can honestly judge the spend. Cutting the spend early does not speed up the clocks. It just wastes the money that has already run.
 
 ### Clock 1: the SEO clock
 
@@ -100,7 +100,7 @@ These tell you whether the system produced business.
 - Cost of acquiring a customer, paid back (months to break even on the customer)
 - Retention and expansion of customers acquired in the period
 
-The 6-month review is the first honest lagging-indicator review for most healthcare, biotech, and life-science pipelines. The 12-month review is the first honest revenue review.
+The 6-month review is the first honest lagging-indicator review for most healthcare, biotech, and life science pipelines. The 12-month review is the first honest revenue review.
 
 If your sales cycle is 18 months, the 18-month review is the first honest revenue review. Do the math on your actual cycle. Put the review dates in the contract.
 

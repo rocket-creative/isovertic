@@ -15,7 +15,7 @@ export const protocol = {
   },
   teachers: {
     h2: "Who teaches which part",
-    body: "The people who run the work write the instructions and teach the appropriate section. Google Ads specialists write the Google Ads runbook. Our compliance officer writes the HIPAA and MLR procedures, grounded in the HHS OCR guidance on [online tracking technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html) and the June 2024 ruling in [AHA v. Becerra](https://www.aha.org/legal-documents/2024-06-20-aha-v-becerra-court-ruling-online-tracking-technologies). Our molecular biologist writes the life-science material for biotech and diagnostics clients whose buyers include chief scientific officers, principal investigators, and VPs of regulatory.",
+    body: "The people who run the work write the instructions and teach the appropriate section. Google Ads specialists write the Google Ads runbook. Our compliance officer writes the HIPAA and MLR procedures, grounded in the HHS OCR guidance on [online tracking technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html) and the June 2024 ruling in [AHA v. Becerra](https://www.aha.org/legal-documents/2024-06-20-aha-v-becerra-court-ruling-online-tracking-technologies). Our molecular biologist writes the life science material for biotech and diagnostics clients whose buyers include chief scientific officers, principal investigators, and VPs of regulatory.",
   },
   steps: {
     h2: "What your team learns",
@@ -96,6 +96,6 @@ export const protocol = {
     { q: "Can we buy Protocol and a monthly package?", a: "Yes. Companies on any monthly package can add the one day Protocol for $3,500, since our team already knows your stack. Most use it to train the sales side while we run marketing." },
     { q: "Do we need a medical reviewer?", a: "Only if your content makes clinical, safety, or efficacy claims. If it does, we write the review step around a reviewer you name with the appropriate credential. Protocol does not supply one. That responsibility should sit with the organization making the claim." },
     { q: "Can this run remotely?", a: "The one-day format can run as two remote half days. The full-team format is on site because the work includes examining the CRM and the handoffs between real people. Video can explain a process. It cannot show every operational seam." },
-    { q: "Who teaches it?", a: "The people who run the work write the runbooks and teach the day. Google Ads specialists teach Google Ads. The compliance officer teaches HIPAA and MLR procedures. The molecular biologist writes the life-science material." },
+    { q: "Who teaches it?", a: "The people who run the work write the runbooks and teach the day. Google Ads specialists teach Google Ads. The compliance officer teaches HIPAA and MLR procedures. The molecular biologist writes the life science material." },
   ],
 };

@@ -412,7 +412,7 @@ export const servicesOverview = {
     ]},
     { h2: "06 Educate. Runbooks for your team", body: [
       "Educate transfers the operating process to your people. One or two days at your office, eight runbooks, and a follow-up call at 30 days.",
-      "The Google Ads runbook is written by the Google Ads specialist. The compliance runbook is written by the compliance officer. The life-science runbook is written by our molecular biologist. Your team receives guidance from the people who carry responsibility for the work.",
+      "The Google Ads runbook is written by the Google Ads specialist. The compliance runbook is written by the compliance officer. The life science runbook is written by our molecular biologist. Your team receives guidance from the people who carry responsibility for the work.",
       "One department, one day, $5,000. Full team, two days, $20,000. A Protocol day for current clients, $3,500. This works when your team can commit one focused day. If they cannot, do not buy it.",
     ]},
   ],

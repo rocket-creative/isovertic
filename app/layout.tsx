@@ -15,8 +15,8 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: { default: "ISOVERTIC | Growth Agency for Healthcare, Pharma, Biotech, Medical Devices, and Life Sciences", template: "%s | ISOVERTIC" },
   description: site.description,
-  openGraph: { siteName: site.name, type: "website", images: ["/og.png"] },
-  twitter: { card: "summary_large_image", images: ["/og.png"] },
+  openGraph: { siteName: site.name, type: "website", images: [site.images.og] },
+  twitter: { card: "summary_large_image", images: [site.images.og] },
   robots: { index: true, follow: true },
   alternates: { types: { "application/rss+xml": "/feed.xml" } },
 };

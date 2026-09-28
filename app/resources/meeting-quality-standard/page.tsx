@@ -11,12 +11,13 @@ import { TwoClockScorecard } from "@/components/standard/Tables";
 import { TrackedLink } from "@/components/ui/TrackedLink";
 import { breadcrumbLd, faqLd, resourceLd } from "@/lib/schema";
 import { croGuide as g } from "@/content/decision-guides";
+import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: { absolute: g.title },
   description: g.description,
   alternates: { canonical: g.path },
-  openGraph: { type: "article", title: g.title, description: g.description, images: ["/og.png"] },
+  openGraph: { type: "article", title: g.title, description: g.description, images: [site.images.og] },
 };
 
 export default function MeetingQualityStandard() {

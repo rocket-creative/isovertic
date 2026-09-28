@@ -18,7 +18,7 @@ readingMinutes: 9
 - Why the median marketing budget dropped from roughly 10% to 8% of annual recurring revenue over the last two years, and what that means for what you should defend
 - The 2026 cost of customer acquisition paid-back numbers that end the "why aren't we cash-flow positive yet" board conversation
 - A defensible marketing budget at $2M, $5M, and $10M annual recurring revenue with the specific line items
-- The board-slide language that makes your marketing spend legible to a healthcare or life-science investor
+- The board-slide language that makes your marketing spend legible to a healthcare or life science investor
 
 ---
 
@@ -76,7 +76,7 @@ A Series A company with a 60-day sales cycle and one with an 18-month sales cycl
 
 ## What defensible looks like at $2M, $5M, and $10M annual recurring revenue
 
-Here are three concrete profiles for a healthcare or life-science company. The percentages are inside the GrowthSpree 2026 benchmarks. The line-item allocation is representative; your specific mix will vary.
+Here are three concrete profiles for a healthcare or life science company. The percentages are inside the GrowthSpree 2026 benchmarks. The line-item allocation is representative; your specific mix will vary.
 
 ### $2M annual recurring revenue (Series A)
 

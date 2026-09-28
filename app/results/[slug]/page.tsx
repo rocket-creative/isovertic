@@ -8,6 +8,7 @@ import { CTABand } from "@/components/sections/CTABand";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { breadcrumbLd, caseStudyLd } from "@/lib/schema";
 import { getCaseStudy, publishedCaseStudies, REPORTING_METHOD, STANDARD_LINK, STEP_ORDER, STUDY_WINDOW_NOTE } from "@/content/case-studies";
+import { site } from "@/lib/site";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
@@ -22,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: { absolute: c.metaTitle },
     description: c.metaDescription,
     alternates: { canonical: `/results/${slug}` },
-    openGraph: { type: "article", title: c.metaTitle, description: c.metaDescription, images: ["/og.png"] },
+    openGraph: { type: "article", title: c.metaTitle, description: c.metaDescription, images: [site.images.og] },
   };
 }
 

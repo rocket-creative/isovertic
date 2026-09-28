@@ -12,6 +12,11 @@ export const site = {
   address: { street: "600 Johnson Ave, Suite D5", locality: "Bohemia", region: "NY", postalCode: "11716", country: "US" },
   phone: "+1-631-816-9577",
   email: "sale@isovertic.com",
+  // The only images AI and social crawlers should attach to the name. Both are the wordmark.
+  images: {
+    og: { url: "/og.png", width: 1200, height: 630, alt: "ISOVERTIC wordmark" },
+    logo: { url: "/isovertic-logo.png", width: 1600, height: 478, alt: "ISOVERTIC wordmark" },
+  },
   knowsAbout: [
     "Life science marketing",
     "CRO marketing",

@@ -1,7 +1,7 @@
 ---
 slug: vendor-stack-audit
 title: The Vendor Stack Audit: What Your Five Specialists Really Cost
-description: The 2026 monthly line-item cost of the specialist stack most Series A to C healthcare and life-science companies actually run.
+description: The 2026 monthly line-item cost of the specialist stack most Series A to C healthcare and life science companies actually run.
 primaryKeyword: vendor stack audit
 datePublished: 2026-09-07
 dateModified: 2026-09-07
@@ -14,7 +14,7 @@ readingMinutes: 7
 
 ## What you'll take away
 
-- The 2026 monthly line-item cost of the "specialist stack" most Series A to C healthcare and life-science companies actually run
+- The 2026 monthly line-item cost of the "specialist stack" most Series A to C healthcare and life science companies actually run
 - The hidden invoices your bookkeeper never sees: founder integration hours, missed handoffs, attribution fragmentation
 - The specific reason 91-tool marketing stacks look cheaper than consolidated ones on paper and cost more in practice
 - What a consolidated stack costs, and what you should still keep separate
@@ -38,7 +38,7 @@ The word "stack" makes it sound orderly. It is not orderly. It is a pile.
 
 ## The visible line items
 
-Here is a representative 2026 monthly bill for a Series A healthcare or life-science company running the specialist model. Costs are mid-range for the size, drawn from published 2026 stack pricing at [Entlify's B2B Marketing Tech Stack pricing table](https://www.entlify.com/blog/b2b-marketing-tech-stack).
+Here is a representative 2026 monthly bill for a Series A healthcare or life science company running the specialist model. Costs are mid-range for the size, drawn from published 2026 stack pricing at [Entlify's B2B Marketing Tech Stack pricing table](https://www.entlify.com/blog/b2b-marketing-tech-stack).
 
 | Line item | Monthly retainer or subscription |
 |---|---|
@@ -72,7 +72,7 @@ Add it up. On a mid-range specialist stack, the invisible line items are $15,000
 
 A consolidated stack is not one vendor doing everything. It is one team owning the pipeline number, with the tools and specialists that team needs, chosen so they actually integrate.
 
-A 2026 healthcare or life-science consolidated stack typically looks like:
+A 2026 healthcare or life science consolidated stack typically looks like:
 
 - One team owning the full funnel (site, content, ads, email, CRM, sales development handoff)
 - A CRM that is the system of record (not a marketing automation tool pretending to be one)
@@ -99,7 +99,7 @@ The consolidated stack is not always cheaper on the visible line. On the total l
 
 Not every function belongs under one roof. Some services should stay specialist because the specialization is the point.
 
-- **Regulated legal review** (HIPAA counsel, FTC advertising counsel, life-science regulatory counsel). Never in-house at a Series A. Never bundled with the marketing shop.
+- **Regulated legal review** (HIPAA counsel, FTC advertising counsel, life science regulatory counsel). Never in-house at a Series A. Never bundled with the marketing shop.
 - **Independent auditing** (attribution audits, brand studies, third-party research). If the same team measures itself, it will measure favorably.
 - **Specialized production** (video, medical illustration, animation, produced podcasts) where the work is craft-heavy and infrequent. Buying it retainer is more expensive than buying it project-based.
 - **Deep technical implementation** where a specialist has built the exact stack many times (HIPAA-compliant form and call stack, HubSpot to Salesforce migrations, enterprise SEO technical audits). Pay the specialist for the implementation, then own the ongoing.

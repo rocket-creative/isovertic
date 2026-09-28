@@ -49,7 +49,7 @@ Source of truth: `CORE-MESSAGE-FOUNDATION.md` at the repo root and the live site
 - E-commerce and DTC.
 
 **Offer shape (pricing source of truth is `content/tiers.ts`):**
-- Ground State, $2,500 a month: the content drumbeat, running without meetings.
+- Ground State, $3,000 a month: the content drumbeat, running without meetings.
 - Excitation, $5,000 plus ad spend: content plus paid demand, with a human on the account.
 - Amplification, $10,000 plus ad spend: the full pipeline, one outbound seat, meeting number in writing. The flagship.
 - Quantum Leap, from $25,000 plus media: per brand, two outbound seats, streaming and broadcast TV, and the operations audit (the map, the automations, the SOPs) before volume is added.

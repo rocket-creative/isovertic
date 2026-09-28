@@ -1,21 +1,21 @@
-// About page copy. Verbatim from the About rewrite prompt. Do not invent, paraphrase, or add links.
+// About page copy.
 
 export const about = {
-  h1: "One senior team owns the pipeline. Every account. Every tier.",
+  h1: "One senior team runs the pipeline. Every account. Every tier.",
   lead: [
-    "ISOVERTIC was built for companies that have to prove their results to someone: a review board, an investor, a regulator, a patient. That buyer does not want a deck of adjectives. They want the number, the method, and the people who own both.",
-    "ISOVERTIC is a growth agency. Not a marketing agency, which hands you traffic and reports. Not a web design company, which hands you a launch. One senior team owns the whole pipeline: the site that gets found by the buyer already searching for what you sell, the content they trust, the ads spent only on them, and the outbound that turns a found page into a meeting on your calendar, with tracking that proves which page produced which meeting. That is what we sell.",
+    "ISOVERTIC was built for companies whose buyers ask to see the work: a review board, an investor, a regulator, a patient. That buyer does not want a deck of adjectives. They want a booked meeting they can point to, the method that produced it, and the people who ran it.",
+    "ISOVERTIC is a growth agency. A marketing agency hands you traffic and reports. A web design company hands you a launch. One senior team runs the whole pipeline: the site that gets found by the buyer already searching for what you sell, the content they trust, the ads spent only on them, and the outbound that turns a found page into a meeting on your calendar, with tracking that ties each meeting to the page that produced it.",
   ],
   name: {
     h2: "Why the name",
-    body: "Iso means constant. Vertic means the vertical. The name is the shape of the growth line we are paid to produce: a fixed, rising heading, not a spike that falls back. Our tiers are named the same way, from Ground State, the level you start from, to Quantum Leap, the jump to a new level.",
+    body: "Iso means constant. Vertic means the vertical. The name describes a growth line that stays steady and keeps rising, instead of a spike that falls back. The tiers follow the same idea. Ground State is the level you start from. Quantum Leap is the jump to a new level.",
   },
   buying: {
     h2: "What you are actually buying",
     body: [
-      "You are buying company knowledge, not one person's calendar.",
-      "George engineered the method over 30 years of building the systems companies sell through. Kristen wrote it down, taught the team to run it, and built the operation that ships it consistently across every account. Every engagement runs the same method. We say what it produces: a website the buyer already searching for you can trust, advertising spent only on those people, and a meeting on your calendar with a written brief. We do not publish how we choose what to build, publish, or bid on. The five steps are on the system page.",
-      "The method is written down. The team is trained on it. The founder is the source and the escalation path, not the bottleneck. That is why the account keeps moving in a slow week, and it is why year two does not fall off a cliff.",
+      "You are buying a method the company runs, not one person's calendar.",
+      "George engineered the method over 30 years of building the systems companies sell through. Kristen wrote it down, trained the team to run it, and built the operation that keeps it consistent on every account. Every engagement runs the same method. What it produces: a website the buyer already searching for you can trust, advertising spent only on those people, and a meeting on your calendar with a written brief. We do not publish how we choose what to build, publish, or bid on. The five steps are on the system page.",
+      "The method is written down. The team is trained on it. George stays available when a question needs him. The account keeps moving in a slow week, and year two runs on the same written method.",
     ],
   },
   team: {
@@ -30,7 +30,7 @@ export const about = {
       { title: "Videographers.", body: "In-house video production for interviews, product demos, TV creative, and streaming ads." },
       { title: "Photographers.", body: "In-house photography for team pages, product shots, event coverage, and social content." },
       { title: "Outbound appointment setters.", body: "The people who send the emails, make the calls, and book qualified meetings on your calendar, briefed by the same team that built your website." },
-      { title: "Editors and reviewers.", body: "Every piece gets an editing pass, and life-science work gets a scientific review before it reaches your medical, legal, and regulatory reviewer. No claim ships unreviewed." },
+      { title: "Editors and reviewers.", body: "Every piece gets an editing pass. A scientist on the team reads life science work before it reaches your medical, legal, and regulatory reviewer." },
       { title: "Account leads.", body: "One senior person owns your account and stays with you across the twelve months. You do not get handed off." },
     ],
     close: "The same senior team runs every tier. Ground State clients get the same people writing their articles and building their site that Quantum Leap clients get. Nothing is subcontracted to a freelancer. If you buy a tier, you get the team.",
@@ -48,8 +48,8 @@ export const about = {
   kristen: {
     h2: "Kristen Coughlin, Chief Operating Officer",
     body: [
-      "Trained molecular biologist. Ten years selling translational research products, then institutional operations at the Yale School of Medicine. She wrote the standard the life-science work is held to.",
-      "She also built the delivery operation. She took George's method, documented it, trained the team on it, and turned it into a repeatable engagement so the same system runs the same way on every account. That is the reason the company can honestly say \"the founder is the source, not the bottleneck.\" Somebody had to build the operation that makes that true.",
+      "Trained molecular biologist. Ten years selling translational research products, then institutional operations at the Yale School of Medicine.",
+      "She documented George's method, trained the team on it, and built the operation so the same system runs the same way on every account.",
     ],
     bioLabel: "Full bio and credentials",
     bioHref: "/people/kristen-coughlin",

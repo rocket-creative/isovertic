@@ -13,6 +13,7 @@ import { AuthorBio, RelatedEssays, categoryLabel } from "@/components/thought/Ca
 import { SubscribeCard } from "@/components/thought/SubscribeCard";
 import { ReadTracker } from "@/components/thought/ReadTracker";
 import { essayTemplate as t, hub } from "@/content/thought";
+import { site } from "@/lib/site";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
@@ -27,7 +28,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: { absolute: `${a.title} | ISOVERTIC` },
     description: a.description,
     alternates: { canonical: `/field-notes/${slug}` },
-    openGraph: { type: "article", title: a.title, description: a.description, images: ["/og.png"] },
+    openGraph: { type: "article", title: a.title, description: a.description, images: [site.images.og] },
   };
 }
 

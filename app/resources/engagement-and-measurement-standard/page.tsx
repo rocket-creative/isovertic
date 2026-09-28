@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   title: { absolute: m.title },
   description: m.description,
   alternates: { canonical: m.path },
-  openGraph: { type: "article", title: m.title, description: m.description, images: ["/og.png"] },
+  openGraph: { type: "article", title: m.title, description: m.description, images: [site.images.og] },
 };
 
 export default function EngagementStandard() {

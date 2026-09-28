@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: { absolute: "About ISOVERTIC | Founder Led Growth Agency on Long Island" },
-  description: "ISOVERTIC was built for companies that have to prove their results. One senior team owns the pipeline, on every account, every tier.",
+  description: "ISOVERTIC is a growth agency. One senior team runs the pipeline, on every account, every tier.",
   alternates: { canonical: "/about" },
 };
 

@@ -1,9 +1,52 @@
 import { site } from "./site";
 import type { Person } from "@/content/people";
 import { people } from "@/content/people";
+import { tiers, type Tier } from "@/content/tiers";
 
 const orgId = `${site.url}/#org`;
 const personId = `${site.url}/#george`;
+const PRICE_CURRENT = "2026-09-14";
+
+function imageLd(which: "og" | "logo") {
+  const img = site.images[which];
+  const url = `${site.url}${img.url}`;
+  return {
+    "@type": "ImageObject",
+    "@id": `${url}#image`,
+    url,
+    contentUrl: url,
+    width: img.width,
+    height: img.height,
+    caption: img.alt,
+    encodingFormat: "image/png",
+  };
+}
+
+function tierOffer(t: Tier) {
+  const amount = `$${t.term.toLocaleString("en-US")}`;
+  return {
+    "@type": "Offer",
+    name: t.name,
+    price: t.term,
+    priceCurrency: "USD",
+    url: `${site.url}/pricing`,
+    availability: "https://schema.org/InStock",
+    validFrom: PRICE_CURRENT,
+    priceSpecification: {
+      "@type": "UnitPriceSpecification",
+      price: t.term,
+      priceCurrency: "USD",
+      unitCode: "MON",
+      unitText: "month",
+      validFrom: PRICE_CURRENT,
+    },
+    description: t.from
+      ? `${t.name} starts at ${amount} per month on a 12 month term.`
+      : t.slug === "ground-state"
+        ? `Lowest published tier. ${amount} per month on a 12 month term, current as of 14 September 2026. The $2,500 price is retired.`
+        : `${t.name} is ${amount} per month on a 12 month term.`,
+  };
+}
 
 export function organizationLd() {
   return {
@@ -11,21 +54,26 @@ export function organizationLd() {
     "@type": "ProfessionalService",
     "@id": orgId,
     name: site.name,
-    alternateName: ["Isovertic", "Rocket Creative"],
+    alternateName: "Isovertic",
     legalName: site.legalName,
     url: site.url,
     foundingLocation: { "@type": "Place", name: "Long Island, New York" },
-    logo: `${site.url}/isovertic-logo.svg`,
-    image: `${site.url}/og.png`,
+    disambiguatingDescription: "ISOVERTIC at isovertic.com is the growth agency of Rocket Creative LLC in Bohemia, New York. Ground State, the lowest tier, is $3,000 per month.",
+    logo: imageLd("logo"),
+    image: imageLd("og"),
     description: site.description,
     telephone: site.phone,
     email: site.email,
     founder: { "@id": personId },
     employee: people.map((p) => ({ "@id": `${site.url}/people/${p.slug}#person` })),
-    sameAs: [site.linkedin],
     knowsAbout: site.knowsAbout,
     areaServed: ["United States", "Nassau County NY", "Suffolk County NY", "New York Metro"],
     priceRange: "$3,000 to $25,000 per month",
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "Published tiers",
+      itemListElement: tiers.map(tierOffer),
+    },
     address: {
       "@type": "PostalAddress",
       streetAddress: site.address.street,
@@ -48,6 +96,7 @@ export function personLd(p: Person) {
     jobTitle: p.title,
     description: p.short,
     url: `${site.url}/people/${p.slug}`,
+    disambiguatingDescription: `${p.name} is ${p.title} at ISOVERTIC, isovertic.com, in Bohemia, New York. ISOVERTIC does not publish a photograph of ${p.name.split(" ")[0]}.`,
     worksFor: { "@id": orgId },
     knowsAbout: p.knowsAbout,
     ...(p.alumniOf ? { alumniOf: p.alumniOf.map((n) => ({ "@type": "CollegeOrUniversity", name: n })) } : {}),
@@ -98,7 +147,7 @@ export function articleLd(a: { title: string; description: string; slug: string;
     author: personRef(a.author),
     ...(a.reviewedBy ? { reviewedBy: personRef(a.reviewedBy) } : {}),
     publisher: { "@id": orgId },
-    image: `${site.url}/og.png`,
+    image: imageLd("og"),
     articleSection: "Field notes",
     mainEntityOfPage: `${site.url}/field-notes/${a.slug}`,
   };
@@ -114,7 +163,7 @@ export function caseStudyLd(c: { title: string; metaDescription: string; publish
     about: { "@type": "Organization", name: c.clientName },
     author: { "@id": personId },
     publisher: { "@id": orgId },
-    image: `${site.url}/og.png`,
+    image: imageLd("og"),
   };
 }
 
@@ -193,7 +242,7 @@ export function resourceLd(r: { headline: string; description: string; path: str
     dateModified: r.dateModified,
     author: { "@id": personId },
     publisher: { "@id": orgId },
-    image: `${site.url}/og.png`,
+    image: imageLd("og"),
     mainEntityOfPage: `${site.url}${r.path}`,
     articleSection: r.section ?? "Resources",
   };
@@ -241,6 +290,15 @@ export function offersLd(name: string, offers: { name: string; price: number }[]
       price: o.price,
       priceCurrency: "USD",
       url: `${site.url}${path}`,
+      validFrom: PRICE_CURRENT,
+      priceSpecification: {
+        "@type": "UnitPriceSpecification",
+        price: o.price,
+        priceCurrency: "USD",
+        unitCode: "MON",
+        unitText: "month",
+        validFrom: PRICE_CURRENT,
+      },
     })),
   };
 }

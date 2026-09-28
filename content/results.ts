@@ -37,7 +37,7 @@ export const roster: RosterItem[] = [
       "An editorial researcher-spotlight series engineered for institutional backlinks from academic sites.",
       "Outbound sequences targeting venture-backed biotech prospects, running against a defined qualified-meeting standard.",
     ],
-    whatWeDid: "The full method, run on a life-science catalog. Pages written in the researcher's own vocabulary. Site structure built so thousands of near-identical product pages do not compete with each other. Page templates a scientist will trust. Tracking that stays on our side of the form. Monitoring across two Google core updates that hit inside the window. Ongoing catalog expansion based on Search Console signal.",
+    whatWeDid: "The full method, run on a life science catalog. Pages written in the researcher's own vocabulary. Site structure built so thousands of near-identical product pages do not compete with each other. Page templates a scientist will trust. Tracking that stays on our side of the form. Monitoring across two Google core updates that hit inside the window. Ongoing catalog expansion based on Search Console signal.",
     kicker: "Technical authority converted into compounding search demand, at a scale most agencies will not attempt.",
   },
   {

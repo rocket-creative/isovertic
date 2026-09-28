@@ -48,7 +48,7 @@ The champion is the one you're actually writing for. Not to convince them (they'
 
 ## What they read instead of your marketing content
 
-Life science marketers surveyed in 2025 report a shift: **gated whitepapers are being replaced by ungated, buyer-centric technical content**, and **73% of B2B life-science marketers now incorporate content marketing into their digital strategy** ([INFUSE Evolving Role of Content Marketing in Life Science 2025](https://infuse.com/insight/the-evolving-role-of-content-marketing-in-life-science-what-to-expect-for-the-remainder-of-2025/); [L7 Creative Life Sciences Content Marketing 2025](https://www.l7creative.com/marketing-insights/life-sciences-content-marketing-2025/)). Meanwhile, **81% of B2B buyers choose their preferred vendor before speaking to sales** ([Whitehat life sciences summary of Forrester data](https://whitehat-seo.co.uk/blog/life-science-marketing-agency-uk)).
+Life science marketers surveyed in 2025 report a shift: **gated whitepapers are being replaced by ungated, buyer-centric technical content**, and **73% of B2B life science marketers now incorporate content marketing into their digital strategy** ([INFUSE Evolving Role of Content Marketing in Life Science 2025](https://infuse.com/insight/the-evolving-role-of-content-marketing-in-life-science-what-to-expect-for-the-remainder-of-2025/); [L7 Creative Life Sciences Content Marketing 2025](https://www.l7creative.com/marketing-insights/life-sciences-content-marketing-2025/)). Meanwhile, **81% of B2B buyers choose their preferred vendor before speaking to sales** ([Whitehat life sciences summary of Forrester data](https://whitehat-seo.co.uk/blog/life-science-marketing-agency-uk)).
 
 What that means in practice: your buyer built their shortlist before you ever spoke to them. The content that got you on the shortlist was not your homepage hero. It was one of these:
 
@@ -82,7 +82,7 @@ The champion's packet is your marketing top of funnel, whether you designed it t
 
 ## The datasheet trap
 
-The single most common failure I see in life-science marketing content: the twelve-page datasheet. Cover, glossy product shot, brand story, three pages of claims with no method section, a comparison table with all-green checkmarks in your column, and the actual technical specifications on page eleven in six-point type.
+The single most common failure I see in life science marketing content: the twelve-page datasheet. Cover, glossy product shot, brand story, three pages of claims with no method section, a comparison table with all-green checkmarks in your column, and the actual technical specifications on page eleven in six-point type.
 
 Nobody in the buying committee will read that document past page two. The clinical decision-maker will look for the method section and not find it. The financial stakeholder will look for pricing and not find it. The operational buyer will look for implementation and not find it. The compliance stakeholder will look for the FDA clearance details and not find it. The end user will look for the user experience and not find it.
 
