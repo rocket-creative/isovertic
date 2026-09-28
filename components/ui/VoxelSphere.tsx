@@ -104,6 +104,7 @@ export function VoxelSphere({ className }: { className?: string }) {
     const t0 = performance.now();
 
     function paint(now: number) {
+      if (!ctx) return;
       const el = reduce ? BUILD_MS + FILL_MS + 400 : now - t0;
       const sec = el / 1000;
       const scale = reduce ? 1 : mix(START_SCALE, 1, easeOut(clamp(el / (BUILD_MS + 200))));
