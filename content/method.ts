@@ -54,15 +54,15 @@ export const method = {
         title: "Book. Qualified meetings on your calendar with a written brief",
         body: [
           "What it does. Book runs outbound for you through phone, email, and LinkedIn. We contact the people your sales team needs to meet, qualify the conversation, and put a qualified meeting on your calendar with a written brief for your salesperson before they take the call.",
-          "What shows up. One dedicated person calling and emailing your prospects at Amplification. Two at Quantum Leap. An additional person on any package for $4,500 per month. Conference sprints for $7,500 per event. We define what counts as a meeting, we verify each one, and we report cost per qualified meeting.",
-          "Honest limit. Outbound before the website can defend the pitch wastes your buyer's time. If the site does not confirm what the email claims, we Build first and begin outreach after it can.",
+          "What shows up. At Amplification, one person on our team calls and emails your prospects. At Quantum Leap, two people do. You can add another person, or a conference sprint for one trade show. Both are priced on the pricing page. For each meeting, we agree in advance what counts, check that it happened, and report what it cost. We do not promise how many.",
+          "Honest limit. Calling and emailing before the website can back up the message wastes the buyer's time. If the site does not say what the email says, we finish the website before outreach starts.",
         ],
       },
       {
         n: "06",
         title: "Educate, an add-on. Runbooks for the team you already have",
         body: [
-          "What it does. Educate hands the operating instructions to your team. We spend one or two days at your office, write eight runbooks, and hold a follow-up call at 30 days. Each runbook comes from the person who does that work: a Google Ads specialist, a compliance officer, and a molecular biologist where the subject requires it.",
+          "What it does. Educate hands the operating instructions to your team. We spend one or two days at your office, write the instructions for the steps that team will run, and hold a follow-up call at 30 days. The people who do the work teach it, including outside specialists when the subject needs them.",
           "What shows up. One department, one day, $5,000: up to 15 people and one step taught in depth. Full team, two days, $20,000: up to 40 people, all five steps, and a developer track. A Protocol day for current clients, $3,500.",
           "Honest limit. Training works when your team can commit one focused day. If they cannot, do not buy it.",
         ],
@@ -73,7 +73,7 @@ export const method = {
     h2: "How the system is measured",
     body: [
       "The first 90 days are a written ramp with deliverables named in the agreement. Every 30 days we report the leading signs: publishing, site activity, advertising results, conversions, and cost per meeting where paid work is active.",
-      "At months six and 12 we review pipeline and revenue against your actual sales cycle. A year is the shortest window in which a long healthcare, pharma, biotech, medical device, or life sciences tools and diagnostics sale can move from a first click to a signed contract. Healthcare sales average 125 days to 24 months, and buying committees can include a chief scientific officer, a chief medical officer, a VP of regulatory, a practice administrator, a director of billing, procurement, and legal.",
+      "At months six and 12 we review pipeline and revenue against your actual sales cycle. Sales cycles in healthcare, pharma, biotech, medical devices, and life sciences tools and diagnostics are often long, so pipeline and revenue measured before a year are not a fair read of the work. A buying committee can include a chief scientific officer, a chief medical officer, a VP of regulatory, a practice administrator, a director of billing, procurement, and legal.",
     ],
   },
   proof: {
@@ -81,7 +81,7 @@ export const method = {
     body: [
       "Ingenious Targeting Laboratory, a mouse model company selling to research scientists, moved from 13 monthly form submissions to about 64 in its first eight months with Isovertic. Organic search traffic rose 3.7 times in that period. Internal, September 2026.",
       "Sydra Health, a revenue-cycle company serving healthcare billing directors, went from no online presence in mid-June 2026 to roughly one qualified meeting a week on about $1,000 in monthly advertising spend and the entry package of site work. Internal, September 2026.",
-      "Both are unusual for their category and neither is a promise for yours. They are examples of what happens when the site can carry the sales argument and one team owns the number at the end.",
+      "Both are unusual for their category and neither is a promise for yours. They are examples of what happens when the site can carry the sales argument. We agree what counts as a qualified meeting, we check that it was held, and we report the cost.",
     ],
   },
   start: {

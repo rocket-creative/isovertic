@@ -1,4 +1,4 @@
-// The field notes publication: one pinned argument, one diagnostic, one research report, an archive organized
+// The field notes publication: one pinned argument, one diagnostic, an archive organized
 // by argument, and one email capture. Copy for /field-notes and the essay template lives here.
 // No hyphens or dashes in any string.
 
@@ -34,10 +34,10 @@ export const categoryBySlug: Record<string, CategoryKey> = {
 export const hub = {
   path: "/field-notes",
   title: "Field Notes on Pipeline Ownership | ISOVERTIC",
-  description: "One argument we are willing to be wrong about in public, one diagnostic, original research in progress, and an archive organized by argument.",
+  description: "Notes from the work. One argument per piece, the evidence next to the argument, and a limit on where the argument stops.",
   eyebrow: "Field notes",
-  h1: "Notes from the operating side.",
-  lead: "No trend summaries. One argument we are willing to defend against a smart critic, one diagnostic, one research report in progress, and an archive organized by argument, not by date. Every piece carries a number, a mechanism, and a named limit.",
+  h1: "Notes from the work.",
+  lead: "One argument per piece, the evidence next to the argument, and a limit on where the argument stops.",
   flagshipEyebrow: "The argument",
   flagshipCta: "Read the thesis",
   formerFlagshipTag: "Formerly the pinned argument",
@@ -48,13 +48,6 @@ export const hub = {
     cta: "Take the audit",
     href: "/audit",
     time: "6 min",
-  },
-  research: {
-    eyebrow: "Original research · in progress",
-    title: "The Fragmented Vendor Report",
-    dek: "We are surveying 100 growth stage founders about their marketing vendor stack, what it cost last year, and what pipeline it produced. It publishes when the hundredth response is in, with the methodology beside it.",
-    cta: "Tell me when it publishes",
-    list: "research_notify",
   },
   archiveH2: "The archive, by argument.",
   authorsH2: "Who writes here.",

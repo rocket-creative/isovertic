@@ -1,149 +1,75 @@
 ---
 slug: series-a-c-marketing-budgets
-title: Series A to C Marketing Budgets: What's Defensible When You're Not Yet Cash-Flow Positive
-description: The 2026 marketing spend benchmarks by stage, expressed as a percentage of annual recurring revenue.
+title: "Series A to C Marketing Budgets: How to Read a SaaS Ratio in a Healthcare Board Meeting"
+description: What the published private B2B SaaS spend ratios actually measure, and which numbers on the slide have to come from your own contracts.
 primaryKeyword: Series A to C marketing budgets
 datePublished: 2026-09-07
-dateModified: 2026-09-07
+dateModified: 2026-10-07
 author: george-stoff
 category: measurement
-readingMinutes: 9
+readingMinutes: 6
 ---
 
-# Series A to C Marketing Budgets: What's Defensible When You're Not Yet Cash-Flow Positive
+# Series A to C Marketing Budgets: How to Read a SaaS Ratio in a Healthcare Board Meeting
 
 ## What you'll take away
 
-- The 2026 marketing spend benchmarks by stage: Series A, Series B, Series C, expressed as a percentage of annual recurring revenue
-- Why the median marketing budget dropped from roughly 10% to 8% of annual recurring revenue over the last two years, and what that means for what you should defend
-- The 2026 cost of customer acquisition paid-back numbers that end the "why aren't we cash-flow positive yet" board conversation
-- A defensible marketing budget at $2M, $5M, and $10M annual recurring revenue with the specific line items
-- The board-slide language that makes your marketing spend legible to a healthcare or life science investor
+- What SaaS Capital's private B2B SaaS survey, as summarized in 2026, actually measured
+- What an agency's published stage table adds, and what it does not say about healthcare
+- Why a payback median from software companies is a reference, and your closed contracts are the cycle
+- The three lines a Series A to C board slide can carry without borrowing a number
+- The limit: a short runway is a runway conversation, and a published ratio does not answer it
 
 ---
 
-Your board wants to know why your marketing spend is what it is. Behind the polite question is a less polite one: "Are we sure this is right, given we're not cash-flow positive yet?"
+Your board wants to know why marketing costs what it costs while the company is still spending more than it collects. That is a fair question. The slide that usually arrives with it cites a percentage of annual recurring revenue from a software survey, then treats the percentage as the budget for a healthcare, biotech, device, or life sciences company.
 
-That is a fair question. It also has a defensible, benchmarked, boring answer. This piece is the answer, with the specific numbers, the specific sources, and the specific board-slide language you can borrow. If your marketing spend is inside the benchmarks and your review cadence matches your sales cycle, you can defend the number with confidence. If your spend is outside the benchmarks or your review cadence is wrong, you have real work to do before the next meeting.
+This piece is for the founder or chief operating officer in that meeting, between Series A and Series C. The percentages below are real descriptions of other companies. They become a problem when the slide presents them as your category.
 
-## What SaaS spends on marketing in 2026
+## What the SaaS pages measured
 
-The published 2026 benchmarks are consistent across three independent sources.
+Xander Marketing's 2026 writeup of SaaS Capital says the firm's survey of more than 700 private B2B SaaS companies put median marketing spend at about 8 percent of annual recurring revenue, down from around 10 percent in earlier years ([Xander Marketing, 2026](https://www.xandermarketing.com/how-much-should-your-saas-marketing-budget-be-in-2026/)). That sentence is about private B2B SaaS companies. Xander is summarizing the survey. The page does not say the sample was healthcare, pharma, biotech, medical devices, or life sciences.
 
-**GrowthSpree's 2026 B2B SaaS budget benchmarks by stage** ([full report](https://www.growthspreeofficial.com/blogs/b2b-saas-b2b-marketing-budget-benchmarks-2026-percent-arr-by-stage)):
+GrowthSpree's page, updated May 25, 2026, publishes a stage table for B2B SaaS marketing spend as a share of annual recurring revenue: Series A at 12 to 18 percent, Series B at 11 to 16 percent, Series C at 10 to 14 percent, and later stages at 8 to 12 percent ([GrowthSpree, May 2026](https://www.growthspreeofficial.com/blogs/b2b-saas-b2b-marketing-budget-benchmarks-2026-percent-arr-by-stage)). The page is an agency's compilation. It also gives a wider band for companies that are not SaaS, 6 to 12 percent of revenue, and a still wider caution that early companies spend a higher share while they are learning a channel. Calling the Series A row a healthcare benchmark adds a claim the page does not make.
 
-- Series A: **12 to 18% of annual recurring revenue** on marketing
-- Series B: **11 to 16%**
-- Series C: **10 to 14%**
-- Growth stage: **8 to 12%**
-- Public or late stage: **6 to 10%**
+Those two pages agree that private software companies often spend a high single digit to a mid teens share of revenue, and that the share is higher earlier. They are not two censuses of your buyers. Put the SaaS Capital median on the slide only with the words "private B2B SaaS" in the same line.
 
-**SaaS Capital's 2026 survey** of 700+ private B2B SaaS companies, summarized by Xander Marketing, puts the **overall median marketing spend at 8% of annual recurring revenue in 2026, down from roughly 10% in prior years** ([Xander Marketing summary](https://www.xandermarketing.com/how-much-should-your-saas-marketing-budget-be-in-2026/)). The median has come down as capital efficiency became the priority, but the stage-by-stage ranges above still hold: early-stage companies invest a higher percentage because they have to build the pipeline that later-stage companies harvest.
+## Payback medians have the same limit
 
-**Zulu Method's absolute-dollar benchmarks for Series A** put a typical Series A marketing budget at **$15,000 to $50,000 per month** in 2026, with the range varying by category and sales motion ([The Zulu Method SaaS Marketing Budget by Funding Stage](https://www.thezulumethod.com/saas-marketing-budget-by-funding-stage)).
+Aleph's October 2026 page, written with Benchmarkit from full year 2025 actuals at 342 SaaS and AI software companies, says the median company recovered its customer acquisition cost in 16 months. The top quartile did it in 6 months or fewer. The bottom quartile took 24 months or more ([Aleph, CAC payback benchmarks](https://www.getaleph.com/answers/cac-payback-period-saas-2026)).
 
-At healthcare, biotech, medtech, and healthcare-adjacent SaaS specifically, the benchmarks skew a little higher on the percentage line because the sales cycle is longer, the buying committee is bigger, and the regulatory overhead on every marketing asset is real. You can defend the higher end of the Series A range (16 to 18%) at a healthcare-adjacent company on cycle-length grounds alone.
+That is a software sample. A 16 month median is a useful comparison when you already know your own payback and your own sales cycle. It does not tell you when your hospital, lab, or health system deals will close.
 
-## The cost of customer acquisition paid back, and why it matters more than raw spend
+Other 2026 writeups quote different prior year figures for the same topic. When two secondary pages disagree about last year, leave last year off the slide and cite the page whose sample you can name.
 
-Board members who understand SaaS economics do not primarily care about your marketing spend. They care about the payback: how long, in months, until the cost of acquiring a customer is earned back in that customer's gross-margin revenue. This is the number that determines whether your marketing spend is a good investment or a bad one, independent of the raw dollar amount.
+## Your cycle comes from your contracts
 
-The 2026 benchmarks:
+Apollo's biotech sales guide states that biotech sales cycles average 12 to 18 months ([Apollo, biotech sales](https://www.apollo.io/insights/biotech-sales)). The page does not show the study, the sample size, or the dates behind that sentence. A board slide that repeats it as "our cycle" is repeating a vendor guide.
 
-- **Median B2B SaaS cost of customer acquisition paid back: 16 months**, based on 342 SaaS companies with full-year 2025 actuals ([Aleph CAC Payback Benchmarks 2026](https://www.getaleph.com/answers/cac-payback-period-saas-2026))
-- **Top quartile: 6 months or fewer**
-- **Bottom quartile: 24 months or more**
-- **The median stretched from 14 months in 2024 to 18 months in 2025** at one benchmark ([Digital Applied SaaS Unit Economics 2026](https://www.digitalapplied.com/blog/saas-unit-economics-2026-cac-ltv-payback-reference))
-- **Enterprise SaaS (over $100K annual contract value) runs 18 to 24 months** to payback ([Digital Astronauts 2026 SaaS CAC Benchmarks](https://digital-astronauts.com/blog/b2b-saas-cac-benchmarks/))
+Ask whoever closed the last ten contracts for the date of the first serious conversation and the date of signature. The median of those ten is your cycle until a larger set exists. If you do not have ten, say how many you have. A monthly count of new inquiries is a weak read while a deal from this quarter may still be unsigned next year.
 
-If your payback is 16 months, you are at median. If it is 12, you are above median. If it is 24, you are at the boundary between "acceptable for enterprise SaaS" and "we need to change something." If it is 36, you have a real problem that no amount of budget defense will fix.
+## What the slide can say
 
-On a healthcare or biotech sales cycle of **12 to 18 months** ([Apollo Biotech Sales Market Guide](https://www.apollo.io/insights/biotech-sales); [Martal Medical Software Sales Cycle 2025](https://martal.ca/medical-software-sales-lb/)), the honest read on cost of customer acquisition paid back happens no earlier than month 18 to 24 from the start of the spend. Any earlier board review is looking at a number that has not finished cooking.
+One slide, three lines. Every line names where the number came from.
 
-## Sales cycle length as the anchor
+**Spend, labeled.** "We spent $[X] on marketing in the quarter, which is [Y] percent of revenue. A SaaS Capital survey of private B2B SaaS companies, as summarized by Xander Marketing in 2026, puts the median near 8 percent of annual recurring revenue. We sell to [the buyer you actually have]. The 8 percent is a reference from another category."
 
-The median B2B sales cycle grew from **4.9 months in 2019 to 6.7 months in 2025**, a 37% expansion ([Emulent Sales Cycle Length Benchmarks by Industry](https://emulent.com/resources/trends/sales-cycle-length-benchmarks-by-industry-and-projections/)). Your specific cycle is probably longer if you sell into hospitals, into biopharma, into regulated verticals, or through a Value Analysis Committee.
+**Cycle, from your contracts.** "On the last [N] closed contracts, the median from first serious conversation to signature was [M] months. The first date we will read revenue from this quarter's spend is [date]."
 
-Cycle length is the anchor for every other decision in your marketing budget. It determines:
+**Meetings, defined.** "A qualified meeting, on the definition sales and marketing both signed, is [that definition]. We report how many of those meetings were held and what each one cost. We do not promise how many the next quarter will produce."
 
-- When cost of customer acquisition paid back can be honestly measured
-- When to review lagging pipeline indicators (at 6 and 12 months minimum, tied to the cycle)
-- Which channels can realistically produce a return inside the runway you have
-- Whether paid media makes sense (short-cycle categories) or content and technical documentation dominate (long-cycle categories)
-- What retention and expansion math you can commit to
-
-A Series A company with a 60-day sales cycle and one with an 18-month sales cycle both need to defend their marketing spend, but the shape of the defense is completely different. The 60-day company can defend it on quarterly numbers. The 18-month company defends it on cycle-length-adjusted numbers and lagging-indicator dates in the future.
-
-## What defensible looks like at $2M, $5M, and $10M annual recurring revenue
-
-Here are three concrete profiles for a healthcare or life science company. The percentages are inside the GrowthSpree 2026 benchmarks. The line-item allocation is representative; your specific mix will vary.
-
-### $2M annual recurring revenue (Series A)
-
-Total marketing spend: **13 to 18% of annual recurring revenue**, or **$21,700 to $30,000 per month** ($260,000 to $360,000 per year).
-
-Approximate allocation:
-
-- Pipeline team (retained, embedded, or first in-house hire): $12,000 to $18,000 per month
-- Paid media (Google, LinkedIn, retargeting): $5,000 to $10,000 per month, including media spend
-- Content production (technical writing, methods documentation, ungated assets): $3,000 to $5,000 per month
-- Tools (customer relationship management, marketing automation, analytics): $1,700 to $3,000 per month
-- Conferences and events (one to two per year for the specialty): $500 to $1,500 per month, amortized
-
-Defensible board framing: "We are at the Series A benchmark for our category. Our cycle is [N] months. Our first honest cost-of-customer-acquisition-paid-back read is [date]. Our leading indicators this month are [status]."
-
-### $5M annual recurring revenue (late Series A or Series B)
-
-Total marketing spend: **11 to 16% of annual recurring revenue**, or **$45,800 to $66,700 per month** ($550,000 to $800,000 per year).
-
-Approximate allocation:
-
-- Pipeline team (a small internal function plus embedded specialists): $20,000 to $30,000 per month
-- Paid media: $10,000 to $18,000 per month, including media spend
-- Content and technical documentation: $6,000 to $10,000 per month
-- Conferences and events (three to five per year): $3,000 to $5,000 per month
-- Tools and technology: $3,000 to $6,000 per month
-- Regulated content compliance layer (HIPAA form and call stack if applicable, medical-legal review): $750 to $2,500 per month
-
-At this stage, the honest cost-of-customer-acquisition-paid-back review is happening. If it is between 12 and 18 months and trending flat or better, defend the spend. If it is 24+ months and trending flat, the conversation is not about the marketing budget; it is about the pricing model, the product-market fit, or the sales cycle assumptions.
-
-### $10M annual recurring revenue (Series B or Series C)
-
-Total marketing spend: **10 to 14% of annual recurring revenue**, or **$83,300 to $116,700 per month** ($1M to $1.4M per year).
-
-Approximate allocation:
-
-- Pipeline team (an internal team of two to four plus specialists): $40,000 to $55,000 per month
-- Paid media: $18,000 to $30,000 per month, including media spend
-- Content, technical documentation, and account-based programs targeted at named enterprise accounts: $10,000 to $15,000 per month
-- Conferences, events, and field marketing: $8,000 to $12,000 per month
-- Tools and technology: $5,000 to $8,000 per month
-- Compliance and regulatory content layer: $2,000 to $5,000 per month
-
-At this stage, cost of customer acquisition paid back should be measured and trending. Investors expect the number and expect it to be at or better than median for the category. If it is not, "we're growing pipeline" is not a defense.
-
-## The board-slide language
-
-For your next board deck's marketing section, one slide, three sections:
-
-**Section 1: Spend against benchmark.** "We spent $[X] on marketing in Q3, which is [Y]% of our current annual recurring revenue. The 2026 SaaS Capital / GrowthSpree benchmark for our stage is [Z] to [W]%. We are inside the benchmark, at [conservative / target / high-end] of the range."
-
-**Section 2: Cost of customer acquisition paid back.** "Our current cost of customer acquisition paid back is [N] months, calculated on the last full cohort with cycle-length data. The 2026 median is 16 months (Aleph 2026 benchmarks, 342 SaaS companies). We are [above / at / below] median. On our sales cycle of [M] months, the first honest paid-back read for the current quarter's spend will be [date]."
-
-**Section 3: Leading indicators this month.** "This month's leading indicators are: rankings [status], cost per qualified lead [status], first-touch response time [status]. The specific fixes in flight this month are [X, Y, Z]."
-
-That is the whole slide. Three sections, one page. Every number cited to a benchmark. Every review date named. The board can ask any follow-up question they want. You will have the answer.
+Skip the invented monthly split. A table that divides the budget into a pipeline team, paid media, and tools looks specific, and the specificity is the problem when nobody measured those lines on your account.
 
 ## The honest limit
 
-The benchmarks are median, not universal. If your product is early-stage enough that you have not yet found a repeatable channel, your cost of customer acquisition and cost of customer acquisition paid back numbers are noise, and the honest board conversation is about experimentation velocity and channel discovery, not about efficient acquisition. If your runway is under 12 months, the payback conversation compresses; you may need to cut spend to extend runway, regardless of benchmark, because a benchmark-defensible spend that runs out the runway is not defensible.
+If the company has not found a repeatable way to start conversations, acquisition math is noise. The honest topic is how fast you can test a channel, and a software median will not choose the channel.
 
-Benchmarks are the floor of the conversation, not the ceiling. Above them, you defend the shape of your program. Below them (or with the wrong review cadence), the benchmarks do not save you.
-
----
-
-*This piece is a marketing operating framework, not legal or financial advice. Marketing budget decisions depend on your specific facts, runway, product stage, category, and cycle length. Consult qualified financial and legal counsel before making major budget or contract decisions.*
+If the cash you have lasts less than the cycle you just measured, the meeting is about runway. A percentage that would look normal at a software company can still spend you out of the company. Say that plainly. The benchmark is the start of the conversation. Your contracts and your cash set the number you defend.
 
 ---
 
-**If you're the founder or COO of a Series A to C healthcare, biotech, medtech, or healthcare-adjacent SaaS company and your last board meeting had a hard question about your marketing spend, [book a pipeline call](https://isovertic.com/book) and send us your last board deck's marketing slide plus your current stage and reported sales cycle. In about ten minutes I'll tell you whether the number is defensible, which benchmark to cite, and which line items to move. Sometimes the honest answer is that you're already fine, and we're happy to say so and hand you back your afternoon.**
+*This piece is a marketing operating framework, not financial advice. Budget decisions depend on your runway, your buyers, and the contracts you have actually closed. The ratios above describe the samples named in the links. They do not describe your company until you measure it.*
+
+---
+
+**If you're the founder or chief operating officer of a Series A to C healthcare, biotech, device, or life sciences company and the last board meeting asked why marketing costs what it costs, [book a pipeline call](/contact) and send the marketing slide plus the last ten close dates if you have them. In about ten minutes I'll tell you which line is a software reference, which line has to come from your contracts, and whether the slide can go back to the board as written. Sometimes the honest answer is that you're already fine, and we're happy to say so and hand you back your afternoon.**

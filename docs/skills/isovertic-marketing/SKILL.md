@@ -28,7 +28,7 @@ Source of truth: `CORE-MESSAGE-FOUNDATION.md` at the repo root and the live site
 
 **The one sentence.** The growth agency for healthcare, pharma, biotech, medical devices, and life sciences. One senior team owns your pipeline from the first search to the booked meeting.
 
-**What Isovertic is.** A growth agency. Not a marketing agency (traffic and reports), not a web design company (a launch), not an appointment setter (meetings booked into whatever you already have). Five steps inside one boundary: Build, Rank, Run, Buy, Book. Educate, the training, is an add-on. The client closes. The end result is a booked meeting, and Amplification and above carry the meeting number in writing.
+**What Isovertic is.** A growth agency. Not a marketing agency (traffic and reports), not a web design company (a launch), not an appointment setter (meetings booked into whatever you already have). Five steps inside one boundary: Build, Rank, Run, Buy, Book. Educate, the training, is an add-on. The client closes. The end result is a booked meeting. We agree what counts as a qualified meeting, we check that it was held, and we report what it cost. We do not promise how many.
 
 **Vocabulary.** Say "growth agency" or "ISOVERTIC." Never growth firm, growth company, growth engine, capture engine, pipeline systems shop, pipeline shop, or full service agency. Say "meetings," not customers we deliver. Say "the method" or "the same method on every account." Do not name or list the seven layers on any public page. Do not describe how we choose what to publish, bid on, or build.
 
@@ -51,7 +51,7 @@ Source of truth: `CORE-MESSAGE-FOUNDATION.md` at the repo root and the live site
 **Offer shape (pricing source of truth is `content/tiers.ts`):**
 - Ground State, $3,000 a month: the content drumbeat, running without meetings.
 - Excitation, $5,000 plus ad spend: content plus paid demand, with a human on the account.
-- Amplification, $10,000 plus ad spend: the full pipeline, one outbound seat, meeting number in writing. The flagship.
+- Amplification, $10,000 plus ad spend: the full pipeline, one outbound seat, cost per qualified meeting reported. The flagship. No tier promises a meeting count.
 - Quantum Leap, from $25,000 plus media: per brand, two outbound seats, streaming and broadcast TV, and the operations audit (the map, the automations, the SOPs) before volume is added.
 - Every tier is a 12 month term. No month to month. The $15,000 website rebuild and hosting are included in every term.
 - Protocol: the client's team taught the system at their office, $5,000 one day, $20,000 full team, $3,500 as a client add on.

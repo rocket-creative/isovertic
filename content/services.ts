@@ -151,7 +151,7 @@ export const services: Page[] = [
         "Sales enablement material your team can send after a call, before a committee review, or when a prospect asks for proof.",
       ]},
       { h2: "Why publishing matters for this kind of sale", body: [
-        "Healthcare, pharma, biotech, medical device, and life sciences tools and diagnostics buyers do diligence before they take a meeting. Google's own guidance says search visibility takes four months to a year to move, per [Google Search Central](https://developers.google.com/search/docs/appearance/site-names). Sales cycles run 125 days to 24 months. That gap between first search and closed deal is exactly where a real publishing program earns its money. You cannot cold-call your way through it, and a paid ad without a page worth reading after the click is a fast way to spend a budget with nothing to show.",
+        "Healthcare, pharma, biotech, medical device, and life sciences tools and diagnostics buyers do diligence before they take a meeting. Google's own guidance says search visibility takes four months to a year to move, per [Google Search Central](https://developers.google.com/search/docs/appearance/site-names). Sales cycles in these categories are often long enough that a contract signed this year may have started with a search many months earlier. That gap is where a real publishing program earns its money. You cannot cold-call your way through it, and a paid ad without a page worth reading after the click is a fast way to spend a budget with nothing to show.",
         "Every piece we publish also makes the rest of the program stronger. A Google Ads landing page needs a real article to link to. An outbound message needs a useful follow-up link. A salesperson needs a credible written answer when a buyer asks for evidence. The website turns into a working library your company owns, rather than a set of claims that vanish when a campaign ends.",
       ]},
       { h2: "Which package includes publishing", body: [
@@ -223,7 +223,7 @@ export const services: Page[] = [
       { h2: "The honest limit", body: [
         "We build on our own engineering stack. If your company must stay on Wix or Squarespace, we are not the right shop, and we will say so before you pay us anything.",
         "A rebuilt website does not replace a clear offer or a sales team that responds to buyers. It gives both a better place to land. If nobody is searching for your category yet, the site cannot create those searches on its own. If your offer is still unsettled, we will help identify what needs to be resolved, but design alone will not resolve it.",
-        "Google's own guidance says search visibility takes four months to a year to move after a site changes, per [Google Search Central](https://developers.google.com/search/docs/appearance/site-names). Healthcare, pharma, biotech, medical device, and life sciences sales cycles run 125 days to 24 months. The 12-month engagement is set to that reality, not to a billing convenience.",
+        "Google's own guidance says search visibility takes four months to a year to move after a site changes, per [Google Search Central](https://developers.google.com/search/docs/appearance/site-names). Sales cycles in healthcare, pharma, biotech, medical devices, and life sciences are often long, so pipeline and revenue measured before a year are not a fair read of the work. The 12-month engagement is set to that, not to a billing convenience.",
       ]},
       { h2: "What we don't do", body: [
         "We are not a template vendor, a general promotion shop, or a design studio that ships a homepage image and sends you to find someone else to make it work. We do not leave you with a site your team cannot own. We do not treat speed, readability, or findability as extras.",
@@ -376,7 +376,7 @@ export const servicesOverview = {
   ],
   protocolListing: {
     heading: "Educate: Protocol team training",
-    blurb: "One or two days at your office. Eight runbooks, and a follow-up call at 30 days. $5,000 for one department or $20,000 for a full team.",
+    blurb: "One or two days at your office. Written operating instructions for the steps your team will run, and a follow-up call at 30 days. $5,000 for one department or $20,000 for a full team.",
   },
   supportingListing: {
     eyebrow: "Supporting layer",
@@ -397,7 +397,7 @@ export const servicesOverview = {
     ]},
     { h2: "03 Run. Google Ads measured in meetings", body: [
       "Run manages Google Ads around the searches your buyers make when they need an answer now. We build and adjust the campaign, keep the landing page current, and report what a qualified meeting cost.",
-      "Excitation is $5,000 per month plus advertising spend. It includes the Ground State work, one Google Ads campaign, one campaign landing page, automated lead follow-up within 30 seconds, 16 social posts, and a 60-minute strategy call each month.",
+      "Excitation is $5,000 per month plus advertising spend. It includes the Ground State work, one Google Ads campaign, one campaign landing page, automated lead follow-up within 30 seconds, a total of 16 social posts, and a 60-minute strategy call each month.",
       "Honest limit. Below about $1,000 a month in Google Ads spend, the platform cannot collect enough activity to produce reliable results. If that is your budget, Ground State plus organic work is the better recommendation.",
     ]},
     { h2: "04 Buy. Media when recognition helps the sale", body: [
@@ -408,11 +408,11 @@ export const servicesOverview = {
     { h2: "05 Book. Qualified meetings with a written brief", body: [
       "Book runs outbound through phone, email, and LinkedIn. We qualify the person and the conversation, then put a qualified meeting on your calendar with a written brief for your salesperson.",
       "Amplification is $10,000 per month plus advertising spend. It adds higher-volume publishing, a YouTube channel, one dedicated person calling and emailing your prospects, and weekly account review. A designated person on your side must own the calendar.",
-      "Honest limit. Do not buy outbound first if the website cannot defend the pitch. We Build first, then begin outreach when a buyer can verify what the email says.",
+      "Honest limit. Calling and emailing before the website can back up the message wastes the buyer's time. If the site does not say what the email says, we finish the website before outreach starts.",
     ]},
     { h2: "06 Educate. Runbooks for your team", body: [
-      "Educate transfers the operating process to your people. One or two days at your office, eight runbooks, and a follow-up call at 30 days.",
-      "The Google Ads runbook is written by the Google Ads specialist. The compliance runbook is written by the compliance officer. The life science runbook is written by our molecular biologist. Your team receives guidance from the people who carry responsibility for the work.",
+      "Educate transfers the operating process to your people. One or two days at your office, written instructions for the steps that team will run, and a follow-up call at 30 days.",
+      "The people who do the work teach it, including outside specialists when the subject needs them.",
       "One department, one day, $5,000. Full team, two days, $20,000. A Protocol day for current clients, $3,500. This works when your team can commit one focused day. If they cannot, do not buy it.",
     ]},
   ],

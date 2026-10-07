@@ -18,7 +18,7 @@ Say "growth agency" or "ISOVERTIC." Do not say growth firm, growth company, grow
 
 We build the website that gets found by the specialist already searching for what you sell, then we spend advertising only on those people.
 
-The word is meetings. Not leads (the client still has to close them), not customers (that is the client's job, and the site says so). A meeting is the thing we can be judged on, and Amplification and above carry the number in writing.
+The word is meetings. Not leads (the client still has to close them), not customers (that is the client's job, and the site says so). A meeting is the thing we can be judged on. We agree what counts as a qualified meeting, we check that it was held, and we report what it cost. We do not promise how many.
 
 ## The method is the how, not the hat
 

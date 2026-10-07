@@ -1,129 +1,119 @@
 ---
 slug: marketing-cro-biotech-medtech
-title: Marketing a CRO, Biotech, or Medtech to Buyers Who Don't Read Marketing Content
-description: Why the researcher, medical director, and Value Analysis Committee member are structurally allergic to marketing content, and what they read instead.
+title: What a CRO, Biotech, or Medtech Buyer Actually Reads
+description: A scientist, a medical director, and a value analysis reviewer do not read the same page. What to publish for each, and where a brochure fails them.
 primaryKeyword: marketing a CRO biotech medtech
 datePublished: 2026-09-07
-dateModified: 2026-09-07
+dateModified: 2026-10-07
 author: kristen-coughlin
 category: pipeline-ownership
-readingMinutes: 7
+readingMinutes: 6
 ---
 
-# Marketing a CRO, Biotech, or Medtech to Buyers Who Don't Read Marketing Content
+# What a CRO, Biotech, or Medtech Buyer Actually Reads
 
 ## What you'll take away
 
-- Why the researcher, the medical director, and the Value Analysis Committee member are structurally allergic to marketing content, and what they read instead
-- The 5-to-16-person buying committee that will decide your deal, and who is actually on it
-- The specific formats that get into a Value Analysis Committee packet, and the ones that get deleted from the inbox
-- Why lead velocity is the wrong metric for a 12-to-18-month cycle, and what to measure instead
-- A one-week reset for your top of funnel that trades the polished datasheet for the thing your buyer actually cites
+- Which documents a scientist, a medical director, and a hospital reviewer tend to open, and which brochure they skip
+- How to use a B2B buying group survey without pretending it is a census of your committee
+- What a device champion usually has to assemble before a hospital will review a product
+- Why a monthly lead count is a weak read on a long sale, and what to look at instead
+- A short edit you can make this week, and the limit of that edit
 
 ---
 
-I've spent the last decade helping scientific and healthcare clients turn research into content their buyers will actually use. The lesson that took the longest to learn: your buyer is not "the healthcare market." Your buyer is a scientist, a medical director, or a hospital Value Analysis Committee member, and they read almost nothing that looks like marketing.
+I spent ten years selling translational research products to scientists. The buyers who answered did not start with our brochure. They started with the protocol, the methods, and whatever a colleague had already forwarded. A medical director and a hospital value analysis reviewer do the same thing with different documents. If your public material cannot survive that read, the meeting you wanted does not happen.
 
-They read protocols. They read peer-reviewed studies. They read datasheets, when the datasheet is a real datasheet and not twelve pages of glossy claim without a method section. They read what their colleagues send them. They read what the Value Analysis Committee packet includes. And they read whatever the vendor's technical documentation says, because that is the document the implementation team will inherit.
+This is not a claim about every healthcare company. It is the pattern on accounts where the buyer is a scientist, a clinician, or a committee that has to defend a purchase in writing.
 
-If your top of funnel is a whitepaper landing page with a gated PDF titled "The Complete Guide to Transforming Precision Medicine," the buyer already skipped it. Not out of malice. Because that title tells them there is nothing in it.
+## Who is in the room, and who is not
 
-## Who is actually in the room
+A Gartner sales survey of B2B buyers, fielded in August and September 2024 and published in May 2025, found buying groups ranging from 5 to 16 people, and 74 percent of those groups reporting unhealthy conflict during the decision ([Gartner Sales Survey, May 2025](https://www.gartner.com/en/newsroom/press-releases/2025-05-07-gartner-sales-survey-finds-74-percent-of-b2b-buyer-teams-demonstrate-unhealthy-conflict-during-the-decision-process)). That is a broad B2B sample. It is not a count of the people in your hospital, your lab, or your value analysis meeting. Use it as a reason to write for more than one reader. Then list the people who actually sign your deals.
 
-Enterprise B2B buying groups now range from **5 to 16 people**, and **74% of them report unhealthy conflict during the decision process** ([Gartner Sales Survey, May 2025](https://www.gartner.com/en/newsroom/press-releases/2025-05-07-gartner-sales-survey-finds-74-percent-of-b2b-buyer-teams-demonstrate-unhealthy-conflict-during-the-decision-process)). In healthcare, life sciences, and medtech, that room typically has a version of the following people, and each one reads a different document.
+On the accounts I know, the readers usually split like this. Your list will be shorter or longer.
 
-**The clinical decision-maker.** A medical director, a chief of a service line, a principal investigator, a lead researcher. They read the methodology, the protocol, the published study, the safety data. They do not care about your brand story. They care whether the science supports the claim.
+**The scientific or clinical reader.** A principal investigator, a medical director, a chief of a service line. They look for the method, the protocol, the study, and the limit of the result. A brand story does not answer that.
 
-**The financial stakeholder.** A CFO or a finance director. They read the pricing, the total cost of ownership, the reimbursement pathway (if applicable), and the utilization projections. They will forgive a rough deck. They will not forgive a missing pricing model.
+**The person who has to pay.** A finance lead, sometimes a CFO. They look for price, what the purchase costs to run, and, where it applies, how it gets reimbursed. A rough deck can survive. A missing cost picture often does not.
 
-**The operational buyer.** A hospital administrator, a lab manager, a practice administrator, a director of operations. They read the implementation plan, the training requirements, the staff time impact, the workflow diagrams. If you can't tell them how many hours per week their team will spend on your product for the first 90 days, they will assume the answer is "a lot" and move on.
+**The person who has to run it.** A lab manager, a practice administrator, a director of operations. They look for training time, workflow, and what the first 90 days ask of their staff. If you cannot say that, they will guess, and the guess is rarely kind.
 
-**The regulatory or compliance stakeholder.** A compliance officer, a regulatory affairs lead. They read the FDA clearance, the accreditation status, the audit history, the specific privacy and security posture. In a hospital purchase, this person can veto without explaining why.
+**The person who can stop it.** Regulatory affairs, compliance, or quality. They look for the clearance, the accreditation, and the privacy posture that applies to your product. On a hospital purchase, a no from this seat can end the review without a long explanation.
 
-**The end user.** A clinician, a technician, a lab scientist. They read the user manual, if there is one. They ask their colleagues in a Slack group or on a professional listserv whether anyone else uses the product.
+**The person who will use it.** A technician, a clinician, a lab scientist. They ask a colleague whether the thing works on a Tuesday, not whether the homepage is handsome.
 
-**The champion.** The person inside the account who wants your product. They are the only one in the room who reads your marketing content. Everything you give them is a resource for the conversations they will have with the other 4 to 15 people.
+**The champion.** The one person inside the account who already wants the product. They are often the only one who will read what you call marketing, and they read it so they can answer the other people. You are writing so they can forward a page, not so you can persuade a stranger from scratch.
 
-The champion is the one you're actually writing for. Not to convince them (they're already convinced) but to arm them.
+## What those readers open
 
-## What they read instead of your marketing content
+I am not going to quote a life science marketer survey here as if it described your buyer. Several of those surveys describe what marketers say they publish. They do not describe what a principal investigator opens at 7 a.m.
 
-Life science marketers surveyed in 2025 report a shift: **gated whitepapers are being replaced by ungated, buyer-centric technical content**, and **73% of B2B life science marketers now incorporate content marketing into their digital strategy** ([INFUSE Evolving Role of Content Marketing in Life Science 2025](https://infuse.com/insight/the-evolving-role-of-content-marketing-in-life-science-what-to-expect-for-the-remainder-of-2025/); [L7 Creative Life Sciences Content Marketing 2025](https://www.l7creative.com/marketing-insights/life-sciences-content-marketing-2025/)). Meanwhile, **81% of B2B buyers choose their preferred vendor before speaking to sales** ([Whitehat life sciences summary of Forrester data](https://whitehat-seo.co.uk/blog/life-science-marketing-agency-uk)).
+What I will say, from the sales side, is which artifacts have actually been forwarded into a buying conversation:
 
-What that means in practice: your buyer built their shortlist before you ever spoke to them. The content that got you on the shortlist was not your homepage hero. It was one of these:
+- A methods page or protocol on your site, not behind a form
+- A paper in a journal that reader's specialty already reads
+- A short account of one use, with the institution, the method, the result, and the limit
+- A comparison that includes where your product is the wrong choice
+- The technical document the implementation team will inherit
+- A colleague's note, which beats all of the above when the colleague is trusted
 
-- **A peer-reviewed publication** in a journal your buyer's specialty reads
-- **A protocol or methods document** published on your site, ungated, with real detail
-- **A case study written in the language of the specialty**, with the specific institution, the specific method, the specific outcome, and the specific limitations
-- **A published comparison table** that includes your product's honest weaknesses next to competitors' honest strengths
-- **A technical documentation library** that the implementation team can read before they buy
-- **A conference poster or presentation** the buyer or their colleague attended
-- **A recommendation from a colleague** on a professional Slack, listserv, or in-person meeting
+A gated PDF titled like a complete guide to transforming a field tells that reader the file is empty. They skip it. That is a pattern, not a law. Some buyers still download the PDF. Do not build the program on them.
 
-Every one of those artifacts is a marketing asset. None of them look like marketing.
+## The packet a hospital reviewer asks for
 
-## The Value Analysis Committee packet
+For many medical devices, the sale does not move because a homepage converted. It moves when someone inside the hospital submits a value analysis request. The form is the hospital's. The champion has to fill it. Vendor guides describe a multi stage review: request, clinical and financial look, sometimes a trial, then a yes or a no. Treat those guides as a sketch of the work, not as your hospital's SOP.
 
-For medical device and hospital purchase decisions, the Value Analysis Committee (call it the VAC, the hospital committee that evaluates whether a product should be approved for use before purchase) is the room where the deal lives or dies. VAC workflows follow a defined multi-stage process: product request submission, clinical and financial evaluation, sometimes a trial or pilot, then a formal approval or rejection ([Provyx Value Analysis Committee Guide for Device Vendors](https://getprovyx.com/resources/healthcare-value-analysis-committee-guide/); [CASRAI Value Analysis Committee guide](https://casrai.org/guides/value-analysis-committee)).
+The champion is usually hunting for a few things they can paste:
 
-The champion in the account is the person who submits the VAC request. Their packet includes:
+- The clinical evidence, with the citation on the same page
+- What it costs to buy and what it costs to run
+- How it compares with what the hospital already uses, including the option of doing nothing
+- Safety and quality information they are allowed to repeat
+- How the first weeks of training actually go
+- Another institution that will take a call
 
-- A completed VAC form
-- Published clinical evidence supporting the request
-- Financial analysis: acquisition cost, ongoing cost, utilization forecast
-- Comparison to alternatives, including the status quo
-- Safety and quality data
-- Implementation and training plan
-- References from peer institutions
+If that evidence sits behind a form and a salesperson, the champion will use a competitor's page or write the packet from memory. Your job is to make the honest version easy to lift. You do not control the committee. You control whether your page can be forwarded without a phone call.
 
-Your job as the vendor is to make every one of those documents easy for the champion to assemble. If your published clinical evidence is on a page behind a form fill and a sales-team follow-up, the champion is going to use someone else's evidence. If your financial analysis lives in a proposal that requires three calls to get, the champion is going to build their own from public list prices and get it wrong.
+## The long datasheet
 
-The champion's packet is your marketing top of funnel, whether you designed it that way or not. Every asset you publish should be structured so that a copy-and-paste into a VAC packet is a two-minute exercise, not a two-week project.
+The failure I see most often is a long datasheet: a cover, a product photo, a brand story, several pages of claims with no method, a comparison that marks every box in your column, and the specifications buried at the end.
 
-## The datasheet trap
+I will not say nobody reads past page two. I will say the clinical reader looks for the method and leaves when it is missing, the finance reader looks for a cost and leaves when it is missing, and the person who has to implement it looks for the first 90 days and leaves when that is missing. The document was built to look finished. Those readers wanted it to be usable.
 
-The single most common failure I see in life science marketing content: the twelve-page datasheet. Cover, glossy product shot, brand story, three pages of claims with no method section, a comparison table with all-green checkmarks in your column, and the actual technical specifications on page eleven in six-point type.
+A better replacement is specific, not necessarily short. Specifications with the method, the tradeoff, and the limit. If the product is the right one for that use, the page can show it. If it is not, a longer brochure was not hiding that from the person who has to sign.
 
-Nobody in the buying committee will read that document past page two. The clinical decision-maker will look for the method section and not find it. The financial stakeholder will look for pricing and not find it. The operational buyer will look for implementation and not find it. The compliance stakeholder will look for the FDA clearance details and not find it. The end user will look for the user experience and not find it.
+## What to measure before revenue
 
-The document was designed to look impressive. Its buyers wanted it to be useful.
+Do not borrow a 12 to 18 month average from a vendor blog and call it your cycle. Ask whoever closes your deals for the last ten contracts: first serious conversation to signature. Use that median. Until you have it, a monthly count of new leads is a weak way to judge the work. A lead from this month may not be a conversation until next quarter, and may not be a contract until after that.
 
-The replacement is not shorter. It is honest. Two pages of real specifications, with methodology, with real trade-offs, with real limits, with real reference customers. If your product is genuinely better than the alternative, that document will show it. If it isn't, the twelve-page glossy one wasn't fooling anyone anyway.
+While you wait for revenue, these are reads you can actually take:
 
-## Why lead velocity is the wrong metric
+- Named champions inside the accounts you care about, and whether the count is moving
+- Whether a champion can assemble the evidence from pages you already published, or whether they have to wait on you
+- How long deals sit in each stage you already track
+- Whether the meetings you do get are with the people who can advance the review
+- Cost per qualified meeting where you are running paid or outbound work, with the definition of qualified written down before the month starts
 
-Biotech sales cycles average **12 to 18 months** because of regulatory requirements and multi-stakeholder decision dynamics ([Apollo Biotech Sales Market Guide](https://www.apollo.io/insights/biotech-sales)). Enterprise medical software runs **12 months or more** ([Martal Medical Software Sales Cycle 2025](https://martal.ca/medical-software-sales-lb/)).
+We do not promise how many of those meetings you will get. We can tell you what counted and what it cost.
 
-At 12 to 18 months, a lead generated in September may not appear in the pipeline as an opportunity until May, may not enter the VAC review until August, and may not close until the following January. Reporting "leads generated per month" in isolation gives you no signal about whether the marketing is working. Every lead is being judged before it has had a chance to convert.
+If a board asks for revenue at day 90 on a cycle that runs many months, they are asking for a number the work has not had time to produce. Report what was published, what the site did, and what the ads did. Review pipeline and revenue at months six and 12, against the cycle you wrote down. That is the same two clock idea as the engagement standard, applied to this buyer.
 
-The metrics that do give you a signal on a long cycle:
+## What you can change this week
 
-- **Champion identification per account.** How many named champions have you developed inside target accounts in the last quarter? These are the people who will submit VAC requests. If the number is zero, marketing is not doing its job regardless of lead volume.
-- **VAC packet assembly time in target accounts.** How long does it take a champion to assemble a complete packet using your published materials? If it's more than a week, your top of funnel is not structured for the buyer.
-- **Time-in-stage by pipeline stage.** How long does a deal sit in each stage before moving? Long stalls are the marketing signal, not slow lead velocity.
-- **Meeting acceptance rate from champion accounts.** Champions who trust the material will get you meetings with the rest of the committee.
-- **Cost of acquiring a customer paid back, on your actual cycle.** For a 12-month cycle, the honest read on cost of customer acquisition paid back happens no earlier than month 18. Before that, you have leading indicators only.
+If you run marketing for a CRO, a biotech, or a device company and the paragraph above describes your best asset, start here. This is an edit, not a finished program.
 
-If your board is asking about lead velocity every 90 days on a 12-to-18-month sales cycle, they are asking about the wrong number. The two-clock rule from our earlier field note (leading indicators every 30 days, lagging indicators at 6 and 12 months) applies here as strictly as it does in general B2B.
+1. Open the three pieces you are proudest of. Read the first two pages as the scientific or clinical buyer. Mark every claim that has no method and no citation.
+2. If two of those pieces have real technical content, take them out from behind the form and give them a stable URL.
+3. At the top of each, add the sentence a champion can paste, the reference, and the link.
+4. Retire the comparison that marks every box in your column. Publish the specification, the method, and the limit on their own pages.
+5. In the account list, add a field for the named champion. If the field is empty on the accounts that matter, lead volume is not the problem you should report.
 
-## A one-week reset
+## Where this stops
 
-If you're running a CRO, biotech, or medtech marketing program right now and any of this hit, here's what to do this week:
+If the evidence is thin, the regulatory path is unclear, or the safety record has a hole, no page rewrite fixes that. The work is with the science team and the regulatory team before it is with marketing.
 
-1. Open your top three "high-performing" marketing pieces. Read the first two pages of each one as if you were a medical director. Note every claim without a method or a citation.
-2. Ungate the two pieces that have the most real technical content and the most defensible claims. Republish them at stable URLs.
-3. For each ungated piece, add a "cite this in a VAC packet" section at the top: the recommended sentence, the reference, the link, the two sentences your champion should paste into their packet.
-4. Kill the twelve-page datasheet. Replace it with a two-page technical spec sheet and a separate one-page methods and limitations sheet.
-5. In the CRM, add a field to every target account called "identified champion." Track it. Champion count is the number that matters.
-
-The reset takes one week. The marketing motion it enables takes 12 to 18 months to fully show up in revenue. That is the actual timeline.
-
-## The honest limit
-
-Some products are genuinely not ready for the VAC packet. If your clinical evidence is thin, if your FDA path is unclear, if your safety data has holes, no packet rewrite will save you. In that case, the honest work is with the science team and the regulatory team before it's with the marketing team.
-
-The rest of the time, the buyer is out there, they are reading, and they are choosing preferred vendors before you speak to them. Your marketing job is to be the vendor whose materials they can actually use.
+This also stops if your buyer is not a scientist, a clinician, or a committee that has to defend the purchase. A practice filling appointments is a different read. Do not drag this argument onto that calendar.
 
 ---
 
-**If you're the founder, COO, or head of marketing at a CRO, biotech, medtech, or healthcare-adjacent SaaS company and your best asset is a twelve-page datasheet with a brand story on the cover, [book a pipeline call](https://isovertic.com/book) and send us the top of funnel piece you're currently proudest of. In about ten minutes I'll tell you whether it survives a VAC packet, which two pages your champion would keep, and what to publish instead. Sometimes the honest answer is that you're already fine, and we're happy to say so and hand you back your afternoon.**
+**If you run commercial or marketing at a CRO, a biotech, or a device company and your best public asset is a long datasheet, [book a pipeline call](/contact) and send the piece you are proudest of. In about ten minutes I will tell you whether a champion could forward it, which pages they would keep, and what to publish instead. Sometimes the honest answer is that you are already fine, and we are happy to say so and hand you back your afternoon.**

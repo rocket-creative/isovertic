@@ -107,7 +107,7 @@ export const home = {
     body: [
       "Ingenious Targeting Laboratory, a mouse model company selling to research scientists, moved from 13 monthly form submissions to about 64 in its first eight months with Isovertic. Its organic search traffic rose 3.7 times in that period. Internal, September 2026.",
       "Sydra Health, a revenue-cycle company serving healthcare billing directors, went from no online presence in mid-June 2026 to roughly one qualified meeting a week on about $1,000 in monthly advertising spend and the entry package of site work. Internal, September 2026.",
-      "Both figures are internal operating results from two accounts, measured in our own reporting. They are not audited, not a controlled study, and not a sample large enough to predict your outcome. Your category, your budget, your offer, and the length of your sales cycle all change the result. What these two accounts show is the mechanism we sell: when the website can carry the sales argument and one team owns the number at the end, the meetings come from buyers who were already looking.",
+      "Both figures are internal operating results from two accounts, measured in our own reporting. They are not audited, not a controlled study, and not a sample large enough to predict your outcome. Your category, your budget, your offer, and the length of your sales cycle all change the result. What these two accounts show is the mechanism we sell: when the website can carry the sales argument, the meetings come from buyers who were already looking. We agree what counts as a qualified meeting, we check that it was held, and we report the cost.",
     ],
   },
   tiers: {
@@ -181,7 +181,7 @@ export const home = {
     body: [
       "Search is the fastest way in when your buyers already type specific language: a device model, a regulation, a protocol, a billing code, a gene, or a clinical question. When that search volume does not exist yet, it does not mean you have no buyers. It means we go find them. We build the list of the people who should own what you sell, reach them with calls and emails, on LinkedIn, in the trade press they read, and on television when the math supports it, and keep publishing so your name is familiar before the first conversation. Creating demand costs more per meeting than catching it and takes longer to show. We will tell you which of the two you are buying before you pay.",
       "A qualified meeting a week on a small advertising budget is a trickle, not a flood. It can still be a good result. We will not promise a flood to get a signature.",
-      "A year is the shortest window in which pipeline and revenue can move on a long healthcare or business-to-business sale. Google's own guidance says changes to search visibility can take four months to a year, per [Google Search Central](https://developers.google.com/search/docs/appearance/site-names). Healthcare sales average 125 days to 24 months. We report leading indicators every 30 days and review pipeline and revenue at months six and 12 against your actual sales cycle.",
+      "Sales cycles in this work are often long, so pipeline and revenue measured before a year are not a fair read of the work. Google's own guidance says changes to search visibility can take four months to a year, per [Google Search Central](https://developers.google.com/search/docs/appearance/site-names). We report leading indicators every 30 days and review pipeline and revenue at months six and 12 against your actual sales cycle.",
     ],
   },
   start: {

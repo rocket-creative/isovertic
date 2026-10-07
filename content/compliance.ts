@@ -21,15 +21,15 @@ export const healthcareHeadings = {
   why: "Why healthcare marketing is different.",
   posture: { h2: "HIPAA posture. The compliance officer's page.", lead: "Ten rows. Each one is a yes or no operating commitment we sign, not a paragraph of reassurance.", print: "Printable version of this table", baa: "Request our BAA" },
   governance: { h2: "Sensitive data governance.", lead: "Four steps, each with a written output your compliance lead keeps.", print: "Printable version of this process" },
-  cycles: { h2: "How long the sale takes, and when we judge revenue.", lead: "A healthcare sale runs about four months and a biotech or medtech sale can run two years. The agreement ties the revenue review to your cycle, and the leading indicators arrive every 30 days regardless.", link: "The full engagement and measurement standard" },
+  cycles: { h2: "How long the sale takes, and when we judge revenue.", lead: "A healthcare sale may take weeks or months. A biotech or medtech sale can take much longer. The agreement ties revenue review to your actual sales cycle, and the leading indicators arrive every 30 days regardless.", link: "The full engagement and measurement standard" },
   faq: "What compliance officers ask first",
   download: { title: "Compliance packet, one page", body: "The HIPAA posture table and the four step governance process on one printable page, for the compliance officer who will not read a website." },
   ctas: { packet: "Request our BAA and compliance packet", call: "Book a compliance officer call", pricing: "Pricing is published" },
 };
 
 export const whyDifferent = [
-  "A practice, a device maker, or a diagnostics company is not buying traffic. It is buying demand it can defend to a compliance officer, a review board, and, when things go wrong, a regulator. That changes what a marketing vendor has to be: a business associate with a signed agreement, a team that knows which pages a pixel may never touch, and a production process that fits inside your review gates instead of fighting them.",
-  "Everything on this page is a commitment we operate to, not a claim we make. The table is the same one we hand a compliance officer before a first call, and the printable version at the bottom is meant to be forwarded.",
+  "A practice, a device maker, or a diagnostics company is not buying traffic. It is buying demand it can defend to a compliance officer, a review board, and, when things go wrong, a regulator. Where an engagement requires us to create, receive, maintain, or transmit protected health information on behalf of a covered entity or another business associate, we operate as a business associate under a signed agreement. Where that information is not in scope, we still apply the agreed privacy, security, and sensitive data controls.",
+  "That changes what a marketing vendor has to be: a team that knows which pages a pixel may never touch, and a production process that fits inside your review gates instead of fighting them. The standards below describe how we operate on healthcare engagements, subject to the agreed scope, client approved systems, and applicable legal and compliance review. The table is the same one we hand a compliance officer before a first call, and the printable version at the bottom is meant to be forwarded.",
 ];
 
 export type PostureRow = { capability: string; standard: string; sources?: { label: string; href: string }[] };
@@ -37,7 +37,7 @@ export type PostureRow = { capability: string; standard: string; sources?: { lab
 export const posture: PostureRow[] = [
   {
     capability: "Business Associate Agreement",
-    standard: "We sign a BAA before any engagement that touches PHI. Our template is available on request, and we review and execute client supplied BAAs.",
+    standard: "We sign a BAA before any engagement where we will create, receive, maintain, or transmit PHI on behalf of a covered entity or business associate. Our template is available on request, and we review and execute client supplied BAAs.",
   },
   {
     capability: "Covered entity and business associate awareness",
@@ -63,7 +63,7 @@ export const posture: PostureRow[] = [
   },
   {
     capability: "Retargeting on sensitive pages",
-    standard: "Retargeting is off by default on symptom, diagnosis, treatment, and patient portal pages. Turning it on requires client sign off and a documented lawful basis.",
+    standard: "Retargeting is off by default on symptom, diagnosis, treatment, and patient portal pages. Turning it on requires documented client compliance approval, a review of the applicable legal and platform requirements, and an approved data flow.",
   },
   {
     capability: "Form data and lead intake",

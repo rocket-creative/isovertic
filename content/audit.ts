@@ -1,5 +1,6 @@
 // The Pipeline Ownership Audit. Ten questions, weighted score, one of four tier recommendations.
-// Weights: questions 1, 2, 5, 6, and 10 count double. Question 9 is not scored; it shapes the diagnosis.
+// Weights: questions 1, 2, 5, 6, and 10 count double. Questions 3, 4, 7, 8, and 9 count once.
+// Question 9 (trigger) is scored: every option is worth 0 points, so it changes the diagnosis without changing the total.
 // No hyphens or dashes in any string.
 
 export type Option = { label: string; points: number; note: string };
@@ -8,11 +9,11 @@ export type Question = { id: string; text: string; weight: 1 | 2; options: Optio
 export const auditMeta = {
   path: "/audit",
   title: "The Pipeline Ownership Audit | ISOVERTIC",
-  description: "Ten questions, about six minutes. Score who owns the meeting number, get a package recommendation and a written diagnosis. Nobody calls unless you ask.",
+  description: "Ten questions, about six minutes. Score who agreed what counts, whether the meeting was held, and what it cost. You get a package recommendation and a written diagnosis. Nobody calls unless you ask.",
   eyebrow: "The Pipeline Ownership Audit",
   h1: "Who owns the number?",
   lead: [
-    "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. A commercial system should produce one simple answer for the person signing the checks: who owns the number of qualified meetings this month? If the website team owns visits, the ad vendor owns clicks, and sales owns the missed follow-up, you do not have one answer. You have four reports and a familiar problem.",
+    "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. A commercial system should produce one simple answer for the person signing the checks: who agreed what counts as a qualified meeting, who checked that the meeting was held, and what it cost. We do not promise how many. If the website team owns visits, the ad vendor owns clicks, and sales owns the missed follow-up, you do not have one answer. You have four reports and a familiar problem.",
     "The Pipeline Ownership Audit is a six-minute self-assessment for CEOs, presidents, chief operating officers, chief financial officers, VPs of commercial, VPs of marketing, chief medical officers, medical directors, practice administrators, and directors of billing. Answer ten questions. You receive a score, a package recommendation, and a written diagnosis you can keep or ignore. Nobody calls you unless you ask.",
   ],
   completionTime: "6 min",
@@ -32,12 +33,12 @@ export const auditMeta = {
       "Sometimes the issue is the website. A buyer arrives but cannot find proof, pricing, or a clear next step in language a chief scientific officer, principal investigator, or director of billing recognizes. The first repair is Build, included in every package at $15,000 across the year.",
       "Sometimes the site is ready but nobody is publishing enough useful answers for the people already looking. The right start is Ground State at $3,000 per month: one published article, one newsletter to your list, eight social posts, and a monthly report.",
       "Sometimes your company needs meetings sooner and has at least $1,000 a month for Google Ads. Excitation at $5,000 per month plus spend adds a managed campaign, a landing page, and automated follow-up within 30 seconds.",
-      "Sometimes the calendar needs direct help. Amplification at $10,000 per month plus spend adds a dedicated person calling and emailing your prospects, who books qualified meetings with written briefs. If you have capable internal people but no shared operating process, Protocol training may be the better answer at $5,000 for one department or $20,000 for the full team.",
+      "Sometimes the calendar needs direct help. Amplification at $10,000 per month plus spend adds a dedicated person calling and emailing your prospects. We agree what counts as a qualified meeting, we check that the meeting was held, and we report the cost. We do not promise how many. If you have capable internal people but no shared operating process, Protocol training may be the better answer at $5,000 for one department or $20,000 for the full team.",
       "Sometimes the answer is Quantum Leap from $25,000 per month plus spend, the full program for later-stage healthcare, pharma, biotech, medical device, and life sciences tools and diagnostics companies, on one brand or several.",
       "The audit can also say you do not need us. That result saves you time and preserves our calendar for teams we can help. Everyone survives.",
     ] },
     { h2: "Regulated buyers get different recommendations", body: [
-      "If your buyers are on the healthcare side, the audit factors in HIPAA. Our compliance layer is $750 per month for a form-and-call stack built against HHS OCR guidance on [online tracking technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html) and the June 2024 ruling in [AHA v. Becerra](https://www.aha.org/legal-documents/2024-06-20-aha-v-becerra-court-ruling-online-tracking-technologies). The 2023 [FTC action against GoodRx](https://www.ftc.gov/legal-library/browse/cases-proceedings/2023130-goodrx-holdings-inc) is a useful reminder of what happens when a healthcare site leaks protected data through third-party pixels.",
+      "If your buyers are on the healthcare side, the audit factors in HIPAA. Our compliance layer is $750 per month for a form-and-call stack built against HHS OCR guidance on [online tracking technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html) and the June 2024 ruling in [AHA v. Becerra](https://www.aha.org/news/news/2024-06-20-judge-rules-favor-aha-vacating-hhs-online-tracking-bulletin-unlawful-and-beyond-agency-authority). The 2023 [FTC action against GoodRx](https://www.ftc.gov/legal-library/browse/cases-proceedings/2023130-goodrx-holdings-inc) is a useful reminder of what happens when a healthcare site leaks protected data through third-party pixels.",
       "If your buyers include a chief medical officer, a medical director, a VP of regulatory, or a principal investigator reviewing claims, the audit checks for MLR review capacity. Our review gate is $500 to $1,200 per month plus setup: a named reviewer, a sign-off log for every asset, and a claim library your team can reuse.",
     ] },
     { h2: "The audit does not make promises it cannot keep", body: [
@@ -204,8 +205,8 @@ export const tierResults: Record<TierKey, TierResult> = {
     key: "amplification",
     name: "Amplification",
     price: "$10,000 a month plus ad spend",
-    headline: "You need meetings, and nobody owns the number.",
-    body: "Amplification runs the whole pipeline: multiple ad campaigns, a dedicated person calling and emailing your prospects, and the content that makes the meetings show up warm. We define what counts, we verify each meeting, and we report cost per qualified meeting. One team accountable for the work, with the 90 day ramp and the two clock scorecard in the agreement.",
+    headline: "The work needs an owner.",
+    body: "Amplification runs the whole pipeline: multiple ad campaigns, a dedicated person calling and emailing your prospects, and the content that warms the conversation before the meeting. We agree what counts as a qualified meeting, we check that it was held, and we report the cost. We do not promise how many. One team accountable for the work, with the 90 day ramp and the two clock scorecard in the agreement.",
     href: "/pricing",
   },
   "quantum-leap": {

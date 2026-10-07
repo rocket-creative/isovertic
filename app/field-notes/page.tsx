@@ -28,14 +28,9 @@ export default function FieldNotes() {
       {flagship && <FlagshipCard a={flagship} />}
 
       <Section label="Tools" tone="bright" deferred={false}>
-        <div className="grid gap-px bg-rule md:grid-cols-2">
-          <RevealBlock>
-            <DiagnosticCard />
-          </RevealBlock>
-          <RevealBlock delay={80}>
-            <SubscribeCard variant="research" />
-          </RevealBlock>
-        </div>
+        <RevealBlock className="max-w-[720px]">
+          <DiagnosticCard />
+        </RevealBlock>
       </Section>
 
       <Section label="Archive">

@@ -66,7 +66,7 @@ export const industryPipelineCta = {
 } as const;
 
 export const protocolRunbooksParagraph =
-  "The runbooks are written by the disciplines that use them: the Google Ads runbook by the Google Ads specialists, the HIPAA runbook by the compliance officer, the MLR runbook by the molecular biologist, the content runbook by the content writers. Your team learns from the people who actually run the work.";
+  "The people who do the work write the instructions and teach the day, including outside specialists when the subject needs them. Your team learns from the people who actually run the work.";
 
 export const kristenIngeniousDisclosure =
   "Kristen previously worked at Ingenious Targeting Laboratory, an Isovertic client in the mouse model space. George reviews Isovertic work with Ingenious for conflicts. Kristen steps out of account decisions where a conflict is possible.";

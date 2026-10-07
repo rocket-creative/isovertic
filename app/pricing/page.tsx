@@ -150,7 +150,7 @@ export default function Pricing() {
 
       <Section label="Add ons">
         <RevealBlock>
-          <h2 className="font-display text-h2 font-medium">Bolt on what your market needs.</h2>
+          <h2 className="font-display text-h2 font-medium">Add on what your market needs.</h2>
         </RevealBlock>
         <div className="t-wrap mt-12">
           <table className="t t--560">

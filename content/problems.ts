@@ -46,12 +46,12 @@ export const problems: Problem[] = [
         "The tell is the report. If the monthly report is about impressions, followers, and open rates, the person is doing the job they were given. If you want a report about meetings, you have to buy the parts of the system that produce meetings.",
       ]},
       { h2: "Why it is not a people problem", body: [
-        "A marketing manager loads to roughly $140,000 to $175,000 a year with tax and benefits. A junior coordinator loads to $60,000 to $80,000. At either price you get one set of hands and one skill set. Google Ads, technical SEO, server rendered web builds, and outbound calling are four different crafts. Replacing the person with a different single person changes the two channels that run. It does not fill the other four.",
+        "A marketing manager costs about $140,000 to $175,000 a year once tax and benefits are included. A junior coordinator costs about $60,000 to $80,000. Either way that is one person. Google Ads, search, a website, and calling prospects are different jobs. Hiring a different single person changes which job gets done. It does not cover the jobs they do not know.",
         "The other tell is the website. If the marketer inherited a five year old brochure site, every dollar they spend lands on a page that does not convert. We see conversion rates under 1 percent on those sites and 3 to 5 percent on pages built for the query. The marketer cannot fix that alone.",
       ]},
       { h2: "The three options, priced", body: [
         "Option one: keep the person, buy the missing steps. Excitation at $5,000 a month runs one Google Ads campaign, builds the landing page, and produces the search content, while your marketer keeps social and the list. The same team that will eventually run outbound builds the content, so nothing is thrown away later.",
-        "Option two: keep the person, teach them the system. The Protocol is one day at your office at $5,000, and your marketer leaves with the eight runbooks we use, rewritten for your team: content production, page build, Google Ads weekly review, outbound, lead handoff, reporting, and the two compliance runbooks. Good for a capable person who was never given a process.",
+        "Option two: keep the person, teach them the system. The Protocol is one day at your office at $5,000, and your marketer leaves with the written instructions for the steps taught that day. Good for a capable person who was never given a process.",
         "Option three: replace the function, not the person. Amplification at $10,000 a month runs the whole pipeline including a dedicated person calling and emailing your prospects with meetings verified against the meeting quality standard. The in house marketer becomes the point of contact who approves in 48 hours, which is the only job on your side the system needs.",
       ]},
       { h2: "How to decide in one meeting", body: [
@@ -61,7 +61,7 @@ export const problems: Problem[] = [
     faqs: [
       { q: "Do we have to let our marketer go to work with you?", a: "No. Most Excitation and Amplification clients keep an in house person as the approver and the owner of social and email. The system runs better with someone on your side who knows the company." },
       { q: "What if the marketer is family?", a: "Then give them a system instead of an impossible job. The Protocol at $5,000 is the cheapest way to turn a willing person into an operator, and it keeps the relationship intact." },
-      { q: "How fast will we see leads?", a: "Paid search produces in weeks four through eight of the 90 day ramp. Organic content compounds from month three. Outbound on Amplification carries a meeting number for the ramp in writing." },
+      { q: "How fast will we see leads?", a: "Paid search produces in weeks four through eight of the 90 day ramp. Organic content compounds from month three. Outbound on Amplification agrees what counts as a qualified meeting and reports what it cost. We do not promise how many." },
     ],
     related: [pricing, { label: "Protocol team training", href: "/protocol" }, { label: "Field notes", href: "/field-notes" }],
   },
@@ -82,23 +82,22 @@ export const problems: Problem[] = [
     sections: [
       { h2: "Why the report never shows meetings", body: [
         "An agency is usually scoped to a channel: SEO, or paid, or social. Inside that channel it can be excellent and still produce nothing you can bill, because a lead has to cross three more steps to become revenue: a page that converts, a follow up within a business day, and a sales conversation. If the agency does not own those steps, it reports on the ones it owns. Impressions, clicks, rankings. All true. None of it a meeting.",
-        "More than 70 percent of marketing leads are never contacted by sales at all. When the agency produces 40 leads and nobody on your side calls 30 of them, the agency shows 40 and you feel zero. Both are right, and neither owns the seam.",
+        "Here is one example, not a typical result. The agency produces 40 inquiries and nobody on your side calls 30 of them. The agency shows 40 and you feel zero. Both can be right, and neither owns the handoff between marketing and sales.",
       ]},
       { h2: "Three questions that end the debate", body: [
-        "What number did you commit to in writing for day 90? If the agreement has deliverables but no outcome, you bought activity. How many of last month's leads turned into a held conversation, and who counted? If nobody can answer, nobody is tracking the seam. Who exactly works on our account, and have they sold to our buyer before? If the answer is a rotating pod of juniors, you are training them with your budget.",
-        "Ask all three in one email. A good agency answers in a day. A bad one schedules a call.",
+        "What did the agreement say would be finished by day 90? If it names activity and nothing you can check, you bought activity. How many of last month's inquiries became a held conversation, and who counted? If nobody can answer, nobody is tracking the handoff between marketing and sales. Who actually works on the account, and have they sold to your buyer before? If the answer is a rotating group of juniors, you are training them with your budget.",
       ]},
       { h2: "What to buy instead", body: [
-        "Buy the whole pipeline or buy nothing. One team that builds the page, writes the content, runs the ads, and books the meeting cannot hide behind a seam because it owns every seam. Our Excitation tier at $5,000 a month runs content, one Google Ads campaign, a landing page, and automated lead follow up within 30 seconds. Amplification at $10,000 adds the dedicated person calling and emailing your prospects. We define what counts, we verify each meeting, and we report cost per qualified meeting.",
-        "The 90 day ramp has deliverables in writing and a written review at day 90 that reads leading indicators. The term is a year, because that is how long pipeline and revenue take to move, and revenue is judged at months six and twelve. If the leading indicators are not moving by day 60 we say so and change the plan before day 90.",
+        "Buy the whole pipeline or buy nothing. One team that builds the page, writes the content, runs the ads, and books the meeting cannot point at a handoff it does not own. Our Excitation tier at $5,000 a month runs content, one Google Ads campaign, a landing page, and automated lead follow up within 30 seconds. Amplification at $10,000 adds the dedicated person calling and emailing your prospects. We agree what counts as a qualified meeting, we check that it was held, and we report what it cost. We do not promise how many.",
+        "The 90 day ramp has deliverables in writing and a written review at day 90 that reads leading indicators. The term is a year, because sales cycles in this work are often long, and revenue is judged at months six and twelve. If the leading indicators are not moving by day 60 we say so and change the plan before day 90.",
       ]},
       { h2: "How long to give an agency", body: [
-        "Ninety days for paid search to reach a stable cost per lead. Six months for organic content to show compounding growth. If at day 90 there is no number and no plan with a number in it, the next 90 days will look the same. Every case study we publish uses the same window, months five through eight against the six months before we started, and we publish the method so you can check it.",
+        "Ninety days for paid search to reach a stable cost per inquiry. Organic content is read over months, not weeks. If at day 90 there is no number you can check and no plan with a number in it, the next 90 days will look the same.",
       ]},
     ],
     faqs: [
       { q: "Should we fire the agency before hiring you?", a: "Not always. If they run one channel well, keep them on that channel and we run the rest. If they cannot answer the three questions above, the decision makes itself." },
-      { q: "What if the agency says results take a year?", a: "Organic compounding does take months. A written 90 day number does not. Any firm can state landing pages live, campaigns at a cost per lead, and meetings booked by day 90. Ask for it." },
+      { q: "What if the agency says results take a year?", a: "Organic compounding does take months. A written 90 day plan does not have to wait. Any firm can state which pages will be live and what cost per inquiry the campaigns are aiming for by day 90. Ask for that." },
       { q: "Will you commit to a number?", a: "No. We do not promise a specific number of meetings a month. We define what counts, we verify each meeting, and we report cost per qualified meeting." },
     ],
     related: [{ label: "Field notes", href: "/field-notes" }, pricing, howItWorks],
@@ -146,18 +145,18 @@ export const problems: Problem[] = [
     audience: "owners",
     dateModified: "2026-09-04",
     title: "Leads Come In and Nobody Follows Up: Fixing the Seam",
-    metaDescription: "More than 70 percent of marketing leads are never contacted by sales. The handoff is where most pipeline dies. The response standard and sequence that fix it.",
+    metaDescription: "The handoff is where most pipeline dies. The response standard and sequence that fix it.",
     eyebrow: "Problem · Owners",
     h1: "Leads come in and they sit there. Nobody follows up.",
-    lead: "You paid for the ad, the page worked, the form fired, and the lead went to an inbox where it aged. This is the seam between marketing and sales, and it belongs to nobody, which is why more than 70 percent of marketing leads are never contacted by sales at all. It is the cheapest pipeline you will ever buy, because the leads are already paid for.",
+    lead: "You paid for the ad, the page worked, the form fired, and the lead went to an inbox where it aged. The handoff between marketing and sales belongs to nobody. It is the cheapest pipeline you will ever buy, because the leads are already paid for.",
     callout: {
       label: "Where this lives",
-      body: "On Excitation and above, every inbound lead gets an automated reply within 30 seconds, with a written follow up sequence behind it. The lead handoff runbook is the fifth of the eight runbooks in the Protocol, if your team would rather run it. Pricing is published.",
+      body: "On Excitation and above, every inbound lead gets an automated reply within 30 seconds, with a written follow up sequence behind it. The Protocol can teach that handoff to your team if you would rather run it. Pricing is published.",
     },
     searchPhrases: ["leads not being followed up", "sales not following up on marketing leads", "lead response time small business", "what happens to inbound leads", "marketing and sales handoff process"],
     sections: [
-      { h2: "Why the seam exists", body: [
-        "Marketing is measured on leads produced. Sales is measured on deals closed. The step between them, contacting the lead fast and well, counts for neither, so neither owns it. Add a second vendor and the seam becomes a canyon: the agency shows 40 leads, sales remembers 6, and everyone is telling the truth.",
+      { h2: "Why the handoff belongs to nobody", body: [
+        "Marketing is measured on leads produced. Sales is measured on deals closed. The step between them, contacting the lead fast and well, counts for neither, so neither owns it. Add a second vendor and the gap gets wider: the agency shows 40 leads, sales remembers 6, and everyone is telling the truth.",
         "A quote request that waits four days is a quote request answered by a competitor. Inquiries answered within five minutes convert at multiples of inquiries answered the next day, and a typical B2B prospect needs five or more touches before agreeing to a meeting. Most companies deliver one touch, late.",
       ]},
       { h2: "The fix costs discipline before it costs money", body: [
@@ -173,7 +172,7 @@ export const problems: Problem[] = [
       { q: "How do we know how bad it is?", a: "Pull the last 90 days of form submissions and match them to first contact dates. Most companies find a third were never contacted. That third is your first month of new pipeline." },
       { q: "Who follows up, you or us?", a: "On Excitation and Amplification, our team makes first contact within a business day and books the meeting. Your closer takes the meeting. We brief you before it." },
     ],
-    related: [{ label: "Glossary: the seam", href: "/glossary/the-seam" }, { label: "Why marketing leads never get a call", href: "/answers/why-do-marketing-leads-never-get-a-call" }, { label: "Protocol", href: "/protocol" }],
+    related: [{ label: "Glossary: the handoff", href: "/glossary/handoff" }, { label: "Why marketing leads never get a call", href: "/answers/why-do-marketing-leads-never-get-a-call" }, { label: "Protocol", href: "/protocol" }],
   },
   {
     slug: "all-our-business-comes-from-referrals",
@@ -204,7 +203,7 @@ export const problems: Problem[] = [
     faqs: [
       { q: "Will outbound annoy our referral network?", a: "Outbound goes to the accounts you want and have never met. Referral sources get the newsletter and the occasional lunch. The two lists do not overlap." },
       { q: "We do not want to look like we are advertising.", a: "Publishing pricing, methods, and results is not advertising. It is what your referred prospects already wish you did. Our clients in regulated fields publish under review gates and still grow." },
-      { q: "How fast does a second channel produce?", a: "Paid search reaches a stable cost per lead in weeks four through eight. Outbound meetings begin in the ramp on Amplification, with the number in writing." },
+      { q: "How fast does a second channel produce?", a: "Paid search reaches a stable cost per lead in weeks four through eight. Outbound on Amplification starts in the ramp. We agree what counts as a qualified meeting and report what it cost. We do not promise how many." },
     ],
     related: [{ label: "Field notes", href: "/field-notes" }, { label: "Professional services", href: "/industries/professional-services" }, pricing],
   },
@@ -274,7 +273,7 @@ export const problems: Problem[] = [
     faqs: [
       { q: "Is it too soon to hire another rep?", a: "If the pipeline that fed the last rep has not changed, yes. Build the demand environment first, then hire a closer into it." },
       { q: "Can you work with a rep we still have?", a: "Yes. Our seat prospects and books; your rep takes and closes. Most reps prefer that split, and it shows in their tenure." },
-      { q: "What does the dedicated person calling and emailing your prospects produce?", a: "A monthly number of qualified held meetings, stated in writing during the 90 day ramp against your market size, offer, and deal value. No shows and meetings that fail criteria do not count." },
+      { q: "What does the dedicated person calling and emailing your prospects produce?", a: "Qualified held meetings: a person who matches criteria you agreed up front, with a written brief. We check that each one was held and report what it cost. We do not promise how many. No shows and meetings that fail the criteria do not count." },
     ],
     related: [{ label: "Field notes", href: "/field-notes" }, { label: "Agency vs in house", href: "/compare/agency-vs-in-house" }, pricing],
   },
@@ -455,29 +454,29 @@ export const problems: Problem[] = [
     audience: "owners",
     dateModified: "2026-09-04",
     title: "Four Marketing Vendors and Nobody Owns the Number",
-    metaDescription: "A web shop, an ads agency, an SEO vendor, and an SDR firm, each celebrating its own metric, and revenue flat. Why the seams between vendors kill pipeline.",
+    metaDescription: "A web shop, an ads agency, an SEO vendor, and an SDR firm, each celebrating its own metric, and revenue flat. Why the handoffs between vendors kill pipeline.",
     eyebrow: "Problem · Owners",
     h1: "We have a web guy, an ads guy, an SEO vendor, and a caller, and nobody owns the result.",
-    lead: "When revenue stalls, everyone points at the seam next to them. The ads agency says the landing page is weak. The web shop says the traffic is bad. The SDR firm says the brand is invisible. Every one of them is right, and none of them is accountable, because you bought four parts of a system from four companies that have never spoken.",
+    lead: "When revenue stalls, everyone points at the handoff next to them. The ads agency says the landing page is weak. The web shop says the traffic is bad. The SDR firm says the brand is invisible. Every one of them is right, and none of them is accountable, because you bought four parts of a system from four companies that have never spoken.",
     callout: {
       label: "Where this lives",
       body: "One team, one number. Amplification at $10,000 a month runs the site, the content, the ads, and the dedicated person calling and emailing your prospects with meetings verified against the meeting quality standard. Quantum Leap adds TV and a second seat, per brand. Pricing is published.",
     },
     searchPhrases: ["too many marketing vendors", "consolidate marketing agencies", "one agency for website ads and outbound", "marketing vendors blaming each other", "single vendor for marketing and sales"],
     sections: [
-      { h2: "Count the seams", body: [
-        "Four vendors create six handoffs: ad to page, page to form, form to follow up, content to outreach, outreach to site, and everything to reporting. Each handoff loses leads and gains an excuse. More than 70 percent of marketing leads are never contacted by sales, and the number is worse when the lead crosses a company boundary on the way. You are also paying four account managers, four reporting cadences, and four onboarding cycles for one pipeline.",
+      { h2: "Count the handoffs", body: [
+        "Four vendors create six handoffs: ad to page, page to form, form to follow up, content to outreach, outreach to site, and everything to reporting. Each handoff loses leads and gains an excuse. You are also paying four account managers, four reporting cadences, and four onboarding cycles for one pipeline.",
       ]},
       { h2: "Why the parts share a team here", body: [
         "The person who writes your cold email wrote your website, so the prospect's diligence confirms the outreach. The person who builds the landing page reads the search term report, so the page matches the query. The objection heard on a Tuesday call is in the ad copy by Friday. None of that is possible across vendor boundaries, and all of it is why our case study clients see leads grow faster than traffic: the visitor lands on the page that answers the exact search.",
       ]},
       { h2: "What consolidation costs and saves", body: [
-        "Separately, credible vendors run $2,000 to $10,000 for SEO, $1,500 to $7,500 for ads management, $5,000 to $15,000 for appointment setting, plus a web retainer. That stack runs $10,000 to $35,000 a month with the seams unowned. Amplification runs all of it for $10,000 plus ad spend, with one report, one call a week, and one number in writing. The parts are cheaper together because they share a team.",
+        "Separately, credible vendors run $2,000 to $10,000 for SEO, $1,500 to $7,500 for ads management, $5,000 to $15,000 for appointment setting, plus a web retainer. That stack runs $10,000 to $35,000 a month with the handoffs unowned. Amplification runs all of it for $10,000 plus ad spend, with one report, one call a week, and cost per qualified meeting in the report. The parts are cheaper together because they share a team.",
       ]},
     ],
     faqs: [
       { q: "Do we have to fire everyone at once?", a: "No. Most clients transition over the 90 day ramp, keeping any vendor that runs one channel well until our system is producing." },
-      { q: "What if we like our web developer?", a: "Keep them for product work. The marketing site has to be built by the team that runs the ads and the outbound, or the seam comes back." },
+      { q: "What if we like our web developer?", a: "Keep them for product work. The marketing site has to be built by the team that runs the ads and the outbound, or the handoff comes back." },
       { q: "Who is accountable at your firm?", a: "The founder, on every account. One name, one number, one weekly call." },
     ],
     related: [howItWorks, { label: "Field notes", href: "/field-notes" }, pricing],
@@ -498,17 +497,17 @@ export const problems: Problem[] = [
     searchPhrases: ["how much should a small business spend on marketing", "marketing budget for a $5 million company", "what does outsourced marketing cost", "marketing and sales budget by revenue", "how much does lead generation cost per month"],
     sections: [
       { h2: "The channel prices, 2026", body: [
-        "SEO retainers at credible quality: $2,000 to $10,000 a month. Google Ads management: $1,500 to $7,500 a month plus spend, with spend from $3,000 to $50,000 depending on market. Appointment setting: $3,000 to $8,000 flat, or $150 to $800 per meeting on performance models, with dedicated senior teams at $10,000 to $25,000. Connected TV media: about $26 per thousand impressions with 10 to 20 percent managed service fees on top. Buy them separately and you own the seams between them.",
+        "SEO retainers at credible quality: $2,000 to $10,000 a month. Google Ads management: $1,500 to $7,500 a month plus spend, with spend from $3,000 to $50,000 depending on market. Appointment setting: $3,000 to $8,000 flat, or $150 to $800 per meeting on performance models, with dedicated senior teams at $10,000 to $25,000. Connected TV media: about $26 per thousand impressions with 10 to 20 percent managed service fees on top. Buy them separately and you own the handoffs between them.",
       ]},
       { h2: "The in house prices", body: [
-        "A marketing manager at $110,000 to $140,000 loads to $140,000 to $175,000. An SDR loads to $70,000 to $90,000. Tools and data add $20,000 a year. Ramp takes a quarter or two, and B2B sales hiring misses near half the time. One marketing lead plus one agency retainer runs $160,000 to $190,000 a year with the seam still unowned.",
+        "A marketing manager at $110,000 to $140,000 costs about $140,000 to $175,000 once tax and benefits are included. An SDR costs about $70,000 to $90,000 the same way. Tools and data add $20,000 a year. Ramp takes a quarter or two, and B2B sales hiring misses near half the time. One marketing lead plus one agency retainer runs $160,000 to $190,000 a year with the handoff between marketing and sales still unowned.",
       ]},
       { h2: "A budget by stage", body: [
         "Under $1 million: $3,000 a month on content and a site that says something, and the founder sells. That is Ground State. $1 million to $3 million: $5,000 a month plus $3,000 to $10,000 in ad spend for content, one campaign, and a landing page per audience. That is Excitation. $3 million to $10 million: $10,000 a month plus spend for the full pipeline with a dedicated person calling and emailing your prospects and meetings verified against the meeting quality standard. That is Amplification. Past $10 million or more than one brand: from $25,000 with TV, two seats, and a board ready quarterly review. That is Quantum Leap.",
         "As a share of revenue, those land between 3 and 8 percent for most companies, which matches what growing B2B companies spend when they are actually growing.",
       ]},
       { h2: "The number that makes the budget a decision", body: [
-        "Divide everything by qualified meetings. Amplification at $10,000 producing ten meetings a month is $1,000 per meeting before spend. At a one in five close rate and a $25,000 deal, that is $5,000 of cost against $25,000 of revenue. The same program producing three meetings is $3,333 each and the math argues. A vendor who will not commit to a meeting number will not let you run this calculation, which is the whole point of refusing.",
+        "Divide everything by qualified meetings so you can see the cost. As an illustration, a $10,000 program that produced ten meetings in a month would be $1,000 per meeting before spend. At a one in five close rate and a $25,000 deal, that is $5,000 of cost against $25,000 of revenue. The same program producing three meetings is $3,333 each. We agree what counts, check that each meeting was held, and report the cost. We do not promise how many.",
       ]},
     ],
     faqs: [
@@ -634,7 +633,7 @@ export const problems: Problem[] = [
         "A setter gets a yes on the phone. Between that yes and the meeting, the prospect looks you up. If the site is a brochure with no pricing, no numbers, and no people, the yes turns into silence. No show rates above 30 percent are common when nobody runs confirmation sequences and the site cannot carry the claim. The setter did their job. The brand did not do its half.",
       ]},
       { h2: "Write the definition into the agreement", body: [
-        "A qualified meeting is a held conversation with a person who matches criteria agreed before the program starts: role, company type, and a stated need, confirmed in advance, delivered with a brief on who they are and why they said yes. That sentence goes in the agreement next to the monthly number. Meetings that no show or fail criteria do not count. Any vendor who will not sign that sentence is selling you booked, not held.",
+        "A qualified meeting is a held conversation with a person who matches criteria agreed before the program starts: role, company type, and a stated need, confirmed in advance, delivered with a brief on who they are and why they said yes. That sentence goes in the agreement. Meetings that no show or fail criteria do not count. We do not promise a monthly total. Any vendor who will not write the definition down is selling you booked, not held.",
       ]},
       { h2: "What cuts no shows in half", body: [
         "A confirmation sequence: a calendar invite inside the hour, a reminder with the one page that answers their question the day before, and a text or call the morning of. A site the prospect can verify: pricing or a range, a result with a method, the people they will meet. And a brief for you, so the meeting starts where the call left off instead of restarting from hello. In our programs, held rate on confirmed meetings runs above 80 percent when the site does its half.",
@@ -674,7 +673,7 @@ export const problems: Problem[] = [
     ],
     faqs: [
       { q: "Do the brands need separate websites?", a: "Separate sites when the buyers are different enough that one would confuse the other, which is usually the case for research versus clinical. Separate sections of one site when the buyer overlaps." },
-      { q: "Can one dedicated person calling and emailing your prospects cover both?", a: "It can split time, but a seat sized for one brand's meeting number cannot hit two. Two brands on Amplification means two seats." },
+      { q: "Can one dedicated person calling and emailing your prospects cover both?", a: "It can split time, but one person sized for one brand cannot cover two. Two brands on Amplification means two seats." },
       { q: "How does reporting work?", a: "One report per brand, one call covering both, one number per brand in writing. You should never have to guess which brand produced what." },
     ],
     related: [{ label: "Multi brand discount", href: "/answers/do-you-offer-a-discount-for-multiple-brands" }, pricing, { label: "Results", href: "/results" }],
@@ -690,15 +689,15 @@ export const problems: Problem[] = [
     lead: "A great quarter, everyone too busy delivering to sell, then the cliff, then the scramble, then a great quarter born of panic. Founders blame the market, the team, or the season. It is none of those. Sales effort runs inversely to revenue, which guarantees a trough 90 days after every peak, and the only fix is a demand system that runs whether or not you are busy.",
     callout: {
       label: "Where this lives",
-      body: "Every tier runs continuously, especially when you are busy. Ground State at $3,000 keeps the drumbeat going. Amplification at $10,000 keeps a dedicated person calling and emailing your prospects booking meetings through your busiest month, with the number in writing. Pricing is published.",
+      body: "Every tier runs continuously, especially when you are busy. Ground State at $3,000 keeps the drumbeat going. Amplification at $10,000 keeps a dedicated person calling and emailing your prospects through your busiest month. We agree what counts as a qualified meeting and report what it cost. We do not promise how many. Pricing is published.",
     },
     searchPhrases: ["feast or famine business cycle", "inconsistent sales pipeline", "revenue up and down every quarter", "how to get consistent leads", "boom and bust revenue small business"],
     sections: [
       { h2: "The five causes, briefly", body: [
-        "Selling only happens when delivery is slow. One channel, and it is referrals. Leads die in the seam between marketing and sales, where more than 70 percent are never contacted. The pipeline math has never been written down: meetings needed, cost per meeting by channel, close rate by source. And four vendors with zero owners, each celebrating a metric that is not meetings. We wrote the full diagnosis as a field note, linked below. This page is the fix.",
+        "Selling only happens when delivery is slow. One channel, and it is referrals. Leads die in the handoff between marketing and sales. The pipeline math has never been written down: meetings needed, cost per meeting by channel, close rate by source. And four vendors with zero owners, each celebrating a metric that is not meetings. We wrote the full diagnosis as a field note, linked below. This page is the fix.",
       ]},
       { h2: "The fix, in order", body: [
-        "Write the math down first: how many qualified meetings a month hit the number, and what each costs by channel. That is the first hour of every engagement we run. Own the seam second: a response standard and a follow up sequence, which costs discipline. Add the channel you control third: content if you publish nothing, search if you have a site and no paid demand, outbound if you need meetings this quarter. Then run all of it continuously, because busy is when the next trough is being built.",
+        "Write the math down first: how many qualified meetings a month the business needs, and what each can cost by channel. That is the first hour of every engagement we run. We agree what counts and report the cost. We do not promise how many. Then set a response standard and a follow up sequence, which costs discipline. Add the channel you control third: content if you publish nothing, search if you have a site and no paid demand, outbound if you need conversations this quarter. Then run all of it continuously, because busy is when the next trough is being built.",
       ]},
       { h2: "What continuous looks like at each tier", body: [
         "Ground State, $3,000: a newsletter, a post, and social every month, so demand exists before you need it. Excitation, $5,000: one Google Ads campaign and a landing page with leads worked within a business day, so the phone rings in July. Amplification, $10,000: a dedicated person calling and emailing your prospects working the list through your busiest quarter with meetings verified against the meeting quality standard, so the calendar for next quarter fills while this one delivers. The tier ladder exists because the fix is structural, not a campaign.",
@@ -707,7 +706,7 @@ export const problems: Problem[] = [
     faqs: [
       { q: "We cannot take more work during a busy quarter. Why market then?", a: "Because the meetings booked in a busy quarter close in the slow one. Outbound has a 60 to 90 day lag. Stop it in March and the trough arrives in June." },
       { q: "Our revenue tracks the academic grant calendar. Same fix?", a: "Same fix, with timing. Outreach lands in the months after study section notices, when the money is real. A seat working that calendar smooths the summer." },
-      { q: "How long until the cycle breaks?", a: "Two quarters of continuous operation, in our experience. The first fills the seam; the second is when the outbound lag catches up and the trough does not arrive." },
+      { q: "How long until the cycle breaks?", a: "Two quarters of continuous operation, in our experience. The first quarter puts a response standard on the handoff. The second is when the outbound lag catches up and the trough does not arrive." },
     ],
     related: [{ label: "Field notes", href: "/field-notes" }, howItWorks, pricing],
   },
@@ -964,7 +963,7 @@ export const problems: Problem[] = [
         "Physicians Practice lists the causes: leadership changes at the referring practice, front office turnover, hospital systems employing physicians with top down referral loyalty, and referrers who switch without a conversation. None of those are about your outcomes. A practice with 40 percent of new patients from two referrers is one retirement away from a bad year, and the year arrives with no notice.",
       ]},
       { h2: "Run referring physicians as an outbound market", body: [
-        "Build the list: every practice within your referral radius whose patients you want, by specialty, with the referral coordinator's name. Write the sequence: the condition, the outcome data, the turnaround from referral to first visit, and a scheduled call. Work it with one seat across email, phone, and a visit where it earns one. Confirm every meeting. Report on new referring practices activated per month, which is the meeting number for a practice.",
+        "Build the list: every practice within your referral radius whose patients you want, by specialty, with the referral coordinator's name. Write the sequence: the condition, the outcome data, the turnaround from referral to first visit, and a scheduled call. Work it with one seat across email, phone, and a visit where it earns one. Confirm every meeting. Report on new referring practices activated per month.",
         "The site has to carry its half first. When the coordinator looks you up, they need clinician forward pages, outcome data, and a referral path that takes one click. A brochure site turns a warm call into silence.",
       ]},
       { h2: "Add the channel that does not depend on anyone", body: [
@@ -1045,12 +1044,12 @@ export const problems: Problem[] = [
   {
     slug: "worried-our-forms-and-pixels-violate-hipaa",
     audience: "healthcare",
-    dateModified: "2026-09-04",
+    dateModified: "2026-10-07",
     title: "Worried Your Web Forms and Pixels Violate HIPAA? Check",
     metaDescription: "A form builder on a treatment page, a Meta pixel on the thank you page, call recording with no consent. What is PHI on a marketing site, and the covered stack.",
     eyebrow: "Problem · Healthcare",
     h1: "We think our website forms and tracking might be violating HIPAA.",
-    lead: "You are probably right. A name plus a condition or a treatment request is protected health information, and once a covered entity collects it, every system that touches it needs a business associate agreement: the form tool, the email that delivers it, the CRM, and the call recording vendor. Most consumer form builders and every ad pixel will not sign one. The settlements over exactly this ran $6.6 million to $18.4 million.",
+    lead: "A name plus a condition or a treatment request is protected health information once a covered entity collects it. Every system that touches it needs a business associate agreement: the form tool, the email that delivers it, the CRM, and the call recording vendor. Most consumer form builders will not sign one. The major ad pixels will not sign one for a booking page.",
     callout: {
       label: "Where this lives",
       body: "The HIPAA form and call stack add on at $750 a month on any tier: BAA covered forms, call tracking with spoken consent, consent language, server side conversion tracking, and no third party pixels on any page where a patient can book. Pricing is published.",
@@ -1061,7 +1060,7 @@ export const problems: Problem[] = [
         "A name plus a condition. A phone number plus the treatment page it was submitted from. An email address on a request for a knee replacement consult. Each is PHI the moment it is submitted. A Calendly or Typeform embedded on a treatment page with no BAA, a Meta pixel firing on the thank you page after a consult request, call recording with no spoken consent, and a CRM full of conditions because it was just marketing: each is fixable in a week, and each is a settlement waiting for a plaintiff's firm.",
       ]},
       { h2: "What the 2024 ruling changed and what it did not", body: [
-        "On June 20, 2024, in American Hospital Association v. Becerra, a federal court vacated the part of HHS guidance that treated a pixel connecting an IP address to a public condition page as PHI, and HHS dropped its appeal in August 2024. The rest stands: tracking on authenticated pages, portals, and scheduling flows is still PHI, and sharing it with a vendor that has no BAA is still a violation. The ruling made pixels arguable on a blog post. It did not make them safe on a booking page.",
+        "On June 20, 2024, in American Hospital Association v. Becerra, a federal court vacated HHS bulletins that restricted providers from using third party web tools that capture IP addresses on public webpages, and HHS dropped its appeal in August 2024. A booking page, a portal login, and a form that collects a name plus a reason for a visit are a different set of facts. Sharing that information with a vendor that has no business associate agreement is still the problem to fix.",
       ]},
       { h2: "The covered stack", body: [
         "Forms that post to a BAA covered backend, not to a form builder's servers. Notification email through a provider under BAA, with the contents in the secured system and only a link in the email. Call tracking and recording from a vendor that signs a BAA, with consent spoken before recording. Consent text on every form. No third party pixels on any page where a patient can book, request, or log in. Conversion tracking server side, so the ad platform learns a conversion happened and nothing about who. You still get cost per booked consultation by campaign.",
@@ -1082,7 +1081,7 @@ export const problems: Problem[] = [
     metaDescription: "The ads produce form fills and calls. The schedule does not move. Where patient inquiries die between the website and the front desk, and the fix.",
     eyebrow: "Problem · Healthcare",
     h1: "We get web inquiries and calls, and they are not becoming appointments.",
-    lead: "The campaign report says 60 inquiries. The schedule shows nine new patients. The other 51 called during lunch, filled out a form that went to a shared inbox, or left a voicemail that was returned two days later after they had booked elsewhere. For a practice, the seam between marketing and the front desk is where most of the ad budget dies.",
+    lead: "The campaign report says 60 inquiries. The schedule shows nine new patients. The other 51 called during lunch, filled out a form that went to a shared inbox, or left a voicemail that was returned two days later after they had booked elsewhere. For a practice, the handoff between marketing and the front desk is where most of the ad budget dies.",
     callout: {
       label: "Where this lives",
       body: "Excitation at $5,000 a month includes automated lead follow up within 30 seconds and a written sequence for web inquiries. The HIPAA form and call stack at $750 adds call tracking with consent so missed calls are visible. The lead handoff runbook is taught in the Protocol. Pricing is published.",
@@ -1244,7 +1243,7 @@ export const problems: Problem[] = [
     metaDescription: "Every credible agency quotes $8,500 and up. What a seed stage company can buy for $3,000 and $5,000 a month that still compounds, and why the floor moved.",
     eyebrow: "Problem · Startups",
     h1: "Every agency we talk to starts at $10,000 a month and we do not have it.",
-    lead: "The full service floor in this category was $8,500 a month for years, ours included. A seed stage company cannot put that in the model, so it hires a freelancer for the blog, another for the ads, and a founder's cousin for social, and owns every seam between them. The floor moved. Here is what $3,000 and $5,000 buy when the same team that runs the $25,000 engagement runs them.",
+    lead: "The full service floor in this category was $8,500 a month for years, ours included. A seed stage company cannot put that in the model, so it hires a freelancer for the blog, another for the ads, and a founder's cousin for social, and owns every handoff between them. The floor moved. Here is what $3,000 and $5,000 buy when the same team that runs the $25,000 engagement runs them.",
     callout: {
       label: "Where this lives",
       body: "Ground State at $3,000 a month: a newsletter, a post written to be found and cited, eight social posts, and a one page report. Excitation at $5,000 plus ad spend: content doubled, one Google Ads campaign, a landing page, lead follow up within a business day, a monthly call. Same team as Amplification. Pricing is published.",
@@ -1258,7 +1257,7 @@ export const problems: Problem[] = [
         "One page a month that answers a question your buyers type, with the answer in the first 40 words, one number a reader can quote, and schema so search and AI engines can name the entity. A newsletter that repeats the answer to your own list. Eight social posts from the founder's account, which reaches several times what a company page does in B2B. Twelve months later you own twelve searches and a list that opens your email. That is the demand environment the eventual hire, or the eventual Amplification upgrade, lands in.",
       ]},
       { h2: "When $5,000 is the right number", body: [
-        "When there is budget for paid demand and a closer to take the calls it produces. Excitation adds one Google Ads campaign against commercial intent terms, a landing page built for the query, and automated follow up on every lead within 30 seconds. $3,000 a month in spend is the floor for stable reading. A seed company at $5,000 plus $3,000 in spend has content, paid demand, and follow up for less than half a junior marketing hire, with a 90 day number in writing.",
+        "When there is budget for paid demand and a closer to take the calls it produces. Excitation adds one Google Ads campaign against commercial intent terms, a landing page built for the query, and automated follow up on every lead within 30 seconds. $3,000 a month in spend is the floor for stable reading. A seed company at $5,000 plus $3,000 in spend has content, paid demand, and follow up for less than half a junior marketing hire, with the 90 day deliverables written down.",
       ]},
     ],
     faqs: [
@@ -1284,13 +1283,13 @@ export const problems: Problem[] = [
     searchPhrases: ["how to report pipeline to board early stage", "pipeline metrics for seed stage startup", "board update sales pipeline no sales team", "pipeline coverage startup without sales", "what pipeline metrics do investors want"],
     sections: [
       { h2: "What a board actually wants to see", body: [
-        "A committed number, the actual against it, and the cost per unit. Not a list of logos. The number can be qualified meetings held, booked demos, or cost per booked consultation depending on the business, but it has to be stated before the month starts. A founder who writes down twelve meetings and delivers nine has a pipeline conversation. A founder with a list of 30 companies has a hope conversation.",
+        "A committed set of deliverables, the actual against them, and the cost per unit. Not a list of logos. The unit can be qualified meetings held, booked demos, or cost per booked consultation depending on the business, but the definition has to be stated before the month starts. A founder who can show what was finished, what it cost, and which conversations were held has a pipeline conversation. A founder with a list of 30 companies has a hope conversation.",
       ]},
       { h2: "How to get a committed number without a sales team", body: [
-        "Rent the function that produces it. The 90 day ramp on any tier states deliverables in writing: pages live by week six, campaigns at a stated cost per lead by week eight, and on Amplification a monthly qualified meeting number set against your market size, offer, and deal value. Report each month with three lines: committed, actual, cost per meeting. By month four there is a trend, and by month six a coverage ratio, which is the slide the board wanted.",
+        "Rent the function that produces it. The 90 day ramp on any tier states deliverables in writing: pages live by week six, campaigns at a stated cost per lead by week eight, and on Amplification a report of cost per qualified meeting. We do not promise how many. Report each month with three lines: what was promised as a deliverable, what happened, and cost per meeting where meetings were held. By month four there is a trend, and by month six a coverage picture, which is the slide the board wanted.",
       ]},
       { h2: "What goes in the update", body: [
-        "Meetings committed and held, with the definition of qualified stated once. Cost per meeting including fees and spend. Pipeline created from those meetings, in dollars, with stage. Source mix: inbound content, paid, outbound. One sentence on what changed and what will change next month. Every case study we publish uses one window, months five through eight against a six month baseline, and we publish the method because a board will ask how the number was computed.",
+        "Meetings held, with the definition of qualified stated once. Cost per meeting including fees and spend, where meetings were held. Pipeline created from those meetings, in dollars, with stage. Source mix: inbound content, paid, outbound. One sentence on what changed and what will change next month. Do not treat one client's measurement window as the window for every case study.",
       ]},
     ],
     faqs: [

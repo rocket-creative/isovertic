@@ -4,7 +4,7 @@ export const protocol = {
   eyebrow: "Step 06 · Protocol · For teams that run it themselves",
   h1: "Protocol. Train your team to run the system.",
   lead: [
-    "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. Protocol is the training offer. We spend one or two days at your office, write eight runbooks, and hold a follow-up call at 30 days. The point is a documented way for the people you already pay to work together on the commercial number.",
+    "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. Protocol is the training offer. We spend one or two days at your office, write the operating instructions for the steps your team will run, and hold a follow-up call at 30 days. The point is a documented way for the people you already pay to work together on the commercial number.",
     "This page is for CEOs, presidents, chief operating officers, VPs of commercial, VPs of marketing, chief medical officers, medical directors, practice administrators, and directors of billing who have capable people in the building already. Your marketing lead should not have to recreate the advertising routine from memory each quarter, and your sales team should not have to guess whether the website supports the claim in the email.",
   ],
   keep: {
@@ -15,7 +15,7 @@ export const protocol = {
   },
   teachers: {
     h2: "Who teaches which part",
-    body: "The people who run the work write the instructions and teach the appropriate section. Google Ads specialists write the Google Ads runbook. Our compliance officer writes the HIPAA and MLR procedures, grounded in the HHS OCR guidance on [online tracking technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html) and the June 2024 ruling in [AHA v. Becerra](https://www.aha.org/legal-documents/2024-06-20-aha-v-becerra-court-ruling-online-tracking-technologies). Our molecular biologist writes the life science material for biotech and diagnostics clients whose buyers include chief scientific officers, principal investigators, and VPs of regulatory.",
+    body: "The people who do the work write the instructions and teach the appropriate section, including outside specialists when the subject needs them. Compliance procedures follow the HHS OCR guidance on [online tracking technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html) and the June 2024 ruling in [AHA v. Becerra](https://www.aha.org/news/news/2024-06-20-judge-rules-favor-aha-vacating-hhs-online-tracking-bulletin-unlawful-and-beyond-agency-authority).",
   },
   steps: {
     h2: "What your team learns",
@@ -52,7 +52,7 @@ export const protocol = {
         "Two days onsite plus one preparation day at your office",
         "Audit of your current process, tools, and CRM before we arrive",
         "All five steps, plus a developer track",
-        "All eight runbooks",
+        "Written instructions for the steps your team will run",
         "Follow-up call at 30 days",
         "Travel included in the US",
       ],
@@ -95,7 +95,7 @@ export const protocol = {
   faqs: [
     { q: "Can we buy Protocol and a monthly package?", a: "Yes. Companies on any monthly package can add the one day Protocol for $3,500, since our team already knows your stack. Most use it to train the sales side while we run marketing." },
     { q: "Do we need a medical reviewer?", a: "Only if your content makes clinical, safety, or efficacy claims. If it does, we write the review step around a reviewer you name with the appropriate credential. Protocol does not supply one. That responsibility should sit with the organization making the claim." },
-    { q: "Can this run remotely?", a: "The one-day format can run as two remote half days. The full-team format is on site because the work includes examining the CRM and the handoffs between real people. Video can explain a process. It cannot show every operational seam." },
-    { q: "Who teaches it?", a: "The people who run the work write the runbooks and teach the day. Google Ads specialists teach Google Ads. The compliance officer teaches HIPAA and MLR procedures. The molecular biologist writes the life science material." },
+    { q: "Can this run remotely?", a: "The one-day format can run as two remote half days. The full-team format is on site because the work includes examining the CRM and the handoffs between real people. Video can explain a process. It cannot show every handoff." },
+    { q: "Who teaches it?", a: "The people who do the work write the instructions and teach the day, including outside specialists when the subject needs them." },
   ],
 };

@@ -1,6 +1,6 @@
 // Pricing source of truth. Every price on the site, in llms.txt, in schema, and in Stripe checkout reads from here.
-// Every tier is a 12 month term. There is no month to month option: a year is the shortest window in which the
-// lagging indicators (pipeline, revenue) can move on a long cycle account, so we do not sell anything shorter.
+// Every tier is a 12 month term. There is no month to month option. Sales cycles in this work are often
+// long, so pipeline and revenue measured before a year are not a fair read. We do not sell anything shorter.
 // Ground State and Excitation: the term is billed monthly, quarterly at 4 percent off, or up front at eleven months for twelve.
 // Amplification and Quantum Leap: the term is paid quarterly, four payments of three months at the term rate. No monthly billing, no up front.
 // The $15,000 website rebuild and hosting are included in every term.
@@ -133,7 +133,7 @@ export const billing = {
   upfrontNote: "Amplification and Quantum Leap are paid quarterly.",
   eyebrow: "The term",
   h2: "Every package is a year. The website comes with it.",
-  intro: "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. Every engagement is 12 months because a year is the shortest honest window for a long-cycle account. Google Search Central explains that search changes need time to be processed and reflected. We report leading indicators every 30 days, then review pipeline and revenue at months six and 12 against the sales cycle in the agreement. Ground State and Excitation bill the term monthly, quarterly at 4 percent off, or up front at eleven months for twelve. Amplification and Quantum Leap are paid quarterly. The website rebuild and hosting come with every term.",
+  intro: "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. Every engagement is 12 months. Sales cycles in this work are often long, so pipeline and revenue measured before a year are not a fair read of the work. Google Search Central explains that search changes need time to be processed and reflected. We report leading indicators every 30 days, then review pipeline and revenue at months six and 12 against the sales cycle in the agreement. Ground State and Excitation bill the term monthly, quarterly at 4 percent off, or up front at eleven months for twelve. Amplification and Quantum Leap are paid quarterly. The website rebuild and hosting come with every term.",
   columns: ["What", "How it works"],
   rows: [
     ["Term", "12 months on every package. Nothing shorter is sold, including a paid search sprint."],
@@ -144,7 +144,7 @@ export const billing = {
     ["When revenue is judged", "At months six and twelve, tied to your sales cycle in the agreement. The two clock standard is published."],
     ["Early exit", "The unbilled balance of the $15,000 build is due on the final invoice, prorated to the months served. Nothing else. Code, content, and domain stay yours."],
   ],
-  note: "The build is a full move onto our stack. You own the code and the domain. If a term ends early, the unbilled balance of the $15,000 build is due on the final invoice, prorated to the months served. That is the only clause in the agreement that reads like a lock in, and it exists so the included build stays included.",
+  note: "The build is a full move onto our stack. You own the code and the domain. If a term ends early, the unbilled balance of the $15,000 build is due on the final invoice, prorated to the months served.",
   savingsH2: "The year, package by package",
   savingsCols: ["Package", "Per month", "12 months", "Website included", "Total value", "Billing", "Year up front"],
 };
@@ -241,8 +241,8 @@ export const tierNotes: { slug: Tier["slug"]; h2: string; body: string[] }[] = [
     slug: "excitation",
     h2: "Excitation, $5,000 per month plus advertising spend",
     body: [
-      "Excitation is the pipeline starter. It is for a company with a real offer, a working website conversion path, and the appetite to spend $1,000 to $5,000 a month on Google Ads.",
-      "You get everything in Ground State, plus one Google Ads campaign, built and managed; one landing page for that campaign, refreshed as needed; automated lead follow-up within 30 seconds; 16 social posts a month; and one 60-minute strategy call each month with the account lead.",
+      "Excitation is the pipeline starter. It is for a company with settled pricing, someone on staff who answers inbound inquiries, and $1,000 to $5,000 a month available for Google Ads.",
+      "You get everything in Ground State, plus one Google Ads campaign, built and managed; one landing page for that campaign, refreshed as needed; automated lead follow-up within 30 seconds; a total of 16 social posts a month; and one 60-minute strategy call each month with the account lead.",
       "The $5,000 monthly fee does not include advertising spend. We report cost per booked meeting, not merely traffic or clicks. Below about $1,000 a month in Google Ads spend, the platform does not have enough activity to produce reliable results. If that is your budget, Ground State is the more sensible place to start.",
     ],
   },
@@ -251,7 +251,7 @@ export const tierNotes: { slug: Tier["slug"]; h2: string; body: string[] }[] = [
     h2: "Amplification, $10,000 per month plus advertising spend",
     body: [
       "Amplification is the full pipeline program. It is for a company with a defined ideal client, at least $5,000 a month for advertising, and a designated person on the client side, often a VP of commercial or a practice administrator, who owns the calendar.",
-      "You get everything in Excitation, plus the full monthly content system at higher volume, a YouTube channel, one dedicated person calling and emailing your prospects, who books qualified meetings with a written brief, and weekly account review. We define what counts as a meeting, we verify each one, and we report cost per qualified meeting. The compliance stack for regulated buyers is priced separately as an add-on when needed.",
+      "You get everything in Excitation, plus the full monthly content system at higher volume, a YouTube channel, one dedicated person calling and emailing your prospects, and weekly account review. We agree what counts as a qualified meeting, we check that it was held, and we report what it cost. We do not promise how many. The compliance stack for regulated buyers is priced separately as an add on when needed.",
       "Amplification is billed quarterly. This package is for a team prepared to answer the meetings it receives. If the calendar owner is unclear, resolve that before adding outbound. A meeting without a capable follow-up is an expensive way to collect polite no-thank-yous.",
     ],
   },
@@ -268,7 +268,7 @@ export const tierNotes: { slug: Tier["slug"]; h2: string; body: string[] }[] = [
 
 export const pricingContext = {
   commitmentH2: "What every term includes",
-  commitment: "The website rebuild begins within the first 30 days. Hosting and bandwidth are included for the term. The first 90 days are the ramp. Deliverables are written into the agreement, and the day-90 review examines leading indicators. Amplification and Quantum Leap define, verify, and report cost per qualified meeting from the ramp onward. Every engagement is 12 months because a year is the shortest honest window for a long-cycle account. We report leading indicators every 30 days, then review pipeline and revenue at months six and 12 against the sales cycle in the agreement. The early-exit clause is direct. The unbilled balance of the included $15,000 build is due on the final invoice, prorated to months served. Nothing else. Code, content, and domain stay yours.",
+  commitment: "The website rebuild begins within the first 30 days. Hosting and bandwidth are included for the term. The first 90 days are the ramp. Deliverables are written into the agreement, and the day-90 review examines leading indicators. Amplification and Quantum Leap agree what counts as a qualified meeting, check that it was held, and report what it cost. They do not promise how many. Every engagement is 12 months. Sales cycles in this work are often long, so pipeline and revenue measured before a year are not a fair read of the work. We report leading indicators every 30 days, then review pipeline and revenue at months six and 12 against the sales cycle in the agreement. If a term ends early, the unbilled balance of the included $15,000 build is due on the final invoice, prorated to months served. Nothing else. Code, content, and domain stay yours.",
   choiceH2: "The choice is explicit",
   choice: [
     "Start Ground State if you need the publishing cadence. Start Excitation if you have a conversion path and want to test paid search. Start Amplification if you need the full pipeline program. Start Quantum Leap if multiple brands and media buying are already operational requirements.",
@@ -281,7 +281,7 @@ export const pricingContext = {
 
 export const pricingFaqs = [
   { q: "Why publish pricing when nobody else does?", a: "Because our buyer is a founder who hates wasted discovery calls as much as we do, and because the page you are reading ranks for the question everyone types and nobody answers." },
-  { q: "Why is the minimum a year?", a: "Because a year is the shortest window in which pipeline and revenue can move on a long cycle account. Fewer than two percent of new pages reach the top 10 of Google inside a year, brand effects build over quarters, and a healthcare sale alone runs about four months. A shorter term would have you judging revenue before a deal could close, and 43 percent of B2B agency churn happens in the first 90 days for exactly that reason. The full standard, with sources, is published." },
+  { q: "Why is the minimum a year?", a: "Because sales cycles in this work are often long. Pipeline and revenue measured before a year are not a fair read of the work. We still report leading indicators every 30 days, and we review pipeline and revenue at months six and 12. The full standard, with sources, is published." },
   { q: "How do I start without a call?", a: "Every tier checks out on the start page: pick the tier and how you want to bill the year, pay by card or ACH bank debit on Stripe, and land on a ten minute intake form. The first content calendar arrives inside five business days. A 15 minute call is optional, and Amplification and above get a weekly call anyway." },
   { q: "How is the term billed?", a: "Amplification and Quantum Leap are paid quarterly: four payments of three months at the term rate, $30,000 a quarter for Amplification, with the website and hosting included. Ground State and Excitation can bill the term monthly, quarterly at 4 percent off, or up front at eleven months for twelve." },
   { q: "Can we pay by bank instead of card?", a: "Yes. Every checkout offers ACH Direct Debit next to card, Apple Pay, and Google Pay. Above $10,000 we recommend the bank: 0.8 percent capped at $5 per payment, no issuer limit. Bank debits clear in up to four business days and the engagement starts when the first one settles." },
