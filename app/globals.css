@@ -227,7 +227,7 @@ textarea.field { min-height: 96px; resize: vertical; }
   .animate-word-in { animation: word-in 700ms var(--ease-editorial) both; }
   @keyframes emphasis-grow {
     from { font-weight: 500; font-stretch: 100%; font-size: 1em; }
-    to { font-weight: 760; font-stretch: 125%; font-size: 1.5em; color: var(--color-signal); }
+    to { font-weight: 760; font-stretch: 125%; font-size: 1.5em; color: var(--color-ink-soft); }
   }
   .animate-word-in.hero-emphasis {
     animation: word-in 700ms var(--ease-editorial) both, emphasis-grow 900ms var(--ease-out-soft) both;
@@ -252,7 +252,24 @@ textarea.field { min-height: 96px; resize: vertical; }
     @keyframes hero-drift { from { transform: translateY(0); } to { transform: translateY(90px); } }
   }
 }
-.hero-emphasis { font-weight: 760; font-stretch: 125%; font-size: 1.5em; color: var(--color-signal); }
+.hero-emphasis { font-weight: 760; font-stretch: 125%; font-size: 1.5em; color: var(--color-ink-soft); }
+.hero-ch { font-weight: inherit; }
+.hero-glow-spot {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+}
+.hero-glow-spot .hero-ch {
+  background-image: radial-gradient(circle 34px at var(--lx, -80px) var(--ly, -80px), #f4fbff 0%, #8fd4ff 38%, rgba(10, 177, 255, 0) 72%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hero-ch { transition: font-weight 80ms linear; }
+}
 .hero-highlight { color: var(--color-signal); }
 .title-emphasis { color: var(--color-signal); font-weight: 760; font-stretch: 125%; font-size: 1.5em; }
 .title-highlight { color: var(--color-signal); }

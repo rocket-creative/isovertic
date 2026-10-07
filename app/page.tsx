@@ -49,12 +49,8 @@ export default function Home() {
           <h1 className="hero-title relative z-10">
             <SplitHeadline text={home.h1} emphasis="Growth Agency" highlight="Healthcare Pharma Biotech Medical Devices Life Sciences" />
           </h1>
-          <div className="relative z-10 mt-5 max-w-[46rem]">
-            <div className="hero-sub space-y-3 text-[16px] leading-[1.55] text-ink-soft sm:text-[17px] sm:leading-relaxed">
-              {home.sub.map((paragraph) => (
-                <p key={paragraph}>{paragraph}</p>
-              ))}
-            </div>
+          <div className="relative z-10 mt-6 max-w-[46rem]">
+            <p className="hero-sub text-[16px] leading-[1.6] text-ink-soft sm:text-[17px]">{home.sub.join(" ")}</p>
             <div className="pointer-events-auto">
               <TrustStrip />
               <div className="hero-cta mt-8 flex flex-wrap items-center gap-5 sm:gap-8">

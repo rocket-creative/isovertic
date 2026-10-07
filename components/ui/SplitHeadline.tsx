@@ -1,3 +1,5 @@
+import { EmphasisGlow } from "@/components/ui/EmphasisGlow";
+
 export function SplitHeadline({ text, emphasis = "", highlight = "", className = "", delay = 80 }: { text: string; emphasis?: string; highlight?: string; className?: string; delay?: number }) {
   const marks = new Set(emphasis.toLowerCase().split(" ").filter(Boolean));
   const lights = new Set(highlight.toLowerCase().split(" ").filter(Boolean));
@@ -10,12 +12,16 @@ export function SplitHeadline({ text, emphasis = "", highlight = "", className =
         const enter = delay + i * 70;
         return (
           <span key={i} className="inline-block overflow-hidden align-bottom" aria-hidden="true">
-            <span
-              className={`inline-block animate-word-in${marked ? " hero-emphasis" : lit ? " hero-highlight" : ""}`}
-              style={{ animationDelay: marked ? `${enter}ms, ${enter + 640}ms` : `${enter}ms` }}
-            >
-              {word}&nbsp;
-            </span>
+            {marked ? (
+              <EmphasisGlow word={word} delay={enter} />
+            ) : (
+              <span
+                className={`inline-block animate-word-in${lit ? " hero-highlight" : ""}`}
+                style={{ animationDelay: `${enter}ms` }}
+              >
+                {word}&nbsp;
+              </span>
+            )}
           </span>
         );
       })}
