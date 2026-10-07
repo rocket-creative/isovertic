@@ -19,7 +19,7 @@ import { TrustStrip } from "@/components/sections/TrustStrip";
 import { BuyerRoleTabs } from "@/components/sections/BuyerRoleTabs";
 import { TrackedLink } from "@/components/ui/TrackedLink";
 import { ClientQuote, LinkedCopy } from "@/components/ui/ClientQuote";
-import { VoxelSphere } from "@/components/ui/VoxelSphere";
+import IsoSphere from "@/components/ui/IsoSphere";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -46,10 +46,10 @@ export default function Home() {
 
       <section className="relative overflow-hidden border-b border-rule bg-bright">
         <div className="hero-top relative z-10 mx-auto flex max-w-[1440px] flex-col gutter pb-8 lg:block lg:pb-10">
-          <h1 className="hero-title">
+          <h1 className="hero-title relative z-10">
             <SplitHeadline text={home.h1} emphasis="Growth Agency" highlight="Healthcare Pharma Biotech Medical Devices Life Sciences" />
           </h1>
-          <div className="mt-5 max-w-[46rem]">
+          <div className="relative z-10 mt-5 max-w-[46rem]">
             <div className="hero-sub space-y-3 text-[16px] leading-[1.55] text-ink-soft sm:text-[17px] sm:leading-relaxed">
               {home.sub.map((paragraph) => (
                 <p key={paragraph}>{paragraph}</p>
@@ -65,7 +65,7 @@ export default function Home() {
             </div>
           </div>
           <div className="pointer-events-auto relative z-0 mx-auto mt-10 aspect-square w-[min(78vw,420px)] lg:absolute lg:top-[calc(50%+(var(--header-h)+1rem)/2)] lg:left-[58%] lg:mt-0 lg:w-[min(62vh,600px)] lg:-translate-y-1/2" aria-hidden="true">
-            <VoxelSphere className="h-full w-full" />
+            <IsoSphere />
           </div>
         </div>
       </section>
