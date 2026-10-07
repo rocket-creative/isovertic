@@ -1,123 +1,186 @@
 ---
 slug: two-clock-rule
-title: Why Quarterly Reviews Break Long-Cycle Pipelines: The Two-Clock Rule
-description: Why judging a 12 to 24 month sales cycle on 90-day revenue is judging work that has not had time to convert.
+title: "Why Quarterly Reviews Break Long-Cycle Pipelines: The Two-Clock Rule"
+description: Why 90 days is enough time to inspect the work, and often not enough time to expect closed revenue from a long sale.
 primaryKeyword: two-clock rule marketing
 datePublished: 2026-09-07
-dateModified: 2026-09-07
+dateModified: 2026-10-07
 author: george-stoff
 category: the-argument
-readingMinutes: 8
+readingMinutes: 11
 ---
 
 # Why Quarterly Reviews Break Long-Cycle Pipelines: The Two-Clock Rule
 
 ## What you'll take away
 
-- Why judging a 12 to 24 month sales cycle on 90-day revenue is judging work that has not had time to convert
-- The four independent clocks running on your marketing spend, and why any one of them will make you fire the wrong thing
-- What the 2026 data actually says about SEO rankings, cost of acquiring a customer paid back, and B2B sales cycle length
-- The two-clock scorecard: leading indicators every 30 days, lagging indicators at 6 and 12 months, tied to your cycle
-- The board-slide language that ends the 90-day-review argument for good
+- Why 90 days is enough time to inspect the work, and often not enough time to expect closed revenue
+- The separate clocks behind search, the sales cycle, and customer acquisition payback
+- What to review each month, at six months, and when a cohort has had time to close
+- A board ready way to explain the difference without asking anyone to wait and see
 
 ---
 
-Your board asked what happened to Q3 pipeline. Marketing had spent $180,000 in Q3 and there was one deal in stage 3, no new closed revenue, and a lot of graphs from vendors. You defended the spend. You did not defend it well, because you already suspected the answer they wanted was not the answer that was true.
+Your board asks what happened to third quarter pipeline.
 
-Here is the answer that is true. You are judging a system with a 12 to 24 month clock on a 90-day timer. If it were an in-house hire you would not do that. Somewhere along the way it became normal to do it to the marketing budget.
+Marketing spent $180,000. There is one deal in stage 3. No new closed revenue. The agency brought graphs, rankings, impressions, and a long explanation. You defended the spend, and you could feel the question under it: what did we get for the money?
 
-## The four clocks running on your spend
+Here is the honest answer in that room. You are judging a system whose buying cycle runs 12 to 24 months on a 90 day timer. That 12 to 24 months is the cycle you are being asked to defend. It is not a census of every healthcare sale.
 
-Marketing spend at a growth-stage healthcare or life science company runs on four independent clocks. All four need to run their course before you can honestly judge the spend. Cutting the spend early does not speed up the clocks. It just wastes the money that has already run.
+That does not mean marketing should get a blank check. It means the review needs to match the work. At 90 days, you should know whether the program is being executed well and whether the first cohort is moving. You often cannot know yet whether that cohort will produce revenue.
 
-### Clock 1: the SEO clock
+The problem is not the quarterly review. The problem is treating a quarterly review as a final revenue verdict.
 
-Only **1.74% of newly published pages rank in the top 10 of Google within a year**, down from **5.7% in 2017** ([Ahrefs May 2025 ranking study](https://ahrefs.com/blog/how-long-does-it-take-to-rank-in-google-and-how-old-are-top-ranking-pages/)). Google's own guidance says SEO takes **4 months to a year** to produce measurable business results ([Peich synthesis of Google's official SEO hiring video, with the direct Google source cited](https://www.peich.xyz/en/insights/how-long-seo-results); cross-referenced at [Search Engine Land's SEO timeline guide](https://searchengineland.com/guide/how-long-does-seo-take-to-work)).
+## The clocks behind marketing spend
 
-That is Google, not a vendor with a retainer to defend. If your SEO firm shows you no ranked pages after 90 days, that is normal. If they show no ranked pages after 12 months on the priority keywords, that is a firing offense.
+A growth program can be working well and still have no closed revenue after 90 days. That is especially true for healthcare, biotech, medtech, and enterprise software companies, where the purchase involves a committee, procurement, compliance review, technical validation, and budget timing.
 
-### Clock 2: the cost of acquiring a customer paid back
+Three clocks matter.
 
-The customer acquisition cost (call it CAC, the total marketing and sales cost of landing one paying customer) payback clock says how many months it takes to earn back what you spent to acquire that customer. In 2026:
+### The search clock
 
-- **Median B2B SaaS CAC payback is 16 months** ([Aleph CAC Payback Benchmarks 2026](https://www.getaleph.com/answers/cac-payback-period-saas-2026), based on 342 SaaS companies, full-year 2025 actuals)
-- **Top quartile: 6 months or fewer. Bottom quartile: 24 months or more** (same Aleph source)
-- **Median CAC payback stretched from 14 months in 2024 to 18 months in 2025** at one benchmark ([Digital Applied SaaS Unit Economics 2026](https://www.digitalapplied.com/blog/saas-unit-economics-2026-cac-ltv-payback-reference))
-- **Enterprise SaaS (over $100K contract value) runs 18 to 24 months** to payback ([Digital Astronauts 2026 SaaS CAC Benchmarks](https://digital-astronauts.com/blog/b2b-saas-cac-benchmarks/))
+Search rarely behaves like paid media. You can launch a paid campaign today and see traffic tomorrow. Organic visibility takes longer because search engines have to discover, index, interpret, test, and eventually trust new pages.
 
-If you judge marketing at 90 days on a 16-month payback median, you are judging a business model that hasn't happened yet.
+Ahrefs found that only 1.74 percent of newly published pages reached Google's top 10 within a year, down from 5.7 percent in its 2017 study ([Ahrefs, May 2025](https://ahrefs.com/blog/how-long-does-it-take-to-rank/)). Google's starter guide says some changes can take a few hours and others several months, and that you generally want to wait a few weeks before judging whether the work helped in search results ([Google SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)).
 
-### Clock 3: the sales cycle clock
+That does not mean you should see nothing in the first 90 days. You should see pages published and indexed, technical problems resolved, search impressions growing, a wider set of relevant queries in Search Console, and early movement on longer, lower competition terms.
 
-The median B2B sales cycle grew from **4.9 months in 2019 to 6.7 months in 2025**, a 37% expansion ([Emulent Sales Cycle Length Benchmarks by Industry](https://emulent.com/resources/trends/sales-cycle-length-benchmarks-by-industry-and-projections/)). Healthcare and life sciences run longer:
+What you should not expect is that every priority commercial keyword will be in the top 10, producing qualified pipeline, three months after the work begins.
 
-- **Biotech sales cycles average 12 to 18 months** due to regulatory requirements and stakeholder dynamics ([Apollo Biotech Sales Market Guide](https://www.apollo.io/insights/biotech-sales))
-- **Enterprise medical software runs 12 months or more** because of multi-stakeholder committees and compliance reviews ([Martal Medical Software Sales Cycle 2025](https://martal.ca/medical-software-sales-lb/))
+At 12 months, the standard is much higher. The program should show material progress against the agreed target queries, meaningful visibility on searches that are not your brand name, and evidence that organic traffic is contributing to qualified demand. If it does not, the strategy needs a serious reset, or the engagement should end.
 
-A lead your marketing team generated in March may not become closed revenue until the following March. A quarterly review in June is looking at a lead that is one-third of the way through its cycle. There is nothing to see yet because there cannot be anything to see yet.
+### The sales cycle clock
 
-### Clock 4: the CMO tenure parallel
+The sales cycle is the time it takes a prospect to move from a meaningful conversation to a signed deal. In a complex B2B market, that timeline is usually set by the customer, not by the marketing calendar.
 
-You would not fire an in-house head of marketing at 90 days. **Average S&P 500 CMO tenure is 4.1 years**, compared to **5.0 years for other C-suite roles** ([Spencer Stuart CMO Tenure 2026](https://www.spencerstuart.com/research-and-insight/cmo-tenure-2026-snapshot-of-an-expanding-role-for-marketing-leaders)). Fortune 500 CMO tenure is 4.3 years ([Spencer Stuart CMO Tenure Study 2025](https://www.spencerstuart.com/research-and-insight/cmo-tenure-study-2025-the-evolution-of-marketing-leadership)).
+The number varies widely by deal size, buying process, and category. Healthcare and life sciences often take longer. Apollo's biotech guide cites a typical 12 to 18 month sales cycle ([Apollo, Biotech Sales](https://www.apollo.io/insights/biotech-sales)). That page does not show the study behind the range. Treat it as a vendor guide, not your cycle. The more regulated, technical, and expensive the purchase, the longer it often takes to reach agreement.
 
-An in-house CMO gets 6 to 12 months before performance is judged. If your outside growth agency can be fired at 90 days on the same work, you are applying two different rules to the same job.
+A prospect who first engaged in March may not become a customer until the following March. A June board review should ask whether that prospect became qualified, entered the right sales process, and moved through the expected early stages.
 
-## Why 90-day agency contracts fail
+It should not ask why March marketing has not already created June revenue.
 
-Here is the market context that makes all of this worse. **43% of B2B agency churn happens in the first 90 days** ([Focus Digital Average Marketing Agency Churn 2026 Report](https://focus-digital.co/average-marketing-agency-churn/), cross-referenced at [Forge Agency Benchmarks 2026](https://forge.so/agency-benchmarks)). Retainer-based agencies churn at **18% annually with a 56-month average client lifespan**. Project-based agencies churn at **42% annually with a 24-month average client lifespan** (same Focus Digital source).
+### The payback clock
 
-The 43% first-90-day churn number is not a sign that agencies are bad. It is a sign that engagements are getting judged on the wrong clock, ended before any work could show a result, and both sides walk away certain the other was the problem.
+Payback is different from the sales cycle. The sales cycle measures how long it takes to close a customer. Payback measures how long it takes to recover the cost of acquiring that customer after the sale.
 
-The 90-day contract structure produces the 43% churn number. If you sign the 90-day contract, you have almost a coin-flip chance of being in the churned half by June. That's not a bet worth making with a 12-to-24-month sales cycle on the other side.
+Aleph's 2026 benchmark, based on full year 2025 results from 342 SaaS and AI software companies, puts median payback at 16 months. The top quartile pays back acquisition cost in six months or less. The bottom quartile takes 24 months or more ([Aleph, 2026](https://www.getaleph.com/answers/cac-payback-period-saas-2026)). This is a software sample. It is not a healthcare census.
 
-## The two-clock scorecard
+Payback is not a 90 day campaign metric. It is a measure of whether the growth model is economically sound. Assess it by customer cohort, using real acquisition cost, gross margin, retention, and expansion.
 
-The fix is not "just be patient." Patience without measurement is how you find out at month 12 that nothing was working at month 3. The fix is two clocks running side by side.
+A company can create healthy pipeline in a quarter, close a deal six or 12 months later, and still need more time to recover the cost of winning that customer. Those are three separate events. A useful board review does not collapse them into one number.
 
-### Leading indicators, reviewed every 30 days
+### The comparison with a marketing hire
 
-These tell you whether the machine is running. Not whether it has produced revenue. Whether it is producing the inputs that will produce revenue.
+Most companies do not hire a marketing leader on Monday and ask for a final revenue verdict 90 days later.
 
-- Rankings for target keywords (movement, not just position)
-- Impressions and click-through rate on organic and paid
-- Cost per click on paid, campaign by campaign
-- Cost per qualified lead by channel
-- First-touch response time (percentage of leads engaged within 1 hour, 1 day, 1 week)
-- Learning phase status on paid platforms
-- Content velocity (pieces published, pieces indexed)
-- Pipeline generated (leads to opportunity, opportunity to stage 2)
+They expect that person to learn the market, assess the pipeline, establish measurement, fix broken systems, align sales and marketing, build a plan, and begin the work. The same should be true of an outside partner doing comparable growth work, even when the engagement is structured differently.
 
-A 30-day leading indicator review has one purpose: catch a mechanical failure early. If cost per qualified lead is 5x the target for two months running, that's a mechanical failure. If first-touch response time is 96 hours, that's a mechanical failure. Fix the mechanical failure. Do not cut the spend.
+Spencer Stuart reports that average tenure among chief marketing officers at S&P 500 companies is 4.1 years, compared with 5.0 years for C suite roles overall ([Spencer Stuart, CMO Tenure 2026](https://www.spencerstuart.com/research-and-insight/cmo-tenure-2026-snapshot-of-an-expanding-role-for-marketing-leaders)). Its 2025 Fortune 500 study reported average tenure of 4.3 years ([Spencer Stuart, CMO Tenure Study 2025](https://www.spencerstuart.com/research-and-insight/cmo-tenure-study-2025-the-evolution-of-marketing-leadership)). Those figures do not mean a marketing leader gets years without accountability. They do show that companies already treat this work as something one quarter of closed revenue cannot fairly judge.
 
-### Lagging indicators, reviewed at 6 and 12 months, tied to your cycle
+The answer is not to avoid accountability. It is to define the right accountability at the right time.
 
-These tell you whether the system produced business.
+## Use two clocks, not one
 
-- Pipeline created, by source
-- Pipeline conversion rate to closed won
-- Revenue closed, attributed to the marketing period that produced the lead
-- Cost of acquiring a customer, calculated fairly (all costs, all months)
-- Cost of acquiring a customer, paid back (months to break even on the customer)
-- Retention and expansion of customers acquired in the period
+A serious growth program needs two review rhythms at the same time.
 
-The 6-month review is the first honest lagging-indicator review for most healthcare, biotech, and life science pipelines. The 12-month review is the first honest revenue review.
+The first is a monthly operating review. Its job is to find mechanical failures before they become expensive. The second is a cohort and revenue review, timed to the company's actual sales cycle.
 
-If your sales cycle is 18 months, the 18-month review is the first honest revenue review. Do the math on your actual cycle. Put the review dates in the contract.
+### Every 30 days: inspect the machine
 
-## The board-slide language
+At the monthly review, ask whether the program is producing the inputs and early evidence a later revenue outcome needs.
 
-For the next board meeting, one paragraph, in the marketing section:
+Review a short set of indicators:
 
-> Marketing runs on two clocks. Every 30 days, we review leading indicators: rankings, impressions, cost per qualified lead, first-touch response time, learning-phase status. This month those indicators are [green / yellow / red] and the specific fixes in flight are [X, Y, Z]. Every 6 and 12 months, we review lagging indicators: pipeline, revenue, cost of acquiring a customer paid back. On our sales cycle of [N] months, the first honest revenue read on this quarter's spend will be [date]. Judging revenue before [date] is judging a system that has not had time to convert.
+- Technical search health, tracking, CRM attribution, and lead routing are working
+- Priority pages and campaigns are live, indexed, and reaching the intended audience
+- Search impressions, paid reach, click quality, and coverage of the target queries are moving in the right direction
+- Cost per qualified lead is inside an agreed range by channel
+- Leads are getting a timely first response and a real disposition from sales
+- The earliest cohort is moving from inquiry to a qualified conversation, an opportunity, and the next expected stage
 
-That paragraph is not a defense. It is the shape of the answer to the question the board is actually going to ask. If you put it in the deck before they ask, you own the frame. If they ask first, they own it.
+The point is not to celebrate activity. Publishing, buying clicks, and generating form fills are not outcomes on their own.
+
+The question is whether the system is functioning, whether the audience is responding, and whether that response is becoming qualified pipeline.
+
+If cost per qualified lead is five times the target for two months running, that is a problem. If leads wait four days for a sales response, that is a problem. If pages are not indexing, attribution is broken, or the campaign is optimizing toward low quality conversions, those are problems.
+
+Fix them quickly. Do not wait until month 12 to discover them.
+
+### At six months: judge pipeline quality
+
+At six months, the first cohort should give a meaningful read on pipeline quality for many B2B programs. That is the time to ask whether marketing is creating the right kind of demand, and whether that demand is moving through the stages at a reasonable rate.
+
+Review:
+
+- Qualified pipeline created, by source and campaign
+- Conversion from inquiry to qualified lead, qualified lead to opportunity, and opportunity to later sales stages
+- Pipeline value, stage distribution, and fit with the accounts you meant to reach
+- Sales acceptance and follow up quality
+- Cohort performance compared with similar historical opportunities
+
+That last point matters most.
+
+Do not compare a new March cohort only with a revenue target. Compare it with prior closed won cohorts at the same age. If past enterprise healthcare opportunities typically reach stage 2 within three months and close around month 10, the question at month three is whether this cohort is reaching stage 2 at a comparable rate.
+
+That is a real performance test. It is more useful than asking why a deal that usually takes 10 months has not closed in three.
+
+### At revenue maturity: judge the business result
+
+Revenue should always be visible. It should not be hidden from a board deck for 12 months.
+
+Closed revenue should not become the only pass or fail verdict until the relevant marketing cohort has had a reasonable chance to move through the company's observed sales cycle.
+
+For many complex B2B companies, that review happens at 12 months. For an 18 month motion, it may happen later. Use your own CRM to define the date:
+
+- Median time from first meaningful engagement to a qualified opportunity
+- Median time from opportunity to close
+- Stage conversion rates and win rate
+- Average contract value and gross margin
+- Acquisition cost and payback
+- Retention and expansion from customers acquired during the period
+
+External benchmarks are useful context. Your CRM is the evidence that matters.
+
+## Put the dates in the agreement
+
+The cleanest way to avoid the 90 day argument is to agree on the review cadence before work begins.
+
+A sound engagement should define three things:
+
+1. What must be working by day 30, day 60, and day 90.
+2. What pipeline and stage progression evidence should exist by month six.
+3. When a cohort will be mature enough for a fair review of closed revenue and payback.
+
+This does not protect a bad agency. It makes weak performance easier to identify.
+
+If execution is weak, early demand is poor, and the fixes do not improve results by day 90, that is a real signal. The client should change the plan, change the team, or stop spending.
+
+If the program is functioning, qualified opportunities are progressing, and the sales cycle has historically taken 12 months, calling the program a failure at month three is not financial discipline. It is the wrong question.
+
+## The board slide
+
+For the next board meeting, use this:
+
+> Marketing runs on two clocks. Every 30 days, we review operating health and early demand: visibility on the target queries, campaign quality, cost per qualified lead, response time, lead routing, and progression of the newest cohort. Those indicators are currently [green, yellow, or red], and the specific actions in progress are [name them].
+
+> We review pipeline quality and stage conversion at six months. We review closed revenue, acquisition cost, and payback once the relevant cohort has had time to move through our observed sales cycle of [N] months. The first fair revenue read on this quarter's spend is [date]. Until then, the question is not whether revenue has already appeared. The question is whether the cohort is progressing as it should.
+
+That is not a request for patience. It is a measurement system.
 
 ## The honest limit
 
-The two-clock rule does not save a bad program. If leading indicators are red at 60 days and the fixes in flight don't move them at 90, that is a real signal, and it may mean cutting the spend or firing the vendor. The rule is not "wait 12 months for lagging indicators no matter what." It is "do not confuse a 30-day mechanical check for a 12-month revenue verdict."
+The two clock rule does not excuse weak work.
 
-The distinction is small. The consequences are not.
+A program can fail early. It can fail because the audience is wrong, the offer is unclear, the content is weak, the targeting is poor, the lead handoff is broken, or the sales team does not follow up. Those failures should be visible in the first 30 to 90 days.
+
+The rule is simply this.
+
+Do not confuse a monthly operating check with a final revenue verdict.
+
+Inspect the machine every month. Judge the pipeline as the cohort matures. Judge revenue and payback when the sales cycle and the economics have had time to produce an answer.
+
+That is how you hold marketing accountable without ending work that has not yet had time to work.
 
 ---
 
-**If you're the founder or COO of a Series A to C healthcare, biotech, medtech, or healthcare-adjacent SaaS company and your last board meeting had a hard question about marketing spend, [book a pipeline call](https://isovertic.com/book) and send us your last board deck's marketing slide plus your reported sales cycle length. In about ten minutes I'll tell you which clock the deck is on, whether the review cadence matches your cycle, and what to change on Monday. Sometimes the honest answer is that you're already fine, and we're happy to say so and hand you back your afternoon.**
+**If you are the founder or chief operating officer of a Series A to C healthcare, biotech, medtech, or healthcare software company and the last board meeting asked a hard question about marketing spend, [book a pipeline call](/contact). Send the marketing slide from that deck and the sales cycle you report. In about ten minutes I'll tell you whether the review cadence matches the buying cycle, and what to change. Sometimes the honest answer is that you're already fine, and we're happy to say so and hand you back your afternoon.**
