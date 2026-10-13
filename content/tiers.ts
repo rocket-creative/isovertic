@@ -261,7 +261,7 @@ export const tierNotes: { slug: Tier["slug"]; h2: string; body: string[] }[] = [
     body: [
       "Quantum Leap is the full program. It is for later-stage healthcare, pharma, biotech, medical device, and life sciences tools and diagnostics companies, one brand or several, often reporting to a chief operating officer or a chief financial officer.",
       "You get everything in Amplification, plus a second dedicated person calling and emailing your prospects, in-house creative production, media buying across streaming television, broadcast, and radio when it fits the sale, and a quarterly operations audit. It also adds the work that puts your executive in front of the market: their social posts written and published, conference and panel pitches submitted on their behalf, press releases written and pitched to the trade press, and a managed YouTube channel that answers buyer questions before the sale, walks customers through the product after it, and trains your own team inside the company. When you run more than one brand, the system runs per brand.",
-      "Quantum Leap is billed quarterly, from $75,000 per quarter. Advertising spend is separate. This is not a larger version of a basic website project. It is an operating commitment across several commercial programs, with one team responsible for keeping the parts connected.",
+      "Quantum Leap is billed quarterly: four payments of $75,000, one each quarter, at the starting rate. Advertising spend is separate. This is not a larger version of a basic website project. It is an operating commitment across several commercial programs, with one team responsible for keeping the parts connected.",
     ],
   },
 ];

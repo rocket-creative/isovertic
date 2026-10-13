@@ -81,7 +81,7 @@ export const method = {
     body: [
       "Ingenious Targeting Laboratory, a mouse model company selling to research scientists, moved from 13 monthly form submissions to about 64 in its first eight months with Isovertic. Organic search traffic rose 3.7 times in that period. Internal, September 2026.",
       "Sydra Health, a revenue-cycle company serving healthcare billing directors, went from no online presence in mid-June 2026 to roughly one qualified meeting a week on about $1,000 in monthly advertising spend and the entry package of site work. Internal, September 2026.",
-      "Both are unusual for their category and neither is a promise for yours. They are examples of what happens when the site can carry the sales argument. We agree what counts as a qualified meeting, we check that it was held, and we report the cost.",
+      "These are examples of what happens when the site can carry the sales argument. We agree what counts as a qualified meeting, we check that it was held, and we report the cost.",
     ],
   },
   start: {

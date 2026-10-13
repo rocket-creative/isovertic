@@ -3,19 +3,19 @@
 export const about = {
   h1: "One senior team runs the pipeline. Every account. Every tier.",
   lead: [
-    "ISOVERTIC was built for companies whose buyers ask to see the work: a review board, an investor, a regulator, a patient. That buyer does not want a deck of adjectives. They want a booked meeting they can point to, the method that produced it, and the people who ran it.",
-    "ISOVERTIC is a growth agency. A marketing agency hands you traffic and reports. A web design company hands you a launch. One senior team runs the whole pipeline: the site that gets found by the buyer already searching for what you sell, the content they trust, the ads spent only on them, and the outbound that turns a found page into a meeting on your calendar, with tracking that ties each meeting to the page that produced it.",
+    "ISOVERTIC was built for companies that sell to a buyer who has to justify the choice: a review board, an investor, a regulator, or a patient. That buyer needs a clear account of what you sell, who it is for, and the proof behind it, so they can explain the choice to their own team. You need the meeting with that buyer. We put the proof on the site and book the meeting on your calendar.",
+    "ISOVERTIC is a growth agency. A marketing agency hands you traffic and reports. A web design company hands you a launch. ISOVERTIC is different. One senior team runs the whole pipeline: the site that gets found by the buyer already searching for what you sell, the content they trust, the ads spent only on them, and the outbound that turns a found page into a meeting on your calendar, with tracking that ties each meeting to the page that produced it.",
   ],
   name: {
     h2: "Why the name",
-    body: "Iso means constant. Vertic means the vertical. The name describes a growth line that stays steady and keeps rising, instead of a spike that falls back. The tiers follow the same idea. Ground State is the level you start from. Quantum Leap is the jump to a new level.",
+    body: "Iso means constant. Vertic means the vertical. The name describes a growth line that stays steady and keeps rising, instead of a spike that falls back. The tiers follow that same line. Ground State is where the work starts. Each tier above it adds the next part of the pipeline, and the line keeps rising. Quantum Leap runs the full line, on one brand or several.",
   },
   buying: {
-    h2: "What you are actually buying",
+    h2: "What you are buying",
     body: [
-      "You are buying a method the company runs, not one person's calendar.",
-      "George engineered the method over 30 years of building the systems companies sell through. Kristen wrote it down, trained the team to run it, and built the operation that keeps it consistent on every account. Every engagement runs the same method. What it produces: a website the buyer already searching for you can trust, advertising spent only on those people, and a meeting on your calendar with a written brief. We do not publish how we choose what to build, publish, or bid on. The five steps are on the system page.",
-      "The method is written down. The team is trained on it. George stays available when a question needs him. The account keeps moving in a slow week, and year two runs on the same written method.",
+      "You are buying a written method the company runs for you, and the team trained to run it. The work keeps going when one person is in another meeting.",
+      "George engineered the method over 30 years of building the systems companies sell through. Kristen wrote it down, trained the team to run it, and built the operation that keeps it consistent on every account. Every engagement runs the same method. You get a website a buyer who is already looking for what you sell can trust, advertising aimed only at those people, and a meeting on your calendar with a written brief for the person who takes the call. The five steps are on the system page.",
+      "The method is written down. The team is trained on it. George stays available when a question needs him.",
     ],
   },
   team: {
@@ -65,7 +65,7 @@ export const about = {
       "Pricing is published because our buyer hates a wasted discovery call as much as we do.",
       "Every engagement is a 12-month term, staged as a 3-month foundation into a 9-month growth term. We report leading indicators every 30 days (rankings, impressions, cost per lead, learning-phase status) and review lagging indicators (pipeline and revenue) at 6 and 12 months, tied to your actual sales cycle. Sales cycles in healthcare, biotech, and medtech are often long, so a lead we generate in month 2 may not close until much later. Pipeline and revenue measured before a year are not a fair read of the work. We build the review cadence around that instead of asking you to judge a 12-month system on a 90-day clock.",
       "The website is an asset, not a brochure. Traffic without meetings is a hobby. Numbers beat adjectives. And nobody should need a discovery call to learn a price.",
-      "If you want to see whether this fits, send us your best-converting landing page URL. In about ten minutes we will tell you what is firing, whether any of it is a lawsuit, and whether you are already fine. Sometimes the honest answer is that you are fine, and we are happy to say so and hand you back your afternoon.",
+      "If you know which package you want, start on the pricing page with card or bank debit. No call required. If you would rather talk it through, send us your best-converting landing page URL. In about ten minutes we will tell you what is working, what is not, and whether the fix is the site, the offer, or the follow-up. Sometimes the honest answer is you are already fine, and we are happy to say so and hand you back your afternoon.",
     ],
     entity: "ISOVERTIC is an assumed name of Rocket Creative LLC.",
   },

@@ -29,9 +29,7 @@ export function PricingTiers() {
               </p>
               <p className={`mt-2 text-[12px] leading-relaxed ${t.featured ? "text-paper/70" : "text-ink-soft"}`}>
                 {t.quarterlyOnly
-                  ? t.from
-                    ? `Four payments from ${usd(m.quarterly)}, one each quarter.`
-                    : `Four payments of ${usd(m.quarterly)}, one each quarter.`
+                  ? `Four payments of ${usd(m.quarterly)}, one each quarter.`
                   : `Billed monthly, or ${usd(m.quarterly)} a quarter (4 percent off), or ${usd(m.upfront)} up front (eleven for twelve).`}
               </p>
               <p className={`mt-6 text-[15px] leading-relaxed ${t.featured ? "text-paper/90" : "text-ink/90"}`}>{t.for}</p>

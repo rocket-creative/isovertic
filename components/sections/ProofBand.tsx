@@ -20,7 +20,7 @@ const stats = [
   },
   {
     value: "18",
-    claim: "Documented outbound plays in the runbook behind our appointment programs.",
+    claim: "Ways we contact a buyer and book a meeting on your calendar, written down and used on every appointment program.",
   },
   {
     value: "30+",
