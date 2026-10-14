@@ -3,6 +3,8 @@
 import { createClient } from "@supabase/supabase-js";
 import { Resend } from "resend";
 import { welcomeCopy } from "@/content/checkout";
+import { notifyEnvelope } from "@/lib/notify";
+import { site } from "@/lib/site";
 
 export type OnboardingState = { ok: boolean; error?: string; call?: boolean } | null;
 
@@ -46,13 +48,10 @@ export async function submitOnboarding(_prev: OnboardingState, formData: FormDat
   } else errors.push("supabase env missing");
 
   const resendKey = process.env.RESEND_API_KEY;
-  const to = process.env.LEAD_NOTIFY_EMAIL;
-  const from = process.env.LEAD_FROM_EMAIL || "sale@isovertic.com";
-  if (resendKey && to) {
+  if (resendKey) {
     try {
       await new Resend(resendKey).emails.send({
-        from: `ISOVERTIC <${from}>`,
-        to,
+        ...notifyEnvelope(),
         replyTo: email || undefined,
         subject: `Intake: ${answers.company} (${planKey || "unknown plan"})${wantsCall ? " wants a call" : ""}`,
         text: `Email: ${email}\nCheckout: ${sessionId}\n\n${body}`,
@@ -65,7 +64,7 @@ export async function submitOnboarding(_prev: OnboardingState, formData: FormDat
   if (errors.length === 2) {
     console.error("Onboarding delivery failed entirely:", errors);
     if (process.env.NODE_ENV !== "production") return { ok: true, call: wantsCall };
-    return { ok: false, error: "Something failed on our side. Email sale@isovertic.com with your answers and we will take it from there." };
+    return { ok: false, error: `Something failed on our side. Email ${site.email} with your answers and we will take it from there.` };
   }
   if (errors.length) console.warn("Onboarding partially delivered:", errors);
   return { ok: true, call: wantsCall };

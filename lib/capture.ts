@@ -1,9 +1,11 @@
 import { createClient } from "@supabase/supabase-js";
 import { Resend } from "resend";
+import { notifyEnvelope } from "@/lib/notify";
+import { site } from "@/lib/site";
 
 // Server side capture used by every gated form on the site: the one page standard, subscribe, the audit,
 // and the BAA request. Every capture lands in the existing leads table with a source_path that names the
-// form, and notifies LEAD_NOTIFY_EMAIL. No new tables. Import only from server actions.
+// form, and notifies sales@isovertic.com. No new tables. Import only from server actions.
 
 export type CaptureState = { ok: boolean; error?: string } | null;
 
@@ -36,14 +38,11 @@ export async function capture(input: { name: string; email: string; company?: st
   }
 
   const resendKey = process.env.RESEND_API_KEY;
-  const to = process.env.LEAD_NOTIFY_EMAIL;
-  const from = process.env.LEAD_FROM_EMAIL || "sale@isovertic.com";
-  if (resendKey && to) {
+  if (resendKey) {
     try {
       const resend = new Resend(resendKey);
       await resend.emails.send({
-        from: `ISOVERTIC <${from}>`,
-        to,
+        ...notifyEnvelope(),
         replyTo: input.email,
         subject: input.subject,
         text: `Name: ${input.name}\nEmail: ${input.email}\nCompany: ${input.company || "(blank)"}\nFrom: ${input.sourcePath}\n\n${input.message}`,
@@ -58,7 +57,7 @@ export async function capture(input: { name: string; email: string; company?: st
   if (errors.length === 2) {
     console.error("Capture failed entirely:", errors);
     if (process.env.NODE_ENV !== "production") return { ok: true };
-    return { ok: false, error: "Something failed on our side. Email sale@isovertic.com and we will send it by hand." };
+    return { ok: false, error: `Something failed on our side. Email ${site.email} and we will send it by hand.` };
   }
   if (errors.length) console.warn("Capture partially delivered:", errors);
   return { ok: true };

@@ -21,8 +21,7 @@ npm run dev
 | NEXT_PUBLIC_SUPABASE_URL | Supabase project settings, API |
 | SUPABASE_SERVICE_ROLE_KEY | Same page. Server only, never expose client side |
 | RESEND_API_KEY | resend.com API keys, after verifying the sending domain |
-| LEAD_NOTIFY_EMAIL | Where lead notifications go, for example sale@isovertic.com |
-| LEAD_FROM_EMAIL | Verified sender, for example sale@isovertic.com |
+| LEAD_FROM_EMAIL | Verified sender, for example sales@isovertic.com. Form, intake, and Stripe notices always go to sales@isovertic.com, with a BCC to georgestoff@rocketcreative.net. |
 | NEXT_PUBLIC_SITE_URL | https://isovertic.com |
 | STRIPE_SECRET_KEY | Stripe dashboard, Developers, API keys. Test key first |
 | STRIPE_WEBHOOK_SECRET | Stripe dashboard, Developers, Webhooks, endpoint /api/stripe/webhook |

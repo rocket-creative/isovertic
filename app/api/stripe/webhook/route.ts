@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 import { Resend } from "resend";
 import type Stripe from "stripe";
+import { notifyEnvelope } from "@/lib/notify";
 import { stripe } from "@/lib/stripe";
 
 // Stripe webhook. Configure the endpoint at /api/stripe/webhook for:
@@ -20,11 +21,9 @@ function db() {
 
 async function notify(subject: string, text: string) {
   const resendKey = process.env.RESEND_API_KEY;
-  const to = process.env.LEAD_NOTIFY_EMAIL;
-  const from = process.env.LEAD_FROM_EMAIL || "sale@isovertic.com";
-  if (!resendKey || !to) return;
+  if (!resendKey) return;
   try {
-    await new Resend(resendKey).emails.send({ from: `ISOVERTIC <${from}>`, to, subject, text });
+    await new Resend(resendKey).emails.send({ ...notifyEnvelope(), subject, text });
   } catch (e) {
     console.error("notify failed", (e as Error).message);
   }

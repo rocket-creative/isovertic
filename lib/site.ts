@@ -11,7 +11,7 @@ export const site = {
   legalName: "Rocket Creative LLC",
   address: { street: "600 Johnson Ave, Suite D5", locality: "Bohemia", region: "NY", postalCode: "11716", country: "US" },
   phone: "+1-631-816-9577",
-  email: "sale@isovertic.com",
+  email: "sales@isovertic.com",
   // The only images AI and social crawlers should attach to the name. Both are the wordmark.
   images: {
     og: { url: "/og.png", width: 1200, height: 630, alt: "ISOVERTIC wordmark" },

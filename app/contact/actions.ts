@@ -3,6 +3,8 @@
 import { createClient } from "@supabase/supabase-js";
 import { Resend } from "resend";
 import { formCopy } from "@/content/form";
+import { notifyEnvelope } from "@/lib/notify";
+import { site } from "@/lib/site";
 
 export type LeadState = { ok: boolean; error?: string } | null;
 
@@ -68,14 +70,11 @@ export async function submitLead(_prev: LeadState, formData: FormData): Promise<
   }
 
   const resendKey = process.env.RESEND_API_KEY;
-  const to = process.env.LEAD_NOTIFY_EMAIL;
-  const from = process.env.LEAD_FROM_EMAIL || "sale@isovertic.com";
-  if (resendKey && to) {
+  if (resendKey) {
     try {
       const resend = new Resend(resendKey);
       await resend.emails.send({
-        from: `ISOVERTIC <${from}>`,
-        to,
+        ...notifyEnvelope(),
         replyTo: email,
         subject: `Pipeline call request: ${name} (${companyWebsite})`,
         text: `Name: ${name}\nEmail: ${email}\n${details}`,
@@ -93,7 +92,7 @@ export async function submitLead(_prev: LeadState, formData: FormData): Promise<
       console.warn("Lead captured in development without Supabase or Resend:", { name, email, companyWebsite, details });
       return { ok: true };
     }
-    return { ok: false, error: "Something failed on our side. Email sale@isovertic.com directly and we will take the hint about our own form." };
+    return { ok: false, error: `Something failed on our side. Email ${site.email} directly and we will take the hint about our own form.` };
   }
   if (errors.length) console.warn("Lead partially delivered:", errors);
   return { ok: true };

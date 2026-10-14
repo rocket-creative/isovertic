@@ -22,7 +22,7 @@ export const startCopy = {
     "The website rebuild starts inside the first 30 days on our stack, server rendered, schema on every page, hosted for the term at no charge.",
   ],
   error: "A working email is required, and the 12 month term needs the box checked.",
-  checkoutError: "Checkout could not start. Email sale@isovertic.com and we will send a payment link by hand.",
+  checkoutError: "Checkout could not start. Email sales@isovertic.com and we will send a payment link by hand.",
   planMissing: "Pick a tier on the pricing page first.",
   talkFirst: "Would rather talk first",
 };
@@ -33,7 +33,7 @@ export const welcomeCopy = {
   h1: "Paid. Now tell us what to work on.",
   lead: "Ten minutes here saves a call. Everything below is what our team needs to build the first content calendar and, on Excitation and above, the first campaign. Skip anything you do not know; we will ask by email.",
   pending: "Your bank debit is processing. It clears in up to four business days and we start the moment it settles. Fill out the intake now so nothing waits on the bank.",
-  unverified: "We could not verify a completed checkout for this link. If you just paid, wait a minute and refresh. Otherwise start on the pricing page or email sale@isovertic.com.",
+  unverified: "We could not verify a completed checkout for this link. If you just paid, wait a minute and refresh. Otherwise start on the pricing page or email sales@isovertic.com.",
   fields: {
     company: "Company name",
     website: "Website",

@@ -8,12 +8,12 @@ export const privacy = {
   lead: "What we collect on this site, why, where it goes, and how to get it removed. Written to be read, not skimmed.",
   sections: [
     { h2: "Who we are", body: [
-      "ISOVERTIC is an assumed name of Rocket Creative LLC, 600 Johnson Ave, Suite D5, Bohemia, NY 11716. Questions about this policy go to sale@isovertic.com or 631 816 9577.",
+      "ISOVERTIC is an assumed name of Rocket Creative LLC, 600 Johnson Ave, Suite D5, Bohemia, NY 11716. Questions about this policy go to sales@isovertic.com or 631 816 9577.",
     ]},
     { h2: "What we collect and why", body: [
       "Contact and checkout forms: your name, work email, company website, and the answers you type. We use them to reply, to run the engagement you asked about, and for nothing else. We do not sell or rent them.",
       "Payments: handled by Stripe. Card and bank details go to Stripe directly and never touch our servers. We receive the payment status, the plan you chose, your email, and the last four digits of the payment method. Stripe's own policy governs what Stripe holds.",
-      "Email: notifications and receipts are sent through Resend from sale@isovertic.com. We do not use open or click tracking on those emails.",
+      "Email: notifications and receipts are sent through Resend from sales@isovertic.com. We do not use open or click tracking on those emails.",
       "Server logs: our host, Vercel, keeps standard request logs (IP address, user agent, pages requested) for security and debugging.",
     ]},
     { h2: "What we do not collect", body: [
@@ -29,7 +29,7 @@ export const privacy = {
       "Lead records: 24 months from last contact. Client records: the life of the engagement plus seven years for tax and accounting. Email delivery logs: 30 days.",
     ]},
     { h2: "Your choices", body: [
-      "Email sale@isovertic.com to see what we hold about you, correct it, or have it deleted. We answer inside five business days. Deleting a record does not delete Stripe's record of a completed payment, which we are required to keep.",
+      "Email sales@isovertic.com to see what we hold about you, correct it, or have it deleted. We answer inside five business days. Deleting a record does not delete Stripe's record of a completed payment, which we are required to keep.",
     ]},
     { h2: "Healthcare clients", body: [
       "This site is not a covered entity and does not collect protected health information. For clients who are covered entities, the HIPAA form and call stack we build runs on infrastructure under a business associate agreement, documented in the client agreement.",
