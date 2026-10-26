@@ -7,24 +7,31 @@ export const compares: ComparePage[] = [
     slug: "abstrakt-marketing-group-alternative",
     competitor: "Abstrakt Marketing Group",
     title: "Abstrakt Marketing Group Alternative | ISOVERTIC",
-    dateModified: "2026-09-04",
-    metaDescription: "Comparing ISOVERTIC and Abstrakt Marketing Group: senior boutique vs 500 person machine, with TV capability and published pricing.",
+    dateModified: "2026-10-26",
+    metaDescription: "How ISOVERTIC and Abstrakt Marketing Group compare: who does the work, what's included, what each costs, and who each one is right for.",
     eyebrow: "Comparison",
     h1: "An Abstrakt alternative for founders who want the senior team, not the machine.",
     lead: "Abstrakt Marketing Group is the biggest name in combined lead generation and marketing, with 500 plus employees and more than 1,700 clients, and for many companies it is a fine choice. This page is for the founders who looked at that scale and wondered who exactly would be doing their work.",
     sections: [
       { h2: "Where the two firms differ", body: [
-        "Team: ISOVERTIC is senior hands only with the founder on the account. Abstrakt runs a large staff model across hundreds of accounts.",
-        "Scope: both run outbound plus marketing. ISOVERTIC adds full custom development on a modern stack and TV and CTV media buying with in house creative.",
-        "Pricing: ISOVERTIC publishes four tiers from $3,000 to $25,000 plus a month. Abstrakt quotes by conversation.",
-        "Fit: Abstrakt suits trades and SMBs comfortable in a high volume system. ISOVERTIC suits scientists, startups, and healthcare brands who want one senior team accountable end to end and who market under MLR or HIPAA rules.",
-      ]},
+        "Here's how the two firms compare. Abstrakt's prices come from its own [comparison page](https://www.abstraktmg.com/abstrakt-alternatives/), checked October 2026.",
+      ], table: {
+        caption: "ISOVERTIC compared with Abstrakt Marketing Group",
+        columns: ["", "ISOVERTIC", "Abstrakt Marketing Group"],
+        rows: [
+          ["Who does the work", "One senior team handles your account from start to finish. Our founder, George Stoff, sets the standards for every account.", "A large staff working across hundreds of accounts."],
+          ["What's included", "Marketing, plus calling and emailing potential customers on the higher plans. Every plan includes a custom built website, a $15,000 project. We can also buy TV and streaming TV ads, and we make the ads ourselves.", "Calling and emailing potential customers, plus marketing."],
+          ["Price", "Four plans, from $3,000 to $25,000 or more a month, all listed on our site. Calling potential customers starts with the $10,000 plan.", "Three packages: $5,250, $7,250, and $9,250 a month."],
+          ["Will they work with my competitors?", "We keep our client list short on purpose. If you want it in the contract that we won't take on a competitor in your territory, we can do that.", "Abstrakt offers industry exclusivity."],
+          ["Best for", "Scientific, startup, and healthcare companies that want one senior team responsible for everything, especially if your marketing has to pass MLR review or follow HIPAA.", "Trades and small businesses that are comfortable with a high volume approach."],
+        ],
+      }},
       { h2: "A fair note", body: [
         "Abstrakt's industry exclusivity model and scale are real strengths. If you want the largest vendor, that is them. If you want the senior boutique with the same scope and more channels, book the call.",
       ]},
     ],
     faqs: [
-      { q: "Is ISOVERTIC cheaper than Abstrakt?", a: "Our tiers are published on the pricing page, from $3,000 a month, so you can compare without a sales process. Value per dollar depends on whether you want a machine or a senior team." },
+      { q: "Is ISOVERTIC cheaper than Abstrakt?", a: "Both firms list their prices. Our calling and emailing starts with the $10,000 a month plan, which also covers your ads and content. Abstrakt's packages run $5,250 to $9,250 a month. If all you need is someone to make calls, Abstrakt may cost less. If you want the website, ads, and calls handled by one team, compare the full cost of each." },
       { q: "Do you offer industry exclusivity?", a: "We keep a deliberately short roster, which functions as exclusivity in practice. Formal territory exclusivity is available by agreement." },
     ],
     related: [

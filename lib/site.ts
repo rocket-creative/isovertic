@@ -19,6 +19,9 @@ export const site = {
   },
   knowsAbout: [
     "Life science marketing",
+    "Biotech marketing",
+    "Pharma marketing",
+    "Medical device marketing",
     "CRO marketing",
     "Healthcare marketing",
     "HIPAA compliant lead generation",

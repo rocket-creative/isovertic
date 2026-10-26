@@ -14,7 +14,7 @@ import { problems } from "@/content/problems";
 // moves on every deploy, and ignores priority and changefreq entirely, so neither is emitted.
 // Bump CORE_UPDATED when a static page's copy changes. Collections carry their own dateModified.
 const CORE_UPDATED: Record<string, string> = {
-  "": "2026-09-10",
+  "": "2026-10-26",
   "/system": "2026-09-10",
   "/pricing": "2026-09-10",
   "/protocol": "2026-09-10",
@@ -23,7 +23,7 @@ const CORE_UPDATED: Record<string, string> = {
   "/glossary": "2026-09-08",
   "/results": "2026-09-08",
   "/contact": "2026-09-05",
-  "/long-island": "2026-09-08",
+  "/long-island": "2026-10-26",
   "/field-notes": "2026-09-07",
   "/problems": "2026-09-08",
   "/services": "2026-09-10",

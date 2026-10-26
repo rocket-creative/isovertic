@@ -70,7 +70,7 @@ export function EmphasisGlow({ word, delay }: { word: string; delay: number }) {
         ))}
         <span ref={spot} className="hero-glow-spot" aria-hidden="true">
           {glyphs.map((ch, i) => (
-            <span key={i} ref={(el) => { ghosts.current[i] = el; }} className="hero-ch">{ch}</span>
+            <span key={i} ref={(el) => { ghosts.current[i] = el; }} className="hero-ch" data-ch={ch} />
           ))}
         </span>
       </span>

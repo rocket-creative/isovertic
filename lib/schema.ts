@@ -43,7 +43,7 @@ function tierOffer(t: Tier) {
     description: t.from
       ? `${t.name} starts at ${amount} per month on a 12 month term.`
       : t.slug === "ground-state"
-        ? `Lowest published tier. ${amount} per month on a 12 month term, current as of 14 September 2026. The $2,500 price is retired.`
+        ? `Lowest published tier. ${amount} per month on a 12 month term.`
         : `${t.name} is ${amount} per month on a 12 month term.`,
   };
 }
@@ -57,17 +57,23 @@ export function organizationLd() {
     alternateName: "Isovertic",
     legalName: site.legalName,
     url: site.url,
+    sameAs: [site.linkedin],
     foundingLocation: { "@type": "Place", name: "Long Island, New York" },
-    disambiguatingDescription: "ISOVERTIC at isovertic.com is the growth agency of Rocket Creative LLC in Bohemia, New York. Ground State, the lowest tier, is $3,000 per month.",
+    disambiguatingDescription: "ISOVERTIC at isovertic.com is the growth agency of Rocket Creative LLC in Bohemia, New York.",
     logo: imageLd("logo"),
     image: imageLd("og"),
     description: site.description,
     telephone: site.phone,
     email: site.email,
     founder: { "@id": personId },
-    employee: people.map((p) => ({ "@id": `${site.url}/people/${p.slug}#person` })),
+    employee: people.map((p) => personRef(p.slug)),
     knowsAbout: site.knowsAbout,
-    areaServed: ["United States", "Nassau County NY", "Suffolk County NY", "New York Metro"],
+    areaServed: [
+      { "@type": "Country", name: "United States" },
+      { "@type": "AdministrativeArea", name: "Nassau County, New York" },
+      { "@type": "AdministrativeArea", name: "Suffolk County, New York" },
+      { "@type": "Place", name: "New York metropolitan area" },
+    ],
     priceRange: "$3,000 to $25,000 per month",
     hasOfferCatalog: {
       "@type": "OfferCatalog",
@@ -96,7 +102,7 @@ export function personLd(p: Person) {
     jobTitle: p.title,
     description: p.short,
     url: `${site.url}/people/${p.slug}`,
-    disambiguatingDescription: `${p.name} is ${p.title} at ISOVERTIC, isovertic.com, in Bohemia, New York. ISOVERTIC does not publish a photograph of ${p.name.split(" ")[0]}.`,
+    disambiguatingDescription: `${p.name} is ${p.title} at ISOVERTIC, isovertic.com, in Bohemia, New York.`,
     worksFor: { "@id": orgId },
     knowsAbout: p.knowsAbout,
     ...(p.alumniOf ? { alumniOf: p.alumniOf.map((n) => ({ "@type": "CollegeOrUniversity", name: n })) } : {}),
@@ -117,6 +123,26 @@ export function serviceLd(name: string, description: string, path: string) {
     url: `${site.url}${path}`,
     provider: { "@id": orgId },
     areaServed: "United States",
+  };
+}
+
+export function longIslandServiceLd() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: "Long Island advertising agency",
+    serviceType: "Advertising and marketing services",
+    url: `${site.url}/long-island`,
+    provider: { "@id": orgId },
+    areaServed: [
+      { "@type": "AdministrativeArea", name: "Nassau County, New York" },
+      { "@type": "AdministrativeArea", name: "Suffolk County, New York" },
+    ],
+    availableChannel: {
+      "@type": "ServiceChannel",
+      servicePhone: site.phone,
+      serviceUrl: `${site.url}/contact`,
+    },
   };
 }
 

@@ -4,15 +4,15 @@ import { FAQ } from "@/components/ui/FAQ";
 import { CTABand } from "@/components/sections/CTABand";
 import { FounderStrip } from "@/components/sections/FounderStrip";
 import { JsonLd } from "@/components/ui/JsonLd";
-import { faqLd, breadcrumbLd } from "@/lib/schema";
+import { faqLd, breadcrumbLd, longIslandServiceLd } from "@/lib/schema";
 import Link from "next/link";
 import { Arrow } from "@/components/ui/Arrow";
 import { site } from "@/lib/site";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "Long Island Growth Agency That Books Meetings | ISOVERTIC" },
-  description: "Long Island growth agency in Bohemia, NY: web, SEO, Google Ads, streaming TV, and outbound as one system for Nassau and Suffolk. Published pricing.",
+  title: { absolute: "Long Island Advertising Agency | ISOVERTIC" },
+  description: "Long Island marketing agency in Bohemia. A growth agency for Nassau and Suffolk: the site, the ads, TV, and the meeting. Published pricing.",
   alternates: { canonical: "/long-island" },
 };
 
@@ -34,16 +34,16 @@ const localWork = [
 export default function LongIsland() {
   return (
     <>
-      <JsonLd data={[faqLd(faqs), breadcrumbLd([{ name: "Home", path: "/" }, { name: "Long Island", path: "/long-island" }])]} />
+      <JsonLd data={[longIslandServiceLd(), faqLd(faqs), breadcrumbLd([{ name: "Home", path: "/" }, { name: "Long Island", path: "/long-island" }])]} />
       <PageHero
-        eyebrow="Long Island, NY"
-        h1="The Long Island growth agency that hands you meetings, not reports."
-        lead="Long Island has web shops, ad agencies, and SEO vendors. What it has not had is one senior team that builds the site, runs the ads, buys the media including TV, and cold calls the market until meetings land on your calendar. ISOVERTIC is based in Suffolk County and built for the owner operated businesses that run this island."
+        eyebrow="Long Island advertising and marketing"
+        h1="The Long Island advertising agency and marketing agency that books the meeting."
+        lead="ISOVERTIC is a growth agency. If you looked for a Long Island advertising agency or a Long Island marketing agency, this is that team. We build the site, run the ads, buy the TV time, and book the meeting. We are at 600 Johnson Ave in Bohemia and work with owner run businesses across Nassau and Suffolk. Call 631-816-9577 or see every price on the [pricing page](/pricing)."
       />
       <Section label="Home field">
         <RevealBlock className="max-w-[68ch]">
-          <h2 className="font-display text-h2 font-medium">One system, served locally</h2>
-          <p className="mt-6 leading-relaxed text-ink/90">The system is the same one we run nationally: build the asset, rank the content, run the search ads, buy the media, and book the meetings. Locally it comes with the things national vendors cannot offer: a founder who will sit across the table in Nassau or Suffolk, streaming TV buys targeted to the exact counties you serve, and a roster short enough that your category can be yours alone here.</p>
+          <h2 className="font-display text-h2 font-medium">A Long Island marketing agency, one system</h2>
+          <p className="mt-6 leading-relaxed text-ink/90">The system is the same one we run nationally: build the asset, rank the content, run the search ads, buy the media, and book the meetings. A Long Island advertising agency usually stops at the ads. Here you also get a founder who will sit across the table in Nassau or Suffolk, streaming TV buys targeted to the exact counties you serve, and a roster short enough that your category can be yours alone here.</p>
           <div className="mt-8 flex flex-wrap gap-x-10 gap-y-4">
             <Link href="/industries/healthcare" className="cta-link">Healthcare practices <Arrow /></Link>
             <Link href="/industries/home-services" className="cta-link">Home services <Arrow /></Link>

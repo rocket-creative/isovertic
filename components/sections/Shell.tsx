@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { LinkedCopy } from "@/components/ui/ClientQuote";
 import { HighlightedTitle } from "@/components/ui/HighlightedTitle";
 import { describeHeroImage, ImagePlaceholder, showImagePlaceholders } from "@/components/ui/ImagePlaceholder";
 import { RevealBlock } from "@/components/ui/RevealBlock";
@@ -22,7 +23,7 @@ export function Section({
         <div className="hidden lg:block" aria-hidden="true">
           {label && <span className="sidebar-label sticky top-28 lg:top-36">{label}</span>}
         </div>
-        <div>{children}</div>
+        <div className="min-w-0">{children}</div>
       </div>
     </section>
   );
@@ -57,7 +58,7 @@ export function PageHero({ eyebrow, h1, lead, cta, image }: { eyebrow?: string; 
       {eyebrow ? <p className="eyebrow">{eyebrow}</p> : null}
       <h1 className={`${eyebrow ? "mt-5" : ""} hero-title`}>{typeof h1 === "string" ? <HighlightedTitle text={h1} /> : h1}</h1>
       {leads.map((p, i) => (
-        <p key={i} className={`${i === 0 ? "mt-5" : "mt-4"} max-w-[62ch] text-[16px] leading-[1.55] text-ink-soft sm:text-[17px] sm:leading-relaxed`}>{p}</p>
+        <p key={i} className={`${i === 0 ? "mt-5" : "mt-4"} max-w-[62ch] text-[16px] leading-[1.55] text-ink-soft sm:text-[17px] sm:leading-relaxed`}><LinkedCopy text={p} /></p>
       ))}
       {cta ? <div className="mt-8">{cta}</div> : null}
       <div className="iso-mark rule-draw mt-8 max-w-[560px]" aria-hidden="true" />

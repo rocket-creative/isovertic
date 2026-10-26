@@ -75,6 +75,7 @@ export const industries: Page[] = [
       ]},
       { h2: "The honest limits", body: [
         "We cannot make a full schedule accept patients. We cannot repair a broken referral agreement, payer contract, or clinical eligibility policy. And we do not replace healthcare counsel. We can make the path visible, safer, and easier to operate, then tell you where the next constraint sits.",
+        "A practice that lives on two referrers is [two referring physicians](/problems/practice-depends-on-two-referring-physicians). A new line that does not book is [a new service line that is not booking](/problems/new-service-line-is-not-booking). Forms and pixels are [forms and pixels that may violate HIPAA](/problems/worried-our-forms-and-pixels-violate-hipaa). Web leads that stall at the desk are [web leads that do not become appointments](/problems/web-leads-not-turning-into-appointments). What counts as protected information is [protected health information](/glossary/protected-health-information).",
       ]},
       { h2: "Disclaimer", body: [
         "This piece is a marketing operating framework, not legal advice. HIPAA compliance depends on your specific facts, jurisdiction, and covered-entity or business-associate status. The controlling sources are 45 CFR Parts 160 and 164, OCR's [Revised Bulletin on tracking technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html), and the June 20, 2024 opinion in American Hospital Association v. Becerra, No. 4:23-cv-01110-P (N.D. Tex.). Consult qualified healthcare counsel before implementing any of the above.",
@@ -169,6 +170,7 @@ export const industries: Page[] = [
       ]},
       { h2: "The honest limits", body: [
         "We cannot speed up an FDA decision, write around your approved labeling, or make a claim your reviewer will not sign. We cannot replace your regulatory, medical, or legal judgment, and we do not offer an opinion on whether a specific piece complies. We can give the people who own those calls a process that is faster to run and easier to inspect.",
+        "Review that stalls every asset is [scientific content stuck in review](/problems/scientific-content-stuck-in-review). Compliance that blocks the calendar is [compliance says no to every idea](/problems/compliance-says-no-to-every-marketing-idea). The gate itself is [MLR review](/glossary/mlr-review). How long that gate takes is [how long MLR review takes](/answers/how-long-does-mlr-review-take). Partners who will not write is [partners who will not write](/problems/our-partners-are-the-brand-and-none-of-them-will-write).",
       ]},
       { h2: "Disclaimer", body: [
         "This piece is a marketing operating framework, not legal advice. Promotional compliance for pharma depends on your product's approval status, your approved labeling, and applicable FDA regulation and guidance. The controlling sources include [21 CFR 202.1](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-202/section-202.1), FDA guidance published through the [Office of Prescription Drug Promotion](https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/office-prescription-drug-promotion-opdp), and the OIG [Special Fraud Alert on speaker programs](https://www.oig.hhs.gov/documents/special-fraud-alerts/865/SpecialFraudAlertSpeakerPrograms.pdf). Consult qualified regulatory counsel before implementing any of the above.",
@@ -196,16 +198,18 @@ export const industries: Page[] = [
   },
   {
     slug: "biotech",
-    title: "The Growth Agency for Biotech: Meetings That Hold Up in MLR Review | ISOVERTIC",
-    dateModified: "2026-09-10",
-    metaDescription: "The growth agency for biotech: therapeutics, research services, and translational programs. An MLR review gate, evidence discipline, and meetings a chief scientific officer can trust.",
-    eyebrow: "Biotech",
-    h1: "The growth agency for biotech: meetings that hold up in MLR review.",
+    title: "Biotech Marketing Agency | ISOVERTIC",
+    dateModified: "2026-10-26",
+    metaDescription: "A biotech marketing agency for therapeutics and research services. A growth agency with an MLR review gate and meetings a chief scientific officer can trust.",
+    eyebrow: "Biotech marketing",
+    h1: "The biotech marketing agency for meetings that hold up in review.",
+    serviceName: "Biotech marketing",
     lead: [
-      "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. This page is about biotech: therapeutics companies pre-clinical through commercial, research services, translational programs, and platform companies with a scientific buyer. Many biotech operators also have a device arm, a diagnostics pipeline, or a hospital-facing service line. If that is you, our [medical devices page](/industries/medical-devices), [life sciences tools and diagnostics page](/industries/life-sciences-tools-and-diagnostics), and [healthcare page](/industries/healthcare) show what changes when the buyer is a lab director, a director of clinical affairs, or a practice administrator.",
+      "Isovertic is the growth agency for biotech, and the biotech marketing agency for this work. We do marketing for therapeutics companies from preclinical through commercial, research service providers, and companies that sell to scientists. We build the website, run Google Ads, write the content, and book meetings with the people who make the buying decision. Our COO is a trained molecular biologist who sold research products for more than ten years, and she set the rules our writers follow for scientific terms. If your claims need MLR approval, we can add a step that sends each one to the reviewer you choose. One client, a mouse model company that sells to research scientists, went from 13 website inquiries a month to about 64 in eight months. Prices start at $3,000 a month, and every price is on the site.",
       "Founders, chief executive officers, chief scientific officers, VP of research, VP of regulatory, VP of communications, VP of commercial, medical and legal and regulatory reviewers, principal investigators running startups, and directors of translational research are not allergic to marketing. You are allergic to someone sanding off the scientific conditions until a result means something it did not mean. Fair.",
       "The honest big thing is that a biotech page can be technically literate and still be commercially unsafe. A claim has an audience, a qualification, a source, and sometimes a regulatory boundary. FDA's guidance on [communications about unapproved uses of approved or cleared medical products](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/communications-firms-health-care-providers-regarding-scientific-information-unapproved-uses) is not a suggestion to let promotional work wander into medical affairs.",
       "We help your team publish work that a researcher can read without wincing and a reviewer can trace without detective work. You get a production process that respects translational research, commercial deadlines, and the person who has to approve the final asset.",
+      "Many biotech operators also have a device arm, a diagnostics pipeline, or a hospital-facing service line. If that is you, our [medical devices page](/industries/medical-devices), [life sciences tools and diagnostics page](/industries/life-sciences-tools-and-diagnostics), and [healthcare page](/industries/healthcare) show what changes when the buyer is a lab director, a director of clinical affairs, or a practice administrator.",
     ],
     callout: {
       label: "Typical starting point",
@@ -264,9 +268,32 @@ export const industries: Page[] = [
       ]},
       { h2: "The honest limits", body: [
         "We cannot manufacture clinical data, accelerate an FDA decision, or make an early research signal into proof of patient benefit. We cannot make an investigator answer inquiries faster. And we cannot replace your medical, legal, regulatory, or scientific judgment. We can give those people a process that is easier to inspect and run.",
+        "Investigators who never reply is [outreach to PIs that gets ignored](/problems/outreach-to-pis-gets-ignored). New work that only comes from old labs is [new business that only comes from referrals](/problems/cro-new-business-only-from-referrals). A year that follows the grant notices is [revenue that tracks the grant calendar](/problems/revenue-tracks-the-grant-calendar). The model term is a [conditional knockout](/glossary/conditional-knockout). What to publish each month is [what a small biotech should publish](/answers/what-content-should-a-biotech-publish-monthly).",
       ]},
       { h2: "Disclaimer", body: [
         "This piece is a marketing operating framework, not legal advice. Promotional review for biotech depends on your regulatory status, product stage, and applicable FDA guidance. The controlling sources include the [FDA guidance on communications from firms about unapproved uses](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/communications-firms-health-care-providers-regarding-scientific-information-unapproved-uses) and your company's approved labeling. Consult qualified regulatory counsel before implementing any of the above.",
+      ]},
+      { h2: "How to choose a biotech marketing agency", body: [
+        "Questions to ask any agency you're considering, and how we'd answer them.",
+      ], subs: [
+        { h3: "Does anyone there actually understand our science?", body: [
+          "Yes. Our COO is a trained molecular biologist who sold research products for more than ten years and ran operations for a medical school department. Our writers follow the rules she set for scientific terms.",
+        ]},
+        { h3: "Who checks our claims before anything goes live?", body: [
+          "Someone on your side. For $500 to $1,200 a month plus a setup fee, we send every piece to the medical, legal, and regulatory reviewer you choose, keep a record of who approved what, and keep a library of approved claims your team can reuse. We don't supply the reviewer. That person should work for you, not for us.",
+        ]},
+        { h3: "How will we know it's working?", body: [
+          "We count meetings with qualified buyers that actually happened, and we tell you what each one cost. Before we start, we agree on what counts as qualified. We don't promise a number of meetings. Here's [how we define a qualified meeting](/resources/meeting-quality-standard).",
+        ]},
+        { h3: "What will it cost, and how long do we sign for?", body: [
+          "Every price is on our [pricing page](/pricing). Plans start at $3,000 a month with a 12 month agreement, and we rebuild your website as part of it, a $15,000 project.",
+        ]},
+        { h3: "Who will actually do the work?", body: [
+          "One senior team does every part of it, from getting you found in search to booking the meeting. You won't be passed between vendors.",
+        ]},
+        { h3: "What do we keep if we stop working together?", body: [
+          "All of it. Your contact lists, your copy, and your call recordings belong to you from the first day, and your ads run in a Google Ads account you own.",
+        ]},
       ]},
     ],
     showQuotePlaceholder: true,
@@ -362,6 +389,7 @@ export const industries: Page[] = [
       ]},
       { h2: "The honest limits", body: [
         "We cannot obtain clearance or approval, create clinical evidence, or turn an investigational product into a commercially promotable device. We cannot override your regulatory reviewer or your quality director. We also cannot make a capital purchase happen before the hospital's budget and value analysis process permit it. We can make the commercial work clearer and easier to defend.",
+        "A code search that law firms win is [buyers search a code and law firms outrank the maker](/problems/government-sites-and-law-firms-outrank-us). Documentation that never becomes a conversation is [buyers who read the docs and never talk to sales](/problems/buyers-read-the-docs-and-never-talk-to-sales). The approved language behind the page is a [claim library](/glossary/claim-library).",
       ]},
       { h2: "Disclaimer", body: [
         "This piece is a marketing operating framework, not legal advice. Regulatory obligations for a medical device depend on classification, indication, and the applicable FDA pathway. The controlling sources include the FDA's [510(k) pathway page](https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/premarket-notification-510k), the [PMA pathway page](https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/premarket-approval-pma), and your device's cleared or approved labeling. Consult qualified regulatory counsel before implementing any of the above.",
@@ -454,6 +482,7 @@ export const industries: Page[] = [
       ]},
       { h2: "The honest limits", body: [
         "We cannot manufacture a validation study, make a product fit an experiment it does not fit, or fix an unreliable supply chain. We cannot replace a thoughtful applications scientist in a technical conversation. We can make the evidence easier to find, the inquiry easier to route, and the commercial follow-up easier to run.",
+        "A category nobody has typed yet is [not sure anyone searches for what you sell](/problems/not-sure-anyone-searches-for-what-we-sell). Scientists asked to run the marketing is [scientists who know nothing about marketing](/problems/scientists-who-know-nothing-about-marketing). The page type is an [entity page](/glossary/entity-page). Who places the order is [who buys in an academic lab](/answers/who-is-the-buyer-in-an-academic-lab). How they find a provider is [how researchers find a CRO](/answers/how-do-researchers-find-a-cro).",
       ]},
     ],
     showQuotePlaceholder: true,
@@ -494,6 +523,7 @@ export const industries: Page[] = [
       ]},
       { h2: "The package that matches the stage", body: [
         "Pre revenue, Ground State: a newsletter, a published article, and social every month so the company has a voice before it has a sales team. Seed with a budget for demand, Excitation: one Google Ads campaign and a landing page per audience, with a human reading the account weekly. Series A with a board asking for pipeline, Amplification: a dedicated person calling and emailing your prospects with meetings verified against the meeting quality standard, multiple campaigns, and a weekly call.",
+        "Pipeline before the hire is [pipeline before the first sales hire](/problems/need-pipeline-before-the-first-sales-hire). A retainer that does not fit the round is [a retainer you cannot afford yet](/problems/cannot-afford-a-ten-thousand-dollar-agency-retainer). A board that wants numbers you do not have is [pipeline numbers you cannot produce yet](/problems/board-wants-pipeline-numbers-we-cannot-produce). A hire that did not stick is [a sales hire that did not work out](/problems/sales-hire-did-not-work-out). Agency versus a seat is [hiring a salesperson versus outsourcing](/compare/agency-vs-in-house).",
       ]},
     ],
     faqs: [
@@ -528,6 +558,7 @@ export const industries: Page[] = [
       ]},
       { h2: "Outbound that respects the room", body: [
         "Sequences aimed at the right 200 accounts rather than the easiest 20,000, with research per account and meetings qualified hard.",
+        "Referrals as the whole book is [business that only comes from referrals](/problems/all-our-business-comes-from-referrals). An in house marketer with no leads is [an in house marketer not generating leads](/problems/in-house-marketer-not-generating-leads). An agency that produced activity and no meetings is [a marketing agency that produced no leads](/problems/marketing-agency-not-producing-leads). Four vendors and no owner is [four vendors and nobody owns the number](/problems/too-many-vendors-nobody-accountable). What the work should cost is [what marketing should cost](/problems/do-not-know-what-marketing-should-cost).",
       ]},
     ],
     faqs: [
@@ -565,6 +596,7 @@ export const industries: Page[] = [
       ]},
       { h2: "Commercial accounts on purpose", body: [
         "Property managers, GCs, and facilities buyers reached with a real outbound program instead of waiting on bid boards.",
+        "Leads that arrive and sit is [leads that come in and nobody follows up](/problems/leads-come-in-but-nobody-follows-up). Locations that do not match is [uneven lead flow by location](/problems/multi-location-group-uneven-lead-flow). More jobs than the crews can take is [more leads than you can handle](/problems/more-leads-would-break-us). The map result is [a competitor who outranks you in the map pack](/problems/competitor-practice-outranks-us-in-the-map-pack). The lost step after the form is the [handoff](/glossary/handoff).",
       ]},
     ],
     faqs: [
@@ -600,6 +632,7 @@ export const industries: Page[] = [
       ]},
       { h2: "Brand worth the price point", body: [
         "Editorial photography direction, a site that sells the experience, and collateral that lets your sales team close at full rate.",
+        "A show that produces cards is [trade shows that produce cards, not meetings](/problems/trade-shows-produce-cards-not-meetings). A year that swings with the season is [revenue that is feast or famine](/problems/revenue-is-feast-or-famine). A meetings vendor set beside a full team is the [Belkins alternative](/compare/belkins-alternative). The first quarter of the term is [the 90 day ramp](/glossary/the-90-day-ramp).",
       ]},
     ],
     faqs: [

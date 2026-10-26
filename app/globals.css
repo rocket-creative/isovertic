@@ -260,7 +260,8 @@ textarea.field { min-height: 96px; resize: vertical; }
   pointer-events: none;
   opacity: 0;
 }
-.hero-glow-spot .hero-ch {
+.hero-glow-spot .hero-ch::before {
+  content: attr(data-ch);
   background-image: radial-gradient(circle 34px at var(--lx, -80px) var(--ly, -80px), #f4fbff 0%, #8fd4ff 38%, rgba(10, 177, 255, 0) 72%);
   background-clip: text;
   -webkit-background-clip: text;

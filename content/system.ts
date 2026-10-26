@@ -78,6 +78,11 @@ export const home = {
     "One senior team owns every step. We report the cost of each qualified meeting.",
     "We hand the buyer already searching to your sales team. The work has to hold up for a scientific, clinical, or compliance reader.",
   ],
+  heroProof: {
+    text: "One client, Ingenious Targeting Laboratory, went from 13 website inquiries a month to about 64 in eight months.",
+    label: "See the results",
+    href: "/results",
+  },
   who: {
     h2: "Who we work with",
     intro: "We serve five kinds of companies:",

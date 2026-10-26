@@ -6,11 +6,12 @@ import { serviceDiscipline, servicePipelineCta } from "./voice-audit";
 export const services: Page[] = [
   {
     slug: "outbound-appointment-setting",
-    title: "Qualified Meetings on Your Calendar, Each With a Written Brief | ISOVERTIC",
-    dateModified: "2026-09-10",
+    title: "B2B Appointment Setting for Biotech, Pharma, and Healthcare | ISOVERTIC",
+    dateModified: "2026-10-26",
     metaDescription: "Outbound appointment setting for healthcare, pharma, biotech, medical devices, and life sciences. Qualified meetings on your calendar, each with a written brief.",
     eyebrow: "Outbound",
     h1: "Qualified meetings on your calendar, each with a written brief.",
+    serviceName: "B2B appointment setting",
     lead: "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences tools and diagnostics. We run outbound appointment setting as part of the same team that built your site, wrote your material, and supports the sales conversation after the meeting. CEOs, presidents, chief operating officers, VPs of commercial, VPs of marketing, and founders hire us when their salespeople are spending too much time prospecting and not enough time in real conversations with a chief medical officer, a chief scientific officer, a director of billing, a principal investigator, or a practice administrator.",
     callout: {
       label: "Where this lives",
@@ -52,7 +53,7 @@ export const services: Page[] = [
       ]},
     ],
     faqs: [
-      { q: "How many meetings per month can we expect?", a: "No. We do not promise a specific number of meetings a month. We define what counts, we verify each meeting, and we report cost per qualified meeting. The definition is on the meeting quality standard page." },
+      { q: "How many meetings per month can we expect?", a: "We do not promise a specific number of meetings a month. We define what counts, we verify each meeting, and we report cost per qualified meeting. The definition is on the meeting quality standard page." },
       { q: "Do you use AI for outbound?", a: "We use automation for research, list building, and sequencing. Conversations that qualify and book are run by people, because your buyers can tell the difference." },
       { q: "Do we need your other services to get appointment setting?", a: "The website rebuild is included in every package, and Book starts after Build when the current site cannot confirm what the email claims. Outbound pointed at a site that supports the pitch converts better, because the prospect's diligence confirms the outreach instead of contradicting it." },
       { q: "Who owns the data and sequences?", a: "You do. Lists, copy, and recordings are yours from day one." },

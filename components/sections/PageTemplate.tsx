@@ -30,7 +30,7 @@ export function PageTemplate({
     <>
       <JsonLd
         data={[
-          ld ?? serviceLd(page.h1, page.metaDescription, path),
+          ld ?? serviceLd(page.serviceName ?? page.h1, page.metaDescription, path),
           faqLd(page.faqs),
           breadcrumbLd([{ name: "Home", path: "/" }, crumbRoot, { name: page.eyebrow, path }]),
         ]}
@@ -109,6 +109,33 @@ export function PageBlocks({ blocks }: { blocks: Block[] }) {
                 <li key={x} className="flex gap-3"><span aria-hidden="true">·</span><span><LinkedCopy text={x} /></span></li>
               ))}
             </ul>
+          )}
+          {s.table && (
+            <div className="mt-6 overflow-x-auto">
+              <table className="w-full min-w-[36rem] border-collapse text-left text-[15px] leading-relaxed text-ink/90">
+                <caption className="sr-only">{s.table.caption}</caption>
+                <thead>
+                  <tr>
+                    {s.table.columns.map((c) => (
+                      <th key={c} scope="col" className="border-b border-rule py-3 pr-6 font-medium text-ink">{c}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {s.table.rows.map((r) => (
+                    <tr key={r[0]}>
+                      {r.map((cell, k) =>
+                        k === 0 ? (
+                          <th key={k} scope="row" className="border-b border-rule py-3 pr-6 align-top font-medium text-ink">{cell}</th>
+                        ) : (
+                          <td key={k} className="border-b border-rule py-3 pr-6 align-top"><LinkedCopy text={cell} /></td>
+                        ),
+                      )}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           )}
           {s.subs?.map((sub) => (
             <div key={sub.h3} className="mt-10">

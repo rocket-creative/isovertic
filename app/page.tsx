@@ -21,10 +21,11 @@ import { TrackedLink } from "@/components/ui/TrackedLink";
 import { ClientQuote, LinkedCopy } from "@/components/ui/ClientQuote";
 import IsoSphere from "@/components/ui/IsoSphere";
 import type { Metadata } from "next";
+import { metaDescription, metaTitle } from "@/lib/meta";
 
 export const metadata: Metadata = {
-  title: { absolute: "ISOVERTIC | Growth Agency for Healthcare, Pharma, Biotech, Medical Devices, and Life Sciences" },
-  description: "Isovertic is the growth agency for healthcare, pharma, biotech, medical devices, and life sciences. We build the website, run the advertising, publish the content, and book the meetings.",
+  title: { absolute: metaTitle("Growth Agency for Healthcare and Life Science | ISOVERTIC") },
+  description: metaDescription("Marketing for healthcare, pharma, biotech, and life science companies. One team builds your website, runs your ads, writes your content, and books meetings with buyers. Prices are on the site."),
   alternates: { canonical: "/" },
 };
 
@@ -51,6 +52,10 @@ export default function Home() {
           </h1>
           <div className="relative z-10 mt-6 max-w-[46rem]">
             <p className="hero-sub text-[16px] leading-[1.6] text-ink-soft sm:text-[17px]">{home.sub.join(" ")}</p>
+            <p className="hero-sub mt-4 text-[16px] font-medium leading-[1.6] text-ink sm:text-[17px]">
+              {home.heroProof.text}{" "}
+              <Link href={home.heroProof.href} className="underline underline-offset-4 hover:text-navy">{home.heroProof.label}</Link>
+            </p>
             <div className="pointer-events-auto">
               <TrustStrip />
               <div className="hero-cta mt-8 flex flex-wrap items-center gap-5 sm:gap-8">

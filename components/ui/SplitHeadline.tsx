@@ -4,14 +4,14 @@ export function SplitHeadline({ text, emphasis = "", highlight = "", className =
   const marks = new Set(emphasis.toLowerCase().split(" ").filter(Boolean));
   const lights = new Set(highlight.toLowerCase().split(" ").filter(Boolean));
   return (
-    <span className={className} aria-label={text} role="text">
+    <span className={className}>
       {text.split(" ").map((word, i) => {
         const token = word.replace(/[^a-z]/gi, "").toLowerCase();
         const marked = marks.has(token);
         const lit = !marked && lights.has(token);
         const enter = delay + i * 70;
         return (
-          <span key={i} className="inline-block overflow-hidden align-bottom" aria-hidden="true">
+          <span key={i} className="inline-block overflow-hidden align-bottom">
             {marked ? (
               <EmphasisGlow word={word} delay={enter} />
             ) : (
