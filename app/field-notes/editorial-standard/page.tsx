@@ -8,10 +8,11 @@ import { CTABand } from "@/components/sections/CTABand";
 import { FounderStrip } from "@/components/sections/FounderStrip";
 import { breadcrumbLd, resourceLd } from "@/lib/schema";
 import { editorialStandard as e, hub } from "@/content/thought";
+import { metaDescription, metaTitle } from "@/lib/meta";
 
 export const metadata: Metadata = {
-  title: { absolute: e.title },
-  description: e.description,
+  title: { absolute: metaTitle(e.title) },
+  description: metaDescription(e.description),
   alternates: { canonical: e.path },
 };
 

@@ -2,6 +2,7 @@ import { industries, getIndustry } from "@/content/industries";
 import { PageTemplate } from "@/components/sections/PageTemplate";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { metaDescription, metaTitle } from "@/lib/meta";
 
 // Healthcare has its own route at app/industries/healthcare with the compliance posture; it is excluded here.
 export function generateStaticParams() {
@@ -12,7 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const page = getIndustry(slug);
   if (!page) return {};
-  return { title: { absolute: page.title }, description: page.metaDescription, alternates: { canonical: `/industries/${slug}` } };
+  return { title: { absolute: metaTitle(page.title) }, description: metaDescription(page.metaDescription), alternates: { canonical: `/industries/${slug}` } };
 }
 
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {

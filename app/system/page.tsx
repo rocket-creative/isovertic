@@ -14,8 +14,8 @@ import { method as c } from "@/content/method";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "How the ISOVERTIC System Works | Five Steps That Book Meetings" },
-  description: "The five steps of the ISOVERTIC pipeline: Build, Rank, Run, Buy, and Book, plus Educate as a training add-on. One team for healthcare, pharma, biotech, medical devices, and life sciences.",
+  title: { absolute: "How the ISOVERTIC System Works | ISOVERTIC" },
+  description: "Five steps: Build, Rank, Run, Buy, and Book, plus training. One team for healthcare, pharma, biotech, medical devices, and life sciences.",
   alternates: { canonical: "/system" },
 };
 

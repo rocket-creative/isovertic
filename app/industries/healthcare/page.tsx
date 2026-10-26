@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { metaDescription, metaTitle } from "@/lib/meta";
 import { PageHero, Section } from "@/components/sections/Shell";
 import { RevealBlock } from "@/components/ui/RevealBlock";
 import { Arrow } from "@/components/ui/Arrow";
@@ -23,8 +24,8 @@ import { healthcareComplianceOfficer } from "@/content/voice-audit";
 const page = getIndustry("healthcare")!;
 
 export const metadata: Metadata = {
-  title: { absolute: page.title },
-  description: page.metaDescription,
+  title: { absolute: metaTitle(page.title) },
+  description: metaDescription(page.metaDescription),
   alternates: { canonical: m.path },
 };
 

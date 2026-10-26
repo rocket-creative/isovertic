@@ -13,7 +13,7 @@ export const about = {
   buying: {
     h2: "What you are buying",
     body: [
-      "You are buying a written method the company runs for you, and the team trained to run it. The work keeps going when one person is in another meeting.",
+      "You are buying a written method the company runs on your account, and the senior team trained to run it. Your account keeps moving when George is in a meeting with another client, because that team already knows the next step.",
       "George engineered the method over 30 years of building the systems companies sell through. Kristen wrote it down, trained the team to run it, and built the operation that keeps it consistent on every account. Every engagement runs the same method. You get a website a buyer who is already looking for what you sell can trust, advertising aimed only at those people, and a meeting on your calendar with a written brief for the person who takes the call. The five steps are on the system page.",
       "The method is written down. The team is trained on it. George stays available when a question needs him.",
     ],

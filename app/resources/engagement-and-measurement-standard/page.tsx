@@ -12,6 +12,7 @@ import { DownloadCard } from "@/components/standard/DownloadCard";
 import { ChannelTimingTable, SalesCycleTable, TwoClockScorecard, EngagementStages, ChurnCallout } from "@/components/standard/Tables";
 import { breadcrumbLd, faqLd, resourceLd } from "@/lib/schema";
 import { site } from "@/lib/site";
+import { metaDescription, metaTitle } from "@/lib/meta";
 import {
   standardMeta as m,
   headings as h,
@@ -27,10 +28,10 @@ import {
 } from "@/content/standard";
 
 export const metadata: Metadata = {
-  title: { absolute: m.title },
-  description: m.description,
+  title: { absolute: metaTitle(m.title) },
+  description: metaDescription(m.description),
   alternates: { canonical: m.path },
-  openGraph: { type: "article", title: m.title, description: m.description, images: [site.images.og] },
+  openGraph: { type: "article", title: metaTitle(m.title), description: metaDescription(m.description), images: [site.images.og] },
 };
 
 export default function EngagementStandard() {

@@ -10,10 +10,11 @@ import { LinkedCopy } from "@/components/ui/ClientQuote";
 import { AuditWizard } from "@/components/audit/AuditWizard";
 import { breadcrumbLd, webApplicationLd } from "@/lib/schema";
 import { auditMeta as m } from "@/content/audit";
+import { metaDescription, metaTitle } from "@/lib/meta";
 
 export const metadata: Metadata = {
-  title: { absolute: m.title },
-  description: m.description,
+  title: { absolute: metaTitle(m.title) },
+  description: metaDescription(m.description),
   alternates: { canonical: m.path },
 };
 

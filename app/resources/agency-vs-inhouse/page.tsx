@@ -13,12 +13,13 @@ import { TrackedLink } from "@/components/ui/TrackedLink";
 import { breadcrumbLd, faqLd, resourceLd } from "@/lib/schema";
 import { cfoGuide as g } from "@/content/decision-guides";
 import { site } from "@/lib/site";
+import { metaDescription, metaTitle } from "@/lib/meta";
 
 export const metadata: Metadata = {
-  title: { absolute: g.title },
-  description: g.description,
+  title: { absolute: metaTitle(g.title) },
+  description: metaDescription(g.description),
   alternates: { canonical: g.path },
-  openGraph: { type: "article", title: g.title, description: g.description, images: [site.images.og] },
+  openGraph: { type: "article", title: metaTitle(g.title), description: metaDescription(g.description), images: [site.images.og] },
 };
 
 export default function AgencyVsInHouse() {

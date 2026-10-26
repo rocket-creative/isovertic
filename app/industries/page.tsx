@@ -10,7 +10,7 @@ import { breadcrumbLd } from "@/lib/schema";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "Industries: Healthcare, Pharma, Biotech, Medical Devices, Life Sciences | ISOVERTIC" },
+  title: { absolute: "Healthcare, Pharma, Biotech, and Devices | ISOVERTIC" },
   description: "The growth agency for healthcare, pharma, biotech, medical devices, and life sciences. How the five-step system flexes for each buyer.",
   alternates: { canonical: "/industries" },
 };

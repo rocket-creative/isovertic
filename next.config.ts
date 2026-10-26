@@ -1,10 +1,9 @@
 import type { NextConfig } from "next";
 
-// Retired field-notes URLs from the pre-2026-09 archive. Every old article 301s to the hub.
+// Retired field-notes URLs from the pre-2026-09 archive. These 301 to the hub.
+// Three recovered URLs below keep their own destinations.
 // Do not consolidate these into a single catch-all: each URL needs its own entry for SEO clarity.
 const retiredFieldNotes = [
-  "abstrakt-marketing-group-alternatives",
-  "best-appointment-setting-companies",
   "ctv-advertising-small-business",
   "growth-partner-vs-marketing-agency",
   "hipaa-compliant-lead-generation",
@@ -20,7 +19,6 @@ const retiredFieldNotes = [
   "the-mql-is-a-fiction",
   "the-vendor-stack-tax",
   "why-quarterly-revenue-reviews-break-long-cycle-marketing",
-  "why-your-pipeline-is-inconsistent",
 ] as const;
 
 const nextConfig: NextConfig = {
@@ -35,6 +33,9 @@ const nextConfig: NextConfig = {
         destination: "/field-notes",
         permanent: true,
       })),
+      { source: "/field-notes/abstrakt-marketing-group-alternatives", destination: "/compare/abstrakt-marketing-group-alternative", permanent: true },
+      { source: "/field-notes/best-appointment-setting-companies", destination: "/outbound-appointment-setting", permanent: true },
+      { source: "/field-notes/why-your-pipeline-is-inconsistent", destination: "/field-notes/pipeline-ownership-gap", permanent: true },
       { source: "/how-it-works", destination: "/system", statusCode: 301 },
       { source: "/six-steps", destination: "/system", statusCode: 301 },
       { source: "/industries/technical-b2b", destination: "/industries/medical-devices", statusCode: 301 },

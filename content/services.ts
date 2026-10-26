@@ -6,7 +6,7 @@ import { serviceDiscipline, servicePipelineCta } from "./voice-audit";
 export const services: Page[] = [
   {
     slug: "outbound-appointment-setting",
-    title: "B2B Appointment Setting for Biotech, Pharma, and Healthcare | ISOVERTIC",
+    title: "Appointment Setting for Biotech and Pharma | ISOVERTIC",
     dateModified: "2026-10-26",
     metaDescription: "Outbound appointment setting for healthcare, pharma, biotech, medical devices, and life sciences. Qualified meetings on your calendar, each with a written brief.",
     eyebrow: "Outbound",
@@ -47,6 +47,7 @@ export const services: Page[] = [
         "Outbound cannot repair a weak website or an unclear offer. If a prospect clicks through and cannot confirm what the message said, the meeting rate and the show-rate both suffer. We sequence the website work first when it is needed.",
         "It cannot turn a poor-fit list into qualified meetings through persistence alone. Your company must be able to say who it can help, what problem it solves, and who owns the calendar on your side. Meetings that fail the agreed standard do not count. It is not a promise that every scheduled person will buy.",
         "A scheduled call is the beginning of sales work, not its replacement. Your team still has to prepare, show up, follow up, and close.",
+        "If the meetings are booked and then missed, start with [meetings that no show](/problems/appointment-setter-books-meetings-that-no-show). If the emails get nothing back, the usual cause is [the list, not the copy](/problems/cold-email-gets-no-replies). If the founder is still the only closer, read [founder is the only salesperson](/problems/founder-is-the-only-salesperson). The bar we use is a [qualified meeting](/glossary/qualified-meeting). A meetings only vendor, set beside this work, is the [Abstrakt alternative](/compare/abstrakt-marketing-group-alternative).",
       ]},
       { h2: "What we don't do", body: [
         "We are not a dial-count vendor, a general promotion shop, or a rented team that reports sent emails without owning the handoff. We do not use generic messages that could have been sent by anyone. We do not book an unqualified call to hit a count on a monthly report.",
@@ -68,7 +69,7 @@ export const services: Page[] = [
   },
   {
     slug: "google-ads",
-    title: "Google Ads Measured in Booked Meetings, Not Clicks | ISOVERTIC",
+    title: "Google Ads Measured in Booked Meetings | ISOVERTIC",
     dateModified: "2026-09-10",
     metaDescription: "Google Ads for healthcare, pharma, biotech, medical devices, and life sciences, measured in booked meetings and cost per meeting, not clicks.",
     eyebrow: "Paid search",
@@ -106,6 +107,7 @@ export const services: Page[] = [
         "Below about $1,000 per month in Google Ads spend, there is usually not enough activity for reliable learning. We will not take a $300 monthly spend and promise a dependable meeting rate. Ground State plus published content is the honest recommendation at that level.",
         "Paid search can bring a prospect to the door. It cannot make your sales team respond, qualify the inquiry, or close. The number we report is cost per booked meeting because it is closer to the work your team actually does. Sales discipline after the meeting appears is still your job.",
         "This works best when your buyer already searches in specific language. If your sale depends on teaching an entirely new category, Google Ads is often not the first place to spend.",
+        "When cost per lead keeps climbing, the writeup is [Google Ads cost per lead](/problems/google-ads-cost-per-lead-going-up). Healthcare accounts Google will not run are usually a [certification problem](/problems/google-ads-will-not-run-our-healthcare-ads). If you cannot tell which channel produced the meeting, read [which marketing is working](/problems/cannot-tell-which-marketing-is-working). The spend floor is [minimum ad spend](/answers/what-is-the-minimum-ad-spend). The number we report is [cost per meeting](/glossary/cost-per-meeting).",
       ]},
       { h2: "What we don't do", body: [
         "We are not a click-buying vendor that emails an unread dashboard once a month. We are not a general promotion shop that runs ads to an unprepared home page. We do not report a high click count as if it were a sales result. We do not conceal the ad spend inside a management fee. You see it, approve it, and can judge it beside the meeting record.",
@@ -127,7 +129,7 @@ export const services: Page[] = [
   },
   {
     slug: "seo-content",
-    title: "Articles, Newsletters, and Video That Get Your Company Found and Cited | ISOVERTIC",
+    title: "Articles and Video That Get You Found | ISOVERTIC",
     dateModified: "2026-09-10",
     metaDescription: "Articles, newsletters, social posts, and video for healthcare, pharma, biotech, medical devices, and life sciences. Publishing that a scientist or clinician can find, cite, and forward.",
     eyebrow: "Search and content",
@@ -165,6 +167,7 @@ export const services: Page[] = [
       { h2: "The honest limit", body: [
         "Published work compounds slowly. You may see the first signs that pieces are being found around month three. The effect usually gets clearer from month six. If you need meetings sooner, pair publishing with a Google Ads campaign or a dedicated person calling and emailing your prospects. We will not tell a founder that one article repairs a quarter. It does not.",
         "This moves fastest when your buyers already search in specific language: a gene, a regulation, a billing code, a device model, a clinical protocol. If your category is so new that nobody is looking for it yet, publishing alone cannot put a meeting on the calendar. The program has to lead with calls, emails, and LinkedIn to reach the people who should own what you sell, while the published work builds the recognition that makes those conversations easier. We will tell you that before you sign.",
+        "If the company does not show up for what it sells, start with [we do not show up on Google](/problems/we-do-not-show-up-on-google). Researchers missing the product is [researchers cannot find our products](/problems/researchers-cannot-find-our-products-on-google). Competitors appearing in chat tools is [competitors show up in ChatGPT](/problems/competitors-show-up-in-chatgpt-and-we-do-not). When the answer box takes the click, read [Google answers the question and nobody clicks](/problems/google-ai-answers-the-question-and-nobody-clicks). The glossary term is [answer engine optimization](/glossary/answer-engine-optimization).",
       ]},
       { h2: "What we don't do", body: [
         "We are not a volume writing vendor, a general promotion shop, or a studio that ships clever posts without knowing what happens after the click. We do not publish clinical or scientific claims your reviewer has not seen. We do not hand your team a topic spreadsheet and ask them to turn it into work. We plan, write, review, publish, and report.",
@@ -185,7 +188,7 @@ export const services: Page[] = [
   },
   {
     slug: "web-development",
-    title: "The Website That Works Like Your Best Salesperson | ISOVERTIC",
+    title: "The Website That Sells Like Your Best Rep | ISOVERTIC",
     dateModified: "2026-09-10",
     metaDescription: "Website rebuilds for healthcare, pharma, biotech, medical devices, and life sciences. Included in every package. You own the code and the domain.",
     eyebrow: "Build",
@@ -224,6 +227,7 @@ export const services: Page[] = [
       { h2: "The honest limit", body: [
         "We build on our own engineering stack. If your company must stay on Wix or Squarespace, we are not the right shop, and we will say so before you pay us anything.",
         "A rebuilt website does not replace a clear offer or a sales team that responds to buyers. It gives both a better place to land. If nobody is searching for your category yet, the site cannot create those searches on its own. If your offer is still unsettled, we will help identify what needs to be resolved, but design alone will not resolve it.",
+        "Traffic with no inquiry is [a website that gets traffic but no leads](/problems/website-gets-traffic-but-no-leads). A vendor who still holds the login is [the agency that controls the site](/problems/old-website-and-the-agency-controls-it). Engineers who will not own the site is [engineers do not want to own the marketing site](/problems/engineers-do-not-want-to-own-the-marketing-site). How the HTML is built is [server rendering](/glossary/server-rendering). Whether the rebuild is in the fee is [is the website included](/answers/is-the-website-included-in-the-monthly-fee).",
         "Google's own guidance says search visibility takes four months to a year to move after a site changes, per [Google Search Central](https://developers.google.com/search/docs/appearance/site-names). Sales cycles in healthcare, pharma, biotech, medical devices, and life sciences are often long, so pipeline and revenue measured before a year are not a fair read of the work. The 12-month engagement is set to that, not to a billing convenience.",
       ]},
       { h2: "What we don't do", body: [
@@ -246,7 +250,7 @@ export const services: Page[] = [
   },
   {
     slug: "tv-ctv-advertising",
-    title: "Streaming Television, Broadcast, and Radio That Support the Sale | ISOVERTIC",
+    title: "Streaming TV, Broadcast, and Radio | ISOVERTIC",
     dateModified: "2026-09-10",
     metaDescription: "Streaming television, broadcast, and radio for healthcare, pharma, biotech, medical devices, and life sciences when the sales math supports it.",
     eyebrow: "Media",
@@ -284,6 +288,7 @@ export const services: Page[] = [
         "Media is worth testing when being known helps the sale. It fits regional healthcare, high-consideration business sales, and companies whose buyers need repeated evidence that the company is real and established. It is not the right first move for a company that still cannot be found by people actively searching for what it sells.",
         "A television spot does not replace a clear offer, a useful website, or a salesperson who follows up. It can support all three. It cannot rescue any of the three. We will say no to a media test when the underlying sales work is not ready.",
         "The evidence is directional, not a laboratory instrument. A buyer may see a spot, then search a week later, then ask a colleague, then take a call two months after that. We can measure meaningful movement and compare markets. We will not claim that one viewing event closed a complex healthcare sale.",
+        "Likes without inquiries is [posts that do not become inquiries](/problems/blog-and-social-active-but-no-inquiries). The format is [connected TV](/glossary/connected-tv). How we read the result is [exposed versus control](/glossary/exposed-versus-control). A local test budget is in [what connected TV costs](/answers/how-much-does-ctv-advertising-cost-for-a-regional-business).",
       ]},
       { h2: "What we don't do", body: [
         "We are not a media vendor that sells inventory without asking what happens after the prospect visits your site. We are not a creative shop looking for an award entry. We do not recommend television because the founder likes television. We do not bury spend under vague fees. You can see the plan, the placements, the creative work, and the report.",
@@ -346,6 +351,7 @@ export const services: Page[] = [
         "Design will not fix an unclear offer, unsupported claims, or a sales team that does not follow up. It can make a strong offer more legible and credible. It cannot make a weak promise true.",
         "It also cannot replace the evidence a scientific or clinical sale requires. A medical director still needs clinical support. A principal investigator still needs technical detail. A director of billing still needs a plain explanation of the operational change. Good design makes those answers easier to find and use. It does not ask the buyer to accept less proof.",
         "If all you need is a logo with no connection to the site, the sales material, or the message, we are probably not the right shop. There are excellent independent designers for that work, and we will say so rather than force a larger program into a smaller problem.",
+        "A new name that killed the pipeline is [a rebrand that killed the pipeline](/problems/rebrand-or-new-name-killed-the-pipeline). Looking small beside a global competitor is [we look small next to the global CROs](/problems/we-look-small-next-to-global-cros). A rep who cannot explain the work is [a sales rep who cannot explain the science](/problems/sales-rep-cannot-explain-the-science). The source list behind the visuals is a [claim library](/glossary/claim-library). A second product on the same team is [launching a second brand](/problems/launching-a-second-brand-with-the-same-team).",
       ]},
       { h2: "What we don't do", body: [
         "We are not a creative shop that measures success by how a piece looks in a portfolio. We are not a general promotion shop that starts with a mood board and discovers the offer later. We do not make a deck beautiful while leaving its claims unclear. We do not use design to cover for missing proof.",

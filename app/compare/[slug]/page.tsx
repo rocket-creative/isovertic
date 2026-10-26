@@ -2,6 +2,7 @@ import { compares, getCompare } from "@/content/compare";
 import { PageTemplate } from "@/components/sections/PageTemplate";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { metaDescription, metaTitle } from "@/lib/meta";
 import { comparePageLd } from "@/lib/schema";
 
 export function generateStaticParams() {
@@ -12,7 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const page = getCompare(slug);
   if (!page) return {};
-  return { title: { absolute: page.title }, description: page.metaDescription, alternates: { canonical: `/compare/${slug}` } };
+  return { title: { absolute: metaTitle(page.title) }, description: metaDescription(page.metaDescription), alternates: { canonical: `/compare/${slug}` } };
 }
 
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {

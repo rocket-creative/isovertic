@@ -10,6 +10,7 @@ import { personLd, breadcrumbLd } from "@/lib/schema";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { metaDescription, metaTitle } from "@/lib/meta";
 
 export function generateStaticParams() {
   return people.map((p) => ({ slug: p.slug }));
@@ -19,7 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const p = getPerson(slug);
   if (!p) return {};
-  return { title: { absolute: `${p.name}, ${p.title} | ISOVERTIC` }, description: p.short, alternates: { canonical: `/people/${slug}` } };
+  return { title: { absolute: metaTitle(`${p.name}, ${p.title}`) }, description: metaDescription(p.short), alternates: { canonical: `/people/${slug}` } };
 }
 
 export default async function PersonPage({ params }: { params: Promise<{ slug: string }> }) {

@@ -1,12 +1,18 @@
-// Title and description rules for generated pages (answers, glossary).
-// Title: question first, brand suffix only when it fits inside 60 characters. Description: whole sentences, about 155 characters.
+// Title tags stay inside 60 characters. Descriptions stay inside 155, under the 165 cutoff.
 
 const BRAND = " | ISOVERTIC";
 
 export function metaTitle(base: string): string {
-  const t = base.replace(/\?$/, "?").trim();
+  const raw = base.replace(/\s+/g, " ").trim();
+  if (raw.length <= 60) return raw;
+  const t = raw.replace(/\s*\|\s*ISOVERTIC\s*$/i, "").trim();
   if (t.length + BRAND.length <= 60) return t + BRAND;
-  return t;
+  const room = 60 - BRAND.length;
+  let cut = t.slice(0, room);
+  const space = cut.lastIndexOf(" ");
+  if (space >= 24) cut = cut.slice(0, space);
+  cut = cut.replace(/[\s,;:.]+$/g, "");
+  return cut + BRAND;
 }
 
 export function metaDescription(text: string, max = 155): string {
@@ -19,7 +25,8 @@ export function metaDescription(text: string, max = 155): string {
     out += s;
   }
   out = out.trim();
-  if (out.length >= 60) return out;
+  if (out.length >= 60 && out.length <= max) return out;
   const cut = clean.slice(0, max);
-  return cut.slice(0, cut.lastIndexOf(" ")).replace(/[,;:]$/, "") + ".";
+  const last = cut.lastIndexOf(" ");
+  return (last > 40 ? cut.slice(0, last) : cut).replace(/[,;:]$/, "") + ".";
 }

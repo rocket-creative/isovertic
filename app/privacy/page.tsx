@@ -4,10 +4,11 @@ import { JsonLd } from "@/components/ui/JsonLd";
 import { breadcrumbLd } from "@/lib/schema";
 import { privacy, legalUpdated } from "@/content/legal";
 import type { Metadata } from "next";
+import { metaDescription, metaTitle } from "@/lib/meta";
 
 export const metadata: Metadata = {
-  title: { absolute: privacy.title },
-  description: privacy.lead,
+  title: { absolute: metaTitle(privacy.title) },
+  description: metaDescription(privacy.lead),
   alternates: { canonical: "/privacy" },
 };
 

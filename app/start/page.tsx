@@ -9,10 +9,11 @@ import { tiers } from "@/content/tiers";
 import { startCopy } from "@/content/checkout";
 import { Arrow } from "@/components/ui/Arrow";
 import type { Metadata } from "next";
+import { metaDescription, metaTitle } from "@/lib/meta";
 
 export const metadata: Metadata = {
-  title: { absolute: startCopy.title },
-  description: startCopy.metaDescription,
+  title: { absolute: metaTitle(startCopy.title) },
+  description: metaDescription(startCopy.metaDescription),
   alternates: { canonical: "/start" },
   robots: { index: false, follow: true },
 };

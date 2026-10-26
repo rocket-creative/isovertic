@@ -4,10 +4,11 @@ import { JsonLd } from "@/components/ui/JsonLd";
 import { breadcrumbLd } from "@/lib/schema";
 import { terms, legalUpdated } from "@/content/legal";
 import type { Metadata } from "next";
+import { metaDescription, metaTitle } from "@/lib/meta";
 
 export const metadata: Metadata = {
-  title: { absolute: terms.title },
-  description: terms.lead,
+  title: { absolute: metaTitle(terms.title) },
+  description: metaDescription(terms.lead),
   alternates: { canonical: "/terms" },
 };
 

@@ -15,6 +15,7 @@ import { ReadTracker } from "@/components/thought/ReadTracker";
 import { essayTemplate as t, hub } from "@/content/thought";
 import { site } from "@/lib/site";
 import type { Metadata } from "next";
+import { metaDescription, metaTitle } from "@/lib/meta";
 
 export function generateStaticParams() {
   return getArticles().map((a) => ({ slug: a.slug }));
@@ -25,10 +26,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const a = getArticle(slug);
   if (!a) return {};
   return {
-    title: { absolute: `${a.title} | ISOVERTIC` },
-    description: a.description,
+    title: { absolute: metaTitle(a.title) },
+    description: metaDescription(a.description),
     alternates: { canonical: `/field-notes/${slug}` },
-    openGraph: { type: "article", title: a.title, description: a.description, images: [site.images.og] },
+    openGraph: { type: "article", title: metaTitle(a.title), description: metaDescription(a.description), images: [site.images.og] },
   };
 }
 

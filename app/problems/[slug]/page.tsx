@@ -3,6 +3,7 @@ import { PageTemplate } from "@/components/sections/PageTemplate";
 import { problemLd } from "@/lib/schema";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { metaDescription, metaTitle } from "@/lib/meta";
 
 export function generateStaticParams() {
   return problems.map((p) => ({ slug: p.slug }));
@@ -12,7 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const page = getProblem(slug);
   if (!page) return {};
-  return { title: { absolute: `${page.title} | ISOVERTIC` }, description: page.metaDescription, alternates: { canonical: `/problems/${slug}` } };
+  return { title: { absolute: metaTitle(page.title) }, description: metaDescription(page.metaDescription), alternates: { canonical: `/problems/${slug}` } };
 }
 
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {

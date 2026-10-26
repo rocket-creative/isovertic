@@ -10,6 +10,7 @@ import { breadcrumbLd, caseStudyLd } from "@/lib/schema";
 import { getCaseStudy, publishedCaseStudies, REPORTING_METHOD, STANDARD_LINK, STEP_ORDER, STUDY_WINDOW_NOTE } from "@/content/case-studies";
 import { site } from "@/lib/site";
 import type { Metadata } from "next";
+import { metaDescription, metaTitle } from "@/lib/meta";
 
 export function generateStaticParams() {
   return publishedCaseStudies.map((c) => ({ slug: c.slug }));
@@ -20,10 +21,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const c = getCaseStudy(slug);
   if (!c) return {};
   return {
-    title: { absolute: c.metaTitle },
-    description: c.metaDescription,
+    title: { absolute: metaTitle(c.metaTitle) },
+    description: metaDescription(c.metaDescription),
     alternates: { canonical: `/results/${slug}` },
-    openGraph: { type: "article", title: c.metaTitle, description: c.metaDescription, images: [site.images.og] },
+    openGraph: { type: "article", title: metaTitle(c.metaTitle), description: metaDescription(c.metaDescription), images: [site.images.og] },
   };
 }
 

@@ -9,10 +9,11 @@ import { IsoverticMove } from "@/components/sections/IsoverticMove";
 import { LinkedCopy } from "@/components/ui/ClientQuote";
 import { breadcrumbLd } from "@/lib/schema";
 import { resourcesIndex as r } from "@/content/decision-guides";
+import { metaDescription, metaTitle } from "@/lib/meta";
 
 export const metadata: Metadata = {
-  title: { absolute: r.title },
-  description: r.description,
+  title: { absolute: metaTitle(r.title) },
+  description: metaDescription(r.description),
   alternates: { canonical: r.path },
 };
 

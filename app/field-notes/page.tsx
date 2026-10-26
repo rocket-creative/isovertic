@@ -10,10 +10,11 @@ import { breadcrumbLd } from "@/lib/schema";
 import { FlagshipCard, DiagnosticCard, EssayArchive, AuthorGrid } from "@/components/thought/Cards";
 import { SubscribeCard } from "@/components/thought/SubscribeCard";
 import { hub } from "@/content/thought";
+import { metaDescription, metaTitle } from "@/lib/meta";
 
 export const metadata: Metadata = {
-  title: { absolute: hub.title },
-  description: hub.description,
+  title: { absolute: metaTitle(hub.title) },
+  description: metaDescription(hub.description),
   alternates: { canonical: hub.path },
 };
 

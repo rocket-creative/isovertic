@@ -10,10 +10,11 @@ import { ClientQuote } from "@/components/ui/ClientQuote";
 import Link from "next/link";
 import { Arrow } from "@/components/ui/Arrow";
 import type { Metadata } from "next";
+import { metaDescription, metaTitle } from "@/lib/meta";
 
 export const metadata: Metadata = {
-  title: { absolute: r.title },
-  description: r.description,
+  title: { absolute: metaTitle(r.title) },
+  description: metaDescription(r.description),
   alternates: { canonical: "/results" },
 };
 

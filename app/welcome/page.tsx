@@ -6,9 +6,10 @@ import { welcomeCopy } from "@/content/checkout";
 import { stripe, getPlan, isPlanKey } from "@/lib/stripe";
 import { Arrow } from "@/components/ui/Arrow";
 import type { Metadata } from "next";
+import { metaTitle } from "@/lib/meta";
 
 export const metadata: Metadata = {
-  title: { absolute: welcomeCopy.title },
+  title: { absolute: metaTitle(welcomeCopy.title) },
   robots: { index: false, follow: false },
   alternates: { canonical: "/welcome" },
 };

@@ -13,7 +13,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: { absolute: "Services That Book Meetings, Not Reports | ISOVERTIC" },
-  description: "The growth agency for healthcare, pharma, biotech, medical devices, and life sciences. Five connected steps: website, publishing, Google Ads, media, and outbound, with training as an add-on.",
+  description: "Website, publishing, Google Ads, media, and outbound, with training as an add-on. One team for healthcare, pharma, biotech, and life sciences.",
   alternates: { canonical: "/services" },
 };
 

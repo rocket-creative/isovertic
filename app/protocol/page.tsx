@@ -13,7 +13,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: { absolute: "Protocol. Train Your Team to Run the System | ISOVERTIC" },
-  description: "Protocol is the training offer for healthcare, pharma, biotech, medical devices, and life sciences. One or two days at your office, written operating instructions for your team. $5,000 or $20,000.",
+  description: "Protocol trains your team to run the system. One or two days at your office, with written instructions. $5,000 or $20,000.",
   alternates: { canonical: "/protocol" },
 };
 

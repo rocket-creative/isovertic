@@ -7,14 +7,15 @@ import { MobileCTABar } from "@/components/sections/MobileCTABar";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { organizationLd, peopleLd } from "@/lib/schema";
 import { site } from "@/lib/site";
+import { metaDescription, metaTitle } from "@/lib/meta";
 
 const display = localFont({ src: "./fonts/archivo-var.woff2", weight: "100 900", variable: "--font-display", display: "swap" });
 const body = localFont({ src: "./fonts/inter-var.woff2", weight: "100 900", variable: "--font-body", display: "swap" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: { default: "ISOVERTIC | Growth Agency for Healthcare, Pharma, Biotech, Medical Devices, and Life Sciences", template: "%s | ISOVERTIC" },
-  description: site.description,
+  title: { default: metaTitle("Growth Agency for Healthcare and Life Science | ISOVERTIC"), template: "%s | ISOVERTIC" },
+  description: metaDescription(site.description),
   openGraph: { siteName: site.name, type: "website", images: [site.images.og] },
   twitter: { card: "summary_large_image", images: [site.images.og] },
   robots: { index: true, follow: true },
