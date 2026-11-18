@@ -20,7 +20,10 @@ export type CopyBlock =
   | { type: "table"; head: string[]; rows: string[][] }
   | { type: "buttons"; links: CopyLink[] }
   | { type: "link"; link: CopyLink }
-  | { type: "choice" | "fields"; items: string[] };
+  | { type: "choice" | "fields"; items: string[] }
+  | { type: "diagram"; name: string }
+  | { type: "cards"; items: { kicker?: string; title: string; blocks: CopyBlock[] }[] }
+  | { type: "linkcards"; items: { title: string; text: string; link: CopyLink }[] };
 export type CopySection = { id: string; title: string; h2?: string; blocks: CopyBlock[]; faqs?: { q: string; a: string }[] };
 export type CopyPage = {
   name: string;
@@ -172,6 +175,7 @@ function build(): CopyPage[] {
         }
         if ((v = directive(line, "Closing line")) !== null) { flushPara(); blocks.push({ type: "closing", text: v }); continue; }
         if (directive(line, "Stat row") !== null) { flushPara(); pending = "stats"; continue; }
+        if ((v = directive(line, "Diagram")) !== null) { flushPara(); blocks.push({ type: "diagram", name: v }); continue; }
         if (/^Choice \(.*\):$/i.test(line)) { flushPara(); pending = "choice"; continue; }
         if (/^Fields:$/i.test(line)) { flushPara(); pending = "fields"; continue; }
         if (/^(Logo bar|Primary query):/i.test(line) || /^Short answer \(.*\):$/i.test(line)) continue;
@@ -180,7 +184,56 @@ function build(): CopyPage[] {
       flushPara();
       flushList();
     }
-    return { h2, blocks };
+    return { h2, blocks: group(blocks) };
+  }
+
+  // Layout grouping. A run of two or more "heading, text, link" groups becomes a row of cards,
+  // and a list where every item opens in bold and carries a link becomes a grid of linked cards.
+  function group(blocks: CopyBlock[]): CopyBlock[] {
+    const out: CopyBlock[] = [];
+    let i = 0;
+    while (i < blocks.length) {
+      const b = blocks[i];
+      if (b.type === "ul" && b.items.length > 1) {
+        const items = b.items.map((it) => {
+          const m = it.text.match(/^\*\*(.+?)\.?\*\*\s*(.*)$/);
+          return m && it.link ? { title: m[1], text: m[2], link: it.link } : null;
+        });
+        if (items.every(Boolean)) {
+          out.push({ type: "linkcards", items: items as { title: string; text: string; link: CopyLink }[] });
+          i++;
+          continue;
+        }
+      }
+      if (b.type === "kicker" || b.type === "h3") {
+        const cards: { kicker?: string; title: string; blocks: CopyBlock[] }[] = [];
+        let j = i;
+        while (j < blocks.length) {
+          let kicker: string | undefined;
+          let k = j;
+          const first = blocks[k];
+          if (first.type === "kicker") { kicker = first.text; k++; }
+          const head = blocks[k];
+          if (!head || head.type !== "h3") break;
+          k++;
+          const body: CopyBlock[] = [];
+          while (k < blocks.length && blocks[k].type === "p") body.push(blocks[k++]);
+          const link = blocks[k];
+          if (!link || link.type !== "link" || !body.length) break;
+          body.push(link);
+          cards.push({ kicker, title: head.text, blocks: body });
+          j = k + 1;
+        }
+        if (cards.length > 1) {
+          out.push({ type: "cards", items: cards });
+          i = j;
+          continue;
+        }
+      }
+      out.push(b);
+      i++;
+    }
+    return out;
   }
 
   const shared = raws.find((r) => r.file === "_shared.md");

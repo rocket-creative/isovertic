@@ -41,9 +41,9 @@ Trust line: Fixed price · 15 pages · Checked by a scientist · Month to month 
 Paul Sheiffele, President, ingenious targeting laboratory
 
 Stat row:
-- 13 to about 64 monthly form submissions in the first eight months
-- 3.7 times the monthly organic clicks from Google Search over the same period
-- Thousands of model pages generated from the client's own catalog data
+- **13 to about 64** monthly form submissions in the first eight months
+- **3.7 times** the monthly organic clicks from Google Search over the same period
+- **Thousands** of model pages generated from the client's own catalog data
 
 Small print: One account, measured in our own reporting. Your result depends on your category, offer, and sales cycle.
 
@@ -65,6 +65,8 @@ Link: What the snapshot checks
 ## How the snapshot works
 
 H2: Ten buyer questions. Four AI assistants. One page of answers.
+
+Diagram: snapshot
 
 1. You tell us what you sell and who buys it.
 2. We ask ChatGPT, Gemini, Perplexity, and Google's AI answers the ten questions your buyers would ask, three times each, because the answers change from run to run.
@@ -95,6 +97,8 @@ Link: See every price
 H2: You are paying for two experts, not an agency payroll.
 
 A traditional agency puts strategists, writers, designers, developers, and account managers on your project, and you pay for all of them. Life science specialists publish website prices of $15,000 to $40,000 ([Digital Elevator's 2026 roundup](https://thedigitalelevator.com/blog/best-biotech-web-design-agencies)), and some quote far more.
+
+Diagram: price
 
 AI now does most of the production: research, first drafts, layouts, and code. What it does not do is know whether a sentence about your assay is right, or whether your contact form leaks.
 

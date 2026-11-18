@@ -7,6 +7,8 @@ import { JsonLd } from "@/components/ui/JsonLd";
 import { faqLd } from "@/lib/schema";
 import { copyPage, type CopyBlock, type CopyLink } from "@/lib/sitecopy";
 import { formNotice } from "@/content/site-nav";
+import { RevealBlock } from "@/components/ui/RevealBlock";
+import { CopyDiagram } from "@/components/sections/CopyDiagram";
 
 // Renders one page from content/site-copy. All copy comes from the markdown; nothing is written here.
 
@@ -91,9 +93,51 @@ function Block({ b }: { b: CopyBlock }) {
     }
     case "stats":
       return (
-        <ul className="mt-10 grid gap-8 md:grid-cols-3">
-          {b.items.map((s) => (
-            <li key={s} className="border-t border-rule pt-5 leading-relaxed">{s}</li>
+        <ul className="mt-12 grid gap-10 md:grid-cols-3">
+          {b.items.map((s, i) => {
+            const m = s.match(/^\*\*(.+?)\*\*\s*(.*)$/);
+            return (
+              <RevealBlock as="li" key={s} delay={i * 120} className="border-t border-ink pt-5">
+                {m ? (
+                  <>
+                    <span className="stat-figure">{m[1]}</span>
+                    <span className="mt-3 block max-w-[30ch] leading-relaxed text-ink-soft">{m[2]}</span>
+                  </>
+                ) : (
+                  <span className="leading-relaxed">{s}</span>
+                )}
+              </RevealBlock>
+            );
+          })}
+        </ul>
+      );
+    case "diagram":
+      return <CopyDiagram name={b.name} />;
+    case "cards":
+      return (
+        <div className={`mt-12 grid gap-x-10 gap-y-12 ${b.items.length === 2 ? "md:grid-cols-2" : "md:grid-cols-3"}`}>
+          {b.items.map((c, i) => (
+            <RevealBlock key={c.title} delay={i * 120} className="copy-card">
+              {c.kicker && <p className="eyebrow">{c.kicker}</p>}
+              <h3 className={`${c.kicker ? "mt-4" : ""} font-display text-h3 font-medium`}>{c.title}</h3>
+              {c.blocks.map((x, xi) => (
+                <Block key={xi} b={x} />
+              ))}
+            </RevealBlock>
+          ))}
+        </div>
+      );
+    case "linkcards":
+      return (
+        <ul className="mt-12 grid gap-px border border-rule bg-rule sm:grid-cols-2 lg:grid-cols-4">
+          {b.items.map((c) => (
+            <li key={c.title} className="contents">
+              <Link href={c.link.href} className="link-card">
+                <span className="font-display text-[19px] font-medium leading-snug">{c.title}</span>
+                <span className="mt-3 block text-[14px] leading-relaxed text-ink-soft">{c.text}</span>
+                <span className="cta-link mt-auto pt-6">{c.link.label} <Arrow /></span>
+              </Link>
+            </li>
           ))}
         </ul>
       );
@@ -208,6 +252,10 @@ export function CopyPageView({ path }: { path: string }) {
               <button type="submit" className="btn btn-solid" disabled>{b.links[0].label} <Arrow /></button>
               <p className="mt-3 text-[13px] text-ink-soft">{formNotice}</p>
             </div>
+          ) : b.type === "diagram" || b.type === "table" || b.type === "quote" ? (
+            <RevealBlock key={bi}>
+              <Block b={b} />
+            </RevealBlock>
           ) : (
             <Block key={bi} b={b} />
           ),
@@ -215,7 +263,11 @@ export function CopyPageView({ path }: { path: string }) {
         return (
           <Section key={s.id + i} label={s.title.length <= 28 ? s.title : undefined} tone={i % 2 ? "bright" : "paper"} deferred={false}>
             <div id={s.id} className="scroll-mt-32 [&>*:first-child]:mt-0">
-              {s.h2 && <h2 className="max-w-[26ch] font-display text-h2 font-medium">{s.h2}</h2>}
+              {s.h2 && (
+                <RevealBlock>
+                  <h2 className="max-w-[26ch] font-display text-h2 font-medium">{s.h2}</h2>
+                </RevealBlock>
+              )}
               {isForm ? <form>{body}</form> : body}
               {s.faqs && (
                 <div className="mt-10 max-w-[72ch]">
