@@ -13,11 +13,11 @@ const body = localFont({ src: "./fonts/inter-var.woff2", weight: "100 900", vari
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: { default: "ISOVERTIC | Growth Agency for Healthcare, Pharma, Biotech, Medical Devices, and Life Sciences", template: "%s | ISOVERTIC" },
+  title: { default: "ISOVERTIC | Business Development and Technology", template: "%s | ISOVERTIC" },
   description: site.description,
   openGraph: { siteName: site.name, type: "website", images: [site.images.og] },
   twitter: { card: "summary_large_image", images: [site.images.og] },
-  robots: { index: true, follow: true },
+  robots: { index: false, follow: false },
   alternates: { types: { "application/rss+xml": "/feed.xml" } },
 };
 
@@ -32,12 +32,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${display.variable} ${body.variable}`}>
       <body>
-        <JsonLd data={[organizationLd(), ...peopleLd()]} />
+        
         <Header />
         <main id="main">{children}</main>
         <Footer />
-        <MobileCTABar />
+        
       </body>
     </html>
   );
 }
+

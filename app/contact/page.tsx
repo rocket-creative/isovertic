@@ -1,49 +1,9 @@
-import Link from "next/link";
-import { PageHero, Section } from "@/components/sections/Shell";
-import { LeadForm } from "@/components/sections/LeadForm";
-import { RevealBlock } from "@/components/ui/RevealBlock";
-import { Arrow } from "@/components/ui/Arrow";
-import { JsonLd } from "@/components/ui/JsonLd";
-import { breadcrumbLd } from "@/lib/schema";
-import { site } from "@/lib/site";
 import type { Metadata } from "next";
+import { CopyPageView } from "@/components/sections/CopyPage";
+import { copyPage } from "@/lib/sitecopy";
 
-export const metadata: Metadata = {
-  title: { absolute: "Book a Pipeline Call | ISOVERTIC" },
-  description: "Thirty minutes with the founder. You already know the price, so the call is about your market, your number, and whether the tier you picked is the right one.",
-  alternates: { canonical: "/contact" },
-};
-
-export default function Contact() {
-  return (
-    <>
-      <JsonLd data={breadcrumbLd([{ name: "Home", path: "/" }, { name: "Contact", path: "/contact" }])} />
-      <PageHero
-        eyebrow="Book a pipeline call"
-        h1="Book a pipeline call."
-        lead="Thirty minutes with the founder. You already know the price, so the call is about your market, your number, and whether the tier you picked is the right one. If none of them fits, we say so on the call, not two weeks after."
-      />
-      <Section label="The call" deferred={false}>
-        <div className="grid gap-14 lg:grid-cols-2">
-          <RevealBlock>
-            <LeadForm />
-          </RevealBlock>
-          <RevealBlock delay={140} className="max-w-[48ch]">
-            <h2 className="font-display text-h3 font-medium">What happens next</h2>
-            <p className="mt-4 leading-relaxed text-ink/90">Same business day reply with a calendar link. On the call we map your pipeline math and tell you which tier fits, or that none does.</p>
-            <p className="mt-4 text-[14px] text-ink-soft">
-              Or skip the form: <a href={`mailto:${site.email}`} className="underline underline-offset-4 hover:text-navy">{site.email}</a> or <a href={`tel:${site.phone}`} className="underline underline-offset-4 hover:text-navy">{site.phone.replace("+1-", "")}</a>. {site.address.street}, {site.address.locality}, {site.address.region} {site.address.postalCode}.
-            </p>
-            <p className="mt-4 text-[14px] text-ink-soft">If you would rather read first:</p>
-            <div className="mt-4 flex flex-wrap gap-x-8 gap-y-3">
-              <Link href="/pricing" className="cta-link">Pricing <Arrow /></Link>
-              <Link href="/system" className="cta-link">See how the system works <Arrow /></Link>
-              <Link href="/protocol" className="cta-link">Protocol <Arrow /></Link>
-            </div>
-            <div className="iso-mark mt-10 max-w-[280px]" aria-hidden="true" />
-          </RevealBlock>
-        </div>
-      </Section>
-    </>
-  );
+const page = copyPage("/contact");
+export const metadata: Metadata = { title: { absolute: page.title }, description: page.description, alternates: { canonical: page.path } };
+export default function Page() {
+  return <CopyPageView path="/contact" />;
 }

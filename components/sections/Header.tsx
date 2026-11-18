@@ -3,17 +3,9 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { BrandLogo } from "@/components/ui/Logo";
 import { site } from "@/lib/site";
+import { headerCta, primaryNav } from "@/content/site-nav";
 
-const links = [
-  { href: "/system", label: "System" },
-  { href: "/industries", label: "Industries" },
-  { href: "/problems", label: "Problems" },
-  { href: "/results", label: "Results" },
-  { href: "/pricing", label: "Pricing" },
-  { href: "/field-notes", label: "Field notes" },
-  { href: "/resources", label: "Resources" },
-  { href: "/about", label: "About" },
-];
+const links = primaryNav;
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -73,8 +65,8 @@ export function Header() {
             <Link href="/" className="-ml-1 flex items-center px-1 select-none" aria-label={`${site.name} home`}>
               <BrandLogo priority className="h-9 w-auto sm:h-11 lg:h-[3.5rem]" />
             </Link>
-            <Link href="/contact" className="btn btn-solid hidden !px-5 lg:inline-flex">
-              Book a pipeline call
+            <Link href={headerCta.href} className="btn btn-solid hidden !px-5 lg:inline-flex">
+              {headerCta.label}
             </Link>
             <button
               ref={trigger}
@@ -121,7 +113,7 @@ export function Header() {
             </button>
           </div>
           <nav className="gutter flex flex-col pt-6" aria-label="Mobile">
-            {[...links, { href: "/contact", label: "Book a pipeline call" }].map((l) => (
+            {[...links, headerCta].map((l) => (
               <Link
                 key={l.href}
                 href={l.href}
@@ -143,3 +135,4 @@ export function Header() {
     </>
   );
 }
+
