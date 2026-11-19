@@ -58,7 +58,7 @@ export function ParticleField({
       }));
     };
 
-    const weight = (x: number) => (fade && w >= 1024 ? 0.12 + 0.88 * Math.pow(Math.max(0, Math.min(1, x / w)), 1.6) : fade ? 0.55 : 1);
+    const weight = (x: number) => (fade && w >= 1024 ? 0.2 + 0.8 * Math.pow(Math.max(0, Math.min(1, x / w)), 1.6) : fade ? 0.55 : 1);
 
     const draw = () => {
       ctx.clearRect(0, 0, w, h);
@@ -73,7 +73,7 @@ export function ParticleField({
           if (d2 > LINK * LINK) continue;
           const k = 1 - Math.sqrt(d2) / LINK;
           const hot = Math.max(a.heat, b.heat);
-          ctx.strokeStyle = `rgba(${hot > 0.05 ? SIGNAL : rgb},${(k * (0.16 + hot * 0.5) * strength * Math.min(wa, weight(b.x))).toFixed(3)})`;
+          ctx.strokeStyle = `rgba(${hot > 0.05 ? SIGNAL : rgb},${(k * (0.26 + hot * 0.5) * strength * Math.min(wa, weight(b.x))).toFixed(3)})`;
           ctx.lineWidth = 1;
           ctx.beginPath();
           ctx.moveTo(a.x, a.y);
@@ -88,7 +88,7 @@ export function ParticleField({
           ctx.lineTo(mouse.x, mouse.y);
           ctx.stroke();
         }
-        ctx.fillStyle = `rgba(${a.heat > 0.05 ? SIGNAL : rgb},${((0.42 + a.heat * 0.58) * strength * wa).toFixed(3)})`;
+        ctx.fillStyle = `rgba(${a.heat > 0.05 ? SIGNAL : rgb},${((0.55 + a.heat * 0.45) * strength * wa).toFixed(3)})`;
         ctx.beginPath();
         ctx.arc(a.x, a.y, a.r + a.heat * 1.6, 0, Math.PI * 2);
         ctx.fill();
