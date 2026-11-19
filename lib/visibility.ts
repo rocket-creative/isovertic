@@ -296,11 +296,17 @@ export async function advance(
   try {
     const match = names(job.company, job.domain);
     const { data: pendingRows } = await c.from("visibility_answers").select("id, provider, q_index, run").eq("job_id", jobId).eq("status", "pending");
-    const pending = (pendingRows ?? []) as Pick<AnswerRow, "id" | "provider" | "q_index" | "run">[];
+    const active = activeProviders();
+    // A question queued for an assistant whose key has since been removed can never be asked.
+    // Close those out now, or the job would wait on them forever.
+    const orphaned = (pendingRows ?? []).filter((r) => !active.includes(r.provider as Provider)).map((r) => r.id as string);
+    if (orphaned.length) await c.from("visibility_answers").update({ status: "error", error: "assistant not configured", finished_at: now }).in("id", orphaned);
+    const pending = ((pendingRows ?? []) as Pick<AnswerRow, "id" | "provider" | "q_index" | "run">[]).filter((r) => active.includes(r.provider));
+    const queued = pending.length;
 
     // Each assistant gets its own short queue, so one slow provider does not hold up the others.
     await Promise.all(
-      activeProviders().map(async (provider) => {
+      active.map(async (provider) => {
         const queue = pending.filter((r) => r.provider === provider);
         const worker = async () => {
           for (let row = queue.shift(); row; row = queue.shift()) {
@@ -321,7 +327,8 @@ export async function advance(
     if ((left ?? 0) > 0 || Date.now() - started > BUDGET_MS) {
       await release();
       // Out of time with work left. Hand the rest to a fresh run so it finishes with nobody watching.
-      if (onUnfinished) await onUnfinished(job);
+      // Only when this run got something done, so a run that cannot make progress never calls itself in a loop.
+      if (onUnfinished && (left ?? 0) < queued) await onUnfinished(job);
       return;
     }
 
