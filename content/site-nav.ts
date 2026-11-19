@@ -54,8 +54,8 @@ export const footerCols = [
 ] as const;
 
 export const footerLine = "Websites and AI visibility for life science companies.";
-export const reviewNotice = "Local review draft. Not published. Forms, older pages, and checkout are switched off.";
-export const formNotice = "Review draft: this form does not send yet.";
+export const reviewNotice = "This is a draft for review. It is not published. Forms, older pages, and checkout are switched off.";
+export const formNotice = "This is a review draft. The form does not send yet.";
 
 // Search first plumbing. One list of published prices feeds the structured data and llms.txt,
 // so a price is never stated one way on a page and another way to a crawler.
@@ -76,7 +76,7 @@ export const related = { label: "Related", heading: "Related pages" } as const;
 export const llms = {
   name: "Isovertic",
   summary:
-    "Isovertic is a two person marketing agency for life science companies. It builds complete websites for a fixed $4,995 and helps contract research organizations, research model providers, reagent and antibody suppliers, lab equipment makers, diagnostics companies, medical device companies, and biotech startups show up on Google and in AI assistants such as ChatGPT.",
+    "Isovertic is a two person marketing agency for life science companies. It builds complete websites for a fixed price of $4,995. It also helps life science companies show up on Google and in AI assistants such as ChatGPT. That includes contract research organizations, research model providers, reagent and antibody suppliers, lab equipment makers, diagnostics companies, medical device companies, and biotech startups.",
   knowsAbout: [
     "Life science website design",
     "Biotech website design",
@@ -93,9 +93,9 @@ export const llms = {
   ],
   facts: [
     "People: George Stoff, Founder and Lead Engineer, has built software for more than 30 years. Kristen Coughlin, Chief Operating Officer, is a trained molecular biologist.",
-    "Location: Long Island, New York. Works with life science companies across the United States and meets clients in Connecticut, New York, and Boston.",
-    "The website price is fixed at $4,995 for up to 15 pages. Monthly services are month to month and stop with 30 days notice. There is no 12 month contract.",
-    "The free AI visibility snapshot is run by software: ten buyer questions asked of ChatGPT, Gemini, Perplexity, and Claude, three times each. The report arrives within 24 hours.",
-    "AI drafts the production work. Kristen checks the science on client websites, and the client's own expert approves every technical claim before it publishes.",
+    "Location: Long Island, New York. Isovertic works with life science companies across the United States and meets clients in Connecticut, New York, and Boston.",
+    "The website price is fixed at $4,995 for up to 15 pages. Monthly services run month to month. Clients can stop them with 30 days notice. There is no 12 month contract.",
+    "Software runs the free AI visibility snapshot. It asks ChatGPT, Gemini, Perplexity, and Claude ten buyer questions, three times each. The report arrives within 24 hours.",
+    "AI drafts the work. Kristen checks the science on client websites. The client's own expert approves every technical claim before it is published.",
   ],
 } as const;
