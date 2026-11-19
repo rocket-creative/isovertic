@@ -69,12 +69,14 @@ H2: Ten buyer questions. Four AI assistants. One page of answers.
 Diagram: snapshot
 
 1. You tell us what you sell and who buys it.
-2. We ask ChatGPT, Gemini, Perplexity, and Google's AI answers the ten questions your buyers would ask, three times each, because the answers change from run to run.
+2. We ask ChatGPT, Gemini, Perplexity, and Claude the ten questions your buyers would ask, three times each, because the answers change from run to run.
 3. We check whether AI crawlers can read your site at all.
-4. Kristen, a trained molecular biologist, reads what the assistants said about you and marks what is wrong.
+4. Software compares what the assistants said about you with your own website and marks what does not match.
 5. You get one page: how often you were named, who was named instead, what the AI got wrong, and the three fixes that matter most.
 
-No budget questions. No call required. If you are already showing up well, we will tell you that and you can get on with your week.
+It runs itself and takes a few minutes. No budget questions. No call required. If you are already showing up well, the report will say so and you can get on with your week.
+
+Google's AI answers are a separate step. Google gives no way to collect them by software, so a person runs those for you and goes through the results on a call. You can ask for it from your report.
 
 ## What we do
 
@@ -226,7 +228,7 @@ Long Island, New York. We work with life science companies across the country an
 
 H2: Ask the AI about your company. Or let us do it for you.
 
-Send us your website address and one sentence on what you sell. Within three business days you get a one page snapshot of how AI assistants describe you and what to fix first. If the answer is that you are already in good shape, we will say so.
+Confirm your company email and tell us what you sell. A few minutes later you have a snapshot of how AI assistants describe you and what to fix first. If the answer is that you are already in good shape, it will say so.
 
 Buttons: Get your free AI visibility snapshot · See the $4,995 website
 
@@ -238,7 +240,7 @@ Closing line: You do the science. We make sure the people looking for it can fin
 
 URL: /ai-visibility-audit
 Title tag: Free AI Visibility Audit for Life Science Companies | Isovertic
-Meta description: See whether ChatGPT, Gemini, Perplexity, and Google's AI answers name your company, and what they get wrong. Free snapshot, read by a molecular biologist. No budget questions.
+Meta description: See whether ChatGPT, Gemini, Perplexity, and Claude name your company, and what they get wrong. Free snapshot, ready in minutes. No budget questions.
 Primary query: AI visibility audit for life science companies. Secondary: free ai visibility audit, ai search visibility audit, geo audit, aeo audit, llm visibility audit, why doesn't ChatGPT mention my company.
 
 ## Hero
@@ -248,12 +250,12 @@ Eyebrow: AI visibility audit
 H1: Find out what AI says about your company when a buyer asks.
 
 Subhead:
-A buyer looking for a custom mouse model, a validated antibody, or a preclinical CRO can now ask an AI assistant before they call anyone. We run the questions your buyers ask, across the assistants they use, and show you whether you were named, who was named instead, and what the AI got wrong. The snapshot is free and a person reads every answer.
+A buyer looking for a custom mouse model, a validated antibody, or a preclinical CRO can now ask an AI assistant before they call anyone. We run the questions your buyers ask, across the assistants they use, and show you whether you were named, who was named instead, and what the AI got wrong. The snapshot is free, runs itself, and is ready in minutes. The full audit is where two people read every answer.
 
 Primary button: Get the free snapshot
 Secondary button: See the full audit, $2,500
 
-Trust line: Free · No budget questions · Read by a molecular biologist · Back in three business days
+Trust line: Free · No budget questions · Four AI assistants · Ready in minutes
 
 ## Why this matters now
 
@@ -272,10 +274,11 @@ If the assistant leaves you out, or describes a service you stopped offering in 
 H2: Ten questions, four assistants, three runs each
 
 - **Ten buyer questions** written for your category. Not "best biotech company." Questions like "who makes humanized mouse models for immuno oncology studies" or "which CROs run GLP toxicology in rodents."
-- **Four assistants:** ChatGPT, Gemini, Perplexity, and Google's AI answers.
+- **Four assistants:** ChatGPT, Gemini, Perplexity, and Claude.
 - **Three runs of every question,** because the same question returns a different list almost every time.
 - **A crawler check.** Can the AI bots reach your pages, or is your site or your hosting blocking them?
-- **A read by Kristen Coughlin,** a trained molecular biologist, for anything the assistants said about you that is wrong or out of date.
+- **An accuracy check.** Software compares what the assistants said about you with your own website and flags what does not match.
+- **Google's AI answers, on request.** A person runs your questions on Google by hand and goes through the results with you on a call.
 
 You receive one page: how often you were named, who was named instead, what was wrong, and the three fixes that would matter most.
 
@@ -288,14 +291,14 @@ For companies that want the whole picture and a plan.
 | | Free snapshot | Full audit |
 |---|---|---|
 | Buyer questions | 10 | 50 |
-| Assistants | 4 | 5, adding Claude |
+| Assistants | 4 | 5, adding Google's AI answers |
 | Runs per question | 3 | 5 or more |
 | Competitors compared | Named only | Up to 4, side by side |
 | Sources the AI cites | No | Yes, every one |
-| Accuracy check | Highlights | Every statement against your fact list |
+| Accuracy check | By software, against your website | Every statement, read by a molecular biologist |
 | Technical checks | Crawler access | Crawler access, rendering, indexing, sitemap |
 | Fix list | Top 3 | Full list in priority order |
-| Readout call | No | 45 minutes with George and Kristen |
+| Who reads it | Software only | George and Kristen, with a 45 minute call |
 | Measured again | No | At 90 days |
 | Price | Free | $2,500 |
 
@@ -339,16 +342,16 @@ H2: What happens next is up to you
 ## Questions
 
 **Is the snapshot really free?**
-Yes. We ask for your website address, what you sell, and where to send it.
+Yes. We ask for your company email and what you sell. It runs on the website at that email address.
 
 **Do we need to qualify?**
 No. We do not ask your budget or your timeline.
 
 **Which AI assistants do you check?**
-ChatGPT, Gemini, Perplexity, and Google's AI answers in the snapshot. The full audit adds Claude, and Copilot on request.
+ChatGPT, Gemini, Perplexity, and Claude in the snapshot. The full audit adds Google's AI answers, run by hand, and Copilot on request.
 
 **How is this different from the free AI graders online?**
-Those give you a score in 90 seconds from generic prompts. We write questions for your science, run each one several times, and have a scientist read the answers for errors.
+Those give you a score from generic prompts. Ours reads your site, writes questions for your science, lets you edit them, runs each one three times on four assistants, and checks what was said against your own pages. In the full audit a scientist reads every answer.
 
 **What if the AI says something false about us?**
 We document it, find the page it most likely came from, and tell you what to correct and where.
@@ -358,9 +361,9 @@ About two weeks from the day you approve the question list.
 
 ## Final call to action
 
-H2: Ten questions. Three business days. One page.
+H2: Ten questions. Four assistants. A few minutes.
 
-Send your website address and one sentence on what you sell. If you are already being named for the right things, we will tell you and hand you back your afternoon.
+Confirm your company email and tell us what you sell. If you are already being named for the right things, the report will say so.
 
 Buttons: Get the free snapshot · Book the full audit
 
@@ -453,6 +456,6 @@ For Monitoring, no. For fixes, yes, or we send the changes to whoever manages it
 
 H2: Start by finding out where you stand.
 
-The snapshot is free and takes three business days. If the answer is that AI already names you for the right things, you have saved $500 a month.
+The snapshot is free and takes a few minutes. If the answer is that AI already names you for the right things, you have saved $500 a month.
 
 Buttons: Get the free snapshot · Talk to George and Kristen

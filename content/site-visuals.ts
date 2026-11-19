@@ -4,9 +4,9 @@ export const snapshotDiagram = {
   label: "How the free snapshot is run",
   steps: [
     { figure: "10", label: "buyer questions" },
-    { figure: "4", label: "AI assistants", detail: ["ChatGPT", "Gemini", "Perplexity", "Google AI answers"] },
+    { figure: "4", label: "AI assistants", detail: ["ChatGPT", "Gemini", "Perplexity", "Claude"] },
     { figure: "3", label: "runs of every question" },
-    { figure: "1", label: "page of answers, read by a person" },
+    { figure: "1", label: "report, ready in minutes" },
   ],
 } as const;
 

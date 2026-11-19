@@ -141,6 +141,6 @@ export async function requestPost(formData: FormData): Promise<void> {
 }
 
 export async function signOut(): Promise<void> {
-  (await cookies()).delete({ name: ACCESS_COOKIE, path: "/paperbrief" });
+  (await cookies()).delete({ name: ACCESS_COOKIE, path: "/" });
   redirect(paperbrief.path);
 }

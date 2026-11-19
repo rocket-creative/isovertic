@@ -58,7 +58,7 @@ export const paperbrief = {
     consent: "By continuing you agree that Isovertic may contact you about PaperBrief. One code per request. The code lasts 15 minutes.",
     errors: {
       fields: "Please enter your name, a valid email, and a phone number.",
-      free: "Please use your company email. PaperBrief does not accept free addresses such as Gmail, Yahoo, or Outlook.",
+      free: "Please use your company email. We do not accept free addresses such as Gmail, Yahoo, or Outlook.",
       domain: "We could not find a mail server for that email domain. Check the spelling and use your company address.",
       config: "Email verification is not switched on for this build yet. Write to sales@isovertic.com and we will open it for you.",
       send: "We could not send the code. Check the address and try again.",
@@ -67,9 +67,9 @@ export const paperbrief = {
     },
   },
   email: {
-    subject: "Your PaperBrief verification code",
-    body: (name: string, code: string) =>
-      `Hi ${name},\n\nYour PaperBrief verification code is:\n\n${code}\n\nEnter it on the page where you asked for it. The code lasts 15 minutes.\n\nIf you did not ask for this, ignore this email and nothing will happen.\n\nIsovertic\nisovertic.com`,
+    subject: (product: string) => `Your Isovertic verification code for ${product}`,
+    body: (name: string, code: string, product: string) =>
+      `Hi ${name},\n\nYour verification code for ${product} is:\n\n${code}\n\nEnter it on the page where you asked for it. The code lasts 15 minutes.\n\nIf you did not ask for this, ignore this email and nothing will happen.\n\nIsovertic\nisovertic.com`,
   },
   alert: {
     subject: (n: number, company: string) => `${n} new ${n === 1 ? "paper mentions" : "papers mention"} ${company}`,

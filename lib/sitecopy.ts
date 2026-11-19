@@ -54,7 +54,7 @@ const LINKS: [RegExp, string][] = [
   [/paperbrief/i, "/paperbrief"],
   [/what we automate/i, "/life-science-ai-automation"],
   [/what the snapshot checks|full audit|^ai visibility audit$/i, "/ai-visibility-audit"],
-  [/snapshot|whether ai names/i, "/contact"],
+  [/snapshot|whether ai names/i, "/ai-visibility-snapshot"],
   [/how the build goes/i, "/life-science-website-design#how-it-goes"],
   [/how we handle your science/i, "/life-science-website-design#how-we-handle-your-science"],
   [/price|pricing|hipaa/i, "/pricing"],

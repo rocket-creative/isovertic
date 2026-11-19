@@ -9,7 +9,7 @@ type Labels = {
   sentTitle: string; sent: string; code: string; verify: string; restart: string; consent: string;
 };
 
-export function PaperBriefGate({ labels }: { labels: Labels }) {
+export function PaperBriefGate({ labels, from = "paperbrief" }: { labels: Labels; from?: "paperbrief" | "snapshot" }) {
   const [asked, ask, asking] = useActionState<GateState, FormData>(requestAccess, { step: "form" });
   const [checked, check, checking] = useActionState<GateState, FormData>(verifyCode, { step: "code" });
   const expired = checked.step === "form";
@@ -27,17 +27,20 @@ export function PaperBriefGate({ labels }: { labels: Labels }) {
         <>
           <form action={check} className="mt-6 grid gap-6">
             <div>
+              <input type="hidden" name="from" value={from} />
               <label htmlFor="pb-code" className="field-label">{labels.code}</label>
               <input id="pb-code" name="code" className="field font-display tracking-[0.3em] uppercase" required minLength={8} maxLength={12} autoComplete="one-time-code" autoCapitalize="characters" spellCheck={false} autoFocus />
             </div>
             <button type="submit" className="btn btn-solid btn-block" disabled={checking}>{labels.verify} <Arrow /></button>
           </form>
           <form action={restart} className="mt-2">
+            <input type="hidden" name="from" value={from} />
             <button type="submit" className="cta-link">{labels.restart}</button>
           </form>
         </>
       ) : (
         <form action={ask} className="mt-6 grid gap-6">
+          <input type="hidden" name="from" value={from} />
           <div>
             <label htmlFor="pb-name" className="field-label">{labels.name}</label>
             <input id="pb-name" name="name" className="field" required minLength={2} maxLength={100} autoComplete="name" />

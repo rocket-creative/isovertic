@@ -7,7 +7,7 @@ export const primaryNav = [
   { href: "/about", label: "About" },
 ] as const;
 
-export const headerCta = { href: "/contact", label: "Get the free snapshot" } as const;
+export const headerCta = { href: "/ai-visibility-snapshot", label: "Get the free snapshot" } as const;
 
 export const footerCols = [
   {
@@ -17,6 +17,7 @@ export const footerCols = [
       ["AI automation", "/life-science-ai-automation"],
       ["PaperBrief, free", "/paperbrief"],
       ["Website redesign", "/life-science-website-redesign"],
+      ["Free AI visibility snapshot", "/ai-visibility-snapshot"],
       ["AI visibility audit", "/ai-visibility-audit"],
       ["AI search optimization", "/ai-search-optimization-life-sciences"],
       ["SEO and content", "/life-science-seo"],

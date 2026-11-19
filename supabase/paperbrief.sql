@@ -50,3 +50,41 @@ alter table public.paperbrief_papers add column if not exists drafted_at timesta
 alter table public.paperbrief_accounts add column if not exists email_domain text;
 alter table public.paperbrief_accounts add column if not exists domain_has_site boolean;
 alter table public.paperbrief_workspaces add column if not exists domain_match boolean;
+
+-- AI visibility snapshot. Applied as migrations visibility_snapshots and visibility_job_origin.
+create table if not exists public.visibility_jobs (
+  id uuid primary key default gen_random_uuid(),
+  created_at timestamptz not null default now(),
+  account_id uuid not null references public.paperbrief_accounts(id) on delete cascade,
+  company text not null,
+  domain text not null,
+  sells text not null,
+  buyers text,
+  competitors text[] not null default '{}',
+  questions jsonb not null default '[]',
+  crawl jsonb,
+  site_text text,
+  status text not null default 'questions' check (status in ('questions', 'running', 'analyzing', 'done', 'failed')),
+  report jsonb,
+  origin text,
+  locked_until timestamptz,
+  started_at timestamptz,
+  done_at timestamptz,
+  emailed_at timestamptz,
+  google_requested_at timestamptz
+);
+alter table public.visibility_jobs enable row level security;
+create table if not exists public.visibility_answers (
+  id uuid primary key default gen_random_uuid(),
+  job_id uuid not null references public.visibility_jobs(id) on delete cascade,
+  provider text not null,
+  q_index int not null,
+  run int not null,
+  status text not null default 'pending' check (status in ('pending', 'done', 'error')),
+  answer text,
+  mentioned boolean,
+  error text,
+  finished_at timestamptz,
+  unique (job_id, provider, q_index, run)
+);
+alter table public.visibility_answers enable row level security;
