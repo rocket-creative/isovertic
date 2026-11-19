@@ -33,6 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${display.variable} ${body.variable}`}>
       <body>
         
+        <div className="scroll-progress" aria-hidden="true" />
         <Header />
         <main id="main">{children}</main>
         <Footer />

@@ -341,11 +341,15 @@ We could have kept the old price. We would rather be the people who told you fir
 H2: Who does the work
 
 ### George Stoff, Founder and Lead Engineer
+Image: Portrait of George Stoff. Head and shoulders, natural window light, off white wall, eyes just past the lens. Photograph the real person.
+
 More than 30 years building the software and systems companies sell through. George plans your site, builds it, secures it, and stays on the account.
 
 Link: More about George
 
 ### Kristen Coughlin, Chief Operating Officer
+Image: Portrait of Kristen Coughlin. Head and shoulders, natural window light, off white wall, eyes just past the lens. Photograph the real person.
+
 Trained molecular biologist. Ten years selling translational research products, then institutional operations at the Yale School of Medicine. Kristen reads every technical line, runs your content, and knows what a scientist will question before they do.
 
 Link: More about Kristen

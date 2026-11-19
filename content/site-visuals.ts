@@ -18,3 +18,21 @@ export const priceDiagram = {
     { name: "Isovertic", from: 0, to: 4995, value: "$4,995", ours: true },
   ],
 } as const;
+
+// Empty photograph frames. The brief under the label tells the photographer what to shoot.
+export const imageSlot = { label: "Image placeholder" } as const;
+export const detailBrief =
+  "Photorealistic documentary photograph, natural window light, 50mm lens. Close on hands and the work on the table: a printed page, a laptop edge, a pen. No faces, no logos, no readable text.";
+
+// The moving line under the home hero. Each name matches a page in the footer.
+export const industryReel = [
+  "CROs",
+  "Research models",
+  "Reagents and antibodies",
+  "Lab equipment",
+  "Diagnostics",
+  "Medical devices",
+  "Biotech",
+  "CDMOs",
+  "Consulting firms",
+] as const;

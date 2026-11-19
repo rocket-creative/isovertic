@@ -1,4 +1,5 @@
 import { priceDiagram, snapshotDiagram } from "@/content/site-visuals";
+import { CountText } from "@/components/ui/CountText";
 
 // Diagrams for the rewritten pages. Server rendered; motion comes from the parent .reveal block in CSS.
 
@@ -9,7 +10,7 @@ function Snapshot() {
       <ol className="flow grid gap-y-8 sm:grid-cols-2 lg:grid-cols-4">
         {d.steps.map((s, i) => (
           <li key={s.label} className="flow-step" style={{ transitionDelay: `${i * 140}ms` }}>
-            <span className="flow-figure">{s.figure}</span>
+            <CountText text={s.figure} className="flow-figure" />
             <span className="flow-rule" aria-hidden="true" />
             <span className="mt-3 block max-w-[18ch] text-[14px] leading-snug text-ink-soft">{s.label}</span>
             {"detail" in s && (

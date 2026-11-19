@@ -22,6 +22,7 @@ export type CopyBlock =
   | { type: "link"; link: CopyLink }
   | { type: "choice" | "fields"; items: string[] }
   | { type: "diagram"; name: string }
+  | { type: "image"; brief: string }
   | { type: "cards"; items: { kicker?: string; title: string; blocks: CopyBlock[] }[] }
   | { type: "linkcards"; items: { title: string; text: string; link: CopyLink }[] };
 export type CopySection = { id: string; title: string; h2?: string; blocks: CopyBlock[]; faqs?: { q: string; a: string }[] };
@@ -176,6 +177,7 @@ function build(): CopyPage[] {
         if ((v = directive(line, "Closing line")) !== null) { flushPara(); blocks.push({ type: "closing", text: v }); continue; }
         if (directive(line, "Stat row") !== null) { flushPara(); pending = "stats"; continue; }
         if ((v = directive(line, "Diagram")) !== null) { flushPara(); blocks.push({ type: "diagram", name: v }); continue; }
+        if ((v = directive(line, "Image")) !== null) { flushPara(); blocks.push({ type: "image", brief: v }); continue; }
         if (/^Choice \(.*\):$/i.test(line)) { flushPara(); pending = "choice"; continue; }
         if (/^Fields:$/i.test(line)) { flushPara(); pending = "fields"; continue; }
         if (/^(Logo bar|Primary query):/i.test(line) || /^Short answer \(.*\):$/i.test(line)) continue;
@@ -217,9 +219,9 @@ function build(): CopyPage[] {
           if (!head || head.type !== "h3") break;
           k++;
           const body: CopyBlock[] = [];
-          while (k < blocks.length && blocks[k].type === "p") body.push(blocks[k++]);
+          while (k < blocks.length && (blocks[k].type === "p" || blocks[k].type === "image")) body.push(blocks[k++]);
           const link = blocks[k];
-          if (!link || link.type !== "link" || !body.length) break;
+          if (!link || link.type !== "link" || !body.some((x) => x.type === "p")) break;
           body.push(link);
           cards.push({ kicker, title: head.text, blocks: body });
           j = k + 1;
@@ -281,7 +283,7 @@ function build(): CopyPage[] {
       const prices = sharedSection("Prices");
       const q = page.sections.findIndex((s) => s.faqs);
       if (marketer) page.sections.splice(q < 0 ? page.sections.length : q, 0, marketer);
-      const end = page.sections.findIndex((s) => /final call to action/i.test(s.title));
+      const end = page.sections.findIndex((s) => /call to action/i.test(s.title));
       if (prices) page.sections.splice(end < 0 ? page.sections.length : end, 0, prices);
     }
     pages.push(page);

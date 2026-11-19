@@ -412,3 +412,40 @@ textarea.field { min-height: 96px; resize: vertical; }
   .reveal .flow-rule { transform: scaleX(0); transition: transform 900ms var(--ease-out-soft) 300ms; }
   .reveal.in .flow-rule { transform: scaleX(1); }
 }
+
+/* Design pass two: particle heroes, image frames, the navy close, the reel, and the scroll line. */
+.tone-navy { color: var(--color-paper); }
+.tone-navy :is(p, li, h2, h3, span, a, blockquote, td, th) { color: var(--color-paper); }
+.tone-navy .eyebrow, .tone-navy .sidebar-label { color: color-mix(in oklab, var(--color-paper) 62%, transparent); }
+.tone-navy * { border-color: color-mix(in oklab, var(--color-paper) 28%, transparent); }
+.tone-navy .btn-solid { background: var(--color-paper); color: var(--color-navy); }
+.tone-navy .btn-solid:hover { color: var(--color-paper); }
+.tone-navy h2 { font-size: clamp(30px, 4.6vw, 64px); max-width: 20ch; }
+
+.btn-solid { box-shadow: inset 0 0 0 0 var(--color-signal); transition: box-shadow 450ms var(--ease-out-soft), color 300ms var(--ease-hover); }
+.btn-solid:hover { opacity: 1; box-shadow: inset 32em 0 0 0 var(--color-signal); }
+.btn-solid svg { transition: transform 300ms var(--ease-out-soft); }
+.btn-solid:hover svg { transform: translateX(5px); }
+
+.image-slot { position: relative; display: flex; width: 100%; flex-direction: column; justify-content: flex-end; overflow: hidden; padding: 20px; border: 1px dashed color-mix(in oklab, var(--color-ink) 28%, transparent); background: color-mix(in oklab, var(--color-ink) 3%, transparent); }
+@media (min-width: 640px) { .image-slot { padding: 28px; } }
+.image-slot-tick { position: absolute; width: 18px; height: 18px; border-color: var(--color-ink); }
+.image-slot-scan { position: absolute; left: 0; right: 0; top: 0; height: 1px; background: var(--color-signal); opacity: 0; }
+
+.reel-item { display: inline-flex; align-items: center; white-space: nowrap; font-family: var(--font-display); font-size: clamp(30px, 5vw, 72px); font-weight: 600; font-stretch: 115%; line-height: 1; letter-spacing: -0.03em; color: color-mix(in oklab, var(--color-ink) 14%, transparent); transition: color 250ms var(--ease-hover); }
+.reel-item::after { content: ""; width: 0.22em; height: 0.22em; margin: 0 0.6em; border-radius: 50%; background: var(--color-signal); }
+.reel-item:hover { color: var(--color-ink); }
+
+.copy-card { position: relative; transition: transform 350ms var(--ease-out-soft); }
+.copy-card::before { content: ""; position: absolute; left: 0; right: 0; top: -1px; height: 2px; background: var(--color-signal); transform: scaleX(0); transform-origin: left center; transition: transform 500ms var(--ease-out-soft); }
+.copy-card:hover::before { transform: scaleX(1); }
+
+.scroll-progress { display: none; }
+@media (prefers-reduced-motion: no-preference) {
+  .image-slot-scan { animation: slot-scan 5.5s var(--ease-inout-soft) infinite; }
+  @keyframes slot-scan { 0% { top: 0; opacity: 0; } 12% { opacity: 0.7; } 88% { opacity: 0.7; } 100% { top: 100%; opacity: 0; } }
+  @supports (animation-timeline: scroll()) {
+    .scroll-progress { display: block; position: fixed; left: 0; right: 0; top: 0; z-index: 60; height: 3px; background: var(--color-signal); transform-origin: left center; animation: scroll-grow linear both; animation-timeline: scroll(root); }
+    @keyframes scroll-grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+  }
+}
