@@ -19,62 +19,62 @@ Second shared block, used above the questions on every industry page. Many prosp
 # CRO MARKETING
 
 URL: /cro-marketing
-Title tag: Contract Research Organization (CRO) Marketing and Websites | Isovertic
-Meta description: Websites, search, and AI visibility for contract research organizations. Get on the sponsor's shortlist before the RFP goes out. Website $4,995. Free AI visibility snapshot.
+Title tag: Marketing Agency for Contract Research Organizations | Isovertic
+Meta description: Marketing agency for contract research organizations (CROs). Websites, search, and AI visibility to get you on the sponsor's shortlist before the RFP goes out. Website $4,995. Free AI visibility snapshot.
 Primary query: contract research organization marketing agency. Secondary: CRO marketing services, preclinical CRO marketing, CRO lead generation, SEO for CROs, CRO website design, CDMO marketing agency.
 
 ## Hero
 
-Eyebrow: For contract research organizations and CDMOs
+Eyebrow: For contract research organizations (CROs)
 
-H1: Get on the sponsor's shortlist before the RFP goes out.
+H1: Marketing for contract research organizations: get on the sponsor's shortlist before the RFP goes out.
 
 Subhead:
-A study director looking for a preclinical CRO compares two or three and sends the request to those. We build the website, the search presence, and the AI visibility that put a smaller CRO in that group, written by people who know the difference between a PK study and a tox study.
+We are a marketing agency for contract research organizations (CROs) and contract development and manufacturing organizations (CDMOs). A study director looking for a preclinical CRO compares two or three and sends the request to those. We build the website and do the search and AI visibility work that put a smaller CRO in that group, and the writing comes from people who know the difference between a PK study and a tox study.
 
 Primary button: See whether AI names your CRO
 Secondary button: See the $4,995 website
 
 ## The problem
 
-H2: Most CRO business still comes from referrals. That is the risk.
+H2: Most CROs get clients through referrals, and that is a risk
 
-Referrals are the best leads you will ever get, and you cannot make more of them on demand. When a sponsor's contact changes jobs, or a program ends, the pipeline goes quiet.
+Referrals are the best leads you will ever get, but you cannot make more of them when you need them. When a sponsor's contact changes jobs, or a program ends, the pipeline goes quiet.
 
-Meanwhile the sponsor's next scientist is searching for the exact service: the species, the model, the assay, the regulatory standard. If your site has one page called Services, you are not the answer to any of those searches.
+The next scientist at that sponsor is searching for the exact service: the species, the model, the assay, the regulatory standard. If your site has one page called Services, it does not answer any of those searches.
 
 ## What we build
 
 H2: One page for every study a sponsor might search for
 
 - **A page per service line.** Each one names the model, the method, the readouts, the turnaround, and the standard you work to.
-- **Capabilities a sponsor can check.** Publications, validation data, and equipment, linked where you have them.
-- **A quote request that asks the right questions.** Species, endpoints, timeline, and compliance level, so your team replies with a real answer.
-- **AI visibility.** We test whether assistants name you for your study types and fix what keeps you out.
+- **Capabilities a sponsor can check.** We link your publications, validation data, and equipment wherever you have them.
+- **A quote request that asks the right questions.** It asks for species, endpoints, timeline, and compliance level, so your team can reply with a real answer.
+- **AI visibility.** We test whether AI assistants such as ChatGPT name you for your study types, and we fix what keeps you out.
 
 ## How do we look credible next to the global CROs?
 
 H2: Small is a selling point when you say what you are best at
 
-A sponsor does not need you to be the largest. They need to know you have run this study before, who will run theirs, and how fast you answer. Your site should say that on the first screen of every service page.
+A sponsor does not need you to be the largest CRO. They need to know that you have run this study before, who will run theirs, and how fast you answer. Your site should say that on the first screen of every service page.
 
 ## Questions
 
-**Can marketing really win CRO contracts?**
-It wins the first conversation. Your scientists win the contract. Our job is to make sure the sponsor finds you and sees enough to send the request.
+**Can marketing help a CRO get clients?**
+Marketing gets you the first conversation, and your scientists win the contract. Our job is to make sure the sponsor finds you and sees enough to send the request.
 
 **How do researchers find a CRO?**
-Colleagues first, then search, and increasingly an AI assistant. All three reward the same thing: a specific, checkable description of what you do.
+They ask colleagues first, then they search, and more and more they ask an AI assistant. All three work in your favor when your site gives a specific description of what you do that a sponsor can check.
 
 **When should a CRO start outreach?**
-After the site can back it up. An email that sends a study director to a thin website wastes the introduction.
+Start once the website can back up what the email says. An email that sends a study director to a thin website wastes the introduction.
 
 **Do we need medical, legal, and regulatory review?**
-Research services usually do not. If you make clinical claims, yes.
+Research services usually do not need it. If you make clinical claims, you do.
 
 ## Call to action
 
-H2: Ask an AI which CROs run your study type. Then ask us why you were or were not on the list.
+H2: Ask an AI assistant which CROs run your study type, then ask us why you were or were not on the list.
 
 Buttons: Get the free snapshot · See the $4,995 website
 
@@ -83,62 +83,62 @@ Buttons: Get the free snapshot · See the $4,995 website
 # RESEARCH MODEL MARKETING
 
 URL: /research-model-marketing
-Title tag: Marketing for Mouse Model and Research Model Providers | Isovertic
-Meta description: Websites, catalog pages, and AI visibility for research model companies. Get found by the scientist searching for one gene, one strain, or one disease model. Free snapshot.
+Title tag: Mouse Model and Research Model Marketing Agency | Isovertic
+Meta description: A marketing agency for research model companies. Websites, catalog pages, and AI visibility so the scientist searching for one gene, one strain, or one disease model finds you. Free snapshot.
 Primary query: marketing for mouse model and research model providers. Secondary: preclinical services marketing agency, how to market custom mouse model services, in vivo services lead generation, research model supplier SEO.
 
 ## Hero
 
-Eyebrow: For research model providers
+Eyebrow: For mouse model and research model providers
 
-H1: Get found by the lab searching for one gene.
+H1: Marketing for mouse model companies: get found by the lab searching for one gene.
 
 Subhead:
-Nobody searches for "a research model company." They search for a gene, a strain, a humanized line, or a disease model. We build a page for each one, from your own catalog data, and we know this field because we work in it every day.
+Scientists do not search for "a research model company." They search for a gene, a strain, a humanized line, or a disease model. We are a marketing agency that works in this field every day, and we build a page for each of those searches from your own catalog data.
 
 Primary button: Get your free AI visibility snapshot
 Secondary button: See catalog site pricing
 
 ## The problem
 
-H2: Your catalog has thousands of answers. Google can see a few dozen.
+H2: Your catalog lists thousands of models, and Google can see a few dozen of them
 
-A model catalog is the most valuable thing a research model company owns, and on most sites it is a search box or a PDF. Each line in it is a question a scientist is typing right now. Without a page, there is nothing for Google or an AI assistant to return.
+A model catalog is the most valuable thing a research model company owns, and on most sites it is a search box or a PDF. Every line in it matches something a scientist is typing into a search box right now. If that line has no page of its own, Google and AI assistants have nothing to show.
 
 ## What we build
 
 H2: A page for every model, generated from your data and checked by a scientist
 
-- **Catalog pages at scale.** One page per gene, strain, or line, built from your database, with correct nomenclature.
+- **Catalog pages at scale.** We build one page per gene, strain, or line from your database, with correct nomenclature.
 - **Service pages** for custom model generation, breeding, cohort development, and phenotyping.
-- **Descriptions an expert would sign.** Conservative, cited, and reviewed. Kristen spent ten years selling translational research products and reads these the way your customers will.
-- **AI visibility.** We test whether assistants name you for your model types and what they say when they do.
+- **Descriptions an expert would sign.** Each one is conservative, cited, and reviewed. Kristen spent ten years selling translational research products, and she reads these the way your customers will.
+- **AI visibility.** We test whether AI assistants such as ChatGPT name you for your model types, and what they say when they do.
 
 ## Proof
 
 H2: What this has done for one mouse model company
 
-ingenious targeting laboratory: monthly form submissions went from 13 to about 64 in the first eight months. Organic clicks from Google rose 3.7 times. The site carries thousands of model pages generated from the company's own data. One account, our own reporting.
+At ingenious targeting laboratory, monthly form submissions went from 13 to about 64 in the first eight months, and organic clicks from Google rose 3.7 times. The site carries thousands of model pages generated from the company's own data. This is one account, and the numbers come from our own reporting.
 
 Disclosure: Kristen previously worked at ingenious targeting laboratory. George reviews that account for conflicts.
 
 ## Questions
 
 **How do I market custom mouse model services?**
-Show the specific models you have made, the method, the timeline, and what the customer receives. Then make each of those findable on its own page.
+Show the specific models you have made, the method, the timeline, and what the customer receives. Then give each of those its own page so scientists can find it.
 
 **Will generated pages hurt us with Google?**
 Thin, repeated pages will. Pages built from real data, each with something specific on it, are how catalog companies rank.
 
 **How do we compete with the largest suppliers?**
-On the specific model, not the category. A scientist searching one gene wants the provider with the best page for that gene.
+Compete on the specific model, and do not try to win the whole category. A scientist searching for one gene wants the provider with the best page for that gene.
 
 **What does a catalog site cost?**
 From $9,995, quoted in writing after we see your data. Catalog Care hosting is $300 a month.
 
 ## Call to action
 
-H2: Send us five models you want to be known for. We will show you what AI says about them today.
+H2: Send us five models you want to be known for. We will show you what AI assistants say about them today.
 
 Buttons: Get the free snapshot · Talk to George and Kristen
 
@@ -147,42 +147,42 @@ Buttons: Get the free snapshot · Talk to George and Kristen
 # REAGENT AND ANTIBODY MARKETING
 
 URL: /reagent-antibody-marketing
-Title tag: Marketing for Antibody, Reagent, and Life Science Tools Companies | Isovertic
-Meta description: Product pages that rank and get cited by AI for antibody, reagent, and kit suppliers. Built from your own data, checked by a scientist. Free AI visibility snapshot.
+Title tag: Marketing Agency for Antibody and Reagent Companies | Isovertic
+Meta description: A life science tools marketing agency for antibody, reagent, and kit suppliers. Product pages that rank and get cited by AI, built from your own data and checked by a scientist. Free AI visibility snapshot.
 Primary query: marketing agency for antibody and reagent companies. Secondary: SEO for antibody suppliers, life science tools marketing agency, research tools marketing, catalog product SEO, how to promote products to scientists.
 
 ## Hero
 
 Eyebrow: For antibody, reagent, and kit suppliers
 
-H1: Every product in your catalog is a search. Most of them lead to someone else.
+H1: Marketing for antibody and reagent companies: get each product found by the scientist searching for it.
 
 Subhead:
-A buyer types the target, the application, and the species. The supplier with the clearest product page gets the click, and now the AI citation. We build those pages from your own data and make sure each one says what a careful buyer needs to see.
+Every product in your catalog is something a buyer searches for by typing the target, the application, and the species. The supplier with the clearest product page gets the click, and now gets cited by AI assistants too. We are a marketing agency for antibody, reagent, and kit suppliers. We build those pages from your own data and make sure each one shows what a careful buyer needs to see.
 
 Primary button: Get your free AI visibility snapshot
 Secondary button: See catalog site pricing
 
 ## The problem
 
-H2: Buyers check before they buy
+H2: Marketing to scientists starts with the data they check before they buy
 
-Life scientists evaluate two or three vendors for most purchases, and 64% go to vendor websites when researching one ([Biocompare, Inside the Lab](https://advertising.biocompare.com/insidethelab/)). They are looking for validation data, citations, and the exact application. A page with a name, a catalog number, and a price does not answer them.
+Life scientists evaluate two or three vendors for most purchases, and 64% go to vendor websites when researching one ([Biocompare, Inside the Lab](https://advertising.biocompare.com/insidethelab/)). They are looking for validation data, citations, and the exact application. A page with a name, a catalog number, and a price gives them none of that.
 
 ## What we build
 
-H2: Product pages a careful buyer can check and a machine can quote
+H2: Product pages a careful buyer can check and an AI assistant can quote
 
 - **A complete page per product:** target, clonality, host, applications, species reactivity, validation images, and citations, from your own records.
 - **Application and target pages** that group products the way buyers search.
-- **Citations kept current.** Publications that used your product, linked on the product's page.
-- **Plain, complete HTML** so search engines and AI crawlers read all of it.
+- **Citations kept current.** We link the publications that used your product on that product's page.
+- **Plain, complete HTML** so search engines and AI crawlers can read all of it.
 - **A clear way to buy or ask:** order, quote, or technical question, on every page.
 
 ## Questions
 
-**How do antibody companies get more organic traffic?**
-One strong page per product and per application, with validation data visible and publications linked. Directories will still outrank you for broad terms. You win on the specific ones.
+**How do you market research antibodies so they show up in search?**
+Build one strong page per product and per application, with validation data visible and publications linked. Directories will still outrank you for broad terms, but you can win the specific ones.
 
 **We sell through distributors. Does our own site matter?**
 Yes. Scientists check the manufacturer's page even when they order elsewhere, and AI assistants cite the source.
@@ -195,7 +195,7 @@ A site with a few dozen products fits the $4,995 website. Large catalogs are quo
 
 ## Call to action
 
-H2: Pick ten products. We will show you who AI recommends for each one.
+H2: Pick ten products and we will show you which suppliers AI assistants recommend for each one.
 
 Buttons: Get the free snapshot · See every price
 
@@ -204,18 +204,18 @@ Buttons: Get the free snapshot · See every price
 # LAB EQUIPMENT MARKETING
 
 URL: /lab-equipment-marketing
-Title tag: Lab Equipment and Scientific Instrument Marketing | Isovertic
-Meta description: Websites, search, and AI visibility for lab equipment and instrument makers. Turn spec sheet visitors into quote requests. Website $4,995. Free AI visibility snapshot.
+Title tag: Lab Equipment and Scientific Instrument Marketing Agency | Isovertic
+Meta description: A marketing agency for lab equipment and scientific instrument makers. Websites, search, and AI visibility that turn spec sheet visitors into quote requests. Website $4,995. Free AI visibility snapshot.
 Primary query: lab equipment marketing agency. Secondary: scientific instrument marketing, lab marketing agency, how to sell lab equipment, lab equipment lead generation.
 
 ## Hero
 
 Eyebrow: For instrument, platform, and lab automation companies
 
-H1: Turn the lab manager reading your spec sheet into a quote request.
+H1: Lab equipment marketing that turns spec sheet readers into quote requests.
 
 Subhead:
-Instrument buyers research for months and involve a scientist, a lab manager, and purchasing. We build the site that answers each of them, the search presence that brings them in, and a quote request that reaches the right person on your team with an automatic first reply.
+Instrument buyers research for months and involve a scientist, a lab manager, and purchasing. We are a lab equipment and scientific instrument marketing agency. We build a website that answers each of them, do the search work that brings them in, and set up a quote request that reaches the right person on your team and sends an automatic first reply.
 
 Primary button: Get your free AI visibility snapshot
 Secondary button: See the $4,995 website
@@ -228,7 +228,7 @@ The scientist asks whether it will work for their application. The lab manager a
 
 ## What we build
 
-H2: A site that answers the whole committee
+H2: A website that answers the scientist, the lab manager, and purchasing
 
 - **Application pages** showing what the instrument does for a specific workflow, with data.
 - **Specifications as text** as well as a PDF, so search engines and AI assistants can read them.
@@ -242,14 +242,14 @@ H2: A site that answers the whole committee
 Application pages bring the scientist in. A clear quote path and a fast reply turn the visit into a conversation.
 
 **Does Google Ads work for instruments?**
-On specific terms, yes: the instrument type plus the application. Broad terms burn money. Ads management is $750 a month plus 10% of spend.
+Yes, on specific terms such as the instrument type plus the application. Broad terms waste money. Ads management is $750 a month plus 10% of spend.
 
 **Our sales cycle is nine months. How do we measure this?**
-Early signs every month: quote requests, demo requests, and who they came from. Revenue against your real cycle at six and twelve months.
+Track the early signs every month: quote requests, demo requests, and who they came from. Then compare revenue against your real sales cycle at six and twelve months.
 
 ## Call to action
 
-H2: Ask an AI to recommend an instrument in your category. See who it names.
+H2: Ask an AI assistant to recommend an instrument in your category, and see who it names.
 
 Buttons: Get the free snapshot · See the $4,995 website
 
@@ -258,25 +258,25 @@ Buttons: Get the free snapshot · See the $4,995 website
 # DIAGNOSTICS MARKETING
 
 URL: /diagnostics-marketing
-Title tag: Diagnostics and IVD Marketing, Websites, and HIPAA Forms | Isovertic
-Meta description: Websites, search, and AI visibility for diagnostics companies and clinical labs. Reach lab directors and clinicians, with HIPAA safe forms when you need them. Free snapshot.
+Title tag: Diagnostics and IVD Marketing Agency, with HIPAA Forms | Isovertic
+Meta description: A diagnostics marketing agency for in vitro diagnostics (IVD) companies and clinical labs. Websites, search, and AI visibility to reach lab directors and clinicians, with HIPAA safe forms when you need them. Free snapshot.
 Primary query: diagnostics marketing agency. Secondary: ivd marketing, ivd marketing strategy, ldt and ivd marketing, clinical laboratory marketing, HIPAA compliant website for diagnostic labs.
 
 ## Hero
 
-Eyebrow: For in vitro diagnostics and clinical laboratories
+Eyebrow: For in vitro diagnostics (IVD) companies and clinical laboratories
 
-H1: Reach the lab director and the ordering clinician, without a compliance problem.
+H1: Diagnostics marketing that reaches lab directors and ordering clinicians without a compliance problem.
 
 Subhead:
-A diagnostics site has to do two jobs: explain the test to the people who order and run it, and handle any patient information correctly. We build both, and we tell you plainly which claims your regulatory status supports.
+A diagnostics website has two jobs. It has to explain the test to the people who order and run it, and it has to handle any patient information correctly. We are a diagnostics marketing agency that builds both, and we tell you plainly which claims your regulatory status supports.
 
 Primary button: Get your free AI visibility snapshot
 Secondary button: See HIPAA forms and hosting
 
 ## The problem
 
-H2: Two audiences, two sets of rules
+H2: IVD marketing has two audiences and two sets of rules
 
 Lab directors want performance data, sample requirements, turnaround, and how the test fits their workflow. Clinicians want to know when to order it and what the result means. If patients ever enter information on your site, the forms, hosting, and tracking all fall under HIPAA.
 
@@ -286,24 +286,24 @@ H2: A site for each audience, with the safeguards built in
 
 - **Test pages** with intended use, performance, specimen requirements, and turnaround.
 - **Separate paths** for laboratories, clinicians, and, where it applies, patients.
-- **Claims matched to your status.** Research use only, lab developed, cleared, or approved, each stated correctly.
+- **Claims matched to your status.** Whether the test is research use only, lab developed, cleared, or approved, we state it correctly.
 - **HIPAA forms and hosting** when patient information is involved: $1,500 setup plus $300 a month, with a signed business associate agreement.
-- **Tracking that does not leak.** No advertising pixels on pages where patient information can appear.
+- **Tracking that does not leak.** We put no advertising pixels on pages where patient information can appear.
 
 ## Questions
 
 **Does a diagnostics lab website need to be HIPAA compliant?**
-If the site collects, stores, or passes patient information, yes, for those parts. A site that only describes tests to laboratories usually does not. We will tell you which you are.
+If the site collects, stores, or passes patient information, yes, for those parts. A site that only describes tests to laboratories usually does not. We will tell you which applies to you.
 
 **How do I market a diagnostics startup?**
-Start with the one test and the one buyer you can prove. A clear test page, performance data, and a way to order or ask come before anything else.
+Start with the one test and the one type of buyer you have evidence for. Build a clear test page with performance data and a way to order or ask before you do anything else.
 
 **Can we run Google Ads?**
-Often yes, with restrictions on certain health terms and no remarketing to patients. We set the account up to stay inside the policies.
+Often yes, but there are restrictions on certain health terms, and you cannot remarket to patients. We set the account up to stay inside the policies.
 
 ## Call to action
 
-H2: Find out how AI describes your test, and whether it is right.
+H2: Find out how AI assistants describe your test, and whether they have it right.
 
 Buttons: Get the free snapshot · Talk to George and Kristen
 
@@ -312,18 +312,18 @@ Buttons: Get the free snapshot · Talk to George and Kristen
 # MEDICAL DEVICE MARKETING
 
 URL: /medical-device-marketing
-Title tag: Medical Device Marketing and Website Design | Isovertic
-Meta description: Websites, search, and AI visibility for medical device companies, before and after clearance. Claims your regulatory team can sign. Website $4,995. Free AI visibility snapshot.
+Title tag: Medical Device Marketing Agency and Website Design | Isovertic
+Meta description: A medical device marketing agency for the stages before and after clearance. Websites, search, and AI visibility, with claims your regulatory team can sign. Website $4,995. Free AI visibility snapshot.
 Primary query: medical device marketing agency. Secondary: medtech marketing agency, medical device website design, medical device SEO agency, medical device lead generation, how to market a medical device.
 
 ## Hero
 
 Eyebrow: For medical device and medtech companies
 
-H1: Market your device with claims your regulatory team will sign.
+H1: Medical device marketing with claims your regulatory team will sign.
 
 Subhead:
-Before clearance you can say less than you want to. After clearance you can say exactly what the indication allows. We build the website and the search presence for both stages, and we write to the label.
+Before clearance you can say less than you want to. After clearance you can say exactly what the indication allows. We are a medical device marketing agency that builds the website and does the search work for both stages, and we write to the label.
 
 Primary button: Get your free AI visibility snapshot
 Secondary button: See the $4,995 website
@@ -336,12 +336,12 @@ A surgeon, a value analysis committee, and a purchasing group each need somethin
 
 ## What we build
 
-H2: A site for each stage
+H2: A website for each stage, before and after clearance
 
 **Before clearance**
 - The problem, the technology, the team, and the evidence so far
 - Investor and partner pages
-- Language that describes without claiming
+- Language that describes the device without making claims
 
 **After clearance**
 - Indications, clinical evidence, and instructions for use
@@ -353,20 +353,20 @@ H2: A site for each stage
 ## Questions
 
 **How do I market a medical device before clearance?**
-Talk about the problem and your technology, not outcomes you have not been cleared to claim. Build the audience so launch day is not day one.
+Talk about the problem and your technology, and leave out outcomes you have not been cleared to claim. Use the time to build an audience, so you are not starting from zero on launch day.
 
 **What claims can we make on the website?**
-What your cleared or approved indication supports. We keep a list of approved claims and write from it.
+You can make the claims your cleared or approved indication supports. We keep a list of approved claims and write from it.
 
 **Do social posts need review too?**
 Yes. Anything public that describes the device does.
 
 **How do we get in front of surgeons?**
-They search by procedure and problem. A page for each, with evidence, is how they find you.
+Surgeons search by procedure and by problem. They find you when you have a page for each one, with evidence on it.
 
 ## Call to action
 
-H2: See how AI describes your device today. If it is making claims you cannot, you will want to know.
+H2: See how AI assistants describe your device today. If they are making claims you cannot make, you will want to know.
 
 Buttons: Get the free snapshot · See the $4,995 website
 
@@ -375,36 +375,36 @@ Buttons: Get the free snapshot · See the $4,995 website
 # BIOTECH MARKETING
 
 URL: /biotech-marketing
-Title tag: Biotech Marketing and Websites for Early Stage Companies | Isovertic
-Meta description: A complete biotech website for $4,995, plus the search and AI visibility that help investors, partners, and recruits find you. Fixed price. Free AI visibility snapshot.
+Title tag: Biotech Marketing Agency and Websites for Startups | Isovertic
+Meta description: A biotech marketing agency for early stage companies. A complete website for $4,995, plus search and AI visibility so investors, partners, and recruits can find you. Fixed price. Free AI visibility snapshot.
 Primary query: biotech marketing agency. Secondary: biotech digital marketing, digital marketing for biotech companies, biotech startup website, biotech marketing strategy.
 
 ## Hero
 
 Eyebrow: For biotech companies, preclinical through commercial
 
-H1: The website your science deserves, at a price your runway can take.
+H1: A biotech startup website that gets the science right, for $4,995.
 
 Subhead:
-Before you have a product, your website is read by investors, partners, and the people you want to hire. It needs to state the science accurately, show the pipeline, and look like a company that will be here in five years. That is a 15 page job, and it costs $4,995.
+Before you have a product, the people reading your website are investors, partners, and the people you want to hire. The site needs to state the science accurately, show the pipeline, and look like a company that will be here in five years. We are a biotech marketing agency, and we build that site in 15 pages for $4,995.
 
 Primary button: Start your website
 Secondary button: Get a free AI visibility snapshot
 
 ## The problem
 
-H2: You do not need an agency retainer. You need a site that is right.
+H2: Most biotech startups need an accurate website before they need an agency retainer
 
 Early stage biotech companies are quoted $15,000 to $40,000 for a website and $10,000 a month for marketing they are not ready to use. Most need three things: an accurate site, a way to be found by name and by science, and nothing that embarrasses the chief scientific officer.
 
 ## What we build
 
-H2: What an early stage biotech site needs
+H2: What an early stage biotech website needs
 
 - **The science,** explained at two levels: one for the specialist, one for the generalist investor.
 - **The pipeline,** current and easy to update.
 - **The team and advisors,** with real biographies.
-- **News and publications,** so the site shows a pulse.
+- **News and publications,** so visitors can see the company is active.
 - **Careers and contact,** because recruits look here first.
 - **Forward looking statements handled properly** if you are public or about to be.
 
@@ -412,21 +412,21 @@ H2: What an early stage biotech site needs
 
 H2: Add services as the company grows
 
-Search and publishing at $1,000 a month once you have something to say every month. AI visibility monitoring at $500 once people are asking about your target or modality. Google Ads only when you have something to sell.
+Add search and publishing at $1,000 a month once you have something to say every month. Add AI visibility monitoring at $500 a month once people are asking about your target or modality. Wait on Google Ads until you have something to sell.
 
 ## Questions
 
-**Should a startup hire a marketer or an agency first?**
+**Should a biotech startup hire a marketer or an agency first?**
 Neither, at first. Get the site right, publish when you have news, and hire when there is a product to sell.
 
 **Do early stage biotech companies need a full website?**
-A complete one, not a large one. Fifteen pages covers it.
+They need a complete website, but it does not have to be large. Fifteen pages covers it.
 
 **Can we pause between funding rounds?**
 Yes. The site is paid for once. Monthly services stop with 30 days notice and start again when you are ready.
 
 **Who writes about our science?**
-We draft from your papers and decks. Kristen checks the wording. Your scientists approve it.
+We draft from your papers and decks, Kristen checks the wording, and your scientists approve it.
 
 ## Call to action
 

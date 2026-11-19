@@ -7,18 +7,18 @@ Note for George and Kristen: this page comes from the November 19 call. The site
 # AI AUTOMATION
 
 URL: /life-science-ai-automation
-Title tag: AI Automation for Life Science Companies | Isovertic
-Meta description: We automate the repeat work in a life science company: tracking publications, answering quote requests, building catalog pages, drafting newsletters. A scientist checks the output. Fixed quote first.
+Title tag: AI Automation Agency for Life Science Companies | Isovertic
+Meta description: We automate repetitive work in life science companies: tracking publications, answering quote requests, building catalog pages, and drafting newsletters. A scientist checks the output. You get a fixed quote first.
 Primary query: AI automation for life science companies. Secondary: workflow automation biotech, AI automation agency life science, automate publication tracking, automate quote requests.
 
 ## Hero
 
-Eyebrow: AI automation for life science companies
+Eyebrow: AI automation agency for life science
 
-H1: Your scientists are doing work a computer should do. We hand it to one.
+H1: AI automation for life science companies: we take the repetitive work off your scientists.
 
 Subhead:
-Somebody on your team checks for new publications that cite your products. Somebody answers the same quote request for the fortieth time. Somebody copies catalog data into web pages. We build the software and AI that does that work, and we keep a person in the loop wherever a wrong answer would cost you.
+Someone on your team checks for new publications that cite your products. Someone else answers the same quote request for the fortieth time or copies catalog data into web pages. We build the software and AI that does that work, and we keep a person checking it wherever a wrong answer would cost you.
 
 Primary button: Tell us the task you would hand off
 
@@ -26,24 +26,24 @@ Trust line: Fixed quote first · A scientist checks the output · You own what w
 
 ## The problem
 
-H2: Small teams lose expert hours to work that repeats.
+H2: Small teams spend their experts' hours on repetitive work.
 
-A 20 person company has the same obligations as a 2,000 person one: answer every inquiry, keep the catalog current, keep the publications page current, send the newsletter, report the numbers. It has a fraction of the people.
+A 20 person company has the same obligations as a 2,000 person one, with a fraction of the people. It still has to answer every inquiry, keep the catalog current, keep the publications page current, send the newsletter, and report the numbers.
 
-So the work lands on whoever can do it. Often that is a scientist or the person who runs the company. The hours come out of the work only they can do.
+The work lands on whoever can do it, and that is often a scientist or the person who runs the company. Those hours come out of the work only they can do.
 
-Most of that repeat work follows a pattern, and a pattern is what software and AI are good at. The hard part is knowing where the pattern ends and judgment begins. That is the part we design.
+Most of that repetitive work follows a pattern, and software and AI are good at patterns. The hard part is knowing where the pattern ends and judgment begins, and that is the part we design.
 
 ## What we automate
 
 H2: Four jobs we have built or are building now
 
 ### Publication watch
-New papers that use your products get found soon after they appear. You get the citation, a link to the PubMed record, a short plain summary of how your product was used, and a draft social post. A scientist confirms the paper used your product, and that the summary is accurate, before anything is published. The checked service is in pilot. The search half is live and free.
+We find new papers that use your products soon after they appear. You get the citation, a link to the PubMed record, a short plain summary of how your product was used, and a draft social post. A scientist confirms the paper used your product, and that the summary is accurate, before anything is published. The version with the scientist's check is in pilot. The search part is live and free.
 Link: Try PaperBrief free
 
 ### Quote and inquiry replies
-A request comes in through your form. The right reply goes out in minutes with the right pricing and next step, and your team is told a lead is waiting. Your people pick up the conversation where judgment is needed.
+A request comes in through your form. The right reply goes out in minutes with the right pricing and next step, and your team is told a lead is waiting. Your people take over the conversation where judgment is needed.
 Link: Ask about inquiry replies
 
 ### Catalog pages from your data
@@ -51,14 +51,14 @@ One spreadsheet or database becomes thousands of product, gene, or model pages, 
 Link: Ask about catalog pages
 
 ### Newsletters, posts, and reports
-First drafts of the newsletter, the social posts, and the monthly numbers get produced from your own material on a schedule. A person edits and approves. Nothing sends itself.
+First drafts of the newsletter, the social posts, and the monthly numbers are produced from your own material on a schedule. Nothing goes out until a person has edited and approved it.
 Link: Ask about drafts and reports
 
 ## How we keep it right
 
-H2: AI does the repeat work. A person owns every answer that matters.
+H2: AI does the repetitive work, and a person approves every answer that matters.
 
-AI is fast and it is sometimes wrong, and it is wrong with confidence. In your field a wrong sentence about a model or an assay costs you a customer. So every automation we build has the same three rules.
+AI is fast, it is sometimes wrong, and it sounds just as confident when it is wrong. In your field a wrong sentence about a model or an assay costs you a customer. For that reason every automation we build follows the same three rules.
 
 - **A named checkpoint.** We agree with you which steps a person must approve. Anything scientific gets one.
 - **Sources you can open.** Every summary links to the paper, the record, or the row of data it came from, so the checker can confirm it in a minute.
@@ -68,7 +68,7 @@ Kristen Coughlin trained as a molecular biologist. She reads the scientific outp
 
 ## How it goes
 
-H2: One task first
+H2: We start with one task
 
 1. You tell us one task your team repeats and how often.
 2. We tell you plainly whether it can be automated, what a person still has to check, and what it would cost. If it is not worth automating, we say so.
@@ -79,7 +79,7 @@ Every job is quoted in writing at a fixed price before we start. What we build f
 
 ## The website comes first for most companies
 
-H2: Not found yet? Start there.
+H2: If buyers cannot find you yet, start with the website.
 
 Automation saves hours once the inquiries are coming in. If buyers and AI assistants cannot find you, start with the website and the free AI visibility snapshot.
 
@@ -90,7 +90,7 @@ Buttons: See the $4,995 website · Get your free AI visibility snapshot
 H2: What people ask about automation
 
 **Will this replace someone on my team?**
-That is your call, not ours. What we see is that the hours go back to the work only your people can do: the science, the customers, and the decisions.
+That is your decision. What we see is that the hours go back to the work only your people can do: the science, the customers, and the decisions.
 
 **Is our data safe?**
 We build on accounts you control where we can, we keep credentials out of the AI tools, and we tell you in writing which services touch your data before we start.
@@ -105,14 +105,14 @@ No. We work on the commercial side of the company: publications, inquiries, cata
 It will, sometimes. That is why the steps that matter have a person approving them and a source link beside every claim.
 
 **Do we need a website from you first?**
-No. Automation stands on its own.
+No. You can hire us for automation alone.
 
 ## Final call to action
 
-H2: Name one task you would never do by hand again.
+H2: Tell us one repetitive task you would like to stop doing by hand.
 
 Send us the task and how often your team does it. We will reply with whether it can be automated, what a person still needs to check, and a fixed quote.
 
 Buttons: Tell us the task you would hand off · See the $4,995 website
 
-Closing line: You do the science. The repeat work can run itself.
+Closing line: You do the science. Software can do the repetitive work.

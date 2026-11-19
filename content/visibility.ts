@@ -3,12 +3,12 @@
 export const visibility = {
   path: "/ai-visibility-snapshot",
   product: "AI visibility snapshot",
-  title: "Free AI Visibility Snapshot: Does AI Name Your Company? | Isovertic",
+  title: "Free AI Visibility Checker: Does ChatGPT Recommend You? | Isovertic",
   description:
-    "Ten buyer questions, asked of ChatGPT, Gemini, Perplexity, and Claude, three times each. See how often AI names your company and what to fix. Free, in your inbox within 24 hours.",
+    "A free AI visibility check for life science companies. We ask ChatGPT, Gemini, Perplexity, and Claude ten buyer questions, three times each, and show how often they recommend your company. Free, in your inbox within 24 hours.",
   hero: {
     eyebrow: "Free AI visibility snapshot",
-    h1: "Does AI name your company when a buyer asks?",
+    h1: "Does ChatGPT recommend your company when a buyer asks?",
     lead: [
       "Your buyers ask ChatGPT, Gemini, Perplexity, and Claude which vendors to consider. This tool asks them the same questions, three times each, and counts how often your company comes up.",
       "It is free. Confirm your company email, tell us what you sell, and your report is in your inbox within 24 hours.",

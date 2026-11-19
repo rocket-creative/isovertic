@@ -217,9 +217,10 @@ function Block({ b }: { b: CopyBlock }) {
   }
 }
 
-// A price in the headline gets its own line at display size. The sentence stays intact for readers and crawlers.
+// The website price in a headline gets its own line at display size. The sentence stays intact for readers
+// and crawlers. Only $4,995 gets this; other prices in headlines stay in the running text.
 function heroTitle(h1: string): React.ReactNode {
-  const m = h1.match(/^(.*?)(\$[\d,]+)(\.?)\s*(.*)$/);
+  const m = h1.match(/^(.*?)(\$4,995)([.,]?)\s*(.*)$/);
   if (!m) return h1;
   return (
     <>
