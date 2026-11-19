@@ -46,3 +46,7 @@ create index if not exists paperbrief_papers_workspace on public.paperbrief_pape
 
 alter table public.paperbrief_papers add column if not exists draft jsonb;
 alter table public.paperbrief_papers add column if not exists drafted_at timestamptz;
+
+alter table public.paperbrief_accounts add column if not exists email_domain text;
+alter table public.paperbrief_accounts add column if not exists domain_has_site boolean;
+alter table public.paperbrief_workspaces add column if not exists domain_match boolean;

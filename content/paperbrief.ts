@@ -45,7 +45,7 @@ export const paperbrief = {
   gate: {
     label: "Open PaperBrief",
     h2: "Tell us who you are",
-    intro: "We ask so we know real companies are using it, and so we can reach you if a search looks wrong. We do not sell or share your details.",
+    intro: "PaperBrief is for people at life science companies, so it needs your company email. We do not sell or share your details.",
     name: "Your name",
     email: "Work email",
     phone: "Phone",
@@ -58,6 +58,8 @@ export const paperbrief = {
     consent: "By continuing you agree that Isovertic may contact you about PaperBrief. One code per request. The code lasts 15 minutes.",
     errors: {
       fields: "Please enter your name, a valid email, and a phone number.",
+      free: "Please use your company email. PaperBrief does not accept free addresses such as Gmail, Yahoo, or Outlook.",
+      domain: "We could not find a mail server for that email domain. Check the spelling and use your company address.",
       config: "Email verification is not switched on for this build yet. Write to sales@isovertic.com and we will open it for you.",
       send: "We could not send the code. Check the address and try again.",
       expired: "That code has expired. Request a new one.",

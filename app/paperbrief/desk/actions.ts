@@ -6,6 +6,7 @@ import { revalidatePath } from "next/cache";
 import { paperbrief } from "@/content/paperbrief";
 import { capture, text } from "@/lib/capture";
 import { ACCESS_COOKIE, WINDOWS, parseNames, unseal } from "@/lib/paperbrief";
+import { domainMatchesCompany, emailDomain } from "@/lib/paperbrief-domain";
 import { aiConfigured, draftPaper } from "@/lib/paperbrief-ai";
 import { DRAFTS_PER_DAY, db, draftsToday, getWorkspace, runCheck, saveWorkspace, type Cadence, type Status } from "@/lib/paperbrief-db";
 
@@ -20,12 +21,17 @@ async function context() {
 }
 
 export async function saveSettings(formData: FormData): Promise<void> {
-  const { client, accountId } = await context();
+  const { client, accountId, session } = await context();
   const names = parseNames(text(formData, "company").slice(0, 100), text(formData, "aliases").slice(0, 500));
   if (!names) redirect(`${desk}?error=names`);
   const days = WINDOWS.find((w) => String(w) === text(formData, "days")) ?? 90;
   const cadence = (["monthly", "weekly", "off"] as const).find((c) => c === text(formData, "cadence")) ?? "monthly";
+  // Does the inbox they verified belong to the company they are searching for? Never blocks; sales sees it.
+  const domain = emailDomain(session.e);
+  const match = domainMatchesCompany(domain, names);
+  const before = await getWorkspace(client, accountId);
   const workspace = await saveWorkspace(client, accountId, {
+    domain_match: match,
     company: names[0],
     aliases: names.slice(1),
     days,
@@ -33,6 +39,16 @@ export async function saveSettings(formData: FormData): Promise<void> {
     alerts: formData.get("alerts") === "on",
   });
   if (!workspace) redirect(`${desk}?error=save`);
+  if (!before || before.company !== workspace.company) {
+    await capture({
+      name: session.n,
+      email: session.e,
+      company: workspace.company,
+      message: `PaperBrief company set: ${workspace.company}${workspace.aliases.length ? ` (also: ${workspace.aliases.join(", ")})` : ""}\nEmail domain: ${domain}\nDomain matches company: ${match ? "yes" : "NO, check this one. They may be researching another company."}`,
+      sourcePath: desk,
+      subject: `PaperBrief: ${session.n} is tracking ${workspace.company}${match ? "" : " (domain does not match)"}`,
+    });
+  }
   let added = 0;
   try {
     added = (await runCheck(client, workspace)).length;

@@ -7,6 +7,7 @@ import { paperbrief } from "@/content/paperbrief";
 import { capture, EMAIL_RE, text } from "@/lib/capture";
 import { notifyEnvelope } from "@/lib/notify";
 import { db, upsertAccount } from "@/lib/paperbrief-db";
+import { emailDomain, hasWebsite, isFreeProvider, looksLikeDomain, receivesMail } from "@/lib/paperbrief-domain";
 import {
   ACCESS_COOKIE, ACCESS_DAYS, PENDING_COOKIE, PENDING_MINUTES,
   codeHash, configured, newCode, sameHash, seal, unseal,
@@ -25,6 +26,10 @@ export async function requestAccess(_prev: GateState, formData: FormData): Promi
   const phone = text(formData, "phone").slice(0, 40);
   if (text(formData, "hp_url")) return { step: "code", email };
   if (name.length < 2 || !EMAIL_RE.test(email) || phone.replace(/\D/g, "").length < 7) return { step: "form", error: E.fields };
+  // A company address only: no free mail providers, and the domain has to really receive mail.
+  const domain = emailDomain(email);
+  if (isFreeProvider(domain)) return { step: "form", error: E.free };
+  if (!looksLikeDomain(domain) || !(await receivesMail(domain))) return { step: "form", error: E.domain };
   if (!configured()) return { step: "form", error: E.config };
 
   const code = newCode();
@@ -56,13 +61,16 @@ export async function verifyCode(prev: GateState, formData: FormData): Promise<G
 
   // With the database connected the session carries the account id, which is what saves a queue.
   const client = db();
-  const accountId = client ? await upsertAccount(client, { name: pending.n, email: pending.e, phone: pending.p }) : null;
+  const domain = emailDomain(pending.e);
+  const site = await hasWebsite(domain);
+  const accountId = client ? await upsertAccount(client, { name: pending.n, email: pending.e, phone: pending.p, domain, site }) : null;
   const access = seal({ n: pending.n, e: pending.e, ...(accountId ? { a: accountId } : {}) }, ACCESS_DAYS * 24 * 60);
   if (!access) return { step: "code", email: prev.email, error: E.config };
   await capture({
     name: pending.n,
     email: pending.e,
-    message: `PaperBrief access, email verified.\nPhone: ${pending.p}`,
+    company: domain,
+    message: `PaperBrief access, email verified.\nPhone: ${pending.p}\nEmail domain: ${domain}\nWebsite answers at that domain: ${site ? "yes" : "no"}`,
     sourcePath: paperbrief.path,
     subject: `PaperBrief signup: ${pending.n}`,
   });

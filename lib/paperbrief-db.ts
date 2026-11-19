@@ -10,7 +10,7 @@ export type Status = "review" | "ours" | "not_ours";
 export type Cadence = "monthly" | "weekly" | "off";
 export type Workspace = {
   id: string; account_id: string; company: string; aliases: string[]; days: number; cadence: Cadence;
-  alerts: boolean; unsubscribe_token: string; last_checked_at: string | null; next_check_at: string | null;
+  alerts: boolean; unsubscribe_token: string; last_checked_at: string | null; next_check_at: string | null; domain_match: boolean | null;
 };
 export type SavedPaper = {
   id: string; pmid: string; title: string; authors: string | null; journal: string | null; pub_date: string;
@@ -31,11 +31,11 @@ export function db(): SupabaseClient | null {
   return url && key ? createClient(url, key, { auth: { persistSession: false } }) : null;
 }
 
-export async function upsertAccount(c: SupabaseClient, a: { name: string; email: string; phone: string }): Promise<string | null> {
+export async function upsertAccount(c: SupabaseClient, a: { name: string; email: string; phone: string; domain: string; site: boolean }): Promise<string | null> {
   const now = new Date().toISOString();
   const { data, error } = await c
     .from("paperbrief_accounts")
-    .upsert({ name: a.name, email: a.email, phone: a.phone, verified_at: now, last_seen_at: now }, { onConflict: "email" })
+    .upsert({ name: a.name, email: a.email, phone: a.phone, email_domain: a.domain, domain_has_site: a.site, verified_at: now, last_seen_at: now }, { onConflict: "email" })
     .select("id")
     .single();
   if (error) console.error("PaperBrief account:", error.message);
@@ -55,7 +55,7 @@ export function nextCheck(cadence: Cadence, from = new Date()): string | null {
 export async function saveWorkspace(
   c: SupabaseClient,
   accountId: string,
-  w: { company: string; aliases: string[]; days: number; cadence: Cadence; alerts: boolean },
+  w: { company: string; aliases: string[]; days: number; cadence: Cadence; alerts: boolean; domain_match: boolean },
 ): Promise<Workspace | null> {
   const { data, error } = await c
     .from("paperbrief_workspaces")
