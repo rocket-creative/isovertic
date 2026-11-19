@@ -159,23 +159,37 @@ H2: Built for life science companies
 
 Small link: Not in life science? We build for other businesses at the same price. Tell us what you need.
 
-## Prices
+## Add ons
 
-H2: Every price, published
+H2: Start with the website. Add only what you want.
 
-| | |
+| The website | |
 |---|---|
 | AI visibility snapshot | Free |
-| Full AI visibility audit | $2,500 |
 | Website, up to 15 pages | $4,995 |
-| Hosting and care | from $50 a month |
+| Full AI visibility audit | $2,500 |
+
+| Add on, month to month | |
+|---|---|
+| Hosting and care | $50, $150, or $300 a month, by the size of the site |
 | AI visibility monitoring | from $500 a month |
-| Search and publishing | $1,000 a month |
+| Search and publishing, with eight social posts | $1,000 a month |
 | Google Ads management | $750 a month plus 10% of ad spend |
+| Publication watch | In pilot. Ask us. |
 
 No 12 month contract. Monthly services stop with 30 days notice.
 
+[Publication watch has no price yet. On the call George floated free as a way in the door and Kristen floated a small package.]
+
 Button: See what each price includes
+
+## The other thing we build
+
+H2: Automation for the work your team repeats
+
+Tracking new publications, answering quote requests, turning catalog data into pages, drafting the newsletter. We build the software and AI that does it, with a scientist checking the output.
+
+Button: See what we automate
 
 ## Questions
 

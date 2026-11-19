@@ -1,6 +1,7 @@
 // Navigation and review notices for the rewritten site. Paths match the URL lines in content/site-copy.
 export const primaryNav = [
-  { href: "/life-science-website-design", label: "Website" },
+  { href: "/", label: "$4,995 website" },
+  { href: "/life-science-ai-automation", label: "Automation" },
   { href: "/ai-visibility-audit", label: "AI visibility" },
   { href: "/pricing", label: "Pricing" },
   { href: "/about", label: "About" },
@@ -13,6 +14,7 @@ export const footerCols = [
     h: "Services",
     items: [
       ["The $4,995 website", "/life-science-website-design"],
+      ["AI automation", "/life-science-ai-automation"],
       ["Website redesign", "/life-science-website-redesign"],
       ["AI visibility audit", "/ai-visibility-audit"],
       ["AI search optimization", "/ai-search-optimization-life-sciences"],
