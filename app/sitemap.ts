@@ -1,62 +1,23 @@
 import type { MetadataRoute } from "next";
+import { paperbrief } from "@/content/paperbrief";
+import { visibility } from "@/content/visibility";
 import { site } from "@/lib/site";
-import { services } from "@/content/services";
-import { industries } from "@/content/industries";
-import { compares } from "@/content/compare";
-import { getArticles } from "@/lib/articles";
-import { answers } from "@/content/answers";
-import { glossary } from "@/content/glossary";
-import { people } from "@/content/people";
-import { publishedCaseStudies } from "@/content/case-studies";
-import { problems } from "@/content/problems";
+import { copyPages } from "@/lib/sitecopy";
 
-// lastmod is the date the page's main content last changed, not the build time. Google ignores lastmod that
-// moves on every deploy, and ignores priority and changefreq entirely, so neither is emitted.
-// Bump CORE_UPDATED when a static page's copy changes. Collections carry their own dateModified.
-const CORE_UPDATED: Record<string, string> = {
-  "": "2026-10-26",
-  "/system": "2026-09-10",
-  "/pricing": "2026-09-10",
-  "/protocol": "2026-09-10",
-  "/about": "2026-09-10",
-  "/answers": "2026-09-08",
-  "/glossary": "2026-09-08",
-  "/results": "2026-09-08",
-  "/contact": "2026-09-05",
-  "/long-island": "2026-10-26",
-  "/field-notes": "2026-09-07",
-  "/problems": "2026-09-08",
-  "/services": "2026-09-10",
-  "/industries": "2026-09-10",
-  "/compare": "2026-09-05",
-  "/privacy": "2026-09-05",
-  "/terms": "2026-09-08",
-  "/resources": "2026-09-08",
-  "/resources/engagement-and-measurement-standard": "2026-09-07",
-  "/resources/agency-vs-inhouse": "2026-09-07",
-  "/resources/meeting-quality-standard": "2026-09-07",
-  "/audit": "2026-09-10",
-  "/compliance/baa-request": "2026-09-07",
-  "/compliance/hipaa-posture": "2026-09-07",
-  "/compliance/sensitive-data-governance": "2026-09-07",
-  "/field-notes/editorial-standard": "2026-09-07",
-};
+// The rewrite's sitemap: every page drafted in content/site-copy, plus the two free tools.
+// Older routes are held back by middleware on this branch, so they are not listed. When a legacy
+// section is brought back at launch, add its collection here again (git history has the old list).
+// lastmod is the date the copy last changed, not the build time. Google ignores a lastmod that moves on
+// every deploy, and ignores priority and changefreq entirely, so neither is emitted.
+const COPY_UPDATED = "2026-11-19";
 
-// Served fresh on every request so a stale edge copy cannot outlive a deploy (the 09-08 deploy kept serving the old list).
 export const dynamic = "force-dynamic";
 
-const d = (s: string) => new Date(s);
-
 export default function sitemap(): MetadataRoute.Sitemap {
-  const urls: MetadataRoute.Sitemap = Object.entries(CORE_UPDATED).map(([p, when]) => ({ url: `${site.url}${p}`, lastModified: d(when) }));
-  for (const s of services) urls.push({ url: `${site.url}/${s.slug}`, lastModified: d(s.dateModified ?? "2026-09-05") });
-  for (const i of industries) urls.push({ url: `${site.url}/industries/${i.slug}`, lastModified: d(i.dateModified ?? "2026-09-05") });
-  for (const c of compares) urls.push({ url: `${site.url}/compare/${c.slug}`, lastModified: d(c.dateModified ?? "2026-09-04") });
-  for (const a of getArticles()) urls.push({ url: `${site.url}/field-notes/${a.slug}`, lastModified: d(a.dateModified) });
-  for (const p of people) urls.push({ url: `${site.url}/people/${p.slug}`, lastModified: d(p.dateModified ?? "2026-09-05") });
-  for (const c of publishedCaseStudies) urls.push({ url: `${site.url}/results/${c.slug}`, lastModified: d(c.publishedDate) });
-  for (const a of answers) urls.push({ url: `${site.url}/answers/${a.slug}`, lastModified: d(a.dateModified) });
-  for (const p of problems) urls.push({ url: `${site.url}/problems/${p.slug}`, lastModified: d(p.dateModified) });
-  for (const t of glossary) urls.push({ url: `${site.url}/glossary/${t.slug}`, lastModified: d(t.dateModified ?? "2026-09-04") });
-  return urls;
+  const lastModified = new Date(COPY_UPDATED);
+  return [
+    ...copyPages().map((p) => ({ url: `${site.url}${p.path === "/" ? "" : p.path}`, lastModified })),
+    { url: `${site.url}${visibility.path}`, lastModified },
+    { url: `${site.url}${paperbrief.path}`, lastModified },
+  ];
 }

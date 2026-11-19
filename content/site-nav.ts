@@ -56,3 +56,46 @@ export const footerCols = [
 export const footerLine = "Websites and AI visibility for life science companies.";
 export const reviewNotice = "Local review draft. Not published. Forms, older pages, and checkout are switched off.";
 export const formNotice = "Review draft: this form does not send yet.";
+
+// Search first plumbing. One list of published prices feeds the structured data and llms.txt,
+// so a price is never stated one way on a page and another way to a crawler.
+export const publishedOffers: readonly { name: string; price: number; unit?: string }[] = [
+  { name: "AI visibility snapshot", price: 0 },
+  { name: "Life science website, up to 15 pages", price: 4995 },
+  { name: "Full AI visibility audit", price: 2500 },
+  { name: "Website hosting and care", price: 50, unit: "a month and up" },
+  { name: "AI visibility monitoring", price: 500, unit: "a month and up" },
+  { name: "Search and publishing", price: 1000, unit: "a month" },
+  { name: "Google Ads management", price: 750, unit: "a month plus 10% of ad spend" },
+];
+
+// The row of links near the foot of each page. Crawlers and readers both use it to reach sibling pages.
+export const related = { label: "Related", heading: "Related pages" } as const;
+
+// What llms.txt tells AI assistants about the company.
+export const llms = {
+  name: "Isovertic",
+  summary:
+    "Isovertic is a two person marketing agency for life science companies. It builds complete websites for a fixed $4,995 and helps contract research organizations, research model providers, reagent and antibody suppliers, lab equipment makers, diagnostics companies, medical device companies, and biotech startups show up on Google and in AI assistants such as ChatGPT.",
+  knowsAbout: [
+    "Life science website design",
+    "Biotech website design",
+    "AI visibility",
+    "AI search optimization",
+    "Life science SEO",
+    "Scientific content marketing",
+    "Google Ads for life science companies",
+    "Marketing for contract research organizations",
+    "Medical device marketing",
+    "Diagnostics marketing",
+    "Research model and reagent marketing",
+    "AI automation for life science companies",
+  ],
+  facts: [
+    "People: George Stoff, Founder and Lead Engineer, has built software for more than 30 years. Kristen Coughlin, Chief Operating Officer, is a trained molecular biologist.",
+    "Location: Long Island, New York. Works with life science companies across the United States and meets clients in Connecticut, New York, and Boston.",
+    "The website price is fixed at $4,995 for up to 15 pages. Monthly services are month to month and stop with 30 days notice. There is no 12 month contract.",
+    "The free AI visibility snapshot is run by software: ten buyer questions asked of ChatGPT, Gemini, Perplexity, and Claude, three times each. The report arrives within 24 hours.",
+    "AI drafts the production work. Kristen checks the science on client websites, and the client's own expert approves every technical claim before it publishes.",
+  ],
+} as const;

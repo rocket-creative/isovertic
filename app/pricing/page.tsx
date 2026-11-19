@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { CopyPageView } from "@/components/sections/CopyPage";
-import { copyPage } from "@/lib/sitecopy";
+import { copyMetadata } from "@/lib/sitecopy";
 
-const page = copyPage("/pricing");
-export const metadata: Metadata = { title: { absolute: page.title }, description: page.description, alternates: { canonical: page.path } };
+export const metadata: Metadata = copyMetadata("/pricing");
 export default function Page() {
   return <CopyPageView path="/pricing" />;
 }

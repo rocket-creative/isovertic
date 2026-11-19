@@ -4,9 +4,9 @@ import { PageHero, Section } from "@/components/sections/Shell";
 import { FAQ } from "@/components/ui/FAQ";
 import { Arrow } from "@/components/ui/Arrow";
 import { JsonLd } from "@/components/ui/JsonLd";
-import { faqLd } from "@/lib/schema";
+import { breadcrumbLd, faqLd, offersLd, serviceLd } from "@/lib/schema";
 import { copyPage, type CopyBlock, type CopyLink } from "@/lib/sitecopy";
-import { formNotice } from "@/content/site-nav";
+import { footerCols, formNotice, publishedOffers, related } from "@/content/site-nav";
 import { RevealBlock } from "@/components/ui/RevealBlock";
 import { CopyDiagram } from "@/components/sections/CopyDiagram";
 import { ParticleField } from "@/components/ui/ParticleField";
@@ -250,8 +250,24 @@ function Reel() {
   );
 }
 
+// Pages that describe the company or take a message. Every other page describes a service.
+const NOT_A_SERVICE = new Set(["/", "/about", "/contact", "/pricing"]);
+
+// Sibling pages from the same footer column, then the two pages every visitor may want next.
+function relatedLinks(path: string): (readonly [string, string])[] {
+  if (path === "/" || path === "/contact") return [];
+  const cols: readonly { items: readonly (readonly [string, string])[] }[] = footerCols;
+  const column = cols.find((c) => c.items.some(([, href]) => href === path));
+  const siblings = (column?.items ?? []).filter(([, href]) => href !== path && !href.startsWith("/paperbrief")).slice(0, 5);
+  const always = cols.flatMap((c) => c.items).filter(([, href]) => ["/life-science-website-design", "/pricing", "/ai-visibility-snapshot"].includes(href));
+  const seen = new Set<string>([path]);
+  return [...siblings, ...always].filter(([, href]) => (seen.has(href) ? false : (seen.add(href), true)));
+}
+
 export function CopyPageView({ path }: { path: string }) {
   const page = copyPage(path);
+  const name = page.title.split(" | ")[0];
+  const links = relatedLinks(path);
   const home = path === "/";
   const last = page.sections.length - 1;
   const closes = /call to action/i.test(page.sections[last]?.title ?? "");
@@ -262,6 +278,11 @@ export function CopyPageView({ path }: { path: string }) {
   return (
     <>
       {faqs.length > 0 && <JsonLd data={faqLd(faqs)} />}
+      {path !== "/" && <JsonLd data={breadcrumbLd([{ name: "Home", path: "/" }, { name, path }])} />}
+      {!NOT_A_SERVICE.has(path) && <JsonLd data={serviceLd(name, page.description, path)} />}
+      {(path === "/" || path === "/pricing") && (
+        <JsonLd data={offersLd(name, publishedOffers.map((o) => ({ name: o.name, price: o.price })), path)} />
+      )}
       <PageHero
         eyebrow={page.eyebrow}
         h1={heroTitle(page.h1)}
@@ -301,7 +322,7 @@ export function CopyPageView({ path }: { path: string }) {
             <Block key={bi} b={b} />
           ),
         );
-        return (
+        const section = (
           <Section key={s.id + i} label={s.title.length <= 28 ? s.title : undefined} tone={navy ? "navy" : i % 2 ? "bright" : "paper"} backdrop={navy ? <ParticleField tone="paper" /> : undefined} deferred={false}>
             <div id={s.id} className="scroll-mt-32 [&>*:first-child]:mt-0">
               {s.h2 && (
@@ -318,6 +339,25 @@ export function CopyPageView({ path }: { path: string }) {
               {slots.has(i) && !isForm && !navy && <ImageSlot brief={slots.get(i)!} className="mt-16" />}
             </div>
           </Section>
+        );
+        // The related row sits just above the closing call to action, where a reader decides what to open next.
+        if (!(navy && links.length)) return section;
+        return (
+          <React.Fragment key={s.id + i}>
+            <Section label={related.label} tone={i % 2 ? "bright" : "paper"} deferred={false}>
+              <nav aria-label={related.heading}>
+                <h2 className="font-display text-h3 font-medium">{related.heading}</h2>
+                <ul className="mt-6 grid gap-x-10 gap-y-1 sm:grid-cols-2 lg:grid-cols-3">
+                  {links.map(([label, href]) => (
+                    <li key={href} className="border-t border-rule">
+                      <Link href={href} className="cta-link w-full justify-between">{label} <Arrow /></Link>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            </Section>
+            {section}
+          </React.Fragment>
         );
       })}
     </>

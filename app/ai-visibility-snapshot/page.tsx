@@ -10,12 +10,15 @@ import { db } from "@/lib/paperbrief-db";
 import { emailDomain } from "@/lib/paperbrief-domain";
 import { getSession } from "@/lib/session";
 import { activeProviders } from "@/lib/visibility-providers";
+import { JsonLd } from "@/components/ui/JsonLd";
+import { breadcrumbLd, webApplicationLd } from "@/lib/schema";
 import { createSnapshot } from "./actions";
 
 export const metadata: Metadata = {
   title: { absolute: c.title },
   description: c.description,
   alternates: { canonical: c.path },
+  openGraph: { title: c.title.split(" | ")[0], description: c.description, url: c.path, type: "website" },
 };
 export const dynamic = "force-dynamic";
 // Writing the questions reads the site and waits on the model.
@@ -38,6 +41,8 @@ export default async function SnapshotStart({ searchParams }: { searchParams: Pr
 
   return (
     <>
+      <JsonLd data={webApplicationLd({ name: "Isovertic AI Visibility Checker", description: c.description, path: c.path })} />
+      <JsonLd data={breadcrumbLd([{ name: "Home", path: "/" }, { name: c.product, path: c.path }])} />
       <PageHero
         eyebrow={c.hero.eyebrow}
         h1={c.hero.h1}

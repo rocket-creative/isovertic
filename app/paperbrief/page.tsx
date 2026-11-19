@@ -9,11 +9,14 @@ import { paperbrief as c } from "@/content/paperbrief";
 import { configured } from "@/lib/paperbrief";
 import { aiConfigured } from "@/lib/paperbrief-ai";
 import { db } from "@/lib/paperbrief-db";
+import { JsonLd } from "@/components/ui/JsonLd";
+import { breadcrumbLd, webApplicationLd } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: { absolute: c.title },
   description: c.description,
   alternates: { canonical: c.path },
+  openGraph: { title: c.title, description: c.description, url: c.path, type: "website" },
 };
 
 export const dynamic = "force-dynamic";
@@ -23,6 +26,8 @@ export default function PaperBriefPage() {
   console.info("PaperBrief config", { email: configured(), database: db() !== null, cron: Boolean(process.env.CRON_SECRET), ai: aiConfigured() });
   return (
     <>
+      <JsonLd data={webApplicationLd({ name: "PaperBrief", description: c.description, path: c.path })} />
+      <JsonLd data={breadcrumbLd([{ name: "Home", path: "/" }, { name: "PaperBrief", path: c.path }])} />
       <PageHero
         eyebrow={c.hero.eyebrow}
         h1={c.hero.h1}

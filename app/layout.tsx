@@ -5,7 +5,8 @@ import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
 import { MobileCTABar } from "@/components/sections/MobileCTABar";
 import { JsonLd } from "@/components/ui/JsonLd";
-import { organizationLd, peopleLd } from "@/lib/schema";
+import { agencyLd } from "@/lib/schema";
+import { llms, publishedOffers } from "@/content/site-nav";
 import { site } from "@/lib/site";
 
 const display = localFont({ src: "./fonts/archivo-var.woff2", weight: "100 900", variable: "--font-display", display: "swap" });
@@ -33,6 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${display.variable} ${body.variable}`}>
       <body>
         
+        <JsonLd data={agencyLd({ description: llms.summary, knowsAbout: llms.knowsAbout, offers: publishedOffers })} />
         <div className="scroll-progress" aria-hidden="true" />
         <Header />
         <main id="main">{children}</main>

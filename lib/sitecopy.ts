@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import type { Metadata } from "next";
 import { site } from "@/lib/site";
 
 // Reads the page drafts in content/site-copy/*.md and turns them into typed pages.
@@ -291,6 +292,19 @@ function build(): CopyPage[] {
     pages.push(page);
   }
   return pages;
+}
+
+/** Title, description, canonical, and share card for a page, all from its copy. Every route uses this. */
+export function copyMetadata(p: string): Metadata {
+  const page = copyPage(p);
+  const share = { title: page.title.split(" | ")[0], description: page.description };
+  return {
+    title: { absolute: page.title },
+    description: page.description,
+    alternates: { canonical: page.path },
+    openGraph: { ...share, url: page.path, type: "website", siteName: site.name, images: [site.images.og] },
+    twitter: { card: "summary_large_image", ...share, images: [site.images.og.url] },
+  };
 }
 
 let cache: CopyPage[] | null = null;

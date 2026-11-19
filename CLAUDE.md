@@ -14,6 +14,7 @@ Editorial luxury minimalism. Warm white #F5F4F0, ink #14181B, one accent: Navy #
 ## Skills (docs/skills/)
 - `docs/skills/isovertic-voice/SKILL.md`: how to write anything a prospect or client reads. Load for copy, field notes, emails, decks.
 - `docs/skills/isovertic-marketing/SKILL.md`: positioning, ICP, offer, engagement length defense, and the ten client model playbooks under `references/`. Load for strategy, proposals, briefs.
+- `docs/skills/isovertic-search/SKILL.md`: search first rules for titles, headlines, descriptions, FAQs, and links, with the words buyers actually type. Load before changing any page copy or adding a page.
 Read the relevant SKILL.md before writing site copy or client material.
 
 ## Writing law (hard rules, lint enforced)

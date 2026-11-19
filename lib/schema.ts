@@ -328,3 +328,50 @@ export function offersLd(name: string, offers: { name: string; price: number }[]
     })),
   };
 }
+
+// The organization as the rewritten site describes it: a life science marketing agency with published,
+// itemized prices. Replaces organizationLd(), whose tiers and 12 month terms belong to the earlier site.
+export function agencyLd(a: { description: string; knowsAbout: readonly string[]; offers: readonly { name: string; price: number; unit?: string }[] }) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": orgId,
+    name: "Isovertic",
+    alternateName: site.name,
+    legalName: site.legalName,
+    url: site.url,
+    sameAs: [site.linkedin],
+    logo: imageLd("logo"),
+    image: imageLd("og"),
+    description: a.description,
+    slogan: "Websites and AI visibility for life science companies.",
+    telephone: site.phone,
+    email: site.email,
+    founder: { "@id": personId },
+    employee: people.map((p) => personRef(p.slug)),
+    knowsAbout: a.knowsAbout,
+    areaServed: { "@type": "Country", name: "United States" },
+    priceRange: "$4,995 for a website. Monthly services from $50.",
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "Published prices",
+      itemListElement: a.offers.map((o) => ({
+        "@type": "Offer",
+        name: o.name,
+        price: o.price,
+        priceCurrency: "USD",
+        ...(o.unit ? { description: `$${o.price.toLocaleString("en-US")} ${o.unit}` } : {}),
+        url: `${site.url}/pricing`,
+      })),
+    },
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: site.address.street,
+      addressLocality: site.address.locality,
+      addressRegion: site.address.region,
+      postalCode: site.address.postalCode,
+      addressCountry: site.address.country,
+    },
+    contactPoint: { "@type": "ContactPoint", telephone: site.phone, email: site.email, contactType: "sales", url: `${site.url}/contact` },
+  };
+}
