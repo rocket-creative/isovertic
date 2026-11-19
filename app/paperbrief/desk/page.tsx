@@ -8,7 +8,8 @@ import { ParticleField } from "@/components/ui/ParticleField";
 import { paperbrief as c } from "@/content/paperbrief";
 import { ACCESS_COOKIE, WINDOWS, discoverPapers, parseNames, unseal, type Paper } from "@/lib/paperbrief";
 import { db, getWorkspace, listPapers, type SavedPaper, type Status, type Workspace } from "@/lib/paperbrief-db";
-import { checkNow, requestPost, saveSettings, setStatus, signOut } from "./actions";
+import { CopyButton } from "@/components/ui/CopyButton";
+import { checkNow, draftPost, saveSettings, setStatus, signOut } from "./actions";
 
 export const metadata: Metadata = {
   title: { absolute: c.desk.title },
@@ -16,6 +17,8 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 export const dynamic = "force-dynamic";
+// Drafting waits on the model, which can take most of a minute on a long abstract.
+export const maxDuration = 120;
 
 const d = c.desk;
 type Params = Record<string, string | string[] | undefined>;
@@ -64,10 +67,49 @@ function SettingsForm({ w }: { w?: Workspace | null }) {
   );
 }
 
+function DraftView({ p }: { p: SavedPaper }) {
+  const a = d.ai;
+  const draft = p.draft!;
+  const link = `https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/`;
+  const blocks: [string, string, string?][] = [
+    [a.summary, draft.summary],
+    [a.linkedin, draft.linkedin, `${a.firstComment} ${link}`],
+    [a.x, `${draft.x}\n${link}`],
+  ];
+  return (
+    <details className="draft" open>
+      <summary className="paper-action">{a.toggle}</summary>
+      <div className="draft-body">
+        <p className={`draft-verdict draft-verdict--${draft.verdict}`}>
+          <strong>{a.verdict[draft.verdict]}</strong> {draft.reason}
+        </p>
+        {draft.evidence && (
+          <blockquote className="mt-4 border-l border-ink pl-4 text-[14px] leading-relaxed text-ink-soft">
+            <span className="eyebrow block">{a.evidence}</span>
+            {draft.evidence}
+          </blockquote>
+        )}
+        {blocks.map(([label, body, note]) => (
+          <div key={label} className="mt-6">
+            <div className="flex items-center justify-between gap-4">
+              <p className="eyebrow">{label}</p>
+              <CopyButton text={body} label={a.copy} done={a.copied} />
+            </div>
+            <p className="mt-1 whitespace-pre-line leading-relaxed">{body}</p>
+            {note && <p className="mt-2 text-[13px] text-ink-soft">{note}</p>}
+          </div>
+        ))}
+        <p className="draft-warning">{a.warning}</p>
+        <p className="mt-3 text-[12px] text-ink-soft">{draft.source === "full_text" ? a.fromFullText : a.fromAbstract}</p>
+      </div>
+    </details>
+  );
+}
+
 function PaperRow({ p, show }: { p: SavedPaper; show: string }) {
   const options: [Status, string][] = [["ours", d.status.ours], ["not_ours", d.status.not_ours], ["review", d.status.review]];
   return (
-    <li className={`paper-row ${p.status === "not_ours" ? "opacity-60" : ""}`}>
+    <li id={`paper-${p.id}`} className={`paper-row scroll-mt-32 ${p.status === "not_ours" ? "opacity-60" : ""}`}>
       <p className="eyebrow">
         {p.pub_date} · {p.journal}
         <span className={`paper-tag paper-tag--${p.status}`}>{d.tag[p.status]}</span>
@@ -84,16 +126,14 @@ function PaperRow({ p, show }: { p: SavedPaper; show: string }) {
             <button type="submit" className="paper-action">{label}</button>
           </form>
         ))}
-        {p.status === "ours" &&
-          (p.post_requested_at ? (
-            <span className="text-[12px] uppercase tracking-[0.1em] text-signal">{d.requested}</span>
-          ) : (
-            <form action={requestPost}>
-              <input type="hidden" name="id" value={p.id} />
-              <button type="submit" className="paper-action paper-action--signal">{d.request}</button>
-            </form>
-          ))}
+        {p.status !== "not_ours" && (
+          <form action={draftPost}>
+            <input type="hidden" name="id" value={p.id} />
+            <button type="submit" className="paper-action paper-action--signal">{p.draft ? d.ai.again : d.ai.draft}</button>
+          </form>
+        )}
       </div>
+      {p.draft && <DraftView p={p} />}
     </li>
   );
 }

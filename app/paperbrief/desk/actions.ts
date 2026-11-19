@@ -6,7 +6,8 @@ import { revalidatePath } from "next/cache";
 import { paperbrief } from "@/content/paperbrief";
 import { capture, text } from "@/lib/capture";
 import { ACCESS_COOKIE, WINDOWS, parseNames, unseal } from "@/lib/paperbrief";
-import { db, getWorkspace, runCheck, saveWorkspace, type Cadence, type Status } from "@/lib/paperbrief-db";
+import { aiConfigured, draftPaper } from "@/lib/paperbrief-ai";
+import { DRAFTS_PER_DAY, db, draftsToday, getWorkspace, runCheck, saveWorkspace, type Cadence, type Status } from "@/lib/paperbrief-db";
 
 const desk = paperbrief.deskPath;
 
@@ -71,7 +72,33 @@ export async function setStatus(formData: FormData): Promise<void> {
   redirect(`${desk}${text(formData, "show") ? `?show=${encodeURIComponent(text(formData, "show"))}` : ""}`);
 }
 
-// The paid step: a person at Isovertic reads the paper and writes the post. This tells sales which paper.
+// The automated step: Claude reads the abstract and any passages naming the company, then drafts
+// a summary and two posts. Nobody at Isovertic reviews it, which is why the desk prints a warning beside it.
+export async function draftPost(formData: FormData): Promise<void> {
+  const { client, accountId } = await context();
+  const workspace = await getWorkspace(client, accountId);
+  if (!workspace) redirect(desk);
+  if (!aiConfigured()) redirect(`${desk}?error=ai`);
+  const { data: paper } = await client
+    .from("paperbrief_papers")
+    .select("id, pmid, title, authors, journal, pub_date")
+    .eq("id", text(formData, "id"))
+    .eq("workspace_id", workspace.id)
+    .maybeSingle();
+  if (!paper) redirect(desk);
+  if ((await draftsToday(client, workspace.id)) >= DRAFTS_PER_DAY) redirect(`${desk}?error=cap`);
+  try {
+    const draft = await draftPaper(paper, { name: workspace.company, aliases: workspace.aliases });
+    await client.from("paperbrief_papers").update({ draft, drafted_at: new Date().toISOString() }).eq("id", paper.id);
+  } catch (e) {
+    console.error("PaperBrief draft failed:", (e as Error).message);
+    redirect(`${desk}?error=${(e as Error).message === "declined" ? "declined" : "draft"}`);
+  }
+  revalidatePath(desk);
+  redirect(`${desk}?drafted=${paper.id}#paper-${paper.id}`);
+}
+
+// Optional and not shown on the desk today: asks a person at Isovertic to check a post.
 export async function requestPost(formData: FormData): Promise<void> {
   const { client, accountId, session } = await context();
   const workspace = await getWorkspace(client, accountId);

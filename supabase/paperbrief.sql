@@ -43,3 +43,6 @@ create table if not exists public.paperbrief_papers (
 );
 alter table public.paperbrief_papers enable row level security;
 create index if not exists paperbrief_papers_workspace on public.paperbrief_papers (workspace_id, pub_date desc);
+
+alter table public.paperbrief_papers add column if not exists draft jsonb;
+alter table public.paperbrief_papers add column if not exists drafted_at timestamptz;

@@ -2,6 +2,7 @@ import { NextResponse, type NextRequest } from "next/server";
 import { Resend } from "resend";
 import { paperbrief } from "@/content/paperbrief";
 import { notifyEnvelope } from "@/lib/notify";
+import { aiConfigured, draftPaper } from "@/lib/paperbrief-ai";
 import { db, runCheck, type Workspace } from "@/lib/paperbrief-db";
 import { site } from "@/lib/site";
 
@@ -9,9 +10,11 @@ import { site } from "@/lib/site";
 // Each due workspace gets a fresh literature search. If alerts are on and something new turned up,
 // the verified address gets one short email with up to five papers. Nothing new, no email.
 export const dynamic = "force-dynamic";
-export const maxDuration = 60;
+export const maxDuration = 300;
 
-const BATCH = 15;
+const BATCH = 8;
+// New papers drafted automatically per company per run, so the queue arrives with posts waiting.
+const AUTO_DRAFTS = 3;
 
 export async function GET(request: NextRequest) {
   const secret = process.env.CRON_SECRET;
@@ -38,6 +41,21 @@ export async function GET(request: NextRequest) {
       // Look back a little past the schedule so a paper indexed late is still caught.
       const fresh = await runCheck(client, w, w.cadence === "weekly" ? 30 : 90);
       checked++;
+      if (aiConfigured()) {
+        await Promise.all(
+          fresh.slice(0, AUTO_DRAFTS).map(async (p) => {
+            try {
+              const draft = await draftPaper(
+                { pmid: p.pmid, title: p.title, authors: p.authors, journal: p.journal, pub_date: p.date },
+                { name: w.company, aliases: w.aliases },
+              );
+              await client.from("paperbrief_papers").update({ draft, drafted_at: new Date().toISOString() }).eq("workspace_id", w.id).eq("pmid", p.pmid);
+            } catch (e) {
+              console.error("PaperBrief auto draft failed:", (e as Error).message);
+            }
+          }),
+        );
+      }
       if (!fresh.length || !w.alerts || !resend || !w.account?.email) continue;
       const a = paperbrief.alert;
       const lines = fresh.slice(0, 5).map((p) => `${p.title}\n${p.journal}, ${p.date}\n${p.url}`);
