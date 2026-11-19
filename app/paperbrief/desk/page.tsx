@@ -7,6 +7,8 @@ import { Arrow } from "@/components/ui/Arrow";
 import { ParticleField } from "@/components/ui/ParticleField";
 import { paperbrief as c } from "@/content/paperbrief";
 import { ACCESS_COOKIE, WINDOWS, discoverPapers, parseNames, unseal, type Paper } from "@/lib/paperbrief";
+import { db, getWorkspace, listPapers, type SavedPaper, type Status, type Workspace } from "@/lib/paperbrief-db";
+import { checkNow, requestPost, saveSettings, setStatus, signOut } from "./actions";
 
 export const metadata: Metadata = {
   title: { absolute: c.desk.title },
@@ -16,17 +18,92 @@ export const metadata: Metadata = {
 export const dynamic = "force-dynamic";
 
 const d = c.desk;
+type Params = Record<string, string | string[] | undefined>;
 
-export default async function PaperBriefDesk({ searchParams }: { searchParams: Promise<Record<string, string | string[] | undefined>> }) {
-  const session = unseal<{ n: string; e: string }>((await cookies()).get(ACCESS_COOKIE)?.value);
-  if (!session) redirect(`${c.path}#access`);
+function SettingsForm({ w }: { w?: Workspace | null }) {
+  return (
+    <form action={saveSettings} className="grid max-w-[640px] gap-6">
+      <div>
+        <label htmlFor="pb-company" className="field-label">{d.company}</label>
+        <input id="pb-company" name="company" className="field" required minLength={3} maxLength={100} defaultValue={w?.company} autoComplete="organization" />
+      </div>
+      <div>
+        <label htmlFor="pb-aliases" className="field-label">{d.aliases}</label>
+        <input id="pb-aliases" name="aliases" className="field" maxLength={500} defaultValue={w?.aliases.join(", ")} />
+        <p className="mt-2 text-[13px] text-ink-soft">{d.aliasHint}</p>
+      </div>
+      <div className="grid gap-6 sm:grid-cols-2">
+        <div>
+          <label htmlFor="pb-days" className="field-label">{d.window}</label>
+          <select id="pb-days" name="days" className="field field-select" defaultValue={String(w?.days ?? 90)}>
+            {WINDOWS.map((n) => (
+              <option key={n} value={n}>{n} {d.days}</option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label htmlFor="pb-cadence" className="field-label">{d.cadence.label}</label>
+          <select id="pb-cadence" name="cadence" className="field field-select" defaultValue={w?.cadence ?? "monthly"}>
+            <option value="monthly">{d.cadence.monthly}</option>
+            <option value="weekly">{d.cadence.weekly}</option>
+            <option value="off">{d.cadence.off}</option>
+          </select>
+        </div>
+      </div>
+      <label className="flex min-h-[44px] items-start gap-3 leading-relaxed">
+        <input type="checkbox" name="alerts" defaultChecked={w?.alerts ?? false} className="mt-1.5" />
+        <span>
+          {d.alerts}
+          <span className="block text-[13px] text-ink-soft">{d.alertsHint}</span>
+        </span>
+      </label>
+      <div>
+        <button type="submit" className="btn btn-solid btn-block">{w ? d.save : d.submit} <Arrow /></button>
+      </div>
+    </form>
+  );
+}
 
-  const sp = await searchParams;
+function PaperRow({ p, show }: { p: SavedPaper; show: string }) {
+  const options: [Status, string][] = [["ours", d.status.ours], ["not_ours", d.status.not_ours], ["review", d.status.review]];
+  return (
+    <li className={`paper-row ${p.status === "not_ours" ? "opacity-60" : ""}`}>
+      <p className="eyebrow">
+        {p.pub_date} · {p.journal}
+        <span className={`paper-tag paper-tag--${p.status}`}>{d.tag[p.status]}</span>
+      </p>
+      <h3 className="mt-3 font-display text-[clamp(18px,1.8vw,22px)] font-medium leading-snug">{p.title}</h3>
+      {p.authors && <p className="mt-2 text-[14px] leading-relaxed text-ink-soft">{p.authors}</p>}
+      <div className="mt-3 flex flex-wrap items-center gap-x-6 gap-y-1">
+        <a href={`https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/`} target="_blank" rel="noopener noreferrer" className="cta-link">{d.open} <Arrow /></a>
+        {options.filter(([s]) => s !== p.status).map(([s, label]) => (
+          <form key={s} action={setStatus}>
+            <input type="hidden" name="id" value={p.id} />
+            <input type="hidden" name="status" value={s} />
+            <input type="hidden" name="show" value={show} />
+            <button type="submit" className="paper-action">{label}</button>
+          </form>
+        ))}
+        {p.status === "ours" &&
+          (p.post_requested_at ? (
+            <span className="text-[12px] uppercase tracking-[0.1em] text-signal">{d.requested}</span>
+          ) : (
+            <form action={requestPost}>
+              <input type="hidden" name="id" value={p.id} />
+              <button type="submit" className="paper-action paper-action--signal">{d.request}</button>
+            </form>
+          ))}
+      </div>
+    </li>
+  );
+}
+
+// No database on this build: the search still works, nothing is saved.
+async function SearchOnly({ sp }: { sp: Params }) {
   const one = (k: string) => (typeof sp[k] === "string" ? (sp[k] as string).trim() : "");
   const company = one("company").slice(0, 100);
   const aliases = one("aliases").slice(0, 500);
   const days = WINDOWS.find((w) => String(w) === one("days")) ?? 90;
-
   let papers: Paper[] | null = null;
   let error = "";
   if (company) {
@@ -35,13 +112,11 @@ export default async function PaperBriefDesk({ searchParams }: { searchParams: P
     else {
       try {
         papers = await discoverPapers(names, days);
-      } catch (e) {
-        console.error("PaperBrief search failed:", (e as Error).message);
+      } catch {
         error = d.failed;
       }
     }
   }
-
   return (
     <>
       <PageHero
@@ -53,18 +128,17 @@ export default async function PaperBriefDesk({ searchParams }: { searchParams: P
           <form method="get" className="grid max-w-[640px] gap-6">
             <div>
               <label htmlFor="pb-company" className="field-label">{d.company}</label>
-              <input id="pb-company" name="company" className="field" required minLength={3} maxLength={100} defaultValue={company} autoComplete="organization" />
+              <input id="pb-company" name="company" className="field" required minLength={3} maxLength={100} defaultValue={company} />
             </div>
             <div>
               <label htmlFor="pb-aliases" className="field-label">{d.aliases}</label>
               <input id="pb-aliases" name="aliases" className="field" maxLength={500} defaultValue={aliases} />
-              <p className="mt-2 text-[13px] text-ink-soft">{d.aliasHint}</p>
             </div>
             <div className="max-w-[240px]">
               <label htmlFor="pb-days" className="field-label">{d.window}</label>
               <select id="pb-days" name="days" className="field field-select" defaultValue={String(days)}>
-                {WINDOWS.map((w) => (
-                  <option key={w} value={w}>{w} {d.days}</option>
+                {WINDOWS.map((n) => (
+                  <option key={n} value={n}>{n} {d.days}</option>
                 ))}
               </select>
             </div>
@@ -76,41 +150,145 @@ export default async function PaperBriefDesk({ searchParams }: { searchParams: P
       />
       {(papers || error) && (
         <Section deferred={false}>
-          <div id="results" className="scroll-mt-32">
-            {error && <p role="alert" className="max-w-[68ch] border-l-2 border-signal pl-4 leading-relaxed">{error}</p>}
-            {papers && papers.length === 0 && <p className="max-w-[68ch] leading-relaxed">{d.none}</p>}
-            {papers && papers.length > 0 && (
-              <>
-                <h2 className="max-w-[30ch] font-display text-h2 font-medium">{d.found(papers.length, company)}</h2>
-                <p className="mt-4 text-[14px] text-ink-soft">
-                  {papers.length === 50 ? `${d.capped} ` : ""}
-                  {d.source}
-                </p>
-                <ol className="mt-10 max-w-[960px]">
-                  {papers.map((p) => (
-                    <li key={p.pmid} className="paper-row">
-                      <p className="eyebrow">{p.date} · {p.journal}</p>
-                      <h3 className="mt-3 font-display text-[clamp(18px,1.8vw,22px)] font-medium leading-snug">{p.title}</h3>
-                      {p.authors && <p className="mt-2 text-[14px] leading-relaxed text-ink-soft">{p.authors}</p>}
-                      <div className="mt-3 flex flex-wrap items-center gap-x-6 gap-y-1">
-                        <a href={p.url} target="_blank" rel="noopener noreferrer" className="cta-link">{d.open} <Arrow /></a>
-                        <span className="text-[12px] uppercase tracking-[0.1em] text-ink-soft">{d.held}</span>
-                      </div>
-                    </li>
-                  ))}
-                </ol>
-              </>
-            )}
-          </div>
+          {error && <p role="alert" className="max-w-[68ch] border-l-2 border-signal pl-4 leading-relaxed">{error}</p>}
+          {papers && papers.length === 0 && <p className="max-w-[68ch] leading-relaxed">{d.none}</p>}
+          {papers && papers.length > 0 && (
+            <>
+              <h2 className="max-w-[30ch] font-display text-h2 font-medium">{d.found(papers.length, company)}</h2>
+              <p className="mt-4 text-[14px] text-ink-soft">{d.source}</p>
+              <ol className="mt-10 max-w-[960px]">
+                {papers.map((p) => (
+                  <li key={p.pmid} className="paper-row">
+                    <p className="eyebrow">{p.date} · {p.journal}</p>
+                    <h3 className="mt-3 font-display text-[clamp(18px,1.8vw,22px)] font-medium leading-snug">{p.title}</h3>
+                    {p.authors && <p className="mt-2 text-[14px] leading-relaxed text-ink-soft">{p.authors}</p>}
+                    <a href={p.url} target="_blank" rel="noopener noreferrer" className="cta-link mt-2">{d.open} <Arrow /></a>
+                  </li>
+                ))}
+              </ol>
+            </>
+          )}
         </Section>
       )}
-      <Section tone="navy" backdrop={<ParticleField tone="paper" />} deferred={false}>
-        <h2 className="font-display text-h2 font-medium">{d.next.h2}</h2>
-        <p className="mt-6 max-w-[68ch] leading-relaxed">{d.next.text}</p>
-        <div className="mt-8">
-          <Link href="/contact" className="btn btn-solid">{d.next.button} <Arrow /></Link>
+    </>
+  );
+}
+
+export default async function PaperBriefDesk({ searchParams }: { searchParams: Promise<Params> }) {
+  const session = unseal<{ n: string; e: string; a?: string }>((await cookies()).get(ACCESS_COOKIE)?.value);
+  if (!session) redirect(`${c.path}#access`);
+  const sp = await searchParams;
+  const client = db();
+  const closing = (
+    <Section tone="navy" backdrop={<ParticleField tone="paper" />} deferred={false}>
+      <h2 className="font-display text-h2 font-medium">{d.next.h2}</h2>
+      <p className="mt-6 max-w-[68ch] leading-relaxed">{d.next.text}</p>
+      <div className="mt-8">
+        <Link href="/contact" className="btn btn-solid">{d.next.button} <Arrow /></Link>
+      </div>
+    </Section>
+  );
+  if (!client || !session.a) {
+    return (
+      <>
+        <SearchOnly sp={sp} />
+        {closing}
+      </>
+    );
+  }
+
+  const one = (k: string) => (typeof sp[k] === "string" ? (sp[k] as string) : "");
+  const workspace = await getWorkspace(client, session.a);
+  const errorKey = one("error") as keyof typeof d.errors;
+  const error = errorKey in d.errors ? d.errors[errorKey] : "";
+
+  if (!workspace) {
+    return (
+      <>
+        <PageHero eyebrow={d.eyebrow} h1={d.h1} lead={d.lead} backdrop={<ParticleField fade />} cta={
+          <>
+            {error && <p role="alert" className="mb-6 max-w-[62ch] border-l-2 border-signal pl-4 leading-relaxed">{error}</p>}
+            <SettingsForm />
+          </>
+        } />
+        {closing}
+      </>
+    );
+  }
+
+  const papers = await listPapers(client, workspace.id);
+  const count = (s: Status) => papers.filter((p) => p.status === s).length;
+  const show = (["review", "ours", "not_ours"] as const).find((s) => s === one("show")) ?? "all";
+  const visible = show === "all" ? papers : papers.filter((p) => p.status === show);
+  const added = one("added");
+  const notice = one("requested") ? d.requestedNotice : added !== "" ? (Number(added) > 0 ? d.addedSome(Number(added)) : d.addedNone) : "";
+  const filters: [string, string, number][] = [
+    ["all", d.filter.all, papers.length],
+    ["review", d.filter.review, count("review")],
+    ["ours", d.filter.ours, count("ours")],
+    ["not_ours", d.filter.not_ours, count("not_ours")],
+  ];
+  const fmt = (iso: string | null) => (iso ? iso.slice(0, 10) : d.never);
+
+  return (
+    <>
+      <PageHero
+        eyebrow={d.eyebrow}
+        h1={workspace.company}
+        lead={d.deskLead(session.n.split(" ")[0])}
+        backdrop={<ParticleField fade />}
+        cta={
+          <>
+            <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
+              <form action={checkNow}>
+                <button type="submit" className="btn btn-solid">{d.check} <Arrow /></button>
+              </form>
+              <form action={signOut}>
+                <button type="submit" className="cta-link">{d.signOut}</button>
+              </form>
+            </div>
+            <p className="mt-6 text-[13px] uppercase tracking-[0.1em] text-ink-soft">
+              {d.lastChecked} {fmt(workspace.last_checked_at)} · {workspace.cadence === "off" ? d.cadence.off : `${d.nextCheck} ${fmt(workspace.next_check_at)}`} · {workspace.alerts ? d.alertsOn : d.alertsOff}
+            </p>
+          </>
+        }
+      />
+      <Section label={d.queueLabel} deferred={false}>
+        {(notice || error) && <p role="status" className="mb-10 max-w-[68ch] border-l-2 border-signal pl-4 leading-relaxed">{error || notice}</p>}
+        <ul className="grid gap-10 sm:grid-cols-3">
+          {([[papers.length, d.stats.total], [count("review"), d.stats.review], [count("ours"), d.stats.ours]] as const).map(([n, label]) => (
+            <li key={label} className="border-t border-ink pt-5">
+              <span className="stat-figure">{n}</span>
+              <span className="mt-3 block leading-relaxed text-ink-soft">{label}</span>
+            </li>
+          ))}
+        </ul>
+        <nav aria-label={d.filter.label} className="mt-14 flex flex-wrap gap-x-8 gap-y-2 border-b border-rule">
+          {filters.map(([key, label, n]) => (
+            <Link key={key} href={key === "all" ? c.deskPath : `${c.deskPath}?show=${key}`} aria-current={show === key ? "page" : undefined} className={`paper-filter ${show === key ? "paper-filter--on" : ""}`}>
+              {label} <span className="text-ink-soft">{n}</span>
+            </Link>
+          ))}
+        </nav>
+        {visible.length === 0 ? (
+          <p className="mt-10 max-w-[68ch] leading-relaxed">{papers.length === 0 ? d.none : d.emptyFilter}</p>
+        ) : (
+          <ol className="max-w-[960px]">
+            {visible.map((p) => (
+              <PaperRow key={p.id} p={p} show={show === "all" ? "" : show} />
+            ))}
+          </ol>
+        )}
+        <p className="mt-8 text-[13px] text-ink-soft">{d.source}</p>
+      </Section>
+      <Section label={d.settingsLabel} tone="bright" deferred={false}>
+        <h2 className="max-w-[26ch] font-display text-h2 font-medium">{d.settingsH2}</h2>
+        <p className="mt-4 max-w-[68ch] leading-relaxed text-ink/90">{d.settingsText}</p>
+        <div className="mt-10">
+          <SettingsForm w={workspace} />
         </div>
       </Section>
+      {closing}
     </>
   );
 }

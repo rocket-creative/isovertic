@@ -6,6 +6,8 @@ import { Arrow } from "@/components/ui/Arrow";
 import { ParticleField } from "@/components/ui/ParticleField";
 import { RevealBlock } from "@/components/ui/RevealBlock";
 import { paperbrief as c } from "@/content/paperbrief";
+import { configured } from "@/lib/paperbrief";
+import { db } from "@/lib/paperbrief-db";
 
 export const metadata: Metadata = {
   title: { absolute: c.title },
@@ -13,7 +15,11 @@ export const metadata: Metadata = {
   alternates: { canonical: c.path },
 };
 
+export const dynamic = "force-dynamic";
+
 export default function PaperBriefPage() {
+  // Booleans only, never values: shows in the function log which half of the tool this build can run.
+  console.info("PaperBrief config", { email: configured(), database: db() !== null, cron: Boolean(process.env.CRON_SECRET) });
   return (
     <>
       <PageHero

@@ -6,6 +6,7 @@ import { Resend } from "resend";
 import { paperbrief } from "@/content/paperbrief";
 import { capture, EMAIL_RE, text } from "@/lib/capture";
 import { notifyEnvelope } from "@/lib/notify";
+import { db, upsertAccount } from "@/lib/paperbrief-db";
 import {
   ACCESS_COOKIE, ACCESS_DAYS, PENDING_COOKIE, PENDING_MINUTES,
   codeHash, configured, newCode, sameHash, seal, unseal,
@@ -53,7 +54,10 @@ export async function verifyCode(prev: GateState, formData: FormData): Promise<G
   if (!pending) return { step: "code", email: prev.email, error: E.expired };
   if (!sameHash(codeHash(text(formData, "code"), pending.e), pending.h)) return { step: "code", email: prev.email ?? pending.e, error: E.wrong };
 
-  const access = seal({ n: pending.n, e: pending.e }, ACCESS_DAYS * 24 * 60);
+  // With the database connected the session carries the account id, which is what saves a queue.
+  const client = db();
+  const accountId = client ? await upsertAccount(client, { name: pending.n, email: pending.e, phone: pending.p }) : null;
+  const access = seal({ n: pending.n, e: pending.e, ...(accountId ? { a: accountId } : {}) }, ACCESS_DAYS * 24 * 60);
   if (!access) return { step: "code", email: prev.email, error: E.config };
   await capture({
     name: pending.n,
