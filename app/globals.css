@@ -449,3 +449,9 @@ textarea.field { min-height: 96px; resize: vertical; }
     @keyframes scroll-grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
   }
 }
+
+/* PaperBrief: the gate panel and the result rows. */
+.gate-panel { border: 1px solid var(--color-ink); padding: 28px 24px; background: var(--color-background); }
+@media (min-width: 640px) { .gate-panel { padding: 40px; } }
+.paper-row { border-top: 1px solid var(--color-rule); padding: 24px 0; transition: border-color 250ms var(--ease-hover); }
+.paper-row:hover { border-top-color: var(--color-signal); }

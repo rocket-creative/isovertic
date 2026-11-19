@@ -15,6 +15,7 @@ export const footerCols = [
     items: [
       ["The $4,995 website", "/life-science-website-design"],
       ["AI automation", "/life-science-ai-automation"],
+      ["PaperBrief, free", "/paperbrief"],
       ["Website redesign", "/life-science-website-redesign"],
       ["AI visibility audit", "/ai-visibility-audit"],
       ["AI search optimization", "/ai-search-optimization-life-sciences"],

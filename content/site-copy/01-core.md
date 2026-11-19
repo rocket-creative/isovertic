@@ -92,6 +92,14 @@ Link: The $4,995 website
 Hosting and care from $50 a month. AI visibility monitoring from $500. Search and publishing at $1,000. Google Ads management at $750 plus 10% of spend. Month to month.
 Link: See every price
 
+## PaperBrief
+
+H2: Free: see the papers that mention your company.
+
+Researchers publish with your products every month, and most companies find out late. PaperBrief searches the published literature for your company name and gives you the list, every paper linked to PubMed. Confirm your email and run your first search in about a minute.
+
+Button: Try PaperBrief free
+
 ## Why it costs a third of what you were quoted
 
 H2: You are paying for two experts, not an agency payroll.
@@ -175,7 +183,8 @@ H2: Start with the website. Add only what you want.
 | AI visibility monitoring | from $500 a month |
 | Search and publishing, with eight social posts | $1,000 a month |
 | Google Ads management | $750 a month plus 10% of ad spend |
-| Publication watch | In pilot. Ask us. |
+| PaperBrief publication lookup | Free |
+| Publication watch, checked by a scientist | In pilot. Ask us. |
 
 No 12 month contract. Monthly services stop with 30 days notice.
 

@@ -51,6 +51,7 @@ export const plain = (s: string) => s.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").re
 
 // Labels that point somewhere other than a page of the same name.
 const LINKS: [RegExp, string][] = [
+  [/paperbrief/i, "/paperbrief"],
   [/what we automate/i, "/life-science-ai-automation"],
   [/what the snapshot checks|full audit|^ai visibility audit$/i, "/ai-visibility-audit"],
   [/snapshot|whether ai names/i, "/contact"],

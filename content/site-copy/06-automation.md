@@ -39,8 +39,8 @@ Most of that repeat work follows a pattern, and a pattern is what software and A
 H2: Four jobs we have built or are building now
 
 ### Publication watch
-New papers that use your products get found soon after they appear. You get the citation, a link to the PubMed record, a short plain summary of how your product was used, and a draft social post. A scientist confirms the paper used your product, and that the summary is accurate, before anything is published. This one is in pilot.
-Link: Ask about publication watch
+New papers that use your products get found soon after they appear. You get the citation, a link to the PubMed record, a short plain summary of how your product was used, and a draft social post. A scientist confirms the paper used your product, and that the summary is accurate, before anything is published. The checked service is in pilot. The search half is live and free.
+Link: Try PaperBrief free
 
 ### Quote and inquiry replies
 A request comes in through your form. The right reply goes out in minutes with the right pricing and next step, and your team is told a lead is waiting. Your people pick up the conversation where judgment is needed.
