@@ -390,7 +390,7 @@ Buttons: Get the free snapshot · See every price
 
 URL: /contact
 Title tag: Get a Free AI Visibility Snapshot or a Fixed Price | Isovertic
-Meta description: Tell us what you sell and get a fixed website price within one business day. The free AI visibility snapshot now runs itself in minutes.
+Meta description: Tell us what you sell and get a fixed website price within one business day. The free AI visibility snapshot has its own page and arrives within 24 hours.
 Primary query: Isovertic contact.
 
 ## Hero
@@ -428,7 +428,7 @@ Link: Get your free AI visibility snapshot
 
 H2: What happens next
 
-- **Snapshot:** the free AI visibility snapshot has its own page. It runs itself and is ready in a few minutes.
+- **Snapshot:** the free AI visibility snapshot has its own page. You get the report by email within 24 hours.
 - **Website price:** within one business day you receive a fixed price in writing, and a note if anything falls outside the $4,995.
 - **Ads review:** we send instructions for read access and book ten minutes to walk you through what we find.
 

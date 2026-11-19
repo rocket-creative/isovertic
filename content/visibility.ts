@@ -5,20 +5,20 @@ export const visibility = {
   product: "AI visibility snapshot",
   title: "Free AI Visibility Snapshot: Does AI Name Your Company? | Isovertic",
   description:
-    "Ten buyer questions, asked of ChatGPT, Gemini, Perplexity, and Claude, three times each. See how often AI names your company and what to fix. Free, automatic, ready in minutes.",
+    "Ten buyer questions, asked of ChatGPT, Gemini, Perplexity, and Claude, three times each. See how often AI names your company and what to fix. Free, in your inbox within 24 hours.",
   hero: {
     eyebrow: "Free AI visibility snapshot",
     h1: "Does AI name your company when a buyer asks?",
     lead: [
       "Your buyers ask ChatGPT, Gemini, Perplexity, and Claude which vendors to consider. This tool asks them the same questions, three times each, and counts how often your company comes up.",
-      "It is free and it runs itself. Confirm your company email, tell us what you sell, and your report is ready in a few minutes.",
+      "It is free. Confirm your company email, tell us what you sell, and your report is in your inbox within 24 hours.",
     ],
     button: "Start my snapshot",
-    trust: "Free · Four AI assistants · Ten questions, three runs each · Ready in minutes",
+    trust: "Free · Four AI assistants · Ten questions, three runs each · Within 24 hours",
   },
   steps: {
     label: "How it works",
-    h2: "Four steps, a few minutes",
+    h2: "Four steps, one report within 24 hours",
     items: [
       { figure: "1", title: "Confirm your email", text: "A code goes to your company address. The snapshot runs on the website at that address." },
       { figure: "2", title: "Check the questions", text: "We read your site and write ten questions a buyer would ask. Change any of them before it runs." },
@@ -78,13 +78,13 @@ export const visibility = {
     lead: "We wrote these from your website. Change any that miss. Do not put your own company name in a question: the point is to see whether the assistants bring you up on their own.",
     question: (n: number) => `Question ${n}`,
     submit: "Run my snapshot",
-    note: (calls: number, assistants: string) => `This asks ${assistants} each question three times, ${calls} answers in all. It takes a few minutes.`,
+    note: (calls: number, assistants: string) => `This asks ${assistants} each question three times, ${calls} answers in all. Your report arrives by email within 24 hours.`,
     errors: { questions: "Please keep all ten questions, each at least 15 characters." },
   },
   running: {
     eyebrow: "Step 3 of 4",
     h1: "Asking the assistants",
-    lead: "You can leave this page open. It updates on its own, and we will email you when the report is ready.",
+    lead: "Your snapshot is under way. You will have the report by email within 24 hours, and usually much sooner. You can leave this page open and it will update on its own.",
     progress: (done: number, total: number) => `${done} of ${total} answers in`,
     analyzing: "All answers are in. Writing your report.",
   },

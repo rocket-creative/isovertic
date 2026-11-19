@@ -6,7 +6,7 @@ export const snapshotDiagram = {
     { figure: "10", label: "buyer questions" },
     { figure: "4", label: "AI assistants", detail: ["ChatGPT", "Gemini", "Perplexity", "Claude"] },
     { figure: "3", label: "runs of every question" },
-    { figure: "1", label: "report, ready in minutes" },
+    { figure: "1", label: "report, within 24 hours" },
   ],
 } as const;
 

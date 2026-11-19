@@ -74,7 +74,7 @@ Diagram: snapshot
 4. Software compares what the assistants said about you with your own website and marks what does not match.
 5. You get one page: how often you were named, who was named instead, what the AI got wrong, and the three fixes that matter most.
 
-It runs itself and takes a few minutes. No budget questions. No call required. If you are already showing up well, the report will say so and you can get on with your week.
+Your report arrives within 24 hours. No budget questions. No call required. If you are already showing up well, the report will say so and you can get on with your week.
 
 Google's AI answers are a separate step. Google gives no way to collect them by software, so a person runs those for you and goes through the results on a call. You can ask for it from your report.
 
@@ -228,7 +228,7 @@ Long Island, New York. We work with life science companies across the country an
 
 H2: Ask the AI about your company. Or let us do it for you.
 
-Confirm your company email and tell us what you sell. A few minutes later you have a snapshot of how AI assistants describe you and what to fix first. If the answer is that you are already in good shape, it will say so.
+Confirm your company email and tell us what you sell. Within 24 hours you have a snapshot of how AI assistants describe you and what to fix first. If the answer is that you are already in good shape, it will say so.
 
 Buttons: Get your free AI visibility snapshot · See the $4,995 website
 
@@ -240,7 +240,7 @@ Closing line: You do the science. We make sure the people looking for it can fin
 
 URL: /ai-visibility-audit
 Title tag: Free AI Visibility Audit for Life Science Companies | Isovertic
-Meta description: See whether ChatGPT, Gemini, Perplexity, and Claude name your company, and what they get wrong. Free snapshot, ready in minutes. No budget questions.
+Meta description: See whether ChatGPT, Gemini, Perplexity, and Claude name your company, and what they get wrong. Free snapshot within 24 hours. No budget questions.
 Primary query: AI visibility audit for life science companies. Secondary: free ai visibility audit, ai search visibility audit, geo audit, aeo audit, llm visibility audit, why doesn't ChatGPT mention my company.
 
 ## Hero
@@ -250,12 +250,12 @@ Eyebrow: AI visibility audit
 H1: Find out what AI says about your company when a buyer asks.
 
 Subhead:
-A buyer looking for a custom mouse model, a validated antibody, or a preclinical CRO can now ask an AI assistant before they call anyone. We run the questions your buyers ask, across the assistants they use, and show you whether you were named, who was named instead, and what the AI got wrong. The snapshot is free, runs itself, and is ready in minutes. The full audit is where two people read every answer.
+A buyer looking for a custom mouse model, a validated antibody, or a preclinical CRO can now ask an AI assistant before they call anyone. We run the questions your buyers ask, across the assistants they use, and show you whether you were named, who was named instead, and what the AI got wrong. The snapshot is free and arrives within 24 hours. The full audit is where two people read every answer.
 
 Primary button: Get the free snapshot
 Secondary button: See the full audit, $2,500
 
-Trust line: Free · No budget questions · Four AI assistants · Ready in minutes
+Trust line: Free · No budget questions · Four AI assistants · Within 24 hours
 
 ## Why this matters now
 
@@ -361,7 +361,7 @@ About two weeks from the day you approve the question list.
 
 ## Final call to action
 
-H2: Ten questions. Four assistants. A few minutes.
+H2: Ten questions. Four assistants. 24 hours.
 
 Confirm your company email and tell us what you sell. If you are already being named for the right things, the report will say so.
 
@@ -456,6 +456,6 @@ For Monitoring, no. For fixes, yes, or we send the changes to whoever manages it
 
 H2: Start by finding out where you stand.
 
-The snapshot is free and takes a few minutes. If the answer is that AI already names you for the right things, you have saved $500 a month.
+The snapshot is free and arrives within 24 hours. If the answer is that AI already names you for the right things, you have saved $500 a month.
 
 Buttons: Get the free snapshot · Talk to George and Kristen
