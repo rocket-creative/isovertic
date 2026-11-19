@@ -5,6 +5,8 @@ import { notifyEnvelope } from "@/lib/notify";
 import { aiConfigured, draftPaper } from "@/lib/paperbrief-ai";
 import { db, runCheck, type Workspace } from "@/lib/paperbrief-db";
 import { site } from "@/lib/site";
+import { advance, stalled } from "@/lib/visibility";
+import { announce, continueLater } from "@/lib/visibility-notify";
 
 // Scheduled PaperBrief check, called once a day by Vercel Cron (vercel.json).
 // Each due workspace gets a fresh literature search. If alerts are on and something new turned up,
@@ -79,5 +81,8 @@ export async function GET(request: NextRequest) {
       console.error("PaperBrief scheduled check failed:", (e as Error).message);
     }
   }
-  return NextResponse.json({ due: due?.length ?? 0, checked, emailed });
+  // Backstop for the AI visibility snapshot: restart any run that stopped part way.
+  const stuck = await stalled(client);
+  await Promise.all(stuck.map((id) => advance(client, id, announce, continueLater)));
+  return NextResponse.json({ due: due?.length ?? 0, checked, emailed, snapshotsRestarted: stuck.length });
 }

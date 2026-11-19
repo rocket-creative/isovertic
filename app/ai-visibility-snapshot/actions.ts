@@ -9,7 +9,7 @@ import { db } from "@/lib/paperbrief-db";
 import { emailDomain } from "@/lib/paperbrief-domain";
 import { getSession } from "@/lib/session";
 import { DAYS_BETWEEN, JOBS_PER_DAY, QUESTIONS, RUNS, advance, getJob, readSite, writeQuestions } from "@/lib/visibility";
-import { announce } from "@/lib/visibility-notify";
+import { announce, continueLater } from "@/lib/visibility-notify";
 import { activeProviders } from "@/lib/visibility-providers";
 
 const base = visibility.path;
@@ -76,7 +76,7 @@ export async function runSnapshot(formData: FormData): Promise<void> {
   const rows = providers.flatMap((provider) => questions.flatMap((_, q_index) => Array.from({ length: RUNS }, (_, run) => ({ job_id: id, provider, q_index, run: run + 1 }))));
   await client.from("visibility_answers").upsert(rows, { onConflict: "job_id,provider,q_index,run", ignoreDuplicates: true });
   await client.from("visibility_jobs").update({ questions, status: "running", started_at: new Date().toISOString() }).eq("id", id);
-  after(() => advance(client, id, announce));
+  after(() => advance(client, id, announce, continueLater));
   redirect(`${base}/${id}`);
 }
 

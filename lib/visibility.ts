@@ -274,7 +274,12 @@ const BUDGET_MS = 235_000;
  * Safe to call from every page load. A lock keeps two calls from doing the same work, and a call
  * that runs out of time simply stops; the next one picks up where it left off.
  */
-export async function advance(c: SupabaseClient, jobId: string, onDone?: (job: Job) => Promise<void>): Promise<void> {
+export async function advance(
+  c: SupabaseClient,
+  jobId: string,
+  onDone?: (job: Job) => Promise<void>,
+  onUnfinished?: (job: Job) => Promise<void>,
+): Promise<void> {
   const started = Date.now();
   const now = new Date().toISOString();
   const { data: locked } = await c
@@ -315,6 +320,8 @@ export async function advance(c: SupabaseClient, jobId: string, onDone?: (job: J
     const { count: left } = await c.from("visibility_answers").select("id", { count: "exact", head: true }).eq("job_id", jobId).eq("status", "pending");
     if ((left ?? 0) > 0 || Date.now() - started > BUDGET_MS) {
       await release();
+      // Out of time with work left. Hand the rest to a fresh run so it finishes with nobody watching.
+      if (onUnfinished) await onUnfinished(job);
       return;
     }
 
@@ -368,6 +375,20 @@ export async function advance(c: SupabaseClient, jobId: string, onDone?: (job: J
     console.error("Snapshot run failed:", (e as Error).message);
     await release();
   }
+}
+
+/** Snapshots that were started and have sat untouched for a while. The daily sweep restarts them. */
+export async function stalled(c: SupabaseClient, limit = 3): Promise<string[]> {
+  const cutoff = new Date(Date.now() - 10 * 60_000).toISOString();
+  const { data } = await c
+    .from("visibility_jobs")
+    .select("id")
+    .in("status", ["running", "analyzing"])
+    .lt("started_at", cutoff)
+    .or(`locked_until.is.null,locked_until.lt."${new Date().toISOString()}"`)
+    .order("started_at")
+    .limit(limit);
+  return (data ?? []).map((r) => r.id as string);
 }
 
 export async function getJob(c: SupabaseClient, id: string, accountId: string): Promise<Job | null> {

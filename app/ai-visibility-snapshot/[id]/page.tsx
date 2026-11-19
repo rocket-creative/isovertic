@@ -11,7 +11,7 @@ import { visibility as c } from "@/content/visibility";
 import { db } from "@/lib/paperbrief-db";
 import { getSession } from "@/lib/session";
 import { QUESTIONS, RUNS, advance, getJob, progress, type Job } from "@/lib/visibility";
-import { announce } from "@/lib/visibility-notify";
+import { announce, continueLater } from "@/lib/visibility-notify";
 import { activeProviders } from "@/lib/visibility-providers";
 import { requestGoogle, runSnapshot } from "../actions";
 
@@ -255,8 +255,9 @@ export default async function SnapshotPage({ params, searchParams }: { params: P
   if (job.status === "done" && job.report) return <ReportView job={job} />;
   if (job.status === "failed") return <PageHero h1={c.failed.h1} lead={c.failed.lead} />;
 
-  // Still running. This request keeps it moving after the page is sent; the lock makes repeats harmless.
-  after(() => advance(client, job.id, announce));
+  // Still running. The run carries itself forward; this is a second push in case a hand off was missed.
+  // The lock makes repeats harmless.
+  after(() => advance(client, job.id, announce, continueLater));
   const { total, finished } = await progress(client, job.id);
   const done = total > 0 && finished === total;
   return (

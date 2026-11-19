@@ -13,7 +13,7 @@ const reviewPaths = new Set<string>([
 export function middleware(request: NextRequest) {
   const path = request.nextUrl.pathname.replace(/\/$/, "") || "/";
   const open = ["/paperbrief", "/ai-visibility-snapshot"].some((p) => path === p || path.startsWith(`${p}/`));
-  if (open || path === "/api/cron/paperbrief" || path === "/api/cron/paperbrief-digest") return NextResponse.next();
+  if (open || path === "/api/cron/paperbrief" || path === "/api/cron/paperbrief-digest" || path === "/api/snapshot/continue") return NextResponse.next();
   if (path.startsWith("/api/") || (request.method !== "GET" && request.method !== "HEAD"))
     return new NextResponse("Local review only. Submissions and checkout are disabled.", { status: 503 });
   if (!reviewPaths.has(path)) return NextResponse.redirect(new URL("/review-status", request.url));
