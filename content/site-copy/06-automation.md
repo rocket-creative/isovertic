@@ -22,7 +22,7 @@ Someone on your team checks for new publications that cite your products. Someon
 
 Primary button: Tell us the task you would hand off
 
-Trust line: Fixed quote first · A scientist checks the output · You own what we build
+Trust line: Free in person audit · Fixed quote first · A scientist checks the output · You own what we build
 
 ## The problem
 
@@ -115,6 +115,20 @@ Three rules we keep.
 - **Your money goes to you.** Payments go straight into your own Stripe or QuickBooks account. We never hold your money, and no form we build asks anyone to type a card number into a plain field.
 - **Text messages need permission.** We send texts only to people who ticked a box to get them.
 - **Regulated records stay in your quality system.** These tools are for everyday business work. Batch records, test results, complaints, corrective actions, and anything else an auditor could ask for belong in your quality system, not in a form we build. Your quality lead confirms what is in scope before we start.
+
+## Free in person audit
+
+H2: If your work does not fit a list, we come to you for free
+
+Some work is too particular to price from a list. For that, we visit you in person. The visit is free.
+
+1. We spend a few hours with the people who do the work and watch how it is done now.
+2. We write down each step, who does it, and where the time goes.
+3. You get a short written report. It says what we would automate first, what a person still has to check, and a fixed price for each piece.
+
+You can take the report and do nothing with it. We visit in Connecticut, New York, and Boston. If you are somewhere else, ask us.
+
+Button: Tell us the task you would hand off
 
 ## What it costs
 

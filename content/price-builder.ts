@@ -163,7 +163,7 @@ export const builderCopy = {
   creditNote: "Buy a website within 60 days of the audit and the $2,500 counts toward it.",
   quoted: "Priced for you in writing",
   quotedItems: ["Outreach, by proposal", "Consulting by the hour, $150 an hour", "Changes beyond your plan, $125 an hour", "Security questionnaires, $125 an hour"],
-  automationQuoted: ["Reorder alerts, about $1,500", "Support inbox sorting, about $2,500", "An assistant that answers from your own documents, $3,500 to $4,500", "Anything else, quoted at a fixed price before we start"],
+  automationQuoted: ["Custom work: a free in person audit, then a fixed price for each piece", "Reorder alerts, about $1,500", "Support inbox sorting, about $2,500", "An assistant that answers from your own documents, $3,500 to $4,500", "Anything else, quoted at a fixed price before we start"],
   automationTerms: "You own what we build. Stop the monthly fee with 30 days notice.",
   automationSubject: "Isovertic automation list",
   tax: "Prices are shown before sales tax. If tax applies where you are, you see the amount before you pay.",
