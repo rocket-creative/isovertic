@@ -28,7 +28,7 @@ Trust line: Fixed quote first · A scientist checks the output · You own what w
 
 H2: Small teams spend their experts' hours on repetitive work
 
-A 20 person company has the same duties as a 2,000 person company, with far fewer people. It still has to answer every inquiry, keep the catalog up to date, keep the publications page up to date, send the newsletter, and report the numbers.
+A 20 person company has the same duties as a 2,000 person company, with far fewer people. It still has to answer every inquiry and keep the catalog and the publications page up to date. It has to send the newsletter and report the numbers too.
 
 The work goes to whoever can do it. Often that is a scientist or the person who runs the company. Those hours are taken from the work only they can do.
 
@@ -39,7 +39,7 @@ Most of that repetitive work follows a pattern, and software and AI are good at 
 H2: Four jobs we have built or are building now
 
 ### Publication watch
-We find new papers that use your products soon after they come out. You get the citation, a link to the PubMed record, a short plain summary of how your product was used, and a draft social post. Before anything is published, a scientist confirms that the paper used your product and that the summary is correct. The version with the scientist's check is in pilot. The search part is live and free.
+We find new papers that use your products soon after they come out. You get the citation and a link to the PubMed record. You also get a short plain summary of how your product was used, and a draft social post. Before anything is published, a scientist confirms that the paper used your product and that the summary is correct. The version with the scientist's check is in pilot. The search part is live and free.
 Link: Try PaperBrief free
 
 ### Quote and inquiry replies

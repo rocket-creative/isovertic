@@ -95,7 +95,7 @@ Some companies come to us with a website built by someone who could not tell a k
 - **Sources attached when you have them.** Technical statements link to the paper, protocol, or dataset you give us.
 - **Your field's words, used correctly.** Nomenclature, assay names, and product names follow the rules your readers use.
 - **Your expert has the final word.** Someone on your team checks every technical claim before we publish it.
-- **Built for AI answers too.** Search tools and AI assistants such as ChatGPT can quote a page when it is clear, well organized, and names its sources.
+- **Built for AI answers too.** AI assistants such as ChatGPT can quote a page that is clear and names its sources.
 
 Link: Read the Isovertic editorial standard
 
@@ -104,7 +104,7 @@ Link: Read the Isovertic editorial standard
 H2: Three people at your company have to say yes
 
 - **CEO or founder: "What does it cost, and what happens after launch?"** The website costs $4,995, one time. Hosting, the service that keeps the site online, starts at $50 a month. Everything else is optional and has its own price.
-- **President or COO: "How much of my team's time will this take?"** We need two calls, the materials you already have, and one person to review drafts.
+- **President or COO: "How much of my team's time will this take?"** Two calls, the materials you already have, and one person to review drafts.
 - **Scientist or CSO: "Will our science be stated correctly?"** We write from your sources. Kristen checks the technical wording. Your expert approves every technical claim.
 
 ## Why not an AI builder?
@@ -117,7 +117,7 @@ You can make a website tonight with an AI builder for $20 a month, and the tools
 
 **Someone has to secure it.** In tests of more than 100 AI models, 45% of the code they wrote had security flaws ([Veracode](https://www.veracode.com/press-release/ai-generated-code-poses-major-security-risks-in-nearly-half-of-all-development-tasks-veracode-research-reveals/)).
 
-**Someone has to make it findable.** In one study, five AI tools built 15 sites, and all 15 failed basic checks for use by people with disabilities ([AudioEye](https://keyt.com/stacker-ai/2026/10/13/study-ai-coding-tools-do-not-write-accessible-code/)). Some sites only put their words together inside the visitor's browser. The programs AI companies use to read websites may see nothing on those sites.
+**Someone has to make it findable.** In one study, five AI tools built 15 sites. All 15 failed basic checks for use by people with disabilities ([AudioEye](https://keyt.com/stacker-ai/2026/10/13/study-ai-coding-tools-do-not-write-accessible-code/)). Some sites only put their words together inside the visitor's browser. The programs AI companies use to read websites may see nothing on those sites.
 
 We use the same AI tools. Then we check what they make.
 
@@ -217,7 +217,7 @@ H2: Five things that change what a biotech website costs
 
 H2: Why the same website costs less than two years ago
 
-Design, first drafts, and code used to be most of the bill. AI now does a first pass at all three in hours. People still have to decide what the site should say, check that it is true, and make it safe to put on the internet.
+Design, first drafts, and code used to be most of the bill. AI now does a first pass at all three in hours. People still have to decide what the site should say and check that it is true. They also have to make it safe to put on the internet.
 
 Some agencies kept their prices and their profit where they were, and we lowered our prices.
 
@@ -242,7 +242,7 @@ With us it is usually $4,995. A contract research organization with ten service 
 A redesign costs about the same as a new website, from about $5,000 to more than $200,000, because most redesigns are rebuilds. Ask any agency what will happen to your current Google rankings. We point every old page address to its new one, so you keep your rankings.
 
 **Is $5,000 a good price for a seed stage biotech website?**
-Yes, $5,000 is a good price if the site states the science accurately, loads fast, and gives investors and partners a way to reach you. You can spend the money you save on the lab.
+Yes. $5,000 is a good price if the site states the science accurately and loads fast. It should also give investors and partners a way to reach you. You can spend the money you save on the lab.
 
 **What is the cheapest way to get a biotech website?**
 The cheapest way is an AI website builder at $20 a month. The site will look fine. Still, ask someone who knows your science to read every line. Ask someone who knows security to check the forms.

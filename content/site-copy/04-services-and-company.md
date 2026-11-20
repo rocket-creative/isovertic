@@ -39,7 +39,7 @@ It runs month to month. You can stop with 30 days notice.
 
 H2: We pick the searches a small site can win
 
-A new or small site will not show up near the top for "biotech marketing" or "antibody." It can show up for a longer search that names the target, the application, the species, and the method. Fewer people type those searches. The person who does is usually ready to buy.
+A new or small site will not show up near the top for "biotech marketing" or "antibody." It can show up for a longer search. That is one that names the target, the application, the species, and the method. Fewer people type those searches. The person who does is usually ready to buy.
 
 We find those searches in three places. The first is your own Google Search Console data. The second is the questions your customers ask your team. The third is the questions people ask AI assistants about products and services like yours.
 
@@ -94,7 +94,7 @@ Secondary button: See every price
 
 H2: What the fee covers
 
-- **Ads built on the exact words buyers type.** We also give Google a long list of searches not to show your ad for. That way you do not pay for clicks from students and job seekers.
+- **Ads built on the exact words buyers type.** We also tell Google which searches should not show your ad. That way you do not pay for clicks from students and job seekers.
 - **One page for the ad to send people to,** written to match the ads
 - **Counting set up correctly.** We count how many ad clicks become real inquiries. Each form someone sends is counted once and credited to the ad that brought it.
 - **A monthly report** that shows cost per qualified inquiry in place of a click count
@@ -206,7 +206,7 @@ Eyebrow: Decision guide
 H1: Life science marketing agency vs in house, or just buy what you need
 
 Short answer (written to be quoted):
-Many small life science companies need two things, a website and a steady way for buyers to find them. They usually do best by buying those two things at fixed prices. Hire a marketer once there is daily work for one person. A full service agency makes sense when you have a launch, a budget above $10,000 a month, and someone on your staff to manage the agency.
+Many small life science companies need two things, a website and a steady way for buyers to find them. They usually do best by buying those two things at fixed prices. Hire a marketer once there is daily work for one person. A full service agency makes sense when you have three things: a launch, a budget above $10,000 a month, and someone on staff to manage the agency.
 
 ## The three options
 

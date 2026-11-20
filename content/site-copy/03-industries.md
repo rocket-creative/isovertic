@@ -12,7 +12,7 @@ Shared block, used at the bottom of every industry page:
 Second shared block, used above the questions on every industry page. Many prospects already have a sales or marketing lead:
 
 > **H2: Already have a marketer?**
-> Good. We take the production off their desk. They keep the strategy and the relationships, and we deliver the website, the pages, and the monthly reports at fixed prices they can show to whoever signs off. There is no retainer for them to defend.
+> Good. We take the production off their desk. They keep the strategy and the relationships. We deliver the website, the pages, and the monthly reports. The prices are fixed, so they can show them to whoever signs off. There is no retainer for them to defend.
 
 ---
 
@@ -47,7 +47,7 @@ The next scientist at that sponsor searches for the exact service. They type the
 
 H2: One page for every study a sponsor might search for
 
-- **A page for each service line.** Each page names the model, the method, the readouts, the turnaround time, and the standard you work to.
+- **A page for each service line.** Each page names the model, the method, and the readouts. It also gives the turnaround time and the standard you work to.
 - **Capabilities a sponsor can check.** We link to your publications, validation data, and equipment wherever you have them.
 - **A quote request that asks the right questions.** It asks for species, endpoints, timeline, and compliance level. Then your team can reply with a real answer.
 - **AI visibility.** We test whether AI assistants such as ChatGPT name you for your study types. Then we fix what keeps you off the list.
@@ -84,7 +84,7 @@ Buttons: Get the free snapshot · See the $4,995 website
 
 URL: /research-model-marketing
 Title tag: Mouse Model and Research Model Marketing Agency | Isovertic
-Meta description: A marketing agency for mouse model and research model companies. We build catalog pages so the scientist searching for one gene or strain finds you.
+Meta description: A marketing agency for mouse model and research model companies. We build catalog pages so the buyer searching for one gene or strain finds you.
 Primary query: marketing for mouse model and research model providers. Secondary: preclinical services marketing agency, how to market custom mouse model services, in vivo services lead generation, research model supplier SEO.
 
 ## Hero
@@ -125,13 +125,13 @@ Disclosure: Kristen previously worked at ingenious targeting laboratory. George 
 ## Questions
 
 **How do I market custom mouse model services?**
-Show the specific models you have made, the method, the timeline, and what the customer gets. Then give each one its own page so scientists can find it.
+Show the specific models you have made, the method, the timeline, and what the customer gets. Then give each one its own page so buyers can find it.
 
 **Will pages built from our database hurt us with Google?**
 Thin pages that repeat each other will. Pages built from real data, each with something specific on it, are how catalog companies rank well on Google.
 
 **How do we compete with the largest suppliers?**
-Compete on the specific model. Do not try to win the whole category. A scientist searching for one gene wants the provider with the best page for that gene.
+Compete on the specific model. Do not try to win the whole category. A buyer searching for one gene wants the provider with the best page for that gene.
 
 **What does a catalog site cost?**
 From $9,995. We quote in writing after we see your data. Catalog Care hosting is $300 a month.
@@ -347,7 +347,6 @@ H2: A website for each stage, before and after clearance
 - Indications, clinical evidence, and instructions for use
 - Pages for clinicians, administrators, and purchasing
 - A way to contact sales that sends each request to the right territory
-- A sign off record for every published claim [Kristen asked whether we deliver this. Confirm or cut.]
 - Link: Medical device launch marketing
 
 ## Questions
@@ -395,7 +394,7 @@ Secondary button: Get a free AI visibility snapshot
 
 H2: Get an accurate website before you pay an agency monthly
 
-Early stage biotech companies get quotes of $15,000 to $40,000 for a website. They also get quotes of $10,000 a month for marketing they are not ready to use. Most need three things: an accurate site, a way to be found by name and by science, and nothing that embarrasses the chief scientific officer.
+Early stage biotech companies get quotes of $15,000 to $40,000 for a website. They also get quotes of $10,000 a month for marketing they are not ready to use. Most need three things. An accurate site. A way to be found by name and by science. And nothing that embarrasses the chief scientific officer.
 
 ## What we build
 

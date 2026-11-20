@@ -215,6 +215,9 @@ The price covers a fixed amount of work, which is up to 15 pages and two rounds 
 **Do you use AI to write?**
 Yes, and we say so. AI writes the draft. Kristen checks the science and the wording. Your expert approves every technical claim before we publish it.
 
+**How can two people do all of this?**
+AI now does much of the work that used to need a large agency staff. That leaves George and Kristen free for the parts where experience matters: what to say, how to say it, and checking the work. We bring in a specialist, such as a photographer or a developer, when a project needs one.
+
 **Can you guarantee that ChatGPT will recommend us?**
 No, and nobody can. AI answers change every time you ask. We ask many times and count how often you are named. We fix what we can prove matters, and then we count again.
 
@@ -273,12 +276,12 @@ If the assistant leaves you out, you are off a shortlist you never knew existed.
 
 H2: What the free AI visibility snapshot checks
 
-- **Ten buyer questions** written for what you sell. We skip broad ones like "best biotech company." We ask what a real buyer would ask, such as "who makes humanized mouse models for immuno oncology studies" or "which CROs run GLP toxicology in rodents."
+- **Ten buyer questions** written for what you sell. We skip broad ones like "best biotech company." We ask what a real buyer would ask. One example: "who makes humanized mouse models for immuno oncology studies." Another: "which CROs run GLP toxicology in rodents."
 - **Four assistants:** ChatGPT, Gemini, Perplexity, and Claude.
 - **Three runs of every question,** because the same question gets a different list almost every time.
 - **An access check.** AI companies use programs to read websites. We test whether those programs can reach your pages, or whether your site or your hosting is blocking them.
 - **An accuracy check.** Software compares what the assistants said about you with your own website. It marks anything that does not match.
-- **Google's AI answers, on request.** A person runs your questions on Google by hand and goes through the results with you on a call.
+- **Google's AI answers, on request.** A person runs your questions on Google by hand. Then we go through the results with you on a call.
 
 You get a one page report. It shows how often you were named, who was named instead, what was wrong, and the three fixes that would matter most.
 
@@ -311,7 +314,7 @@ H2: What gets a company recommended by ChatGPT
 The research on this is new, and much of it comes from people with tools to sell. This is what the evidence shows today.
 
 **Proven**
-- Pages that arrive with all their words already in place. Most of the programs AI companies use to read websites do not run JavaScript, the code some sites need before their words appear ([Vercel](https://vercel.com/blog/the-rise-of-the-ai-crawler)).
+- Pages that arrive with all their words already in place. Most of the programs AI companies use to read websites do not run JavaScript. Some sites need that code before their words appear ([Vercel](https://vercel.com/blog/the-rise-of-the-ai-crawler)).
 - Being on Google's list of pages and ranking well there. Google says its AI answers use the same list and the same ranking systems as search ([Google Search Central](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)).
 - Not blocking the AI programs by accident. Default hosting and security settings sometimes block them without anyone choosing to.
 - Being mentioned on other sites. In a study of 75,000 brands, mentions on other websites went along with AI visibility more closely than anything else measured ([Ahrefs](https://ahrefs.com/blog/ai-overview-brand-correlation/)).
@@ -395,7 +398,7 @@ H2: Four things decide whether ChatGPT recommends your company
 1. **AI can read your website.** Your pages have to arrive with all their words in place. Nothing can block the programs AI companies use to read websites.
 2. **Google ranks you.** Google's AI answers use the same list of pages and the same rankings as normal search. Good search work is still most of the job.
 3. **Other sites mention you.** Directories, supplier listings, papers that name your products, trade press, and partner pages all count.
-4. **What you say is specific and easy to check.** A page that states the model, the method, the data, and the source is easier to quote than a page that says you are a trusted partner.
+4. **What you say is specific and easy to check.** A page that states the model, the method, the data, and the source is easy to quote. A page that says you are a trusted partner is not.
 
 Everything we do each month works on one of those four.
 

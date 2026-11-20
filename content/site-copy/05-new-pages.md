@@ -39,7 +39,7 @@ The other common gap is having only one page, called Capabilities. One page cann
 
 H2: One page for every capability a buyer might search for
 
-- **A page for each capability.** Each page covers the process, the materials, the scale, the equipment, and the tolerances or specifications you hold.
+- **A page for each capability.** Each page covers the process, the materials, the scale, and the equipment. It also gives the tolerances or specifications you hold.
 - **Quality and regulatory status in plain words.** We list your registrations, certifications, and audit history. We add the documents a supplier quality team asks for first.
 - **Capacity and how long an order takes,** where you are willing to publish them.
 - **A quote request form that asks the right questions,** so your team can reply with a real price.
@@ -51,7 +51,7 @@ H2: Three people read your site, and each asks one question
 
 - **The engineer or scientist asks "Can they make this?"** The capability page answers that.
 - **Supplier quality asks "Will they pass our audit?"** The quality page answers that.
-- **Sourcing asks "Can they deliver, and at what scale?"** Your capacity, your order times, and a fast reply to the quote request answer that.
+- **Sourcing asks "Can they deliver, and at what scale?"** Your capacity, your order times, and a fast reply to a quote request answer that.
 
 ## Questions
 
