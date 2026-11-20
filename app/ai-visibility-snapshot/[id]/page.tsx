@@ -32,7 +32,6 @@ function Review({ job, error }: { job: Job; error: string }) {
       eyebrow={c.review.eyebrow}
       h1={c.review.h1}
       lead={c.review.lead}
-     
       cta={
         <form action={runSnapshot} className="grid max-w-[760px] gap-5">
           <input type="hidden" name="id" value={job.id} />
@@ -69,7 +68,6 @@ function ReportView({ job }: { job: Job }) {
           </>
         }
         lead={report.headline ? [report.headline] : []}
-       
       />
       <Section label={r.byAssistant.label} deferred={false}>
         <RevealBlock>
@@ -266,7 +264,6 @@ export default async function SnapshotPage({ params, searchParams }: { params: P
         eyebrow={c.running.eyebrow}
         h1={c.running.h1}
         lead={c.running.lead}
-       
         cta={
           <div className="max-w-[640px]" role="status" aria-live="polite">
             <p className="font-display text-h3 font-medium">{done ? c.running.analyzing : c.running.progress(finished, total)}</p>

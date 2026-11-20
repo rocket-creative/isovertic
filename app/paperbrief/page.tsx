@@ -31,7 +31,6 @@ export default function PaperBriefPage() {
         eyebrow={c.hero.eyebrow}
         h1={c.hero.h1}
         lead={c.hero.lead}
-       
         cta={
           <>
             <Link href="#access" className="btn btn-solid">{c.hero.button} <Arrow /></Link>

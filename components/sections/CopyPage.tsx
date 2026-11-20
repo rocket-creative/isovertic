@@ -273,7 +273,6 @@ export function CopyPageView({ path }: { path: string }) {
         eyebrow={page.eyebrow}
         h1={heroTitle(page.h1)}
         lead={page.lead}
-       
         aside={
           home ? (
             <div className="relative mx-auto hidden aspect-square w-full max-w-[520px] lg:block">

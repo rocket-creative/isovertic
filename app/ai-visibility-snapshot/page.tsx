@@ -46,7 +46,6 @@ export default async function SnapshotStart({ searchParams }: { searchParams: Pr
         eyebrow={c.hero.eyebrow}
         h1={c.hero.h1}
         lead={c.hero.lead}
-       
         cta={
           <>
             <Link href="#start" className="btn btn-solid">{c.hero.button} <Arrow /></Link>

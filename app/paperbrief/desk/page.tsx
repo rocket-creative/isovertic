@@ -162,7 +162,6 @@ async function SearchOnly({ sp }: { sp: Params }) {
         eyebrow={d.eyebrow}
         h1={d.h1}
         lead={d.lead}
-       
         cta={
           <form method="get" className="grid max-w-[640px] gap-6">
             <div>
@@ -275,7 +274,6 @@ export default async function PaperBriefDesk({ searchParams }: { searchParams: P
         eyebrow={d.eyebrow}
         h1={workspace.company}
         lead={d.deskLead(session.n.split(" ")[0])}
-       
         cta={
           <>
             <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
