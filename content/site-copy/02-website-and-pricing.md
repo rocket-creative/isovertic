@@ -44,6 +44,8 @@ H2: What the $4,995 website includes
 - Pages are laid out to read well on a phone, a laptop, and a lab workstation.
 - We check the site against WCAG 2.1 AA, the standard for websites that people with disabilities can use. We fix problems before launch.
 
+Image: Screenshot of one page of a website we built, shown at three sizes: a phone, a laptop, and a lab workstation monitor.
+
 **Build**
 - Pages built so Google and AI tools can read every word.
 - Page titles and descriptions set up correctly. So are the list of your pages that Google reads and the labels that tell search tools what each page is about.
@@ -85,6 +87,8 @@ H2: How we build your website in about a month
 
 You are paying for our judgment too. We tell you plainly what we recommend and why, and you make the final decision.
 
+Image: Screenshot of a draft website page during review, with a client's requested changes marked on it.
+
 ## How we handle your science
 
 H2: How we keep the science on your website correct
@@ -96,6 +100,8 @@ Some companies come to us with a website built by someone who could not tell a k
 - **Your field's words, used correctly.** Nomenclature, assay names, and product names follow the rules your readers use.
 - **Your expert has the final word.** Someone on your team checks every technical claim before we publish it.
 - **Built for AI answers too.** AI assistants such as ChatGPT can quote a page that is clear and names its sources.
+
+Image: Screenshot of a website page where a technical statement links to the paper, protocol, or dataset it came from. The link should be easy to see.
 
 Link: Read the Isovertic editorial standard
 
@@ -138,6 +144,10 @@ Changes beyond your plan cost $125 an hour. We bill in half hour steps. You can 
 H2: Results from one site built this way
 
 Our example is ingenious targeting laboratory, a mouse model company. Forms sent through the site went from 13 a month to about 64 a month in the first eight months. Clicks from Google search, not ads, rose 3.7 times, measured in Google Search Console. This is one client, and we did the measuring ourselves. Your result depends on your field and what you offer.
+
+Image: Screenshot of the ingenious targeting laboratory home page (genetargeting.com) on a desktop screen.
+Image: Chart of forms sent through the ingenious targeting laboratory site each month, rising from 13 to about 64 over the first eight months.
+Image: Screenshot of the Google Search Console clicks graph for ingenious targeting laboratory over the same eight months, showing clicks from Google search rising 3.7 times.
 
 ## Questions
 
@@ -201,6 +211,8 @@ These prices come from the agencies' own pages or from articles that compare age
 | Specialist agencies with fixed prices | About $5,000 for one to three pages. $6,000 and up for a small site |
 | Isovertic | $4,995 for up to 15 pages |
 
+Image: Chart of the published prices in the table as horizontal bars on one scale, from Isovertic at $4,995 to a full redesign at $90,000 to $200,000 and up.
+
 Note for George and Kristen: confirm each figure on the day this publishes and date the table.
 
 ## Why the range is so wide
@@ -219,6 +231,8 @@ H2: Why the same website costs less than two years ago
 
 Design, first drafts, and code used to be most of the bill. AI now does a first pass at all three in hours. People still have to decide what the site should say and check that it is true. They also have to make it safe to put on the internet.
 
+Image: Diagram of who does which part of a website now. AI does the first pass at design, first drafts, and code. People decide what the site should say, check that it is true, and make it safe.
+
 Some agencies kept their prices and their profit where they were, and we lowered our prices.
 
 ## What it costs after launch
@@ -232,6 +246,8 @@ H2: How much a website costs per month after launch
 | Changes | $100 to $150 an hour | $125 an hour |
 
 Ask any agency three questions before you sign. Who owns the code? What is the monthly cost after launch? What does it cost to leave?
+
+Image: Chart comparing typical market prices with Isovertic prices per month: small site hosting at $50 to $300 against $50 or $150, and large catalog site hosting at $300 to $1,000 against $300.
 
 ## Questions
 
@@ -282,6 +298,8 @@ H2: Check whether ChatGPT and other AI assistants mention you
 | **AI visibility snapshot** | Free | We ask four AI assistants ten questions your buyers would ask, three times each. We check whether the programs AI companies use to read websites can reach your pages. You get one page of findings and three fixes. |
 | **Full AI visibility audit** | $2,500 | We ask five AI assistants fifty questions and compare you with up to four competitors. We check every statement for accuracy. You get a list of fixes with the most important first, a call to go over the results, and a second measurement at 90 days. If you buy a website within 60 days, the $2,500 counts toward its price. |
 
+Image: Screenshot of a finished snapshot report: one page of findings and three fixes.
+
 Button: Get the free snapshot
 
 ## The website
@@ -296,6 +314,8 @@ H2: Website design pricing
 | Security review | $2,500 | For a site someone else built, including one built with AI tools. You get a written report and the fixes we recommend. |
 
 You pay half to start and half at launch.
+
+Image: Screenshot of a finished life science website we built, home page. George to choose the client and confirm the client agrees to be shown.
 
 Button: See what the website includes
 
@@ -321,6 +341,8 @@ H2: Monthly marketing services, each priced on its own
 | **Search and publishing** | $1,000 a month | One article on your site, one newsletter to your email list, and eight social media posts. We check your Google Business Profile and check that Google has your pages in its search results. You get a short report. |
 | **Google Ads management** | $750 a month plus 10% of ad spend | We build ad campaigns around the exact words buyers type when they are ready. You get one landing page, which is the page an ad sends people to. We report what you pay in ads for each inquiry from a likely buyer. One time setup $750. You pay Google directly for the ads. |
 | **Outreach** | By proposal | We research the labs and companies that should know you, and we write to them. The amount of work depends on your list and your offer. |
+
+Image: Screenshot of a monthly AI visibility monitoring report. It should show whether the company shows up in the answers on each of the five AI assistants and how many times we asked, behind every number.
 
 ## For regulated work
 
@@ -354,6 +376,8 @@ H2: How much other life science marketing agencies charge
 | Google Ads management | 10% to 20% of ad spend, with minimums of $1,000 to $2,000 | $750 a month plus 10% of ad spend |
 
 Sources: [Digital Elevator](https://thedigitalelevator.com/blog/best-biotech-web-design-agencies), [Percepture](https://percepture.com/pricing/seo-pricing-packages/), [Altitude Marketing](https://altitudemarketing.com/pricing/). Read November 2026.
+
+Image: Chart of the price of a life science website: $15,000 to $40,000 typical as published elsewhere, beside the Isovertic price of $4,995.
 
 ## Questions
 

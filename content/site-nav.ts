@@ -3,6 +3,7 @@ export const primaryNav = [
   { href: "/", label: "$4,995 website" },
   { href: "/life-science-ai-automation", label: "Automation" },
   { href: "/ai-visibility-audit", label: "AI visibility" },
+  { href: "/paperbrief", label: "PaperBrief" },
   { href: "/pricing", label: "Pricing" },
   { href: "/about", label: "About" },
 ] as const;

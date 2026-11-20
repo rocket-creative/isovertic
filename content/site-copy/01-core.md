@@ -24,10 +24,10 @@ Primary query: life science website design agency. Secondary: AI visibility audi
 
 Eyebrow: For contract research organizations, research models and reagents, lab tools, diagnostics, biotech, and medtech
 
-H1: A life science website for $4,995. Built to show up in Google and ChatGPT.
+H1: Life science websites that get found. One client went from 13 inquiries a month to about 64.
 
 Subhead:
-Your buyers now ask ChatGPT, Gemini, and Google's AI answers which vendors to look at. Then they check your website. We are a two person agency. We build websites that AI tools can read and buyers can trust. We write your site from your science. A molecular biologist checks it. An engineer who has built software for more than 30 years secures it. This work used to cost $15,000 to $40,000. It now costs $4,995 for up to 15 pages. The price is lower because AI does the production work and the two of us check it.
+We write your website from your own science, so Google and ChatGPT can read it and your buyers can trust it. It costs $4,995 for up to 15 pages, and a free AI visibility snapshot shows you where you stand first.
 
 Primary button: Get your free AI visibility snapshot
 Secondary button: See what $4,995 includes
@@ -47,6 +47,9 @@ Stat row:
 
 Small print: One account, measured in our own reporting. Your result depends on your category, offer, and sales cycle.
 
+Image: Screenshot of the ingenious targeting laboratory home page (genetargeting.com) on a desktop screen.
+Image: Chart of website forms filled out each month for ingenious targeting laboratory, rising from 13 to about 64 over the first eight months.
+
 Logo bar: life science and medtech clients only. ingenious targeting laboratory, Metablify, Capseus. [Confirm permission for each before publishing.]
 
 ## The question everyone is asking
@@ -58,6 +61,8 @@ About four in ten Google searches in the US now show an AI answer above the link
 Two things have to go right. First, the AI assistant has to know your company exists and describe it correctly. Second, your website has to hold up when the buyer comes to check.
 
 Most life science companies have never tested either one, and we test both for free.
+
+Image: Screenshot of ChatGPT answering a buyer's question such as "which companies make custom mouse models," with the vendors it names visible.
 
 Button: Get your free AI visibility snapshot
 Link: What the snapshot checks
@@ -75,6 +80,8 @@ Diagram: snapshot
 5. You get a one page report. It shows how often you were named, who was named instead, what the AI got wrong, and the three fixes that matter most.
 
 Your report arrives within 24 hours. We do not ask about your budget, and you do not have to get on a call. If you already show up well, the report will say so.
+
+Image: Screenshot of a finished one page snapshot report. It should show how often the company was named, who was named instead, and the three fixes.
 
 Google's AI answers are a separate step. Google gives no way to collect them with software, so a person runs those for you. That person goes through the results with you on a call. You can ask for this from your report.
 
@@ -94,14 +101,6 @@ Link: The $4,995 website
 Hosting and care starts at $50 a month. AI visibility monitoring starts at $500 a month. With monitoring, we check every month what AI assistants say about you. Search and publishing is $1,000 a month. Google Ads management is $750 a month plus 10% of what you spend on ads. All of it is month to month.
 Link: See every price
 
-## PaperBrief
-
-H2: See which published papers mention your company, free.
-
-Researchers publish papers that use your products every month. Most companies find out late. PaperBrief searches published papers for your company name. It gives you the list, with every paper linked to PubMed. Confirm your email, and you can run your first search in about a minute.
-
-Button: Try PaperBrief free
-
 ## Why it costs a third of what you were quoted
 
 H2: Why our life science websites cost $4,995
@@ -117,6 +116,9 @@ The two of us check those things.
 **Kristen Coughlin** trained as a molecular biologist. She spent ten years selling translational research products. She reads every technical line before your expert sees it.
 
 **George Stoff** has built software for more than 30 years. He builds your site and secures it. Nothing goes live unless he would put his name on it.
+
+Image: Portrait photo of Kristen Coughlin, head and shoulders, plain background.
+Image: Portrait photo of George Stoff, head and shoulders, plain background.
 
 Your own expert approves the science before anything goes live.
 
@@ -145,15 +147,15 @@ Link: How we handle your science
 
 H2: What goes wrong when you build a website with AI
 
-Anyone can build a website with an AI tool over a weekend. The tools are good, and for a pizza place that may be all you need. Your buyers check every claim. For a company like yours, three problems keep showing up.
+Anyone can build a website with an AI tool over a weekend. The tools are good, and for a simple site that may be all you need. Your buyers check every claim. For a company like yours, three problems keep showing up.
 
 **Security.** In tests of more than 100 AI models, 45% of the code they wrote had a security flaw ([Veracode](https://www.veracode.com/press-release/ai-generated-code-poses-major-security-risks-in-nearly-half-of-all-development-tasks-veracode-research-reveals/)). One scan of 1,645 apps made with a popular AI builder found 170 that exposed personal data ([Cloud Security Alliance](https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-codegen-vulnerability-debt-2026)).
 
-**Visibility.** Some websites show their words only after code called JavaScript runs in the browser. Most of the programs AI companies use to read websites do not run that code ([Vercel](https://vercel.com/blog/the-rise-of-the-ai-crawler)). A site built that way can look like a blank page to the AI assistants you want recommending you.
+**Visibility.** Some websites load their text with JavaScript after the page opens. Most of the programs AI companies use to read websites do not run JavaScript ([Vercel](https://vercel.com/blog/the-rise-of-the-ai-crawler)). A site built that way can look like a blank page to the AI assistants you want recommending you.
 
 **Accuracy.** AI writes confident sentences about science it has not read. A scientist on your buyer's team will spot the one that is wrong.
 
-If your nephew already built the site, we can still help. We charge $2,500 to review the security of a site someone else built.
+If your site was already built with an AI tool, we can still help. We charge $2,500 to review the security of a site someone else built.
 
 ## Who we work with
 
@@ -167,7 +169,18 @@ H2: The life science companies our marketing agency works with
 - **Medical devices.** We work with companies from their first commercial launch to established product lines. Link: Medical device marketing
 - **Biotech.** We work with companies from the preclinical stage through commercial sales. Link: Biotech marketing
 
-Small link: Not in life science? We build for other businesses at the same price. Tell us what you need.
+## Websites we built
+
+H2: Life science websites we have built
+
+Open each one and judge the work for yourself.
+
+Image: Screenshot of the ingenious targeting laboratory website (genetargeting.com), home page. Add the client name and a link to the live site under it.
+Image: Screenshot of a catalog page on genetargeting.com that was built from the client's own data. Add a link to that page.
+Image: Screenshot of a second client website, home page. George to choose the client. Add the client name and a link to the live site.
+Image: Screenshot of a third client website, home page. George to choose the client. Add the client name and a link to the live site.
+
+[George to pick the client sites and confirm each client agrees to be shown. Until then this section shows placeholders.]
 
 ## Add ons
 
@@ -185,22 +198,10 @@ H2: What a life science website costs, plus monthly add ons
 | AI visibility monitoring | from $500 a month |
 | Search and publishing, with eight social posts | $1,000 a month |
 | Google Ads management | $750 a month plus 10% of ad spend |
-| PaperBrief publication lookup | Free |
-| Publication watch, checked by a scientist | We are testing this now. Ask us. |
 
 There is no 12 month contract. You can stop any monthly service with 30 days notice.
 
-[Publication watch has no price yet. On the call George floated free as a way in the door and Kristen floated a small package.]
-
 Button: See what each price includes
-
-## The other thing we build
-
-H2: We automate the work your team repeats
-
-We build software and AI tools for jobs your team does over and over. Examples are tracking new publications, answering quote requests, turning catalog data into pages, and drafting the newsletter. A scientist checks what the software produces.
-
-Button: See what we automate
 
 ## Questions
 
@@ -268,9 +269,13 @@ Life scientists look at two or three vendors for most purchases. They rarely add
 
 More and more, buyers first hear of a vendor from an AI assistant. AZoNetwork surveyed scientific buyers in 2026. The manufacturer's website influenced 88% of purchases, and search engines influenced 87%. The share of buyers who named sales reps fell from 72% to 63% ([State of Scientific Purchasing 2026](https://www.azonetwork.com/marketing-science/blog/state-of-scientific-purchasing-2026)). Google now shows an AI answer on about four in ten US searches.
 
+Image: Chart of what influenced scientific purchases in 2026: the manufacturer's website at 88%, search engines at 87%, and sales reps at 63%, down from 72%.
+
 [Verify on the Biocompare page before publishing, from Kristen's version 3: In the same Biocompare survey, 73% of respondents who use AI go straight to the vendor's site after a recommendation, and 75% say citing specific published studies would make them trust an AI recommendation more.]
 
 If the assistant leaves you out, you are off a shortlist you never knew existed. The same is true if it describes a service you stopped offering in 2022.
+
+Image: Screenshot of an AI assistant answering a buyer's question such as "who makes humanized mouse models for immuno oncology studies," with the vendors it names visible.
 
 ## What the free snapshot covers
 
@@ -284,6 +289,8 @@ H2: What the free AI visibility snapshot checks
 - **Google's AI answers, on request.** A person runs your questions on Google by hand. Then we go through the results with you on a call.
 
 You get a one page report. It shows how often you were named, who was named instead, what was wrong, and the three fixes that would matter most.
+
+Image: Screenshot of a finished one page snapshot report. It should show how often the company was named, who was named instead, what was wrong, and the three fixes.
 
 ## The full audit
 
@@ -306,6 +313,9 @@ The full audit is for companies that want the whole picture and a plan.
 | Price | Free | $2,500 |
 
 If you buy a website from us within 60 days, we take the $2,500 off the price.
+
+Image: Screenshot of a page from a full audit report that compares the company side by side with up to four competitors, showing how often each was named.
+Image: Screenshot of the fix list from a full audit report, with the most important fix first.
 
 ## What we have learned moves the needle
 
@@ -402,6 +412,9 @@ H2: Four things decide whether ChatGPT recommends your company
 
 Everything we do each month works on one of those four.
 
+Image: Screenshot of a web page as a visitor sees it, with all its words in place.
+Image: Screenshot of the same page as the programs AI companies use to read websites receive it when the words need code to appear. The page is blank.
+
 ## Two ways to buy it
 
 H2: Monitoring for $500 a month, or $1,500 with fixes
@@ -411,6 +424,8 @@ H2: Monitoring for $500 a month, or $1,500 with fixes
 - A monthly report. It shows how often you were named and how many runs are behind every number.
 - An accuracy check. We flag anything false or out of date that the assistants say about you.
 - A short list of what to fix next
+
+Image: Screenshot of a monthly monitoring report. It should show how often the company was named on each of the five AI assistants and how many runs are behind every number.
 
 ### Monitoring and fixes, $1,500 a month
 Everything in Monitoring, plus up to six hours a month of work on your site:
@@ -431,6 +446,8 @@ H2: What we do in the first three months
 **Month two.** We publish the pages you are missing. Each one answers a buyer question you have no page for. Your expert approves the science.
 
 **Month three.** We update the outside listings the assistants use as sources. Then we run the questions again and compare.
+
+Image: Chart comparing how often a company was named in AI answers in month one and again at 90 days. Use measured numbers from a real account.
 
 ## What we will not do
 

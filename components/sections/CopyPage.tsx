@@ -12,9 +12,7 @@ import { CopyDiagram } from "@/components/sections/CopyDiagram";
 import { ParticleField } from "@/components/ui/ParticleField";
 import { CountText } from "@/components/ui/CountText";
 import { ImageSlot } from "@/components/ui/ImageSlot";
-import { describeHeroImage } from "@/components/ui/ImagePlaceholder";
 import IsoSphere from "@/components/ui/IsoSphere";
-import { detailBrief, industryReel } from "@/content/site-visuals";
 
 // Renders one page from content/site-copy. All copy comes from the markdown; nothing is written here.
 
@@ -234,20 +232,12 @@ function heroTitle(h1: string): React.ReactNode {
   );
 }
 
-// A slow reel of the companies we work with, set in display type under the home hero.
-function Reel() {
-  const items = [...industryReel, ...industryReel];
-  return (
-    <div className="marquee border-b border-rule bg-bright py-6" aria-hidden="true">
-      <div className="marquee-track flex w-max items-center">
-        {items.map((label, i) => (
-          <span key={i} data-loop-copy={i >= industryReel.length ? "" : undefined} className="reel-item">
-            {label}
-          </span>
-        ))}
-      </div>
-    </div>
-  );
+// Section names in the copy files are working titles. Some describe the page's structure, not its subject,
+// and those are never shown to a reader.
+function sectionLabel(title: string): string | undefined {
+  const t = title.replace(/\s*\([^)]*\)\s*/g, " ").trim();
+  if (t.length > 28 || /call to action|thank you page|^the form$|^hero$/i.test(t)) return undefined;
+  return t;
 }
 
 // Pages that describe the company or take a message. Every other page describes a service.
@@ -271,9 +261,6 @@ export function CopyPageView({ path }: { path: string }) {
   const home = path === "/";
   const last = page.sections.length - 1;
   const closes = /call to action/i.test(page.sections[last]?.title ?? "");
-  // Photograph slots: one after the opening section, one more deep in the long pages.
-  const slots = new Map<number, string>([[0, describeHeroImage(page.eyebrow, page.name.toLowerCase())]]);
-  if (page.sections.length >= 8) slots.set(4, `${detailBrief} Page: ${page.name.toLowerCase()}.`);
   const faqs = page.sections.flatMap((s) => s.faqs ?? []);
   return (
     <>
@@ -304,12 +291,24 @@ export function CopyPageView({ path }: { path: string }) {
           ) : undefined
         }
       />
-      {home && <Reel />}
       {page.sections.map((s, i) => {
         const navy = closes && i === last;
         const isForm = s.blocks.some((b) => b.type === "fields");
-        const body = s.blocks.map((b, bi) =>
-          isForm && b.type === "buttons" ? (
+        // Image slots written one after another sit side by side as one row.
+        const rows: { b: (typeof s.blocks)[number]; bi: number; run: number }[] = [];
+        s.blocks.forEach((b, bi) => {
+          const prev = rows[rows.length - 1];
+          if (b.type === "image" && prev?.b.type === "image" && prev.bi + prev.run === bi) prev.run += 1;
+          else rows.push({ b, bi, run: 1 });
+        });
+        const body = rows.map(({ b, bi, run }) =>
+          run > 1 ? (
+            <div key={bi} className={`mt-10 grid gap-6 sm:grid-cols-2 ${run >= 4 ? "lg:grid-cols-4" : run === 3 ? "lg:grid-cols-3" : ""}`}>
+              {s.blocks.slice(bi, bi + run).map((x, xi) =>
+                x.type === "image" ? <ImageSlot key={xi} brief={x.brief} ratio={/^portrait/i.test(x.brief) ? "portrait" : "standard"} /> : null,
+              )}
+            </div>
+          ) : isForm && b.type === "buttons" ? (
             <div key={bi} className="mt-8">
               <button type="submit" className="btn btn-solid" disabled>{b.links[0].label} <Arrow /></button>
               <p className="mt-3 text-[13px] text-ink-soft">{formNotice}</p>
@@ -323,7 +322,7 @@ export function CopyPageView({ path }: { path: string }) {
           ),
         );
         const section = (
-          <Section key={s.id + i} label={s.title.length <= 28 ? s.title : undefined} tone={navy ? "navy" : i % 2 ? "bright" : "paper"} backdrop={navy ? <ParticleField tone="paper" /> : undefined} deferred={false}>
+          <Section key={s.id + i} label={navy ? undefined : sectionLabel(s.title)} tone={navy ? "navy" : i % 2 ? "bright" : "paper"} backdrop={navy ? <ParticleField tone="paper" /> : undefined} deferred={false}>
             <div id={s.id} className="scroll-mt-32 [&>*:first-child]:mt-0">
               {s.h2 && (
                 <RevealBlock>
@@ -336,7 +335,6 @@ export function CopyPageView({ path }: { path: string }) {
                   <FAQ faqs={s.faqs} />
                 </div>
               )}
-              {slots.has(i) && !isForm && !navy && <ImageSlot brief={slots.get(i)!} className="mt-16" />}
             </div>
           </Section>
         );

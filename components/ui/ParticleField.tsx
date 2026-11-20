@@ -1,8 +1,8 @@
 "use client";
 import { useEffect, useRef } from "react";
 
-// Drifting point field on canvas. Points follow a slow noise current, join their
-// neighbours with hairlines, and move away from the cursor, which lights them in signal blue.
+// Drifting point field on canvas. Points follow a slow noise current
+// and move away from the cursor, which lights them in signal blue.
 // Decorative only: aria-hidden, no pointer events. With reduced motion it draws one still frame.
 // It stops drawing when it is off screen or the tab is hidden.
 
@@ -11,7 +11,6 @@ type P = { x: number; y: number; vx: number; vy: number; r: number; heat: number
 const INK = "20,24,27";
 const PAPER = "245,244,240";
 const SIGNAL = "10,177,255";
-const LINK = 132;
 const REACH = 170;
 
 export function ParticleField({
@@ -65,29 +64,6 @@ export function ParticleField({
       for (let i = 0; i < pts.length; i++) {
         const a = pts[i];
         const wa = weight(a.x);
-        for (let j = i + 1; j < pts.length; j++) {
-          const b = pts[j];
-          const dx = a.x - b.x;
-          const dy = a.y - b.y;
-          const d2 = dx * dx + dy * dy;
-          if (d2 > LINK * LINK) continue;
-          const k = 1 - Math.sqrt(d2) / LINK;
-          const hot = Math.max(a.heat, b.heat);
-          ctx.strokeStyle = `rgba(${hot > 0.05 ? SIGNAL : rgb},${(k * (0.26 + hot * 0.5) * strength * Math.min(wa, weight(b.x))).toFixed(3)})`;
-          ctx.lineWidth = 1;
-          ctx.beginPath();
-          ctx.moveTo(a.x, a.y);
-          ctx.lineTo(b.x, b.y);
-          ctx.stroke();
-        }
-        const md = Math.hypot(a.x - mouse.x, a.y - mouse.y);
-        if (md < REACH) {
-          ctx.strokeStyle = `rgba(${SIGNAL},${((1 - md / REACH) * 0.55).toFixed(3)})`;
-          ctx.beginPath();
-          ctx.moveTo(a.x, a.y);
-          ctx.lineTo(mouse.x, mouse.y);
-          ctx.stroke();
-        }
         ctx.fillStyle = `rgba(${a.heat > 0.05 ? SIGNAL : rgb},${((0.55 + a.heat * 0.45) * strength * wa).toFixed(3)})`;
         ctx.beginPath();
         ctx.arc(a.x, a.y, a.r + a.heat * 1.6, 0, Math.PI * 2);

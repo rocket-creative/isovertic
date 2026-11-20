@@ -43,6 +43,8 @@ A referral is the best inquiry you will ever get. But you cannot make more refer
 
 The next scientist at that sponsor searches for the exact service. They type the species, the model, the assay, and the regulatory standard. A site with one page called Services answers none of those searches.
 
+Image: Screenshot of a Google search for one preclinical study, typed with the species, the model, the assay and the regulatory standard. The CROs that appear in the results must be visible.
+
 ## What we build
 
 H2: One page for every study a sponsor might search for
@@ -52,11 +54,16 @@ H2: One page for every study a sponsor might search for
 - **A quote request that asks the right questions.** It asks for species, endpoints, timeline, and compliance level. Then your team can reply with a real answer.
 - **AI visibility.** We test whether AI assistants such as ChatGPT name you for your study types. Then we fix what keeps you off the list.
 
+Image: Screenshot of a CRO service line page. The model, the method, the readouts, the turnaround time and the standard must be visible.
+Image: Screenshot of a quote request form for a CRO, with fields for species, endpoints, timeline and compliance level.
+
 ## How do we look credible next to the global CROs?
 
 H2: Being small helps when you say what you do best
 
 A sponsor does not need you to be the largest CRO. They need to know three things: that you have run this study before, who will run theirs, and how fast you answer. Your site should say so at the top of every service page.
+
+Image: Screenshot of the top of a CRO service page. It should say that the CRO has run this study before, who will run it, and how fast the team answers.
 
 ## Questions
 
@@ -105,6 +112,8 @@ H2: Google can see only a few dozen of your models
 
 A model catalog is the most valuable thing a research model company owns. On most sites it is a search box or a PDF. Every line in it matches something a scientist is typing into a search box right now. If that line has no page of its own, Google and AI assistants have nothing to show.
 
+Image: Diagram of a model catalog shown two ways. On the left, a search box and a PDF. On the right, one page for each gene, strain or line.
+
 ## What we build
 
 H2: A page for every model, checked by a scientist
@@ -114,11 +123,16 @@ H2: A page for every model, checked by a scientist
 - **Descriptions an expert would sign.** Each one makes only careful claims and cites its sources. Kristen spent ten years selling translational research products. She reads each description the way your customers will.
 - **AI visibility.** We test whether AI assistants such as ChatGPT name you for your model types. We also check what they say about you.
 
+Image: Screenshot of a catalog page for one mouse model. The gene name in correct nomenclature, the description and its cited sources must be visible.
+
 ## Proof
 
 H2: What this has done for one mouse model company
 
 At ingenious targeting laboratory, form submissions went from 13 a month to about 64 a month in the first eight months. Clicks from Google search, not ads, rose 3.7 times. The site has thousands of model pages built from the company's own data. This is one client, and the numbers come from our own reports.
+
+Image: Chart of form submissions each month at ingenious targeting laboratory, rising from 13 to about 64 over the first eight months.
+Image: Screenshot of one model page on genetargeting.com that was built from the company's own data.
 
 Disclosure: Kristen previously worked at ingenious targeting laboratory. George reviews that account for conflicts.
 
@@ -169,6 +183,8 @@ H2: Marketing to scientists starts with the data they check
 
 Life scientists compare two or three vendors for most purchases. When they research a vendor, 64% go to vendor websites ([Biocompare, Inside the Lab](https://advertising.biocompare.com/insidethelab/)). They look for validation data, citations, and the exact application. A page with only a name, a catalog number, and a price gives them none of that.
 
+Image: Chart of one number: 64% of life scientists go to vendor websites when they research a vendor. Label the source as Biocompare, Inside the Lab.
+
 ## What we build
 
 H2: Product pages that buyers can check and AI can quote
@@ -178,6 +194,9 @@ H2: Product pages that buyers can check and AI can quote
 - **Citations kept up to date.** We link the publications that used your product on that product's page.
 - **Pages in plain text** so search engines and AI assistants can read every word.
 - **A clear way to buy or ask:** order, quote, or technical question, on every page.
+
+Image: Screenshot of an antibody product page. The target, clonality, host, applications, species reactivity, a validation image and citations must be visible.
+Image: Screenshot of an AI assistant answering a buyer who asks for an antibody by target, application and species. The supplier it cites must be visible.
 
 ## Questions
 
@@ -226,6 +245,8 @@ H2: Three people must say yes, and each asks something different
 
 The scientist asks whether it will work for their application. The lab manager asks about footprint, service, and training. Purchasing asks about price, lead time, and terms. Most instrument sites answer the first question. They leave the other two for a sales call that never gets booked.
 
+Image: Diagram of the three people who must say yes: the scientist, the lab manager and purchasing. Under each one, show the questions that person asks.
+
 ## What we build
 
 H2: A website that answers the scientist, lab manager, and purchasing
@@ -235,6 +256,10 @@ H2: A website that answers the scientist, lab manager, and purchasing
 - **Comparison pages** that say where you fit and where you do not.
 - **A quote request** that goes to the right person and gets an automatic first reply.
 - **Service and support pages,** because the lab manager decides based on those.
+
+Image: Screenshot of an instrument application page that shows what the instrument does for one workflow, with data.
+Image: Screenshot of an instrument specifications page with the specifications as text and a link to the PDF.
+Image: Screenshot of the automatic first reply a buyer receives by email after sending a quote request.
 
 ## Questions
 
@@ -280,6 +305,8 @@ H2: IVD marketing has two audiences and two sets of rules
 
 Lab directors want performance data, sample requirements, turnaround time, and how the test fits their workflow. Clinicians want to know when to order it and what the result means. If patients ever enter information on your site, HIPAA covers the forms, the hosting, and the tracking.
 
+Image: Diagram of the two audiences side by side. Lab directors: performance data, sample requirements, turnaround time, workflow. Clinicians: when to order the test and what the result means.
+
 ## What we build
 
 H2: A site for each audience, with the protections built in
@@ -289,6 +316,9 @@ H2: A site for each audience, with the protections built in
 - **Claims that match your status.** Your test may be research use only, lab developed, cleared, or approved. We state which one correctly.
 - **HIPAA forms and hosting** when patient information is involved: $1,500 setup plus $300 a month, with a signed business associate agreement.
 - **Tracking that does not leak.** We put no ad tracking code on pages where patient information can appear.
+
+Image: Screenshot of a test page. Intended use, performance, specimen requirements and turnaround time must be visible.
+Image: Screenshot of a diagnostics home page with three separate paths: laboratories, clinicians and patients.
 
 ## Questions
 
@@ -334,6 +364,8 @@ H2: A committee buys, and rules limit what you can say
 
 A surgeon, a value analysis committee, and a purchasing group each need something different. Every sentence has to stay inside your cleared indications. Most agencies learn this for the first time while working on your account.
 
+Image: Screenshot of a list of approved claims next to a page of website copy, with each sentence on the page matched to a claim on the list.
+
 ## What we build
 
 H2: A website for each stage, before and after clearance
@@ -348,6 +380,9 @@ H2: A website for each stage, before and after clearance
 - Pages for clinicians, administrators, and purchasing
 - A way to contact sales that sends each request to the right territory
 - Link: Medical device launch marketing
+
+Image: Screenshot of a device website before clearance. It shows the problem, the technology, the team and the evidence so far, and makes no claims.
+Image: Screenshot of a device website after clearance. It shows the indications, the clinical evidence and the instructions for use.
 
 ## Questions
 
@@ -396,6 +431,8 @@ H2: Get an accurate website before you pay an agency monthly
 
 Early stage biotech companies get quotes of $15,000 to $40,000 for a website. They also get quotes of $10,000 a month for marketing they are not ready to use. Most need three things. An accurate site. A way to be found by name and by science. And nothing that embarrasses the chief scientific officer.
 
+Image: Chart comparing website prices: the usual quotes of $15,000 to $40,000 next to our fixed $4,995.
+
 ## What we build
 
 H2: What an early stage biotech website needs
@@ -407,11 +444,17 @@ H2: What an early stage biotech website needs
 - **Careers and contact,** because job seekers look here first.
 - **Forward looking statements handled properly** if your company is public or about to go public.
 
+Image: Screenshot of a biotech science page that explains the science at two levels, one for the specialist and one for the investor.
+Image: Screenshot of a biotech pipeline page showing the current pipeline.
+Image: Screenshot of a team page with real biographies for the team and advisors.
+
 ## When you are ready for more
 
 H2: Add services as the company grows
 
 Add search and publishing at $1,000 a month once you have something to say every month. Add AI visibility monitoring at $500 a month once people are asking about your target or modality. Hold off on Google Ads until you have something to sell.
+
+Image: Diagram of services added in order as the company grows: the $4,995 website first, then search and publishing at $1,000 a month, then AI visibility monitoring at $500 a month, with Google Ads last.
 
 ## Questions
 

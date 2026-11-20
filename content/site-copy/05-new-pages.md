@@ -45,6 +45,10 @@ H2: One page for every capability a buyer might search for
 - **A quote request form that asks the right questions,** so your team can reply with a real price.
 - **AI visibility.** We test whether AI assistants name your company when a buyer asks about each capability. Then we fix what keeps you off the list.
 
+Image: Screenshot of a capability page for a contract manufacturer. The process, the materials, the scale, the equipment and the tolerances or specifications must be visible.
+Image: Screenshot of a quality page that lists registrations, certifications and audit history in plain words.
+Image: Screenshot of an AI assistant answering a buyer who asks who can make one formulation, molecule or component. The manufacturers it names must be visible.
+
 ## Who reads a contract manufacturer's site
 
 H2: Three people read your site, and each asks one question
@@ -52,6 +56,8 @@ H2: Three people read your site, and each asks one question
 - **The engineer or scientist asks "Can they make this?"** The capability page answers that.
 - **Supplier quality asks "Will they pass our audit?"** The quality page answers that.
 - **Sourcing asks "Can they deliver, and at what scale?"** Your capacity, your order times, and a fast reply to a quote request answer that.
+
+Image: Diagram of the three readers, each with one question and the page that answers it: the engineer or scientist and the capability page, supplier quality and the quality page, sourcing and the capacity and order times.
 
 ## Questions
 
@@ -102,6 +108,8 @@ H2: Your website lists your services but not what you know
 
 Most consulting websites have a biography, a list of services, and a contact form. That works for a client someone sent to you. It does not help the quality director who has a problem tonight and types it into a search box or an AI assistant.
 
+Image: Screenshot of an AI assistant answering a quality director who describes an audit finding and asks who can help. The firms it names must be visible.
+
 ## What we build
 
 H2: A page for each problem a client brings you
@@ -112,11 +120,16 @@ H2: A page for each problem a client brings you
 - **Articles when you want them.** We draft one article a month from a 20 minute talk with you. It costs $1,000 a month and comes with a newsletter and social posts. Link: Search and publishing
 - **AI visibility.** We test whether AI assistants name you for the problems you solve.
 
+Image: Screenshot of a problem page for one standard or submission type, with a heading written the way the client would describe the problem.
+Image: Screenshot of a page on how a consultant works. It shows what a project looks like, how long it takes and what the client gets.
+
 ## If you are a firm of one
 
 H2: A solo consultant can start with five pages
 
 A solo consultant does not need 15 pages. You need five good ones. They say who you are, the three or four problems you solve, and how to reach you. The price is the same $4,995. We hold the other pages until you need them. Hosting is $50 a month.
+
+Image: Diagram of a five page website for a solo consultant: who you are, the three or four problems you solve, and how to reach you.
 
 ## Questions
 
@@ -175,6 +188,8 @@ H2: Five signs your website is out of date
 
 Any one of these tells a careful buyer that nobody is looking after the site. Some of them tell an AI assistant the same thing.
 
+Image: Screenshot of an out of date website with the signs circled: an old copyright year, a newest news item more than a year old, and a contact form with no name, phone number or reply time.
+
 ## What carries over and what changes
 
 H2: What a redesign keeps
@@ -184,7 +199,12 @@ H2: What a redesign keeps
 - **Your brand.** You keep the same logo, colors, and fonts, unless you want them changed.
 - **Your domain name and accounts.** They stay in your name.
 
+Image: Screenshot of Google Search Console showing which pages of a website bring in visitors.
+
 What changes is the writing, the layout, the speed, and the security. We also make sure Google and AI assistants can read every word.
+
+Image: Screenshot of one page before the redesign, with its logo, colors and fonts.
+Image: Screenshot of the same page after the redesign, with the same logo, colors and fonts and new writing and layout.
 
 ## How it goes
 
@@ -194,6 +214,9 @@ H2: A redesign takes four steps and about a month
 2. **Draft.** In about ten days you get the new site as a working link.
 3. **Check.** Your team marks the changes it wants, and your expert approves the science. You get two rounds of changes.
 4. **Switch.** We move your domain name to the new site. We point every old address to its new page, so old links and Google rankings keep working. We watch the search data for the first month.
+
+Image: Diagram of the four steps on a timeline of about a month: Review, Draft, Check, Switch. Mark the working link at about ten days.
+Image: Screenshot of a list with two columns: every old page address and the new page it points to.
 
 ## Questions
 
@@ -250,6 +273,9 @@ H2: What you can build while you wait for clearance
 - **Team, evidence so far, and contact.** For partners, investors, and the first clinical sites.
 - **A sign up list.** Interested clinicians can ask to hear from you. That way you do not start from zero on launch day.
 
+Image: Screenshot of a technology page for a device that is not yet cleared. It explains how the device works and makes no claims.
+Image: Screenshot of a sign up form where a clinician asks to hear from the company at launch.
+
 ## On launch day
 
 H2: What changes on your website when clearance arrives
@@ -260,6 +286,8 @@ H2: What changes on your website when clearance arrives
 - **How to order or ask for an evaluation,** with a named contact.
 - **The announcement,** published on your own site first, so search engines and AI assistants treat you as the source.
 
+Image: Diagram of a device website before and after clearance. Mark the pages added on launch day: indications for use, clinical evidence, a page for each reader, how to order, and the announcement.
+
 ## After launch
 
 H2: Marketing after launch
@@ -269,6 +297,8 @@ You buy only what you need, one month at a time.
 - **Search and publishing, $1,000 a month.** We publish one article a month about the procedure or problem your device is for.
 - **Google Ads, $750 a month plus 10% of spend.** We run ads on searches for the exact procedure and problem. We set them up to follow the health advertising rules.
 - **AI visibility monitoring, $500 a month.** We watch what AI assistants say about your device. That includes claims you are not allowed to make.
+
+Image: Screenshot of an AI assistant describing a medical device, with one claim the company is not allowed to make circled.
 
 ## Questions
 

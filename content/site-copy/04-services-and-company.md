@@ -35,19 +35,27 @@ H2: What you get for $1,000 a month
 
 It runs month to month. You can stop with 30 days notice.
 
+Image: Screenshot of a short monthly report. It should show what we published, how it did, and what comes next.
+
 ## How we choose what to write
 
 H2: We pick the searches a small site can win
 
 A new or small site will not show up near the top for "biotech marketing" or "antibody." It can show up for a longer search. That is one that names the target, the application, the species, and the method. Fewer people type those searches. The person who does is usually ready to buy.
 
+Image: Screenshot of a Google results page for a long search that names the target, the application, the species, and the method. A small company's page should be visible near the top.
+
 We find those searches in three places. The first is your own Google Search Console data. The second is the questions your customers ask your team. The third is the questions people ask AI assistants about products and services like yours.
+
+Image: Screenshot of a Google Search Console report. It should show the list of searches that bring people to a site, with clicks beside each one.
 
 ## Who writes it
 
 H2: AI drafts, a molecular biologist checks, your expert approves
 
 AI writes the first draft from your papers, your data, and the way you describe your company. Kristen is a trained molecular biologist. She checks the scientific terms and cuts anything the evidence does not support. Then the expert on your team approves it. We publish nothing technical without that approval.
+
+Image: Screenshot of an article draft with Kristen's corrections marked on the scientific terms and one unsupported sentence crossed out.
 
 ## Questions
 
@@ -102,11 +110,16 @@ H2: What the fee covers
 
 Setup is a one time fee of $750. You pay Google directly for the ads.
 
+Image: Screenshot of a Google Ads account view. It should show the exact searches buyers typed and the list of searches told not to show the ad.
+Image: Screenshot of a monthly ads report. It should show cost per qualified inquiry, not a click count.
+
 ## How much should we spend?
 
 H2: A small Google Ads budget works with specific searches
 
 Start with $500 to $1,000 a month for the ads. That is enough to learn which searches bring in inquiries. Spending more does not create more buyers. We will tell you when extra budget has stopped bringing in more inquiries.
+
+Image: Chart of inquiries each month against monthly ad spend. The line should rise, then go flat where extra budget stops bringing in more inquiries.
 
 ## Questions
 
@@ -157,6 +170,9 @@ H2: We research the list first, then write the emails
 2. **Write about their work.** We write a short message. It refers to what they are doing and says what you can offer for it.
 3. **Send carefully.** We send a few emails at a time, from an address that email providers already trust. That keeps your emails reaching inboxes and not spam.
 4. **Hand off the replies.** Every reply goes to your team with a short note on who the person is and what they asked.
+
+Image: Screenshot of a short outreach email written to one named person at a lab. It should refer to their work and say what the sender can offer for it.
+Image: Screenshot of a reply handed to the client's team. It should show the reply with a short note on who the person is and what they asked.
 
 ## What we will not do
 
@@ -220,6 +236,9 @@ H2: What each one costs and what you get
 | Knows your science | Depends on the person | Depends on who is put on your account | A molecular biologist reads everything |
 | Best when | There is daily work | You have a launch and a budget | You need a website and a steady way for buyers to find you, at fixed prices |
 
+Image: Chart of cost for a full service life science agency beside Isovertic. Show published monthly fees of $9,500 to $16,000 next to the website at $4,995 paid once and monthly services from $50 to $1,500 each.
+Image: Screenshot of the Isovertic pricing page with every price visible.
+
 ## When we are the wrong choice
 
 H2: Three cases where you should hire someone else
@@ -279,6 +298,8 @@ H2: Connecticut life science companies from New Haven to Stamford
 
 Kristen worked in institutional operations at the Yale School of Medicine. [Add a BioCT line here once membership is confirmed.]
 
+Image: Map of Connecticut and Long Island with the Sound between them. Mark New Haven, Branford, Farmington, Hamden, Stamford, Danbury, and the Isovertic office in Bohemia, New York.
+
 ## What we hear most in Connecticut
 
 H2: Three situations we can help with
@@ -292,6 +313,8 @@ H2: Three situations we can help with
 H2: We also meet clients in New York and Boston
 
 We are based in Bohemia, New York. We can meet in person on Long Island, in New York City, and in Boston and Cambridge. Boston area agencies publish website prices of $15,000 to $200,000 ([Ladybugz](https://www.ladybugz.com/how-much-does-a-biotech-website-cost)). Ours is $4,995, and the two people you meet do the work.
+
+Image: Photo of the two people at Isovertic who meet you and do the work, together at a table with a laptop open.
 
 ## Questions
 
@@ -341,14 +364,14 @@ We could have kept the old price. We would rather you hear about the change from
 H2: Who does the work
 
 ### George Stoff, Founder and Lead Engineer
-Image: Portrait of George Stoff. Head and shoulders, natural window light, off white wall, eyes just past the lens. Photograph the real person.
+Image: Portrait photo of George Stoff, head and shoulders, plain background.
 
 George has spent more than 30 years building the software and systems that companies use to sell. He plans your site, builds it, and keeps it secure. He stays on your account.
 
 Link: More about George
 
 ### Kristen Coughlin, Chief Operating Officer
-Image: Portrait of Kristen Coughlin. Head and shoulders, natural window light, off white wall, eyes just past the lens. Photograph the real person.
+Image: Portrait photo of Kristen Coughlin, head and shoulders, plain background.
 
 Kristen is a trained molecular biologist. She spent ten years selling translational research products. Then she worked in institutional operations at the Yale School of Medicine. She reads every technical line and runs your content. She can tell what a scientist will question before they ask.
 
@@ -374,6 +397,9 @@ H2: The rules we work by
 H2: Results for one client
 
 One client, ingenious targeting laboratory, is a mouse model company. In the first eight months, its monthly form submissions went from 13 to about 64. Clicks from Google search, not ads, grew to 3.7 times what they were. This is one account, measured in our own reports.
+
+Image: Screenshot of the ingenious targeting laboratory home page (genetargeting.com) on a desktop screen.
+Image: Chart of monthly form submissions for ingenious targeting laboratory, rising from 13 to about 64 over the first eight months.
 
 "Working with George Stoff and the Isovertic team was a meaningful change. They were responsive, easy to work with, and substantially improved our online visibility and the volume of qualified inbound leads."
 Paul Sheiffele, President, ingenious targeting laboratory
@@ -437,6 +463,8 @@ H2: What happens next
 Email: sales@isovertic.com
 Phone: [site phone number]
 Office: 600 Johnson Ave, Suite D5, Bohemia, NY 11716
+
+Image: Map of the Isovertic office at 600 Johnson Ave, Suite D5, Bohemia, NY 11716, with the address marked.
 
 ## Thank you page
 
