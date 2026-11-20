@@ -91,6 +91,31 @@ H2: We start with one task
 
 We quote every job in writing at a fixed price before we start. What we build for you is yours.
 
+## More we automate
+
+H2: Forms, sign off, billing, and follow up
+
+The four jobs above are specific to life science. Most of the repeated work in a small company is more ordinary than that, and we automate it too.
+
+| Job | What it does | To build | Each month |
+|---|---|---|---|
+| **Work request and sign off board** | Your team fills in a form for each job. The right people sign off. One board shows where every job stands. It can include a link for the customer to pay. | $2,250 | $150 |
+| **Work board with customer login** | The same board, plus a login where your customers see their own jobs, sign off, and pay. | $4,500 | $150 |
+| **Billing on autopilot** | Invoices go out on their own, with deposits, milestone invoices, reminders, and follow up when a payment fails. Payments sync to your accounting software. | $2,500 | $150 |
+| **Inquiry follow up sequence** | An instant reply, up to five timed emails, scoring, routing to the right person, a booking link, and updates to your customer list. Text messages are a $500 add on. | $2,500 | $150 |
+| **Proposal and signature flow** | A proposal built from a template, sent for signature, and filed when it is signed. | $2,500 | $150 |
+| **New customer onboarding** | A new customer triggers the welcome email, the forms they need to fill in, and the tasks for your team. | $2,000 | $150 |
+| **Order and sample status updates** | Customers get an update at each step, without your team writing it. | $3,500 | $150 |
+| **Document intake** | Software reads incoming forms, orders, and PDFs and puts the details where they belong. A person checks anything it is unsure of. | $3,500 | $150 |
+| **Scheduled reports** | The same report built and sent on a schedule. | $1,500 | $150 |
+| **Meeting notes to your customer list** | Call notes and next steps filed against the right customer. | $1,500 | $150 |
+
+Three rules we keep.
+
+- **Your money goes to you.** Payments go straight into your own Stripe or QuickBooks account. We never hold your money, and no form we build asks anyone to type a card number into a plain field.
+- **Text messages need permission.** We send texts only to people who ticked a box to get them.
+- **Regulated records stay in your quality system.** These tools are for everyday business work. Batch records, test results, complaints, corrective actions, and anything else an auditor could ask for belong in your quality system, not in a form we build. Your quality lead confirms what is in scope before we start.
+
 ## What it costs
 
 H2: Automation prices

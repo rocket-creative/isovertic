@@ -102,6 +102,32 @@ export const automationGroups: BuilderGroup[] = [
       { id: "auto-content", name: "Newsletter, post, and report drafts", detail: "Software writes the first draft. A person approves it before it goes out.", once: 1500, monthly: 150 },
     ],
   },
+  {
+    title: "Work, sign off, and billing",
+    items: [
+      { id: "auto-board", name: "Work request and sign off board", detail: "Up to three forms your team fills in, two sign off steps, and one board that shows where every job stands.", once: 2250, monthly: 150, choice: "board", note: "Can include a link for the customer to pay. The money goes straight to your own account." },
+      { id: "auto-portal", name: "Work board with customer login", detail: "The same board, plus a login where your customers see their own jobs, sign off, and pay.", once: 4500, monthly: 150, choice: "board", note: "The money goes straight to your own account. We never hold it." },
+      { id: "auto-billing", name: "Billing on autopilot", detail: "Invoices go out on their own, with deposits, milestone invoices, reminders, and follow up when a payment fails. Payments sync to your accounting software.", once: 2500, monthly: 150, note: "Runs in your own Stripe or QuickBooks account." },
+      { id: "auto-proposal", name: "Proposal and signature flow", detail: "A proposal built from a template, sent for signature, and filed when it is signed.", once: 2500, monthly: 150 },
+      { id: "auto-onboarding", name: "New customer onboarding", detail: "A new customer triggers the welcome email, the forms they need to fill in, and the tasks for your team.", once: 2000, monthly: 150 },
+    ],
+  },
+  {
+    title: "Inquiries and follow up",
+    items: [
+      { id: "auto-funnel", name: "Inquiry follow up sequence", detail: "An instant reply, up to five timed emails, scoring, routing to the right person, a booking link, and updates to your customer list.", once: 2500, monthly: 150 },
+      { id: "auto-texting", name: "Text message follow up", detail: "Adds text messages to the follow up sequence, sent only to people who agreed to get them.", once: 500 },
+      { id: "auto-status", name: "Order and sample status updates", detail: "Customers get an update at each step of their order or sample, without your team writing it.", once: 3500, monthly: 150 },
+    ],
+  },
+  {
+    title: "Documents and reports",
+    items: [
+      { id: "auto-intake", name: "Document intake", detail: "Software reads incoming forms, orders, and PDFs, pulls out the details, and puts them where they belong. A person checks anything it is unsure of.", once: 3500, monthly: 150 },
+      { id: "auto-reports", name: "Scheduled reports", detail: "The same report built and sent on a schedule, from the tools you already use.", once: 1500, monthly: 150 },
+      { id: "auto-notes", name: "Meeting notes to your customer list", detail: "Call notes and next steps filed against the right customer after each meeting.", once: 1500, monthly: 150 },
+    ],
+  },
 ];
 
 export const builderCopy = {
@@ -137,7 +163,7 @@ export const builderCopy = {
   creditNote: "Buy a website within 60 days of the audit and the $2,500 counts toward it.",
   quoted: "Priced for you in writing",
   quotedItems: ["Outreach, by proposal", "Consulting by the hour, $150 an hour", "Changes beyond your plan, $125 an hour", "Security questionnaires, $125 an hour"],
-  automationQuoted: ["Other automation, quoted at a fixed price before we start"],
+  automationQuoted: ["Reorder alerts, about $1,500", "Support inbox sorting, about $2,500", "An assistant that answers from your own documents, $3,500 to $4,500", "Anything else, quoted at a fixed price before we start"],
   automationTerms: "You own what we build. Stop the monthly fee with 30 days notice.",
   automationSubject: "Isovertic automation list",
   tax: "Prices are shown before sales tax. If tax applies where you are, you see the amount before you pay.",
