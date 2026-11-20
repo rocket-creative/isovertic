@@ -413,7 +413,7 @@ textarea.field { min-height: 96px; resize: vertical; }
   .reveal.in .flow-rule { transform: scaleX(1); }
 }
 
-/* Design pass two: particle heroes, image frames, the navy close, the reel, and the scroll line. */
+/* Design pass two: image frames, the navy close, the reel, and the scroll line. */
 .tone-navy { color: var(--color-paper); }
 .tone-navy :is(p, li, h2, h3, span, a, blockquote, td, th) { color: var(--color-paper); }
 .tone-navy .eyebrow, .tone-navy .sidebar-label { color: color-mix(in oklab, var(--color-paper) 62%, transparent); }

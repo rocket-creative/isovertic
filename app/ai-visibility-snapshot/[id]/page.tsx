@@ -5,7 +5,6 @@ import { after } from "next/server";
 import { PageHero, Section } from "@/components/sections/Shell";
 import { Arrow } from "@/components/ui/Arrow";
 import { AutoRefresh } from "@/components/ui/AutoRefresh";
-import { ParticleField } from "@/components/ui/ParticleField";
 import { RevealBlock } from "@/components/ui/RevealBlock";
 import { visibility as c } from "@/content/visibility";
 import { db } from "@/lib/paperbrief-db";
@@ -33,7 +32,7 @@ function Review({ job, error }: { job: Job; error: string }) {
       eyebrow={c.review.eyebrow}
       h1={c.review.h1}
       lead={c.review.lead}
-      backdrop={<ParticleField fade />}
+     
       cta={
         <form action={runSnapshot} className="grid max-w-[760px] gap-5">
           <input type="hidden" name="id" value={job.id} />
@@ -70,7 +69,7 @@ function ReportView({ job }: { job: Job }) {
           </>
         }
         lead={report.headline ? [report.headline] : []}
-        backdrop={<ParticleField fade />}
+       
       />
       <Section label={r.byAssistant.label} deferred={false}>
         <RevealBlock>
@@ -227,7 +226,7 @@ function ReportView({ job }: { job: Job }) {
           )}
         </div>
       </Section>
-      <Section tone="navy" backdrop={<ParticleField tone="paper" />} deferred={false}>
+      <Section tone="navy" deferred={false}>
         <h2 className="font-display text-h2 font-medium">{r.next.h2}</h2>
         <p className="mt-6 max-w-[68ch] leading-relaxed">{r.next.text}</p>
         <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-4">
@@ -267,7 +266,7 @@ export default async function SnapshotPage({ params, searchParams }: { params: P
         eyebrow={c.running.eyebrow}
         h1={c.running.h1}
         lead={c.running.lead}
-        backdrop={<ParticleField fade />}
+       
         cta={
           <div className="max-w-[640px]" role="status" aria-live="polite">
             <p className="font-display text-h3 font-medium">{done ? c.running.analyzing : c.running.progress(finished, total)}</p>

@@ -3,7 +3,6 @@ import Link from "next/link";
 import { PageHero, Section } from "@/components/sections/Shell";
 import { PaperBriefGate } from "@/components/sections/PaperBriefGate";
 import { Arrow } from "@/components/ui/Arrow";
-import { ParticleField } from "@/components/ui/ParticleField";
 import { RevealBlock } from "@/components/ui/RevealBlock";
 import { paperbrief as c } from "@/content/paperbrief";
 import { configured } from "@/lib/paperbrief";
@@ -32,7 +31,7 @@ export default function PaperBriefPage() {
         eyebrow={c.hero.eyebrow}
         h1={c.hero.h1}
         lead={c.hero.lead}
-        backdrop={<ParticleField fade />}
+       
         cta={
           <>
             <Link href="#access" className="btn btn-solid">{c.hero.button} <Arrow /></Link>
@@ -73,7 +72,7 @@ export default function PaperBriefPage() {
           </div>
         </div>
       </Section>
-      <Section label={c.service.label} tone="navy" backdrop={<ParticleField tone="paper" />} deferred={false}>
+      <Section label={c.service.label} tone="navy" deferred={false}>
         <RevealBlock>
           <h2 className="font-display text-h2 font-medium">{c.service.h2}</h2>
         </RevealBlock>

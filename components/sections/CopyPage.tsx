@@ -9,7 +9,6 @@ import { copyPage, type CopyBlock, type CopyLink } from "@/lib/sitecopy";
 import { footerCols, formNotice, publishedOffers, related } from "@/content/site-nav";
 import { RevealBlock } from "@/components/ui/RevealBlock";
 import { CopyDiagram } from "@/components/sections/CopyDiagram";
-import { ParticleField } from "@/components/ui/ParticleField";
 import { CountText } from "@/components/ui/CountText";
 import { ImageSlot } from "@/components/ui/ImageSlot";
 import IsoSphere from "@/components/ui/IsoSphere";
@@ -274,7 +273,7 @@ export function CopyPageView({ path }: { path: string }) {
         eyebrow={page.eyebrow}
         h1={heroTitle(page.h1)}
         lead={page.lead}
-        backdrop={<ParticleField fade />}
+       
         aside={
           home ? (
             <div className="relative mx-auto hidden aspect-square w-full max-w-[520px] lg:block">
@@ -322,7 +321,7 @@ export function CopyPageView({ path }: { path: string }) {
           ),
         );
         const section = (
-          <Section key={s.id + i} label={navy ? undefined : sectionLabel(s.title)} tone={navy ? "navy" : i % 2 ? "bright" : "paper"} backdrop={navy ? <ParticleField tone="paper" /> : undefined} deferred={false}>
+          <Section key={s.id + i} label={navy ? undefined : sectionLabel(s.title)} tone={navy ? "navy" : i % 2 ? "bright" : "paper"} deferred={false}>
             <div id={s.id} className="scroll-mt-32 [&>*:first-child]:mt-0">
               {s.h2 && (
                 <RevealBlock>

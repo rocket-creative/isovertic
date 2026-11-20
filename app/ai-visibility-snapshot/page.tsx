@@ -3,7 +3,6 @@ import Link from "next/link";
 import { PageHero, Section } from "@/components/sections/Shell";
 import { PaperBriefGate } from "@/components/sections/PaperBriefGate";
 import { Arrow } from "@/components/ui/Arrow";
-import { ParticleField } from "@/components/ui/ParticleField";
 import { RevealBlock } from "@/components/ui/RevealBlock";
 import { visibility as c } from "@/content/visibility";
 import { db } from "@/lib/paperbrief-db";
@@ -47,7 +46,7 @@ export default async function SnapshotStart({ searchParams }: { searchParams: Pr
         eyebrow={c.hero.eyebrow}
         h1={c.hero.h1}
         lead={c.hero.lead}
-        backdrop={<ParticleField fade />}
+       
         cta={
           <>
             <Link href="#start" className="btn btn-solid">{c.hero.button} <Arrow /></Link>

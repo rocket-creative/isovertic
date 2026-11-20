@@ -4,7 +4,6 @@ import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { PageHero, Section } from "@/components/sections/Shell";
 import { Arrow } from "@/components/ui/Arrow";
-import { ParticleField } from "@/components/ui/ParticleField";
 import { paperbrief as c } from "@/content/paperbrief";
 import { ACCESS_COOKIE, WINDOWS, discoverPapers, parseNames, unseal, type Paper } from "@/lib/paperbrief";
 import { db, getWorkspace, listPapers, type SavedPaper, type Status, type Workspace } from "@/lib/paperbrief-db";
@@ -163,7 +162,7 @@ async function SearchOnly({ sp }: { sp: Params }) {
         eyebrow={d.eyebrow}
         h1={d.h1}
         lead={d.lead}
-        backdrop={<ParticleField fade />}
+       
         cta={
           <form method="get" className="grid max-w-[640px] gap-6">
             <div>
@@ -220,7 +219,7 @@ export default async function PaperBriefDesk({ searchParams }: { searchParams: P
   const sp = await searchParams;
   const client = db();
   const closing = (
-    <Section tone="navy" backdrop={<ParticleField tone="paper" />} deferred={false}>
+    <Section tone="navy" deferred={false}>
       <h2 className="font-display text-h2 font-medium">{d.next.h2}</h2>
       <p className="mt-6 max-w-[68ch] leading-relaxed">{d.next.text}</p>
       <div className="mt-8">
@@ -245,7 +244,7 @@ export default async function PaperBriefDesk({ searchParams }: { searchParams: P
   if (!workspace) {
     return (
       <>
-        <PageHero eyebrow={d.eyebrow} h1={d.h1} lead={d.lead} backdrop={<ParticleField fade />} cta={
+        <PageHero eyebrow={d.eyebrow} h1={d.h1} lead={d.lead} cta={
           <>
             {error && <p role="alert" className="mb-6 max-w-[62ch] border-l-2 border-signal pl-4 leading-relaxed">{error}</p>}
             <SettingsForm />
@@ -276,7 +275,7 @@ export default async function PaperBriefDesk({ searchParams }: { searchParams: P
         eyebrow={d.eyebrow}
         h1={workspace.company}
         lead={d.deskLead(session.n.split(" ")[0])}
-        backdrop={<ParticleField fade />}
+       
         cta={
           <>
             <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
