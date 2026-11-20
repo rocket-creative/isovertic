@@ -1,5 +1,6 @@
 import { priceDiagram, snapshotDiagram } from "@/content/site-visuals";
 import { CountText } from "@/components/ui/CountText";
+import { PriceBuilder } from "@/components/sections/PriceBuilder";
 
 // Diagrams for the rewritten pages. Server rendered; motion comes from the parent .reveal block in CSS.
 
@@ -57,5 +58,6 @@ function Price() {
 export function CopyDiagram({ name }: { name: string }) {
   if (name === "snapshot") return <Snapshot />;
   if (name === "price") return <Price />;
+  if (name === "builder") return <PriceBuilder />;
   return null;
 }
