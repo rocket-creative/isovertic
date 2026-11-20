@@ -40,21 +40,31 @@ export function PriceBuilder() {
 
   const t = useMemo(() => {
     const picked = items.filter((i) => qty[i.id]);
-    const once = picked.reduce((s, i) => s + (i.once ?? 0) * qty[i.id], 0);
-    const monthly = picked.reduce((s, i) => s + (i.monthly ?? 0) * qty[i.id], 0);
+    const onceList = picked.reduce((s, i) => s + (i.once ?? 0) * qty[i.id], 0);
+    const monthlyList = picked.reduce((s, i) => s + (i.monthly ?? 0) * qty[i.id], 0);
     const site = picked.find((i) => i.choice === "site");
-    const credit = qty.audit && site ? c.auditCredit : 0;
-    // The website is paid half to start and half at launch. The audit credit comes off the launch half.
-    const siteCost = (site?.once ?? 0) + (qty.pages ?? 0) * pagePrice;
+    // Above the cap the difference comes off, up to the largest discount. Past that the bill is list less that discount.
+    const discount = Math.min(c.maxDiscount, Math.max(0, monthlyList - c.capFrom));
+    // At the cap the standard build is free. The audit credit is for buyers below it, so the two never stack.
+    const buildCredit = site && monthlyList >= c.capFrom ? Math.min(c.freeBuildValue, site.once ?? 0) : 0;
+    const credit = !buildCredit && qty.audit && site ? c.auditCredit : 0;
+    // What is left of the website is paid half to start and half at launch. The audit credit comes off the launch half.
+    const siteCost = (site?.once ?? 0) + (qty.pages ?? 0) * pagePrice - buildCredit;
     // An odd dollar goes on the first half, so both halves are whole dollars.
     const atLaunch = Math.max(0, siteCost - Math.ceil(siteCost / 2) - credit);
+    const once = onceList - buildCredit - credit;
     return {
       picked,
-      once: once - credit,
-      monthly,
+      once,
+      monthly: monthlyList - discount,
+      monthlyList,
+      discount,
+      buildCredit,
       credit,
       atLaunch,
-      dueNow: once - credit - atLaunch,
+      dueNow: once - atLaunch,
+      site: Boolean(site),
+      gap: monthlyList > 0 && monthlyList < c.capFrom ? c.capFrom - monthlyList : 0,
       from: picked.some((i) => i.from),
     };
   }, [qty]);
@@ -66,7 +76,8 @@ export function PriceBuilder() {
       ...t.picked.map((i) => `- ${i.name}${qty[i.id] > 1 ? ` x ${qty[i.id]}` : ""}`),
       "",
       `${c.once}: ${t.from ? `${c.from} ` : ""}${usd(t.once)}`,
-      `${c.monthly}: ${usd(t.monthly)}`,
+      `${c.monthly}: ${usd(t.monthly)}${t.discount ? ` (${c.discount} ${usd(t.discount)})` : ""}`,
+      ...(t.buildCredit ? [c.freeBuild] : []),
     ].join("\n"),
   )}`;
 
@@ -140,6 +151,18 @@ export function PriceBuilder() {
                 <span className="shrink-0 tabular-nums text-ink-soft">−{usd(t.credit)}</span>
               </li>
             )}
+            {t.buildCredit > 0 && (
+              <li className="flex justify-between gap-4 border-b border-rule py-2 font-medium">
+                <span>{c.freeBuild}</span>
+                <span className="shrink-0 tabular-nums">−{usd(t.buildCredit)}</span>
+              </li>
+            )}
+            {t.discount > 0 && (
+              <li className="flex justify-between gap-4 border-b border-rule py-2 font-medium">
+                <span>{c.discount}</span>
+                <span className="shrink-0 tabular-nums">−{usd(t.discount)}{c.perMonthShort}</span>
+              </li>
+            )}
           </ul>
         )}
         <dl className="mt-6 space-y-4">
@@ -160,6 +183,14 @@ export function PriceBuilder() {
           </dl>
         )}
         {t.credit > 0 && <p className="mt-4 text-[13px] leading-relaxed text-ink-soft">{c.creditNote}</p>}
+        {t.discount > 0 && (
+          <p className="mt-4 text-[13px] leading-relaxed text-ink-soft">
+            {c.listMonthly}: {usd(t.monthlyList)}. {c.discountNote}
+          </p>
+        )}
+        {t.buildCredit > 0 && <p className="mt-4 text-[13px] leading-relaxed text-ink-soft">{c.freeBuildNote}</p>}
+        {t.gap > 0 && t.gap <= 1500 && <p className="mt-4 border-l-2 border-signal pl-3 text-[13px] leading-relaxed text-ink">{c.nearCap(usd(t.gap))}</p>}
+        {!t.site && t.monthlyList > 0 && <p className="mt-4 text-[13px] leading-relaxed text-ink-soft">{c.rebuild}</p>}
         <p className="mt-6 text-[13px] leading-relaxed text-ink-soft">{c.tax}</p>
         <p className="mt-2 text-[13px] leading-relaxed text-ink-soft">{c.terms}</p>
         {t.picked.length > 0 && (

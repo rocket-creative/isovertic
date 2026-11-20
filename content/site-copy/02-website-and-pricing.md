@@ -352,6 +352,52 @@ H2: Monthly marketing services, each priced on its own
 
 Image: Screenshot of a monthly AI visibility monitoring report. It should show whether the company shows up in the answers on each of the five AI assistants and how many times we asked, behind every number.
 
+## Consulting, video, and photos
+
+H2: Marketing consulting, video, and photography prices
+
+| Service | Price | What you get |
+|---|---|---|
+| **Consulting, monthly** | $2,000 a month | Two working calls a month, a written plan we keep up to date, and answers by email in between. |
+| **Marketing plan** | $3,500 | A written plan for the next 12 months. It covers who to reach, what to say, where to spend, and what to measure. |
+| Consulting by the hour | $150 an hour | For a single question or a second opinion. |
+| **Team headshot visit** | $750 | We come to you. Up to eight people, two retouched photos each. Each extra person is $95. |
+| **Half day photo shoot** | $1,200 | Lab, facility, and product photos. Up to four hours and 40 edited photos. |
+| **Full day photo shoot** | $2,200 | Up to eight hours and 80 edited photos. |
+| Product photos | $450 for ten | White background, cleaned up, ready for a catalog page. |
+| **Customer testimonial video** | $2,900 | Half day shoot, two cameras, one video of 60 to 120 seconds with captions, and two short clips. |
+| **Company, product, or lab tour video** | $4,500 | One shoot day, one video of 60 to 120 seconds with captions, and three short clips. |
+| Short clips | $600 for five | Clips of 15 to 45 seconds with captions, cut from a shoot. |
+| **Quarterly content plan** | $1,500 a month | One half day photo and video shoot each quarter, four clips a month, and 15 edited photos a quarter. Three month minimum. |
+
+You can use every photo and video in your own marketing for as long as you like. Travel is included within 50 miles of our office.
+
+## Automation
+
+H2: Automation prices
+
+| Service | Price | What you get |
+|---|---|---|
+| **Publication watch** | $290 a month | Up to ten products. Each month you get a list of new papers that used them, with summaries, PubMed links, and four drafted posts. Setup is $750. |
+| **Publication watch plus** | $490 a month | Up to 50 products, a weekly list, twelve drafted posts, and a citation list for your product pages. Setup is $750. |
+| **Quote and inquiry replies** | $3,500, then $150 a month | A fast first reply to every quote request, and an alert to your team. |
+| **Catalog pages from your data** | $4,500, then $150 a month | A page template and the first 250 pages built from your product data. Extra pages are $3 each. |
+| **Newsletter, post, and report drafts** | $1,500, then $150 a month | Software writes the first draft. A person approves it before it goes out. |
+| Other automation | Fixed price, quoted first | We tell you the price before we start. |
+
+You own what we build. It runs in your accounts and keeps working if you stop paying us. A scientist checks every summary and draft before you see it.
+
+## When you buy a lot
+
+H2: Spend $5,000 a month and the website is free
+
+Monthly services have no term. Two things change when your monthly services reach $5,000.
+
+- Commit to three months at $5,000 a month or more, and we build the $4,995 website free.
+- If your services add up to more than $5,000 a month, we take off the difference, up to $2,000. Your bill holds at $5,000.
+
+You can buy monthly services without buying a website from us. We strongly recommend the rebuild first, because monthly work goes further on a site that Google and AI tools can read.
+
 ## For regulated work
 
 H2: HIPAA and security add ons
