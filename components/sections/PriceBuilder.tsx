@@ -1,17 +1,19 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { builderCopy as c, builderGroups, type BuilderItem } from "@/content/price-builder";
+import { automationGroups, builderCopy as c, builderGroups, type BuilderItem } from "@/content/price-builder";
 import { site } from "@/lib/site";
 
 // Lets a buyer switch services on and off and see the one time and monthly totals as they go.
 // It only adds up published prices. Nothing is sent anywhere until the buyer emails the list.
 
 const usd = (n: number) => `$${n.toLocaleString("en-US")}`;
-const items = builderGroups.flatMap((g) => g.items);
-const pagePrice = items.find((i) => i.id === "pages")?.once ?? 0;
+const pagePrice = builderGroups.flatMap((g) => g.items).find((i) => i.id === "pages")?.once ?? 0;
 
-export function PriceBuilder() {
+export function PriceBuilder({ list = "web" }: { list?: "web" | "automation" }) {
+  const web = list === "web";
+  const groups = web ? builderGroups : automationGroups;
+  const items = useMemo(() => groups.flatMap((g) => g.items), [groups]);
   const [qty, setQty] = useState<Record<string, number>>(() =>
     Object.fromEntries(items.filter((i) => i.on).map((i) => [i.id, 1])),
   );
@@ -44,9 +46,9 @@ export function PriceBuilder() {
     const monthlyList = picked.reduce((s, i) => s + (i.monthly ?? 0) * qty[i.id], 0);
     const site = picked.find((i) => i.choice === "site");
     // Above the cap the difference comes off, up to the largest discount. Past that the bill is list less that discount.
-    const discount = Math.min(c.maxDiscount, Math.max(0, monthlyList - c.capFrom));
+    const discount = web ? Math.min(c.maxDiscount, Math.max(0, monthlyList - c.capFrom)) : 0;
     // At the cap the standard build is free. The audit credit is for buyers below it, so the two never stack.
-    const buildCredit = site && monthlyList >= c.capFrom ? Math.min(c.freeBuildValue, site.once ?? 0) : 0;
+    const buildCredit = web && site && monthlyList >= c.capFrom ? Math.min(c.freeBuildValue, site.once ?? 0) : 0;
     const credit = !buildCredit && qty.audit && site ? c.auditCredit : 0;
     // What is left of the website is paid half to start and half at launch. The audit credit comes off the launch half.
     const siteCost = (site?.once ?? 0) + (qty.pages ?? 0) * pagePrice - buildCredit;
@@ -64,12 +66,12 @@ export function PriceBuilder() {
       atLaunch,
       dueNow: once - atLaunch,
       site: Boolean(site),
-      gap: monthlyList > 0 && monthlyList < c.capFrom ? c.capFrom - monthlyList : 0,
+      gap: web && monthlyList > 0 && monthlyList < c.capFrom ? c.capFrom - monthlyList : 0,
       from: picked.some((i) => i.from),
     };
-  }, [qty]);
+  }, [qty, items, web]);
 
-  const mail = `mailto:${site.email}?subject=${encodeURIComponent(c.sendSubject)}&body=${encodeURIComponent(
+  const mail = `mailto:${site.email}?subject=${encodeURIComponent(web ? c.sendSubject : c.automationSubject)}&body=${encodeURIComponent(
     [
       c.sendIntro,
       "",
@@ -84,7 +86,7 @@ export function PriceBuilder() {
   return (
     <div className="mt-10 grid gap-10 lg:grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)]">
       <div>
-        {builderGroups.map((g) => (
+        {groups.map((g) => (
           <fieldset key={g.title} className="mb-10 border-t border-ink pt-4">
             <legend className="eyebrow float-left mb-4 w-full">{g.title}</legend>
             <ul className="clear-both">
@@ -123,7 +125,7 @@ export function PriceBuilder() {
         ))}
         <p className="eyebrow">{c.quoted}</p>
         <ul className="mt-3 text-[14px] leading-relaxed text-ink-soft">
-          {c.quotedItems.map((q) => (
+          {(web ? c.quotedItems : c.automationQuoted).map((q) => (
             <li key={q}>{q}</li>
           ))}
         </ul>
@@ -190,9 +192,9 @@ export function PriceBuilder() {
         )}
         {t.buildCredit > 0 && <p className="mt-4 text-[13px] leading-relaxed text-ink-soft">{c.freeBuildNote}</p>}
         {t.gap > 0 && t.gap <= 1500 && <p className="mt-4 border-l-2 border-signal pl-3 text-[13px] leading-relaxed text-ink">{c.nearCap(usd(t.gap))}</p>}
-        {!t.site && t.monthlyList > 0 && <p className="mt-4 text-[13px] leading-relaxed text-ink-soft">{c.rebuild}</p>}
+        {web && !t.site && t.monthlyList > 0 && <p className="mt-4 text-[13px] leading-relaxed text-ink-soft">{c.rebuild}</p>}
         <p className="mt-6 text-[13px] leading-relaxed text-ink-soft">{c.tax}</p>
-        <p className="mt-2 text-[13px] leading-relaxed text-ink-soft">{c.terms}</p>
+        <p className="mt-2 text-[13px] leading-relaxed text-ink-soft">{web ? c.terms : c.automationTerms}</p>
         {t.picked.length > 0 && (
           <a href={mail} className="btn btn-solid mt-6 w-full justify-center">{c.send}</a>
         )}

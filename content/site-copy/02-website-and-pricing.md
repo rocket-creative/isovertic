@@ -374,18 +374,11 @@ You can use every photo and video in your own marketing for as long as you like.
 
 ## Automation
 
-H2: Automation prices
+H2: Automation is a separate service
 
-| Service | Price | What you get |
-|---|---|---|
-| **Publication watch** | $290 a month | Up to ten products. Each month you get a list of new papers that used them, with summaries, PubMed links, and four drafted posts. Setup is $750. |
-| **Publication watch plus** | $490 a month | Up to 50 products, a weekly list, twelve drafted posts, and a citation list for your product pages. Setup is $750. |
-| **Quote and inquiry replies** | $3,500, then $150 a month | A fast first reply to every quote request, and an alert to your team. |
-| **Catalog pages from your data** | $4,500, then $150 a month | A page template and the first 250 pages built from your product data. Extra pages are $3 each. |
-| **Newsletter, post, and report drafts** | $1,500, then $150 a month | Software writes the first draft. A person approves it before it goes out. |
-| Other automation | Fixed price, quoted first | We tell you the price before we start. |
+Automation is the second thing we do, and it has its own prices. We keep it apart from the website and marketing prices on this page, and it does not count toward the $5,000 a month below.
 
-You own what we build. It runs in your accounts and keeps working if you stop paying us. A scientist checks every summary and draft before you see it.
+Button: See what we automate
 
 ## When you buy a lot
 

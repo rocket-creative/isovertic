@@ -83,6 +83,16 @@ export const builderGroups: BuilderGroup[] = [
     ],
   },
   {
+    title: "For regulated work",
+    items: [
+      { id: "hipaa", name: "HIPAA forms and hosting", detail: "Intake forms, hosting, and visitor tracking set up for patient health information.", once: 1500, monthly: 300 },
+    ],
+  },
+];
+
+// The second path. Automation is sold on its own page and is never added to the website and marketing total.
+export const automationGroups: BuilderGroup[] = [
+  {
     title: "Automation",
     items: [
       { id: "watch", name: "Publication watch", detail: "Up to ten products. A monthly list of new papers that used them, with summaries, PubMed links, and four drafted posts.", monthly: 290, once: 750, choice: "watch", note: "The $750 one time charge is setup. A scientist checks every summary." },
@@ -90,12 +100,6 @@ export const builderGroups: BuilderGroup[] = [
       { id: "auto-replies", name: "Quote and inquiry replies", detail: "A fast first reply to every quote request, and an alert to your team.", once: 3500, monthly: 150 },
       { id: "auto-catalog", name: "Catalog pages from your data", detail: "A page template and the first 250 pages built from your product data.", once: 4500, monthly: 150, note: "Extra pages are $3 each." },
       { id: "auto-content", name: "Newsletter, post, and report drafts", detail: "Software writes the first draft. A person approves it before it goes out.", once: 1500, monthly: 150 },
-    ],
-  },
-  {
-    title: "For regulated work",
-    items: [
-      { id: "hipaa", name: "HIPAA forms and hosting", detail: "Intake forms, hosting, and visitor tracking set up for patient health information.", once: 1500, monthly: 300 },
     ],
   },
 ];
@@ -132,7 +136,10 @@ export const builderCopy = {
   credit: "Audit credit toward the website",
   creditNote: "Buy a website within 60 days of the audit and the $2,500 counts toward it.",
   quoted: "Priced for you in writing",
-  quotedItems: ["Outreach, by proposal", "Consulting by the hour, $150 an hour", "Changes beyond your plan, $125 an hour", "Security questionnaires, $125 an hour", "Other automation, quoted at a fixed price before we start"],
+  quotedItems: ["Outreach, by proposal", "Consulting by the hour, $150 an hour", "Changes beyond your plan, $125 an hour", "Security questionnaires, $125 an hour"],
+  automationQuoted: ["Other automation, quoted at a fixed price before we start"],
+  automationTerms: "You own what we build. Stop the monthly fee with 30 days notice.",
+  automationSubject: "Isovertic automation list",
   tax: "Prices are shown before sales tax. If tax applies where you are, you see the amount before you pay.",
   terms: "No 12 month contract. Stop any monthly service with 30 days notice.",
   send: "Email this list to us",

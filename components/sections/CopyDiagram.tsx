@@ -59,5 +59,6 @@ export function CopyDiagram({ name }: { name: string }) {
   if (name === "snapshot") return <Snapshot />;
   if (name === "price") return <Price />;
   if (name === "builder") return <PriceBuilder />;
+  if (name === "automation-builder") return <PriceBuilder list="automation" />;
   return null;
 }

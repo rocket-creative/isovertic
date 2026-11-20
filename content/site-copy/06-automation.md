@@ -1,6 +1,6 @@
 # Second main landing page: AI automation
 
-Note for George and Kristen: this page comes from the November 19 call. The site now has two main landing pages. Home sells the $4,995 website with AI visibility. This page sells automation. Nothing here has a price yet, the free review is a proposed offer, and the publication watch is described as a pilot because it is one. Kristen has not checked the wording.
+Note for George and Kristen: this page comes from the November 19 call. The site now has two main landing pages. Home sells the $4,995 website with AI visibility. This page sells automation. The prices were added November 20, 2026 from market research and are proposed, the free review is a proposed offer, and the publication watch is described as a pilot because it is one. Kristen has not checked the wording.
 
 ---
 
@@ -91,6 +91,18 @@ H2: We start with one task
 
 We quote every job in writing at a fixed price before we start. What we build for you is yours.
 
+## What it costs
+
+H2: Automation prices
+
+Tick the jobs you want handed off. You see the one time price to build each one and the monthly price to keep it running.
+
+Diagram: automation-builder
+
+You own what we build. It runs in your accounts and keeps working if you stop paying us. You pay your own software costs, and we tell you what they are before we start. A scientist checks every summary and draft before you see it.
+
+Automation is priced apart from our website and marketing services. The two are not added together.
+
 ## The website comes first for most companies
 
 H2: If buyers cannot find you yet, start with the website
@@ -110,7 +122,7 @@ You decide that. What we see is that the hours go back to the work only your peo
 Where we can, we build on accounts you control. We keep passwords and access keys out of the AI tools. Before we start, we tell you in writing which services touch your data.
 
 **What does it cost?**
-It depends on the task. We quote each task at a fixed price before any work begins. Some small automations run as a monthly add on to a website we host.
+The four jobs on this page have published prices, shown above. For anything else, we quote a fixed price before any work begins.
 
 **Do you automate lab instruments or lab data systems?**
 No. We work on the sales and marketing side of the company. That covers publications, inquiries, the catalog, newsletters and posts, and reporting.
