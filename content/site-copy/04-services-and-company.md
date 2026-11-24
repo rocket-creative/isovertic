@@ -373,7 +373,7 @@ Link: More about George
 ### Kristen Coughlin, Chief Operating Officer
 Image: Portrait photo of Kristen Coughlin, head and shoulders, plain background.
 
-Kristen is a trained molecular biologist. She spent ten years selling translational research products. Then she worked in institutional operations at the Yale School of Medicine. She reads every technical line and runs your content. She can tell what a scientist will question before they ask.
+Kristen is a trained molecular biologist. She spent ten years selling translational research products. Then she worked in institutional operations at the Yale School of Medicine. She reviews the technical copy and runs your content. She can tell what a scientist will question before they ask.
 
 Link: More about Kristen
 

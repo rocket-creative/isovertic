@@ -97,6 +97,6 @@ export const llms = {
     "Location: Long Island, New York. Isovertic works with life science companies across the United States and meets clients in Connecticut, New York, and Boston.",
     "The website price is fixed at $4,995 for up to 15 pages. Monthly services run month to month. Clients can stop them with 30 days notice. There is no 12 month contract.",
     "Software runs the free AI visibility snapshot. It asks ChatGPT, Gemini, Perplexity, and Claude ten buyer questions, three times each. The report arrives within 24 hours.",
-    "AI drafts the work. Kristen checks the science on client websites. The client's own expert approves every technical claim before it is published.",
+    "AI helps build the first draft from the client's materials. Kristen reviews the technical wording, and the client's team approves the copy before anything launches.",
   ],
 } as const;

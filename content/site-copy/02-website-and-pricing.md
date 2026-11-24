@@ -36,8 +36,8 @@ H2: What the $4,995 website includes
 **Writing**
 - We write every page from your messaging, your published papers, and your data.
 - We use your field's terms the way your readers use them.
-- Kristen checks the technical wording before you see a draft.
-- Your expert approves every technical claim before the site goes live.
+- Kristen reviews the technical wording before you see a draft.
+- We don't publish technical pages until your team signs off. If a claim isn't supported by your materials, we flag it or leave it out.
 
 **Design**
 - We design in the brand you already have: your logo, colors, and fonts.
@@ -111,7 +111,7 @@ H2: Three people at your company have to say yes
 
 - **CEO or founder: "What does it cost, and what happens after launch?"** The website costs $4,995, one time. Hosting, the service that keeps the site online, starts at $50 a month. Everything else is optional and has its own price.
 - **President or COO: "How much of my team's time will this take?"** Two calls, the materials you already have, and one person to review drafts.
-- **Scientist or CSO: "Will our science be stated correctly?"** We write from your sources. Kristen checks the technical wording. Your expert approves every technical claim.
+- **Scientist or CSO: "Will our science be stated correctly?"** We write from your own messaging, publications, and data, using the terms your field uses. Kristen reviews the technical wording first, and we don't publish technical pages until your team signs off. If a claim isn't supported by your materials, we flag it or leave it out.
 
 ## Why not an AI builder?
 

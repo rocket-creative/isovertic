@@ -468,7 +468,7 @@ They need a complete website, but it can be small. Fifteen pages is enough.
 Yes. You pay for the site once. You can stop monthly services with 30 days notice and start again when you are ready.
 
 **Who writes about our science?**
-We draft from your papers and decks. Kristen checks the wording. Your scientists approve it.
+We draft from your papers and decks. Kristen reviews the technical wording, and your team signs off before anything is published.
 
 ## Call to action
 
