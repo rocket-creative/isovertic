@@ -15,7 +15,7 @@ Primary query: what is isovertic. Secondary: isovertic, ai visibility for life s
 
 ## Hero
 
-Eyebrow: AI visibility for life science
+Eyebrow: Yale Life Sciences Pitchfest · AI visibility for life science
 
 H1: Isovertic helps life science companies get found on Google and named by AI.
 
@@ -46,6 +46,16 @@ Video: /video/what-is-isovertic/il6-humanized-mouse-model.mp4 | Search: IL6 huma
 How it happened: every gene in the company's catalog has its own page, written from the company's own data. Form submissions went from 13 a month to about 64 a month in the first eight months. Clicks from Google search, not ads, rose 3.7 times. This is one client, and the numbers come from our own reports.
 
 Disclosure: Kristen previously worked at ingenious targeting laboratory. George reviews that account for conflicts.
+
+## From the lab to a company
+
+H2: Pitching today? The judges, partners, and investors will search you tonight.
+
+Most teams at Pitchfest are moving from a Yale lab toward a company, in therapeutics, medical devices, or digital health. The step after a pitch is a search. Someone types your name, your target, or your technology into Google or ChatGPT, and the answer shapes the next conversation.
+
+- **Still on grant funding?** Start with the free AI visibility snapshot. It shows what a search turns up today and costs nothing.
+- **Incorporated, or raising a seed round?** The $4,995 website gives you up to 15 pages that explain your science in plain words, checked by a molecular biologist.
+- **Already funded?** We add search, publishing, and AI visibility work so partners and buyers find you before your competitors.
 
 ## Selling or raising
 
@@ -84,7 +94,10 @@ Isovertic is an AI visibility and website company for life science. We help comp
 AI visibility is how often AI assistants name your company when someone asks about what you sell or study. The free snapshot asks four assistants ten buyer questions, three times each, and counts how often you come up.
 
 **We are still in the lab. Is it too early?**
-Not if you plan to raise money or sign a partner in the next year. Investors search your name and your technology before a meeting. The free snapshot shows what they find today.
+Not if you plan to raise money or sign a partner in the next year. Investors search your name and your technology before a meeting. While you are on grant funding, the free snapshot shows what they find today. The website makes sense once you incorporate.
+
+**Where can we find you at Pitchfest?**
+At 101 College Street on December 3, around the ePosters during the breaks, and at the BioCT Holiday Party from 5 to 7 pm. Look for George and Kristen, or book a call after the event.
 
 **What does it cost?**
 The website is $4,995 for up to 15 pages. The AI visibility snapshot is free. Automation starts with a free audit and a fixed written quote.
