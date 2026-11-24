@@ -3,12 +3,12 @@
 export const visibility = {
   path: "/ai-visibility-snapshot",
   product: "AI visibility snapshot",
-  title: "Free AI Visibility Checker: Does ChatGPT Recommend You? | Isovertic",
+  title: "Free AI Visibility Checker: Do AI Assistants Recommend You? | Isovertic",
   description:
     "A free AI visibility check for life science companies. We ask ChatGPT, Gemini, Perplexity, and Claude ten buyer questions, three times each, and show how often they recommend your company. Free, in your inbox within 24 hours.",
   hero: {
     eyebrow: "Free AI visibility snapshot",
-    h1: "Does ChatGPT recommend your company when a buyer asks?",
+    h1: "Do AI assistants recommend your company when a buyer asks?",
     lead: [
       "Your buyers ask ChatGPT, Gemini, Perplexity, and Claude which companies to buy from. This tool asks them the same questions, three times each, and counts how often your company comes up.",
       "It is free. Confirm your company email, tell us what you sell, and your report is in your inbox within 24 hours.",
@@ -28,12 +28,12 @@ export const visibility = {
   },
   honest: {
     label: "What it is",
-    h2: "Software runs the snapshot. Here is what that means.",
+    h2: "How the automated snapshot works",
     points: [
-      ["No person reads it first.", "Software does the whole snapshot, including the findings and the fixes. Treat it as a good first look, and check anything before you act on it."],
-      ["It asks through the connection each AI company offers to software.", "That is close to what a person sees in the apps, but it is not the same. The apps also use your location, your history, and their own instructions."],
-      ["Google's AI answers are not in the free snapshot.", "Google gives software no way to ask for them. They are an upgrade. One of us runs those for you and goes through the results with you on a call. You can ask for it from your report."],
-      ["Nobody can promise that AI will name you.", "AI answers change every time. The snapshot shows where you stand today, across many tries."],
+      ["Software runs the whole check.", "No person touches it first, and nobody tries to pitch you before you see your data. Software runs the queries, compares the answers to your site, and flags your top three fixes within 24 hours."],
+      ["We query through each AI company's official API.", "Consumer apps change their answers based on a user's location and chat history. Testing through the API removes that personal bias to give you a clean, repeatable baseline."],
+      ["Google's AI answers are not in the free snapshot.", "Google gives software no way to collect them automatically. One of us runs those manually and walks through the results with you on a call. Just request it from your report."],
+      ["AI answers vary, so we test multiple times.", "Nobody can guarantee an AI will name you every time. Asking each question three times across four assistants shows you where your baseline stands today."],
     ] as const,
   },
   gate: {

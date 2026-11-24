@@ -27,7 +27,7 @@ Eyebrow: For contract research organizations, research models and reagents, lab 
 H1: Life science websites that get found. One client went from 13 inquiries a month to about 64.
 
 Subhead:
-We write your website from your own science, so Google and ChatGPT can read it and your buyers can trust it. It costs $4,995 for up to 15 pages, and a free AI visibility snapshot shows you where you stand first.
+We write your website from your own science, so Google, ChatGPT, and other AI tools can read it and your buyers can trust it. It costs $4,995 for up to 15 pages, and a free AI visibility snapshot shows you where you stand first.
 
 Primary button: Get your free AI visibility snapshot
 Secondary button: See what $4,995 includes
@@ -54,7 +54,7 @@ Logo bar: life science and medtech clients only. ingenious targeting laboratory,
 
 ## The question everyone is asking
 
-H2: Does ChatGPT recommend your company when a buyer asks?
+H2: Do Google, ChatGPT, and other AI assistants recommend your company when a buyer asks?
 
 About four in ten Google searches in the US now show an AI answer above the links. A year earlier it was 15% ([TechCrunch, Similarweb data](https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/)). Two thirds of business buyers who use AI say they regularly use it to research vendors. After an AI names a vendor, 71% go to that vendor's website ([Semrush survey](https://www.semrush.com/blog/how-ai-shapes-b2b-buying/)).
 
@@ -113,7 +113,7 @@ AI now does most of the production work. That work is research, first drafts, la
 
 The two of us check those things.
 
-**Kristen Coughlin** trained as a molecular biologist. She spent ten years selling translational research products. She reads every technical line before your expert sees it.
+**Kristen Coughlin** trained as a molecular biologist. She spent ten years selling translational research products. She reviews the technical copy before your expert sees it.
 
 **George Stoff** has built software for more than 30 years. He builds your site and secures it. Nothing goes live unless he would put his name on it.
 
@@ -140,7 +140,7 @@ Link: How the build goes
 
 **Tab 3: Scientist or CSO**
 **"Will our science be stated correctly?"**
-We write from your own messaging, publications, and data. We use the terms your field uses. Kristen checks the technical wording. Nothing technical goes live until your expert approves it. If we cannot back up a claim, we leave it out.
+We write from your own messaging, publications, and data, using the terms your field uses. Kristen reviews the technical wording first, and we don't publish technical pages until your team signs off. If a claim isn't supported by your materials, we flag it or leave it out.
 Link: How we handle your science
 
 ## Can't we just build it ourselves with AI?
@@ -161,12 +161,12 @@ If your site was already built with an AI tool, we can still help. We charge $2,
 
 H2: The life science companies our marketing agency works with
 
-- **Contract research organizations.** This covers preclinical studies, bioanalysis, assays, and custom models. Link: CRO marketing
-- **Research models.** This covers mouse models, cell lines, and the catalogs behind them. Link: Research model marketing
+- **Contract research organizations.** This covers preclinical studies, bioanalysis, assays, and clinical research services. Link: CRO marketing
+- **Research models.** This covers genetically engineered mouse models, cell lines, and the catalogs behind them. Link: Research model marketing
 - **Reagents and antibodies.** You may sell thousands of products, and a buyer is searching for each one. Link: Reagent and antibody marketing
-- **Lab tools and instruments.** This covers platforms, instruments, software, and automation. Link: Lab equipment marketing
-- **Diagnostics.** This covers in vitro diagnostic tests and lab developed tests. Link: Diagnostics marketing
-- **Medical devices.** We work with companies from their first commercial launch to established product lines. Link: Medical device marketing
+- **Lab tools and instruments.** This covers analytical platforms, instruments, lab software, and automation. Link: Lab equipment marketing
+- **Diagnostics.** This covers in vitro diagnostic tests, assays, and lab developed tests. Link: Diagnostics marketing
+- **Medical devices.** We help medtech companies explain complex devices clearly, from first commercial launch to established product lines. Link: Medical device marketing
 - **Biotech.** We work with companies from the preclinical stage through commercial sales. Link: Biotech marketing
 
 ## Websites we built
@@ -214,7 +214,7 @@ AI does the production work that used to take a much larger team. George and Kri
 The price covers a fixed amount of work, which is up to 15 pages and two rounds of changes. Some jobs are bigger, such as a catalog with thousands of products, a customer login area, or online ordering. We give you a price for those before you commit.
 
 **Do you use AI to write?**
-Yes, and we say so. AI writes the draft. Kristen checks the science and the wording. Your expert approves every technical claim before we publish it.
+Yes, and we say so. AI helps build the first draft from your materials. Kristen reviews the technical wording, and your team approves the copy before anything launches.
 
 **How can two people do all of this?**
 AI now does much of the work that used to need a large agency staff. That leaves George and Kristen free for the parts where experience matters: what to say, how to say it, and checking the work. We bring in a specialist, such as a photographer or a developer, when a project needs one.
@@ -319,7 +319,7 @@ Image: Screenshot of the fix list from a full audit report, with the most import
 
 ## What we have learned moves the needle
 
-H2: What gets a company recommended by ChatGPT
+H2: What gets a company recommended by AI assistants
 
 The research on this is new, and much of it comes from people with tools to sell. This is what the evidence shows today.
 
@@ -403,7 +403,7 @@ Secondary button: See monthly pricing
 
 ## How to get recommended by ChatGPT, in plain terms
 
-H2: Four things decide whether ChatGPT recommends your company
+H2: Four things decide whether AI assistants recommend your company
 
 1. **AI can read your website.** Your pages have to arrive with all their words in place. Nothing can block the programs AI companies use to read websites.
 2. **Google ranks you.** Google's AI answers use the same list of pages and the same rankings as normal search. Good search work is still most of the job.

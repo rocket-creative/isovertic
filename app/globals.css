@@ -148,8 +148,8 @@ a, button, summary, label, [role="button"] { touch-action: manipulation; }
 .hero-price {
   display: block;
   margin: 0.06em 0 0.1em -0.04em;
-  font-size: clamp(76px, 13vw, 176px);
-  font-weight: 760;
+  font-size: clamp(52px, 8vw, 104px);
+  font-weight: 700;
   font-stretch: 125%;
   line-height: 0.95;
   letter-spacing: -0.035em;

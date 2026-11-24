@@ -18,17 +18,17 @@ Eyebrow: AI automation agency for life science
 H1: AI automation for life science companies that takes repetitive work off your scientists
 
 Subhead:
-Someone on your team checks for new publications that cite your products. Someone else answers the same quote request for the fortieth time, or copies catalog data into web pages. We build software and AI that do that work. Where a wrong answer would cost you, a person still checks it.
+Maybe someone on your team tracks new publications that cite your products by hand. Maybe someone answers the same quote request for the fortieth time, or copies catalog data into web pages. We build software and AI that do that work. Where a wrong answer would cost you, a person still checks it.
 
 Primary button: Tell us the task you would hand off
 
-Trust line: Free in person audit · Fixed quote first · A scientist checks the output · You own what we build
+Trust line: Free workflow review · Fixed quote first · A reviewer checks what matters · You own what we build
 
 ## The problem
 
 H2: Small teams spend their experts' hours on repetitive work
 
-A 20 person company has the same duties as a 2,000 person company, with far fewer people. It still has to answer every inquiry and keep the catalog and the publications page up to date. It has to send the newsletter and report the numbers too.
+We see the same pattern in many growing life science companies. Inquiries need answers, product and publication pages need updates, and someone has to send the newsletter and report the numbers. A 20 person company often carries many of the same duties as a 2,000 person company, with far fewer people.
 
 The work goes to whoever can do it. Often that is a scientist or the person who runs the company. Those hours are taken from the work only they can do.
 
@@ -46,7 +46,7 @@ Image: Screenshot of a publication watch result. It should show the citation, th
 Link: Try PaperBrief free
 
 ### Quote and inquiry replies
-A request comes in through your form. The right reply goes out in minutes, with the right pricing and next step. Your team gets a message that an inquiry is waiting. Your people take over the conversation where it needs a person's judgment.
+A request comes in through your form. A first reply goes out in minutes with the next step. Where your pricing is standard, it can include the price. For custom work, it asks the questions your team needs to quote. Your team gets a message that an inquiry is waiting. Your people take over the conversation where it needs a person's judgment.
 
 Image: Screenshot of a reply to a quote request, sent minutes after the form came in. Show it beside the message telling the team that an inquiry is waiting.
 
@@ -78,7 +78,7 @@ AI does the repetitive work fast. It is sometimes wrong, and it sounds just as s
 
 Image: Screenshot of the record of what ran. Each line should show what ran, what it made, the link to its source, and who approved it.
 
-Kristen Coughlin trained as a molecular biologist. She reads the scientific output before it reaches you. George Stoff has built software for more than 30 years. He builds the system and keeps it secure.
+Kristen Coughlin trained as a molecular biologist. She reviews the scientific drafts before they reach you. George Stoff has built software for more than 30 years. He builds the system and sets it up securely.
 
 ## How it goes
 
@@ -116,17 +116,17 @@ Three rules we keep.
 - **Text messages need permission.** We send texts only to people who ticked a box to get them.
 - **Regulated records stay in your quality system.** These tools are for everyday business work. Batch records, test results, complaints, corrective actions, and anything else an auditor could ask for belong in your quality system, not in a form we build. Your quality lead confirms what is in scope before we start.
 
-## Free in person audit
+## Free workflow review
 
-H2: If your work does not fit a list, we come to you for free
+H2: If your work does not fit a list, we scope it with you first
 
-Some work is too particular to price from a list. For that, we visit you in person. The visit is free.
+Some work is too particular to price from a menu. We start with a short call to look at the task. If it makes sense to map it out in detail, we do a free workflow review, on video, or in person if you are in Connecticut or on Long Island.
 
-1. We spend a few hours with the people who do the work and watch how it is done now.
+1. We spend an hour or two with the people who do the work and walk through how it is done now.
 2. We write down each step, who does it, and where the time goes.
 3. You get a short written report. It says what we would automate first, what a person still has to check, and a fixed price for each piece.
 
-You can take the report and do nothing with it. We visit in Connecticut, New York, and Boston. If you are somewhere else, ask us.
+You can take the report and do nothing with it.
 
 Button: Tell us the task you would hand off
 
@@ -138,7 +138,7 @@ Tick the jobs you want handed off. You see the one time price to build each one 
 
 Diagram: automation-builder
 
-You own what we build. It runs in your accounts and keeps working if you stop paying us. You pay your own software costs, and we tell you what they are before we start. A scientist checks every summary and draft before you see it.
+You own what we build. It runs in your accounts and keeps working if you stop paying us. You pay your own software costs, and we tell you what they are before we start. A reviewer checks the outputs that matter before anything is published, and nothing goes out without your team's approval.
 
 Automation is priced apart from our website and marketing services. The two are not added together.
 
