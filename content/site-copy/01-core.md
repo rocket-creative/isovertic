@@ -36,6 +36,8 @@ Trust line: Fixed price · Up to 15 pages · Checked by a scientist · Month to 
 
 ## Proof (directly under hero)
 
+Image: /images/people/b01-home-hero.jpg | A life science founder at a laptop, pleased to see a new inquiry come in.
+
 "We have worked with several independent marketers and digital marketing firms over the years, with mixed results. Working with George Stoff and the Isovertic team was a meaningful change. They were responsive, easy to work with, and substantially improved our online visibility and the volume of qualified inbound leads."
 
 Paul Sheiffele, President, ingenious targeting laboratory

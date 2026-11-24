@@ -291,6 +291,8 @@ The website is one fixed price. Everything after that has its own price and is b
 
 ## Build your price
 
+Image: /images/people/b16-pricing.jpg | A founder in a small office reviewing a simple price sheet.
+
 H2: Add and remove services to see your price
 
 Tick what you want and take off what you do not. The totals update as you go, and nothing is added that you did not choose.

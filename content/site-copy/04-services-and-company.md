@@ -25,6 +25,8 @@ Secondary button: See what is included
 
 ## What you get each month
 
+Image: /images/people/b11-seo.jpg | A scientist reading an article on a laptop, coffee in hand.
+
 H2: What you get for $1,000 a month
 
 - **One article** on your site. It answers a question your buyers type into Google.
@@ -100,6 +102,8 @@ Secondary button: See every price
 
 ## What you get
 
+Image: /images/people/b12-google-ads.jpg | A purchasing lead at a desk filling in a quote request.
+
 H2: What the fee covers
 
 - **Ads built on the exact words buyers type.** We also tell Google which searches should not show your ad. That way you do not pay for clicks from students and job seekers.
@@ -163,6 +167,8 @@ Primary button: Talk to us about outreach
 Secondary button: Get a free AI visibility snapshot
 
 ## How it works
+
+Image: /images/people/b13-lead-gen.jpg | A lab lead reading an email on a phone between experiments.
 
 H2: We research the list first, then write the emails
 

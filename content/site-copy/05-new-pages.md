@@ -29,6 +29,8 @@ Secondary button: See the $4,995 website
 
 ## The problem
 
+Image: /images/people/b09-cdmo.jpg | An engineer on a manufacturing floor with a tablet.
+
 H2: You added capacity, but your website shows the old plant
 
 Contract manufacturers grow by adding equipment, suites, and certifications. The website is often a year or two behind. A sponsor or an OEM engineer visits it and sees a smaller company than the one you have built. Then they move on to the next company.
@@ -104,6 +106,8 @@ Secondary button: See the $4,995 website
 
 ## The problem
 
+Image: /images/people/b10-consulting.jpg | A consultant on a video call with a client.
+
 H2: Your website lists your services but not what you know
 
 Most consulting websites have a biography, a list of services, and a contact form. That works for a client someone sent to you. It does not help the quality director who has a problem tonight and types it into a search box or an AI assistant.
@@ -177,6 +181,8 @@ Secondary button: Get a free AI visibility snapshot first
 Trust line: One price · Up to 15 pages · You keep your place on Google · You own everything
 
 ## Signs it is time
+
+Image: /images/people/b14-redesign.jpg | Two colleagues comparing an old and a new website side by side.
 
 H2: Five signs your website is out of date
 
@@ -265,6 +271,8 @@ Primary button: Get your free AI visibility snapshot
 Secondary button: See the $4,995 website
 
 ## Before clearance
+
+Image: /images/people/b15-device-launch.jpg | A team watching a launch announcement go live.
 
 H2: What you can build while you wait for clearance
 

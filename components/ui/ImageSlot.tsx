@@ -1,3 +1,5 @@
+import fs from "fs";
+import path from "path";
 import { imageSlot } from "@/content/site-visuals";
 import { RevealBlock } from "@/components/ui/RevealBlock";
 
@@ -11,6 +13,8 @@ const RATIO = {
 
 export function ImageSlot({ brief, src, ratio = "wide", className = "" }: { brief: string; src?: string; ratio?: keyof typeof RATIO; className?: string }) {
   if (src) {
+    // A finished picture that has not been added to public/ yet renders nothing, so the page never shows a broken image.
+    if (src.startsWith("/") && !fs.existsSync(path.join(process.cwd(), "public", src))) return null;
     return (
       <RevealBlock className={className}>
         <figure>

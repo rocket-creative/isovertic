@@ -37,6 +37,8 @@ Secondary button: See the $4,995 website
 
 ## The problem
 
+Image: /images/people/b02-cro.jpg | A study director at a desk reviewing a sponsor request.
+
 H2: Most CROs rely on referrals, and that is a risk
 
 A referral is the best inquiry you will ever get. But you cannot make more referrals when you need them. When your contact at a sponsor changes jobs, or a program ends, new requests stop coming.
@@ -107,6 +109,8 @@ Primary button: Get your free AI visibility snapshot
 Secondary button: See catalog site pricing
 
 ## The problem
+
+Image: /images/people/b03-research-models.jpg | A scientist at a laptop choosing a mouse model.
 
 H2: Google can see only a few dozen of your models
 
@@ -180,6 +184,8 @@ Secondary button: See catalog site pricing
 
 ## The problem
 
+Image: /images/people/b04-reagents.jpg | A bench scientist checking an antibody datasheet on a tablet.
+
 H2: Marketing to scientists starts with the data they check
 
 Life scientists compare two or three vendors for most purchases. When they research a vendor, 64% go to vendor websites ([Biocompare, Inside the Lab](https://advertising.biocompare.com/insidethelab/)). They look for validation data, citations, and the exact application. A page with only a name, a catalog number, and a price gives them none of that.
@@ -242,6 +248,8 @@ Secondary button: See the $4,995 website
 
 ## The problem
 
+Image: /images/people/b05-lab-equipment.jpg | A lab manager beside an instrument, looking at a quote on a laptop.
+
 H2: Three people must say yes, and each asks something different
 
 The scientist asks whether it will work for their application. The lab manager asks about footprint, service, and training. Purchasing asks about price, lead time, and terms. Most instrument sites answer the first question. They leave the other two for a sales call that never gets booked.
@@ -302,6 +310,8 @@ Secondary button: See HIPAA forms and hosting
 
 ## The problem
 
+Image: /images/people/b06-diagnostics.jpg | A lab director in a clinical lab reviewing results on screen.
+
 H2: IVD marketing has two audiences and two sets of rules
 
 Lab directors want performance data, sample requirements, turnaround time, and how the test fits their workflow. Clinicians want to know when to order it and what the result means. If patients ever enter information on your site, HIPAA covers the forms, the hosting, and the tracking.
@@ -360,6 +370,8 @@ Primary button: Get your free AI visibility snapshot
 Secondary button: See the $4,995 website
 
 ## The problem
+
+Image: /images/people/b07-medical-device.jpg | A clinician and a colleague looking at a medical device together.
 
 H2: A committee buys, and rules limit what you can say
 
@@ -427,6 +439,8 @@ Primary button: Start your website
 Secondary button: Get a free AI visibility snapshot
 
 ## The problem
+
+Image: /images/people/b08-biotech.jpg | A small biotech team around a laptop, celebrating good news.
 
 H2: Get an accurate website before you pay an agency monthly
 
