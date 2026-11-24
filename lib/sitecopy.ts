@@ -24,7 +24,7 @@ export type CopyBlock =
   | { type: "choice" | "fields"; items: string[] }
   | { type: "diagram"; name: string }
   | { type: "image"; brief: string }
-  | { type: "video"; src: string; caption: string }
+  | { type: "video"; src: string; srcVertical?: string; caption: string }
   | { type: "cards"; items: { kicker?: string; title: string; blocks: CopyBlock[] }[] }
   | { type: "linkcards"; items: { title: string; text: string; link: CopyLink }[] };
 export type CopySection = { id: string; title: string; h2?: string; blocks: CopyBlock[]; faqs?: { q: string; a: string }[] };
@@ -183,8 +183,10 @@ function build(): CopyPage[] {
         if ((v = directive(line, "Diagram")) !== null) { flushPara(); blocks.push({ type: "diagram", name: v }); continue; }
         if ((v = directive(line, "Video")) !== null) {
           flushPara();
-          const [src, ...rest] = v.split("|");
-          blocks.push({ type: "video", src: src.trim(), caption: stripNotes(rest.join("|")) });
+          // "Video: /wide.mp4 /tall.mp4 | caption". The second file, when given, plays on narrow screens.
+          const [srcs, ...rest] = v.split("|");
+          const [src, srcVertical] = srcs.trim().split(/\s+/);
+          blocks.push({ type: "video", src, srcVertical, caption: stripNotes(rest.join("|")) });
           continue;
         }
         if ((v = directive(line, "Image")) !== null) { flushPara(); blocks.push({ type: "image", brief: v }); continue; }

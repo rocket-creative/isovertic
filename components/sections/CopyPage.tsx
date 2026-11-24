@@ -120,7 +120,7 @@ function Block({ b }: { b: CopyBlock }) {
     case "image":
       return <ImageSlot brief={b.brief} ratio={/^portrait/i.test(b.brief) ? "portrait" : "standard"} className="mt-8 max-w-[720px]" />;
     case "video":
-      return <VideoSlot src={b.src} caption={b.caption} className="mt-8 max-w-[820px]" />;
+      return <VideoSlot src={b.src} srcVertical={b.srcVertical} caption={b.caption} className="mt-8 max-w-[820px]" />;
     case "cards":
       return (
         <div className={`mt-12 grid gap-x-10 gap-y-12 ${b.items.length === 2 ? "md:grid-cols-2" : "md:grid-cols-3"}`}>
@@ -307,7 +307,7 @@ export function CopyPageView({ path }: { path: string }) {
           run > 1 ? (
             <div key={bi} className={`mt-10 grid gap-6 sm:grid-cols-2 ${run >= 4 ? "lg:grid-cols-4" : run === 3 ? "lg:grid-cols-3" : ""}`}>
               {s.blocks.slice(bi, bi + run).map((x, xi) =>
-                x.type === "image" ? <ImageSlot key={xi} brief={x.brief} ratio={/^portrait/i.test(x.brief) ? "portrait" : "standard"} /> : x.type === "video" ? <VideoSlot key={xi} src={x.src} caption={x.caption} /> : null,
+                x.type === "image" ? <ImageSlot key={xi} brief={x.brief} ratio={/^portrait/i.test(x.brief) ? "portrait" : "standard"} /> : x.type === "video" ? <VideoSlot key={xi} src={x.src} srcVertical={x.srcVertical} caption={x.caption} /> : null,
               )}
             </div>
           ) : isForm && b.type === "buttons" ? (

@@ -2,7 +2,7 @@
 
 Draft, November 24, 2026. The "What is ISOVERTIC?" cards carry a QR code to https://isovertic.com/what-is-isovertic. First use: Yale Life Sciences Pitchfest. The page is open in middleware so a scan works without a nav link.
 
-Videos go in public/video/what-is-isovertic/. Until a file is there, its slot shows the caption as a brief. Kristen's three search recordings are in her Drive (email of November 23, 2026). George's 70 second video is not recorded yet.
+Videos go in public/video/what-is-isovertic/. Until a file is there, its slot shows the caption as a brief. The 90 second proof video is cut from Kristen's three search recordings (email of November 23, 2026); the render script lives outside the repo. George's 70 second video is not recorded yet.
 
 ---
 
@@ -37,11 +37,9 @@ Video: /video/what-is-isovertic/george-70-seconds.mp4 | George Stoff, cofounder,
 
 H2: Search a gene. See who comes up.
 
-Kristen Coughlin, our cofounder and a trained molecular biologist, recorded three searches a scientist might run when looking for a mouse model. Each time, ingenious targeting laboratory, a mouse model company we work with, comes up in the AI answer and at the top of Google's regular results. It pays for no ads on these searches, and it ranks beside much larger suppliers such as The Jackson Laboratory. [George: confirm each recording shows the AI answer, the top organic spot, no ITL ads, and JAX on the page before this goes live.]
+Kristen Coughlin, our cofounder and a trained molecular biologist, recorded three searches a scientist might run when looking for a mouse model. For CTLA4 humanized mice, ingenious targeting laboratory is the first free result, right under the ads. For IL6 conditional knockout mice, it ranks above The Jackson Laboratory, and Google's AI lists it first among commercial suppliers. For IL6 humanized mice, Google's AI names it beside The Jackson Laboratory and Taconic. It paid for no ads on any of these searches.
 
-Video: /video/what-is-isovertic/ctla4-humanized-mouse-model.mp4 | Search: CTLA4 humanized mouse model.
-Video: /video/what-is-isovertic/il6-conditional-knockout-mouse.mp4 | Search: IL6 conditional mouse knockout.
-Video: /video/what-is-isovertic/il6-humanized-mouse-model.mp4 | Search: IL6 humanized mouse model.
+Video: /video/what-is-isovertic/proof-h.mp4 /video/what-is-isovertic/proof-v.mp4 | Three real searches recorded in November 2026, and how ingenious targeting laboratory shows up on Google and in Google's AI answers. 90 seconds.
 
 How it happened: every gene in the company's catalog has its own page, written from the company's own data. Form submissions went from 13 a month to about 64 a month in the first eight months. Clicks from Google search, not ads, rose 3.7 times. This is one client, and the numbers come from our own reports.
 
