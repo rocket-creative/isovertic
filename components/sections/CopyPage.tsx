@@ -11,6 +11,7 @@ import { RevealBlock } from "@/components/ui/RevealBlock";
 import { CopyDiagram } from "@/components/sections/CopyDiagram";
 import { CountText } from "@/components/ui/CountText";
 import { ImageSlot } from "@/components/ui/ImageSlot";
+import { VideoSlot } from "@/components/ui/VideoSlot";
 import IsoSphere from "@/components/ui/IsoSphere";
 
 // Renders one page from content/site-copy. All copy comes from the markdown; nothing is written here.
@@ -118,6 +119,8 @@ function Block({ b }: { b: CopyBlock }) {
       return <CopyDiagram name={b.name} />;
     case "image":
       return <ImageSlot brief={b.brief} ratio={/^portrait/i.test(b.brief) ? "portrait" : "standard"} className="mt-8 max-w-[720px]" />;
+    case "video":
+      return <VideoSlot src={b.src} caption={b.caption} className="mt-8 max-w-[820px]" />;
     case "cards":
       return (
         <div className={`mt-12 grid gap-x-10 gap-y-12 ${b.items.length === 2 ? "md:grid-cols-2" : "md:grid-cols-3"}`}>
@@ -296,14 +299,15 @@ export function CopyPageView({ path }: { path: string }) {
         const rows: { b: (typeof s.blocks)[number]; bi: number; run: number }[] = [];
         s.blocks.forEach((b, bi) => {
           const prev = rows[rows.length - 1];
-          if (b.type === "image" && prev?.b.type === "image" && prev.bi + prev.run === bi) prev.run += 1;
+          const media = (t: string) => t === "image" || t === "video";
+          if (media(b.type) && prev && media(prev.b.type) && prev.bi + prev.run === bi) prev.run += 1;
           else rows.push({ b, bi, run: 1 });
         });
         const body = rows.map(({ b, bi, run }) =>
           run > 1 ? (
             <div key={bi} className={`mt-10 grid gap-6 sm:grid-cols-2 ${run >= 4 ? "lg:grid-cols-4" : run === 3 ? "lg:grid-cols-3" : ""}`}>
               {s.blocks.slice(bi, bi + run).map((x, xi) =>
-                x.type === "image" ? <ImageSlot key={xi} brief={x.brief} ratio={/^portrait/i.test(x.brief) ? "portrait" : "standard"} /> : null,
+                x.type === "image" ? <ImageSlot key={xi} brief={x.brief} ratio={/^portrait/i.test(x.brief) ? "portrait" : "standard"} /> : x.type === "video" ? <VideoSlot key={xi} src={x.src} caption={x.caption} /> : null,
               )}
             </div>
           ) : isForm && b.type === "buttons" ? (

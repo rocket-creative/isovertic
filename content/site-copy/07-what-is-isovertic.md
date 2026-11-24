@@ -1,0 +1,98 @@
+# Conference landing page: What is Isovertic?
+
+Draft, November 24, 2026. The "What is ISOVERTIC?" cards carry a QR code to https://isovertic.com/what-is-isovertic. First use: Yale Life Sciences Pitchfest. The page is open in middleware so a scan works without a nav link.
+
+Videos go in public/video/what-is-isovertic/. Until a file is there, its slot shows the caption as a brief. Kristen's three search recordings are in her Drive (email of November 23, 2026). George's 70 second video is not recorded yet.
+
+---
+
+# WHAT IS ISOVERTIC?
+
+URL: /what-is-isovertic
+Title tag: What Is Isovertic? AI Visibility for Life Science Companies | Isovertic
+Meta description: Isovertic helps life science companies get found on Google and named by AI assistants. See three real gene searches, then get a free AI visibility snapshot.
+Primary query: what is isovertic. Secondary: isovertic, ai visibility for life science, life science ai visibility agency.
+
+## Hero
+
+Eyebrow: AI visibility for life science
+
+H1: Isovertic helps life science companies get found on Google and named by AI.
+
+Subhead:
+Whether you are selling a product or raising your next round, the people you need search before they meet you. Buyers, investors, and partners ask Google and ChatGPT about your field first. We write your science into pages they can find and trust, and we test whether AI assistants name you.
+
+Primary button: Get your free AI visibility snapshot
+Secondary button: See the $4,995 website
+
+Trust line: Founded by George Stoff and Kristen Coughlin · Websites from $4,995 · Free AI visibility snapshot
+
+## The 70 second answer
+
+H2: George explains Isovertic in 70 seconds
+
+Video: /video/what-is-isovertic/george-70-seconds.mp4 | George Stoff, cofounder, on what Isovertic is, who it is for, and how it helps life science companies get found.
+
+## Proof
+
+H2: Search a gene. See who comes up.
+
+Kristen Coughlin, our cofounder and a trained molecular biologist, recorded three searches a scientist might run when looking for a mouse model. Each time, ingenious targeting laboratory, a mouse model company we work with, comes up in the AI answer and at the top of Google's regular results. It pays for no ads on these searches, and it ranks beside much larger suppliers such as The Jackson Laboratory. [George: confirm each recording shows the AI answer, the top organic spot, no ITL ads, and JAX on the page before this goes live.]
+
+Video: /video/what-is-isovertic/ctla4-humanized-mouse-model.mp4 | Search: CTLA4 humanized mouse model.
+Video: /video/what-is-isovertic/il6-conditional-knockout-mouse.mp4 | Search: IL6 conditional mouse knockout.
+Video: /video/what-is-isovertic/il6-humanized-mouse-model.mp4 | Search: IL6 humanized mouse model.
+
+How it happened: every gene in the company's catalog has its own page, written from the company's own data. Form submissions went from 13 a month to about 64 a month in the first eight months. Clicks from Google search, not ads, rose 3.7 times. This is one client, and the numbers come from our own reports.
+
+Disclosure: Kristen previously worked at ingenious targeting laboratory. George reviews that account for conflicts.
+
+## Selling or raising
+
+H2: Selling a product or raising a round, the first meeting starts with a search
+
+**Selling a product**
+A scientist searches for the gene, the assay, or the device they need, not for your company name. We give each thing you sell its own page, so the search ends with you.
+Link: See the $4,995 website
+
+**Raising a round**
+Investors and pharma partners look you up before they take the meeting. A site that explains your science in plain words, and that AI assistants describe correctly, makes your company easier to say yes to.
+Link: Get the free snapshot
+
+## What we do
+
+H2: Three ways we help life science companies
+
+- **AI visibility.** We ask ChatGPT, Gemini, Perplexity, and Claude the questions your buyers ask, and we show how often they name you. The snapshot is free. Link: Get the free snapshot
+- **A website written from your science.** Up to 15 pages for $4,995, checked by a molecular biologist. Most sites go live three to four weeks after the first call. Link: See what $4,995 includes
+- **AI automation.** We build software that takes repetitive work off your team, such as tracking publications and answering quote requests. A scientist checks the output. Link: What we automate
+
+## How we write
+
+H2: We tell your science as a story a busy reader can follow
+
+Buyers, investors, and AI assistants reward the same kind of page. It says why the work matters, then how it works, then what you offer. Most life science sites start with the what and lose the reader by the second paragraph.
+
+Kristen spent ten years selling translational research products. George has 30 years of building experience and built the catalog site behind the gene searches above. Together we turn dense research into pages that a scientist respects and a generalist can follow.
+
+## Questions
+
+**What is Isovertic?**
+Isovertic is an AI visibility and website company for life science. We help companies get found on Google and named by AI assistants such as ChatGPT. George Stoff and Kristen Coughlin founded it.
+
+**What is AI visibility?**
+AI visibility is how often AI assistants name your company when someone asks about what you sell or study. The free snapshot asks four assistants ten buyer questions, three times each, and counts how often you come up.
+
+**We are still in the lab. Is it too early?**
+Not if you plan to raise money or sign a partner in the next year. Investors search your name and your technology before a meeting. The free snapshot shows what they find today.
+
+**What does it cost?**
+The website is $4,995 for up to 15 pages. The AI visibility snapshot is free. Automation starts with a free audit and a fixed written quote.
+
+## Call to action
+
+H2: Ask an AI assistant about your company tonight
+
+Then let us show you what it got right and what it missed.
+
+Buttons: Get the free snapshot · Talk to George and Kristen

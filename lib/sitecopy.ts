@@ -24,6 +24,7 @@ export type CopyBlock =
   | { type: "choice" | "fields"; items: string[] }
   | { type: "diagram"; name: string }
   | { type: "image"; brief: string }
+  | { type: "video"; src: string; caption: string }
   | { type: "cards"; items: { kicker?: string; title: string; blocks: CopyBlock[] }[] }
   | { type: "linkcards"; items: { title: string; text: string; link: CopyLink }[] };
 export type CopySection = { id: string; title: string; h2?: string; blocks: CopyBlock[]; faqs?: { q: string; a: string }[] };
@@ -180,6 +181,12 @@ function build(): CopyPage[] {
         if ((v = directive(line, "Closing line")) !== null) { flushPara(); blocks.push({ type: "closing", text: v }); continue; }
         if (directive(line, "Stat row") !== null) { flushPara(); pending = "stats"; continue; }
         if ((v = directive(line, "Diagram")) !== null) { flushPara(); blocks.push({ type: "diagram", name: v }); continue; }
+        if ((v = directive(line, "Video")) !== null) {
+          flushPara();
+          const [src, ...rest] = v.split("|");
+          blocks.push({ type: "video", src: src.trim(), caption: stripNotes(rest.join("|")) });
+          continue;
+        }
         if ((v = directive(line, "Image")) !== null) { flushPara(); blocks.push({ type: "image", brief: v }); continue; }
         if (/^Choice \(.*\):$/i.test(line)) { flushPara(); pending = "choice"; continue; }
         if (/^Fields:$/i.test(line)) { flushPara(); pending = "fields"; continue; }

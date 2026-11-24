@@ -6,6 +6,8 @@ import { footerCols, primaryNav } from "@/content/site-nav";
 const reviewPaths = new Set<string>([
   "/",
   "/review-status",
+  // Printed on the conference cards as a QR code, so it is open without a nav link.
+  "/what-is-isovertic",
   ...primaryNav.map((l) => l.href),
   ...footerCols.flatMap((c) => c.items.map(([, href]) => href)),
 ]);
