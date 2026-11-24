@@ -41,8 +41,6 @@ Kristen Coughlin, our cofounder and a trained molecular biologist, recorded thre
 
 Video: /video/what-is-isovertic/proof-h.mp4 /video/what-is-isovertic/proof-v.mp4 | Three real searches recorded in November 2026, and how ingenious targeting laboratory shows up on Google and in Google's AI answers. 90 seconds.
 
-What happened because of these efforts: Form submissions went from 13 a month to about 64 a month in the first eight months. Clicks from Google search, not ads, rose 3.7 times. This is one client, and the numbers come from our own reports.
-
 Disclosure: Kristen previously worked at ingenious targeting laboratory. George reviews that account for conflicts.
 
 ## From the lab to a company

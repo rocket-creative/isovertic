@@ -143,11 +143,11 @@ Changes beyond your plan cost $125 an hour. We bill in half hour steps. You can 
 
 H2: Results from one site built this way
 
-Our example is ingenious targeting laboratory, a mouse model company. Forms sent through the site went from 13 a month to about 64 a month in the first eight months. Clicks from Google search, not ads, rose 3.7 times, measured in Google Search Console. This is one client, and we did the measuring ourselves. Your result depends on your field and what you offer.
+Our example is ingenious targeting laboratory, a mouse model company. In searches we recorded in November 2026, ingenious targeting laboratory is the first free result on Google for CTLA4 humanized mouse models, right under the ads. When a scientist asks Google's AI where to buy an IL6 conditional knockout mouse, it lists ingenious first among commercial suppliers. ingenious paid for no ads on these searches. Your result depends on your field and what you offer.
 
 Image: Screenshot of the ingenious targeting laboratory home page (genetargeting.com) on a desktop screen.
-Image: Chart of forms sent through the ingenious targeting laboratory site each month, rising from 13 to about 64 over the first eight months.
-Image: Screenshot of the Google Search Console clicks graph for ingenious targeting laboratory over the same eight months, showing clicks from Google search rising 3.7 times.
+Image: /images/proof/ctla4-google-first-free-result.jpg | Google results for CTLA4 humanized mouse model, recorded November 2026. ingenious targeting laboratory is the first free result, right under the ads.
+Image: /images/proof/il6-knockout-google-ai-listed-first.jpg | Google AI Mode answering where to buy an IL6 conditional knockout mouse, recorded November 2026. ingenious targeting laboratory is listed first under commercial suppliers.
 
 ## Questions
 
@@ -211,7 +211,7 @@ These prices come from the agencies' own pages or from articles that compare age
 | Specialist agencies with fixed prices | About $5,000 for one to three pages. $6,000 and up for a small site |
 | Isovertic | $4,995 for up to 15 pages |
 
-Image: Chart of the published prices in the table as horizontal bars on one scale, from Isovertic at $4,995 to a full redesign at $90,000 to $200,000 and up.
+Image: /images/figures/website-price-published.svg | Published life science website prices as horizontal bars, from Isovertic at $4,995 to a full redesign at $90,000 to $200,000.
 
 Note for George and Kristen: confirm each figure on the day this publishes and date the table.
 
@@ -231,7 +231,7 @@ H2: Why the same website costs less than two years ago
 
 Design, first drafts, and code used to be most of the bill. AI now does a first pass at all three in hours. People still have to decide what the site should say and check that it is true. They also have to make it safe to put on the internet.
 
-Image: Diagram of who does which part of a website now. AI does the first pass at design, first drafts, and code. People decide what the site should say, check that it is true, and make it safe.
+Image: /images/figures/website-who-does-what.svg | AI does the first pass at design, drafts, and code. People decide what the site says, check that it is true, and make it safe.
 
 Some agencies kept their prices and their profit where they were, and we lowered our prices.
 
@@ -247,7 +247,7 @@ H2: How much a website costs per month after launch
 
 Ask any agency three questions before you sign. Who owns the code? What is the monthly cost after launch? What does it cost to leave?
 
-Image: Chart comparing typical market prices with Isovertic prices per month: small site hosting at $50 to $300 against $50 or $150, and large catalog site hosting at $300 to $1,000 against $300.
+Image: /images/figures/hosting-monthly.svg | Monthly hosting prices: small sites $50 to $300 typical against $50 or $150 at Isovertic, large catalog sites $300 to $1,000 typical against $300.
 
 ## Questions
 
@@ -424,7 +424,7 @@ H2: How much other life science marketing agencies charge
 
 Sources: [Digital Elevator](https://thedigitalelevator.com/blog/best-biotech-web-design-agencies), [Percepture](https://percepture.com/pricing/seo-pricing-packages/), [Altitude Marketing](https://altitudemarketing.com/pricing/). Read November 2026.
 
-Image: Chart of the price of a life science website: $15,000 to $40,000 typical as published elsewhere, beside the Isovertic price of $4,995.
+Image: /images/figures/website-price-vs-typical.svg | A typical specialist agency quote of $15,000 to $40,000 beside the Isovertic price of $4,995.
 
 ## Questions
 

@@ -24,7 +24,7 @@ Primary query: life science website design agency. Secondary: AI visibility audi
 
 Eyebrow: For contract research organizations, research models and reagents, lab tools, diagnostics, biotech, and medtech
 
-H1: Life science websites that get found. One client went from 13 inquiries a month to about 64.
+H1: Life science websites that get found on Google and recommended by AI.
 
 Subhead:
 We write your website from your own science, so Google, ChatGPT, and other AI tools can read it and your buyers can trust it. It costs $4,995 for up to 15 pages, and a free AI visibility snapshot shows you where you stand first.
@@ -40,15 +40,11 @@ Trust line: Fixed price · Up to 15 pages · Checked by a scientist · Month to 
 
 Paul Sheiffele, President, ingenious targeting laboratory
 
-Stat row:
-- **13 to about 64** forms filled out on the website each month, in the first eight months
-- **3.7 times** the monthly clicks from Google search, not ads, over the same period
-- **Thousands** of model pages built from the client's own catalog data
-
-Small print: One account, measured in our own reporting. Your result depends on your category, offer, and sales cycle.
+In searches we recorded in November 2026, ingenious targeting laboratory is the first free result on Google for CTLA4 humanized mouse models, right under the ads. When a scientist asks Google's AI where to buy an IL6 conditional knockout mouse, it lists ingenious first among commercial suppliers. ingenious paid for no ads on these searches.
 
 Image: Screenshot of the ingenious targeting laboratory home page (genetargeting.com) on a desktop screen.
-Image: Chart of website forms filled out each month for ingenious targeting laboratory, rising from 13 to about 64 over the first eight months.
+Image: /images/proof/ctla4-google-first-free-result.jpg | Google results for CTLA4 humanized mouse model, recorded November 2026. ingenious targeting laboratory is the first free result, right under the ads.
+Image: /images/proof/il6-knockout-google-ai-listed-first.jpg | Google AI Mode answering where to buy an IL6 conditional knockout mouse, recorded November 2026. ingenious targeting laboratory is listed first under commercial suppliers.
 
 Logo bar: life science and medtech clients only. ingenious targeting laboratory, Metablify, Capseus. [Confirm permission for each before publishing.]
 
@@ -62,7 +58,7 @@ Two things have to go right. First, the AI assistant has to know your company ex
 
 Most life science companies have never tested either one, and we test both for free.
 
-Image: Screenshot of ChatGPT answering a buyer's question such as "which companies make custom mouse models," with the vendors it names visible.
+Image: /images/proof/ctla4-google-ai-named-supplier.jpg | Google AI Mode answering where to buy a CTLA4 humanized mouse model, recorded November 2026. It names the suppliers, ingenious targeting laboratory among them.
 
 Button: Get your free AI visibility snapshot
 Link: What the snapshot checks
@@ -269,13 +265,13 @@ Life scientists look at two or three vendors for most purchases. They rarely add
 
 More and more, buyers first hear of a vendor from an AI assistant. AZoNetwork surveyed scientific buyers in 2026. The manufacturer's website influenced 88% of purchases, and search engines influenced 87%. The share of buyers who named sales reps fell from 72% to 63% ([State of Scientific Purchasing 2026](https://www.azonetwork.com/marketing-science/blog/state-of-scientific-purchasing-2026)). Google now shows an AI answer on about four in ten US searches.
 
-Image: Chart of what influenced scientific purchases in 2026: the manufacturer's website at 88%, search engines at 87%, and sales reps at 63%, down from 72%.
+Image: /images/figures/scientific-purchasing-2026.svg | What influenced scientific purchases in 2026: the manufacturer's website at 88%, search engines at 87%, and sales reps at 63%, down from 72%. Source: AZoNetwork.
 
 [Verify on the Biocompare page before publishing, from Kristen's version 3: In the same Biocompare survey, 73% of respondents who use AI go straight to the vendor's site after a recommendation, and 75% say citing specific published studies would make them trust an AI recommendation more.]
 
 If the assistant leaves you out, you are off a shortlist you never knew existed. The same is true if it describes a service you stopped offering in 2022.
 
-Image: Screenshot of an AI assistant answering a buyer's question such as "who makes humanized mouse models for immuno oncology studies," with the vendors it names visible.
+Image: /images/proof/il6-humanized-google-ai-named.jpg | Google AI Mode answering where to buy an IL6 humanized mouse model, recorded November 2026. It names The Jackson Laboratory, Taconic, and ingenious targeting laboratory.
 
 ## What the free snapshot covers
 
@@ -447,7 +443,6 @@ H2: What we do in the first three months
 
 **Month three.** We update the outside listings the assistants use as sources. Then we run the questions again and compare.
 
-Image: Chart comparing how often a company was named in AI answers in month one and again at 90 days. Use measured numbers from a real account.
 
 ## What we will not do
 

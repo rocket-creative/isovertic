@@ -119,7 +119,7 @@ H2: A small Google Ads budget works with specific searches
 
 Start with $500 to $1,000 a month for the ads. That is enough to learn which searches bring in inquiries. Spending more does not create more buyers. We will tell you when extra budget has stopped bringing in more inquiries.
 
-Image: Chart of inquiries each month against monthly ad spend. The line should rise, then go flat where extra budget stops bringing in more inquiries.
+Image: /images/figures/ads-spend-curve.svg | Illustration: inquiries rise with ad spend, then level off where more budget stops adding inquiries.
 
 ## Questions
 
@@ -236,7 +236,7 @@ H2: What each one costs and what you get
 | Knows your science | Depends on the person | Depends on who is put on your account | A molecular biologist reads everything |
 | Best when | There is daily work | You have a launch and a budget | You need a website and a steady way for buyers to find you, at fixed prices |
 
-Image: Chart of cost for a full service life science agency beside Isovertic. Show published monthly fees of $9,500 to $16,000 next to the website at $4,995 paid once and monthly services from $50 to $1,500 each.
+Image: /images/figures/agency-vs-isovertic.svg | A full service agency at $9,500 to $16,000 a month beside Isovertic: a $4,995 website paid once and monthly services from $50 to $1,500 each.
 Image: Screenshot of the Isovertic pricing page with every price visible.
 
 ## When we are the wrong choice
@@ -396,10 +396,11 @@ H2: The rules we work by
 
 H2: Results for one client
 
-One client, ingenious targeting laboratory, is a mouse model company. In the first eight months, its monthly form submissions went from 13 to about 64. Clicks from Google search, not ads, grew to 3.7 times what they were. This is one account, measured in our own reports.
+One client, ingenious targeting laboratory, is a mouse model company. In searches we recorded in November 2026, ingenious targeting laboratory is the first free result on Google for CTLA4 humanized mouse models, right under the ads. When a scientist asks Google's AI where to buy an IL6 conditional knockout mouse, it lists ingenious first among commercial suppliers. ingenious paid for no ads on these searches.
 
 Image: Screenshot of the ingenious targeting laboratory home page (genetargeting.com) on a desktop screen.
-Image: Chart of monthly form submissions for ingenious targeting laboratory, rising from 13 to about 64 over the first eight months.
+Image: /images/proof/ctla4-google-first-free-result.jpg | Google results for CTLA4 humanized mouse model, recorded November 2026. ingenious targeting laboratory is the first free result, right under the ads.
+Image: /images/proof/il6-knockout-google-ai-listed-first.jpg | Google AI Mode answering where to buy an IL6 conditional knockout mouse, recorded November 2026. ingenious targeting laboratory is listed first under commercial suppliers.
 
 "Working with George Stoff and the Isovertic team was a meaningful change. They were responsive, easy to work with, and substantially improved our online visibility and the volume of qualified inbound leads."
 Paul Sheiffele, President, ingenious targeting laboratory

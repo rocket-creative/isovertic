@@ -23,7 +23,7 @@ export type CopyBlock =
   | { type: "link"; link: CopyLink }
   | { type: "choice" | "fields"; items: string[] }
   | { type: "diagram"; name: string }
-  | { type: "image"; brief: string }
+  | { type: "image"; brief: string; src?: string }
   | { type: "video"; src: string; srcVertical?: string; caption: string }
   | { type: "cards"; items: { kicker?: string; title: string; blocks: CopyBlock[] }[] }
   | { type: "linkcards"; items: { title: string; text: string; link: CopyLink }[] };
@@ -189,7 +189,13 @@ function build(): CopyPage[] {
           blocks.push({ type: "video", src, srcVertical, caption: stripNotes(rest.join("|")) });
           continue;
         }
-        if ((v = directive(line, "Image")) !== null) { flushPara(); blocks.push({ type: "image", brief: v }); continue; }
+        if ((v = directive(line, "Image")) !== null) {
+          flushPara();
+          // "Image: /images/x.svg | alt text" places a finished picture; any other text is a brief for an empty slot.
+          const m = v.match(/^(\/\S+)\s*\|\s*(.+)$/);
+          blocks.push(m ? { type: "image", brief: m[2].trim(), src: m[1] } : { type: "image", brief: v });
+          continue;
+        }
         if (/^Choice \(.*\):$/i.test(line)) { flushPara(); pending = "choice"; continue; }
         if (/^Fields:$/i.test(line)) { flushPara(); pending = "fields"; continue; }
         if (/^(Logo bar|Primary query):/i.test(line) || /^Short answer \(.*\):$/i.test(line)) continue;

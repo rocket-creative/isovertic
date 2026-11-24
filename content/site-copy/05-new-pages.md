@@ -57,7 +57,7 @@ H2: Three people read your site, and each asks one question
 - **Supplier quality asks "Will they pass our audit?"** The quality page answers that.
 - **Sourcing asks "Can they deliver, and at what scale?"** Your capacity, your order times, and a fast reply to a quote request answer that.
 
-Image: Diagram of the three readers, each with one question and the page that answers it: the engineer or scientist and the capability page, supplier quality and the quality page, sourcing and the capacity and order times.
+Image: /images/figures/cdmo-three-readers.svg | The engineer or scientist, supplier quality, and sourcing, each with one question and the page that answers it.
 
 ## Questions
 
@@ -129,7 +129,7 @@ H2: A solo consultant can start with five pages
 
 A solo consultant does not need 15 pages. You need five good ones. They say who you are, the three or four problems you solve, and how to reach you. The price is the same $4,995. We hold the other pages until you need them. Hosting is $50 a month.
 
-Image: Diagram of a five page website for a solo consultant: who you are, the three or four problems you solve, and how to reach you.
+Image: /images/figures/solo-consultant-five-pages.svg | A five page website: who you are, up to three problem pages, and how to reach you.
 
 ## Questions
 
@@ -215,7 +215,7 @@ H2: A redesign takes four steps and about a month
 3. **Check.** Your team marks the changes it wants, and your expert approves the science. You get two rounds of changes.
 4. **Switch.** We move your domain name to the new site. We point every old address to its new page, so old links and Google rankings keep working. We watch the search data for the first month.
 
-Image: Diagram of the four steps on a timeline of about a month: Review, Draft, Check, Switch. Mark the working link at about ten days.
+Image: /images/figures/redesign-four-steps.svg | Review, Draft, Check, and Switch on a timeline of about a month, with the working link at about ten days.
 Image: Screenshot of a list with two columns: every old page address and the new page it points to.
 
 ## Questions
@@ -286,7 +286,7 @@ H2: What changes on your website when clearance arrives
 - **How to order or ask for an evaluation,** with a named contact.
 - **The announcement,** published on your own site first, so search engines and AI assistants treat you as the source.
 
-Image: Diagram of a device website before and after clearance. Mark the pages added on launch day: indications for use, clinical evidence, a page for each reader, how to order, and the announcement.
+Image: /images/figures/device-before-after-clearance.svg | A device website before clearance and the pages added on launch day.
 
 ## After launch
 

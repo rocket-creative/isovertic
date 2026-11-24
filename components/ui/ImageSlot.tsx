@@ -9,7 +9,17 @@ const RATIO = {
   portrait: "aspect-[4/5] max-w-[300px]",
 } as const;
 
-export function ImageSlot({ brief, ratio = "wide", className = "" }: { brief: string; ratio?: keyof typeof RATIO; className?: string }) {
+export function ImageSlot({ brief, src, ratio = "wide", className = "" }: { brief: string; src?: string; ratio?: keyof typeof RATIO; className?: string }) {
+  if (src) {
+    return (
+      <RevealBlock className={className}>
+        <figure>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={src} alt={brief} loading="lazy" decoding="async" className="block h-auto w-full rounded-[2px] border border-rule bg-white" />
+        </figure>
+      </RevealBlock>
+    );
+  }
   return (
     <RevealBlock className={className}>
       <figure className={`image-slot ${RATIO[ratio]}`}>

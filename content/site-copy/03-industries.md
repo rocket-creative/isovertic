@@ -112,7 +112,7 @@ H2: Google can see only a few dozen of your models
 
 A model catalog is the most valuable thing a research model company owns. On most sites it is a search box or a PDF. Every line in it matches something a scientist is typing into a search box right now. If that line has no page of its own, Google and AI assistants have nothing to show.
 
-Image: Diagram of a model catalog shown two ways. On the left, a search box and a PDF. On the right, one page for each gene, strain or line.
+Image: /images/figures/catalog-two-ways.svg | A model catalog shown two ways: a search box and a PDF that Google reads as one page, against one page for each gene, strain, or line.
 
 ## What we build
 
@@ -129,9 +129,10 @@ Image: Screenshot of a catalog page for one mouse model. The gene name in correc
 
 H2: What this has done for one mouse model company
 
-At ingenious targeting laboratory, form submissions went from 13 a month to about 64 a month in the first eight months. Clicks from Google search, not ads, rose 3.7 times. The site has thousands of model pages built from the company's own data. This is one client, and the numbers come from our own reports.
+The site has a page for each model, built from the company's own data. In searches we recorded in November 2026, ingenious targeting laboratory is the first free result on Google for CTLA4 humanized mouse models, right under the ads. When a scientist asks Google's AI where to buy an IL6 conditional knockout mouse, it lists ingenious first among commercial suppliers. ingenious paid for no ads on these searches.
 
-Image: Chart of form submissions each month at ingenious targeting laboratory, rising from 13 to about 64 over the first eight months.
+Image: /images/proof/ctla4-google-first-free-result.jpg | Google results for CTLA4 humanized mouse model, recorded November 2026. ingenious targeting laboratory is the first free result, right under the ads.
+Image: /images/proof/il6-knockout-google-ai-listed-first.jpg | Google AI Mode answering where to buy an IL6 conditional knockout mouse, recorded November 2026. ingenious targeting laboratory is listed first under commercial suppliers.
 Image: Screenshot of one model page on genetargeting.com that was built from the company's own data.
 
 Disclosure: Kristen previously worked at ingenious targeting laboratory. George reviews that account for conflicts.
@@ -183,7 +184,7 @@ H2: Marketing to scientists starts with the data they check
 
 Life scientists compare two or three vendors for most purchases. When they research a vendor, 64% go to vendor websites ([Biocompare, Inside the Lab](https://advertising.biocompare.com/insidethelab/)). They look for validation data, citations, and the exact application. A page with only a name, a catalog number, and a price gives them none of that.
 
-Image: Chart of one number: 64% of life scientists go to vendor websites when they research a vendor. Label the source as Biocompare, Inside the Lab.
+Image: /images/figures/vendor-websites-64.svg | 64% of life scientists go to vendor websites when they research a vendor. Source: Biocompare, Inside the Lab.
 
 ## What we build
 
@@ -245,7 +246,7 @@ H2: Three people must say yes, and each asks something different
 
 The scientist asks whether it will work for their application. The lab manager asks about footprint, service, and training. Purchasing asks about price, lead time, and terms. Most instrument sites answer the first question. They leave the other two for a sales call that never gets booked.
 
-Image: Diagram of the three people who must say yes: the scientist, the lab manager and purchasing. Under each one, show the questions that person asks.
+Image: /images/figures/instrument-three-buyers.svg | The scientist, the lab manager, and purchasing, with the questions each one asks.
 
 ## What we build
 
@@ -305,7 +306,7 @@ H2: IVD marketing has two audiences and two sets of rules
 
 Lab directors want performance data, sample requirements, turnaround time, and how the test fits their workflow. Clinicians want to know when to order it and what the result means. If patients ever enter information on your site, HIPAA covers the forms, the hosting, and the tracking.
 
-Image: Diagram of the two audiences side by side. Lab directors: performance data, sample requirements, turnaround time, workflow. Clinicians: when to order the test and what the result means.
+Image: /images/figures/diagnostics-two-audiences.svg | Lab directors want performance data, sample requirements, turnaround time, and workflow fit. Clinicians want to know when to order the test and what the result means.
 
 ## What we build
 
@@ -431,7 +432,7 @@ H2: Get an accurate website before you pay an agency monthly
 
 Early stage biotech companies get quotes of $15,000 to $40,000 for a website. They also get quotes of $10,000 a month for marketing they are not ready to use. Most need three things. An accurate site. A way to be found by name and by science. And nothing that embarrasses the chief scientific officer.
 
-Image: Chart comparing website prices: the usual quotes of $15,000 to $40,000 next to our fixed $4,995.
+Image: /images/figures/website-price-vs-typical.svg | A typical specialist agency quote of $15,000 to $40,000 beside the Isovertic price of $4,995.
 
 ## What we build
 
@@ -454,7 +455,7 @@ H2: Add services as the company grows
 
 Add search and publishing at $1,000 a month once you have something to say every month. Add AI visibility monitoring at $500 a month once people are asking about your target or modality. Hold off on Google Ads until you have something to sell.
 
-Image: Diagram of services added in order as the company grows: the $4,995 website first, then search and publishing at $1,000 a month, then AI visibility monitoring at $500 a month, with Google Ads last.
+Image: /images/figures/biotech-grow-services.svg | Services added in order: the $4,995 website, then search and publishing at $1,000 a month, then AI visibility monitoring at $500 a month, then Google Ads.
 
 ## Questions
 
