@@ -10,20 +10,20 @@ Videos go in public/video/what-is-isovertic/. Until a file is there, its slot sh
 
 URL: /what-is-isovertic
 Title tag: What Is Isovertic? AI Visibility for Life Science Companies | Isovertic
-Meta description: Isovertic helps life science companies get found on Google and named by AI assistants. See three real gene searches, then get a free AI visibility snapshot.
+Meta description: Isovertic helps life science companies get found on Google and recommended by AI assistants. See three real gene searches, then get a free AI visibility snapshot.
 Primary query: what is isovertic. Secondary: isovertic, ai visibility for life science, life science ai visibility agency.
 
 ## Hero
 
 Eyebrow: Yale Life Sciences Pitchfest · AI visibility for life science
 
-H1: Isovertic helps life science companies get found on Google and named by AI.
+H1: Isovertic helps life science companies get found on Google and recommended by AI.
 
 Subhead:
-Whether you are selling a product or raising your next round, the people you need search before they meet you. Buyers, investors, and partners ask Google and ChatGPT about your field first. We write your science into pages they can find and trust, and we test whether AI assistants name you.
+Whether you are launching out of the lab, raising funding, or selling a product, the people you need search before they meet you. Investors, partners, and buyers ask Google, ChatGPT, and other AI about your field first. We write your science into pages they can find and trust, and we test whether AI assistants recommend you.
 
 Primary button: Get your free AI visibility snapshot
-Secondary button: See the $4,995 website
+Secondary button: See the $4,995 website package
 
 Trust line: Founded by George Stoff and Kristen Coughlin · Websites from $4,995 · Free AI visibility snapshot
 
@@ -37,11 +37,11 @@ Video: /video/what-is-isovertic/george-70-seconds.mp4 | George Stoff, cofounder,
 
 H2: Search a gene. See who comes up.
 
-Kristen Coughlin, our cofounder and a trained molecular biologist, recorded three searches a scientist might run when looking for a mouse model. For CTLA4 humanized mice, ingenious targeting laboratory is the first free result, right under the ads. For IL6 conditional knockout mice, it ranks above The Jackson Laboratory, and Google's AI lists it first among commercial suppliers. For IL6 humanized mice, Google's AI names it beside The Jackson Laboratory and Taconic. It paid for no ads on any of these searches.
+Kristen Coughlin, our cofounder and a trained molecular biologist, recorded three searches a scientist might run when looking for a mouse model. For CTLA4 humanized mice, ingenious targeting laboratory is the first free result, right under the ads. For IL6 conditional knockout mice, it ranks above The Jackson Laboratory, and Google's AI lists it first among commercial suppliers. For IL6 humanized mice, Google's AI names ingenious among the heavy hitters: The Jackson Laboratory and Taconic. ingenious paid for no ads on any of these searches.
 
 Video: /video/what-is-isovertic/proof-h.mp4 /video/what-is-isovertic/proof-v.mp4 | Three real searches recorded in November 2026, and how ingenious targeting laboratory shows up on Google and in Google's AI answers. 90 seconds.
 
-How it happened: every gene in the company's catalog has its own page, written from the company's own data. Form submissions went from 13 a month to about 64 a month in the first eight months. Clicks from Google search, not ads, rose 3.7 times. This is one client, and the numbers come from our own reports.
+What happened because of these efforts: Form submissions went from 13 a month to about 64 a month in the first eight months. Clicks from Google search, not ads, rose 3.7 times. This is one client, and the numbers come from our own reports.
 
 Disclosure: Kristen previously worked at ingenious targeting laboratory. George reviews that account for conflicts.
 
@@ -49,7 +49,7 @@ Disclosure: Kristen previously worked at ingenious targeting laboratory. George 
 
 H2: Pitching today? The judges, partners, and investors will search you tonight.
 
-Most teams at Pitchfest are moving from a Yale lab toward a company, in therapeutics, medical devices, or digital health. The step after a pitch is a search. Someone types your name, your target, or your technology into Google or ChatGPT, and the answer shapes the next conversation.
+Most teams at Pitchfest are moving from a Yale lab toward a company, in therapeutics, medical devices, or digital health. The step after a pitch is a search. Someone types your name, your target, or your technology into Google, ChatGPT, or another AI, and the answer shapes the next conversation.
 
 - **Still on grant funding?** Start with the free AI visibility snapshot. It shows what a search turns up today and costs nothing.
 - **Incorporated, or raising a seed round?** The $4,995 website gives you up to 15 pages that explain your science in plain words, checked by a molecular biologist.
@@ -79,20 +79,20 @@ H2: Three ways we help life science companies
 
 H2: We tell your science as a story a busy reader can follow
 
-Buyers, investors, and AI assistants reward the same kind of page. It says why the work matters, then how it works, then what you offer. Most life science sites start with the what and lose the reader by the second paragraph.
+The same clear page gets you meetings with investors, orders from buyers, and recommendations from AI. It starts with why your work matters, then how it works, then what you offer. Most life science sites start with the what, and lose the reader by the second paragraph.
 
-Kristen spent ten years selling translational research products. George has 30 years of building experience and built the catalog site behind the gene searches above. Together we turn dense research into pages that a scientist respects and a generalist can follow.
+Kristen spent ten years selling translational research products. George has 30 years of software experience and created the site behind the gene searches above. Together we turn dense research into pages that a scientist respects and a generalist can follow.
 
 ## Questions
 
 **What is Isovertic?**
-Isovertic is an AI visibility and website company for life science. We help companies get found on Google and named by AI assistants such as ChatGPT. George Stoff and Kristen Coughlin founded it.
+Isovertic is a digital growth and AI partner for life science companies. Founded by George Stoff and Kristen Coughlin, we help teams get found on Google and recommended by AI assistants through websites written by scientists, AI visibility optimization, and custom workflow automation.
 
 **What is AI visibility?**
-AI visibility is how often AI assistants name your company when someone asks about what you sell or study. The free snapshot asks four assistants ten buyer questions, three times each, and counts how often you come up.
+AI visibility is how often AI assistants recommend your company when someone asks about what you sell or study. The free snapshot asks four assistants ten buyer questions, three times each, and counts how often you come up.
 
 **We are still in the lab. Is it too early?**
-Not if you plan to raise money or sign a partner in the next year. Investors search your name and your technology before a meeting. While you are on grant funding, the free snapshot shows what they find today. The website makes sense once you incorporate.
+Not if you plan to raise money or sign a partner in the next year. Investors search your name and your technology before a meeting. While you are on grant funding, the free snapshot shows what they find today. The full website can be built for when you incorporate and need a presence ready for investors.
 
 **Where can we find you at Pitchfest?**
 At 101 College Street on December 3, around the ePosters during the breaks, and at the BioCT Holiday Party from 5 to 7 pm. Look for George and Kristen, or book a call after the event.
