@@ -1,3 +1,4 @@
+import { imageSlot } from "@/content/site-visuals";
 import fs from "fs";
 import path from "path";
 import type { Metadata } from "next";
@@ -65,6 +66,7 @@ const LINKS: [RegExp, string][] = [
   [/^ai search optimization$/i, "/ai-search-optimization-life-sciences"],
   [/editorial standard/i, "/field-notes/editorial-standard"],
   [/more about (kristen|george)/i, "/about"],
+  [/^see ai training/i, "/ai-training-for-small-business"],
 ];
 
 type Raw = { name: string; body: string; file: string };
@@ -193,7 +195,8 @@ function build(): CopyPage[] {
           flushPara();
           // "Image: /images/x.svg | alt text" places a finished picture; any other text is a brief for an empty slot.
           const m = v.match(/^(\/\S+)\s*\|\s*(.+)$/);
-          blocks.push(m ? { type: "image", brief: m[2].trim(), src: m[1] } : { type: "image", brief: v });
+          if (m) blocks.push({ type: "image", brief: m[2].trim(), src: m[1] });
+          else if (imageSlot.show) blocks.push({ type: "image", brief: v });
           continue;
         }
         if (/^Choice \(.*\):$/i.test(line)) { flushPara(); pending = "choice"; continue; }

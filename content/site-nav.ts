@@ -3,6 +3,7 @@ export const primaryNav = [
   { href: "/", label: "$4,995 website" },
   { href: "/life-science-ai-automation", label: "Automation" },
   { href: "/ai-visibility-audit", label: "AI visibility" },
+  { href: "/ai-training-for-small-business", label: "AI training" },
   { href: "/paperbrief", label: "PaperBrief" },
   { href: "/pricing", label: "Pricing" },
   { href: "/about", label: "About" },
@@ -16,6 +17,7 @@ export const footerCols = [
     items: [
       ["The $4,995 website", "/life-science-website-design"],
       ["AI automation", "/life-science-ai-automation"],
+      ["AI training for small businesses", "/ai-training-for-small-business"],
       ["PaperBrief, free", "/paperbrief"],
       ["Website redesign", "/life-science-website-redesign"],
       ["Free AI visibility snapshot", "/ai-visibility-snapshot"],
@@ -91,6 +93,7 @@ export const llms = {
     "Diagnostics marketing",
     "Research model and reagent marketing",
     "AI automation for life science companies",
+    "AI training for small businesses on Long Island and in New York",
   ],
   facts: [
     "People: George Stoff, Founder and Lead Engineer, has built software for more than 30 years. Kristen Coughlin, Chief Operating Officer, is a trained molecular biologist.",

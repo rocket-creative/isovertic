@@ -145,7 +145,7 @@ H2: Results from one site built this way
 
 Our example is ingenious targeting laboratory, a mouse model company. In searches we recorded in November 2026, ingenious targeting laboratory is the first free result on Google for CTLA4 humanized mouse models, right under the ads. When a scientist asks Google's AI where to buy an IL6 conditional knockout mouse, it lists ingenious first among commercial suppliers. ingenious paid for no ads on these searches. Your result depends on your field and what you offer.
 
-Image: Screenshot of the ingenious targeting laboratory home page (genetargeting.com) on a desktop screen.
+Image: /images/proof/genetargeting-home.jpg | The ingenious targeting laboratory home page at genetargeting.com, recorded November 2026.
 Image: /images/proof/ctla4-google-first-free-result.jpg | Google results for CTLA4 humanized mouse model, recorded November 2026. ingenious targeting laboratory is the first free result, right under the ads.
 Image: /images/proof/il6-knockout-google-ai-listed-first.jpg | Google AI Mode answering where to buy an IL6 conditional knockout mouse, recorded November 2026. ingenious targeting laboratory is listed first under commercial suppliers.
 

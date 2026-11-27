@@ -20,7 +20,8 @@ export const priceDiagram = {
 } as const;
 
 // Empty photograph frames. The brief under the label tells the photographer what to shoot.
-export const imageSlot = { label: "Image placeholder" } as const;
+// "show: false" keeps every empty frame off the page. The briefs stay in content/site-copy for whoever makes the pictures.
+export const imageSlot = { label: "Image placeholder", show: false } as const;
 export const detailBrief =
   "Photorealistic documentary photograph, natural window light, 50mm lens. Close on hands and the work on the table: a printed page, a laptop edge, a pen. No faces, no logos, no readable text.";
 
