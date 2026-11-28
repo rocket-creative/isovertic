@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { BrandLogo } from "@/components/ui/Logo";
 import { site } from "@/lib/site";
-import { footerCols, footerLine, reviewNotice } from "@/content/site-nav";
+import { footerCols, footerLine } from "@/content/site-nav";
 
 export function Footer() {
   return (
@@ -30,8 +30,7 @@ export function Footer() {
             </nav>
           ))}
         </div>
-        <p className="mt-12 border-t border-paper/15 pt-6 text-[13px] leading-relaxed text-paper/60 sm:mt-16">{reviewNotice}</p>
-        <div className="mt-4 flex flex-wrap gap-x-6 text-[13px] text-paper/60">
+        <div className="mt-12 border-t border-paper/15 pt-6 sm:mt-16 flex flex-wrap gap-x-6 text-[13px] text-paper/60">
           <a href={`mailto:${site.email}`} className="flex min-h-[44px] items-center hover:text-paper sm:min-h-0">{site.email}</a>
           <a href={`tel:${site.phone}`} className="flex min-h-[44px] items-center hover:text-paper sm:min-h-0">{site.phone.replace("+1-", "")}</a>
         </div>

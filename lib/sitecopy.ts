@@ -40,11 +40,16 @@ export type CopyPage = {
   buttons: CopyLink[];
   trust?: string;
   sections: CopySection[];
+  // Shown in place of the form once it has been sent.
+  thanks?: { h1?: string; blocks: CopyBlock[] };
 };
 
 const DIR = path.join(process.cwd(), "content", "site-copy");
 const SHARED_PATHS = new Set(["/cdmo-marketing", "/life-science-consulting-marketing"]);
 const SKIP_SECTIONS = /^(thank you page)$/i;
+
+// The name a form field posts under, made from its label.
+export const fieldId = (label: string) => label.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 40);
 
 const slugify = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const stripNotes = (s: string) =>
@@ -276,7 +281,10 @@ function build(): CopyPage[] {
     const description = r.body.match(/^Meta description:\s*(.+)$/m)?.[1].trim() ?? "";
     const page: CopyPage = { name: r.name, path: url, title, description, h1: r.name, lead: [], buttons: [], sections: [] };
     for (const s of splitSections(r.body)) {
-      if (SKIP_SECTIONS.test(s.title)) continue;
+      if (SKIP_SECTIONS.test(s.title)) {
+        page.thanks = { h1: s.text.match(/^H1:\s*(.+)$/m)?.[1].trim(), blocks: parseBlocks(s.text.replace(/^H1:.*$/m, "")).blocks };
+        continue;
+      }
       if (/^hero$/i.test(s.title)) {
         const eyebrow = s.text.match(/^Eyebrow:\s*(.+)$/m)?.[1];
         const h1 = s.text.match(/^H1:\s*(.+)$/m)?.[1];

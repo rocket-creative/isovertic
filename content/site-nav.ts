@@ -57,8 +57,11 @@ export const footerCols = [
 ] as const;
 
 export const footerLine = "Websites and AI visibility for life science companies.";
-export const reviewNotice = "This is a draft for review. It is not published. Forms, older pages, and checkout are switched off.";
-export const formNotice = "This is a review draft. The form does not send yet.";
+export const contactForm = {
+  error: "We need your name, a working email, and your company website. Please check those three and send it again.",
+  failed: "Something failed on our side and your request did not reach us. Please email sales@isovertic.com and we will answer from there.",
+  subject: "Contact form",
+} as const;
 
 // Search first plumbing. One list of published prices feeds the structured data and llms.txt,
 // so a price is never stated one way on a page and another way to a crawler.

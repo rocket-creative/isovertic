@@ -5,6 +5,10 @@ import { Resend } from "resend";
 import { formCopy } from "@/content/form";
 import { notifyEnvelope } from "@/lib/notify";
 import { site } from "@/lib/site";
+import { redirect } from "next/navigation";
+import { contactForm } from "@/content/site-nav";
+import { capture, EMAIL_RE } from "@/lib/capture";
+import { copyPage, fieldId } from "@/lib/sitecopy";
 
 export type LeadState = { ok: boolean; error?: string } | null;
 
@@ -96,4 +100,21 @@ export async function submitLead(_prev: LeadState, formData: FormData): Promise<
   }
   if (errors.length) console.warn("Lead partially delivered:", errors);
   return { ok: true };
+}
+
+// The contact form on the rewritten site. Its fields are written in content/site-copy, so this reads
+// the same list the page renders and posts each answer under its label.
+export async function sendContact(formData: FormData): Promise<void> {
+  if (text(formData, "hp_url")) redirect("/contact?sent=1");
+  const page = copyPage("/contact");
+  const labels = page.sections.flatMap((s) => s.blocks).flatMap((b) => (b.type === "fields" ? b.items : []));
+  const answer = (test: RegExp) => text(formData, fieldId(labels.find((l) => test.test(l)) ?? ""));
+  const name = answer(/name/i);
+  const email = answer(/email/i);
+  const website = answer(/website/i);
+  if (!name || !EMAIL_RE.test(email) || !website) redirect("/contact?problem=error");
+  const request = text(formData, "request");
+  const message = [`Wants: ${request || "(not chosen)"}`, "", ...labels.map((l) => `${l}\n${text(formData, fieldId(l)) || "(blank)"}\n`)].join("\n");
+  const result = await capture({ name, email, company: website, message, sourcePath: "/contact", subject: `${contactForm.subject}: ${name} (${website})` });
+  redirect(result.ok ? "/contact?sent=1" : "/contact?problem=failed");
 }

@@ -5,8 +5,9 @@ import { FAQ } from "@/components/ui/FAQ";
 import { Arrow } from "@/components/ui/Arrow";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { breadcrumbLd, faqLd, offersLd, serviceLd } from "@/lib/schema";
-import { copyPage, type CopyBlock, type CopyLink } from "@/lib/sitecopy";
-import { footerCols, formNotice, publishedOffers, related } from "@/content/site-nav";
+import { copyPage, fieldId, type CopyBlock, type CopyLink } from "@/lib/sitecopy";
+import { sendContact } from "@/app/contact/actions";
+import { contactForm, footerCols, publishedOffers, related } from "@/content/site-nav";
 import { RevealBlock } from "@/components/ui/RevealBlock";
 import { CopyDiagram } from "@/components/sections/CopyDiagram";
 import { CountText } from "@/components/ui/CountText";
@@ -52,7 +53,6 @@ function Buttons({ links }: { links: readonly CopyLink[] }) {
   );
 }
 
-const fieldId = (label: string) => label.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 40);
 
 function Block({ b }: { b: CopyBlock }) {
   switch (b.type) {
@@ -256,8 +256,21 @@ function relatedLinks(path: string): (readonly [string, string])[] {
   return [...siblings, ...always].filter(([, href]) => (seen.has(href) ? false : (seen.add(href), true)));
 }
 
-export function CopyPageView({ path }: { path: string }) {
+export function CopyPageView({ path, sent, problem }: { path: string; sent?: boolean; problem?: "error" | "failed" }) {
   const page = copyPage(path);
+  const notice = problem ? contactForm[problem] : "";
+  if (sent && page.thanks) {
+    return (
+      <>
+        <PageHero eyebrow={page.eyebrow} h1={page.thanks.h1 ?? page.h1} />
+        <Section tone="paper" deferred={false}>
+          <div className="[&>*:first-child]:mt-0">
+            {page.thanks.blocks.map((b, i) => <Block key={i} b={b} />)}
+          </div>
+        </Section>
+      </>
+    );
+  }
   const name = page.title.split(" | ")[0];
   const links = relatedLinks(path);
   const home = path === "/";
@@ -312,8 +325,8 @@ export function CopyPageView({ path }: { path: string }) {
             </div>
           ) : isForm && b.type === "buttons" ? (
             <div key={bi} className="mt-8">
-              <button type="submit" className="btn btn-solid" disabled>{b.links[0].label} <Arrow /></button>
-              <p className="mt-3 text-[13px] text-ink-soft">{formNotice}</p>
+              {notice && <p role="alert" className="mb-6 max-w-[640px] border-l-2 border-navy pl-4 leading-relaxed">{notice}</p>}
+              <button type="submit" className="btn btn-solid">{b.links[0].label} <Arrow /></button>
             </div>
           ) : b.type === "diagram" || b.type === "table" || b.type === "quote" ? (
             <RevealBlock key={bi}>
@@ -331,7 +344,15 @@ export function CopyPageView({ path }: { path: string }) {
                   <h2 className="max-w-[26ch] font-display text-h2 font-medium">{s.h2}</h2>
                 </RevealBlock>
               )}
-              {isForm ? <form>{body}</form> : body}
+              {isForm ? (
+                <form action={sendContact}>
+                  <input type="hidden" name="source_path" value={path} />
+                  <div aria-hidden="true" className="hidden">
+                    <input type="text" name="hp_url" tabIndex={-1} autoComplete="off" />
+                  </div>
+                  {body}
+                </form>
+              ) : body}
               {s.faqs && (
                 <div className="mt-10 max-w-[72ch]">
                   <FAQ faqs={s.faqs} />
