@@ -17,7 +17,7 @@ export function ImageSlot({ brief, src, ratio = "wide", className = "" }: { brie
     if (src.startsWith("/") && !fs.existsSync(path.join(process.cwd(), "public", src))) return null;
     return (
       <RevealBlock className={className}>
-        <figure>
+        <figure className={ratio === "portrait" ? "max-w-[300px]" : undefined}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           {/* The picture links to its full size file, so a reader on a phone or in a narrow column can open it and read it. */}
           <a href={src} className="block">

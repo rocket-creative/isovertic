@@ -370,7 +370,7 @@ We could have kept the old price. We would rather you hear about the change from
 H2: Who does the work
 
 ### George Stoff, Founder and Lead Engineer
-Image: Portrait photo of George Stoff, head and shoulders, plain background.
+Image: /images/people/george-stoff.webp | Portrait of George Stoff.
 
 George has spent more than 30 years building the software and systems that companies use to sell. He plans your site, builds it, and keeps it secure. He stays on your account.
 

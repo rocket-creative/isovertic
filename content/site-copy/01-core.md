@@ -116,7 +116,7 @@ The two of us check those things.
 **George Stoff** has built software for more than 30 years. He builds your site and secures it. Nothing goes live unless he would put his name on it.
 
 Image: Portrait photo of Kristen Coughlin, head and shoulders, plain background.
-Image: Portrait photo of George Stoff, head and shoulders, plain background.
+Image: /images/people/george-stoff.webp | Portrait of George Stoff.
 
 Your own expert approves the science before anything goes live.
 
