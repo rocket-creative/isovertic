@@ -44,7 +44,7 @@ H2: What the $4,995 website includes
 - Pages are laid out to read well on a phone, a laptop, and a lab workstation.
 - We check the site against WCAG 2.1 AA, the standard for websites that people with disabilities can use. We fix problems before launch.
 
-Image: Screenshot of one page of a website we built, shown at three sizes: a phone, a laptop, and a lab workstation monitor.
+Image: /images/examples/three-screen-sizes.webp | Recorded: One page of genetargeting.com on a phone, a laptop, and a lab monitor.
 
 **Build**
 - Pages built so Google and AI tools can read every word.
@@ -87,7 +87,7 @@ H2: How we build your website in about a month
 
 You are paying for our judgment too. We tell you plainly what we recommend and why, and you make the final decision.
 
-Image: Screenshot of a draft website page during review, with a client's requested changes marked on it.
+Image: /images/examples/draft-review-marked.webp | Example: A draft page in review, with the client's changes marked.
 
 ## How we handle your science
 
@@ -101,7 +101,7 @@ Some companies come to us with a website built by someone who could not tell a k
 - **Your expert has the final word.** Someone on your team checks every technical claim before we publish it.
 - **Built for AI answers too.** AI assistants such as ChatGPT can quote a page that is clear and names its sources.
 
-Image: Screenshot of a website page where a technical statement links to the paper, protocol, or dataset it came from. The link should be easy to see.
+Image: /images/examples/claim-linked-to-source.webp | Example: Every technical statement links to where it came from.
 
 Link: Read the Isovertic editorial standard
 
@@ -308,7 +308,7 @@ H2: Check whether ChatGPT and other AI assistants mention you
 | **AI visibility snapshot** | Free | We ask four AI assistants ten questions your buyers would ask, three times each. We check whether the programs AI companies use to read websites can reach your pages. You get one page of findings and three fixes. |
 | **Full AI visibility audit** | $2,500 | We ask five AI assistants fifty questions and compare you with up to four competitors. We check every statement for accuracy. You get a list of fixes with the most important first, a call to go over the results, and a second measurement at 90 days. If you buy a website within 60 days, the $2,500 counts toward its price. |
 
-Image: Screenshot of a finished snapshot report: one page of findings and three fixes.
+Image: /images/examples/snapshot-report.webp | Sample: The one page snapshot report, with sample numbers.
 
 Button: Get the free snapshot
 
@@ -325,7 +325,7 @@ H2: Website design pricing
 
 You pay half to start and half at launch.
 
-Image: Screenshot of a finished life science website we built, home page. George to choose the client and confirm the client agrees to be shown.
+Image: /images/proof/genetargeting-home.jpg | The ingenious targeting laboratory home page at genetargeting.com, recorded November 2026.
 
 Button: See what the website includes
 
@@ -352,7 +352,7 @@ H2: Monthly marketing services, each priced on its own
 | **Google Ads management** | $750 a month plus 10% of ad spend | We build ad campaigns around the exact words buyers type when they are ready. You get one landing page, which is the page an ad sends people to. We report what you pay in ads for each inquiry from a likely buyer. One time setup $750. You pay Google directly for the ads. |
 | **Outreach** | By proposal | We research the labs and companies that should know you, and we write to them. The amount of work depends on your list and your offer. |
 
-Image: Screenshot of a monthly AI visibility monitoring report. It should show whether the company shows up in the answers on each of the five AI assistants and how many times we asked, behind every number.
+Image: /images/examples/monitoring-report.webp | Sample: The monthly monitoring report, with the runs behind every number.
 
 ## Consulting, video, and photos
 

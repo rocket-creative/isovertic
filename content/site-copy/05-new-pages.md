@@ -47,9 +47,9 @@ H2: One page for every capability a buyer might search for
 - **A quote request form that asks the right questions,** so your team can reply with a real price.
 - **AI visibility.** We test whether AI assistants name your company when a buyer asks about each capability. Then we fix what keeps you off the list.
 
-Image: Screenshot of a capability page for a contract manufacturer. The process, the materials, the scale, the equipment and the tolerances or specifications must be visible.
-Image: Screenshot of a quality page that lists registrations, certifications and audit history in plain words.
-Image: Screenshot of an AI assistant answering a buyer who asks who can make one formulation, molecule or component. The manufacturers it names must be visible.
+Image: /images/examples/cdmo-capability.webp | Example: A capability page an engineer can check against a drawing.
+Image: /images/examples/cdmo-quality.webp | Example: A quality page in plain words.
+Image: /images/examples/ai-answer-cdmo.webp | Example: An AI assistant answers who can make one component.
 
 ## Who reads a contract manufacturer's site
 
@@ -112,7 +112,7 @@ H2: Your website lists your services but not what you know
 
 Most consulting websites have a biography, a list of services, and a contact form. That works for a client someone sent to you. It does not help the quality director who has a problem tonight and types it into a search box or an AI assistant.
 
-Image: Screenshot of an AI assistant answering a quality director who describes an audit finding and asks who can help. The firms it names must be visible.
+Image: /images/examples/ai-answer-consulting.webp | Example: A quality director describes a finding and asks who can help.
 
 ## What we build
 
@@ -124,8 +124,8 @@ H2: A page for each problem a client brings you
 - **Articles when you want them.** We draft one article a month from a 20 minute talk with you. It costs $1,000 a month and comes with a newsletter and social posts. Link: Search and publishing
 - **AI visibility.** We test whether AI assistants name you for the problems you solve.
 
-Image: Screenshot of a problem page for one standard or submission type, with a heading written the way the client would describe the problem.
-Image: Screenshot of a page on how a consultant works. It shows what a project looks like, how long it takes and what the client gets.
+Image: /images/examples/consulting-problem-page.webp | Example: A problem page with the heading in the client's own words.
+Image: /images/examples/consulting-how-works.webp | Example: A page on how the consultant works.
 
 ## If you are a firm of one
 
@@ -194,7 +194,7 @@ H2: Five signs your website is out of date
 
 Any one of these tells a careful buyer that nobody is looking after the site. Some of them tell an AI assistant the same thing.
 
-Image: Screenshot of an out of date website with the signs circled: an old copyright year, a newest news item more than a year old, and a contact form with no name, phone number or reply time.
+Image: /images/examples/outdated-site-signs.webp | Example: Three signs a website is out of date.
 
 ## What carries over and what changes
 
@@ -205,12 +205,12 @@ H2: What a redesign keeps
 - **Your brand.** You keep the same logo, colors, and fonts, unless you want them changed.
 - **Your domain name and accounts.** They stay in your name.
 
-Image: Screenshot of Google Search Console showing which pages of a website bring in visitors.
+Image: /images/examples/search-console-pages.webp | Sample: Which pages bring in visitors today, so the redesign keeps them.
 
 What changes is the writing, the layout, the speed, and the security. We also make sure Google and AI assistants can read every word.
 
-Image: Screenshot of one page before the redesign, with its logo, colors and fonts.
-Image: Screenshot of the same page after the redesign, with the same logo, colors and fonts and new writing and layout.
+Image: /images/examples/redesign-before.webp | Example: Before: the page as it is today.
+Image: /images/examples/redesign-after.webp | Example: After: the same logo, colors, and fonts, with new writing and layout.
 
 ## How it goes
 
@@ -222,7 +222,7 @@ H2: A redesign takes four steps and about a month
 4. **Switch.** We move your domain name to the new site. We point every old address to its new page, so old links and Google rankings keep working. We watch the search data for the first month.
 
 Image: /images/figures/redesign-four-steps.svg | Review, Draft, Check, and Switch on a timeline of about a month, with the working link at about ten days.
-Image: Screenshot of a list with two columns: every old page address and the new page it points to.
+Image: /images/examples/redirect-list.webp | Example: Every old page address, and the new page it points to.
 
 ## Questions
 
@@ -281,8 +281,8 @@ H2: What you can build while you wait for clearance
 - **Team, evidence so far, and contact.** For partners, investors, and the first clinical sites.
 - **A sign up list.** Interested clinicians can ask to hear from you. That way you do not start from zero on launch day.
 
-Image: Screenshot of a technology page for a device that is not yet cleared. It explains how the device works and makes no claims.
-Image: Screenshot of a sign up form where a clinician asks to hear from the company at launch.
+Image: /images/examples/device-technology-page.webp | Example: A technology page for a device that is not yet cleared.
+Image: /images/examples/launch-signup.webp | Example: A clinician asks to hear from the company at launch.
 
 ## On launch day
 
@@ -306,7 +306,7 @@ You buy only what you need, one month at a time.
 - **Google Ads, $750 a month plus 10% of spend.** We run ads on searches for the exact procedure and problem. We set them up to follow the health advertising rules.
 - **AI visibility monitoring, $500 a month.** We watch what AI assistants say about your device. That includes claims you are not allowed to make.
 
-Image: Screenshot of an AI assistant describing a medical device, with one claim the company is not allowed to make circled.
+Image: /images/examples/ai-device-claim-circled.webp | Example: An AI assistant repeats a claim the company is not allowed to make.
 
 ## Questions
 

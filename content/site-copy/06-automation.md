@@ -41,28 +41,28 @@ H2: Four jobs we have built or are building now
 ### Publication watch
 We find new papers that use your products soon after they come out. You get the citation and a link to the PubMed record. You also get a short plain summary of how your product was used, and a draft social post. Before anything is published, a scientist confirms that the paper used your product and that the summary is correct. The version with the scientist's check is in pilot. The search part is live and free.
 
-Image: Screenshot of a publication watch result. It should show the citation, the link to the PubMed record, the short plain summary of how the product was used, and the draft social post.
+Image: /images/examples/publication-watch.webp | Example: A publication watch result: the citation, the record, the summary, the draft post.
 
 Link: Try PaperBrief free
 
 ### Quote and inquiry replies
 A request comes in through your form. A first reply goes out in minutes with the next step. Where your pricing is standard, it can include the price. For custom work, it asks the questions your team needs to quote. Your team gets a message that an inquiry is waiting. Your people take over the conversation where it needs a person's judgment.
 
-Image: Screenshot of a reply to a quote request, sent minutes after the form came in. Show it beside the message telling the team that an inquiry is waiting.
+Image: /images/examples/quote-reply-and-alert.webp | Example: The buyer gets a reply in minutes, and the team gets the alert.
 
 Link: Ask about inquiry replies
 
 ### Catalog pages from your data
 One spreadsheet or database becomes thousands of product, gene, or model pages. Each page is written so people can find it in search and AI assistants can read it. When the data changes, the pages change. We run this for a research model client today.
 
-Image: Screenshot of one row of a spreadsheet beside the catalog page built from that row, with the same values visible in both.
+Image: /images/examples/row-to-catalog-page.webp | Example: One row of the spreadsheet, and the catalog page built from it.
 
 Link: Ask about catalog pages
 
 ### Newsletters, posts, and reports
 The software writes first drafts of the newsletter, the social posts, and the monthly numbers from your own material, on a schedule. Nothing goes out until a person has edited and approved it.
 
-Image: Screenshot of a newsletter draft written by the software, with a person's edits marked and an approve button visible.
+Image: /images/examples/newsletter-draft-approve.webp | Example: A newsletter drafted by software, edited and approved by a person.
 
 Link: Ask about drafts and reports
 
@@ -76,7 +76,7 @@ AI does the repetitive work fast. It is sometimes wrong, and it sounds just as s
 - **Sources you can open.** Every summary links to the paper, the record, or the row of data it came from. The person checking can confirm it in a minute.
 - **A record of what ran.** You can see what ran, what it made, and who approved it.
 
-Image: Screenshot of the record of what ran. Each line should show what ran, what it made, the link to its source, and who approved it.
+Image: /images/examples/run-record.webp | Sample: The record of what ran: what it made, its source, and who approved it.
 
 Kristen Coughlin trained as a molecular biologist. She reviews the scientific drafts before they reach you. George Stoff has built software for more than 30 years. He builds the system and sets it up securely.
 

@@ -45,7 +45,7 @@ A referral is the best inquiry you will ever get. But you cannot make more refer
 
 The next scientist at that sponsor searches for the exact service. They type the species, the model, the assay, and the regulatory standard. A site with one page called Services answers none of those searches.
 
-Image: Screenshot of a Google search for one preclinical study, typed with the species, the model, the assay and the regulatory standard. The CROs that appear in the results must be visible.
+Image: /images/examples/cro-search.webp | Example: A sponsor types the whole study into the search box.
 
 ## What we build
 
@@ -56,8 +56,8 @@ H2: One page for every study a sponsor might search for
 - **A quote request that asks the right questions.** It asks for species, endpoints, timeline, and compliance level. Then your team can reply with a real answer.
 - **AI visibility.** We test whether AI assistants such as ChatGPT name you for your study types. Then we fix what keeps you off the list.
 
-Image: Screenshot of a CRO service line page. The model, the method, the readouts, the turnaround time and the standard must be visible.
-Image: Screenshot of a quote request form for a CRO, with fields for species, endpoints, timeline and compliance level.
+Image: /images/examples/cro-service-page.webp | Example: A service line page that states the model, method, readouts, time, and standard.
+Image: /images/examples/cro-quote-form.webp | Example: A quote request form that asks what a study director needs to know.
 
 ## How do we look credible next to the global CROs?
 
@@ -65,7 +65,7 @@ H2: Being small helps when you say what you do best
 
 A sponsor does not need you to be the largest CRO. They need to know three things: that you have run this study before, who will run theirs, and how fast you answer. Your site should say so at the top of every service page.
 
-Image: Screenshot of the top of a CRO service page. It should say that the CRO has run this study before, who will run it, and how fast the team answers.
+Image: /images/examples/cro-page-top.webp | Example: The top of the page answers the sponsor's first three questions.
 
 ## Questions
 
@@ -127,7 +127,7 @@ H2: A page for every model, checked by a scientist
 - **Descriptions an expert would sign.** Each one makes only careful claims and cites its sources. Kristen spent ten years selling translational research products. She reads each description the way your customers will.
 - **AI visibility.** We test whether AI assistants such as ChatGPT name you for your model types. We also check what they say about you.
 
-Image: Screenshot of a catalog page for one mouse model. The gene name in correct nomenclature, the description and its cited sources must be visible.
+Image: /images/proof/genetargeting-gene-il6.jpg | The Il6 gene page for ingenious targeting laboratory, with the mouse symbol, the human ortholog, and the MGI record, recorded at genetargeting.com in November 2026.
 
 ## Proof
 
@@ -137,7 +137,7 @@ The site has a page for each model, built from the company's own data. In search
 
 Image: /images/proof/ctla4-google-first-free-result.jpg | Google results for CTLA4 humanized mouse model, recorded November 2026. ingenious targeting laboratory is the first free result, right under the ads.
 Image: /images/proof/il6-knockout-google-ai-listed-first.jpg | Google AI Mode answering where to buy an IL6 conditional knockout mouse, recorded November 2026. ingenious targeting laboratory is listed first under commercial suppliers.
-Image: Screenshot of one model page on genetargeting.com that was built from the company's own data.
+Image: /images/proof/genetargeting-ctla4-humanized.jpg | The CTLA4 humanized mice page for ingenious targeting laboratory, recorded at genetargeting.com in November 2026.
 
 Disclosure: Kristen previously worked at ingenious targeting laboratory. George reviews that account for conflicts.
 
@@ -202,8 +202,8 @@ H2: Product pages that buyers can check and AI can quote
 - **Pages in plain text** so search engines and AI assistants can read every word.
 - **A clear way to buy or ask:** order, quote, or technical question, on every page.
 
-Image: Screenshot of an antibody product page. The target, clonality, host, applications, species reactivity, a validation image and citations must be visible.
-Image: Screenshot of an AI assistant answering a buyer who asks for an antibody by target, application and species. The supplier it cites must be visible.
+Image: /images/examples/antibody-product-page.webp | Example: An antibody product page with everything a buyer checks.
+Image: /images/examples/ai-answer-antibody.webp | Example: An AI assistant answers a buyer and cites the supplier's page.
 
 ## Questions
 
@@ -266,9 +266,9 @@ H2: A website that answers the scientist, lab manager, and purchasing
 - **A quote request** that goes to the right person and gets an automatic first reply.
 - **Service and support pages,** because the lab manager decides based on those.
 
-Image: Screenshot of an instrument application page that shows what the instrument does for one workflow, with data.
-Image: Screenshot of an instrument specifications page with the specifications as text and a link to the PDF.
-Image: Screenshot of the automatic first reply a buyer receives by email after sending a quote request.
+Image: /images/examples/instrument-application.webp | Example: An application page: what the instrument does for one workflow, with data.
+Image: /images/examples/instrument-specs.webp | Example: Specifications as text on the page, with the PDF as a link.
+Image: /images/examples/first-reply-email.webp | Example: The first reply arrives while the buyer is still at the desk.
 
 ## Questions
 
@@ -328,8 +328,8 @@ H2: A site for each audience, with the protections built in
 - **HIPAA forms and hosting** when patient information is involved: $1,500 setup plus $300 a month, with a signed business associate agreement.
 - **Tracking that does not leak.** We put no ad tracking code on pages where patient information can appear.
 
-Image: Screenshot of a test page. Intended use, performance, specimen requirements and turnaround time must be visible.
-Image: Screenshot of a diagnostics home page with three separate paths: laboratories, clinicians and patients.
+Image: /images/examples/dx-test-page.webp | Example: A test page with what a laboratory director looks for.
+Image: /images/examples/dx-three-paths.webp | Example: A diagnostics home page with one path for each reader.
 
 ## Questions
 
@@ -377,7 +377,7 @@ H2: A committee buys, and rules limit what you can say
 
 A surgeon, a value analysis committee, and a purchasing group each need something different. Every sentence has to stay inside your cleared indications. Most agencies learn this for the first time while working on your account.
 
-Image: Screenshot of a list of approved claims next to a page of website copy, with each sentence on the page matched to a claim on the list.
+Image: /images/examples/claims-matched.webp | Example: Each sentence on the page is matched to an approved claim.
 
 ## What we build
 
@@ -394,8 +394,8 @@ H2: A website for each stage, before and after clearance
 - A way to contact sales that sends each request to the right territory
 - Link: Medical device launch marketing
 
-Image: Screenshot of a device website before clearance. It shows the problem, the technology, the team and the evidence so far, and makes no claims.
-Image: Screenshot of a device website after clearance. It shows the indications, the clinical evidence and the instructions for use.
+Image: /images/examples/device-before.webp | Example: Before clearance: the problem, the technology, the team, the evidence so far.
+Image: /images/examples/device-after.webp | Example: After clearance: the indications, the clinical evidence, the instructions for use.
 
 ## Questions
 
@@ -459,9 +459,9 @@ H2: What an early stage biotech website needs
 - **Careers and contact,** because job seekers look here first.
 - **Forward looking statements handled properly** if your company is public or about to go public.
 
-Image: Screenshot of a biotech science page that explains the science at two levels, one for the specialist and one for the investor.
-Image: Screenshot of a biotech pipeline page showing the current pipeline.
-Image: Screenshot of a team page with real biographies for the team and advisors.
+Image: /images/examples/biotech-two-levels.webp | Example: A science page written at two levels.
+Image: /images/examples/biotech-pipeline.webp | Example: A pipeline page that shows where each program stands today.
+Image: /images/examples/biotech-team.webp | Example: A team page with real biographies.
 
 ## When you are ready for more
 

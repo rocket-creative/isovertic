@@ -79,7 +79,7 @@ Diagram: snapshot
 
 Your report arrives within 24 hours. We do not ask about your budget, and you do not have to get on a call. If you already show up well, the report will say so.
 
-Image: Screenshot of a finished one page snapshot report. It should show how often the company was named, who was named instead, and the three fixes.
+Image: /images/examples/snapshot-report.webp | Sample: The one page snapshot report, with sample numbers.
 
 Google's AI answers are a separate step. Google gives no way to collect them with software, so a person runs those for you. That person goes through the results with you on a call. You can ask for this from your report.
 
@@ -174,7 +174,7 @@ H2: Life science websites we have built
 Open each one and judge the work for yourself.
 
 Image: /images/proof/genetargeting-home.jpg | The ingenious targeting laboratory home page at genetargeting.com, recorded November 2026.
-Image: Screenshot of a catalog page on genetargeting.com that was built from the client's own data. Add a link to that page.
+Image: /images/proof/genetargeting-catalog-il6.jpg | The Il6 catalog page for ingenious targeting laboratory, built from the company's own data and recorded at genetargeting.com in November 2026.
 Image: Screenshot of a second client website, home page. George to choose the client. Add the client name and a link to the live site.
 Image: Screenshot of a third client website, home page. George to choose the client. Add the client name and a link to the live site.
 
@@ -288,7 +288,7 @@ H2: What the free AI visibility snapshot checks
 
 You get a one page report. It shows how often you were named, who was named instead, what was wrong, and the three fixes that would matter most.
 
-Image: Screenshot of a finished one page snapshot report. It should show how often the company was named, who was named instead, what was wrong, and the three fixes.
+Image: /images/examples/snapshot-report.webp | Sample: The one page snapshot report, with sample numbers.
 
 ## The full audit
 
@@ -312,8 +312,8 @@ The full audit is for companies that want the whole picture and a plan.
 
 If you buy a website from us within 60 days, we take the $2,500 off the price.
 
-Image: Screenshot of a page from a full audit report that compares the company side by side with up to four competitors, showing how often each was named.
-Image: Screenshot of the fix list from a full audit report, with the most important fix first.
+Image: /images/examples/audit-competitors.webp | Sample: The full audit compares you with up to four competitors.
+Image: /images/examples/audit-fix-list.webp | Sample: The fix list from a full audit, most important first.
 
 ## What we have learned moves the needle
 
@@ -410,8 +410,8 @@ H2: Four things decide whether AI assistants recommend your company
 
 Everything we do each month works on one of those four.
 
-Image: Screenshot of a web page as a visitor sees it, with all its words in place.
-Image: Screenshot of the same page as the programs AI companies use to read websites receive it when the words need code to appear. The page is blank.
+Image: /images/examples/page-as-visitor.webp | Example: The page as a visitor sees it.
+Image: /images/examples/page-as-crawler.webp | Example: The same page as an AI crawler receives it.
 
 ## Two ways to buy it
 
@@ -423,7 +423,7 @@ H2: Monitoring for $500 a month, or $1,500 with fixes
 - An accuracy check. We flag anything false or out of date that the assistants say about you.
 - A short list of what to fix next
 
-Image: Screenshot of a monthly monitoring report. It should show how often the company was named on each of the five AI assistants and how many runs are behind every number.
+Image: /images/examples/monitoring-report.webp | Sample: The monthly monitoring report, with the runs behind every number.
 
 ### Monitoring and fixes, $1,500 a month
 Everything in Monitoring, plus up to six hours a month of work on your site:

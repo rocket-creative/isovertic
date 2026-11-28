@@ -37,7 +37,7 @@ H2: What you get for $1,000 a month
 
 It runs month to month. You can stop with 30 days notice.
 
-Image: Screenshot of a short monthly report. It should show what we published, how it did, and what comes next.
+Image: /images/examples/seo-monthly-report.webp | Sample: The monthly report: what we published, how it did, what comes next.
 
 ## How we choose what to write
 
@@ -45,11 +45,11 @@ H2: We pick the searches a small site can win
 
 A new or small site will not show up near the top for "biotech marketing" or "antibody." It can show up for a longer search. That is one that names the target, the application, the species, and the method. Fewer people type those searches. The person who does is usually ready to buy.
 
-Image: Screenshot of a Google results page for a long search that names the target, the application, the species, and the method. A small company's page should be visible near the top.
+Image: /images/examples/long-search-results.webp | Example: A long, exact search, and the small company with a page for it.
 
 We find those searches in three places. The first is your own Google Search Console data. The second is the questions your customers ask your team. The third is the questions people ask AI assistants about products and services like yours.
 
-Image: Screenshot of a Google Search Console report. It should show the list of searches that bring people to a site, with clicks beside each one.
+Image: /images/examples/search-console-queries.webp | Sample: The searches that bring people to a site, with clicks beside each one.
 
 ## Who writes it
 
@@ -57,7 +57,7 @@ H2: AI drafts, a molecular biologist checks, your expert approves
 
 AI writes the first draft from your papers, your data, and the way you describe your company. Kristen is a trained molecular biologist. She checks the scientific terms and cuts anything the evidence does not support. Then the expert on your team approves it. We publish nothing technical without that approval.
 
-Image: Screenshot of an article draft with Kristen's corrections marked on the scientific terms and one unsupported sentence crossed out.
+Image: /images/examples/article-corrections.webp | Example: A draft with the scientist's corrections marked.
 
 ## Questions
 
@@ -114,8 +114,8 @@ H2: What the fee covers
 
 Setup is a one time fee of $750. You pay Google directly for the ads.
 
-Image: Screenshot of a Google Ads account view. It should show the exact searches buyers typed and the list of searches told not to show the ad.
-Image: Screenshot of a monthly ads report. It should show cost per qualified inquiry, not a click count.
+Image: /images/examples/ads-search-terms.webp | Sample: The searches buyers typed, and the searches told not to show the ad.
+Image: /images/examples/ads-monthly-report.webp | Sample: The ads report leads with cost per qualified inquiry.
 
 ## How much should we spend?
 
@@ -177,8 +177,8 @@ H2: We research the list first, then write the emails
 3. **Send carefully.** We send a few emails at a time, from an address that email providers already trust. That keeps your emails reaching inboxes and not spam.
 4. **Hand off the replies.** Every reply goes to your team with a short note on who the person is and what they asked.
 
-Image: Screenshot of a short outreach email written to one named person at a lab. It should refer to their work and say what the sender can offer for it.
-Image: Screenshot of a reply handed to the client's team. It should show the reply with a short note on who the person is and what they asked.
+Image: /images/examples/outreach-email.webp | Example: An outreach email written to one person about their own work.
+Image: /images/examples/reply-handoff.webp | Example: A reply handed to your team, with who the person is and what they asked.
 
 ## What we will not do
 
@@ -243,7 +243,7 @@ H2: What each one costs and what you get
 | Best when | There is daily work | You have a launch and a budget | You need a website and a steady way for buyers to find you, at fixed prices |
 
 Image: /images/figures/agency-vs-isovertic.svg | A full service agency at $9,500 to $16,000 a month beside Isovertic: a $4,995 website paid once and monthly services from $50 to $1,500 each.
-Image: Screenshot of the Isovertic pricing page with every price visible.
+Image: /images/proof/isovertic-pricing.jpg | The Isovertic pricing page with its prices listed, recorded November 2026.
 
 ## When we are the wrong choice
 
@@ -304,7 +304,7 @@ H2: Connecticut life science companies from New Haven to Stamford
 
 Kristen worked in institutional operations at the Yale School of Medicine. [Add a BioCT line here once membership is confirmed.]
 
-Image: Map of Connecticut and Long Island with the Sound between them. Mark New Haven, Branford, Farmington, Hamden, Stamford, Danbury, and the Isovertic office in Bohemia, New York.
+Image: /images/examples/map-connecticut-long-island.webp | Map: Connecticut is across the Sound from our office.
 
 ## What we hear most in Connecticut
 
@@ -471,7 +471,7 @@ Email: sales@isovertic.com
 Phone: [site phone number]
 Office: 600 Johnson Ave, Suite D5, Bohemia, NY 11716
 
-Image: Map of the Isovertic office at 600 Johnson Ave, Suite D5, Bohemia, NY 11716, with the address marked.
+Image: /images/examples/map-office-bohemia.webp | Map: 600 Johnson Ave, Suite D5, Bohemia, NY 11716.
 
 ## Thank you page
 
