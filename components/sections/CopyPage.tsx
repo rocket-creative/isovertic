@@ -1,3 +1,5 @@
+import fs from "fs";
+import nodePath from "path";
 import React from "react";
 import Link from "next/link";
 import { PageHero, Section } from "@/components/sections/Shell";
@@ -274,8 +276,10 @@ export function CopyPageView({ path, sent, problem }: { path: string; sent?: boo
   const name = page.title.split(" | ")[0];
   const links = relatedLinks(path);
   const home = path === "/";
-  const last = page.sections.length - 1;
-  const closes = /call to action/i.test(page.sections[last]?.title ?? "");
+  // A section that holds only a video that has not been recorded yet stays off the page until the file is in public/.
+  const sections = page.sections.filter((s) => !(s.blocks.length && !s.faqs && s.blocks.every((b) => b.type === "video" && b.src.startsWith("/") && !fs.existsSync(nodePath.join(process.cwd(), "public", b.src)))));
+  const last = sections.length - 1;
+  const closes = /call to action/i.test(sections[last]?.title ?? "");
   const faqs = page.sections.flatMap((s) => s.faqs ?? []);
   return (
     <>
@@ -305,7 +309,7 @@ export function CopyPageView({ path, sent, problem }: { path: string; sent?: boo
           ) : undefined
         }
       />
-      {page.sections.map((s, i) => {
+      {sections.map((s, i) => {
         const navy = closes && i === last;
         const isForm = s.blocks.some((b) => b.type === "fields");
         // Image slots written one after another sit side by side as one row.
